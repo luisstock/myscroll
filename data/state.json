@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:42:52.966Z",
+ "updatedAt": "2026-10-18T23:43:45.542Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -484,6 +484,19 @@
     "tag:after-effects",
     "tag:history"
    ]
+  },
+  "ai-sd": {
+   "r": 3,
+   "at": "2026-10-18T23:43:15.468Z",
+   "f": [
+    "topic:ai",
+    "sub:ai/image-video",
+    "source:wikipedia",
+    "style:story",
+    "tag:stable-diffusion",
+    "tag:open-weights",
+    "tag:image-gen"
+   ]
   }
  },
  "opened": [
@@ -504,7 +517,8 @@
   "ai-comfy",
   "design-why-laika-spent-four-years-building-a-single-sto",
   "mo-ae",
-  "tech-a-new-us-bill-wants-to-force-game-publishers-to"
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to",
+  "ai-sd"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -547,7 +561,7 @@
   "pt-cortica": 1,
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
-  "ai-quant": 2,
+  "ai-quant": 3,
   "fun-byron": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
@@ -577,7 +591,7 @@
   "fun-boaty": 1,
   "ai-sd": 2,
   "ai-whisper": 2,
-  "ai-llamacpp": 1,
+  "ai-llamacpp": 2,
   "tr-lofi": 1,
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1
  },
@@ -1389,7 +1403,8 @@
   "bk-peloton",
   "design-why-laika-spent-four-years-building-a-single-sto",
   "mo-ae",
-  "tech-a-new-us-bill-wants-to-force-game-publishers-to"
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to",
+  "ai-sd"
  ],
  "saved": [
   "pt-1755"

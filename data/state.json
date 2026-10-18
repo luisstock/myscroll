@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:38:17.553Z",
+ "updatedAt": "2026-10-18T23:39:55.843Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -490,13 +490,14 @@
   "til-cleopatra",
   "bk-peloton",
   "ai-comfy",
-  "design-why-laika-spent-four-years-building-a-single-sto"
+  "design-why-laika-spent-four-years-building-a-single-sto",
+  "mo-ae"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
   "motion-maxon-releases-cinema-4d-2027-0": 3,
-  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 2,
-  "mo-fischinger": 2,
+  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 3,
+  "mo-fischinger": 3,
   "mo-12": 2,
   "mo-ae": 2,
   "mo-roto": 3,

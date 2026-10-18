@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:36:16.897Z",
+ "updatedAt": "2026-10-18T23:36:44.828Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -368,6 +368,22 @@
     "deleted": false
    },
    "jake-in-motion-yt": {
+    "enabled": true,
+    "deleted": false
+   },
+   "expresso": {
+    "enabled": true,
+    "deleted": false
+   },
+   "p3": {
+    "enabled": true,
+    "deleted": false
+   },
+   "dn": {
+    "enabled": true,
+    "deleted": false
+   },
+   "time-out-lisboa": {
     "enabled": true,
     "deleted": false
    }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:22:13.841Z",
+ "updatedAt": "2026-10-18T23:23:49.417Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -146,7 +146,8 @@
   "design-the-graphic-design-internet-is-having-a-fit-over",
   "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
   "books-creating-art-in-times-of-anxiety-and-chaos",
-  "til-dancing-plague-1518"
+  "til-dancing-plague-1518",
+  "til-cleopatra"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
@@ -179,29 +180,34 @@
   "pt-agostinho": 1,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 1,
   "pt-nata": 1,
-  "til-violet-jessop": 1,
-  "bike-from-world-championships-in-nannup-to-morton-s-p": 1,
-  "til-octopus": 1,
-  "til-wojtek-bear": 1,
+  "til-violet-jessop": 2,
+  "bike-from-world-championships-in-nannup-to-morton-s-p": 2,
+  "til-octopus": 2,
+  "til-wojtek-bear": 2,
   "bk-drais": 1,
   "pt-volta": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
   "pt-cortica": 1,
   "fun-boring-and-dull": 1,
-  "til-chuck-lorre-escaped-scientology-without-harassme": 1,
+  "til-chuck-lorre-escaped-scientology-without-harassme": 2,
   "ai-quant": 1,
   "fun-byron": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
-  "til-oxford": 1,
-  "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 1,
-  "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 1,
-  "bk-hour": 1,
-  "bk-roubaix": 1,
+  "til-oxford": 2,
+  "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 2,
+  "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 2,
+  "bk-hour": 2,
+  "bk-roubaix": 2,
   "bk-tdf": 1,
   "books-creating-art-in-times-of-anxiety-and-chaos": 1,
   "books-untangling-generational-power-and-servitude": 1,
-  "til-robert-smalls": 1
+  "til-robert-smalls": 1,
+  "til-stiglers-law": 1,
+  "til-fly-geyser": 1,
+  "til-roy-sullivan-lightning": 1,
+  "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
+  "til-til-an-imposing-soviet-iron-fountain-survived-an": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -783,6 +789,64 @@
    "tag:escape",
    "tag:robert-smalls",
    "tag:history"
+  ],
+  "til-stiglers-law": [
+   "topic:til",
+   "sub:til/cracked",
+   "source:wikipedia",
+   "style:cracked",
+   "tag:science-history",
+   "tag:eponyms",
+   "tag:mathematics",
+   "tag:stiglers-law"
+  ],
+  "til-fly-geyser": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia-dyk",
+   "style:til",
+   "tag:nevada",
+   "tag:geology",
+   "tag:geysers",
+   "tag:accidental-landmarks"
+  ],
+  "til-roy-sullivan-lightning": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia-dyk",
+   "style:til",
+   "tag:lightning",
+   "tag:guinness-records",
+   "tag:park-rangers",
+   "tag:weather"
+  ],
+  "til-where-did-millions-of-tons-of-world-war-ii-milit": [
+   "topic:til",
+   "sub:til/reddit",
+   "source:r-askhistorians",
+   "style:reddit",
+   "tag:military-history",
+   "tag:ww2",
+   "tag:logistics",
+   "tag:reddit"
+  ],
+  "til-til-an-imposing-soviet-iron-fountain-survived-an": [
+   "topic:til",
+   "sub:til/til",
+   "source:atlas-obscura",
+   "style:til",
+   "tag:soviet-architecture",
+   "tag:armenia",
+   "tag:earthquakes",
+   "tag:monuments"
+  ],
+  "til-cleopatra": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:history",
+   "tag:time-perspective"
   ]
  },
  "read": [
@@ -795,7 +859,9 @@
   "pt-morcegos-biblioteca-joanina",
   "fun-london-bridge-arizona",
   "design-the-graphic-design-internet-is-having-a-fit-over",
-  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e"
+  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
+  "til-dancing-plague-1518",
+  "til-cleopatra"
  ],
  "saved": [
   "pt-1755"

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:30:21.637Z",
+ "updatedAt": "2026-10-18T23:30:58.192Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -513,7 +513,7 @@
   "pt-volta": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
   "pt-cortica": 1,
-  "fun-boring-and-dull": 1,
+  "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
   "ai-quant": 1,
   "fun-byron": 1,
@@ -532,7 +532,17 @@
   "til-fly-geyser": 1,
   "til-roy-sullivan-lightning": 1,
   "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
-  "til-til-an-imposing-soviet-iron-fountain-survived-an": 1
+  "til-til-an-imposing-soviet-iron-fountain-survived-an": 1,
+  "til-wombat": 1,
+  "til-nintendo": 1,
+  "til-banana": 1,
+  "til-eiffel": 1,
+  "fun-project-pigeon": 1,
+  "fun-wilhelm-scream": 1,
+  "fun-busan-canal-shark": 1,
+  "fun-emu": 1,
+  "fun-stubbs": 1,
+  "fun-boaty": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1180,6 +1190,88 @@
    "style:explainer",
    "tag:drafting",
    "tag:aerodynamics"
+  ],
+  "til-wombat": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:animals",
+   "tag:weird"
+  ],
+  "til-nintendo": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:companies",
+   "tag:games",
+   "tag:history"
+  ],
+  "til-banana": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:plants",
+   "tag:food"
+  ],
+  "til-eiffel": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:engineering",
+   "tag:physics"
+  ],
+  "fun-project-pigeon": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:story",
+   "tag:bf-skinner",
+   "tag:pigeons",
+   "tag:world-war-ii",
+   "tag:ig-nobel"
+  ],
+  "fun-wilhelm-scream": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:sound-design",
+   "tag:film-history",
+   "tag:wilhelm-scream",
+   "tag:star-wars"
+  ],
+  "fun-busan-canal-shark": [
+   "topic:fun",
+   "source:asiae",
+   "style:news",
+   "tag:sharks",
+   "tag:busan",
+   "tag:south-korea",
+   "tag:animals"
+  ],
+  "fun-emu": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:story",
+   "tag:animals",
+   "tag:history",
+   "tag:absurd"
+  ],
+  "fun-stubbs": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:story",
+   "tag:animals",
+   "tag:absurd"
+  ],
+  "fun-boaty": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:story",
+   "tag:internet",
+   "tag:absurd"
   ]
  },
  "read": [

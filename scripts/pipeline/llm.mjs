@@ -78,10 +78,11 @@ async function claude({ system, prompt, schema, model }) {
 const PROVIDERS = { gemini, ollama, claude };
 
 export async function generateJSON(config, req) {
-  const provider = process.env.MYSCROLL_PROVIDER ?? config.provider;
+  // `||`, not `??`: GitHub passes unset repository variables as empty strings.
+  const provider = process.env.MYSCROLL_PROVIDER || config.provider;
   const fn = PROVIDERS[provider];
   if (!fn) throw new Error(`Unknown provider "${provider}" (use gemini, ollama or claude)`);
-  const models = [process.env.MYSCROLL_MODEL ?? config.models[provider], ...(config.fallbackModels?.[provider] ?? [])];
+  const models = [process.env.MYSCROLL_MODEL || config.models[provider], ...(config.fallbackModels?.[provider] ?? [])];
   let lastError;
   for (const model of models) {
     for (let attempt = 1; attempt <= 3; attempt++) {

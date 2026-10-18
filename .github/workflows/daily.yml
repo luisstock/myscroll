@@ -4,7 +4,7 @@ on:
   schedule:
     # 05:00 UTC = 06:00 in Lisbon in winter (07:00 in summer). GitHub may start it a few minutes late.
     - cron: "0 5 * * *"
-  # Changes to the app itself: republish (the run sees today's edition exists and skips the research).
+  # Changes to the app itself: only republish GitHub Pages (no research).
   # Commits made by this workflow don't trigger it again.
   push:
     branches: [main]
@@ -25,8 +25,9 @@ permissions:
   pages: write
   id-token: write
 
+# App republishes (push) get their own queue so they never hold up the daily run or Load more.
 concurrency:
-  group: myscroll-edition
+  group: myscroll-${{ github.event_name == 'push' && 'publish' || 'edition' }}
   cancel-in-progress: false
 
 jobs:
@@ -52,6 +53,7 @@ jobs:
       - run: npm ci
 
       - name: Research and write the edition
+        if: github.event_name != 'push'
         env:
           MORE: ${{ inputs.more }}
           TOPICS: ${{ inputs.topics }}
@@ -64,6 +66,7 @@ jobs:
           fi
 
       - name: Save the edition to the repo
+        if: github.event_name != 'push'
         run: |
           git config user.name "myscroll-bot"
           git config user.email "myscroll-bot@users.noreply.github.com"

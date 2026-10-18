@@ -46,7 +46,7 @@ if (more) {
   const sum = plan.topics.reduce((s, t) => s + t.slots, 0) || 1;
   for (const t of plan.topics) t.slots = Math.max(1, Math.round((t.slots / sum) * more));
 }
-log(`Plan: ${plan.topics.length} topics, ${plan.topics.reduce((s, t) => s + t.slots, 0)} slots${more ? " (load more)" : ""}, provider ${process.env.MYSCROLL_PROVIDER ?? config.provider}`);
+log(`Plan: ${plan.topics.length} topics, ${plan.topics.reduce((s, t) => s + t.slots, 0)} slots${more ? " (load more)" : ""}, provider ${process.env.MYSCROLL_PROVIDER || config.provider}`);
 
 // 2. memory of everything shown, so nothing repeats
 const { model, ranking, state } = await loadContext();

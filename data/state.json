@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:30:58.192Z",
+ "updatedAt": "2026-10-18T23:32:08.333Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -472,17 +472,19 @@
   "books-creating-art-in-times-of-anxiety-and-chaos",
   "til-dancing-plague-1518",
   "til-cleopatra",
-  "bk-peloton"
+  "bk-peloton",
+  "ai-comfy",
+  "design-why-laika-spent-four-years-building-a-single-sto"
  ],
  "skips": {
-  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
-  "motion-maxon-releases-cinema-4d-2027-0": 1,
-  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 1,
-  "mo-fischinger": 1,
-  "mo-12": 1,
-  "mo-ae": 1,
-  "mo-roto": 2,
-  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 1,
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 3,
+  "motion-maxon-releases-cinema-4d-2027-0": 2,
+  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 2,
+  "mo-fischinger": 2,
+  "mo-12": 2,
+  "mo-ae": 2,
+  "mo-roto": 3,
+  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 2,
   "news-outcry-in-australia-after-incarcerated-mother-sh": 1,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
@@ -511,11 +513,11 @@
   "til-wojtek-bear": 2,
   "bk-drais": 2,
   "pt-volta": 1,
-  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 2,
   "pt-cortica": 1,
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
-  "ai-quant": 1,
+  "ai-quant": 2,
   "fun-byron": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
@@ -542,7 +544,10 @@
   "fun-busan-canal-shark": 1,
   "fun-emu": 1,
   "fun-stubbs": 1,
-  "fun-boaty": 1
+  "fun-boaty": 1,
+  "ai-sd": 1,
+  "ai-whisper": 1,
+  "ai-llamacpp": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1272,6 +1277,51 @@
    "style:story",
    "tag:internet",
    "tag:absurd"
+  ],
+  "ai-sd": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:wikipedia",
+   "style:story",
+   "tag:stable-diffusion",
+   "tag:open-weights",
+   "tag:image-gen"
+  ],
+  "ai-whisper": [
+   "topic:ai",
+   "sub:ai/motion-ai",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:whisper",
+   "tag:subtitles",
+   "tag:speech"
+  ],
+  "ai-comfy": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:github",
+   "style:explainer",
+   "tag:comfyui",
+   "tag:nodes",
+   "tag:image-gen"
+  ],
+  "ai-llamacpp": [
+   "topic:ai",
+   "sub:ai/local-llm",
+   "source:github",
+   "style:story",
+   "tag:llama-cpp",
+   "tag:open-source",
+   "tag:llm"
+  ],
+  "design-why-laika-spent-four-years-building-a-single-sto": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:news",
+   "tag:animation",
+   "tag:laika",
+   "tag:stop-motion",
+   "tag:set-design"
   ]
  },
  "read": [

@@ -50,7 +50,13 @@ export async function loadMore(onStatus, topics = null) {
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
     body: JSON.stringify({ ref: "main", inputs: { more: String(n), topics: only } }),
   });
-  if (res.status !== 204) throw new Error(`GitHub said ${res.status}: ${(await res.text()).slice(0, 120)}`);
+  if (res.status === 403 || res.status === 404) {
+    const err = new Error("Your GitHub token can't start the agent yet: edit it on GitHub and set “Actions” to Read and write (same token, nothing to change here).");
+    err.needsSetup = true;
+    throw err;
+  }
+  if (res.status === 401) throw Object.assign(new Error("GitHub doesn't accept this token any more (expired or deleted). Create a new one and paste it in Sync settings."), { needsSetup: true });
+  if (res.status !== 204) throw new Error(`GitHub said ${res.status}. Try again in a minute.`);
   onStatus("Asked GitHub to research more. This takes a few minutes…");
   // Wait for today's edition to change on the server.
   const before = await todaysCount();

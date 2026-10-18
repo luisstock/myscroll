@@ -2,8 +2,9 @@
 import { featuresOf } from "./ranking.js";
 import {
   state, store, saveSettings, DAY, topics, groups, topicOf, groupOf, subLabel, isTopicActive,
-  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow,
+  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow, reloadFromStorage,
 } from "./model.js";
+import { pullState } from "./sync.js";
 import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
 import { loadMore } from "./loadmore.js";
@@ -497,6 +498,14 @@ async function load() {
     `${date.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })} · Edition #${today.number}`;
   rebuildProfile();
   render();
+
+  // Bring in ratings/read state from GitHub (e.g. after a reinstall); re-render if anything changed.
+  if (await pullState()) {
+    reloadFromStorage();
+    applyTheme();
+    rebuildProfile();
+    render();
+  }
 }
 
 load().catch((err) => {

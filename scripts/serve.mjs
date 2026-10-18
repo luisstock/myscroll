@@ -24,8 +24,9 @@ async function proxy(req, res) {
   }
 }
 
-// The app PUTs the user's state here; the daily agent reads data/state.json.
-const statePath = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "state.json");
+// The app in the PC browser PUTs its state here. data/state.json is the phone's (synced through GitHub);
+// the agent uses whichever of the two is newer.
+const statePath = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "state.local.json");
 async function saveState(req, res) {
   let body = "";
   for await (const chunk of req) {

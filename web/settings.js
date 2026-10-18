@@ -2,10 +2,11 @@
 import {
   state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
   slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
-  visibility, featureLabel,
+  visibility, featureLabel, reloadFromStorage,
 } from "./model.js";
 import { el } from "./ui.js";
 import { github } from "./loadmore.js";
+import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
 
 let ctx; // { root, refreshChrome, applyTheme }
 
@@ -18,19 +19,36 @@ export function renderSettings(context) {
 }
 
 // ---------- Load more ----------
+function syncLine() {
+  if (!syncConfigured()) return "Not connected yet: your ratings and reading stay only on this device.";
+  const m = syncStatus();
+  if (m.lastError) return `⚠️ Last sync failed: ${m.lastError}`;
+  if (m.dirty) return "Changes waiting to be sent…";
+  return m.lastSyncedAt ? `✓ In sync (last ${new Date(m.lastSyncedAt).toLocaleString("en-GB", { dateStyle: "short", timeStyle: "short" })})` : "Connected.";
+}
+
 function loadMoreSection(s) {
   const gh = github.get();
-  const repo = el("input", { value: gh.repo, placeholder: "your-user/myscroll", "aria-label": "GitHub repository" });
+  const repo = el("input", { value: gh.repo || "luisstock/myscroll", placeholder: "your-user/myscroll", "aria-label": "GitHub repository" });
   const token = el("input", { type: "password", value: gh.token, placeholder: "github_pat_…", "aria-label": "GitHub token", autocomplete: "off" });
-  const saved = el("span", { class: "saved-note", hidden: true }, "Saved on this device");
-  return section("Load more", "The “Load more” button at the end of the feed researches extra items right now. On your PC it uses the local server; elsewhere it asks GitHub to run the agent.",
-    el("label", { class: "row" }, el("span", {}, "Items per load"),
-      el("input", { type: "number", min: 3, max: 40, value: s.loadMoreCount ?? 15, onchange: (e) => { s.loadMoreCount = Number(e.target.value); saveSettings(); } })),
+  const status = el("p", { class: "set-hint sync-line" }, syncLine());
+  const sync = async () => {
+    status.textContent = "Syncing…";
+    if (await pullState()) { reloadFromStorage(); rebuildProfile(); }
+    await pushState();
+    status.textContent = syncLine();
+    ctx.refreshChrome();
+  };
+  return section("Sync & Load more", "Connect your GitHub repo so the agent learns from your ratings and what you've read here, your progress survives a reinstall, and “Load more” works away from your PC.",
+    status,
     el("label", { class: "field" }, el("span", {}, "GitHub repository"), repo),
-    el("label", { class: "field" }, el("span", {}, "GitHub token (fine-grained, only “Actions: write” on that repo)"), token),
+    el("label", { class: "field" }, el("span", {}, "GitHub token: fine-grained, only this repo, “Contents” and “Actions” set to Read and write"), token),
     el("div", { class: "form-btns" },
-      el("button", { class: "mini-btn", onclick: () => { github.set({ repo: repo.value.trim(), token: token.value.trim() }); saved.hidden = false; } }, "Save"), saved),
-    el("p", { class: "set-hint" }, "The token stays only on this device and is never synced."));
+      el("button", { class: "mini-btn", onclick: () => { github.set({ repo: repo.value.trim(), token: token.value.trim() }); sync(); } }, "Save & sync"),
+      syncConfigured() ? el("button", { class: "mini-btn", onclick: sync }, "Sync now") : null),
+    el("p", { class: "set-hint" }, "The token stays only on this device and is never synced."),
+    el("label", { class: "row" }, el("span", {}, "Items per “Load more”"),
+      el("input", { type: "number", min: 3, max: 40, value: s.loadMoreCount ?? 15, onchange: (e) => { s.loadMoreCount = Number(e.target.value); saveSettings(); } })));
 }
 
 const rerender = () => { saveSettings(); ctx.refreshChrome(); renderSettings(ctx); };

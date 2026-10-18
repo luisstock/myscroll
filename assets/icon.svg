@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- MyScroll: a short feed that fades out. Light background, charcoal cards, amber accent. -->
+  <rect width="1024" height="1024" fill="#F7F2E7"/>
+  <g>
+    <!-- front card -->
+    <rect x="252" y="286" width="520" height="292" rx="56" fill="#1F1D1A"/>
+    <circle cx="364" cy="432" r="64" fill="#E9A23B"/>
+    <rect x="462" y="378" width="236" height="34" rx="17" fill="#F7F2E7"/>
+    <rect x="462" y="446" width="170" height="34" rx="17" fill="#F7F2E7" opacity="0.55"/>
+    <!-- the feed fades out -->
+    <rect x="292" y="618" width="440" height="88" rx="34" fill="#1F1D1A" opacity="0.5"/>
+    <rect x="336" y="742" width="352" height="56" rx="26" fill="#1F1D1A" opacity="0.22"/>
+  </g>
+</svg>

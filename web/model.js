@@ -2,6 +2,7 @@
 // Everything here is UI-free so the agent (Node) can reuse the same rules later.
 import { buildProfile, scoreItem } from "./ranking.js";
 import { isLocalDev } from "./env.js";
+import { markDirty } from "./sync.js";
 
 const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved"];
 
@@ -11,9 +12,20 @@ export const store = {
   },
   set(key, value) {
     try { localStorage.setItem("myscroll:" + key, JSON.stringify(value)); } catch {}
-    if (SYNCED.includes(key)) scheduleSync();
+    if (SYNCED.includes(key)) { scheduleSync(); markDirty(); }
   },
 };
+
+// After sync.js brought in newer state from GitHub: reload it into memory.
+export function reloadFromStorage() {
+  state.settings = { ...DEFAULT_SETTINGS, ...store.get("settings", {}) };
+  state.read = new Set(store.get("read", []));
+  state.opened = new Set(store.get("opened", []));
+  state.saved = new Set(store.get("saved", []));
+  state.ratings = store.get("ratings", {});
+  state.skips = store.get("skips", {});
+  state.itemFeatures = store.get("itemFeatures", {});
+}
 
 // Push the user's state to the server (data/state.json) so the daily agent can read it.
 // Debounced; failures are silent (the app works offline, the next change retries).

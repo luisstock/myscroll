@@ -7,3 +7,4 @@ content/poster-portao/
 dist/
 .signing/
 MyScroll.apk
+data/state.local.json

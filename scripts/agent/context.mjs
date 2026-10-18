@@ -14,7 +14,10 @@ export async function loadContext() {
   const ranking = await import("../../web/ranking.js");
   const { state } = model;
 
-  const synced = await readJSON("data/state.json", {});
+  // data/state.json: synced from the phone through GitHub. data/state.local.json: the PC browser. Newest wins.
+  const phone = await readJSON("data/state.json", {});
+  const pc = await readJSON("data/state.local.json", {});
+  const synced = new Date(pc.updatedAt ?? 0) > new Date(phone.updatedAt ?? 0) ? pc : phone;
   state.taxonomy = await readJSON("web/taxonomy.json", { topics: [], groups: [] });
   state.catalog = (await readJSON("web/catalog.json", { sources: [] })).sources;
   Object.assign(state.settings, synced.settings ?? {});

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:25:50.953Z",
+ "updatedAt": "2026-10-18T23:30:21.637Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -471,7 +471,8 @@
   "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
   "books-creating-art-in-times-of-anxiety-and-chaos",
   "til-dancing-plague-1518",
-  "til-cleopatra"
+  "til-cleopatra",
+  "bk-peloton"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
@@ -508,7 +509,7 @@
   "bike-from-world-championships-in-nannup-to-morton-s-p": 2,
   "til-octopus": 2,
   "til-wojtek-bear": 2,
-  "bk-drais": 1,
+  "bk-drais": 2,
   "pt-volta": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
   "pt-cortica": 1,
@@ -1171,6 +1172,14 @@
    "style:til",
    "tag:history",
    "tag:time-perspective"
+  ],
+  "bk-peloton": [
+   "topic:bike",
+   "sub:bike/technique",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:drafting",
+   "tag:aerodynamics"
   ]
  },
  "read": [
@@ -1185,7 +1194,8 @@
   "design-the-graphic-design-internet-is-having-a-fit-over",
   "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
   "til-dancing-plague-1518",
-  "til-cleopatra"
+  "til-cleopatra",
+  "bk-peloton"
  ],
  "saved": [
   "pt-1755"

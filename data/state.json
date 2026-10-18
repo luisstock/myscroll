@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:21:18.145Z",
+ "updatedAt": "2026-10-18T23:22:13.841Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -145,7 +145,8 @@
   "fun-london-bridge-arizona",
   "design-the-graphic-design-internet-is-having-a-fit-over",
   "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
-  "books-creating-art-in-times-of-anxiety-and-chaos"
+  "books-creating-art-in-times-of-anxiety-and-chaos",
+  "til-dancing-plague-1518"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
@@ -199,7 +200,8 @@
   "bk-roubaix": 1,
   "bk-tdf": 1,
   "books-creating-art-in-times-of-anxiety-and-chaos": 1,
-  "books-untangling-generational-power-and-servitude": 1
+  "books-untangling-generational-power-and-servitude": 1,
+  "til-robert-smalls": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -761,6 +763,26 @@
    "tag:feudalism",
    "tag:india",
    "tag:storytelling"
+  ],
+  "til-dancing-plague-1518": [
+   "topic:til",
+   "sub:til/story",
+   "source:wikipedia",
+   "style:story",
+   "tag:strasbourg",
+   "tag:mass-hysteria",
+   "tag:medieval-history",
+   "tag:dancing-plague"
+  ],
+  "til-robert-smalls": [
+   "topic:til",
+   "sub:til/story",
+   "source:wikipedia",
+   "style:story",
+   "tag:american-civil-war",
+   "tag:escape",
+   "tag:robert-smalls",
+   "tag:history"
   ]
  },
  "read": [

@@ -45,6 +45,17 @@ export async function loadMore(onStatus, topics = null) {
     err.needsSetup = true;
     throw err;
   }
+  // Every request still being worked on is remembered (survives closing the app). A new request that's
+  // identical to one of them is not sent again: we just keep waiting for that one.
+  const key = `${n}|${only}`;
+  const active = activeRequests();
+  const same = active.find((p) => p.key === key);
+  if (same) {
+    onStatus("Already on it: waiting for the same request you made earlier…");
+    return waitForNewItems(onStatus, same);
+  }
+
+  const before = await todaysCount();
   const res = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/daily.yml/dispatches`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
@@ -57,14 +68,25 @@ export async function loadMore(onStatus, topics = null) {
   }
   if (res.status === 401) throw Object.assign(new Error("GitHub doesn't accept this token any more (expired or deleted). Create a new one and paste it in Sync settings."), { needsSetup: true });
   if (res.status !== 204) throw new Error(`GitHub said ${res.status}. Try again in a minute.`);
-  onStatus("Asked GitHub to research more. This takes a few minutes…");
-  // Wait for today's edition to change on the server.
-  const before = await todaysCount();
-  for (let i = 0; i < 40; i++) {
+  const request = { key, at: Date.now(), before };
+  saveRequests([...active, request]);
+  onStatus(active.length ? `Queued after ${active.length} earlier request${active.length > 1 ? "s" : ""}. This takes a few minutes…` : "Asked GitHub to research more. This takes a few minutes…");
+  return waitForNewItems(onStatus, request);
+}
+
+const MAX_WAIT = 30 * 60000;
+const activeRequests = () => store.get("loadMoreRequests", []).filter((p) => Date.now() - p.at < MAX_WAIT);
+const saveRequests = (list) => { try { localStorage.setItem("myscroll:loadMoreRequests", JSON.stringify(list)); } catch {} };
+
+// Wait until today's edition grows past what it had when this request was sent, then forget the request.
+async function waitForNewItems(onStatus, request) {
+  const finish = () => saveRequests(activeRequests().filter((p) => p.key !== request.key));
+  while (Date.now() - request.at < MAX_WAIT) {
     await sleep(20000);
-    if ((await todaysCount()) > before) return;
-    onStatus(`Still researching… (${Math.round(((i + 1) * 20) / 60)} min)`);
+    if ((await todaysCount()) > request.before) { finish(); return; }
+    onStatus(`Still researching… (${Math.round((Date.now() - request.at) / 60000)} min)`);
   }
+  finish();
   throw new Error("It's taking longer than usual. New items will appear next time you open the app.");
 }
 

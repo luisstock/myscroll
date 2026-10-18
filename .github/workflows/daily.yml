@@ -1,4 +1,6 @@
 name: MyScroll daily edition
+# The run's title doubles as the request's identity (used to skip repeated Load more requests).
+run-name: ${{ inputs.more && format('Load more {0} {1}', inputs.more, inputs.topics || 'all') || (github.event_name == 'push' && 'Publish app' || 'Daily edition') }}
 
 on:
   schedule:
@@ -24,16 +26,18 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
-# App republishes (push) get their own queue so they never hold up the daily run or Load more.
+# App republishes share one queue. Editions and Load more don't use GitHub's queue (it keeps only one
+# waiting run and cancels the rest); they queue themselves in the "Wait for earlier requests" step.
 concurrency:
-  group: myscroll-${{ github.event_name == 'push' && 'publish' || 'edition' }}
+  group: myscroll-${{ github.event_name == 'push' && 'publish' || github.run_id }}
   cancel-in-progress: false
 
 jobs:
   edition:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -52,8 +56,39 @@ jobs:
 
       - run: npm ci
 
-      - name: Research and write the edition
+      # One edition run at a time, in the order they were requested.
+      - name: Wait for earlier requests
         if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          me=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" --jq .created_at)
+          for i in $(seq 1 90); do
+            n=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/daily.yml/runs?per_page=30" \
+              | jq --arg me "$me" --argjson id "$GITHUB_RUN_ID" \
+                '[.workflow_runs[] | select(.id != $id and .event != "push" and .status != "completed" and .created_at < $me)] | length')
+            [ "$n" -eq 0 ] && exit 0
+            echo "Waiting for $n earlier request(s)…"; sleep 20
+          done
+
+      # The request currently being done is the reference: a later identical Load more is skipped.
+      - name: Skip a repeated Load more
+        id: dupe
+        if: github.event_name == 'workflow_dispatch' && inputs.more != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID")
+          me=$(echo "$run" | jq -r .created_at)
+          title=$(echo "$run" | jq -r .display_title)
+          n=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/daily.yml/runs?event=workflow_dispatch&per_page=30" \
+            | jq --arg me "$me" --arg t "$title" --argjson id "$GITHUB_RUN_ID" \
+              '[.workflow_runs[] | select(.id != $id and .display_title == $t and .created_at < $me
+                 and (.status != "completed" or (.conclusion == "success" and .updated_at > $me)))] | length')
+          if [ "$n" -gt 0 ]; then echo "Same request was already being done: skipping."; echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Research and write the edition
+        if: github.event_name != 'push' && steps.dupe.outputs.skip != 'true'
         env:
           MORE: ${{ inputs.more }}
           TOPICS: ${{ inputs.topics }}
@@ -66,7 +101,7 @@ jobs:
           fi
 
       - name: Save the edition to the repo
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && steps.dupe.outputs.skip != 'true'
         run: |
           git config user.name "myscroll-bot"
           git config user.email "myscroll-bot@users.noreply.github.com"

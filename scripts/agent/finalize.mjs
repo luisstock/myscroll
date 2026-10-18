@@ -120,6 +120,7 @@ const out = {
   date, number: plan?.number ?? edition.number ?? 1,
   longread: edition.longread ? { ...edition.longread, kind: "longread" } : undefined,
   items: kept.map(({ explore, ...it }) => ({ ...it, ...(explore ? { explore: true } : {}) })),
+  ...(edition.partial ? { partial: true } : {}),
 };
 await writeFile(contentPath, JSON.stringify(out, null, 2));
 execFileSync(process.execPath, [join(root, "scripts", "build-edition.mjs"), date], { stdio: "inherit" });

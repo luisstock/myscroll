@@ -32,7 +32,8 @@ const config = JSON.parse(await readFile(join(root, "myscroll.config.json"), "ut
 const contentPath = join(root, "content", `${date}.json`);
 const existing = JSON.parse(await readFile(contentPath, "utf8").catch(() => "null"));
 const published = await readFile(join(root, "web", "editions", `${date}.json`)).then(() => true, () => false);
-if (published && !more && !dry && !flag("force")) {
+// An edition started by "Load more" (e.g. just after midnight) is partial: the daily run still completes it.
+if (published && !more && !dry && !flag("force") && !existing?.partial) {
   log(`Edition for ${date} already exists. Use --more N to add items or --force to redo it.`);
   process.exit(0);
 }
@@ -137,13 +138,13 @@ for (const it of [...items, newLongread].filter(Boolean)) {
   taken.add(id);
 }
 
-const edition = more && existing
-  ? { ...existing, items: [...existing.items, ...items] }
-  : { date, longread: longread ?? undefined, items };
+const edition = existing
+  ? { ...existing, longread: longread ?? existing.longread, items: [...existing.items, ...items], partial: more ? existing.partial : undefined }
+  : { date, longread: longread ?? undefined, items, ...(more ? { partial: true } : {}) };
 await writeFile(contentPath, JSON.stringify(edition, null, 2));
 
 // 7. finalize & remember
-execFileSync(process.execPath, [join(root, "scripts", "agent", "finalize.mjs"), date, ...(more ? ["--append"] : [])], { stdio: "inherit" });
+execFileSync(process.execPath, [join(root, "scripts", "agent", "finalize.mjs"), date, ...(more || existing ? ["--append"] : [])], { stdio: "inherit" });
 const final = JSON.parse(await readFile(contentPath, "utf8"));
 history.add([final.longread, ...final.items].filter(Boolean).map((i) => ({ url: i.source.url, title: i.title, date, id: i.id })));
 await history.save();

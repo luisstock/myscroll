@@ -1,0 +1,781 @@
+{
+ "updatedAt": "2026-10-18T23:21:18.145Z",
+ "device": "app",
+ "settings": {
+  "theme": "night",
+  "layout": "cards",
+  "navBy": "groups",
+  "dailyTarget": 40,
+  "newsExpireDays": 7,
+  "skipRule": {
+   "enabled": true,
+   "limit": 20
+  },
+  "topicWeights": {},
+  "topics": null,
+  "groups": null,
+  "sourceOverrides": {
+   "r-comfyui": {
+    "enabled": true,
+    "deleted": false
+   },
+   "mental-floss": {
+    "enabled": true,
+    "deleted": false
+   },
+   "r-interestingasfuck": {
+    "enabled": true,
+    "deleted": false
+   },
+   "big-think": {
+    "enabled": true,
+    "deleted": false
+   },
+   "npr-books": {
+    "enabled": true,
+    "deleted": false
+   },
+   "ben-marriott-yt": {
+    "enabled": true,
+    "deleted": false
+   },
+   "cavalry-blog": {
+    "enabled": true,
+    "deleted": false
+   },
+   "jake-in-motion-yt": {
+    "enabled": true,
+    "deleted": false
+   }
+  },
+  "customSources": [
+   {
+    "id": "marginalian@ideas",
+    "topic": "ideas",
+    "name": "The Marginalian",
+    "url": "https://www.themarginalian.org/",
+    "feed": "https://www.themarginalian.org/feed/",
+    "type": "site",
+    "tags": [
+     "books",
+     "philosophy",
+     "creativity"
+    ],
+    "weight": 1,
+    "custom": true
+   }
+  ],
+  "unmuted": []
+ },
+ "ratings": {
+  "lr-tongan-castaways-2": {
+   "r": 4,
+   "at": "2026-10-18T22:56:24.216Z",
+   "f": [
+    "topic:til",
+    "sub:til/story",
+    "source:wikipedia",
+    "style:story",
+    "tag:castaways",
+    "tag:tonga",
+    "tag:true-story",
+    "tag:lord-of-the-flies"
+   ]
+  },
+  "pt-1755": {
+   "r": 3,
+   "at": "2026-10-18T23:06:11.767Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:story",
+    "tag:historia",
+    "tag:ciencia"
+   ]
+  },
+  "fun-london-bridge-arizona": {
+   "r": 3,
+   "at": "2026-10-18T23:09:28.897Z",
+   "f": [
+    "topic:fun",
+    "source:wikipedia",
+    "style:til",
+    "tag:london-bridge",
+    "tag:arizona",
+    "tag:architecture",
+    "tag:urban-legends"
+   ]
+  },
+  "design-the-graphic-design-internet-is-having-a-fit-over": {
+   "r": 3,
+   "at": "2026-10-18T23:11:13.687Z",
+   "f": [
+    "topic:design",
+    "source:creative-bloq",
+    "style:news",
+    "tag:typography",
+    "tag:branding",
+    "tag:pop-culture",
+    "tag:helvetica"
+   ]
+  },
+  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e": {
+   "r": 3,
+   "at": "2026-10-18T23:12:16.767Z",
+   "f": [
+    "topic:ideas",
+    "source:paul-graham",
+    "style:idea",
+    "tag:ideas",
+    "tag:creativity",
+    "tag:learning",
+    "tag:innovation"
+   ]
+  }
+ },
+ "opened": [
+  "lr-tongan-castaways-2",
+  "lr-1816",
+  "ai-flux-3-image-klein-lands-in-comfyui-as-a-5-6b-op",
+  "tr-indieweb",
+  "til-sharks",
+  "pt-1755",
+  "pt-morcegos-biblioteca-joanina",
+  "fun-london-bridge-arizona",
+  "design-the-graphic-design-internet-is-having-a-fit-over",
+  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
+  "books-creating-art-in-times-of-anxiety-and-chaos"
+ ],
+ "skips": {
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
+  "motion-maxon-releases-cinema-4d-2027-0": 1,
+  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 1,
+  "mo-fischinger": 1,
+  "mo-12": 1,
+  "mo-ae": 1,
+  "mo-roto": 2,
+  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 1,
+  "news-outcry-in-australia-after-incarcerated-mother-sh": 1,
+  "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
+  "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
+  "tech-cities-are-pushing-back-against-driverless-robot": 1,
+  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 1,
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to": 1,
+  "tr-repair": 2,
+  "tr-dumb": 1,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 2,
+  "science-a-99-million-year-old-lizard-tail-shedding-caugh": 2,
+  "science-perseverance-rover-takes-the-crown-for-off-world": 1,
+  "pt-lingua-mirandesa": 2,
+  "pt-morcegos-biblioteca-joanina": 1,
+  "pt-alianca-luso-britanica": 1,
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est": 1,
+  "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": 1,
+  "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 1,
+  "pt-ninfa-fossil-pejao": 2,
+  "pt-porto-cidade-acolhedora": 2,
+  "pt-agostinho": 1,
+  "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 1,
+  "pt-nata": 1,
+  "til-violet-jessop": 1,
+  "bike-from-world-championships-in-nannup-to-morton-s-p": 1,
+  "til-octopus": 1,
+  "til-wojtek-bear": 1,
+  "bk-drais": 1,
+  "pt-volta": 1,
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
+  "pt-cortica": 1,
+  "fun-boring-and-dull": 1,
+  "til-chuck-lorre-escaped-scientology-without-harassme": 1,
+  "ai-quant": 1,
+  "fun-byron": 1,
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "til-oxford": 1,
+  "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 1,
+  "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 1,
+  "bk-hour": 1,
+  "bk-roubaix": 1,
+  "bk-tdf": 1,
+  "books-creating-art-in-times-of-anxiety-and-chaos": 1,
+  "books-untangling-generational-power-and-servitude": 1
+ },
+ "itemFeatures": {
+  "lr-tongan-castaways-2": [
+   "topic:til",
+   "sub:til/story",
+   "source:wikipedia",
+   "style:story",
+   "tag:castaways",
+   "tag:tonga",
+   "tag:true-story",
+   "tag:lord-of-the-flies"
+  ],
+  "lr-1816": [
+   "topic:til",
+   "sub:til/story",
+   "source:wikipedia",
+   "style:story",
+   "tag:history",
+   "tag:climate",
+   "tag:literature",
+   "tag:bicycle"
+  ],
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:motionographer",
+   "style:news",
+   "tag:stop-motion",
+   "tag:animation",
+   "tag:direction",
+   "tag:craft"
+  ],
+  "motion-maxon-releases-cinema-4d-2027-0": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:cgchannel",
+   "style:news",
+   "tag:cinema-4d",
+   "tag:mograph",
+   "tag:3d",
+   "tag:simulation",
+   "tag:vfx"
+  ],
+  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:motionographer",
+   "style:news",
+   "tag:motion-design",
+   "tag:cel-animation",
+   "tag:mixed-media",
+   "tag:student-work"
+  ],
+  "mo-fischinger": [
+   "topic:motion",
+   "sub:motion/history",
+   "source:wikipedia",
+   "style:story",
+   "tag:abstract-animation",
+   "tag:film",
+   "tag:music"
+  ],
+  "mo-12": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:wikipedia",
+   "style:til",
+   "tag:animation-principles",
+   "tag:easing"
+  ],
+  "mo-ae": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:wikipedia",
+   "style:til",
+   "tag:after-effects",
+   "tag:history"
+  ],
+  "mo-roto": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:wikipedia",
+   "style:til",
+   "tag:rotoscoping",
+   "tag:history"
+  ],
+  "ai-elorian-launches-glimpse-to-give-multimodal-mode": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:computer-vision",
+   "tag:multimodal-ai",
+   "tag:visual-reasoning",
+   "tag:machine-learning"
+  ],
+  "ai-flux-3-image-klein-lands-in-comfyui-as-a-5-6b-op": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:comfy-blog",
+   "style:news",
+   "tag:flux",
+   "tag:comfyui",
+   "tag:open-weights",
+   "tag:image-generation"
+  ],
+  "news-outcry-in-australia-after-incarcerated-mother-sh": [
+   "topic:news",
+   "sub:news/world",
+   "source:guardian-world",
+   "style:news",
+   "tag:australia",
+   "tag:human-rights",
+   "tag:healthcare",
+   "tag:politics"
+  ],
+  "news-brazil-s-amazon-deforestation-drops-to-six-year": [
+   "topic:news",
+   "sub:news/climate",
+   "source:bbc-world",
+   "style:news",
+   "tag:amazon-rainforest",
+   "tag:deforestation",
+   "tag:brazil",
+   "tag:conservation"
+  ],
+  "news-canada-moves-its-last-captive-whales-as-sanctuar": [
+   "topic:news",
+   "sub:news/world",
+   "source:bbc-world",
+   "style:news",
+   "tag:marine-life",
+   "tag:beluga-whales",
+   "tag:animal-welfare",
+   "tag:canada"
+  ],
+  "tech-cities-are-pushing-back-against-driverless-robot": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:autonomous-vehicles",
+   "tag:robotaxis",
+   "tag:transportation",
+   "tag:tech-policy"
+  ],
+  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:news",
+   "tag:hardware",
+   "tag:laptops",
+   "tag:microsoft",
+   "tag:nvidia",
+   "tag:pc"
+  ],
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:news",
+   "tag:gaming",
+   "tag:digital-rights",
+   "tag:legislation",
+   "tag:preservation"
+  ],
+  "tr-indieweb": [
+   "topic:tech",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:indieweb",
+   "tag:rss",
+   "tag:internet"
+  ],
+  "tr-repair": [
+   "topic:tech",
+   "source:wikipedia",
+   "style:news",
+   "tag:right-to-repair",
+   "tag:eu",
+   "tag:policy"
+  ],
+  "tr-dumb": [
+   "topic:tech",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:dumbphones",
+   "tag:attention",
+   "tag:phones"
+  ],
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:astronomy",
+   "tag:jwst",
+   "tag:brown-dwarfs",
+   "tag:exoplanets"
+  ],
+  "science-a-99-million-year-old-lizard-tail-shedding-caugh": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:paleontology",
+   "tag:fossils",
+   "tag:evolution",
+   "tag:amber"
+  ],
+  "til-sharks": [
+   "topic:science",
+   "source:wikipedia",
+   "style:til",
+   "tag:animals",
+   "tag:evolution"
+  ],
+  "science-perseverance-rover-takes-the-crown-for-off-world": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:space-exploration",
+   "tag:mars",
+   "tag:perseverance-rover",
+   "tag:nasa"
+  ],
+  "pt-lingua-mirandesa": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia",
+   "style:explainer",
+   "tag:mirandes",
+   "tag:linguas",
+   "tag:miranda-do-douro",
+   "tag:tras-os-montes"
+  ],
+  "pt-morcegos-biblioteca-joanina": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia",
+   "style:til",
+   "tag:coimbra",
+   "tag:bibliotecas",
+   "tag:morcegos",
+   "tag:barroco"
+  ],
+  "pt-alianca-luso-britanica": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia",
+   "style:til",
+   "tag:historia",
+   "tag:alianca-luso-britanica",
+   "tag:tratado-de-windsor",
+   "tag:diplomacia"
+  ],
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:observador",
+   "style:news",
+   "tag:historia",
+   "tag:arte",
+   "tag:patrimonio",
+   "tag:lisboa"
+  ],
+  "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:clima",
+   "tag:ipma",
+   "tag:meteorologia",
+   "tag:portugal"
+  ],
+  "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:habitacao",
+   "tag:lisboa",
+   "tag:porto",
+   "tag:sociedade"
+  ],
+  "pt-ninfa-fossil-pejao": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:paleontologia",
+   "tag:fosseis",
+   "tag:carbonifero",
+   "tag:universidade-do-porto"
+  ],
+  "pt-porto-cidade-acolhedora": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:porto",
+   "tag:turismo",
+   "tag:conde-nast-traveller",
+   "tag:lisboa"
+  ],
+  "pt-1755": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia-pt",
+   "style:story",
+   "tag:historia",
+   "tag:ciencia"
+  ],
+  "pt-agostinho": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia-pt",
+   "style:story",
+   "tag:ciclismo",
+   "tag:historia"
+  ],
+  "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": [
+   "topic:design",
+   "source:its-nice-that",
+   "style:news",
+   "tag:graphic-design",
+   "tag:typography",
+   "tag:animation",
+   "tag:motion-design"
+  ],
+  "pt-nata": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia-pt",
+   "style:til",
+   "tag:comida",
+   "tag:historia"
+  ],
+  "til-violet-jessop": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia-dyk",
+   "style:til",
+   "tag:titanic",
+   "tag:shipwrecks",
+   "tag:white-star-line",
+   "tag:history"
+  ],
+  "bike-from-world-championships-in-nannup-to-morton-s-p": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:beyond-tarmac",
+   "style:news",
+   "tag:uci-gravel",
+   "tag:marianne-vos",
+   "tag:lachlan-morton",
+   "tag:gravel-racing"
+  ],
+  "til-octopus": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:animals",
+   "tag:biology"
+  ],
+  "til-wojtek-bear": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia-dyk",
+   "style:til",
+   "tag:world-war-ii",
+   "tag:animals",
+   "tag:polish-army",
+   "tag:wojtek"
+  ],
+  "bk-drais": [
+   "topic:bike",
+   "sub:bike/history",
+   "source:wikipedia",
+   "style:til",
+   "tag:bicycle-history",
+   "tag:inventions"
+  ],
+  "pt-volta": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia-pt",
+   "style:til",
+   "tag:ciclismo",
+   "tag:historia"
+  ],
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": [
+   "topic:ai",
+   "sub:ai/motion-ai",
+   "source:comfy-blog",
+   "style:news",
+   "tag:comfyui",
+   "tag:krea",
+   "tag:motion-design",
+   "tag:image-generation"
+  ],
+  "pt-cortica": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:wikipedia-pt",
+   "style:til",
+   "tag:natureza",
+   "tag:economia"
+  ],
+  "fun-boring-and-dull": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:til",
+   "tag:place-names",
+   "tag:twin-towns",
+   "tag:oregon",
+   "tag:scotland"
+  ],
+  "til-chuck-lorre-escaped-scientology-without-harassme": [
+   "topic:til",
+   "sub:til/cracked",
+   "source:cracked",
+   "style:news",
+   "tag:pop-culture",
+   "tag:scientology",
+   "tag:memoir",
+   "tag:chuck-lorre"
+  ],
+  "ai-quant": [
+   "topic:ai",
+   "sub:ai/local-llm",
+   "source:huggingface",
+   "style:explainer",
+   "tag:quantization",
+   "tag:vram",
+   "tag:llm"
+  ],
+  "fun-byron": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:til",
+   "tag:history",
+   "tag:animals",
+   "tag:absurd"
+  ],
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": [
+   "topic:ideas",
+   "source:aeon",
+   "style:idea",
+   "tag:mathematics",
+   "tag:logic",
+   "tag:philosophy",
+   "tag:epistemology"
+  ],
+  "fun-london-bridge-arizona": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:til",
+   "tag:london-bridge",
+   "tag:arizona",
+   "tag:architecture",
+   "tag:urban-legends"
+  ],
+  "ideas-emotions-are-not-universal-biology-but-culturall": [
+   "topic:ideas",
+   "source:psyche",
+   "style:idea",
+   "tag:anthropology",
+   "tag:psychology",
+   "tag:culture",
+   "tag:emotions"
+  ],
+  "design-the-graphic-design-internet-is-having-a-fit-over": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:news",
+   "tag:typography",
+   "tag:branding",
+   "tag:pop-culture",
+   "tag:helvetica"
+  ],
+  "til-oxford": [
+   "topic:til",
+   "sub:til/til",
+   "source:wikipedia",
+   "style:til",
+   "tag:history",
+   "tag:time-perspective"
+  ],
+  "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:cyclingnews-gravel",
+   "style:news",
+   "tag:gravel-racing",
+   "tag:life-time-grand-prix",
+   "tag:big-sugar",
+   "tag:stella-hobbs"
+  ],
+  "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:news",
+   "tag:gravel-gear",
+   "tag:bike-tech",
+   "tag:tire-clearance",
+   "tag:drivetrain"
+  ],
+  "bk-hour": [
+   "topic:bike",
+   "sub:bike/history",
+   "source:wikipedia",
+   "style:story",
+   "tag:hour-record",
+   "tag:merckx",
+   "tag:track"
+  ],
+  "bk-roubaix": [
+   "topic:bike",
+   "sub:bike/history",
+   "source:wikipedia",
+   "style:til",
+   "tag:paris-roubaix",
+   "tag:cobbles",
+   "tag:racing"
+  ],
+  "bk-tdf": [
+   "topic:bike",
+   "sub:bike/history",
+   "source:wikipedia",
+   "style:til",
+   "tag:tour-de-france",
+   "tag:racing"
+  ],
+  "books-creating-art-in-times-of-anxiety-and-chaos": [
+   "topic:books",
+   "sub:books/creativity",
+   "source:guardian-books",
+   "style:book",
+   "tag:creativity",
+   "tag:storytelling",
+   "tag:writing",
+   "tag:literature"
+  ],
+  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e": [
+   "topic:ideas",
+   "source:paul-graham",
+   "style:idea",
+   "tag:ideas",
+   "tag:creativity",
+   "tag:learning",
+   "tag:innovation"
+  ],
+  "books-untangling-generational-power-and-servitude": [
+   "topic:books",
+   "sub:books/life",
+   "source:five-books",
+   "style:book",
+   "tag:historical-fiction",
+   "tag:feudalism",
+   "tag:india",
+   "tag:storytelling"
+  ]
+ },
+ "read": [
+  "lr-tongan-castaways-2",
+  "lr-1816",
+  "ai-flux-3-image-klein-lands-in-comfyui-as-a-5-6b-op",
+  "tr-indieweb",
+  "til-sharks",
+  "pt-1755",
+  "pt-morcegos-biblioteca-joanina",
+  "fun-london-bridge-arizona",
+  "design-the-graphic-design-internet-is-having-a-fit-over",
+  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e"
+ ],
+ "saved": [
+  "pt-1755"
+ ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+data/plan-*.json
+data/candidates-*.json
+# not part of MyScroll
+content/poster-portao/
+.claude/settings.local.json

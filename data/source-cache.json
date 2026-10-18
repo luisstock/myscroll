@@ -1,0 +1,80 @@
+{
+  "https://www.atlasobscura.com/": {
+    "feed": null
+  },
+  "https://www.cracked.com/": {
+    "feed": "https://www.cracked.com/crackedrss/allposts.xml"
+  },
+  "https://www.cgchannel.com/": {
+    "feed": "https://www.cgchannel.com/feed/"
+  },
+  "https://motionographer.com/": {
+    "feed": "https://motionographer.com/feed/"
+  },
+  "https://www.schoolofmotion.com/blog": {
+    "feed": null
+  },
+  "https://vimeo.com/channels/staffpicks": {
+    "feed": "https://vimeo.com/channels/staffpicks/videos/rss"
+  },
+  "https://aescripts.com/": {
+    "feed": null
+  },
+  "https://blog.comfy.org/": {
+    "feed": "https://blog.comfy.org/feed"
+  },
+  "https://huggingface.co/models?sort=trending": {
+    "feed": null
+  },
+  "https://beyondtarmac.substack.com/": {
+    "feed": "https://beyondtarmac.substack.com/feed"
+  },
+  "https://www.cyclingnews.com/gravel/": {
+    "feed": "https://www.cyclingnews.com/feeds.xml"
+  },
+  "https://techcrunch.com/category/artificial-intelligence/": {
+    "feed": "https://techcrunch.com/feed/"
+  },
+  "https://velo.outsideonline.com/gravel/": {
+    "feed": "https://velo.outsideonline.com/category/gravel/feed/"
+  },
+  "https://www.youtube.com/@gcn": {
+    "channelId": "UC710HJmp-YgNbE5BnFBRoeg"
+  },
+  "https://www.theverge.com/": {
+    "feed": "https://www.theverge.com/rss/index.xml"
+  },
+  "https://www.quantamagazine.org/": {
+    "feed": "https://www.quantamagazine.org/quanta/feed/"
+  },
+  "https://www.nasa.gov/news/recently-published/": {
+    "feed": "https://www.nasa.gov/feed/"
+  },
+  "https://www.sci.news/": {
+    "feed": "https://www.sci.news/feed"
+  },
+  "https://arstechnica.com/": {
+    "feed": "https://arstechnica.com/feed"
+  },
+  "https://www.itsnicethat.com/": {
+    "feed": "http://feeds2.feedburner.com/itsnicethat/SlXC"
+  },
+  "https://www.creativebloq.com/": {
+    "feed": "https://www.creativebloq.com/feeds.xml"
+  },
+  "https://www.nit.pt/": {
+    "feed": "https://www.nit.pt/feed"
+  },
+  "https://www.creativeboom.com/": {
+    "feed": "https://www.creativeboom.com/feed/"
+  },
+  "https://observador.pt/": {
+    "feed": "https://observador.pt/feed/"
+  },
+  "https://www.publico.pt/": {
+    "feed": null
+  },
+  "https://www.boredpanda.com/": {
+    "feed": "https://www.boredpanda.com/feed"
+  }
+}

@@ -1,0 +1,321 @@
+// Settings screen: what the app learned, reading options, groups, topics (with editor), sources, backlog.
+import {
+  state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
+  slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
+  visibility, featureLabel,
+} from "./model.js";
+import { el } from "./ui.js";
+import { github } from "./loadmore.js";
+
+let ctx; // { root, refreshChrome, applyTheme }
+
+export function renderSettings(context) {
+  ctx = context;
+  if (state.editTopic) return renderTopicEditor(state.editTopic);
+  const s = state.settings;
+  ctx.root.replaceChildren(el("div", { class: "settings" },
+    learnedSection(), readingSection(s), loadMoreSection(s), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
+}
+
+// ---------- Load more ----------
+function loadMoreSection(s) {
+  const gh = github.get();
+  const repo = el("input", { value: gh.repo, placeholder: "your-user/myscroll", "aria-label": "GitHub repository" });
+  const token = el("input", { type: "password", value: gh.token, placeholder: "github_pat_…", "aria-label": "GitHub token", autocomplete: "off" });
+  const saved = el("span", { class: "saved-note", hidden: true }, "Saved on this device");
+  return section("Load more", "The “Load more” button at the end of the feed researches extra items right now. On your PC it uses the local server; elsewhere it asks GitHub to run the agent.",
+    el("label", { class: "row" }, el("span", {}, "Items per load"),
+      el("input", { type: "number", min: 3, max: 40, value: s.loadMoreCount ?? 15, onchange: (e) => { s.loadMoreCount = Number(e.target.value); saveSettings(); } })),
+    el("label", { class: "field" }, el("span", {}, "GitHub repository"), repo),
+    el("label", { class: "field" }, el("span", {}, "GitHub token (fine-grained, only “Actions: write” on that repo)"), token),
+    el("div", { class: "form-btns" },
+      el("button", { class: "mini-btn", onclick: () => { github.set({ repo: repo.value.trim(), token: token.value.trim() }); saved.hidden = false; } }, "Save"), saved),
+    el("p", { class: "set-hint" }, "The token stays only on this device and is never synced."));
+}
+
+const rerender = () => { saveSettings(); ctx.refreshChrome(); renderSettings(ctx); };
+
+function section(title, hint, ...body) {
+  return el("section", { class: "set-section" },
+    el("h3", {}, title), hint ? el("p", { class: "set-hint" }, hint) : null, ...body);
+}
+
+function seg(options, value, onPick, cls = "") {
+  return el("div", { class: `seg ${cls}`, role: "group" }, options.map(([id, name]) =>
+    el("button", { type: "button", "aria-pressed": String(value === id), onclick: () => onPick(id) }, name)));
+}
+
+const weightControl = (value, onChange) =>
+  seg([[0, "Off"], [1, "Normal"], [2, "More"], [3, "Max"]], value, onChange, "weights");
+
+// ---------- What MyScroll learned ----------
+function learnedSection() {
+  const s = state.settings;
+  const entries = [...state.profile.entries()].filter(([, e]) => e.n >= 0.5);
+  const liked = entries.filter(([, e]) => e.affinity > 0.1).sort((a, b) => b[1].affinity - a[1].affinity).slice(0, 10);
+  const disliked = entries.filter(([, e]) => e.affinity < -0.1 && !e.muted).sort((a, b) => a[1].affinity - b[1].affinity).slice(0, 10);
+  const muted = entries.filter(([, e]) => e.muted);
+  const pill = ([f, e], extra) => el("span", { class: "pill" + (e.affinity > 0 ? " pos" : " neg") },
+    featureLabel(f), el("span", { class: "aff" }, (e.affinity > 0 ? "+" : "") + e.affinity.toFixed(2)), extra);
+  const n = Object.keys(state.ratings).length;
+  return section("What MyScroll learned",
+    n ? `From ${n} rating${n > 1 ? "s" : ""}. Scores go from −1 to +1 and need a few ratings before they move much.` : "Rate a few items (0–5) and this fills up.",
+    liked.length ? el("div", {}, el("p", { class: "mini" }, "More of"), el("div", { class: "pills" }, liked.map((x) => pill(x)))) : null,
+    disliked.length ? el("div", {}, el("p", { class: "mini" }, "Less of"), el("div", { class: "pills" }, disliked.map((x) => pill(x)))) : null,
+    muted.length ? el("div", {}, el("p", { class: "mini" }, "Muted (removed from the feed)"), el("div", { class: "pills" }, muted.map((x) =>
+      pill(x, el("button", { class: "unmute", onclick: () => { s.unmuted.push(x[0]); rebuildProfile(); rerender(); } }, "unmute"))))) : null,
+    n ? el("button", { class: "link danger", onclick: () => {
+      if (!confirm("Forget all ratings and start learning from scratch?")) return;
+      state.ratings = {}; state.skips = {}; s.unmuted = [];
+      store.set("ratings", {}); store.set("skips", {});
+      rebuildProfile(); rerender();
+    } }, "Reset learning") : null,
+  );
+}
+
+// ---------- Reading ----------
+function readingSection(s) {
+  return section("Reading", null,
+    el("div", { class: "row" }, el("span", {}, "Layout"),
+      seg([["cards", "Cards"], ["list", "List"], ["text", "Text only"]], s.layout, (v) => { s.layout = v; saveSettings(); ctx.applyTheme(); renderSettings(ctx); })),
+    el("div", { class: "row" }, el("span", {}, "Theme"),
+      seg([["dark", "Dark"], ["night", "Night"], ["light", "Light"]], s.theme, (v) => { s.theme = v; saveSettings(); ctx.applyTheme(); renderSettings(ctx); })),
+    el("div", { class: "row" }, el("span", {}, "Top bar shows"),
+      seg([["groups", "Groups"], ["topics", "Topics"]], s.navBy, (v) => { s.navBy = v; rerender(); })),
+    el("label", { class: "row" }, el("span", {}, "Items per edition"),
+      el("input", { type: "number", min: 10, max: 150, step: 5, value: s.dailyTarget, onchange: (e) => { s.dailyTarget = Number(e.target.value); saveSettings(); } })),
+    el("label", { class: "row" }, el("span", {}, "News expire after (days)"),
+      el("input", { type: "number", min: 1, max: 60, value: s.newsExpireDays, onchange: (e) => { s.newsExpireDays = Number(e.target.value); rerender(); } })),
+    el("label", { class: "row" }, el("span", {}, "Remove curiosities scrolled past unopened"),
+      el("input", { type: "checkbox", checked: s.skipRule.enabled, onchange: (e) => { s.skipRule.enabled = e.target.checked; rerender(); } })),
+    el("label", { class: "row" + (s.skipRule.enabled ? "" : " disabled") }, el("span", {}, "…after this many times"),
+      el("input", { type: "number", min: 2, max: 50, value: s.skipRule.limit, disabled: !s.skipRule.enabled, onchange: (e) => { s.skipRule.limit = Number(e.target.value); rerender(); } })),
+  );
+}
+
+// ---------- Groups ----------
+function groupsSection() {
+  const emoji = el("input", { class: "emoji-in", maxlength: 4, placeholder: "📁", "aria-label": "Emoji" });
+  const name = el("input", { placeholder: "New group name", "aria-label": "Group name" });
+  return section("Groups", "Groups bundle topics together. Turn a group off to hide all its topics at once.",
+    groups().map((g) => {
+      const members = topics().filter((t) => t.group === g.id);
+      return el("div", { class: "group-row" + (g.enabled === false ? " off" : "") },
+        el("div", { class: "group-main" },
+          el("label", { class: "switch" },
+            el("input", { type: "checkbox", checked: g.enabled !== false, onchange: (e) => {
+              editableGroups().find((x) => x.id === g.id).enabled = e.target.checked; rerender();
+            } }),
+            el("span", { class: "group-name" }, `${g.emoji} ${g.name}`)),
+          el("div", { class: "group-btns" },
+            el("button", { class: "mini-btn", onclick: () => {
+              const n = prompt("Group name", g.name);
+              if (!n) return;
+              const e = prompt("Emoji", g.emoji) ?? g.emoji;
+              Object.assign(editableGroups().find((x) => x.id === g.id), { name: n.trim(), emoji: e.trim() || g.emoji });
+              rerender();
+            } }, "Rename"),
+            el("button", { class: "del", "aria-label": `Delete group ${g.name}`, onclick: () => {
+              if (!confirm(`Delete the group "${g.name}"? Its topics stay, just ungrouped.`)) return;
+              state.settings.groups = editableGroups().filter((x) => x.id !== g.id);
+              for (const t of editableTopics()) if (t.group === g.id) delete t.group;
+              rerender();
+            } }, "✕"))),
+        el("p", { class: "group-topics" }, members.length ? members.map((t) => `${t.emoji} ${t.label}`).join("  ·  ") : "No topics yet — pick this group when editing a topic."));
+    }),
+    el("form", { class: "inline-add", onsubmit: (e) => {
+      e.preventDefault();
+      if (!name.value.trim()) return name.focus();
+      const list = editableGroups();
+      let id = slugify(name.value), i = 2;
+      while (list.some((g) => g.id === id)) id = `${slugify(name.value)}-${i++}`;
+      list.push({ id, name: name.value.trim(), emoji: emoji.value.trim() || "📁", enabled: true });
+      rerender();
+    } }, emoji, name, el("button", { type: "submit" }, "Add group")),
+  );
+}
+
+// ---------- Topics ----------
+function topicsSection() {
+  const counts = allSources().reduce((m, s) => ((m[s.topic] = (m[s.topic] ?? 0) + 1), m), {});
+  return section("Topics", "How much of each topic you want. Tap Edit to rename, describe what you want, change sources or hide it.",
+    topics().map((t) => {
+      const g = t.group && groupOf(t.group);
+      return el("div", { class: "topic-row" + (t.hidden ? " off" : "") },
+        el("div", { class: "topic-main" },
+          el("span", { class: "topic-name" }, `${t.emoji} ${t.label}`),
+          el("span", { class: "topic-meta" },
+            [g ? `${g.emoji} ${g.name}` : "No group", `${counts[t.id] ?? 0} sources`, t.hidden ? "hidden" : null, t.status === "new" ? "setting up" : null]
+              .filter(Boolean).join(" · "))),
+        el("div", { class: "topic-ctl" },
+          t.hidden ? el("span", { class: "badge" }, "Hidden") : weightControl(topicWeight(t.id), (w) => { state.settings.topicWeights[t.id] = w; rerender(); }),
+          el("button", { class: "mini-btn", onclick: () => { state.editTopic = t.id; renderSettings(ctx); window.scrollTo({ top: 0 }); } }, "Edit")));
+    }),
+    el("button", { class: "primary-btn", onclick: () => { state.editTopic = "new"; renderSettings(ctx); window.scrollTo({ top: 0 }); } }, "+ New topic"),
+    state.settings.topics ? el("button", { class: "link", onclick: () => {
+      if (!confirm("Restore the original topics and groups? Your own topics will be removed.")) return;
+      state.settings.topics = null; state.settings.groups = null; rerender();
+    } }, "Restore default topics & groups") : null,
+  );
+}
+
+function parseList(text) {
+  return text.split(/[,\n]/).map((x) => x.trim()).filter(Boolean);
+}
+
+function renderTopicEditor(id) {
+  const isNew = id === "new";
+  const t = isNew ? { label: "", emoji: "", description: "", keywords: [], subs: [], group: "" } : topicOf(id);
+  const back = () => { state.editTopic = null; renderSettings(ctx); window.scrollTo({ top: 0 }); };
+
+  const f = {
+    emoji: el("input", { class: "emoji-in", maxlength: 4, value: t.emoji, placeholder: "🧭", "aria-label": "Emoji" }),
+    label: el("input", { value: t.label, placeholder: "e.g. Coffee, Japanese culture, Synthesizers", required: true, "aria-label": "Name" }),
+    description: el("textarea", { rows: 3, placeholder: "What do you want from this topic? The agent reads this. e.g. 'New releases and techniques in modular synths, no gear-buying advice.'" }, t.description ?? ""),
+    keywords: el("textarea", { rows: 2, placeholder: "Comma separated. Leave empty and the agent will work them out." }, (t.keywords ?? []).join(", ")),
+    subs: el("input", { value: (t.subs ?? []).map((x) => x.label).join(", "), placeholder: "Optional, comma separated: News, Techniques, History" }),
+    group: el("select", {}, el("option", { value: "" }, "No group"), groups().map((g) => el("option", { value: g.id, selected: t.group === g.id }, `${g.emoji} ${g.name}`))),
+    lang: el("select", {}, el("option", { value: "en", selected: t.lang !== "pt" }, "English"), el("option", { value: "pt", selected: t.lang === "pt" }, "Português")),
+    hidden: el("input", { type: "checkbox", checked: !!t.hidden }),
+  };
+
+  const save = (e) => {
+    e.preventDefault();
+    const label = f.label.value.trim();
+    if (!label) return f.label.focus();
+    const list = editableTopics();
+    const subs = parseList(f.subs.value).map((l) => t.subs?.find((x) => x.label === l) ?? { id: slugify(l), label: l });
+    const data = {
+      label, emoji: f.emoji.value.trim() || "🧭", description: f.description.value.trim(),
+      keywords: parseList(f.keywords.value), subs, group: f.group.value || undefined,
+      lang: f.lang.value === "pt" ? "pt" : undefined, hidden: f.hidden.checked || undefined,
+    };
+    if (isNew) {
+      let newId = slugify(label), i = 2;
+      while (list.some((x) => x.id === newId)) newId = `${slugify(label)}-${i++}`;
+      if (!data.keywords.length) data.keywords = deriveKeywords(label, data.description, subs);
+      const topic = { id: newId, ...data, custom: true, status: "new", created: new Date().toISOString() };
+      list.push(topic);
+      // Get it working straight away: attach the best-matching sources from the catalog.
+      for (const src of suggestSources(topic, 4)) enableCatalogSource(src, newId);
+      state.editTopic = newId;
+    } else {
+      Object.assign(list.find((x) => x.id === id), data);
+    }
+    rerender();
+    window.scrollTo({ top: 0 });
+  };
+
+  const form = el("form", { class: "topic-form", onsubmit: save },
+    el("div", { class: "name-row" }, f.emoji, f.label),
+    el("label", { class: "field" }, el("span", {}, "What you want from it"), f.description),
+    el("label", { class: "field" }, el("span", {}, "Keywords to search"), f.keywords),
+    el("label", { class: "field" }, el("span", {}, "Subcategories"), f.subs),
+    el("div", { class: "two" },
+      el("label", { class: "field" }, el("span", {}, "Group"), f.group),
+      el("label", { class: "field" }, el("span", {}, "Language"), f.lang)),
+    isNew ? null : el("label", { class: "row" }, el("span", {}, "Hide this topic"), f.hidden),
+    el("div", { class: "form-btns" },
+      el("button", { type: "submit", class: "primary-btn" }, isNew ? "Create topic" : "Save"),
+      el("button", { type: "button", class: "mini-btn", onclick: back }, "Cancel")),
+  );
+
+  const extra = [];
+  if (!isNew) {
+    const mine = allSources().filter((s) => s.topic === id);
+    const suggested = suggestSources(t, 8);
+    if (t.status === "new") extra.push(el("p", { class: "notice" },
+      "🆕 Ready to use with the sources below. On its next run the agent will finish setting it up: look for more sources and learn what's worth showing."));
+    extra.push(section("How the agent will search", "Built from your keywords and description, plus every source below.",
+      el("ul", { class: "plan" }, searchPlan(t).map((q) => el("li", {}, q)))));
+    extra.push(section(`Sources (${mine.length})`, mine.length ? null : "No sources yet. Add some below, or let the agent find them.",
+      mine.map((src) => sourceRow(src)), addSourceForm(id)));
+    if (suggested.length) extra.push(section("Suggested sources", "From the MyScroll catalog, matched to this topic.",
+      suggested.map((src) => el("div", { class: "src-row sugg" },
+        el("div", { class: "src-name" }, el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name), el("span", { class: "badge" }, src.type)),
+        el("button", { class: "mini-btn add", onclick: () => { enableCatalogSource(src, id); rerender(); } }, "+ Add")))));
+    extra.push(el("button", { class: "link danger", onclick: () => {
+      if (!confirm(`Delete the topic "${t.label}"? Items already in your scroll from it will disappear.`)) return;
+      state.settings.topics = editableTopics().filter((x) => x.id !== id);
+      state.settings.customSources = state.settings.customSources.filter((x) => x.topic !== id);
+      state.editTopic = null;
+      rerender();
+    } }, "Delete topic"));
+  }
+
+  ctx.root.replaceChildren(el("div", { class: "settings" },
+    el("button", { class: "back", onclick: back }, "← Settings"),
+    section(isNew ? "New topic" : `${t.emoji} ${t.label}`, isNew ? "Describe it and MyScroll sets up where to look: keywords, a search plan and matching sources." : null, form),
+    ...extra));
+}
+
+// ---------- Sources ----------
+function sourceRow(src) {
+  const s = state.settings;
+  return el("div", { class: "src-row" },
+    el("div", { class: "src-name" },
+      el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name),
+      el("span", { class: "badge" }, src.type), src.custom ? el("span", { class: "badge mine" }, "added") : null),
+    el("div", { class: "src-ctl" },
+      weightControl(src.weight, (w) => { s.sourceOverrides[src.id] = { ...s.sourceOverrides[src.id], weight: w }; rerender(); }),
+      el("button", { class: "del", "aria-label": `Remove ${src.name}`, onclick: () => { removeSource(src); rerender(); } }, "✕")));
+}
+
+function addSourceForm(fixedTopic) {
+  const s = state.settings;
+  const urlInput = el("input", { type: "url", name: "url", placeholder: "https://… (site, subreddit, YouTube channel, RSS)", required: true });
+  const nameInput = el("input", { type: "text", name: "name", placeholder: "Name (optional)" });
+  const topicSelect = fixedTopic ? null : el("select", { name: "topic" }, topics().map((t) => el("option", { value: t.id }, `${t.emoji} ${t.label}`)));
+  return el("form", { class: "add-source", onsubmit: (e) => {
+    e.preventDefault();
+    let url;
+    try { url = new URL(urlInput.value.trim()); } catch { urlInput.focus(); return; }
+    const topic = fixedTopic ?? topicSelect.value;
+    const host = url.hostname.replace(/^www\./, "");
+    const norm = (u) => { const x = new URL(u); return x.hostname.replace(/^www\./, "") + x.pathname.replace(/\/+$/, "").toLowerCase(); };
+    const dupe = allSources().find((src) => src.topic === topic && (norm(src.url).startsWith(norm(url.href)) || norm(url.href).startsWith(norm(src.url))));
+    if (dupe) { alert(`Already in this topic: ${dupe.name}`); return; }
+    const type = /reddit\.com/.test(host) ? "reddit" : /youtube\.com|youtu\.be|vimeo\.com/.test(host) ? "video" : /rss|feed|\.xml$/.test(url.href) ? "rss" : "site";
+    const name = nameInput.value.trim() || (type === "reddit" ? url.pathname.match(/\/r\/[^/]+/)?.[0]?.slice(1) : null) || host;
+    s.customSources.push({ id: `custom-${Date.now()}`, topic, name, url: url.href, type, weight: 1, custom: true });
+    rerender();
+  } }, urlInput, el("div", { class: "add-row" + (fixedTopic ? " no-topic" : "") }, topicSelect, nameInput, el("button", { type: "submit" }, "Add")));
+}
+
+function sourcesSection() {
+  const sources = allSources();
+  return section("Sources", "The agent also discovers new sources on its own. Add your favourites, clean up, set priorities, or pick from suggestions inside each topic.",
+    addSourceForm(null),
+    topics().map((t) => {
+      const list = sources.filter((src) => src.topic === t.id);
+      const sugg = suggestSources(t, 5);
+      return el("details", { class: "src-group" },
+        el("summary", {}, `${t.emoji} ${t.label}`, el("span", { class: "n" }, String(list.length))),
+        list.map(sourceRow),
+        sugg.length ? el("div", { class: "sugg-block" }, el("p", { class: "mini" }, "Suggestions"),
+          sugg.map((src) => el("div", { class: "src-row sugg" },
+            el("div", { class: "src-name" }, el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name), el("span", { class: "badge" }, src.type)),
+            el("button", { class: "mini-btn add", onclick: () => { enableCatalogSource(src, t.id); rerender(); } }, "+ Add")))) : null);
+    }),
+    Object.values(state.settings.sourceOverrides).some((o) => o.deleted)
+      ? el("button", { class: "link", onclick: () => { for (const o of Object.values(state.settings.sourceOverrides)) delete o.deleted; rerender(); } }, "Restore removed default sources")
+      : null,
+  );
+}
+
+// ---------- Backlog ----------
+function backlogSection() {
+  const counts = pool().reduce((acc, i) => ((acc[visibility(i)] = (acc[visibility(i)] ?? 0) + 1), acc), {});
+  return section("Backlog", null,
+    el("p", { class: "set-hint" },
+      `${counts.visible ?? 0} in your scroll · ${counts.done ?? 0} read · ${counts.expired ?? 0} expired news` +
+      (counts["topic-off"] ? ` · ${counts["topic-off"]} in hidden topics` : "") +
+      (counts["skipped-out"] ? ` · ${counts["skipped-out"]} removed after skipping` : "")),
+    el("button", { class: "link", onclick: () => {
+      if (!confirm("Mark everything as unread again?")) return;
+      state.read.clear(); state.opened.clear(); state.skips = {};
+      store.set("read", []); store.set("opened", []); store.set("skips", {});
+      rebuildProfile(); rerender();
+    } }, "Reset reading progress (testing)"),
+  );
+}

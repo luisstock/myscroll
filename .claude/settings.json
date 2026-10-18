@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(node scripts/agent/plan.mjs:*)",
+      "Bash(node scripts/agent/finalize.mjs:*)",
+      "Bash(node scripts/build-edition.mjs:*)",
+      "Bash(curl -s \"https://www.youtube.com/oembed:*)",
+      "Read(./**)",
+      "Write(./content/**)",
+      "Edit(./content/**)",
+      "Write(./data/**)"
+    ]
+  }
+}

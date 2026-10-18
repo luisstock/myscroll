@@ -1,0 +1,1388 @@
+{
+  "_comment": "Source catalog. default:true = active out of the box; the rest are suggestions the user can enable in Settings, matched to topics by topic id and tags. The daily agent can also add discovered sources here.",
+  "sources": [
+    {
+      "id": "r-todayilearned",
+      "topic": "til",
+      "name": "r/todayilearned",
+      "url": "https://www.reddit.com/r/todayilearned/",
+      "type": "reddit",
+      "tags": [
+        "til",
+        "facts",
+        "trivia"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-askhistorians",
+      "topic": "til",
+      "name": "r/AskHistorians",
+      "url": "https://www.reddit.com/r/AskHistorians/",
+      "type": "reddit",
+      "tags": [
+        "history",
+        "stories"
+      ],
+      "default": true
+    },
+    {
+      "id": "atlas-obscura",
+      "topic": "til",
+      "name": "Atlas Obscura",
+      "url": "https://www.atlasobscura.com/",
+      "type": "site",
+      "tags": [
+        "places",
+        "oddities",
+        "travel",
+        "history"
+      ],
+      "default": true,
+      "feed": "https://www.atlasobscura.com/feeds/latest"
+    },
+    {
+      "id": "wikipedia-dyk",
+      "topic": "til",
+      "name": "Wikipedia · Did you know",
+      "url": "https://en.wikipedia.org/wiki/Main_Page",
+      "type": "site",
+      "tags": [
+        "facts",
+        "trivia"
+      ],
+      "default": true
+    },
+    {
+      "id": "cracked",
+      "topic": "til",
+      "name": "Cracked",
+      "url": "https://www.cracked.com/",
+      "type": "site",
+      "tags": [
+        "lists",
+        "humor",
+        "oddities"
+      ],
+      "default": true
+    },
+    {
+      "id": "mental-floss",
+      "topic": "til",
+      "name": "Mental Floss",
+      "url": "https://www.mentalfloss.com/",
+      "type": "site",
+      "tags": [
+        "facts",
+        "trivia",
+        "history"
+      ]
+    },
+    {
+      "id": "damn-interesting",
+      "topic": "til",
+      "name": "Damn Interesting",
+      "url": "https://www.damninteresting.com/",
+      "type": "site",
+      "tags": [
+        "stories",
+        "history",
+        "science",
+        "longread"
+      ]
+    },
+    {
+      "id": "futility-closet",
+      "topic": "til",
+      "name": "Futility Closet",
+      "url": "https://www.futilitycloset.com/",
+      "type": "site",
+      "tags": [
+        "oddities",
+        "history",
+        "puzzles"
+      ]
+    },
+    {
+      "id": "public-domain-review",
+      "topic": "til",
+      "name": "The Public Domain Review",
+      "url": "https://publicdomainreview.org/",
+      "type": "site",
+      "tags": [
+        "history",
+        "art",
+        "longread",
+        "images"
+      ]
+    },
+    {
+      "id": "smithsonian",
+      "topic": "til",
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "type": "site",
+      "tags": [
+        "history",
+        "science",
+        "culture"
+      ]
+    },
+    {
+      "id": "bbc-future",
+      "topic": "til",
+      "name": "BBC Future",
+      "url": "https://www.bbc.com/future",
+      "type": "site",
+      "tags": [
+        "science",
+        "ideas",
+        "longread"
+      ]
+    },
+    {
+      "id": "kottke",
+      "topic": "til",
+      "name": "kottke.org",
+      "url": "https://kottke.org/",
+      "type": "site",
+      "tags": [
+        "curiosities",
+        "culture",
+        "links"
+      ]
+    },
+    {
+      "id": "r-explainlikeimfive",
+      "topic": "til",
+      "name": "r/explainlikeimfive",
+      "url": "https://www.reddit.com/r/explainlikeimfive/",
+      "type": "reddit",
+      "tags": [
+        "explainers",
+        "science"
+      ]
+    },
+    {
+      "id": "r-depthhub",
+      "topic": "til",
+      "name": "r/DepthHub",
+      "url": "https://www.reddit.com/r/DepthHub/",
+      "type": "reddit",
+      "tags": [
+        "best-of-reddit",
+        "longread"
+      ]
+    },
+    {
+      "id": "r-bestof",
+      "topic": "til",
+      "name": "r/bestof",
+      "url": "https://www.reddit.com/r/bestof/",
+      "type": "reddit",
+      "tags": [
+        "best-of-reddit",
+        "stories"
+      ]
+    },
+    {
+      "id": "messy-nessy",
+      "topic": "til",
+      "name": "Messy Nessy Chic",
+      "url": "https://www.messynessychic.com/",
+      "type": "site",
+      "tags": [
+        "oddities",
+        "history",
+        "places"
+      ]
+    },
+    {
+      "id": "r-mildlyinteresting",
+      "topic": "fun",
+      "name": "r/mildlyinteresting",
+      "url": "https://www.reddit.com/r/mildlyinteresting/",
+      "type": "reddit",
+      "tags": [
+        "fun",
+        "images"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-nottheonion",
+      "topic": "fun",
+      "name": "r/nottheonion",
+      "url": "https://www.reddit.com/r/nottheonion/",
+      "type": "reddit",
+      "tags": [
+        "absurd",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-interestingasfuck",
+      "topic": "fun",
+      "name": "r/interestingasfuck",
+      "url": "https://www.reddit.com/r/interestingasfuck/",
+      "type": "reddit",
+      "tags": [
+        "fun",
+        "video",
+        "oddities"
+      ]
+    },
+    {
+      "id": "r-oddlysatisfying",
+      "topic": "fun",
+      "name": "r/oddlysatisfying",
+      "url": "https://www.reddit.com/r/oddlysatisfying/",
+      "type": "reddit",
+      "tags": [
+        "satisfying",
+        "video",
+        "loops"
+      ]
+    },
+    {
+      "id": "the-onion",
+      "topic": "fun",
+      "name": "The Onion",
+      "url": "https://theonion.com/",
+      "type": "site",
+      "tags": [
+        "satire",
+        "humor"
+      ]
+    },
+    {
+      "id": "mcsweeneys",
+      "topic": "fun",
+      "name": "McSweeney's Internet Tendency",
+      "url": "https://www.mcsweeneys.net/",
+      "type": "site",
+      "tags": [
+        "humor",
+        "writing"
+      ]
+    },
+    {
+      "id": "bored-panda",
+      "topic": "fun",
+      "name": "Bored Panda",
+      "url": "https://www.boredpanda.com/",
+      "type": "site",
+      "tags": [
+        "fun",
+        "images",
+        "lists"
+      ],
+      "default": true
+    },
+    {
+      "id": "cheezburger",
+      "topic": "fun",
+      "name": "FAIL Blog",
+      "url": "https://cheezburger.com/",
+      "type": "site",
+      "tags": [
+        "fails",
+        "humor"
+      ]
+    },
+    {
+      "id": "motionographer",
+      "topic": "motion",
+      "name": "Motionographer",
+      "url": "https://motionographer.com/",
+      "type": "site",
+      "tags": [
+        "inspiration",
+        "studios",
+        "industry"
+      ],
+      "default": true
+    },
+    {
+      "id": "school-of-motion",
+      "topic": "motion",
+      "name": "School of Motion",
+      "url": "https://www.schoolofmotion.com/blog",
+      "type": "site",
+      "tags": [
+        "tutorials",
+        "after-effects",
+        "industry"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-aftereffects",
+      "topic": "motion",
+      "name": "r/AfterEffects",
+      "url": "https://www.reddit.com/r/AfterEffects/",
+      "type": "reddit",
+      "tags": [
+        "after-effects",
+        "help",
+        "techniques"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-motiondesign",
+      "topic": "motion",
+      "name": "r/MotionDesign",
+      "url": "https://www.reddit.com/r/MotionDesign/",
+      "type": "reddit",
+      "tags": [
+        "inspiration",
+        "community"
+      ],
+      "default": true
+    },
+    {
+      "id": "cgchannel",
+      "topic": "motion",
+      "name": "CG Channel",
+      "url": "https://www.cgchannel.com/",
+      "type": "site",
+      "tags": [
+        "tools",
+        "plugins",
+        "3d",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "aescripts",
+      "topic": "motion",
+      "name": "aescripts + aeplugins",
+      "url": "https://aescripts.com/",
+      "type": "site",
+      "tags": [
+        "plugins",
+        "scripts",
+        "after-effects",
+        "tools"
+      ],
+      "default": true
+    },
+    {
+      "id": "vimeo-staff-picks",
+      "topic": "motion",
+      "name": "Vimeo Staff Picks",
+      "url": "https://vimeo.com/channels/staffpicks",
+      "type": "video",
+      "tags": [
+        "inspiration",
+        "short-films",
+        "animation"
+      ],
+      "default": true
+    },
+    {
+      "id": "art-of-the-title",
+      "topic": "motion",
+      "name": "Art of the Title",
+      "url": "https://www.artofthetitle.com/",
+      "type": "site",
+      "tags": [
+        "title-design",
+        "inspiration",
+        "film"
+      ]
+    },
+    {
+      "id": "stash",
+      "topic": "motion",
+      "name": "STASH",
+      "url": "https://www.stashmedia.tv/",
+      "type": "site",
+      "tags": [
+        "inspiration",
+        "vfx",
+        "animation"
+      ]
+    },
+    {
+      "id": "cartoon-brew",
+      "topic": "motion",
+      "name": "Cartoon Brew",
+      "url": "https://www.cartoonbrew.com/",
+      "type": "site",
+      "tags": [
+        "animation",
+        "industry",
+        "news"
+      ]
+    },
+    {
+      "id": "awn",
+      "topic": "motion",
+      "name": "Animation World Network",
+      "url": "https://www.awn.com/",
+      "type": "site",
+      "tags": [
+        "animation",
+        "vfx",
+        "industry"
+      ]
+    },
+    {
+      "id": "behance-motion",
+      "topic": "motion",
+      "name": "Behance · Motion",
+      "url": "https://www.behance.net/galleries/motion",
+      "type": "site",
+      "tags": [
+        "inspiration",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "greyscalegorilla",
+      "topic": "motion",
+      "name": "Greyscalegorilla",
+      "url": "https://greyscalegorilla.com/",
+      "type": "site",
+      "tags": [
+        "3d",
+        "cinema4d",
+        "tutorials"
+      ]
+    },
+    {
+      "id": "video-copilot",
+      "topic": "motion",
+      "name": "Video Copilot",
+      "url": "https://www.videocopilot.net/",
+      "type": "site",
+      "tags": [
+        "after-effects",
+        "plugins",
+        "tutorials"
+      ]
+    },
+    {
+      "id": "ecabrams-yt",
+      "topic": "motion",
+      "name": "ECAbrams (YouTube)",
+      "url": "https://www.youtube.com/@ECAbrams",
+      "type": "video",
+      "tags": [
+        "after-effects",
+        "tutorials",
+        "techniques"
+      ]
+    },
+    {
+      "id": "jake-in-motion-yt",
+      "topic": "motion",
+      "name": "Jake In Motion (YouTube)",
+      "url": "https://www.youtube.com/@JakeInMotion",
+      "type": "video",
+      "tags": [
+        "after-effects",
+        "tutorials",
+        "expressions"
+      ]
+    },
+    {
+      "id": "ben-marriott-yt",
+      "topic": "motion",
+      "name": "Ben Marriott (YouTube)",
+      "url": "https://www.youtube.com/@BenMarriott",
+      "type": "video",
+      "tags": [
+        "after-effects",
+        "tutorials",
+        "2d-animation"
+      ]
+    },
+    {
+      "id": "cavalry-blog",
+      "topic": "motion",
+      "name": "Cavalry",
+      "url": "https://cavalry.scenegroup.co/",
+      "type": "site",
+      "tags": [
+        "tools",
+        "procedural",
+        "2d-animation"
+      ]
+    },
+    {
+      "id": "rive-blog",
+      "topic": "motion",
+      "name": "Rive blog",
+      "url": "https://rive.app/blog",
+      "type": "site",
+      "tags": [
+        "tools",
+        "interactive",
+        "ui-motion"
+      ]
+    },
+    {
+      "id": "blender-news",
+      "topic": "motion",
+      "name": "Blender Nation",
+      "url": "https://www.blendernation.com/",
+      "type": "site",
+      "tags": [
+        "3d",
+        "blender",
+        "tools"
+      ]
+    },
+    {
+      "id": "r-localllama",
+      "topic": "ai",
+      "name": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/",
+      "type": "reddit",
+      "tags": [
+        "local-llm",
+        "open-weights",
+        "models"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-stablediffusion",
+      "topic": "ai",
+      "name": "r/StableDiffusion",
+      "url": "https://www.reddit.com/r/StableDiffusion/",
+      "type": "reddit",
+      "tags": [
+        "image-gen",
+        "video-gen",
+        "comfyui"
+      ],
+      "default": true
+    },
+    {
+      "id": "comfy-blog",
+      "topic": "ai",
+      "name": "ComfyUI blog",
+      "url": "https://blog.comfy.org/",
+      "type": "site",
+      "tags": [
+        "comfyui",
+        "image-gen",
+        "video-gen",
+        "workflows"
+      ],
+      "default": true
+    },
+    {
+      "id": "hf-trending",
+      "topic": "ai",
+      "name": "Hugging Face · trending",
+      "url": "https://huggingface.co/models?sort=trending",
+      "type": "site",
+      "tags": [
+        "models",
+        "open-weights"
+      ],
+      "default": true
+    },
+    {
+      "id": "hacker-news",
+      "topic": "ai",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "type": "site",
+      "tags": [
+        "tech",
+        "ai",
+        "startups"
+      ],
+      "default": true
+    },
+    {
+      "id": "techcrunch-ai",
+      "topic": "ai",
+      "name": "TechCrunch · AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "type": "site",
+      "tags": [
+        "ai",
+        "news",
+        "frontier"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-comfyui",
+      "topic": "ai",
+      "name": "r/comfyui",
+      "url": "https://www.reddit.com/r/comfyui/",
+      "type": "reddit",
+      "tags": [
+        "comfyui",
+        "workflows",
+        "image-gen"
+      ]
+    },
+    {
+      "id": "simon-willison",
+      "topic": "ai",
+      "name": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/",
+      "type": "site",
+      "tags": [
+        "llm",
+        "local-llm",
+        "tools",
+        "frontier"
+      ]
+    },
+    {
+      "id": "hf-blog",
+      "topic": "ai",
+      "name": "Hugging Face blog",
+      "url": "https://huggingface.co/blog",
+      "type": "site",
+      "tags": [
+        "open-weights",
+        "models",
+        "research"
+      ]
+    },
+    {
+      "id": "the-decoder",
+      "topic": "ai",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "type": "site",
+      "tags": [
+        "ai",
+        "news",
+        "frontier"
+      ]
+    },
+    {
+      "id": "import-ai",
+      "topic": "ai",
+      "name": "Import AI (Jack Clark)",
+      "url": "https://importai.substack.com/",
+      "type": "newsletter",
+      "tags": [
+        "frontier",
+        "research",
+        "policy"
+      ]
+    },
+    {
+      "id": "ahead-of-ai",
+      "topic": "ai",
+      "name": "Ahead of AI (Sebastian Raschka)",
+      "url": "https://magazine.sebastianraschka.com/",
+      "type": "newsletter",
+      "tags": [
+        "llm",
+        "research",
+        "explainers"
+      ]
+    },
+    {
+      "id": "latent-space",
+      "topic": "ai",
+      "name": "Latent Space",
+      "url": "https://www.latent.space/",
+      "type": "newsletter",
+      "tags": [
+        "ai-engineering",
+        "frontier",
+        "podcast"
+      ]
+    },
+    {
+      "id": "ollama-blog",
+      "topic": "ai",
+      "name": "Ollama blog",
+      "url": "https://ollama.com/blog",
+      "type": "site",
+      "tags": [
+        "local-llm",
+        "tools"
+      ]
+    },
+    {
+      "id": "two-minute-papers",
+      "topic": "ai",
+      "name": "Two Minute Papers (YouTube)",
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "type": "video",
+      "tags": [
+        "research",
+        "image-gen",
+        "graphics"
+      ]
+    },
+    {
+      "id": "civitai-articles",
+      "topic": "ai",
+      "name": "Civitai articles",
+      "url": "https://civitai.com/articles",
+      "type": "site",
+      "tags": [
+        "image-gen",
+        "lora",
+        "workflows"
+      ]
+    },
+    {
+      "id": "ars-ai",
+      "topic": "ai",
+      "name": "Ars Technica · AI",
+      "url": "https://arstechnica.com/ai/",
+      "type": "site",
+      "tags": [
+        "ai",
+        "news",
+        "analysis"
+      ]
+    },
+    {
+      "id": "cyclingnews-gravel",
+      "topic": "bike",
+      "name": "Cyclingnews · Gravel",
+      "url": "https://www.cyclingnews.com/gravel/",
+      "type": "site",
+      "tags": [
+        "gravel-racing",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "velo-gravel",
+      "topic": "bike",
+      "name": "Velo · Gravel",
+      "url": "https://velo.outsideonline.com/gravel/",
+      "type": "site",
+      "tags": [
+        "gravel-racing",
+        "gear",
+        "reviews"
+      ],
+      "default": true
+    },
+    {
+      "id": "beyond-tarmac",
+      "topic": "bike",
+      "name": "Beyond Tarmac",
+      "url": "https://beyondtarmac.substack.com/",
+      "type": "newsletter",
+      "tags": [
+        "gravel-racing",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "gcn",
+      "topic": "bike",
+      "name": "GCN (YouTube)",
+      "url": "https://www.youtube.com/@gcn",
+      "type": "video",
+      "tags": [
+        "technique",
+        "gear",
+        "cycling"
+      ],
+      "default": true
+    },
+    {
+      "id": "r-gravelcycling",
+      "topic": "bike",
+      "name": "r/gravelcycling",
+      "url": "https://www.reddit.com/r/gravelcycling/",
+      "type": "reddit",
+      "tags": [
+        "gravel",
+        "community",
+        "gear"
+      ],
+      "default": true
+    },
+    {
+      "id": "gravel-cyclist",
+      "topic": "bike",
+      "name": "Gravel Cyclist",
+      "url": "https://www.gravelcyclist.com/",
+      "type": "site",
+      "tags": [
+        "gravel",
+        "reviews",
+        "races"
+      ]
+    },
+    {
+      "id": "escape-collective",
+      "topic": "bike",
+      "name": "Escape Collective",
+      "url": "https://escapecollective.com/",
+      "type": "site",
+      "tags": [
+        "cycling",
+        "tech",
+        "longread"
+      ]
+    },
+    {
+      "id": "bikepacking-com",
+      "topic": "bike",
+      "name": "Bikepacking.com",
+      "url": "https://bikepacking.com/",
+      "type": "site",
+      "tags": [
+        "bikepacking",
+        "routes",
+        "gear"
+      ]
+    },
+    {
+      "id": "bikeradar-gravel",
+      "topic": "bike",
+      "name": "BikeRadar · Gravel",
+      "url": "https://www.bikeradar.com/gravel",
+      "type": "site",
+      "tags": [
+        "gear",
+        "reviews",
+        "technique"
+      ]
+    },
+    {
+      "id": "path-less-pedaled",
+      "topic": "bike",
+      "name": "Path Less Pedaled (YouTube)",
+      "url": "https://www.youtube.com/@PathLessPedaled",
+      "type": "video",
+      "tags": [
+        "gravel",
+        "touring",
+        "gear"
+      ]
+    },
+    {
+      "id": "tpc-yt",
+      "topic": "bike",
+      "name": "The Pro's Closet (YouTube)",
+      "url": "https://www.youtube.com/@theproscloset",
+      "type": "video",
+      "tags": [
+        "gear",
+        "technique",
+        "gravel"
+      ]
+    },
+    {
+      "id": "cycling-weekly",
+      "topic": "bike",
+      "name": "Cycling Weekly",
+      "url": "https://www.cyclingweekly.com/",
+      "type": "site",
+      "tags": [
+        "training",
+        "technique",
+        "news"
+      ]
+    },
+    {
+      "id": "trainerroad-blog",
+      "topic": "bike",
+      "name": "TrainerRoad blog",
+      "url": "https://www.trainerroad.com/blog/",
+      "type": "site",
+      "tags": [
+        "training",
+        "technique",
+        "science"
+      ]
+    },
+    {
+      "id": "r-bikepacking",
+      "topic": "bike",
+      "name": "r/bikepacking",
+      "url": "https://www.reddit.com/r/bikepacking/",
+      "type": "reddit",
+      "tags": [
+        "bikepacking",
+        "routes",
+        "community"
+      ]
+    },
+    {
+      "id": "the-verge",
+      "topic": "tech",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/",
+      "type": "site",
+      "tags": [
+        "gadgets",
+        "tech",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "ars-technica",
+      "topic": "tech",
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "type": "site",
+      "tags": [
+        "tech",
+        "science",
+        "analysis"
+      ],
+      "default": true
+    },
+    {
+      "id": "engadget",
+      "topic": "tech",
+      "name": "Engadget",
+      "url": "https://www.engadget.com/",
+      "type": "site",
+      "tags": [
+        "gadgets",
+        "news"
+      ]
+    },
+    {
+      "id": "9to5mac",
+      "topic": "tech",
+      "name": "9to5Mac",
+      "url": "https://9to5mac.com/",
+      "type": "site",
+      "tags": [
+        "apple",
+        "gadgets"
+      ]
+    },
+    {
+      "id": "wired",
+      "topic": "tech",
+      "name": "WIRED",
+      "url": "https://www.wired.com/",
+      "type": "site",
+      "tags": [
+        "tech",
+        "culture",
+        "longread"
+      ]
+    },
+    {
+      "id": "rest-of-world",
+      "topic": "tech",
+      "name": "Rest of World",
+      "url": "https://restofworld.org/",
+      "type": "site",
+      "tags": [
+        "tech",
+        "global",
+        "longread"
+      ]
+    },
+    {
+      "id": "mkbhd",
+      "topic": "tech",
+      "name": "MKBHD (YouTube)",
+      "url": "https://www.youtube.com/@mkbhd",
+      "type": "video",
+      "tags": [
+        "gadgets",
+        "reviews"
+      ]
+    },
+    {
+      "id": "r-gadgets",
+      "topic": "tech",
+      "name": "r/gadgets",
+      "url": "https://www.reddit.com/r/gadgets/",
+      "type": "reddit",
+      "tags": [
+        "gadgets",
+        "community"
+      ]
+    },
+    {
+      "id": "nasa",
+      "topic": "science",
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/news/recently-published/",
+      "type": "site",
+      "tags": [
+        "space",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "quanta",
+      "topic": "science",
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/",
+      "type": "site",
+      "tags": [
+        "physics",
+        "math",
+        "biology",
+        "longread"
+      ],
+      "default": true
+    },
+    {
+      "id": "sci-news",
+      "topic": "science",
+      "name": "Sci.News",
+      "url": "https://www.sci.news/",
+      "type": "site",
+      "tags": [
+        "science",
+        "space",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "apod",
+      "topic": "science",
+      "name": "NASA · Astronomy Picture of the Day",
+      "url": "https://apod.nasa.gov/apod/astropix.html",
+      "type": "site",
+      "tags": [
+        "space",
+        "images"
+      ]
+    },
+    {
+      "id": "esa",
+      "topic": "science",
+      "name": "ESA",
+      "url": "https://www.esa.int/",
+      "type": "site",
+      "tags": [
+        "space",
+        "europe"
+      ]
+    },
+    {
+      "id": "new-scientist",
+      "topic": "science",
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/",
+      "type": "site",
+      "tags": [
+        "science",
+        "news"
+      ]
+    },
+    {
+      "id": "science-news",
+      "topic": "science",
+      "name": "Science News",
+      "url": "https://www.sciencenews.org/",
+      "type": "site",
+      "tags": [
+        "science",
+        "news"
+      ]
+    },
+    {
+      "id": "nautilus",
+      "topic": "science",
+      "name": "Nautilus",
+      "url": "https://nautil.us/",
+      "type": "site",
+      "tags": [
+        "science",
+        "ideas",
+        "longread"
+      ]
+    },
+    {
+      "id": "kurzgesagt",
+      "topic": "science",
+      "name": "Kurzgesagt (YouTube)",
+      "url": "https://www.youtube.com/@kurzgesagt",
+      "type": "video",
+      "tags": [
+        "science",
+        "animation",
+        "explainers"
+      ]
+    },
+    {
+      "id": "veritasium",
+      "topic": "science",
+      "name": "Veritasium (YouTube)",
+      "url": "https://www.youtube.com/@veritasium",
+      "type": "video",
+      "tags": [
+        "science",
+        "physics",
+        "explainers"
+      ]
+    },
+    {
+      "id": "r-space",
+      "topic": "science",
+      "name": "r/space",
+      "url": "https://www.reddit.com/r/space/",
+      "type": "reddit",
+      "tags": [
+        "space",
+        "images",
+        "news"
+      ]
+    },
+    {
+      "id": "creative-boom",
+      "topic": "design",
+      "name": "Creative Boom",
+      "url": "https://www.creativeboom.com/",
+      "type": "site",
+      "tags": [
+        "graphic-design",
+        "illustration",
+        "studios"
+      ],
+      "default": true
+    },
+    {
+      "id": "its-nice-that",
+      "topic": "design",
+      "name": "It's Nice That",
+      "url": "https://www.itsnicethat.com/",
+      "type": "site",
+      "tags": [
+        "graphic-design",
+        "typography",
+        "art"
+      ],
+      "default": true
+    },
+    {
+      "id": "creative-bloq",
+      "topic": "design",
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "type": "site",
+      "tags": [
+        "design",
+        "trends",
+        "tools"
+      ],
+      "default": true
+    },
+    {
+      "id": "eye-on-design",
+      "topic": "design",
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "type": "site",
+      "tags": [
+        "graphic-design",
+        "essays"
+      ]
+    },
+    {
+      "id": "brand-new",
+      "topic": "design",
+      "name": "Brand New (UnderConsideration)",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "type": "site",
+      "tags": [
+        "branding",
+        "logos",
+        "identity"
+      ]
+    },
+    {
+      "id": "fonts-in-use",
+      "topic": "design",
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "type": "site",
+      "tags": [
+        "typography",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "typewolf",
+      "topic": "design",
+      "name": "Typewolf",
+      "url": "https://www.typewolf.com/",
+      "type": "site",
+      "tags": [
+        "typography",
+        "web-design"
+      ]
+    },
+    {
+      "id": "dezeen",
+      "topic": "design",
+      "name": "Dezeen",
+      "url": "https://www.dezeen.com/",
+      "type": "site",
+      "tags": [
+        "architecture",
+        "product-design"
+      ]
+    },
+    {
+      "id": "designboom",
+      "topic": "design",
+      "name": "designboom",
+      "url": "https://www.designboom.com/",
+      "type": "site",
+      "tags": [
+        "architecture",
+        "design",
+        "art"
+      ]
+    },
+    {
+      "id": "sidebar",
+      "topic": "design",
+      "name": "Sidebar",
+      "url": "https://sidebar.io/",
+      "type": "site",
+      "tags": [
+        "web-design",
+        "ui",
+        "links"
+      ]
+    },
+    {
+      "id": "observador",
+      "topic": "pt",
+      "name": "Observador",
+      "url": "https://observador.pt/",
+      "type": "site",
+      "tags": [
+        "notícias",
+        "portugal"
+      ],
+      "default": true
+    },
+    {
+      "id": "publico",
+      "topic": "pt",
+      "name": "Público",
+      "url": "https://www.publico.pt/",
+      "type": "site",
+      "tags": [
+        "notícias",
+        "portugal",
+        "cultura"
+      ],
+      "default": true,
+      "feed": "https://feeds.feedburner.com/PublicoRSS"
+    },
+    {
+      "id": "nit",
+      "topic": "pt",
+      "name": "NiT",
+      "url": "https://www.nit.pt/",
+      "type": "site",
+      "tags": [
+        "lifestyle",
+        "curiosidades",
+        "portugal"
+      ],
+      "default": true
+    },
+    {
+      "id": "expresso",
+      "topic": "pt",
+      "name": "Expresso",
+      "url": "https://expresso.pt/",
+      "type": "site",
+      "tags": [
+        "notícias",
+        "portugal"
+      ]
+    },
+    {
+      "id": "dn",
+      "topic": "pt",
+      "name": "Diário de Notícias",
+      "url": "https://www.dn.pt/",
+      "type": "site",
+      "tags": [
+        "notícias",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mensagem-lisboa",
+      "topic": "pt",
+      "name": "Mensagem de Lisboa",
+      "url": "https://amensagem.pt/",
+      "type": "site",
+      "tags": [
+        "lisboa",
+        "histórias",
+        "local"
+      ]
+    },
+    {
+      "id": "shifter",
+      "topic": "pt",
+      "name": "Shifter",
+      "url": "https://shifter.pt/",
+      "type": "site",
+      "tags": [
+        "tecnologia",
+        "cultura",
+        "portugal"
+      ]
+    },
+    {
+      "id": "p3",
+      "topic": "pt",
+      "name": "P3 (Público)",
+      "url": "https://www.publico.pt/p3",
+      "type": "site",
+      "tags": [
+        "cultura",
+        "jovem",
+        "portugal"
+      ]
+    },
+    {
+      "id": "time-out-lisboa",
+      "topic": "pt",
+      "name": "Time Out Lisboa",
+      "url": "https://www.timeout.pt/lisboa",
+      "type": "site",
+      "tags": [
+        "lisboa",
+        "eventos",
+        "cultura"
+      ]
+    },
+    {
+      "id": "comunidade-cultura-arte",
+      "topic": "pt",
+      "name": "Comunidade Cultura e Arte",
+      "url": "https://www.comunidadeculturaearte.com/",
+      "type": "site",
+      "tags": [
+        "cultura",
+        "arte",
+        "portugal"
+      ]
+    }
+  ]
+}

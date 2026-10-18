@@ -1,0 +1,797 @@
+{
+  "date": "2026-10-17",
+  "number": 1,
+  "longread": {
+    "id": "lr-1816",
+    "topic": "til",
+    "title": "The year without a summer gave us Frankenstein and the bicycle",
+    "snippet": "In 1815 a volcano in Indonesia erupted. A year later Europe froze in July, and two very different inventions came out of the gloom.",
+    "body": [
+      "In April 1815, Mount Tambora on the island of Sumbawa produced the largest volcanic eruption in recorded history. It killed tens of thousands of people locally, but its strangest effects arrived a year later and half a world away.",
+      "The eruption pushed huge amounts of sulfur aerosols into the stratosphere, where they spread around the globe and reflected sunlight back into space. In 1816, the Northern Hemisphere had what became known as the Year Without a Summer. Snow fell in New England in June. Crops failed across Europe, food prices soared and there were riots and famine. Sunsets painted by artists like J. M. W. Turner from those years glow with unusually vivid reds and oranges, which some researchers link to the ash in the air.",
+      "On the shores of Lake Geneva, a group of young English writers rented the Villa Diodati for the summer and found themselves trapped indoors by relentless storms. Lord Byron proposed a challenge: each of them would write a ghost story. Eighteen-year-old Mary Godwin, soon to be Mary Shelley, began the story that became Frankenstein; or, The Modern Prometheus, published in 1818. Byron's physician, John Polidori, wrote The Vampyre, one of the founding texts of the modern vampire genre.",
+      "Meanwhile in Mannheim, Karl Drais was working on a different problem. Horses needed oats, and oats had become scarce and expensive. In 1817 he presented his Laufmaschine, the 'running machine': two wheels in a line, a wooden frame and handlebars, pushed along by the rider's feet. Historians still debate how directly the failed harvests drove the invention, but the dandy horse, as the English called it, is the direct ancestor of every bicycle you have ever ridden.",
+      "So one cold, grey year produced a monster, a vampire and the bike. Not bad for a summer that never came."
+    ],
+    "source": {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    },
+    "wiki": "Year_Without_a_Summer",
+    "sub": "story",
+    "style": "story",
+    "tags": [
+      "history",
+      "climate",
+      "literature",
+      "bicycle"
+    ],
+    "kind": "longread",
+    "added": "2026-10-17"
+  },
+  "items": [
+    {
+      "id": "til-octopus",
+      "topic": "til",
+      "title": "Octopuses have three hearts and blue blood",
+      "snippet": "Two hearts pump blood through the gills, one through the rest of the body, and that one stops beating when the octopus swims.",
+      "body": "An octopus has two branchial hearts that push blood through its gills and one systemic heart that circulates it to the rest of the body. Their blood is blue because it uses hemocyanin, a copper-based protein, instead of iron-based hemoglobin to carry oxygen. Hemocyanin works well in cold, low-oxygen water but is less efficient overall. The systemic heart stops beating while the octopus swims, which is one reason octopuses prefer crawling: swimming exhausts them quickly.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Octopus"
+      },
+      "wiki": "Octopus",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "animals",
+        "biology"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-oxford",
+      "topic": "til",
+      "title": "Oxford University is older than the Aztec Empire",
+      "snippet": "Teaching at Oxford was happening by 1096. The Aztec capital Tenochtitlan wasn't founded until 1325.",
+      "body": "There is evidence of teaching at Oxford as early as 1096, and it grew rapidly after 1167, when Henry II banned English students from attending the University of Paris. The Mexica people founded Tenochtitlan, the city that became the heart of the Aztec Empire, on an island in Lake Texcoco around 1325. The Triple Alliance that formed the empire proper came in 1428. By then Oxford had already been teaching students for more than three centuries.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/University_of_Oxford"
+      },
+      "wiki": "University_of_Oxford",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "history",
+        "time-perspective"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-cleopatra",
+      "topic": "til",
+      "title": "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid",
+      "snippet": "The Great Pyramid of Giza was finished around 2560 BC. Cleopatra died in 30 BC, about 2,500 years later.",
+      "body": "The Great Pyramid of Giza was built for the pharaoh Khufu and completed around 2560 BC. Cleopatra VII, the last active ruler of the Ptolemaic Kingdom, died in 30 BC, roughly 2,530 years later. Apollo 11 landed on the Moon in 1969, just under 2,000 years after her death. To Cleopatra, the pyramids were already ancient monuments, as old to her as Roman ruins are to us.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cleopatra"
+      },
+      "wiki": "Great_Pyramid_of_Giza",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "history",
+        "time-perspective"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-wombat",
+      "topic": "til",
+      "title": "Wombats produce cube-shaped poop",
+      "snippet": "They're the only animals known to do it, and scientists figured out how in 2018.",
+      "body": "Wombats leave small cubes of dung, often on rocks and logs, to mark their territory. Flat sides stop the cubes rolling away. Researchers at Georgia Tech found that the final part of the wombat's intestine has regions of varying stiffness that sculpt the faeces into cubes as they dry out. The work won an Ig Nobel Prize in 2019 and has even inspired ideas for manufacturing cube-shaped objects with soft materials.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wombat"
+      },
+      "wiki": "Wombat",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "animals",
+        "weird"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-banana",
+      "topic": "til",
+      "title": "Botanically, bananas are berries and strawberries are not",
+      "snippet": "A berry develops from a single flower with one ovary. Bananas fit. Strawberries don't.",
+      "body": "In botany, a berry is a fleshy fruit that develops from the single ovary of one flower and usually contains several seeds. By that definition bananas, grapes, tomatoes, aubergines and even chili peppers are berries. Strawberries are 'aggregate accessory fruits': the red flesh grows from the flower's receptacle, and the little 'seeds' on the outside are actually the true fruits, called achenes. Raspberries and blackberries aren't berries either.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Berry_(botany)"
+      },
+      "wiki": "Banana",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "plants",
+        "food"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-sharks",
+      "topic": "science",
+      "title": "Sharks are older than trees",
+      "snippet": "The earliest shark-like fish appear around 450 million years ago. The first true trees came some 60 million years later.",
+      "body": "Fossil scales suggest shark relatives were swimming in the oceans roughly 450 million years ago, during the Ordovician period. The first plants that we would recognise as trees, such as Wattieza and Archaeopteris, appeared in the Devonian, around 385 to 390 million years ago. Sharks have also survived all five major mass extinctions, including the one that ended the dinosaurs.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shark"
+      },
+      "wiki": "Shark",
+      "style": "til",
+      "tags": [
+        "animals",
+        "evolution"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-eiffel",
+      "topic": "til",
+      "title": "The Eiffel Tower grows about 15 cm in summer",
+      "snippet": "Thermal expansion makes the iron tower taller on hot days, and it leans slightly away from the sun.",
+      "body": "The Eiffel Tower is made of puddled iron, which expands as it warms. On hot summer days the tower can be around 15 centimetres taller than in winter. Because the side facing the sun heats up more than the shaded side, the top also bends a few centimetres away from the sun during the day. Gustave Eiffel's engineers accounted for wind and temperature when designing it in the 1880s.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+      },
+      "wiki": "Eiffel_Tower",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "engineering",
+        "physics"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "til-nintendo",
+      "topic": "til",
+      "title": "Nintendo was founded in 1889 to make playing cards",
+      "snippet": "Before Mario, it made hanafuda cards in Kyoto. It also tried taxis, instant rice and 'love hotels'.",
+      "body": "Fusajiro Yamauchi founded Nintendo Koppai in Kyoto in 1889 to produce handmade hanafuda, Japanese flower-pattern playing cards. In the 1960s, under his great-grandson Hiroshi Yamauchi, the company experimented with very different businesses, including a taxi company, instant rice and short-stay hotels, most of which failed. Toys and then electronic games eventually took over, but Nintendo still sells hanafuda cards today.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nintendo"
+      },
+      "wiki": "Hanafuda",
+      "sub": "til",
+      "style": "til",
+      "tags": [
+        "companies",
+        "games",
+        "history"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "fun-emu",
+      "topic": "fun",
+      "title": "Australia once declared war on emus, and lost",
+      "snippet": "In 1932 soldiers with machine guns were sent after 20,000 emus. The emus won.",
+      "body": "In late 1932, farmers in Western Australia were struggling with around 20,000 emus eating and trampling their wheat. The government sent Major G. P. W. Meredith with soldiers and two Lewis machine guns. The birds scattered into small groups, ran fast and proved very hard to hit. After weeks of effort and thousands of rounds, the operation was withdrawn. Meredith reportedly compared the emus' ability to absorb bullets to that of tanks.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Emu_War"
+      },
+      "wiki": "Emu_War",
+      "style": "story",
+      "tags": [
+        "animals",
+        "history",
+        "absurd"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "fun-stubbs",
+      "topic": "fun",
+      "title": "A cat was the honorary mayor of an Alaskan town for 20 years",
+      "snippet": "Stubbs 'served' Talkeetna from 1997 until his death in 2017, and was a big tourist attraction.",
+      "body": "Talkeetna, a small town in Alaska, has no actual mayor. According to local legend, residents unhappy with the human candidates in 1997 voted for a kitten named Stubbs instead. The role was honorary, but Stubbs became famous, drawing tourists to Nagley's General Store, where he spent his days and reportedly drank catnip-laced water from a wine glass. He held the title until he died in 2017.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stubbs_(cat)"
+      },
+      "wiki": "Stubbs_(cat)",
+      "style": "story",
+      "tags": [
+        "animals",
+        "absurd"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "fun-byron",
+      "topic": "fun",
+      "title": "Lord Byron kept a pet bear at Cambridge",
+      "snippet": "The university banned dogs. Byron noticed that the rules said nothing about bears.",
+      "body": "When George Gordon Byron went to Trinity College, Cambridge, in 1805, he was upset that he couldn't bring his beloved dog, because college rules forbade dogs. Finding no rule against bears, he brought a tame bear instead, and reportedly suggested it should sit for a fellowship. Byron kept an unusual menagerie throughout his life, including monkeys, a fox, peacocks and a badger.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lord_Byron"
+      },
+      "wiki": "Lord_Byron",
+      "style": "til",
+      "tags": [
+        "history",
+        "animals",
+        "absurd"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "fun-boaty",
+      "topic": "fun",
+      "title": "The internet named a ship Boaty McBoatface. Sort of.",
+      "snippet": "It won the 2016 public vote by a landslide. The ship got a serious name, but a little yellow sub kept the joke.",
+      "body": "In 2016, the UK's Natural Environment Research Council asked the public to suggest a name for its new polar research ship. Boaty McBoatface, suggested half-jokingly by a former BBC presenter, won with over 124,000 votes. The ministry chose RRS Sir David Attenborough instead, but gave the name Boaty McBoatface to one of the ship's remotely operated submarines, which has since carried out real scientific missions in Antarctic waters.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boaty_McBoatface"
+      },
+      "wiki": "Boaty_McBoatface",
+      "style": "story",
+      "tags": [
+        "internet",
+        "absurd"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "fun-mike",
+      "topic": "fun",
+      "title": "Mike the Headless Chicken lived for 18 months",
+      "snippet": "In 1945 an axe missed the brain stem. Mike went on tour.",
+      "body": "In September 1945, a farmer in Fruita, Colorado, tried to kill a chicken for dinner, but the axe missed the jugular vein and left most of the brain stem intact. Mike kept walking, tried to preen and was fed with an eyedropper. His owner took him on a sideshow tour across the US, where people paid to see him. He lived for about 18 months. Fruita still holds a Mike the Headless Chicken Festival.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mike_the_Headless_Chicken"
+      },
+      "wiki": "Mike_the_Headless_Chicken",
+      "style": "story",
+      "tags": [
+        "animals",
+        "weird",
+        "history"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "mo-12",
+      "topic": "motion",
+      "title": "The 12 principles of animation came from two Disney veterans",
+      "snippet": "Squash and stretch, anticipation, easing… all collected in a 1981 book by Ollie Johnston and Frank Thomas.",
+      "body": "The 12 basic principles of animation were set out by Disney animators Ollie Johnston and Frank Thomas in their 1981 book The Illusion of Life. They include squash and stretch, anticipation, staging, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration and appeal. Originally meant for character animation, they now underpin UI motion and motion graphics: every easing curve in After Effects is basically 'slow in and slow out'.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation"
+      },
+      "wiki": "Twelve_basic_principles_of_animation",
+      "sub": "techniques",
+      "style": "til",
+      "tags": [
+        "animation-principles",
+        "easing"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "mo-fischinger",
+      "topic": "motion",
+      "title": "Oskar Fischinger worked on Fantasia and quit uncredited",
+      "snippet": "The pioneer of abstract animation found Disney made his designs too literal.",
+      "body": "German animator Oskar Fischinger made abstract films synchronised to music in the 1920s and 30s, long before music videos existed. Disney hired him to work on the Toccata and Fugue in D Minor segment of Fantasia (1940). Unhappy that his abstract designs were being made more figurative and representational, he left the project and is not credited. His films, such as An Optical Poem and Motion Painting No. 1, remain landmarks of visual music.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oskar_Fischinger"
+      },
+      "wiki": "Oskar_Fischinger",
+      "sub": "history",
+      "style": "story",
+      "tags": [
+        "abstract-animation",
+        "film",
+        "music"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "mo-ae",
+      "topic": "motion",
+      "title": "After Effects wasn't made by Adobe",
+      "snippet": "It was created in 1993 by a small company in Rhode Island called CoSA.",
+      "body": "After Effects was developed by the Company of Science and Art (CoSA) in Providence, Rhode Island, and released in 1993 for the Mac. CoSA was bought by Aldus later that year, and Adobe acquired Aldus in 1994, taking After Effects with it. Version 3.1 was the first Windows release. Over three decades later, the core idea of layers in a composition over time is still recognisably the same.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adobe_After_Effects"
+      },
+      "wiki": "Adobe_After_Effects",
+      "sub": "tools",
+      "style": "til",
+      "tags": [
+        "after-effects",
+        "history"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "mo-roto",
+      "topic": "motion",
+      "title": "Rotoscoping was patented in 1917",
+      "snippet": "Max Fleischer traced over film of his brother in a clown suit. That became Koko the Clown.",
+      "body": "Animator Max Fleischer invented the rotoscope around 1915: a device that projected live-action film frame by frame onto a glass panel so artists could trace it. His brother Dave, dressed as a clown, was the reference for Koko the Clown in the Out of the Inkwell series. Fleischer received a patent in 1917. Today the term covers everything from hand-traced animation to tracing masks in After Effects' Roto Brush.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rotoscoping"
+      },
+      "wiki": "Rotoscoping",
+      "sub": "techniques",
+      "style": "til",
+      "tags": [
+        "rotoscoping",
+        "history"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "ai-llamacpp",
+      "topic": "ai",
+      "title": "llama.cpp began as a weekend hack to run LLaMA on a MacBook",
+      "snippet": "In March 2023 Georgi Gerganov ported Meta's model to plain C/C++. It kicked off the local LLM scene.",
+      "body": "When Meta's LLaMA weights became available in early 2023, running them usually meant big GPUs and Python stacks. Georgi Gerganov wrote llama.cpp, a dependency-free C/C++ implementation that could run the model on a laptop CPU using quantised weights. The project grew into the backbone of local AI: its GGUF file format is now used by tools like Ollama and LM Studio, and it supports dozens of model families on CPUs, Apple Silicon and GPUs.",
+      "source": {
+        "id": "github",
+        "name": "GitHub",
+        "url": "https://github.com/ggml-org/llama.cpp"
+      },
+      "wiki": "Llama.cpp",
+      "sub": "local-llm",
+      "style": "story",
+      "tags": [
+        "llama-cpp",
+        "open-source",
+        "llm"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "ai-quant",
+      "topic": "ai",
+      "title": "Why a 4-bit model fits on your GPU",
+      "snippet": "An 8B model needs about 16 GB at 16-bit, but only about 5 GB when quantised to 4-bit.",
+      "body": "Each model parameter is normally stored as a 16-bit number, so an 8-billion-parameter model takes about 16 GB of memory just for its weights. Quantisation stores weights with fewer bits, such as 8, 5 or 4, grouping them and keeping scale factors to preserve accuracy. A 4-bit version of the same model needs roughly 4.5 to 5 GB and usually loses surprisingly little quality. Rule of thumb: Q4_K_M or Q5_K_M quantisations are a sweet spot for local use.",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face docs",
+        "url": "https://huggingface.co/docs/optimum/concept_guides/quantization"
+      },
+      "wiki": "Quantization_(signal_processing)",
+      "sub": "local-llm",
+      "style": "explainer",
+      "tags": [
+        "quantization",
+        "vram",
+        "llm"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "ai-sd",
+      "topic": "ai",
+      "title": "Stable Diffusion made image generation a local thing",
+      "snippet": "Its open weights, released in August 2022, ran on a consumer GPU. Everything from ComfyUI to LoRAs grew from that.",
+      "body": "Before Stable Diffusion, high-quality text-to-image models lived behind APIs. Stability AI, with CompVis and Runway, released the model's weights in August 2022, and it could run on a gaming GPU with around 8 GB of VRAM. It works in a compressed latent space, which is why it is so much lighter than earlier pixel-space diffusion models. An entire ecosystem followed: fine-tunes, LoRAs, ControlNet and node-based interfaces like ComfyUI.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stable_Diffusion"
+      },
+      "wiki": "Stable_Diffusion",
+      "sub": "image-video",
+      "style": "story",
+      "tags": [
+        "stable-diffusion",
+        "open-weights",
+        "image-gen"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "ai-comfy",
+      "topic": "ai",
+      "title": "ComfyUI: generation as a node graph",
+      "snippet": "If you think in After Effects precomps or Nuke nodes, ComfyUI will feel familiar.",
+      "body": "ComfyUI is an open-source, node-based interface for diffusion models. Instead of a single prompt box, you wire together nodes: load a model, encode text, sample, decode, upscale and so on. Workflows can be saved as JSON or even embedded in the PNG images they produce, so you can drag an image back in to recover the exact graph. It supports image, video and audio models, and is a natural fit for motion designers used to node compositing.",
+      "source": {
+        "id": "github",
+        "name": "GitHub",
+        "url": "https://github.com/comfyanonymous/ComfyUI"
+      },
+      "wiki": "ComfyUI",
+      "sub": "image-video",
+      "style": "explainer",
+      "tags": [
+        "comfyui",
+        "nodes",
+        "image-gen"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "ai-whisper",
+      "topic": "ai",
+      "title": "Whisper can transcribe your videos offline",
+      "snippet": "OpenAI open-sourced it in 2022. whisper.cpp runs it fast even without a big GPU.",
+      "body": "Whisper is a speech recognition model released by OpenAI as open source in September 2022, trained on 680,000 hours of multilingual audio. It handles accents, background noise and many languages, including Portuguese, and can translate to English. whisper.cpp, from the llama.cpp author, runs it efficiently on CPUs and Apple Silicon. Practical use: generating subtitles for motion pieces or client videos without uploading anything.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system)"
+      },
+      "wiki": "Whisper_(speech_recognition_system)",
+      "sub": "motion-ai",
+      "style": "explainer",
+      "tags": [
+        "whisper",
+        "subtitles",
+        "speech"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "bk-hour",
+      "topic": "bike",
+      "title": "Eddy Merckx called the Hour Record the hardest ride of his life",
+      "snippet": "In 1972 in Mexico City he rode 49.431 km in 60 minutes, and said he never wanted to do it again.",
+      "body": "The Hour Record is simple: ride as far as possible on a track in one hour. In October 1972, Eddy Merckx chose Mexico City's high altitude, where the thin air reduces drag, and covered 49.431 km on a traditional steel bike. He said afterwards it was the hardest ride of his life. The rules were later tightened so that modern attempts on aero bikes are compared fairly. The current record is well over 56 km.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hour_record"
+      },
+      "wiki": "Hour_record",
+      "sub": "history",
+      "style": "story",
+      "tags": [
+        "hour-record",
+        "merckx",
+        "track"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "bk-roubaix",
+      "topic": "bike",
+      "title": "The winner of Paris–Roubaix takes home a cobblestone",
+      "snippet": "The 'Hell of the North' trophy is a real pavé stone mounted on a base.",
+      "body": "Paris–Roubaix, first raced in 1896, is famous for its rough cobbled sectors through northern France, rated from one to five stars by difficulty, such as the Trouée d'Arenberg. Instead of a cup, the winner receives a cobblestone mounted on a plinth. Riders finish with a lap of the old Roubaix velodrome and wash off in the historic concrete shower stalls, each one marked with a plaque for a past winner.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Paris%E2%80%93Roubaix"
+      },
+      "wiki": "Paris–Roubaix",
+      "sub": "history",
+      "style": "til",
+      "tags": [
+        "paris-roubaix",
+        "cobbles",
+        "racing"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "bk-tdf",
+      "topic": "bike",
+      "title": "The Tour de France was invented to sell newspapers",
+      "snippet": "In 1903 the sports paper L'Auto needed a publicity stunt. It worked.",
+      "body": "L'Auto was struggling against its rival Le Vélo when journalist Géo Lefèvre proposed a race around France. The first Tour de France ran in July 1903: six stages, some longer than 400 km, often ridden through the night. Maurice Garin won. L'Auto's sales soared, and the yellow jersey, introduced in 1919, is said to be yellow because the newspaper was printed on yellow paper.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tour_de_France"
+      },
+      "wiki": "1903_Tour_de_France",
+      "sub": "history",
+      "style": "til",
+      "tags": [
+        "tour-de-france",
+        "racing"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "bk-peloton",
+      "topic": "bike",
+      "title": "Deep in the peloton you may face just 5–10% of the drag",
+      "snippet": "Wind tunnel and simulation research in 2018 found drafting is far stronger than once thought.",
+      "body": "Aerodynamic drag is the main force a cyclist fights at speed. A 2018 study led by Bert Blocken, using wind tunnel tests and simulations of a 121-rider peloton, found that riders in the middle and rear can experience as little as 5 to 10% of the drag of a rider alone. That is why breakaways struggle and why team positioning matters so much. On a club ride it applies too: sit on a wheel and you save a lot of energy.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Peloton"
+      },
+      "wiki": "Peloton",
+      "sub": "technique",
+      "style": "explainer",
+      "tags": [
+        "drafting",
+        "aerodynamics"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "bk-drais",
+      "topic": "bike",
+      "title": "The first bicycle had no pedals",
+      "snippet": "Karl Drais's 1817 'running machine' was pushed along with your feet, like a kids' balance bike.",
+      "body": "In June 1817, Karl Drais rode his Laufmaschine about 7 km out of Mannheim and back in under an hour. It had two wheels in line, a steerable front wheel and a wooden frame, but no pedals: the rider pushed off the ground. In Britain it became the 'dandy horse' or 'hobby horse'. Pedals arrived decades later with the velocipede. Today's balance bikes for toddlers are basically Drais's invention.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dandy_horse"
+      },
+      "wiki": "Dandy_horse",
+      "sub": "history",
+      "style": "til",
+      "tags": [
+        "bicycle-history",
+        "inventions"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "tr-repair",
+      "topic": "tech",
+      "title": "The right to repair is becoming law",
+      "snippet": "The EU adopted a right-to-repair directive in 2024. Manufacturers must offer repairs for years after purchase.",
+      "body": "The right-to-repair movement argues that owners should be able to fix their own devices or choose independent repairers. The EU adopted a directive in 2024 requiring manufacturers to repair certain products, such as washing machines and phones, beyond the warranty period and to make spare parts available at reasonable prices. Several US states have passed similar laws. Repairability scores and modular devices are part of the same trend.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Right_to_repair"
+      },
+      "wiki": "Right_to_repair",
+      "style": "news",
+      "tags": [
+        "right-to-repair",
+        "eu",
+        "policy"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "tr-lofi",
+      "topic": "design",
+      "title": "One anime girl studying has been streaming for years",
+      "snippet": "Lofi Girl's '24/7 beats to relax/study to' turned a genre into a global habit.",
+      "body": "The YouTube channel now called Lofi Girl started its round-the-clock stream in 2017, with a looping animation of a girl studying by a window, inspired by the film Whisper of the Heart. The stream has run almost continuously since, with tens of thousands watching at any time. It helped turn lo-fi hip hop into a mainstream background genre, and the loop itself is a small masterclass in how minimal motion can hold attention for hours.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lofi_Girl"
+      },
+      "wiki": "Lofi_Girl",
+      "style": "story",
+      "tags": [
+        "lofi",
+        "animation-loop",
+        "youtube"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "tr-indieweb",
+      "topic": "tech",
+      "title": "The 'small web' is quietly coming back",
+      "snippet": "Personal sites, RSS and blogs are back in fashion as people step away from algorithmic feeds.",
+      "body": "The IndieWeb movement encourages people to publish on their own websites rather than platforms they don't control, then share outward. Related trends include the revival of RSS readers, personal newsletters, 'digital gardens' and webrings. The appeal is a slower, more human internet without engagement-optimised feeds, which is very much the idea behind this app.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IndieWeb"
+      },
+      "wiki": "IndieWeb",
+      "style": "explainer",
+      "tags": [
+        "indieweb",
+        "rss",
+        "internet"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "tr-dumb",
+      "topic": "tech",
+      "title": "Dumbphones are cool again",
+      "snippet": "Some people are swapping smartphones for simple phones to get their attention back.",
+      "body": "Sales of basic 'feature phones' never disappeared, but a newer wave of buyers chooses them deliberately to cut down on screen time. Products range from cheap flip phones to designed minimalist devices with E Ink screens. Others go halfway with greyscale mode, app timers or apps that limit feeds. The common thread is the same: people want their phones to be tools again, not slot machines.",
+      "source": {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Feature_phone"
+      },
+      "wiki": "Feature_phone",
+      "style": "explainer",
+      "tags": [
+        "dumbphones",
+        "attention",
+        "phones"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "pt-nata",
+      "topic": "pt",
+      "title": "O pastel de nata nasceu num mosteiro",
+      "snippet": "Os monges dos Jerónimos usavam claras para engomar a roupa. Sobravam gemas, e alguém decidiu fazer bolos.",
+      "body": "Nos conventos portugueses usavam-se muitas claras de ovo para engomar hábitos e clarificar vinho, e as gemas que sobravam deram origem a grande parte da doçaria conventual. Os pastéis de nata terão nascido no Mosteiro dos Jerónimos, em Belém. Depois da extinção das ordens religiosas em 1834, a receita foi vendida e, em 1837, abriu a Fábrica dos Pastéis de Belém, que ainda hoje guarda a receita original em segredo.",
+      "source": {
+        "id": "wikipedia-pt",
+        "name": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Pastel_de_nata"
+      },
+      "wiki": "Pastel_de_nata",
+      "sub": "curiosidades",
+      "style": "til",
+      "tags": [
+        "comida",
+        "historia"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "pt-cortica",
+      "topic": "pt",
+      "title": "Cerca de metade da cortiça do mundo vem de Portugal",
+      "snippet": "O sobreiro é árvore nacional e é tirado sem ser abatido. A primeira tiragem só acontece aos 25 anos.",
+      "body": "Portugal é o maior produtor mundial de cortiça, com cerca de metade da produção, sobretudo no Alentejo. A cortiça é a casca do sobreiro e é extraída à mão, sem cortar a árvore. A primeira tiragem acontece quando o sobreiro tem cerca de 25 anos, e depois repete-se de nove em nove anos. Por lei, o sobreiro é protegido e não pode ser abatido sem autorização. A cortiça é usada em rolhas, isolamento e até em escudos térmicos de foguetões.",
+      "source": {
+        "id": "wikipedia-pt",
+        "name": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Corti%C3%A7a"
+      },
+      "wiki": "Cork_(material)",
+      "sub": "curiosidades",
+      "style": "til",
+      "tags": [
+        "natureza",
+        "economia"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "pt-agostinho",
+      "topic": "pt",
+      "title": "Joaquim Agostinho venceu no Alpe d'Huez",
+      "snippet": "Começou a correr tarde, depois da tropa, e acabou duas vezes no pódio do Tour.",
+      "body": "Joaquim Agostinho, de Torres Vedras, só começou no ciclismo profissional depois de cumprir o serviço militar em Moçambique. Mesmo assim, tornou-se o maior ciclista português da sua geração: foi terceiro na Volta a França em 1978 e 1979 e, em 1979, venceu a etapa mítica do Alpe d'Huez. Morreu em 1984 após uma queda na Volta ao Algarve, quando um cão se atravessou na estrada. Há uma estátua sua no Alpe d'Huez.",
+      "source": {
+        "id": "wikipedia-pt",
+        "name": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Joaquim_Agostinho"
+      },
+      "wiki": "Joaquim_Agostinho",
+      "sub": "curiosidades",
+      "style": "story",
+      "tags": [
+        "ciclismo",
+        "historia"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "pt-1755",
+      "topic": "pt",
+      "title": "O terramoto de 1755 ajudou a criar a sismologia moderna",
+      "snippet": "Depois da catástrofe, o Marquês de Pombal enviou um inquérito a todas as paróquias do país.",
+      "body": "Na manhã de 1 de novembro de 1755, um sismo seguido de tsunami e incêndios destruiu grande parte de Lisboa. O Marquês de Pombal mandou enviar um questionário às paróquias do país, perguntando quanto tempo durou o abalo, quantas réplicas houve e o que aconteceu ao nível da água nos poços. As respostas permitem ainda hoje estudar o sismo, e o inquérito é visto como um dos primeiros estudos científicos de um terramoto. A Baixa pombalina foi reconstruída com a 'gaiola', uma estrutura de madeira anti-sísmica.",
+      "source": {
+        "id": "wikipedia-pt",
+        "name": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Sismo_de_Lisboa_de_1755"
+      },
+      "wiki": "1755_Lisbon_earthquake",
+      "sub": "curiosidades",
+      "style": "story",
+      "tags": [
+        "historia",
+        "ciencia"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    },
+    {
+      "id": "pt-volta",
+      "topic": "pt",
+      "title": "A Volta a Portugal existe desde 1927",
+      "snippet": "É uma das voltas por etapas mais antigas do mundo, e a Senhora da Graça é o seu Alpe d'Huez.",
+      "body": "A primeira Volta a Portugal em Bicicleta realizou-se em 1927 e foi ganha por Augusto Carvalho. Hoje corre-se normalmente no início de agosto, e a subida à Senhora da Graça, em Mondim de Basto, é muitas vezes decisiva, com milhares de pessoas na berma. Nomes como Alves Barbosa, Joaquim Agostinho, Marco Chagas e David Blanco marcaram a sua história.",
+      "source": {
+        "id": "wikipedia-pt",
+        "name": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Volta_a_Portugal_em_Bicicleta"
+      },
+      "wiki": "Volta_a_Portugal",
+      "sub": "curiosidades",
+      "style": "til",
+      "tags": [
+        "ciclismo",
+        "historia"
+      ],
+      "kind": "evergreen",
+      "added": "2026-10-17"
+    }
+  ]
+}

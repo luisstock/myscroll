@@ -1,0 +1,18 @@
+{
+  "name": "myscroll",
+  "private": true,
+  "type": "module",
+  "description": "A finite, agent-curated daily reading feed.",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "edition": "node scripts/pipeline/run.mjs",
+    "gather": "node scripts/pipeline/run.mjs --dry",
+    "build": "node scripts/build-edition.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@mozilla/readability": "0.6.0",
+    "fast-xml-parser": "5.11.2",
+    "linkedom": "0.18.13"
+  }
+}

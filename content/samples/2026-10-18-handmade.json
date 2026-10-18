@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-18",
+  "number": 2,
+  "longread": {
+    "id": "lr-accidents", "topic": "til", "sub": "cracked", "style": "cracked", "kind": "longread",
+    "tags": ["inventions", "history", "science"],
+    "title": "5 everyday things that exist because someone messed up",
+    "snippet": "A melted chocolate bar, a mouldy dish, a glue that didn't stick. Some of the best inventions started as failures.",
+    "body": [
+      "1. The microwave oven. In 1945, Raytheon engineer Percy Spencer was working near a magnetron, the tube that generates microwaves for radar, when he noticed the chocolate bar in his pocket had melted. He tried popcorn kernels next, and they popped. Raytheon patented the idea, and the first commercial microwave oven, the Radarange, appeared in 1947. It was nearly 1.8 metres tall and weighed around 340 kg.",
+      "2. Penicillin. In 1928, Alexander Fleming came back from a holiday to find that mould had contaminated one of his bacteria cultures, and that the bacteria around the mould had died. The mould was Penicillium. It took more than a decade and a team at Oxford to turn it into a usable drug, but it went on to save millions of lives.",
+      "3. Post-it notes. In 1968, 3M chemist Spencer Silver was trying to make a super-strong adhesive and made the opposite: a weak glue that could be peeled off and reused. Nobody knew what to do with it until 1974, when his colleague Art Fry wanted a bookmark that wouldn't fall out of his church hymnal. Post-its went on sale in 1980.",
+      "4. The Slinky. In 1943, naval engineer Richard James was working on springs to stabilise sensitive equipment on ships when one fell off a shelf and kept 'walking' instead of stopping. He and his wife Betty turned it into a toy. The first 400 sold out in about 90 minutes at a Philadelphia department store in 1945.",
+      "5. Super Glue. In 1942, Harry Coover at Eastman Kodak was trying to make clear plastic gun sights. One material, a cyanoacrylate, stuck to everything it touched, so it was rejected as useless. Nine years later he realised that was the point. It went on sale in 1958.",
+      "The lesson, if there is one: notice the weird result instead of throwing it away."
+    ],
+    "source": { "id": "wikipedia", "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Serendipity" },
+    "wiki": "Slinky"
+  },
+  "items": [
+    {
+      "id": "ai-muse-spark-open", "topic": "ai", "sub": "frontier", "style": "news", "kind": "news",
+      "published": "2026-10-15", "tags": ["open-weights", "llm", "meta", "mlx"],
+      "title": "Meta releases Muse Spark Open, an 816B open-weight model",
+      "snippet": "A natively multimodal MoE with 42B active parameters and a 1M-token context. Meta says it runs on two Mac Studios.",
+      "body": [
+        "Meta has released the weights of Muse Spark Open, which it calls the most capable US open-weight model to date. It's a mixture-of-experts model with 816 billion total parameters, of which 42 billion are active for each token, and a context window of 1 million tokens. Meta pitches it at coding, agentic work and long, multi-step reasoning.",
+        "For local AI fans, the interesting bit is the hardware claim: Meta says it runs on a desktop setup of two Apple M5 Ultra Mac Studios using MLX. Support is listed for llama.cpp, vLLM, SGLang, Transformers and Unsloth, and weights are on Hugging Face.",
+        "The licence is Meta's own Muse Model License, with limited commercial terms, so check it before using it for client work."
+      ],
+      "source": { "id": "meta-ai", "name": "Meta AI Research", "url": "https://research.meta.ai/blog/muse-spark-open" },
+      "wiki": "Meta_Platforms"
+    },
+    {
+      "id": "ai-minimax-h3", "topic": "ai", "sub": "image-video", "style": "explainer", "kind": "evergreen",
+      "published": "2026-08-03", "tags": ["comfyui", "video-gen", "open-weights", "audio"],
+      "title": "In case you missed it: MiniMax H3 makes video and stereo sound locally",
+      "snippet": "An open-weights video model with native audio, up to 15 seconds per clip, supported in ComfyUI from day one.",
+      "body": [
+        "MiniMax H3 generates video from text, images, video or audio, with four modes: text-to-video, image-to-video, first-and-last-frame and reference-to-video. Audio is generated in the same pass as the picture, in stereo, rather than added afterwards. Clips can be up to 15 seconds.",
+        "It also supports motion transfer: a reference video supplies the movement while other inputs supply subject and style, which is very relevant for motion design experiments.",
+        "ComfyUI says the smallest variants cut memory from 123.6 GB to 42.5 GB, and with dynamic VRAM offloading it can run on a card like an RTX 3060. You need ComfyUI 0.30.0 or later; there are I2V, R2V and T2V workflow templates."
+      ],
+      "source": { "id": "comfy-blog", "name": "ComfyUI blog", "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui" }
+    },
+    {
+      "id": "ai-ae-assistant", "topic": "ai", "sub": "motion-ai", "style": "news", "kind": "evergreen",
+      "published": "2026-09", "tags": ["after-effects", "agents", "adobe"],
+      "title": "After Effects is testing an AI assistant that drives the app for you",
+      "snippet": "Alongside the 26.5 update, Adobe opened a beta of an agentic assistant you control with plain-language instructions.",
+      "body": [
+        "Adobe released After Effects 26.5 as a workflow and performance update; one notable change is disk caching for the Object Matte tool.",
+        "More interesting is a separate beta: an experimental, agentic AI Assistant that lets you control After Effects by typing detailed natural-language instructions. In other words, the kind of thing you'd normally write an ExtendScript for, done by describing it.",
+        "Worth watching if you build AE tools: it may change what's worth scripting by hand."
+      ],
+      "source": { "id": "cgchannel", "name": "CG Channel", "url": "https://www.cgchannel.com/2026/09/adobe-releases-after-effects-26-5-and-new-ai-assistant-in-beta/" }
+    },
+    {
+      "id": "mo-perfect-screen", "topic": "motion", "sub": "tools", "style": "news", "kind": "evergreen",
+      "tags": ["after-effects", "plugins", "mockups"],
+      "title": "Perfect Screen: a new AE plugin for realistic LCD screens",
+      "snippet": "ProductionCrate's latest plugin fakes real displays with 3D perspective and animation presets.",
+      "body": [
+        "ProductionCrate added Perfect Screen 1.0 to its After Effects and Premiere plugins. It simulates realistic LCD screens, with 3D perspective and animation presets, which is handy for screen-replacement shots and UI mockups that need to feel physical.",
+        "Note: the company's LaForge Suite has been renamed ProductionCrate Plugins, so you may see both names around."
+      ],
+      "source": { "id": "productioncrate", "name": "ProductionCrate", "url": "https://www.productioncrate.com/plugins" }
+    },
+    {
+      "id": "mo-bass", "topic": "motion", "sub": "history", "style": "video", "kind": "evergreen",
+      "tags": ["title-design", "film", "typography"],
+      "title": "Saul Bass turned opening titles into an art form",
+      "snippet": "Before him, credits were often projected on the closed theatre curtain. After him, they set the tone of the film.",
+      "body": [
+        "Graphic designer Saul Bass changed film titles in the 1950s with sequences for The Man with the Golden Arm (1955), Vertigo (1958), North by Northwest and Psycho. He used simple cut-paper shapes, kinetic typography and bold colour to suggest a film's themes before it began.",
+        "His work is still a reference for motion designers: limited palettes, graphic shapes and every movement carrying meaning. This short documentary from Fandor is a good introduction."
+      ],
+      "video": { "provider": "youtube", "id": "aPBWvfMKV10", "title": "Saul Bass: The Name Behind the Titles" },
+      "source": { "id": "youtube", "name": "Fandor (YouTube)", "url": "https://www.youtube.com/watch?v=aPBWvfMKV10" }
+    },
+    {
+      "id": "mo-mclaren", "topic": "motion", "sub": "history", "style": "video", "kind": "evergreen",
+      "tags": ["experimental", "film", "stop-motion"],
+      "title": "Watch Neighbours, Norman McLaren's Oscar-winning pixilation film",
+      "snippet": "He drew straight onto film and even drew the soundtrack. The NFB has this one free on YouTube.",
+      "body": [
+        "Working at the National Film Board of Canada, Norman McLaren painted and scratched images straight onto film stock, and in some films drew shapes onto the optical soundtrack to synthesise sound.",
+        "Neighbours (1952) uses pixilation, stop-motion with live actors, to tell an anti-war fable about two men fighting over a flower. It won an Academy Award and still feels startlingly modern. Eight minutes, well spent."
+      ],
+      "video": { "provider": "youtube", "id": "e_aSowDUUaY", "title": "NEIGHBOURS | National Film Board of Canada" },
+      "source": { "id": "nfb", "name": "NFB (YouTube)", "url": "https://www.youtube.com/watch?v=e_aSowDUUaY" }
+    },
+    {
+      "id": "bk-gravel-worlds", "topic": "bike", "sub": "gravel", "style": "news", "kind": "news",
+      "published": "2026-10-11", "tags": ["gravel-racing", "worlds", "vos"],
+      "title": "Vos and Klaris take the Gravel World titles in Western Australia",
+      "snippet": "Marianne Vos soloed in after Rosa Klöser crashed in the finale; Magnus Bak Klaris won a four-up sprint.",
+      "body": [
+        "The 2026 UCI Gravel World Championships were held in Nannup, Western Australia, the first edition outside Europe.",
+        "In the elite women's race (123.1 km), Marianne Vos and Germany's Rosa Klöser attacked together, but Klöser crashed in the finale and Vos rode on alone for another rainbow jersey. Klöser still took silver, with Larissa Hartog third.",
+        "The elite men's race (140.7 km) came down to a four-rider sprint. Denmark's Magnus Bak Klaris beat defending champion Florian Vermeersch and Britain's Connor Swift, with his teammate Mads Würtz Schmidt also in the group."
+      ],
+      "source": { "id": "cyclingnews-gravel", "name": "Cyclingnews", "url": "https://www.cyclingnews.com/uci-gravel-world-championships/" },
+      "wiki": "UCI_Gravel_World_Championships"
+    },
+    {
+      "id": "bk-velo-test", "topic": "bike", "sub": "gear", "style": "news", "kind": "news",
+      "published": "2026-10-15", "tags": ["gravel-bikes", "reviews"],
+      "title": "Velo stress-tested six very different gravel bikes",
+      "snippet": "Part of its 2027 field test: what the 'future of gravel' looks like, from racy to rugged.",
+      "body": [
+        "Velo put six gravel bikes with very different philosophies through the same set of field challenges for its 2027 gravel bike test, looking at where the category is heading.",
+        "A useful read if you're thinking about your next bike, or just curious how far geometry, tyre clearance and suspension ideas have spread across gravel."
+      ],
+      "source": { "id": "velo-gravel", "name": "Velo", "url": "https://velo.outsideonline.com/gravel/gravel-gear/velo-future-gravel-bike-field-test-challenges" }
+    },
+    {
+      "id": "bk-gcn-mistakes", "topic": "bike", "sub": "technique", "style": "video", "kind": "evergreen",
+      "tags": ["gravel-skills", "cornering", "gcn"],
+      "title": "8 gravel riding mistakes to stop making",
+      "snippet": "GCN on the classics: sliding out in corners, wrong tyre pressure, staring at the obstacle.",
+      "body": [
+        "A quick GCN video on common gravel errors, from sliding out in corners to the classic 'you go where you look' problem.",
+        "Tip worth keeping from the GCN channel: practise braking and even falling on thick grass, like a park. Learning to fall is priceless."
+      ],
+      "video": { "provider": "youtube", "id": "T_Vd6PmDq8w", "title": "How To Avoid These 8 Gravel Riding Mistakes" },
+      "source": { "id": "gcn", "name": "GCN (YouTube)", "url": "https://www.youtube.com/watch?v=T_Vd6PmDq8w" }
+    },
+    {
+      "id": "bk-tpc-corner", "topic": "bike", "sub": "technique", "style": "video", "kind": "evergreen",
+      "tags": ["gravel-skills", "descending", "cornering"],
+      "title": "How to corner and descend on a gravel bike",
+      "snippet": "Six handling tips from The Pro's Closet, filmed as Unbound Gravel prep.",
+      "body": [
+        "Loose surfaces punish road habits. This video goes through body position, braking before the corner, line choice and staying loose on the bike when the gravel gets deep.",
+        "Good one to watch before a weekend ride with fast descents."
+      ],
+      "video": { "provider": "youtube", "id": "WVXgAqpjOAs", "title": "How to Corner & Descend On Your Gravel Bike" },
+      "source": { "id": "youtube", "name": "The Pro's Closet (YouTube)", "url": "https://www.youtube.com/watch?v=WVXgAqpjOAs" }
+    },
+    {
+      "id": "tech-iphone-duo", "topic": "tech", "style": "news", "kind": "news",
+      "published": "2026-10-16", "tags": ["apple", "foldables", "phones"],
+      "title": "Apple's first foldable, the iPhone Duo, lands on 23 October",
+      "snippet": "It starts at $1,999. Preorders opened on 16 October and reportedly sold out quickly.",
+      "body": [
+        "Apple's first foldable phone, the iPhone Duo, starts at $1,999. Preorders opened on 16 October and the phone launches on 23 October; one report says the first batch sold out almost instantly.",
+        "Apple also has a media event in Los Angeles on 28 October, where touchscreen MacBooks, an OLED iPad mini and M6 Macs are expected."
+      ],
+      "source": { "id": "bgr", "name": "BGR", "url": "https://www.bgr.com/2278190/new-gadgets-keep-on-radar-october-2026/" }
+    },
+    {
+      "id": "sci-perseverance", "topic": "science", "style": "news", "kind": "news",
+      "published": "2026-10-11", "tags": ["mars", "rovers", "records"],
+      "title": "Perseverance just became the farthest-driving vehicle on another world",
+      "snippet": "45.22 km on Mars, passing Opportunity's 45.16 km. It took 5.5 years; Opportunity needed nearly 15.",
+      "body": [
+        "On 11 October, a 91-metre drive towards a region of ancient eroded rocks called 'Idubi' took NASA's Perseverance rover to 45.22 km on its odometer. That beats the 45.16 km set by Opportunity, which went silent in 2018 when a planet-wide dust storm covered its solar panels.",
+        "Perseverance got there in about five and a half years. Opportunity needed nearly 15. Most of the distance was driven autonomously by the rover's AutoNav system, which picks its own path between waypoints. Guinness World Records has made it official."
+      ],
+      "source": { "id": "guinness", "name": "Guinness World Records", "url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars" },
+      "wiki": "Perseverance_(rover)"
+    },
+    {
+      "id": "til-venus", "topic": "science", "style": "til", "kind": "evergreen",
+      "tags": ["space", "planets"],
+      "title": "A day on Venus is longer than its year",
+      "snippet": "Venus takes 243 Earth days to spin once, but only 225 to orbit the Sun. It also spins backwards.",
+      "body": "Venus rotates extremely slowly: one full rotation relative to the stars takes about 243 Earth days, while one orbit around the Sun takes about 225. It also rotates in the opposite direction to most planets, so on Venus the Sun would rise in the west and set in the east. Because rotation and orbit combine, the time from one sunrise to the next is about 117 Earth days, though you'd never see it through the thick clouds.",
+      "source": { "id": "wikipedia", "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Venus" },
+      "wiki": "Venus"
+    },
+    {
+      "id": "de-designed-to-be-red", "topic": "design", "style": "news", "kind": "news",
+      "published": "2026-10-15", "tags": ["exhibitions", "posters", "native-art"],
+      "title": "'Designed to Be Red': the first big survey of Native graphic arts",
+      "snippet": "At New York's Poster House until February, asking where craft ends and graphic design begins.",
+      "body": [
+        "Poster House in New York has opened 'Designed to Be Red', described as the first survey of Native graphic arts. It mixes objects that don't usually sit together in a design museum, like a ceramic wampum belt, and asks where they fall between craft, graphic arts and sculpture.",
+        "It runs until next February."
+      ],
+      "source": { "id": "artnews", "name": "ARTnews", "url": "https://artnews.com/art-news/news/a-landmark-survey-of-native-graphic-arts-defies-expectations-1234802351" }
+    },
+    {
+      "id": "de-serif-trend", "topic": "design", "style": "explainer", "kind": "evergreen",
+      "tags": ["typography", "trends", "ai-backlash"],
+      "title": "Why serifs and 70s lettering are back",
+      "snippet": "Designers are reacting against the over-polished 'AI look' with warmer, quirkier type.",
+      "body": [
+        "Creative Bloq's look at 2026 typography trends points to two related moves: a return of 1960s and 70s photo-lettering, recreated as crisp digital revivals, and a rise in serifs.",
+        "The common thread is a reaction against smooth, generic visuals that read as AI-made. Character, imperfection and personality are back in fashion, which is good news for motion typography too."
+      ],
+      "source": { "id": "creative-bloq", "name": "Creative Bloq", "url": "https://www.creativebloq.com/design/fonts-typography/breaking-rules-and-bringing-joy-top-typography-trends-for-2026" }
+    },
+    {
+      "id": "fun-design-fails", "topic": "fun", "style": "list", "kind": "news",
+      "published": "2026-10-15", "tags": ["design-fails", "internet", "absurd"],
+      "title": "24 design fails found in the wild",
+      "snippet": "Signs, packaging and buildings where someone, somewhere, should have looked twice.",
+      "body": "A fresh batch from the FAIL Blog: real-world design decisions that went wrong, from confusing signs to unfortunate layouts. Quick, silly and oddly educational if you design things for a living.",
+      "source": { "id": "cheezburger", "name": "FAIL Blog", "url": "https://cheezburger.com/47127813/24-design-fails-found-in-the-wild-october-15-2026" }
+    },
+    {
+      "id": "pt-bd", "topic": "pt", "sub": "news", "style": "news", "kind": "news", "lang": "pt",
+      "published": "2026-10-18", "tags": ["cultura", "banda-desenhada"],
+      "title": "Hoje é o Dia Nacional da Banda Desenhada Portuguesa",
+      "snippet": "O 18 de outubro é dedicado à BD feita em Portugal. Outubro tem outros dias curiosos, como o Dia Nacional dos Castelos.",
+      "body": [
+        "O calendário de outubro tem várias datas pouco conhecidas: 7 de outubro é o Dia Nacional dos Castelos, 8 de outubro o Dia Mundial do Polvo e hoje, 18 de outubro, é o Dia Nacional da Banda Desenhada Portuguesa.",
+        "Boa desculpa para pegar num álbum de BD portuguesa antes de dormir, ou para espreitar o Amadora BD, o festival internacional de banda desenhada da Amadora, que costuma acontecer no outono."
+      ],
+      "source": { "id": "idealista", "name": "idealista/news", "url": "https://www.idealista.pt/news/imobiliario/habitacao/2026/09/29/77862-calendario-dos-dias-comemorativos-de-outubro-de-2026" },
+      "wiki": "Portuguese_comics"
+    }
+  ]
+}

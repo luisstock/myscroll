@@ -1,0 +1,18 @@
+{
+  "_comment": "Daily pipeline settings. provider: gemini | ollama | claude. API keys come from environment variables (GEMINI_API_KEY, ANTHROPIC_API_KEY), never from this file.",
+  "provider": "gemini",
+  "models": {
+    "gemini": "gemini-3.8-flash",
+    "ollama": "qwen3:14b",
+    "claude": "claude-opus-5-5"
+  },
+  "fallbackModels": {
+    "gemini": ["gemini-3.5-flash", "gemini-3.5-flash-lite"]
+  },
+  "ollamaUrl": "http://localhost:11434",
+  "candidatesPerSlot": 1.6,
+  "maxPerSource": 3,
+  "newsMaxAgeDays": 7,
+  "articleMaxWords": 1400,
+  "requestDelayMs": 4000
+}

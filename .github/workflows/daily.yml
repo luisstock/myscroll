@@ -1,0 +1,66 @@
+name: MyScroll daily edition
+
+on:
+  schedule:
+    # 05:00 UTC = 06:00 in Lisbon in winter (07:00 in summer). GitHub may start it a few minutes late.
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      more:
+        description: "Load more: how many extra items to add to today's edition (empty = normal daily run)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: myscroll-edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: Europe/Lisbon
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      MYSCROLL_PROVIDER: ${{ vars.MYSCROLL_PROVIDER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Research and write the edition
+        run: |
+          if [ -n "${{ inputs.more }}" ]; then
+            node scripts/pipeline/run.mjs --more "${{ inputs.more }}"
+          else
+            node scripts/pipeline/run.mjs
+          fi
+
+      - name: Save the edition to the repo
+        run: |
+          git config user.name "myscroll-bot"
+          git config user.email "myscroll-bot@users.noreply.github.com"
+          git add content data/history.json data/source-cache.json web/editions web/catalog.json web/agent-notes.json
+          git diff --cached --quiet || git commit -m "Edition $(date +%F)${{ inputs.more && ' (load more)' || '' }}"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - uses: actions/deploy-pages@v4
+        id: deploy

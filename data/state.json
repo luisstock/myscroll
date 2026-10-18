@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:41:50.052Z",
+ "updatedAt": "2026-10-18T23:42:52.966Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -503,7 +503,8 @@
   "bk-peloton",
   "ai-comfy",
   "design-why-laika-spent-four-years-building-a-single-sto",
-  "mo-ae"
+  "mo-ae",
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -517,12 +518,12 @@
   "news-outcry-in-australia-after-incarcerated-mother-sh": 2,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
-  "tech-cities-are-pushing-back-against-driverless-robot": 1,
-  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 1,
-  "tech-a-new-us-bill-wants-to-force-game-publishers-to": 1,
+  "tech-cities-are-pushing-back-against-driverless-robot": 2,
+  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 2,
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
   "tr-repair": 2,
   "tr-dumb": 1,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 2,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 2,
   "science-perseverance-rover-takes-the-crown-for-off-world": 1,
   "pt-lingua-mirandesa": 2,
@@ -535,7 +536,7 @@
   "pt-porto-cidade-acolhedora": 2,
   "pt-agostinho": 1,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 2,
-  "pt-nata": 1,
+  "pt-nata": 2,
   "til-violet-jessop": 2,
   "bike-from-world-championships-in-nannup-to-morton-s-p": 3,
   "til-octopus": 2,
@@ -563,21 +564,22 @@
   "til-fly-geyser": 1,
   "til-roy-sullivan-lightning": 1,
   "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
-  "til-til-an-imposing-soviet-iron-fountain-survived-an": 1,
+  "til-til-an-imposing-soviet-iron-fountain-survived-an": 2,
   "til-wombat": 1,
   "til-nintendo": 1,
   "til-banana": 1,
   "til-eiffel": 1,
   "fun-project-pigeon": 1,
   "fun-wilhelm-scream": 1,
-  "fun-busan-canal-shark": 1,
+  "fun-busan-canal-shark": 2,
   "fun-emu": 1,
   "fun-stubbs": 1,
   "fun-boaty": 1,
   "ai-sd": 2,
   "ai-whisper": 2,
   "ai-llamacpp": 1,
-  "tr-lofi": 1
+  "tr-lofi": 1,
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1360,6 +1362,15 @@
    "tag:lofi",
    "tag:animation-loop",
    "tag:youtube"
+  ],
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": [
+   "topic:ideas",
+   "source:psyche",
+   "style:idea",
+   "tag:psychology",
+   "tag:neuroscience",
+   "tag:motivation",
+   "tag:mental-health"
   ]
  },
  "read": [
@@ -1377,7 +1388,8 @@
   "til-cleopatra",
   "bk-peloton",
   "design-why-laika-spent-four-years-building-a-single-sto",
-  "mo-ae"
+  "mo-ae",
+  "tech-a-new-us-bill-wants-to-force-game-publishers-to"
  ],
  "saved": [
   "pt-1755"

@@ -43,9 +43,12 @@ const projectRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
 let job = null; // { startedAt, log: [], done, code }
 function startRun(req, res) {
   if (job && !job.done) return json(res, 409, status());
-  const n = Math.min(40, Math.max(3, Number(new URL(req.url, "http://x").searchParams.get("more")) || 15));
-  job = { startedAt: new Date().toISOString(), log: [], done: false, code: null, more: n };
-  const child = spawn(process.execPath, [join(projectRoot, "scripts", "pipeline", "run.mjs"), "--more", String(n)], { cwd: projectRoot, env: process.env });
+  const params = new URL(req.url, "http://x").searchParams;
+  const n = Math.min(40, Math.max(3, Number(params.get("more")) || 15));
+  const topics = (params.get("topics") ?? "").split(",").filter((t) => /^[a-z0-9-]{1,40}$/.test(t));
+  job = { startedAt: new Date().toISOString(), log: [], done: false, code: null, more: n, topics };
+  const args = [join(projectRoot, "scripts", "pipeline", "run.mjs"), "--more", String(n), ...(topics.length ? ["--topics", topics.join(",")] : [])];
+  const child = spawn(process.execPath, args, { cwd: projectRoot, env: process.env });
   const onData = (d) => { for (const line of String(d).split("\n")) if (line.trim()) job.log.push(line); job.log = job.log.slice(-40); };
   child.stdout.on("data", onData);
   child.stderr.on("data", onData);

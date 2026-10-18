@@ -1383,6 +1383,178 @@
         "arte",
         "portugal"
       ]
+    },
+    {
+      "id": "bbc-world",
+      "topic": "news",
+      "name": "BBC News · World",
+      "url": "https://www.bbc.com/news/world",
+      "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "type": "site",
+      "tags": [
+        "world",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "guardian-world",
+      "topic": "news",
+      "name": "The Guardian · World",
+      "url": "https://www.theguardian.com/world",
+      "feed": "https://www.theguardian.com/world/rss",
+      "type": "site",
+      "tags": [
+        "world",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "npr-world",
+      "topic": "news",
+      "name": "NPR · World",
+      "url": "https://www.npr.org/sections/world/",
+      "feed": "https://feeds.npr.org/1004/rss.xml",
+      "type": "site",
+      "tags": [
+        "world",
+        "news"
+      ],
+      "default": true
+    },
+    {
+      "id": "aljazeera",
+      "topic": "news",
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/",
+      "feed": "https://www.aljazeera.com/xml/rss/all.xml",
+      "type": "site",
+      "tags": [
+        "world",
+        "news"
+      ]
+    },
+    {
+      "id": "fs-blog",
+      "topic": "books",
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "feed": "https://fs.blog/feed/",
+      "type": "site",
+      "tags": [
+        "mental-models",
+        "books",
+        "ideas"
+      ],
+      "default": true
+    },
+    {
+      "id": "marginalian",
+      "topic": "books",
+      "name": "The Marginalian",
+      "url": "https://www.themarginalian.org/",
+      "feed": "https://www.themarginalian.org/feed/",
+      "type": "site",
+      "tags": [
+        "books",
+        "philosophy",
+        "creativity"
+      ],
+      "default": true
+    },
+    {
+      "id": "five-books",
+      "topic": "books",
+      "name": "Five Books",
+      "url": "https://fivebooks.com/",
+      "feed": "https://fivebooks.com/feed/",
+      "type": "site",
+      "tags": [
+        "book-recommendations",
+        "interviews"
+      ],
+      "default": true
+    },
+    {
+      "id": "guardian-books",
+      "topic": "books",
+      "name": "The Guardian · Books",
+      "url": "https://www.theguardian.com/books",
+      "feed": "https://www.theguardian.com/books/rss",
+      "type": "site",
+      "tags": [
+        "book-reviews",
+        "new-books"
+      ],
+      "default": true
+    },
+    {
+      "id": "npr-books",
+      "topic": "books",
+      "name": "NPR · Books",
+      "url": "https://www.npr.org/sections/books/",
+      "feed": "https://www.npr.org/rss/rss.php?id=1032",
+      "type": "site",
+      "tags": [
+        "book-reviews",
+        "author-interviews"
+      ]
+    },
+    {
+      "id": "aeon",
+      "topic": "ideas",
+      "name": "Aeon",
+      "url": "https://aeon.co/",
+      "feed": "https://aeon.co/feed.rss",
+      "type": "site",
+      "tags": [
+        "essays",
+        "philosophy",
+        "science"
+      ],
+      "default": true
+    },
+    {
+      "id": "psyche",
+      "topic": "ideas",
+      "name": "Psyche",
+      "url": "https://psyche.co/",
+      "feed": "https://psyche.co/feed",
+      "type": "site",
+      "tags": [
+        "psychology",
+        "essays",
+        "how-to-live"
+      ],
+      "default": true
+    },
+    {
+      "id": "paul-graham",
+      "topic": "ideas",
+      "name": "Paul Graham essays",
+      "url": "http://www.paulgraham.com/articles.html",
+      "feed": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "type": "site",
+      "tags": [
+        "essays",
+        "startups",
+        "thinking"
+      ],
+      "default": true
+    },
+    {
+      "id": "big-think",
+      "topic": "ideas",
+      "name": "Big Think",
+      "url": "https://bigthink.com/",
+      "feed": "https://bigthink.com/feed/",
+      "type": "site",
+      "tags": [
+        "ideas",
+        "science",
+        "philosophy"
+      ]
     }
   ]
 }

@@ -118,6 +118,7 @@ function groupsSection() {
             el("button", { class: "del", "aria-label": `Delete group ${g.name}`, onclick: () => {
               if (!confirm(`Delete the group "${g.name}"? Its topics stay, just ungrouped.`)) return;
               state.settings.groups = editableGroups().filter((x) => x.id !== g.id);
+              state.settings.removedGroups = [...(state.settings.removedGroups ?? []), g.id];
               for (const t of editableTopics()) if (t.group === g.id) delete t.group;
               rerender();
             } }, "✕"))),
@@ -154,7 +155,9 @@ function topicsSection() {
     el("button", { class: "primary-btn", onclick: () => { state.editTopic = "new"; renderSettings(ctx); window.scrollTo({ top: 0 }); } }, "+ New topic"),
     state.settings.topics ? el("button", { class: "link", onclick: () => {
       if (!confirm("Restore the original topics and groups? Your own topics will be removed.")) return;
-      state.settings.topics = null; state.settings.groups = null; rerender();
+      state.settings.topics = null; state.settings.groups = null;
+      state.settings.removedTopics = []; state.settings.removedGroups = [];
+      rerender();
     } }, "Restore default topics & groups") : null,
   );
 }
@@ -237,6 +240,7 @@ function renderTopicEditor(id) {
     extra.push(el("button", { class: "link danger", onclick: () => {
       if (!confirm(`Delete the topic "${t.label}"? Items already in your scroll from it will disappear.`)) return;
       state.settings.topics = editableTopics().filter((x) => x.id !== id);
+      state.settings.removedTopics = [...(state.settings.removedTopics ?? []), id];
       state.settings.customSources = state.settings.customSources.filter((x) => x.topic !== id);
       state.editTopic = null;
       rerender();

@@ -128,7 +128,9 @@ if (!more && !longread) {
 
 // unique ids
 const taken = new Set(state.editions.flatMap((e) => [e.longread, ...(e.items ?? [])].filter(Boolean).map((i) => i.id)));
-for (const it of [...items, longread].filter(Boolean)) {
+// Only new items get ids checked: an existing long read keeps its id (read/rating state hangs on it).
+const newLongread = longread && longread !== existing?.longread ? longread : null;
+for (const it of [...items, newLongread].filter(Boolean)) {
   let id = it.id, n = 2;
   while (taken.has(id)) id = `${it.id}-${n++}`;
   it.id = id;

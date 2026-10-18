@@ -1,72 +1,344 @@
 {
   "_comment": "Built-in topics. The user can edit, hide, regroup them and add new ones in Settings. description + keywords tell the daily agent what to look for.",
   "groups": [
-    { "id": "work", "name": "Work & craft", "emoji": "🛠️", "enabled": true },
-    { "id": "world", "name": "The world", "emoji": "🌍", "enabled": true },
-    { "id": "bedtime", "name": "Bedtime fun", "emoji": "🌙", "enabled": true },
-    { "id": "sport", "name": "Sport", "emoji": "🏁", "enabled": true }
+    {
+      "id": "work",
+      "name": "Work & craft",
+      "emoji": "🛠️",
+      "enabled": true
+    },
+    {
+      "id": "world",
+      "name": "The world",
+      "emoji": "🌍",
+      "enabled": true
+    },
+    {
+      "id": "mind",
+      "name": "Mind & books",
+      "emoji": "📚",
+      "enabled": true
+    },
+    {
+      "id": "bedtime",
+      "name": "Bedtime fun",
+      "emoji": "🌙",
+      "enabled": true
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "emoji": "🏁",
+      "enabled": true
+    }
   ],
   "topics": [
-    { "id": "til", "label": "Curiosities", "emoji": "💡", "group": "bedtime",
+    {
+      "id": "til",
+      "label": "Curiosities",
+      "emoji": "💡",
+      "group": "bedtime",
       "description": "Surprising facts and short stories, TIL-style, Cracked-style lists and the best of Reddit. Evergreen, verified, with a source.",
-      "keywords": ["today I learned", "surprising history", "weird facts", "strange inventions", "historical oddities"],
+      "keywords": [
+        "today I learned",
+        "surprising history",
+        "weird facts",
+        "strange inventions",
+        "historical oddities"
+      ],
       "subs": [
-        { "id": "til", "label": "TIL" },
-        { "id": "cracked", "label": "Lists & oddities" },
-        { "id": "story", "label": "Stories" },
-        { "id": "reddit", "label": "Best of Reddit" }
-      ]},
-    { "id": "fun", "label": "Fun", "emoji": "😂", "group": "bedtime",
+        {
+          "id": "til",
+          "label": "TIL"
+        },
+        {
+          "id": "cracked",
+          "label": "Lists & oddities"
+        },
+        {
+          "id": "story",
+          "label": "Stories"
+        },
+        {
+          "id": "reddit",
+          "label": "Best of Reddit"
+        }
+      ]
+    },
+    {
+      "id": "fun",
+      "label": "Fun",
+      "emoji": "😂",
+      "group": "bedtime",
       "description": "Light, funny, absurd things from the internet and real life. Nothing mean.",
-      "keywords": ["absurd news", "funny internet", "design fails", "oddly satisfying"],
-      "subs": [] },
-    { "id": "motion", "label": "Motion", "emoji": "🎞️", "group": "work",
+      "keywords": [
+        "absurd news",
+        "funny internet",
+        "design fails",
+        "oddly satisfying"
+      ],
+      "subs": []
+    },
+    {
+      "id": "motion",
+      "label": "Motion",
+      "emoji": "🎞️",
+      "group": "work",
       "description": "Motion design: new work from studios and artists, After Effects techniques, new tools and plugins, and the business of motion.",
-      "keywords": ["motion design", "After Effects", "title sequence", "2D animation", "motion graphics studio", "AE plugin", "Cavalry", "Rive"],
+      "keywords": [
+        "motion design",
+        "After Effects",
+        "title sequence",
+        "2D animation",
+        "motion graphics studio",
+        "AE plugin",
+        "Cavalry",
+        "Rive"
+      ],
       "subs": [
-        { "id": "inspiration", "label": "Inspiration" },
-        { "id": "techniques", "label": "Techniques" },
-        { "id": "tools", "label": "Tools & plugins" },
-        { "id": "industry", "label": "Industry" },
-        { "id": "history", "label": "History" }
-      ]},
-    { "id": "ai", "label": "AI", "emoji": "🤖", "group": "work",
+        {
+          "id": "inspiration",
+          "label": "Inspiration"
+        },
+        {
+          "id": "techniques",
+          "label": "Techniques"
+        },
+        {
+          "id": "tools",
+          "label": "Tools & plugins"
+        },
+        {
+          "id": "industry",
+          "label": "Industry"
+        },
+        {
+          "id": "history",
+          "label": "History"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "emoji": "🤖",
+      "group": "work",
       "description": "Frontier models and what they can do, open-weight and local models, image/video generation, AI tools for motion designers, and innovation in general.",
-      "keywords": ["open-weight model release", "local LLM", "ComfyUI workflow", "video generation model", "AI for After Effects", "frontier model benchmark"],
+      "keywords": [
+        "open-weight model release",
+        "local LLM",
+        "ComfyUI workflow",
+        "video generation model",
+        "AI for After Effects",
+        "frontier model benchmark"
+      ],
       "subs": [
-        { "id": "frontier", "label": "Frontier models" },
-        { "id": "local-llm", "label": "Local LLMs" },
-        { "id": "image-video", "label": "Image & video" },
-        { "id": "motion-ai", "label": "AI for motion" },
-        { "id": "innovation", "label": "Innovation" }
-      ]},
-    { "id": "bike", "label": "Gravel", "emoji": "🚴", "group": "sport",
+        {
+          "id": "frontier",
+          "label": "Frontier models"
+        },
+        {
+          "id": "local-llm",
+          "label": "Local LLMs"
+        },
+        {
+          "id": "image-video",
+          "label": "Image & video"
+        },
+        {
+          "id": "motion-ai",
+          "label": "AI for motion"
+        },
+        {
+          "id": "innovation",
+          "label": "Innovation"
+        }
+      ]
+    },
+    {
+      "id": "bike",
+      "label": "Gravel",
+      "emoji": "🚴",
+      "group": "sport",
       "description": "Gravel cycling: races and news, riding technique and skills, and gear.",
-      "keywords": ["gravel cycling", "gravel race", "gravel bike review", "cycling technique", "bike handling skills"],
+      "keywords": [
+        "gravel cycling",
+        "gravel race",
+        "gravel bike review",
+        "cycling technique",
+        "bike handling skills"
+      ],
       "subs": [
-        { "id": "gravel", "label": "Gravel racing & news" },
-        { "id": "technique", "label": "Technique" },
-        { "id": "gear", "label": "Gear" },
-        { "id": "history", "label": "Cycling history" }
-      ]},
-    { "id": "tech", "label": "Tech", "emoji": "📱", "group": "world",
+        {
+          "id": "gravel",
+          "label": "Gravel racing & news"
+        },
+        {
+          "id": "technique",
+          "label": "Technique"
+        },
+        {
+          "id": "gear",
+          "label": "Gear"
+        },
+        {
+          "id": "history",
+          "label": "Cycling history"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "emoji": "📰",
+      "group": "world",
+      "format": "news",
+      "description": "The few world stories that really matter today, told calmly: what happened, why it matters, what comes next. No gore, crime voyeurism or outrage bait.",
+      "keywords": [
+        "world news",
+        "international",
+        "economy",
+        "climate",
+        "elections",
+        "science policy"
+      ],
+      "subs": [
+        {
+          "id": "world",
+          "label": "World"
+        },
+        {
+          "id": "europe",
+          "label": "Europe"
+        },
+        {
+          "id": "economy",
+          "label": "Economy"
+        },
+        {
+          "id": "climate",
+          "label": "Climate"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech",
+      "emoji": "📱",
+      "group": "world",
       "description": "Tech and gadgets worth knowing about, without the hype.",
-      "keywords": ["gadget launch", "new laptop", "smartphone", "right to repair", "internet culture"],
-      "subs": [] },
-    { "id": "science", "label": "Science", "emoji": "🔭", "group": "world",
+      "keywords": [
+        "gadget launch",
+        "new laptop",
+        "smartphone",
+        "right to repair",
+        "internet culture"
+      ],
+      "subs": []
+    },
+    {
+      "id": "science",
+      "label": "Science",
+      "emoji": "🔭",
+      "group": "world",
       "description": "Discoveries in science and space, explained simply.",
-      "keywords": ["space discovery", "NASA", "JWST", "new study finds", "physics breakthrough"],
-      "subs": [] },
-    { "id": "design", "label": "Design", "emoji": "🎨", "group": "work",
+      "keywords": [
+        "space discovery",
+        "NASA",
+        "JWST",
+        "new study finds",
+        "physics breakthrough"
+      ],
+      "subs": []
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "emoji": "🎨",
+      "group": "work",
       "description": "Graphic design, typography, branding and visual culture.",
-      "keywords": ["graphic design", "typography", "rebrand", "poster design", "design exhibition"],
-      "subs": [] },
-    { "id": "pt", "label": "Portugal", "emoji": "🇵🇹", "group": "world", "lang": "pt",
+      "keywords": [
+        "graphic design",
+        "typography",
+        "rebrand",
+        "poster design",
+        "design exhibition"
+      ],
+      "subs": []
+    },
+    {
+      "id": "pt",
+      "label": "Portugal",
+      "emoji": "🇵🇹",
+      "group": "world",
+      "lang": "pt",
       "description": "Notícias e curiosidades de Portugal, escritas em português.",
-      "keywords": ["Portugal notícias", "Lisboa", "Porto", "curiosidades Portugal", "cultura portuguesa"],
+      "keywords": [
+        "Portugal notícias",
+        "Lisboa",
+        "Porto",
+        "curiosidades Portugal",
+        "cultura portuguesa"
+      ],
       "subs": [
-        { "id": "news", "label": "Notícias" },
-        { "id": "curiosidades", "label": "Curiosidades" }
-      ]}
+        {
+          "id": "news",
+          "label": "Notícias"
+        },
+        {
+          "id": "curiosidades",
+          "label": "Curiosidades"
+        }
+      ]
+    },
+    {
+      "id": "books",
+      "label": "Books",
+      "emoji": "📖",
+      "group": "mind",
+      "format": "book",
+      "description": "One book per item, Deepstash-style: the big idea, 3-5 lessons, one thing to try. Non-fiction classics and new books on creativity, design, science, psychology, AI, sport and how to live well.",
+      "keywords": [
+        "book review",
+        "non-fiction",
+        "new books",
+        "author interview",
+        "book recommendations"
+      ],
+      "subs": [
+        {
+          "id": "creativity",
+          "label": "Creativity & design"
+        },
+        {
+          "id": "science",
+          "label": "Science & tech"
+        },
+        {
+          "id": "mind",
+          "label": "Psychology & habits"
+        },
+        {
+          "id": "life",
+          "label": "Life & philosophy"
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "label": "Ideas",
+      "emoji": "🧠",
+      "group": "mind",
+      "format": "idea",
+      "description": "Single, sharp ideas worth keeping, pulled from essays, talks and podcasts: one insight per card, with where it comes from.",
+      "keywords": [
+        "essay",
+        "big ideas",
+        "mental models",
+        "philosophy",
+        "creativity"
+      ],
+      "subs": []
+    }
   ]
 }

@@ -35,6 +35,41 @@ const ITEM = {
 };
 const TOPIC_SCHEMA = { type: "object", properties: { items: { type: "array", items: ITEM } }, required: ["items"], additionalProperties: false };
 
+const BOOK_ITEM = {
+  type: "object",
+  properties: {
+    candidate: { type: "integer" },
+    sub: { type: "string" },
+    tags: { type: "array", items: { type: "string" } },
+    bookTitle: { type: "string" },
+    author: { type: "string" },
+    title: { type: "string", description: "the book's big idea as a headline" },
+    snippet: { type: "string", description: "the big idea in one or two sentences" },
+    body: { type: "array", items: { type: "string" }, description: "what the book is and why it's worth knowing, 60-120 words" },
+    lessons: {
+      type: "array",
+      items: { type: "object", properties: { title: { type: "string" }, text: { type: "string" } }, required: ["title", "text"], additionalProperties: false },
+      description: "3-5 key lessons: a punchy title and 2-3 sentences each",
+    },
+    takeaway: { type: "string", description: "one concrete thing to try this week" },
+    forWho: { type: "string", description: "who will get the most out of this book, one sentence" },
+    wiki: { type: "string" },
+    explore: { type: "boolean" },
+  },
+  required: ["candidate", "sub", "tags", "bookTitle", "author", "title", "snippet", "body", "lessons", "takeaway", "forWho", "wiki", "explore"],
+  additionalProperties: false,
+};
+const BOOK_SCHEMA = { type: "object", properties: { items: { type: "array", items: BOOK_ITEM } }, required: ["items"], additionalProperties: false };
+
+// Extra instructions per topic format.
+const FORMAT_RULES = {
+  news: `FORMAT: calm world news. body = what happened, why it matters, what happens next. No gore, crime voyeurism, celebrity gossip or outrage bait; skip those candidates. Prefer the stories that change something.`,
+  idea: `FORMAT: one idea per item, Deepstash-style. title = the idea itself as a crisp, quotable statement (not a headline about an article). snippet = one sentence on why it matters. body = 60-120 words: the idea, an example, how to use it. more = 250-450 words going deeper. style = "explainer". Credit the author/thinker in the body.`,
+  book: `FORMAT: book cards, Deepstash-style. Only use candidates that are clearly about ONE specific book (review, interview with the author, an essay built on the book). Skip anything else.
+Each item: bookTitle and author exactly as in the text; title = the book's big idea as a headline; 3-5 lessons, each with a punchy title and 2-3 sentences in your own words; one concrete takeaway to try; who it's for.
+Lessons must come from the candidate text. Never quote long passages and never invent content the text doesn't support.`,
+};
+
 const fmtDate = (iso) => (iso ? iso.slice(0, 10) : "undated");
 
 function candidateBlock(c, i) {
@@ -59,6 +94,7 @@ export async function writeTopic(config, topic, candidates, plan) {
     topic.lang === "pt" ? `LANGUAGE: write title, snippet, body and more in European Portuguese (Portugal, not Brazil).` : `LANGUAGE: English.`,
     taste.likes.length ? `The reader likes: ${taste.likes.slice(0, 10).map((x) => x.label).join(", ")}.` : "",
     taste.dislikes.length ? `The reader is less keen on: ${taste.dislikes.slice(0, 10).map((x) => x.label).join(", ")}.` : "",
+    FORMAT_RULES[topic.format] ?? "",
     "",
     `Pick the best ${want} candidates (fewer if some aren't good enough) and write an item for each.`,
     explore ? `Mark ${explore} of them "explore": true: good picks a bit outside the reader's usual taste. All others false.` : `Set "explore": false for all.`,
@@ -66,10 +102,19 @@ export async function writeTopic(config, topic, candidates, plan) {
     ...candidates.map(candidateBlock),
   ].filter((l) => l !== "").join("\n");
 
-  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: TOPIC_SCHEMA });
+  const isBook = topic.format === "book";
+  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: isBook ? BOOK_SCHEMA : TOPIC_SCHEMA });
   const items = (json.items ?? [])
     .filter((it) => candidates[it.candidate])
-    .map((it) => toItem(it, candidates[it.candidate], topic, plan));
+    .map((it) => {
+      if (!isBook) return toItem(topic.format === "idea" ? { ...it, style: "idea" } : it, candidates[it.candidate], topic, plan);
+      const base = toItem({ ...it, style: "book", more: [] }, candidates[it.candidate], topic, plan);
+      delete base.more;
+      return {
+        ...base, kind: "evergreen",
+        book: { title: it.bookTitle, author: it.author, lessons: it.lessons.slice(0, 5), takeaway: it.takeaway, forWho: it.forWho },
+      };
+    });
   return { items, usage };
 }
 

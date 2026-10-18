@@ -15,6 +15,10 @@ on:
         description: "Load more: how many extra items to add to today's edition (empty = normal daily run)"
         required: false
         default: ""
+      topics:
+        description: "Load more only for these topic ids, comma separated (empty = all)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -48,9 +52,13 @@ jobs:
       - run: npm ci
 
       - name: Research and write the edition
+        env:
+          MORE: ${{ inputs.more }}
+          TOPICS: ${{ inputs.topics }}
         run: |
-          if [ -n "${{ inputs.more }}" ]; then
-            node scripts/pipeline/run.mjs --more "${{ inputs.more }}"
+          if [ -n "$MORE" ]; then
+            if ! [[ "$MORE" =~ ^[0-9]{1,2}$ && "$TOPICS" =~ ^[a-z0-9,-]*$ ]]; then echo "bad inputs"; exit 1; fi
+            node scripts/pipeline/run.mjs --more "$MORE" ${TOPICS:+--topics "$TOPICS"}
           else
             node scripts/pipeline/run.mjs
           fi

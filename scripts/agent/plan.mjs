@@ -15,7 +15,7 @@ const slots = ranking.allocateSlots(active.map((t) => t.id), state.profile, s, t
 const sources = model.allSources();
 
 const topics = active.map((t) => ({
-  id: t.id, label: t.label, emoji: t.emoji, lang: t.lang ?? "en",
+  id: t.id, label: t.label, emoji: t.emoji, lang: t.lang ?? "en", format: t.format ?? "article",
   description: t.description ?? "", keywords: t.keywords ?? [],
   subs: (t.subs ?? []).map((x) => ({ id: x.id, label: x.label })),
   status: t.status ?? "ready",

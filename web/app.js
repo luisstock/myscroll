@@ -2,7 +2,7 @@
 import { featuresOf } from "./ranking.js";
 import {
   state, store, saveSettings, DAY, topics, groups, topicOf, groupOf, subLabel, isTopicActive,
-  rebuildProfile, pool, ranked, visibleItems, syncNow,
+  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow,
 } from "./model.js";
 import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
@@ -49,6 +49,7 @@ function renderChips() {
   const items = visibleItems();
   const count = (pred) => items.filter(pred).length;
   const chips = [{ id: "all", label: "All", n: items.length }];
+  if (isWeekDay()) chips.push({ id: "week", label: "📅 Week", n: weekItems().total });
   if (state.settings.navBy === "groups") {
     for (const g of groups()) {
       if (g.enabled === false) continue;
@@ -108,6 +109,12 @@ function makeCard(item, { longread = false } = {}) {
   paintRatingBadge(node, item.id);
   $(".title", node).textContent = item.title;
   $(".snippet", node).textContent = item.snippet;
+  if (item.book) {
+    node.classList.add("book");
+    $(".title", node).after(el("p", { class: "byline" }, `📖 ${item.book.title} — ${item.book.author}`));
+    $(".mins", node).textContent = `${item.book.lessons.length} lessons`;
+  }
+  if (item.style === "idea") node.classList.add("idea");
 
   const thumb = $(".thumb", node);
   const img = imageEl(item);
@@ -153,6 +160,8 @@ function buildBody(node, item) {
 
   const paragraphs = Array.isArray(item.body) ? item.body : [item.body];
   $(".prose", node).replaceChildren(...paragraphs.map((t) => el("p", {}, t)));
+  $(".lessons-wrap", node)?.remove();
+  if (item.book) $(".prose", node).after(lessonCards(item.book));
 
   setupReadMore(node, item);
 
@@ -179,6 +188,28 @@ function buildBody(node, item) {
     paintSave();
     renderChips();
   };
+}
+
+// Book lessons as swipeable cards (scroll-snap), ending with "Try this" and "For who".
+function lessonCards(book) {
+  const n = book.lessons.length;
+  const slides = [
+    ...book.lessons.map((l, i) => el("div", { class: "lesson" },
+      el("p", { class: "lesson-n" }, `Lesson ${i + 1} of ${n}`),
+      el("h4", {}, l.title), el("p", {}, l.text))),
+    el("div", { class: "lesson last" },
+      el("p", { class: "lesson-n" }, "Try this"), el("h4", {}, book.takeaway),
+      el("p", { class: "for-who" }, `For: ${book.forWho}`)),
+  ];
+  const track = el("div", { class: "lessons", tabindex: 0, "aria-label": "Lessons, swipe sideways" }, slides);
+  const dots = el("div", { class: "dots" }, slides.map(() => el("span")));
+  const paint = () => {
+    const i = Math.round(track.scrollLeft / Math.max(1, track.clientWidth * 0.86));
+    [...dots.children].forEach((d, k) => d.classList.toggle("on", k === Math.min(i, slides.length - 1)));
+  };
+  track.addEventListener("scroll", () => requestAnimationFrame(paint), { passive: true });
+  requestAnimationFrame(paint);
+  return el("div", { class: "lessons-wrap" }, track, dots);
 }
 
 function setupReadMore(node, item) {
@@ -275,8 +306,49 @@ const skipObserver = new IntersectionObserver((entries) => {
   }
 }, { threshold: 0 });
 
+// ---------- best of the week (Sundays) ----------
+const isWeekDay = () => new Date().getDay() === 0;
+
+function weekItems() {
+  const since = new Date(state.latest);
+  since.setDate(since.getDate() - 6);
+  const inWeek = pool().filter((i) => new Date(i.added) >= since && isTopicActive(i.topic));
+  const favourites = inWeek.filter((i) => (state.ratings[i.id]?.r ?? 0) >= 4)
+    .sort((a, b) => state.ratings[b.id].r - state.ratings[a.id].r);
+  const saved = inWeek.filter((i) => state.saved.has(i.id) && !favourites.includes(i));
+  const unread = ranked(inWeek.filter((i) => !state.read.has(i.id) && visibility(i) === "visible")).slice(0, 10);
+  return { favourites, saved, unread, total: favourites.length + saved.length + unread.length };
+}
+
+function renderWeek() {
+  const { favourites, saved, unread } = weekItems();
+  const nodes = [el("section", { class: "week-head" },
+    el("h2", {}, "Your week in MyScroll"),
+    el("p", {}, `${favourites.length} favourites · ${saved.length} saved · the best ${unread.length} you haven't read yet`))];
+  if (favourites.length) nodes.push(label("⭐ What you loved"), ...favourites.map((i) => makeCard(i)));
+  if (saved.length) nodes.push(label("🔖 Saved this week"), ...saved.map((i) => makeCard(i)));
+  if (unread.length) nodes.push(label("📌 Worth catching up on"), ...unread.map((i) => makeCard(i)));
+  if (!favourites.length && !saved.length && !unread.length) nodes.push(empty("Rate and save things during the week and they'll show up here on Sunday."));
+  return nodes;
+}
+
 // ---------- feed ----------
+// What "Load more" researches: everything, the current group, or the current topic.
+function loadMoreScope() {
+  const v = state.view;
+  if (v.startsWith("group:")) {
+    const g = groupOf(v.slice(6));
+    const ids = orderedTopics().filter((t) => t.group === g?.id).map((t) => t.id);
+    if (state.sub && ids.includes(state.sub)) { const t = topicOf(state.sub); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
+    return { topics: ids, label: `${g.emoji} ${g.name}` };
+  }
+  if (v !== "all" && v !== "saved" && v !== "settings" && v !== "week") { const t = topicOf(v); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
+  return { topics: null, label: "" };
+}
+
 function theEnd(done, total) {
+  const scope = loadMoreScope();
+  const idleLabel = scope.label ? `Load more ${scope.label}` : "Load more";
   const status = el("p", { class: "more-status", hidden: true });
   const btn = el("button", { class: "load-more", onclick: async () => {
     btn.disabled = true;
@@ -284,16 +356,16 @@ function theEnd(done, total) {
     status.hidden = false;
     status.classList.remove("error");
     try {
-      await loadMore((text) => { status.textContent = text; });
+      await loadMore((text) => { status.textContent = text; }, scope.topics);
       status.textContent = "Done! Fresh items added below the ones you had.";
       await reloadEditions();
     } catch (err) {
       status.textContent = err.message;
       status.classList.add("error");
       btn.disabled = false;
-      btn.textContent = "Load more";
+      btn.textContent = idleLabel;
     }
-  } }, "Load more");
+  } }, idleLabel);
   return el("section", { class: "the-end" },
     el("div", { class: "moon" }, "🌙"),
     el("h3", {}, "That's all for now"),
@@ -345,7 +417,11 @@ function renderFeed() {
   const items = visibleItems();
   const nodes = [];
 
-  if (state.view === "all") {
+  if (state.view === "week") {
+    nodes.push(...renderWeek());
+  } else if (state.view === "all") {
+    if (isWeekDay()) nodes.push(el("button", { class: "week-banner", onclick: () => { state.view = "week"; render(); window.scrollTo({ top: 0 }); } },
+      "📅 It's Sunday: your week in review is ready →"));
     nodes.push(...items.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
     nodes.push(...topicSections(items, state.settings.navBy === "groups"));
   } else if (state.view === "saved") {
@@ -367,10 +443,10 @@ function renderFeed() {
     nodes.push(...inTopic.filter((i) => !state.sub || i.sub === state.sub).map((i) => makeCard(i, { longread: i.kind === "longread" })));
   }
 
-  if (!nodes.some((n) => n?.classList?.contains("card")) && state.view !== "saved") {
+  if (!nodes.some((n) => n?.classList?.contains("card")) && !["saved", "week"].includes(state.view)) {
     nodes.push(empty("Nothing here right now. New items arrive with tomorrow's edition."));
   }
-  if (state.view !== "saved") {
+  if (!["saved", "week"].includes(state.view)) {
     const { done, total } = updateProgress();
     nodes.push(theEnd(done, total));
   }
@@ -382,7 +458,7 @@ function render() {
   // A view can disappear (group turned off, topic hidden): fall back to All.
   const v = state.view;
   if (v.startsWith("group:") ? groupOf(v.slice(6))?.enabled === false || !groupOf(v.slice(6))
-    : !["all", "saved", "settings"].includes(v) && !isTopicActive(v)) state.view = "all";
+    : !["all", "saved", "settings", "week"].includes(v) && !isTopicActive(v)) state.view = "all";
   renderChips();
   renderFeed();
 }

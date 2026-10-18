@@ -286,5 +286,9 @@
   "v2:en:Cinema_4D": {
     "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/64/C4dwindow.png/330px-C4dwindow.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:C4dwindow.png"
+  },
+  "v2:en:Fractal": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sierpinski-carpet.gif?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:Sierpinski-carpet.gif"
   }
 }

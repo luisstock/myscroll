@@ -216,6 +216,40 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .more-status.error { color: var(--bad); }
 .saved-note { font-size: 12.5px; color: var(--good); }
 
+/* best of the week */
+.week-banner {
+  width: 100%; text-align: left; padding: 14px 16px; border-radius: var(--radius); font-weight: 600; font-size: 14.5px;
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface)); border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); color: var(--text);
+}
+.week-head { padding: 10px 2px 0; }
+.week-head h2 { font-family: var(--head-font); font-weight: 500; font-size: 26px; margin: 0 0 4px; }
+.week-head p { margin: 0; color: var(--muted); font-size: 14px; }
+
+/* books: swipeable lessons */
+.byline { margin: 4px 0 0; font-size: 13px; color: var(--accent); font-weight: 500; }
+.lessons-wrap { margin: 2px -14px 16px; }
+.lessons {
+  display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 14px 4px;
+  scrollbar-width: none; overscroll-behavior-x: contain;
+}
+.lessons::-webkit-scrollbar { display: none; }
+.lesson {
+  flex: 0 0 86%; scroll-snap-align: center; min-height: 190px; padding: 18px; border-radius: 16px;
+  background: var(--surface-2); border: 1px solid var(--line); display: flex; flex-direction: column;
+}
+.lesson.last { background: color-mix(in srgb, var(--accent) 14%, var(--surface-2)); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.lesson-n { margin: 0 0 8px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.lesson h4 { margin: 0 0 8px; font-family: var(--head-font); font-weight: 500; font-size: 19px; line-height: 1.25; }
+.lesson p:not(.lesson-n) { margin: 0; font-family: var(--read-font); font-size: 15.5px; line-height: 1.55; }
+.lesson .for-who { margin-top: auto !important; padding-top: 12px; font-size: 13.5px !important; color: var(--muted); }
+.dots { display: flex; justify-content: center; gap: 6px; margin-top: 10px; }
+.dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--line); transition: background .2s, width .2s; }
+.dots span.on { background: var(--accent); width: 16px; border-radius: 3px; }
+
+/* ideas: quote-like */
+.card.idea .title { font-style: italic; font-size: 19px; }
+.card.idea .card-text { border-left: 3px solid var(--accent); padding-left: 12px; }
+
 .group-label { font-family: var(--head-font); font-size: 22px; font-weight: 500; margin: 26px 2px -2px; }
 
 /* settings: groups & topics */

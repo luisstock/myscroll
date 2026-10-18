@@ -18,10 +18,12 @@ async function localServer() {
 }
 
 // Runs the request and reports progress through onStatus(text). Resolves when new items should be there.
-export async function loadMore(onStatus) {
+// topics: ids to research (null = all active topics).
+export async function loadMore(onStatus, topics = null) {
   const n = state.settings.loadMoreCount ?? 15;
+  const only = topics?.length ? topics.join(",") : "";
   if (await localServer()) {
-    const start = await fetch(`/api/run?more=${n}`, { method: "POST" });
+    const start = await fetch(`/api/run?more=${n}${only ? `&topics=${encodeURIComponent(only)}` : ""}`, { method: "POST" });
     if (start.status !== 202 && start.status !== 409) throw new Error(`Couldn't start (${start.status})`);
     onStatus("Researching your sources…");
     for (;;) {
@@ -40,7 +42,7 @@ export async function loadMore(onStatus) {
   const res = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/daily.yml/dispatches`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
-    body: JSON.stringify({ ref: "main", inputs: { more: String(n) } }),
+    body: JSON.stringify({ ref: "main", inputs: { more: String(n), topics: only } }),
   });
   if (res.status !== 204) throw new Error(`GitHub said ${res.status}: ${(await res.text()).slice(0, 120)}`);
   onStatus("Asked GitHub to research more. This takes a few minutes…");

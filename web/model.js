@@ -69,19 +69,25 @@ export const DAY = 864e5;
 // ---------- topics & groups ----------
 const clone = (x) => JSON.parse(JSON.stringify(x));
 
+// The user's edited copy, plus any topic/group added to the taxonomy later (unless they deleted it).
+function withNewDefaults(mine, defaults, removed = []) {
+  if (!mine) return defaults;
+  const have = new Set(mine.map((x) => x.id));
+  return [...mine, ...defaults.filter((d) => !have.has(d.id) && !removed.includes(d.id))];
+}
 export function topics() {
-  return state.settings.topics ?? state.taxonomy.topics;
+  return withNewDefaults(state.settings.topics, state.taxonomy.topics, state.settings.removedTopics);
 }
 export function groups() {
-  return state.settings.groups ?? state.taxonomy.groups;
+  return withNewDefaults(state.settings.groups, state.taxonomy.groups, state.settings.removedGroups);
 }
 // Call before mutating topics/groups: the first edit copies the defaults into settings.
 export function editableTopics() {
-  state.settings.topics ??= clone(state.taxonomy.topics);
+  state.settings.topics = clone(topics());
   return state.settings.topics;
 }
 export function editableGroups() {
-  state.settings.groups ??= clone(state.taxonomy.groups);
+  state.settings.groups = clone(groups());
   return state.settings.groups;
 }
 

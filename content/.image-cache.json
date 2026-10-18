@@ -290,5 +290,9 @@
   "v2:en:Fractal": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sierpinski-carpet.gif?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "credit": "File:Sierpinski-carpet.gif"
+  },
+  "v2:en:Cycling": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg/1280px-Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Cycliste_à_place_d'Italie-Paris_crop.jpg"
   }
 }

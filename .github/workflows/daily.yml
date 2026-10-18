@@ -4,6 +4,11 @@ on:
   schedule:
     # 05:00 UTC = 06:00 in Lisbon in winter (07:00 in summer). GitHub may start it a few minutes late.
     - cron: "0 5 * * *"
+  # Changes to the app itself: republish (the run sees today's edition exists and skips the research).
+  # Commits made by this workflow don't trigger it again.
+  push:
+    branches: [main]
+    paths: ["web/**", "!web/editions/**"]
   workflow_dispatch:
     inputs:
       more:

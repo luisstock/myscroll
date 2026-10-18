@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:39:55.843Z",
+ "updatedAt": "2026-10-18T23:41:05.961Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -472,6 +472,18 @@
     "tag:learning",
     "tag:innovation"
    ]
+  },
+  "mo-ae": {
+   "r": 3,
+   "at": "2026-10-18T23:40:37.820Z",
+   "f": [
+    "topic:motion",
+    "sub:motion/tools",
+    "source:wikipedia",
+    "style:til",
+    "tag:after-effects",
+    "tag:history"
+   ]
   }
  },
  "opened": [
@@ -498,10 +510,10 @@
   "motion-maxon-releases-cinema-4d-2027-0": 3,
   "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 3,
   "mo-fischinger": 3,
-  "mo-12": 2,
+  "mo-12": 3,
   "mo-ae": 2,
-  "mo-roto": 3,
-  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 2,
+  "mo-roto": 4,
+  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 3,
   "news-outcry-in-australia-after-incarcerated-mother-sh": 2,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
@@ -530,7 +542,7 @@
   "til-wojtek-bear": 2,
   "bk-drais": 2,
   "pt-volta": 1,
-  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 2,
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 3,
   "pt-cortica": 1,
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
@@ -562,8 +574,8 @@
   "fun-emu": 1,
   "fun-stubbs": 1,
   "fun-boaty": 1,
-  "ai-sd": 1,
-  "ai-whisper": 1,
+  "ai-sd": 2,
+  "ai-whisper": 2,
   "ai-llamacpp": 1,
   "tr-lofi": 1
  },
@@ -1364,7 +1376,8 @@
   "til-dancing-plague-1518",
   "til-cleopatra",
   "bk-peloton",
-  "design-why-laika-spent-four-years-building-a-single-sto"
+  "design-why-laika-spent-four-years-building-a-single-sto",
+  "mo-ae"
  ],
  "saved": [
   "pt-1755"

@@ -40,7 +40,11 @@ export async function loadMore(onStatus, topics = null) {
   }
 
   const { repo, token } = github.get();
-  if (!repo || !token) throw new Error("To load more away from your PC, add your GitHub repo and token in Settings › Load more.");
+  if (!repo || !token) {
+    const err = new Error("Connect GitHub first: it takes a minute, once.");
+    err.needsSetup = true;
+    throw err;
+  }
   const res = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/daily.yml/dispatches`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },

@@ -15,7 +15,8 @@ export function renderSettings(context) {
   if (state.editTopic) return renderTopicEditor(state.editTopic);
   const s = state.settings;
   ctx.root.replaceChildren(el("div", { class: "settings" },
-    learnedSection(), readingSection(s), loadMoreSection(s), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
+    learnedSection(), readingSection(s), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
+    groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
 }
 
 // ---------- Load more ----------
@@ -46,6 +47,11 @@ function loadMoreSection(s) {
     el("div", { class: "form-btns" },
       el("button", { class: "mini-btn", onclick: () => { github.set({ repo: repo.value.trim(), token: token.value.trim() }); sync(); } }, "Save & sync"),
       syncConfigured() ? el("button", { class: "mini-btn", onclick: sync }, "Sync now") : null),
+    el("a", { class: "token-link", href: "https://github.com/settings/personal-access-tokens/new", target: "_blank", rel: "noopener" }, "Create a token on GitHub ↗"),
+    el("ol", { class: "token-steps" },
+      el("li", {}, "Repository access: Only select repositories → myscroll"),
+      el("li", {}, "Permissions: Contents → Read and write, Actions → Read and write"),
+      el("li", {}, "Generate token, copy it, paste it above, Save & sync")),
     el("p", { class: "set-hint" }, "The token stays only on this device and is never synced."),
     el("label", { class: "row" }, el("span", {}, "Items per “Load more”"),
       el("input", { type: "number", min: 3, max: 40, value: s.loadMoreCount ?? 15, onchange: (e) => { s.loadMoreCount = Number(e.target.value); saveSettings(); } })));

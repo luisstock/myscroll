@@ -460,7 +460,13 @@ function theEnd(done, total) {
       status.textContent = "Done! Fresh items added below the ones you had.";
       await reloadEditions();
     } catch (err) {
-      status.textContent = err.message;
+      status.replaceChildren(err.message, err.needsSetup
+        ? el("button", { class: "setup-link", onclick: () => {
+            state.view = "settings"; state.editTopic = null; render();
+            document.querySelector(".sync-section")?.scrollIntoView({ block: "start" });
+            window.scrollBy(0, -110);
+          } }, "Open Sync settings →")
+        : null);
       status.classList.add("error");
       btn.disabled = false;
       btn.textContent = idleLabel;

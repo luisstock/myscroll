@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+def buildNumber = (int) ((System.currentTimeMillis() - Date.parse("yyyy-MM-dd", "2026-01-01").time) / 60000)
+
 android {
     namespace = "io.github.luisstock.myscroll"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,9 +9,9 @@ android {
         applicationId "io.github.luisstock.myscroll"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        // Each GitHub build gets a higher versionCode so the phone accepts it as an update.
-        versionCode (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInteger()
-        versionName "1.0." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
+        // Every build gets a higher versionCode (minutes since 2026) so the phone accepts it as an update.
+        versionCode buildNumber
+        versionName "1.0." + buildNumber
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

@@ -25,6 +25,7 @@ export function reloadFromStorage() {
   state.ratings = store.get("ratings", {});
   state.skips = store.get("skips", {});
   state.itemFeatures = store.get("itemFeatures", {});
+  state.progress = store.get("progress", {});
 }
 
 // Push the user's state to the server (data/state.json) so the daily agent can read it.
@@ -73,6 +74,7 @@ export const state = {
   ratings: store.get("ratings", {}),           // id -> { r, at, f: features }
   skips: store.get("skips", {}),               // id -> times scrolled past unopened
   itemFeatures: store.get("itemFeatures", {}), // id -> features (kept after an item leaves the feed)
+  progress: store.get("progress", {}),         // id -> how far you scrolled through it (0..1)
   profile: new Map(),
 };
 
@@ -219,8 +221,7 @@ function daysSince(date) {
 }
 
 export function visibility(item) {
-  const isToday = item.added === state.latest;
-  if (!isToday && state.read.has(item.id)) return "done";
+  if (state.read.has(item.id)) return "done"; // read to the end (or Done): it leaves the feed
   if (item.kind === "news") {
     if (daysSince(itemDate(item)) > state.settings.newsExpireDays) return "expired";
   } else if (state.settings.skipRule.enabled && !state.opened.has(item.id) && (state.skips[item.id] ?? 0) >= state.settings.skipRule.limit) {

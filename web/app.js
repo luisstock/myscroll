@@ -81,11 +81,13 @@ function renderChips() {
   }, c.label, el("span", { class: "n" }, String(c.n)))));
 }
 
+// Read items leave the feed, so progress = today's read ÷ (today's read + what's still in the scroll).
 function updateProgress() {
-  const items = visibleItems();
-  const done = items.filter((i) => state.read.has(i.id)).length;
-  $("#progressBar").style.width = items.length ? `${(done / items.length) * 100}%` : "0";
-  return { done, total: items.length };
+  const left = visibleItems().length;
+  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic)).length;
+  const total = done + left;
+  $("#progressBar").style.width = total ? `${(done / total) * 100}%` : "0";
+  return { done, total };
 }
 
 // ---------- cards ----------
@@ -131,24 +133,112 @@ function makeCard(item, { longread = false } = {}) {
   if (img) thumb.append(img); else { thumb.textContent = topic.emoji; node.classList.add("no-img"); }
   if (item.video) thumb.classList.add("is-video");
 
+  // How far you got last time (thin bar at the bottom of the closed card).
+  node.append(el("div", { class: "card-progress", "aria-hidden": "true" }, el("span")));
+  paintPartial(node, item.id);
+
   const head = $(".card-head", node);
   const body = $(".card-body", node);
   let built = false;
   head.addEventListener("click", () => {
     const open = body.hidden;
+    // Closing a card you've read to the end: it's done, clear it from the feed.
+    if (!open && isFinished(item.id) && !state.read.has(item.id)) return dismiss(node, item);
     if (open && !built) { buildBody(node, item); built = true; }
     body.hidden = !open;
     node.classList.toggle("open", open);
     head.setAttribute("aria-expanded", String(open));
-    if (open) markOpened(item, node);
+    if (open) { markOpened(item, node); setTimeout(trackReading, 50); }
     else {
       $(".hero iframe", node)?.remove(); // stop the video when closing
       built = false;
+      paintPartial(node, item.id);
+      trackReading();
       node.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
   });
   skipObserver.observe(node);
   return node;
+}
+
+// ---------- reading progress ----------
+const FINISHED = 0.97;
+const isFinished = (id) => (state.progress[id] ?? 0) >= FINISHED;
+
+function paintPartial(node, id) {
+  const p = state.read.has(id) ? 0 : state.progress[id] ?? 0;
+  node.classList.toggle("partial", p > 0.08 && p < FINISHED);
+  $(".card-progress span", node).style.width = `${Math.round(p * 100)}%`;
+}
+
+// While a card is open: how much of it you've scrolled through (to the end of its actions row).
+let saveProgressTimer;
+function trackReading() {
+  let best = null;
+  let bestVisible = 0;
+  for (const node of feed.querySelectorAll(".card.open")) {
+    const r = node.getBoundingClientRect();
+    const end = $(".actions", node)?.getBoundingClientRect().bottom ?? r.bottom;
+    const total = Math.max(1, end - r.top);
+    const p = Math.max(0, Math.min(1, (window.innerHeight - r.top) / total));
+    const id = node.dataset.id;
+    if (p > (state.progress[id] ?? 0)) {
+      state.progress[id] = p;
+      clearTimeout(saveProgressTimer);
+      saveProgressTimer = setTimeout(() => store.set("progress", state.progress), 800);
+    }
+    node.classList.toggle("finished", isFinished(id));
+    const visible = Math.min(r.bottom, window.innerHeight) - Math.max(r.top, 0);
+    if (visible > bestVisible) { bestVisible = visible; best = p; }
+  }
+  const bar = $("#readBar");
+  bar.hidden = best == null;
+  bar.firstElementChild.style.width = `${Math.round((best ?? 0) * 100)}%`;
+}
+// Throttled (every ~80 ms, plus once when scrolling stops).
+let lastTrack = 0;
+let trailingTrack;
+window.addEventListener("scroll", () => {
+  const now = Date.now();
+  if (now - lastTrack > 80) { lastTrack = now; trackReading(); }
+  clearTimeout(trailingTrack);
+  trailingTrack = setTimeout(trackReading, 120);
+}, { passive: true });
+
+// Mark as read, slide the card out, offer Undo.
+function dismiss(node, item) {
+  state.progress[item.id] = 1;
+  store.set("progress", state.progress);
+  state.read.add(item.id);
+  store.set("read", [...state.read]);
+  rememberFeatures(item);
+  node.style.height = `${node.offsetHeight}px`;
+  requestAnimationFrame(() => node.classList.add("leaving"));
+  setTimeout(() => {
+    $(".hero iframe", node)?.remove();
+    node.remove();
+    renderChips();
+    const { done, total } = updateProgress();
+    $(".the-end", feed)?.replaceWith(theEnd(done, total));
+    trackReading();
+  }, 320);
+  toast("Marked as read", "Undo", () => {
+    state.read.delete(item.id);
+    store.set("read", [...state.read]);
+    const y = window.scrollY;
+    render();
+    window.scrollTo({ top: y });
+  });
+}
+
+let toastTimer;
+function toast(text, actionLabel, onAction) {
+  $(".toast")?.remove();
+  clearTimeout(toastTimer);
+  const t = el("div", { class: "toast", role: "status" }, el("span", {}, text),
+    actionLabel ? el("button", { onclick: () => { t.remove(); onAction(); } }, actionLabel) : null);
+  document.body.append(t);
+  toastTimer = setTimeout(() => t.remove(), 5000);
 }
 
 function buildBody(node, item) {
@@ -184,6 +274,10 @@ function buildBody(node, item) {
     onclick: () => rate(item, r, node),
   }, r === 0 ? "0" : "★")));
   paintRating(node, item.id);
+
+  if (!$(".done-btn", node)) {
+    $(".actions", node).append(el("button", { class: "done-btn", onclick: () => dismiss(node, item) }, "✓ Done"));
+  }
 
   const saveBtn = $("[data-save]", node);
   const paintSave = () => {
@@ -244,6 +338,7 @@ function setupReadMore(node, item) {
         el("a", { class: "more-continue", href: item.source.url, target: "_blank", rel: "noopener" }, "Continue at the source ↗"));
       box.hidden = false;
       btn.hidden = true;
+      setTimeout(trackReading, 50); // the card just got longer
     } catch (err) {
       btn.disabled = false;
       btn.textContent = "Try again";
@@ -285,18 +380,13 @@ function rate(item, r, node) {
   paintRating(node, item.id);
 }
 
-function markOpened(item, node) {
+// Opening isn't reading: "read" happens when you reach the end (or tap Done).
+function markOpened(item) {
   rememberFeatures(item);
   if (!state.opened.has(item.id)) {
     state.opened.add(item.id);
     store.set("opened", [...state.opened]);
   }
-  if (state.read.has(item.id)) return;
-  state.read.add(item.id);
-  store.set("read", [...state.read]);
-  node.classList.add("read");
-  const { done, total } = updateProgress();
-  $(".the-end", feed)?.replaceWith(theEnd(done, total));
 }
 
 // Count how often an item is scrolled past without being opened (once per page load).
@@ -432,7 +522,13 @@ function renderFeed() {
     if (isWeekDay()) nodes.push(el("button", { class: "week-banner", onclick: () => { state.view = "week"; render(); window.scrollTo({ top: 0 }); } },
       "📅 It's Sunday: your week in review is ready →"));
     nodes.push(...items.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
-    nodes.push(...topicSections(items, state.settings.navBy === "groups"));
+    if (state.shuffleSeed != null) {
+      nodes.push(el("div", { class: "shuffle-bar" }, el("span", {}, "🔀 Shuffled"),
+        el("button", { onclick: () => { state.shuffleSeed = null; renderFeed(); window.scrollTo({ top: 0 }); } }, "Sort by topic")));
+      nodes.push(...shuffled(items.filter((i) => i.kind !== "longread"), state.shuffleSeed).map((i) => makeCard(i)));
+    } else {
+      nodes.push(...topicSections(items, state.settings.navBy === "groups"));
+    }
   } else if (state.view === "saved") {
     const saved = ranked(pool().filter((i) => state.saved.has(i.id)));
     if (!saved.length) nodes.push(empty("Nothing saved yet. Open an item and tap ☆ Save."));
@@ -461,6 +557,60 @@ function renderFeed() {
   }
   feed.replaceChildren(...nodes.filter(Boolean));
 }
+
+// ---------- pull to shuffle (All) ----------
+function rng(seed) { // mulberry32
+  return () => {
+    seed |= 0; seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+// Random order, then break up runs of the same topic so the mix feels mixed.
+function shuffled(items, seed) {
+  const rand = rng(seed);
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  for (let i = 1; i < a.length; i++) {
+    if (a[i].topic !== a[i - 1].topic) continue;
+    const j = a.findIndex((x, k) => k > i && x.topic !== a[i - 1].topic);
+    if (j > 0) [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function shuffleNow() {
+  state.shuffleSeed = Math.floor(Math.random() * 2 ** 31);
+  renderFeed();
+  window.scrollTo({ top: 0 });
+  toast("Shuffled ✨");
+}
+
+const pullEl = el("div", { class: "pull", "aria-hidden": "true" }, el("span"));
+$(".top").after(pullEl);
+const PULL_TRIGGER = 90;
+let pull = null;
+window.addEventListener("touchstart", (e) => {
+  pull = state.view === "all" && window.scrollY <= 0 && e.touches.length === 1 ? { y0: e.touches[0].clientY, d: 0 } : null;
+}, { passive: true });
+window.addEventListener("touchmove", (e) => {
+  if (!pull) return;
+  pull.d = Math.max(0, (e.touches[0].clientY - pull.y0) * 0.5); // resistance
+  if (pull.d <= 0) return;
+  e.preventDefault(); // we handle this pull, not the page
+  pullEl.style.height = `${Math.min(pull.d, PULL_TRIGGER + 20)}px`;
+  pullEl.firstElementChild.textContent = pull.d >= PULL_TRIGGER ? "↻ Release to shuffle" : "↓ Pull to shuffle";
+  pullEl.classList.toggle("ready", pull.d >= PULL_TRIGGER);
+}, { passive: false });
+window.addEventListener("touchend", () => {
+  if (!pull) return;
+  const go = pull.d >= PULL_TRIGGER;
+  pull = null;
+  pullEl.style.height = "0";
+  pullEl.classList.remove("ready");
+  if (go) shuffleNow();
+});
 
 // ---------- boot ----------
 function render() {

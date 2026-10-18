@@ -8,6 +8,7 @@ import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
 import { loadMore } from "./loadmore.js";
 import { $, el } from "./ui.js";
+import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
 const THEME_ICON = { dark: "🌗", night: "🌙", light: "☀️" };
@@ -20,7 +21,15 @@ function applyTheme() {
   $("#themeBtn").textContent = THEME_ICON[state.settings.theme];
   const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
   $('meta[name="theme-color"]').content = bg;
+  setSystemBars(state.settings.theme);
 }
+
+// Android back: Settings/topic editor → feed → All → exit.
+onBackButton(() => {
+  if (state.editTopic) { state.editTopic = null; render(); return true; }
+  if (state.view !== "all") { state.view = "all"; state.sub = null; render(); window.scrollTo({ top: 0 }); return true; }
+  return false;
+});
 $("#themeBtn").addEventListener("click", () => {
   state.settings.theme = THEMES[(THEMES.indexOf(state.settings.theme) + 1) % THEMES.length];
   saveSettings();
@@ -81,7 +90,7 @@ function updateProgress() {
 // ---------- cards ----------
 function imageEl(item) {
   if (!item.image?.src) return null;
-  const img = el("img", { src: item.image.src, alt: "", loading: "lazy" });
+  const img = el("img", { src: dataUrl(item.image.src), alt: "", loading: "lazy" });
   img.onerror = () => img.remove();
   return img;
 }
@@ -375,7 +384,6 @@ function theEnd(done, total) {
 }
 
 async function reloadEditions() {
-  const getJSON = (u) => fetch(u, { cache: "no-store" }).then((r) => r.json());
   const index = await getJSON("editions/index.json");
   state.latest = index.latest;
   state.editions = await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`)));
@@ -465,7 +473,6 @@ function render() {
 
 async function load() {
   applyTheme();
-  const getJSON = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(`${u}: ${r.status}`); return r.json(); });
   const [taxonomy, catalog, index] = await Promise.all([getJSON("taxonomy.json"), getJSON("catalog.json"), getJSON("editions/index.json")]);
   state.taxonomy = taxonomy;
   state.catalog = catalog.sources;
@@ -474,7 +481,7 @@ async function load() {
   state.editions = await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`)));
 
   // The agent marks new topics as set up (and may add sources to the catalog) in agent-notes.json.
-  const notes = await fetch("agent-notes.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const notes = await getJSON("agent-notes.json", { optional: true });
   if (notes?.readyTopics?.length && state.settings.topics) {
     let changed = false;
     for (const t of state.settings.topics) {

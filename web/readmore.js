@@ -3,6 +3,8 @@
 // Pages are fetched through /api/fetch (the dev server) to get around CORS; in the Android app
 // this will be a native HTTP call instead.
 
+import { isNative, isLocalDev } from "./env.js";
+
 const MAX_BLOCKS = 40;
 
 export async function readMore(item) {
@@ -83,7 +85,10 @@ async function article(url) {
 }
 
 async function proxied(url) {
-  const res = await fetch(`/api/fetch?url=${encodeURIComponent(url)}`);
+  // Android: native HTTP (CapacitorHttp) has no CORS limits, fetch the page directly.
+  // Local dev: go through the dev server's proxy. Plain browsers elsewhere can't, so they get a clear error.
+  if (!isNative && !isLocalDev) throw new Error("Full text isn't available here — open the source.");
+  const res = await fetch(isNative ? url : `/api/fetch?url=${encodeURIComponent(url)}`);
   if (!res.ok) throw new Error(`The source answered ${res.status}.`);
   return res.text();
 }

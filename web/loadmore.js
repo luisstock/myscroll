@@ -1,6 +1,7 @@
 // "Load more": asks the pipeline to research a few more items right now and append them to today.
 // On the PC it talks to the local server (/api/run). Elsewhere it triggers the GitHub Actions workflow.
 import { state, store } from "./model.js";
+import { isLocalDev, getJSON } from "./env.js";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -11,6 +12,7 @@ export const github = {
 };
 
 async function localServer() {
+  if (!isLocalDev) return false;
   try {
     const r = await fetch("/api/run", { cache: "no-store" });
     return r.ok && (await r.json()) && true;
@@ -58,8 +60,8 @@ export async function loadMore(onStatus, topics = null) {
 
 async function todaysCount() {
   try {
-    const idx = await fetch("editions/index.json", { cache: "no-store" }).then((r) => r.json());
-    const ed = await fetch(`editions/${idx.latest}.json`, { cache: "no-store" }).then((r) => r.json());
+    const idx = await getJSON("editions/index.json");
+    const ed = await getJSON(`editions/${idx.latest}.json`);
     return ed.items.length + (idx.latest !== state.latest ? 1000 : 0);
   } catch { return 0; }
 }

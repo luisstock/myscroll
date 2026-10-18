@@ -1,0 +1,13 @@
+{
+  "appId": "io.github.luisstock.myscroll",
+  "appName": "MyScroll",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#121214"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

@@ -4,3 +4,5 @@ data/candidates-*.json
 # not part of MyScroll
 content/poster-portao/
 .claude/settings.local.json
+dist/
+.signing/

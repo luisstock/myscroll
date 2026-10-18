@@ -1,0 +1,78 @@
+name: MyScroll Android app
+
+# Builds a signed .apk and publishes it as a GitHub Release.
+# Latest version is always at: https://github.com/luisstock/myscroll/releases/latest/download/MyScroll.apk
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "!web/editions/**"
+      - "!web/agent-notes.json"
+      - "android/**"
+      - "capacitor.config.json"
+      - "scripts/build-app.mjs"
+      - ".github/workflows/android.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: myscroll-android
+  cancel-in-progress: true
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - uses: android-actions/setup-android@v3
+
+      - run: npm ci
+
+      - name: Bundle the app code into the Android project
+        run: |
+          node scripts/build-app.mjs
+          npx cap sync android
+
+      - name: Unpack the signing key
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$ANDROID_KEYSTORE_BASE64" ]; then
+            echo "::error::Missing secret ANDROID_KEYSTORE_BASE64 (see README: Android app)"; exit 1
+          fi
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/myscroll.p12"
+
+      - name: Build the signed .apk
+        working-directory: android
+        env:
+          ANDROID_KEYSTORE_FILE: ${{ runner.temp }}/myscroll.p12
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+          cp app/build/outputs/apk/release/app-release.apk "$RUNNER_TEMP/MyScroll.apk"
+
+      - name: Publish as a GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: app-1.0.${{ github.run_number }}
+          name: MyScroll 1.0.${{ github.run_number }}
+          body: "Install on Android: download **MyScroll.apk** below on your phone and open it."
+          files: ${{ runner.temp }}/MyScroll.apk
+          make_latest: "true"

@@ -1,6 +1,7 @@
 // MyScroll state and domain logic: settings, topics, groups, sources, the backlog pool and ranking.
 // Everything here is UI-free so the agent (Node) can reuse the same rules later.
 import { buildProfile, scoreItem } from "./ranking.js";
+import { isLocalDev } from "./env.js";
 
 const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved"];
 
@@ -22,8 +23,8 @@ function scheduleSync() {
   syncTimer = setTimeout(syncNow, 1500);
 }
 export function syncNow() {
-  // Only the local dev server can receive the state; the GitHub Pages copy is read-only.
-  if (!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) return Promise.resolve();
+  // Only the local dev server can receive the state; GitHub Pages and the Android app can't (yet).
+  if (!isLocalDev) return Promise.resolve();
   const body = { updatedAt: new Date().toISOString() };
   for (const k of SYNCED) body[k] = store.get(k, null);
   return fetch("/api/state", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })

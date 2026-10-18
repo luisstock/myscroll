@@ -7,12 +7,19 @@
     "serve": "node scripts/serve.mjs",
     "edition": "node scripts/pipeline/run.mjs",
     "gather": "node scripts/pipeline/run.mjs --dry",
-    "build": "node scripts/build-edition.mjs"
+    "build": "node scripts/build-edition.mjs",
+    "android:sync": "node scripts/build-app.mjs && npx cap sync android"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.135.0",
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3",
     "@mozilla/readability": "0.6.0",
     "fast-xml-parser": "5.11.2",
     "linkedom": "0.18.13"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
   }
 }

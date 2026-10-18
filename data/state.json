@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:32:08.333Z",
+ "updatedAt": "2026-10-18T23:35:18.806Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -485,7 +485,7 @@
   "mo-ae": 2,
   "mo-roto": 3,
   "ai-elorian-launches-glimpse-to-give-multimodal-mode": 2,
-  "news-outcry-in-australia-after-incarcerated-mother-sh": 1,
+  "news-outcry-in-australia-after-incarcerated-mother-sh": 2,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "tech-cities-are-pushing-back-against-driverless-robot": 1,
@@ -505,7 +505,7 @@
   "pt-ninfa-fossil-pejao": 2,
   "pt-porto-cidade-acolhedora": 2,
   "pt-agostinho": 1,
-  "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 1,
+  "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 2,
   "pt-nata": 1,
   "til-violet-jessop": 2,
   "bike-from-world-championships-in-nannup-to-morton-s-p": 2,
@@ -547,7 +547,8 @@
   "fun-boaty": 1,
   "ai-sd": 1,
   "ai-whisper": 1,
-  "ai-llamacpp": 1
+  "ai-llamacpp": 1,
+  "tr-lofi": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1322,6 +1323,14 @@
    "tag:laika",
    "tag:stop-motion",
    "tag:set-design"
+  ],
+  "tr-lofi": [
+   "topic:design",
+   "source:wikipedia",
+   "style:story",
+   "tag:lofi",
+   "tag:animation-loop",
+   "tag:youtube"
   ]
  },
  "read": [
@@ -1337,7 +1346,8 @@
   "ideas-good-ideas-come-from-noticing-anomalies-at-the-e",
   "til-dancing-plague-1518",
   "til-cleopatra",
-  "bk-peloton"
+  "bk-peloton",
+  "design-why-laika-spent-four-years-building-a-single-sto"
  ],
  "saved": [
   "pt-1755"

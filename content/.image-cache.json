@@ -294,5 +294,29 @@
   "v2:en:Cycling": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg/1280px-Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Cycliste_à_place_d'Italie-Paris_crop.jpg"
+  },
+  "v2:en:Harry_Potter_in_translation": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/RIAN_archive_168852_The_seventh_book_about_Harry_Potter_goes_on_sale.jpg/500px-RIAN_archive_168852_The_seventh_book_about_Harry_Potter_goes_on_sale.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:RIAN_archive_168852_The_seventh_book_about_Harry_Potter_goes_on_sale.jpg"
+  },
+  "v2:en:GeForce_50_series": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RTX_5090_-_du%C5%BCa_wydajno%C5%9B%C4%87_du%C5%BCym_kosztem_%282160p_30fps_VP9_LQ-96kbit_AAC%29-00.00.04.100.png/1280px-RTX_5090_-_du%C5%BCa_wydajno%C5%9B%C4%87_du%C5%BCym_kosztem_%282160p_30fps_VP9_LQ-96kbit_AAC%29-00.00.04.100.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:RTX_5090_-_duża_wydajność_dużym_kosztem_(2160p_30fps_VP9_LQ-96kbit_AAC)-00.00.04.100.png"
+  },
+  "v2:en:Outlander_(TV_series)": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/31/Outlander_title_card.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:Outlander_title_card.jpg"
+  },
+  "v2:en:Kinetic_typography": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Flash_Gordon_%281940%29_-_Opening_Crawl.jpg/330px-Flash_Gordon_%281940%29_-_Opening_Crawl.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Flash_Gordon_(1940)_-_Opening_Crawl.jpg"
+  },
+  "og:https://arxiv.org/abs/2610.18861": {
+    "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "credit": "arxiv.org"
+  },
+  "v2:en:Paul_Graham_(programmer)": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Paulgraham_240x320.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:Paulgraham_240x320.jpg"
   }
 }

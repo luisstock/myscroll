@@ -76,5 +76,29 @@
   },
   "https://www.boredpanda.com/": {
     "feed": "https://www.boredpanda.com/feed"
+  },
+  "https://www.mentalfloss.com/": {
+    "feed": "https://www.mentalfloss.com/feed"
+  },
+  "https://www.youtube.com/@JakeInMotion": {
+    "channelId": "UCSggky_jA5RfK4gR5RBwGyw"
+  },
+  "https://www.youtube.com/@BenMarriott": {
+    "channelId": "UCjJk212xU15y_NPYKuCsKQA"
+  },
+  "https://cavalry.scenegroup.co/": {
+    "feed": null
+  },
+  "https://expresso.pt/": {
+    "feed": null
+  },
+  "https://www.dn.pt/": {
+    "feed": "https://www.dn.pt/feed"
+  },
+  "https://www.publico.pt/p3": {
+    "feed": null
+  },
+  "https://www.timeout.pt/lisboa": {
+    "feed": null
   }
 }

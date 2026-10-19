@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-19T07:50:10.869Z",
+ "updatedAt": "2026-10-19T07:50:35.594Z",
  "device": "app",
  "settings": {
   "theme": "dark",
   "layout": "cards",
-  "navBy": "groups",
+  "navBy": "topics",
   "dailyTarget": 40,
   "newsExpireDays": 7,
   "skipRule": {

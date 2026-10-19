@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:46:03.333Z",
+ "updatedAt": "2026-10-19T06:46:22.483Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -539,6 +539,19 @@
     "tag:etiquette",
     "tag:social-norms"
    ]
+  },
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": {
+   "r": 0,
+   "at": "2026-10-19T06:46:06.377Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/gravel",
+    "source:cyclingnews-gravel",
+    "style:news",
+    "tag:cyclo-cross",
+    "tag:fem-van-empel",
+    "tag:racing-return"
+   ]
   }
  },
  "opened": [
@@ -573,7 +586,8 @@
   "bike-putting-the-hype-to-the-test-silca-protocol-rcg",
   "ai-whisper",
   "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
-  "tech-the-humble-14-milk-frother-and-the-19th-century"
+  "tech-the-humble-14-milk-frother-and-the-19th-century",
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -595,7 +609,7 @@
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 4,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
   "science-perseverance-rover-takes-the-crown-for-off-world": 2,
-  "pt-lingua-mirandesa": 2,
+  "pt-lingua-mirandesa": 3,
   "pt-morcegos-biblioteca-joanina": 1,
   "pt-alianca-luso-britanica": 2,
   "pt-quatro-candelabros-da-mitica-baixela-germain-est": 2,
@@ -1770,7 +1784,8 @@
   "til-7-regency-rules-that-would-drive-modern-humans-u",
   "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll",
   "books-creating-art-in-times-of-anxiety-and-chaos",
-  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int"
+  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y"
  ],
  "saved": [
   "pt-1755"

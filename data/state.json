@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:42:02.633Z",
+ "updatedAt": "2026-10-19T06:43:23.682Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -616,7 +616,7 @@
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
   "ai-quant": 4,
   "fun-byron": 1,
-  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 2,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
   "til-oxford": 3,
   "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 3,
@@ -629,7 +629,7 @@
   "til-robert-smalls": 1,
   "til-stiglers-law": 1,
   "til-fly-geyser": 1,
-  "til-roy-sullivan-lightning": 1,
+  "til-roy-sullivan-lightning": 2,
   "til-where-did-millions-of-tons-of-world-war-ii-milit": 2,
   "til-til-an-imposing-soviet-iron-fountain-survived-an": 3,
   "til-wombat": 1,
@@ -667,7 +667,8 @@
   "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "tech-a-police-officer-shared-automated-license-plate": 1,
-  "til-the-global-scramble-and-strange-fakes-of-transla": 1
+  "til-the-global-scramble-and-strange-fakes-of-transla": 1,
+  "design-visualizing-fuzzy-memories-in-an-unbound-book": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1701,6 +1702,15 @@
    "tag:translation",
    "tag:publishing",
    "tag:books"
+  ],
+  "design-visualizing-fuzzy-memories-in-an-unbound-book": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:book-design",
+   "tag:graphic-design",
+   "tag:illustration",
+   "tag:print"
   ]
  },
  "read": [

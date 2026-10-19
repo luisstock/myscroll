@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:43:23.682Z",
+ "updatedAt": "2026-10-19T06:45:01.805Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -571,7 +571,8 @@
   "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll",
   "design-designing-with-abandon-nuria-balinha-s-weekly-zi",
   "bike-putting-the-hype-to-the-test-silca-protocol-rcg",
-  "ai-whisper"
+  "ai-whisper",
+  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -615,7 +616,7 @@
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
   "ai-quant": 4,
-  "fun-byron": 1,
+  "fun-byron": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 2,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
   "til-oxford": 3,
@@ -1711,6 +1712,15 @@
    "tag:graphic-design",
    "tag:illustration",
    "tag:print"
+  ],
+  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int": [
+   "topic:fun",
+   "source:r-nottheonion",
+   "style:reddit",
+   "tag:gpus",
+   "tag:nvidia",
+   "tag:heists",
+   "tag:brazil"
   ]
  },
  "read": [
@@ -1738,7 +1748,8 @@
   "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
   "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
   "til-7-regency-rules-that-would-drive-modern-humans-u",
-  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll"
+  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll",
+  "books-creating-art-in-times-of-anxiety-and-chaos"
  ],
  "saved": [
   "pt-1755"

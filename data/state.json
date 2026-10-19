@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T07:53:20.766Z",
+ "updatedAt": "2026-10-19T07:54:04.905Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -552,6 +552,20 @@
     "tag:fem-van-empel",
     "tag:racing-return"
    ]
+  },
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": {
+   "r": 3,
+   "at": "2026-10-19T07:53:38.901Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:sociedade",
+    "tag:habitacao",
+    "tag:porto",
+    "tag:lisboa"
+   ]
   }
  },
  "opened": [
@@ -598,7 +612,8 @@
   "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
   "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
   "pt-musica-sertaneja-das-bombas-de-gasolina-projeto",
-  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani"
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani",
+  "pt-ninfa-fossil-pejao"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -627,7 +642,7 @@
   "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": 3,
   "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 3,
   "pt-ninfa-fossil-pejao": 3,
-  "pt-porto-cidade-acolhedora": 2,
+  "pt-porto-cidade-acolhedora": 3,
   "pt-agostinho": 3,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 2,
   "pt-nata": 2,
@@ -1952,7 +1967,9 @@
   "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias",
   "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
   "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
-  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto"
+  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto",
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani",
+  "pt-ninfa-fossil-pejao"
  ],
  "saved": [
   "pt-1755",

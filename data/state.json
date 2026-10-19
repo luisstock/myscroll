@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:48:45.081Z",
+ "updatedAt": "2026-10-19T06:49:33.001Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -590,7 +590,8 @@
   "bike-fem-van-empel-returns-to-racing-after-nearly-a-y",
   "ai-strot-compiles-llm-intent-once-into-a-60ms-local",
   "til-chuck-lorre-escaped-scientology-without-harassme",
-  "pt-nata"
+  "pt-nata",
+  "motion-balancing-speed-and-readability-in-vertical-kine"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -636,7 +637,7 @@
   "ai-quant": 4,
   "fun-byron": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 2,
-  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "til-oxford": 3,
   "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 4,
   "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 3,
@@ -688,7 +689,8 @@
   "tech-a-police-officer-shared-automated-license-plate": 1,
   "til-the-global-scramble-and-strange-fakes-of-transla": 1,
   "design-visualizing-fuzzy-memories-in-an-unbound-book": 1,
-  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1
+  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1,
+  "science-white-dwarfs-aren-t-just-white-astronomers-find": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1768,6 +1770,15 @@
    "tag:local-inference",
    "tag:open-source",
    "tag:python"
+  ],
+  "science-white-dwarfs-aren-t-just-white-astronomers-find": [
+   "topic:science",
+   "source:sci-news",
+   "style:explainer",
+   "tag:astronomy",
+   "tag:white-dwarfs",
+   "tag:space-science",
+   "tag:physics"
   ]
  },
  "read": [
@@ -1799,9 +1810,11 @@
   "books-creating-art-in-times-of-anxiety-and-chaos",
   "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
   "bike-fem-van-empel-returns-to-racing-after-nearly-a-y",
-  "ai-strot-compiles-llm-intent-once-into-a-60ms-local"
+  "ai-strot-compiles-llm-intent-once-into-a-60ms-local",
+  "pt-nata"
  ],
  "saved": [
-  "pt-1755"
+  "pt-1755",
+  "motion-balancing-speed-and-readability-in-vertical-kine"
  ]
 }

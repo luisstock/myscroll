@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T07:51:59.804Z",
+ "updatedAt": "2026-10-19T07:53:20.766Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -596,7 +596,9 @@
   "fun-stubbs",
   "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias",
   "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
-  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo"
+  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
+  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto",
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -703,7 +705,8 @@
   "pt-operacao-marques-arranca-segundo-julgamento-de-s": 1,
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
   "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": 1,
-  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 1
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 1,
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1902,6 +1905,16 @@
    "tag:habitacao",
    "tag:porto",
    "tag:governo"
+  ],
+  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:sociedade",
+   "tag:habitacao",
+   "tag:porto",
+   "tag:lisboa"
   ]
  },
  "read": [
@@ -1938,7 +1951,8 @@
   "fun-stubbs",
   "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias",
   "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
-  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo"
+  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
+  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto"
  ],
  "saved": [
   "pt-1755",

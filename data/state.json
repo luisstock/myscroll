@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:45:28.365Z",
+ "updatedAt": "2026-10-19T06:46:03.333Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -572,7 +572,8 @@
   "design-designing-with-abandon-nuria-balinha-s-weekly-zi",
   "bike-putting-the-hype-to-the-test-silca-protocol-rcg",
   "ai-whisper",
-  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int"
+  "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
+  "tech-the-humble-14-milk-frother-and-the-19th-century"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -597,7 +598,7 @@
   "pt-lingua-mirandesa": 2,
   "pt-morcegos-biblioteca-joanina": 1,
   "pt-alianca-luso-britanica": 2,
-  "pt-quatro-candelabros-da-mitica-baixela-germain-est": 1,
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est": 2,
   "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": 2,
   "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 2,
   "pt-ninfa-fossil-pejao": 3,
@@ -637,7 +638,7 @@
   "til-nintendo": 2,
   "til-banana": 2,
   "til-eiffel": 2,
-  "fun-project-pigeon": 1,
+  "fun-project-pigeon": 2,
   "fun-wilhelm-scream": 2,
   "fun-busan-canal-shark": 2,
   "fun-emu": 2,
@@ -669,7 +670,8 @@
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "tech-a-police-officer-shared-automated-license-plate": 1,
   "til-the-global-scramble-and-strange-fakes-of-transla": 1,
-  "design-visualizing-fuzzy-memories-in-an-unbound-book": 1
+  "design-visualizing-fuzzy-memories-in-an-unbound-book": 1,
+  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1721,6 +1723,24 @@
    "tag:nvidia",
    "tag:heists",
    "tag:brazil"
+  ],
+  "news-thawing-permafrost-leaches-heavy-metals-into-sva": [
+   "topic:news",
+   "sub:news/climate",
+   "source:guardian-world",
+   "style:news",
+   "tag:svalbard",
+   "tag:permafrost",
+   "tag:drinking-water",
+   "tag:arctic"
+  ],
+  "tech-the-humble-14-milk-frother-and-the-19th-century": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:coffee",
+   "tag:kitchen-tech",
+   "tag:gadgets"
   ]
  },
  "read": [

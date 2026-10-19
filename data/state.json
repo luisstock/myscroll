@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:39:03.422Z",
+ "updatedAt": "2026-10-19T06:40:14.148Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -580,7 +580,7 @@
   "mo-ae": 2,
   "mo-roto": 4,
   "ai-elorian-launches-glimpse-to-give-multimodal-mode": 3,
-  "news-outcry-in-australia-after-incarcerated-mother-sh": 2,
+  "news-outcry-in-australia-after-incarcerated-mother-sh": 3,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "tech-cities-are-pushing-back-against-driverless-robot": 2,
@@ -607,7 +607,7 @@
   "til-octopus": 2,
   "til-wojtek-bear": 2,
   "bk-drais": 4,
-  "pt-volta": 1,
+  "pt-volta": 2,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 3,
   "pt-cortica": 2,
   "fun-boring-and-dull": 2,
@@ -638,7 +638,7 @@
   "fun-wilhelm-scream": 1,
   "fun-busan-canal-shark": 2,
   "fun-emu": 2,
-  "fun-stubbs": 1,
+  "fun-stubbs": 2,
   "fun-boaty": 1,
   "ai-sd": 2,
   "ai-whisper": 2,
@@ -662,7 +662,9 @@
   "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1,
   "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": 1,
   "fun-mike": 1,
-  "news-nsw-introduces-special-bill-to-bypass-high-court": 1
+  "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
+  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
+  "tech-a-police-officer-shared-automated-license-plate": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1669,6 +1671,23 @@
    "tag:coal-mining",
    "tag:climate-policy",
    "tag:rule-of-law"
+  ],
+  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:hubble",
+   "tag:astronomy",
+   "tag:galaxies",
+   "tag:cosmology"
+  ],
+  "tech-a-police-officer-shared-automated-license-plate": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:surveillance",
+   "tag:privacy",
+   "tag:tech-policy"
   ]
  },
  "read": [

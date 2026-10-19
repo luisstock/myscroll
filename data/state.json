@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:38:27.415Z",
+ "updatedAt": "2026-10-19T06:38:55.383Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -627,7 +627,7 @@
   "til-stiglers-law": 1,
   "til-fly-geyser": 1,
   "til-roy-sullivan-lightning": 1,
-  "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
+  "til-where-did-millions-of-tons-of-world-war-ii-milit": 2,
   "til-til-an-imposing-soviet-iron-fountain-survived-an": 3,
   "til-wombat": 1,
   "til-nintendo": 2,
@@ -1674,7 +1674,8 @@
   "bk-hour",
   "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
   "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
-  "til-7-regency-rules-that-would-drive-modern-humans-u"
+  "til-7-regency-rules-that-would-drive-modern-humans-u",
+  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll"
  ],
  "saved": [
   "pt-1755"

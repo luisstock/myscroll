@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T20:26:42.455Z",
+ "updatedAt": "2026-10-19T20:27:32.594Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -729,7 +729,7 @@
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 2,
   "tech-a-police-officer-shared-automated-license-plate": 2,
   "til-the-global-scramble-and-strange-fakes-of-transla": 1,
-  "design-visualizing-fuzzy-memories-in-an-unbound-book": 2,
+  "design-visualizing-fuzzy-memories-in-an-unbound-book": 3,
   "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 2,
   "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": 2,
@@ -744,7 +744,9 @@
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
   "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 1,
   "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1,
-  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 1
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 1,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
+  "ideas-beauty-is-an-act-of-unselfing": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2001,6 +2003,24 @@
    "tag:the-voice",
    "tag:televisao",
    "tag:historias-de-vida"
+  ],
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": [
+   "topic:ideas",
+   "source:paul-graham",
+   "style:idea",
+   "tag:writing",
+   "tag:thinking",
+   "tag:paul-graham",
+   "tag:essays"
+  ],
+  "ideas-beauty-is-an-act-of-unselfing": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:philosophy",
+   "tag:psychology",
+   "tag:iris-murdoch",
+   "tag:mindfulness"
   ]
  },
  "read": [

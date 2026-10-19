@@ -6,6 +6,7 @@ import {
 } from "./model.js";
 import { el } from "./ui.js";
 import { github } from "./loadmore.js";
+import { followedSection } from "./follow.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
 
 let ctx; // { root, refreshChrome, applyTheme }
@@ -16,7 +17,7 @@ export function renderSettings(context) {
   const s = state.settings;
   ctx.root.replaceChildren(el("div", { class: "settings" },
     learnedSection(), readingSection(s), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
-    groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
+    followedSection(() => renderSettings(ctx)), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
 }
 
 // ---------- Load more ----------
@@ -106,6 +107,8 @@ function readingSection(s) {
       seg([["dark", "Dark"], ["night", "Night"], ["light", "Light"]], s.theme, (v) => { s.theme = v; saveSettings(); ctx.applyTheme(); renderSettings(ctx); })),
     el("div", { class: "row" }, el("span", {}, "Top bar shows"),
       seg([["groups", "Groups"], ["topics", "Topics"]], s.navBy, (v) => { s.navBy = v; rerender(); })),
+    el("label", { class: "row" }, el("span", {}, "Order by what I read most"),
+      el("input", { type: "checkbox", checked: s.orderByReading !== false, onchange: (e) => { s.orderByReading = e.target.checked; rerender(); } })),
     el("label", { class: "row" }, el("span", {}, "Items per edition"),
       el("input", { type: "number", min: 10, max: 150, step: 5, value: s.dailyTarget, onchange: (e) => { s.dailyTarget = Number(e.target.value); saveSettings(); } })),
     el("label", { class: "row" }, el("span", {}, "News expire after (days)"),

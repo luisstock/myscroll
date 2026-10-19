@@ -63,6 +63,7 @@ const DEFAULT_SETTINGS = {
   sourceOverrides: {},                     // catalog sourceId -> { weight?, deleted?, enabled? }
   customSources: [],                       // [{ id, topic, name, url, type, weight, tags }]
   unmuted: [],                             // features the user un-muted by hand
+  orderByReading: true,                    // chips/sections ordered by how much you read each topic
 };
 
 export const state = {
@@ -213,6 +214,9 @@ export function rebuildProfile() {
     if (state.ratings[id] || state.opened.has(id) || !state.itemFeatures[id]) continue;
     events.push({ features: state.itemFeatures[id], at: now, skips: n });
   }
+  for (const [id, h] of live(state.hidden)) {
+    if (!state.ratings[id] && h.f) events.push({ features: h.f, at: h.at, notInterested: true });
+  }
   state.profile = buildProfile(events);
   for (const f of state.settings.unmuted) {
     const e = state.profile.get(f);
@@ -234,6 +238,9 @@ function daysSince(date) {
 
 export function visibility(item) {
   if (state.read.has(item.id)) return "done"; // read to the end (or Done): it leaves the feed
+  if (state.hidden[item.id] && !state.hidden[item.id].off) return "hidden"; // Not interested
+  if (item.query) return "search"; // only shown in the Search view
+  if (item.shared || (state.later[item.id] && !state.later[item.id].off)) return "later"; // only in Read later
   if (item.kind === "news") {
     if (daysSince(itemDate(item)) > state.settings.newsExpireDays) return "expired";
   } else if (state.settings.skipRule.enabled && !state.opened.has(item.id) && (state.skips[item.id] ?? 0) >= state.settings.skipRule.limit) {

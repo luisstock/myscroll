@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:46:22.483Z",
+ "updatedAt": "2026-10-19T06:46:47.419Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -587,13 +587,14 @@
   "ai-whisper",
   "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
   "tech-the-humble-14-milk-frother-and-the-19th-century",
-  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y"
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y",
+  "ai-strot-compiles-llm-intent-once-into-a-60ms-local"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
   "motion-maxon-releases-cinema-4d-2027-0": 3,
   "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 4,
-  "mo-fischinger": 3,
+  "mo-fischinger": 4,
   "mo-12": 4,
   "mo-ae": 2,
   "mo-roto": 4,
@@ -1755,6 +1756,16 @@
    "tag:coffee",
    "tag:kitchen-tech",
    "tag:gadgets"
+  ],
+  "ai-strot-compiles-llm-intent-once-into-a-60ms-local": [
+   "topic:ai",
+   "sub:ai/innovation",
+   "source:hacker-news",
+   "style:news",
+   "tag:llm-compilers",
+   "tag:local-inference",
+   "tag:open-source",
+   "tag:python"
   ]
  },
  "read": [

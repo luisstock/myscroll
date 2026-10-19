@@ -20,7 +20,7 @@ const errors = [];
 const warnings = [];
 const KINDS = new Set(["news", "evergreen", "longread"]);
 const words = (x) => (Array.isArray(x) ? x.join(" ") : x ?? "").split(/\s+/).filter(Boolean).length;
-const topicIds = new Set(model.topics().map((t) => t.id));
+const topicIds = new Set([...model.topics().map((t) => t.id), "search"]); // "search": fallback topic for Search/Share items
 
 function check(item, where) {
   const e = (msg) => errors.push(`${where} ${item.id ?? "(no id)"}: ${msg}`);

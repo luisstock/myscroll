@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:41:15.230Z",
+ "updatedAt": "2026-10-19T06:41:33.215Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -570,7 +570,8 @@
   "til-7-regency-rules-that-would-drive-modern-humans-u",
   "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll",
   "design-designing-with-abandon-nuria-balinha-s-weekly-zi",
-  "bike-putting-the-hype-to-the-test-silca-protocol-rcg"
+  "bike-putting-the-hype-to-the-test-silca-protocol-rcg",
+  "ai-whisper"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -665,7 +666,8 @@
   "fun-mike": 1,
   "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
-  "tech-a-police-officer-shared-automated-license-plate": 1
+  "tech-a-police-officer-shared-automated-license-plate": 1,
+  "til-the-global-scramble-and-strange-fakes-of-transla": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1689,6 +1691,16 @@
    "tag:surveillance",
    "tag:privacy",
    "tag:tech-policy"
+  ],
+  "til-the-global-scramble-and-strange-fakes-of-transla": [
+   "topic:til",
+   "sub:til/til",
+   "source:r-todayilearned",
+   "style:til",
+   "tag:harry-potter",
+   "tag:translation",
+   "tag:publishing",
+   "tag:books"
   ]
  },
  "read": [

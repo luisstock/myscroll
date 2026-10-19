@@ -1465,7 +1465,7 @@
       "lang": "pt",
       "image": {
         "src": "editions/2026-10-19/pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o.jpg",
-        "credit": "File:Cozido_a_portuguesa_1.JPG"
+        "credit": "www.nit.pt"
       },
       "minutes": 1,
       "added": "2026-10-19"
@@ -1896,6 +1896,121 @@
       "image": {
         "src": "editions/2026-10-19/pt-musica-sertaneja-das-bombas-de-gasolina-projeto.jpg",
         "credit": "File:Sergioreis.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-19"
+    },
+    {
+      "id": "pt-treinador-portugues-e-golo-portista-dao-a-franca",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "hoquei-em-patins",
+        "desporto",
+        "franca",
+        "selecao-nacional"
+      ],
+      "title": "Treinador português e golo portista dão à França o seu primeiro mundial de hóquei",
+      "snippet": "Numa reviravolta histórica no Paraguai, a seleção francesa conquistou o seu primeiro campeonato do mundo sob o comando do técnico luso Nuno Lopes.",
+      "body": [
+        "A França quebrou a hegemonia histórica do hóquei em patins ao sagrar-se pela primeira vez campeã mundial, superando a Argentina nas grandes penalidades após um empate a duas bolas. O feito, consumado em Luque, no Paraguai, teve forte cunho luso: no banco esteve o selecionador português Nuno Lopes e na baliza brilhou o luso-francês Pedro Chambel.",
+        "O golo decisivo no desempate por penáltis foi convertido por Carlo Di Benedetto, jogador do FC Porto, num torneio em que a França começou por afastar Portugal nas meias-finais antes de derrotar a campeã em título."
+      ],
+      "more": [
+        "O encontro decisivo foi extremamente disputado. A Argentina chegou primeiro à vantagem aos 20 minutos por intermédio de Ezequiel Mena, também atleta do FC Porto. A resposta gaulesa assentou nos irmãos Di Benedetto: Bruno (que alinha na Oliveirense) empatou aos 36 minutos e Carlo operou a reviravolta aos 39, antes de Lucas Martinez forçar o prolongamento no minuto 47.",
+        "Esta conquista marca a estreia da França no restrito palmarés dos títulos mundiais da modalidade, até aqui dominado de forma quase exclusiva por três potências: Espanha, que lidera o quadro de honra com 18 troféus, Portugal com 16 e a Argentina com seis vitórias.",
+        "A seleção portuguesa, que venceu a competição pela última vez em 2019, garantiu a medalha de bronze na presente edição, tendo batido a anterior campeã Espanha por 5-3 no encontro de apuramento para o terceiro lugar."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/19/franca-bate-argentina-nos-penaltis-e-alcanca-inedito-titulo-mundial-de-hoquei-em-patins/"
+      },
+      "wiki": "Roller_hockey_(quad)",
+      "lang": "pt",
+      "explore": true,
+      "image": {
+        "src": "editions/2026-10-19/pt-treinador-portugues-e-golo-portista-dao-a-franca.jpg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-19"
+    },
+    {
+      "id": "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "cinema",
+        "hollywood",
+        "biografia",
+        "livros"
+      ],
+      "title": "Cinco telefonemas e verdades de bastidores: a nova autobiografia de Michael Douglas",
+      "snippet": "Aos 82 anos, o ator de 'Instinto Fatal' abre o baú de memórias com confissões cruas sobre casos românticos, confrontos em festas e ameaças em noites de gala.",
+      "body": [
+        "Prestes a ver editada em Portugal a sua autobiografia 'Uma Vida de Cinema', Michael Douglas decidiu colocar de lado a diplomacia. O veterano de Hollywood confessa os bastidores do romance secreto de quatro décadas com Kathleen Turner, as crises provocadas pelos consumos de droga e os telefonemas que teve de fazer para arrumar a vida quando conheceu Catherine Zeta-Jones.",
+        "Com 496 páginas, a obra assume um tom autocrítico invulgar, revisitando desde o ultimato da ex-mulher Diandra Luker até ao pânico de subir ao palco dos Óscares sob uma ameaça do FBI."
+      ],
+      "more": [
+        "Um dos episódios mais partilhados envolve a decisão de assumir um compromisso com Catherine Zeta-Jones, em 1998. Douglas recorda ter feito cinco telefonemas consecutivos para diferentes mulheres noutras cidades para anunciar que o envolvimento terminava ali. Curiosamente, o ator nota que nenhuma delas cobrou promessas e que todas reagiram com naturalidade à novidade.",
+        "O livro desfaz também versões mantidas durante anos pela máquina de imprensa. A relação com Kathleen Turner nas filmagens de 'Em Busca da Esmeralda Perdida' (1984), sempre desmentida em público para proteger o casamento da altura, foi afinal bastante real até Diandra confrontar a atriz no cenário de gravações. Em 'Instinto Fatal', ao contrário dos boatos que visavam Sharon Stone, o caso amoroso deu-se sim com Jeanne Tripplehorn.",
+        "Entre histórias de excessos, como o consumo de cocaína nos anos 70 com figuras como O. J. Simpson, surgem relatos insólitos: numa entrega de prémios em 1990, incomodado com o que viu sob o efeito do álcool, insultou Julia Roberts mandando-a afastar as mãos do seu filho Cameron. Anos mais tarde, em plena gala dos Óscares de 1992, um agente federal avisou-o minutos antes de entrar no palco de que havia um indivíduo pronto a atacá-lo com uma agulha supostamente infetada com VIH."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/cinema/michael-douglas-insultou-julia-roberts-e-traiu-a-mulher-agora-conta-tudo-num-livro"
+      },
+      "wiki": "Michael_Douglas",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-19/pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-19"
+    },
+    {
+      "id": "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-18",
+      "style": "story",
+      "tags": [
+        "musica",
+        "the-voice",
+        "televisao",
+        "historias-de-vida"
+      ],
+      "title": "Deixou os relvados após as lesões e acabou a conquistar os mentores do The Voice",
+      "snippet": "Ádrian Del Rio sonhava ser jogador de futebol em Viana do Castelo, mas foi a cantar Donny Hathaway que virou o rumo da sua história.",
+      "body": [
+        "Aos 17 anos, Ádrian Del Rio viu as lesões sucessivas travarem a ambição de chegar ao futebol profissional. Fechado no quarto longe da família algarvia, encontrou no jazz e no blues uma tábua de salvação, incentivado pela família e por gravações caseiras partilhadas ao piano.",
+        "Anos mais tarde, a viver em Coimbra e a trabalhar como personal trainer, subiu ao palco das Provas Cegas do 'The Voice Portugal'. A interpretação de 'A Song for You' convenceu o júri e garantiu-lhe lugar na equipa de Sónia Tavares."
+      ],
+      "more": [
+        "Natural de Faro e com raízes espanholas por via materna, Ádrian cresceu num ambiente pontuado por discos de vinil de Nina Simone, música clássica e flamenco. A rotura de ligamentos que sofreu aos 14 anos acabou por ser o prenúncio de uma carreira desportiva acidentada, que o levou até Viana do Castelo antes de ser obrigado a parar definitivamente.",
+        "Após abdicar do futebol, concluiu a licenciatura em Ciências do Desporto e um mestrado em Biocinética na Universidade de Coimbra. A ligação à música chegou a passar por uma banda de originais, os Suite 351, experiência interrompida pela sobrecarga de empregos e exigências académicas.",
+        "No palco da RTP1, controlou a ansiedade com técnicas aprendidas com a mãe psicóloga e avançou para a atuação. Conseguiu a rotação imediata de três cadeiras dos mentores, escolhendo a mentoria da vocalista dos The Gift para enfrentar a fase das Batalhas."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/televisao/queria-marcar-golos-mas-acabou-a-virar-cadeiras-adrian-conquistou-o-the-voice"
+      },
+      "wiki": "The_Voice_Portugal",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-19/pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con.jpg",
+        "credit": "www.nit.pt"
       },
       "minutes": 1,
       "added": "2026-10-19"

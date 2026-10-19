@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T07:50:35.594Z",
+ "updatedAt": "2026-10-19T07:51:11.119Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -592,7 +592,8 @@
   "til-chuck-lorre-escaped-scientology-without-harassme",
   "pt-nata",
   "motion-balancing-speed-and-readability-in-vertical-kine",
-  "books-untangling-generational-power-and-servitude"
+  "books-untangling-generational-power-and-servitude",
+  "fun-stubbs"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -660,9 +661,9 @@
   "fun-project-pigeon": 2,
   "fun-wilhelm-scream": 2,
   "fun-busan-canal-shark": 2,
-  "fun-emu": 2,
+  "fun-emu": 3,
   "fun-stubbs": 2,
-  "fun-boaty": 1,
+  "fun-boaty": 2,
   "ai-sd": 2,
   "ai-whisper": 2,
   "ai-llamacpp": 2,
@@ -684,7 +685,7 @@
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
   "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1,
   "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": 2,
-  "fun-mike": 1,
+  "fun-mike": 2,
   "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "tech-a-police-officer-shared-automated-license-plate": 1,
@@ -1812,7 +1813,8 @@
   "fun-two-pallets-of-nvidia-rtx-5090-gpus-vanished-int",
   "bike-fem-van-empel-returns-to-racing-after-nearly-a-y",
   "ai-strot-compiles-llm-intent-once-into-a-60ms-local",
-  "pt-nata"
+  "pt-nata",
+  "fun-stubbs"
  ],
  "saved": [
   "pt-1755",

@@ -7,6 +7,9 @@ import { fileURLToPath } from "node:url";
 export const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const readJSON = async (p, fallback) => JSON.parse(await readFile(join(root, p), "utf8").catch(() => JSON.stringify(fallback)));
 
+// Live entries of a synced map: removing = `off: true`.
+export const live = (map) => Object.entries(map ?? {}).filter(([, v]) => v && !v.off).map(([id, v]) => ({ id, ...v }));
+
 export async function loadContext() {
   // Node 25 has an experimental localStorage that warns on access; model.js only needs it in the browser.
   Object.defineProperty(globalThis, "localStorage", { value: undefined, configurable: true, writable: true });
@@ -27,6 +30,8 @@ export async function loadContext() {
   state.opened = new Set(synced.opened ?? []);
   state.read = new Set(synced.read ?? []);
   state.saved = new Set(synced.saved ?? []);
+  // Newer synced maps (id -> { at, ..., off? }). Set on state so the agent can read them even before model.js knows them.
+  for (const k of ["later", "hidden", "readLog", "follows", "moodboard", "remember"]) state[k] = synced[k] ?? {};
 
   const index = await readJSON("web/editions/index.json", { editions: [] });
   state.latest = index.latest;
@@ -34,7 +39,7 @@ export async function loadContext() {
   for (const d of index.editions.slice(0, 30)) state.editions.push(await readJSON(`web/editions/${d}.json`, { items: [] }));
   model.rebuildProfile();
 
-  return { model, ranking, state, synced, index };
+  return { model, ranking, state, synced, index, live };
 }
 
 export async function contentDates() {

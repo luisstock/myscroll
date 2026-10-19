@@ -36,3 +36,14 @@ In the prototype these live in the browser's localStorage (`myscroll:*`). With t
 ## Read more in the app
 
 Order: `item.more` → Wikipedia API → Reddit thread JSON → article text extracted from the page (via `/api/fetch` in the prototype; native HTTP in the Android app). Some sites block extraction (e.g. paywalls, ARTnews); for those `more` is the only way, which is why the agent should always write it.
+
+## Extra run modes
+
+All append to today's edition (history/finalize --append). Same options in `run.mjs`, `/api/run` (local) and the `workflow_dispatch` inputs (`more`, `topics`, `sub`, `query`, `url`).
+
+- **Subcategory** `--more N --sub topic/sub`: only that topic; candidates matching the sub label are preferred (plus a Google News / HN search for it); the writer must write only items for that sub and every item gets `sub`.
+- **Search** `--more N --query "text"`: no AI gathering; Google News RSS, Reddit search RSS, HN Algolia and Wikipedia search, minus history, text extracted, then ONE model call picks the best N (default 10) and chooses each item's topic (fallback `search`). Items get `query` (normalized: trim, lowercase, collapse spaces).
+- **Share** `--url <link>`: one candidate from the page (article, Reddit thread via RSS, YouTube via oEmbed), one model call, one item with `shared: true`. Exits 0 if the URL is already in the history.
+- **Follow** (daily run only): for each live entry in the synced `follows` (no `off`), search `follow.query` over the last 7 days and since `follow.since`, drop what the history has seen, and write up to 2 update items per follow in one call, each with `follow: <followId>` and the follow's topic. Nothing new, nothing written.
+- Stories whose item the reader hid (`hidden`, Not interested) are never picked again.
+- Local server: `POST /api/llm` with `{ system, prompt, schema }` returns the model's JSON (Ask / translate).

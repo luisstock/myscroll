@@ -82,7 +82,8 @@ function candidateBlock(c, i) {
   ].join("\n");
 }
 
-export async function writeTopic(config, topic, candidates, plan) {
+// opts.sub = { id, label }: "Load more" for one subcategory: write only items for it, and force `sub`.
+export async function writeTopic(config, topic, candidates, plan, opts = {}) {
   if (!candidates.length) return { items: [], usage: null };
   const want = Math.min(topic.slots, candidates.length);
   const explore = Math.max(0, Math.round(want * plan.explorationShare));
@@ -95,6 +96,7 @@ export async function writeTopic(config, topic, candidates, plan) {
     taste.likes.length ? `The reader likes: ${taste.likes.slice(0, 10).map((x) => x.label).join(", ")}.` : "",
     taste.dislikes.length ? `The reader is less keen on: ${taste.dislikes.slice(0, 10).map((x) => x.label).join(", ")}.` : "",
     FORMAT_RULES[topic.format] ?? "",
+    opts.sub ? `SUBCATEGORY FOCUS: write ONLY items for subcategory "${opts.sub.label}"; sub must be "${opts.sub.id}". Skip candidates that don't fit it.` : "",
     "",
     `Pick the best ${want} candidates (fewer if some aren't good enough) and write an item for each.`,
     explore ? `Mark ${explore} of them "explore": true: good picks a bit outside the reader's usual taste. All others false.` : `Set "explore": false for all.`,
@@ -106,6 +108,7 @@ export async function writeTopic(config, topic, candidates, plan) {
   const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: isBook ? BOOK_SCHEMA : TOPIC_SCHEMA });
   const items = (json.items ?? [])
     .filter((it) => candidates[it.candidate])
+    .map((it) => (opts.sub ? { ...it, sub: opts.sub.id } : it))
     .map((it) => {
       if (!isBook) return toItem(topic.format === "idea" ? { ...it, style: "idea" } : it, candidates[it.candidate], topic, plan);
       const base = toItem({ ...it, style: "book", more: [] }, candidates[it.candidate], topic, plan);
@@ -175,3 +178,53 @@ function toItem(it, c, topic, plan) {
     ...(it.explore ? { explore: true } : {}),
   };
 }
+
+// ---------- Search / Share / Follow: one model call over candidates from mixed sources ----------
+const MIXED_ITEM = { ...ITEM, properties: { ...ITEM.properties, topic: { type: "string", description: "id of the best-fit topic" } }, required: [...ITEM.required, "topic"] };
+const MIXED_SCHEMA = { type: "object", properties: { items: { type: "array", items: MIXED_ITEM } }, required: ["items"], additionalProperties: false };
+const FALLBACK_TOPIC = { id: "search", subs: [], lang: "en" };
+
+const topicList = (topics) => topics.filter((t) => t.format !== "book").map((t) =>
+  `- ${t.id}: ${t.emoji} ${t.label}. ${t.description || ""}${t.subs.length ? ` Subs: ${t.subs.map((s) => `${s.id}=${s.label}`).join(", ")}.` : ""}${t.lang === "pt" ? " (write in European Portuguese)" : ""}`).join("\n");
+
+// opts: { header, want, pickTopic, topicFor(candidate) -> topic object, tag(candidate) -> extra item fields }
+async function writeMixed(config, candidates, plan, { header, want, pickTopic = true, topicFor = null, tag = () => ({}) }) {
+  if (!candidates.length) return { items: [], usage: null };
+  const prompt = [
+    header,
+    pickTopic
+      ? `For each item, "topic" = the id of the best-fit topic from this list (use "search" only if none fits at all):\n${topicList(plan.topics)}`
+      : `"topic": copy the topic id given for each candidate.`,
+    `"sub" must be one of the chosen topic's subcategory ids, otherwise "". Set "explore": false for all.`,
+    "",
+    ...candidates.map((c, i) => candidateBlock(c, i) + (topicFor ? `\nFollow: ${c.followId}\nTopic: ${topicFor(c).id}${topicFor(c).lang === "pt" ? " (write in European Portuguese)" : ""}` : "")),
+  ].join("\n");
+  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: MIXED_SCHEMA });
+  const used = new Set();
+  const items = (json.items ?? []).filter((it) => candidates[it.candidate] && !used.has(it.candidate) && used.add(it.candidate)).slice(0, want).map((it) => {
+    const c = candidates[it.candidate];
+    const topic = topicFor ? topicFor(c) : plan.topics.find((t) => t.id === it.topic) ?? FALLBACK_TOPIC;
+    return { ...toItem({ ...it, explore: false }, c, topic, plan), ...tag(c) };
+  });
+  return { items, usage };
+}
+
+// Search: pick the best n of the candidates for the query. queryKey = normalized query.
+export const writeSearch = (config, candidates, plan, { query, n, queryKey }) => writeMixed(config, candidates, plan, {
+  want: n, tag: () => ({ query: queryKey }),
+  header: `The reader searched for: "${query}". Pick the best ${n} candidates (fewer if the rest aren't good) that answer it well: varied angles, reliable sources, nothing repetitive. Write an item for each.`,
+});
+
+// Share: one item from one page the reader sent to the app.
+export const writeShare = (config, candidate, plan) => writeMixed(config, [candidate], plan, {
+  want: 1, tag: () => ({ shared: true }),
+  header: `The reader shared this page with MyScroll to read later. Write exactly one item for it (skip only if it is empty or unreadable).`,
+});
+
+// Follow: up to 2 updates per followed story, all follows in one call. Candidates carry followId.
+export const writeFollows = (config, candidates, plan, follows, topicOf) => writeMixed(config, candidates, plan, {
+  want: follows.length * 2, pickTopic: false,
+  topicFor: (c) => plan.topics.find((t) => t.id === topicOf(c.followId)) ?? { ...FALLBACK_TOPIC, id: topicOf(c.followId) },
+  tag: (c) => ({ follow: c.followId }),
+  header: `The reader follows these stories:\n${follows.map((f) => `- ${f.id}: ${f.title} (search: ${f.query})`).join("\n")}\nEach candidate below belongs to one followed story (see its "Follow:" line). For each followed story write at most 2 UPDATE items about what is genuinely new. Skip candidates that are not a real new development of that story or just repeat what was already known. Say what changed.`,
+});

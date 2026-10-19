@@ -46,7 +46,7 @@ async function discoverFeed(src) {
   return feed;
 }
 
-function parseFeed(body) {
+export function parseFeed(body) {
   const doc = xml.parse(body);
   if (doc.rss) {
     return asArray(doc.rss.channel?.item).map((i) => ({

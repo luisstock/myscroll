@@ -36,8 +36,9 @@ export async function articleText(url) {
   const html = await get(url);
   const { document } = parseHTML(html);
   const og = document.querySelector('meta[property="og:image"]')?.getAttribute("content") ?? null;
+  const docTitle = document.querySelector("title")?.textContent?.trim() ?? "";
   const parsed = new Readability(document).parse();
-  return { text: (parsed?.textContent ?? "").replace(/\n{3,}/g, "\n\n").replace(/[ \t]+/g, " ").trim(), image: og };
+  return { text: (parsed?.textContent ?? "").replace(/\n{3,}/g, "\n\n").replace(/[ \t]+/g, " ").trim(), image: og, title: parsed?.title || docTitle };
 }
 
 // Reddit allows ~10 requests a minute: only the first few threads get their comments fetched.
@@ -57,7 +58,7 @@ export async function extract(c, maxWords) {
     if (/wikipedia\.org\/wiki\//.test(c.url)) return { ...c, text: clip(await wikiText(c.url), maxWords) };
     if (c.video) return { ...c, text: clip(c.summary || "", maxWords) };
     const a = await articleText(c.url);
-    return { ...c, text: clip(a.text || c.summary || "", maxWords), image: c.image ?? a.image };
+    return { ...c, text: clip(a.text || c.summary || "", maxWords), image: c.image ?? a.image, ...(c.needsTitle && a.title ? { title: a.title } : {}) };
   } catch (e) {
     return { ...c, text: c.summary || "", extractError: e.message };
   }

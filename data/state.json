@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:35:31.313Z",
+ "updatedAt": "2026-10-19T06:36:10.125Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -551,7 +551,9 @@
   "til-wombat",
   "bk-tdf",
   "bk-hour",
-  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp"
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
+  "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
+  "til-7-regency-rules-that-would-drive-modern-humans-u"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -591,7 +593,7 @@
   "bk-drais": 3,
   "pt-volta": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 3,
-  "pt-cortica": 1,
+  "pt-cortica": 2,
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
   "ai-quant": 4,
@@ -611,7 +613,7 @@
   "til-fly-geyser": 1,
   "til-roy-sullivan-lightning": 1,
   "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
-  "til-til-an-imposing-soviet-iron-fountain-survived-an": 2,
+  "til-til-an-imposing-soviet-iron-fountain-survived-an": 3,
   "til-wombat": 1,
   "til-nintendo": 2,
   "til-banana": 2,
@@ -1601,6 +1603,26 @@
    "tag:ipma",
    "tag:frio",
    "tag:portugal"
+  ],
+  "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:til",
+   "tag:setenil-de-las-bodegas",
+   "tag:espanha",
+   "tag:arquitetura",
+   "tag:viagens"
+  ],
+  "til-7-regency-rules-that-would-drive-modern-humans-u": [
+   "topic:til",
+   "sub:til/cracked",
+   "source:mental-floss",
+   "style:list",
+   "tag:history",
+   "tag:regency-era",
+   "tag:etiquette",
+   "tag:social-norms"
   ]
  },
  "read": [
@@ -1625,7 +1647,8 @@
   "til-wombat",
   "bk-tdf",
   "bk-hour",
-  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp"
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
+  "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as"
  ],
  "saved": [
   "pt-1755"

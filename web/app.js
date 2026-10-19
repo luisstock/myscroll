@@ -2,8 +2,13 @@
 import { featuresOf } from "./ranking.js";
 import {
   state, store, saveSettings, DAY, topics, groups, topicOf, groupOf, subLabel, isTopicActive,
-  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow, reloadFromStorage,
+  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow, reloadFromStorage, live, passesFilters,
 } from "./model.js";
+import { moodChip, moodScope } from "./moods.js";
+import { effectiveTheme, initBedtime } from "./bedtime.js";
+import { setupAsk } from "./ask.js";
+import { maybeRemember, rememberBlock } from "./remember.js";
+import { setupPin, renderMoodboard } from "./moodboard.js";
 import { pullState } from "./sync.js";
 import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
@@ -17,12 +22,13 @@ const feed = $("#feed");
 
 // ---------- theme ----------
 function applyTheme() {
-  document.documentElement.dataset.theme = state.settings.theme;
+  const theme = effectiveTheme(state.settings); // bedtime forces "night" without changing the saved choice
+  document.documentElement.dataset.theme = theme;
   document.documentElement.dataset.layout = state.settings.layout;
-  $("#themeBtn").textContent = THEME_ICON[state.settings.theme];
+  $("#themeBtn").textContent = THEME_ICON[theme];
   const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
   $('meta[name="theme-color"]').content = bg;
-  setSystemBars(state.settings.theme);
+  setSystemBars(theme);
 }
 
 // Android back: Settings/topic editor → feed → All → exit.
@@ -73,9 +79,14 @@ function renderChips() {
     for (const t of orderedTopics()) chips.push({ id: t.id, label: `${t.emoji} ${t.label}`, n: count((i) => i.topic === t.id) });
   }
   chips.push({ id: "saved", label: "⭐ Saved", n: state.saved.size });
+  const pins = live(state.moodboard).length;
+  if (pins || state.view === "moodboard") chips.push({ id: "moodboard", label: "📌 Moodboard", n: pins });
   $("#settingsBtn").setAttribute("aria-pressed", String(state.view === "settings"));
 
-  $("#chips").replaceChildren(...chips.map((c) => el("button", {
+  $("#chips").replaceChildren(moodChip({
+    settings: state.settings, topics: () => orderedTopics(), save: saveSettings,
+    onChange: () => { state.sub = null; render(); window.scrollTo({ top: 0 }); },
+  }), ...chips.map((c) => el("button", {
     class: "chip", "aria-pressed": String(state.view === c.id),
     onclick: () => { state.view = c.id; state.sub = null; render(); window.scrollTo({ top: 0 }); },
   }, c.label, el("span", { class: "n" }, String(c.n)))));
@@ -84,7 +95,7 @@ function renderChips() {
 // Read items leave the feed, so progress = today's read ÷ (today's read + what's still in the scroll).
 function updateProgress() {
   const left = visibleItems().length;
-  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic)).length;
+  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic) && passesFilters(i)).length;
   const total = done + left;
   $("#progressBar").style.width = total ? `${(done / total) * 100}%` : "0";
   return { done, total };
@@ -241,6 +252,14 @@ function toast(text, actionLabel, onAction) {
   toastTimer = setTimeout(() => t.remove(), 5000);
 }
 
+// Open Settings and scroll to a section (e.g. the AI key setup link inside an answer box).
+function openSettingsAt(selector) {
+  state.view = "settings"; state.editTopic = null; render();
+  document.querySelector(selector)?.scrollIntoView({ block: "start" });
+  window.scrollBy(0, -110);
+}
+const moodboardCtx = { state, store, live, topicOf, onChange: () => renderChips() };
+
 function buildBody(node, item) {
   const hero = $(".hero", node);
   hero.replaceChildren();
@@ -264,6 +283,8 @@ function buildBody(node, item) {
   if (item.book) $(".prose", node).after(lessonCards(item.book));
 
   setupReadMore(node, item);
+  setupAsk(node, item, { trackReading, openSettingsAI: () => openSettingsAt(".ai-section") });
+  setupPin(node, item, moodboardCtx);
 
   const src = $(".source", node);
   src.href = item.source.url;
@@ -375,6 +396,7 @@ function rate(item, r, node) {
   if (state.ratings[item.id]?.r === r) delete state.ratings[item.id];
   else state.ratings[item.id] = { r, at: new Date().toISOString(), f: featuresOf(item) };
   store.set("ratings", state.ratings);
+  maybeRemember(item, { state, store });
   rememberFeatures(item);
   rebuildProfile();
   paintRating(node, item.id);
@@ -443,7 +465,7 @@ function loadMoreScope() {
     return { topics: ids, label: `${g.emoji} ${g.name}` };
   }
   if (v !== "all" && v !== "saved" && v !== "settings" && v !== "week") { const t = topicOf(v); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
-  return { topics: null, label: "" };
+  return (v === "all" && moodScope(state.settings)) || { topics: null, label: "" };
 }
 
 function theEnd(done, total) {
@@ -519,12 +541,14 @@ function renderFeed() {
   if (state.view === "settings") {
     return renderSettings({ root: feed, refreshChrome: () => { renderChips(); updateProgress(); }, applyTheme });
   }
+  if (state.view === "moodboard") return renderMoodboard(feed, moodboardCtx);
   const items = visibleItems();
   const nodes = [];
 
   if (state.view === "week") {
     nodes.push(...renderWeek());
   } else if (state.view === "all") {
+    nodes.push(rememberBlock({ state, store, live }));
     if (isWeekDay()) nodes.push(el("button", { class: "week-banner", onclick: () => { state.view = "week"; render(); window.scrollTo({ top: 0 }); } },
       "📅 It's Sunday: your week in review is ready →"));
     nodes.push(...items.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
@@ -623,7 +647,7 @@ function render() {
   // A view can disappear (group turned off, topic hidden): fall back to All.
   const v = state.view;
   if (v.startsWith("group:") ? groupOf(v.slice(6))?.enabled === false || !groupOf(v.slice(6))
-    : !["all", "saved", "settings", "week"].includes(v) && !isTopicActive(v)) state.view = "all";
+    : !["all", "saved", "settings", "week", "moodboard"].includes(v) && !isTopicActive(v)) state.view = "all";
   renderChips();
   renderFeed();
 }
@@ -654,6 +678,7 @@ async function load() {
     `${date.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })} · Edition #${today.number}`;
   rebuildProfile();
   render();
+  initBedtime({ settings: () => state.settings, onChange: () => { applyTheme(); render(); } });
 
   // Bring in ratings/read state from GitHub (e.g. after a reinstall); re-render if anything changed.
   if (await pullState()) {

@@ -3,6 +3,8 @@
 import { buildProfile, scoreItem } from "./ranking.js";
 import { isLocalDev } from "./env.js";
 import { markDirty } from "./sync.js";
+import { moodFilter } from "./moods.js";
+import { bedtimeFilter } from "./bedtime.js";
 
 const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
   "later", "hidden", "readLog", "follows", "moodboard", "remember"];
@@ -273,8 +275,11 @@ export function ranked(items) {
     .map((x) => x.item);
 }
 
+// Active mood + bedtime calm filter (pure rules in moods.js / bedtime.js).
+export const passesFilters = (item) => moodFilter(item, state.settings) && bedtimeFilter(item, state.settings);
+
 export function visibleItems() {
-  return ranked(pool().filter((i) => visibility(i) === "visible"));
+  return ranked(pool().filter((i) => visibility(i) === "visible" && passesFilters(i)));
 }
 
 export function featureLabel(f) {

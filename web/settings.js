@@ -2,9 +2,13 @@
 import {
   state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
   slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
-  visibility, featureLabel, reloadFromStorage,
+  visibility, featureLabel, reloadFromStorage, live,
 } from "./model.js";
 import { el } from "./ui.js";
+import { aiSection } from "./ai.js";
+import { moodsSection } from "./moods.js";
+import { bedtimeSection } from "./bedtime.js";
+import { statsSection } from "./stats.js";
 import { github } from "./loadmore.js";
 import { followedSection } from "./follow.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
@@ -16,7 +20,11 @@ export function renderSettings(context) {
   if (state.editTopic) return renderTopicEditor(state.editTopic);
   const s = state.settings;
   ctx.root.replaceChildren(el("div", { class: "settings" },
-    learnedSection(), readingSection(s), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
+    statsSection({ state, live, topicOf }),
+    learnedSection(), readingSection(s),
+    moodsSection({ settings: s, topics: () => topics().filter((t) => !t.hidden), save: saveSettings, rerender }),
+    bedtimeSection({ settings: s, save: saveSettings, rerender }),
+    aiSection({ rerender }), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
     followedSection(() => renderSettings(ctx)), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
 }
 

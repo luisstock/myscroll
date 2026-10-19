@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:32:00.049Z",
+ "updatedAt": "2026-10-19T06:32:20.127Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -625,7 +625,9 @@
   "motion-engineering-a-12-second-vertical-dubstep-intro-i": 1,
   "motion-balancing-speed-and-readability-in-vertical-kine": 1,
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
-  "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1
+  "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1,
+  "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": 1,
+  "fun-mike": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1554,6 +1556,25 @@
    "tag:philosophy",
    "tag:consciousness",
    "tag:neuroscience"
+  ],
+  "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:turismo",
+   "tag:world-travel-awards",
+   "tag:portugal",
+   "tag:algarve",
+   "tag:lisboa"
+  ],
+  "fun-mike": [
+   "topic:fun",
+   "source:wikipedia",
+   "style:story",
+   "tag:animals",
+   "tag:weird",
+   "tag:history"
   ]
  },
  "read": [
@@ -1575,7 +1596,8 @@
   "tech-a-new-us-bill-wants-to-force-game-publishers-to",
   "ai-sd",
   "til-stiglers-law",
-  "til-wombat"
+  "til-wombat",
+  "bk-tdf"
  ],
  "saved": [
   "pt-1755"

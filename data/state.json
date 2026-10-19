@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:33:16.631Z",
+ "updatedAt": "2026-10-19T06:35:31.313Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -511,6 +511,20 @@
     "tag:mathematics",
     "tag:stiglers-law"
    ]
+  },
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp": {
+   "r": 3,
+   "at": "2026-10-19T06:35:10.126Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:nit",
+    "style:news",
+    "tag:meteorologia",
+    "tag:ipma",
+    "tag:frio",
+    "tag:portugal"
+   ]
   }
  },
  "opened": [
@@ -536,14 +550,15 @@
   "til-stiglers-law",
   "til-wombat",
   "bk-tdf",
-  "bk-hour"
+  "bk-hour",
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
   "motion-maxon-releases-cinema-4d-2027-0": 3,
   "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 4,
   "mo-fischinger": 3,
-  "mo-12": 3,
+  "mo-12": 4,
   "mo-ae": 2,
   "mo-roto": 4,
   "ai-elorian-launches-glimpse-to-give-multimodal-mode": 3,
@@ -554,7 +569,7 @@
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 3,
   "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
   "tr-repair": 2,
-  "tr-dumb": 1,
+  "tr-dumb": 2,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
   "science-perseverance-rover-takes-the-crown-for-off-world": 2,
@@ -566,7 +581,7 @@
   "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 1,
   "pt-ninfa-fossil-pejao": 3,
   "pt-porto-cidade-acolhedora": 2,
-  "pt-agostinho": 1,
+  "pt-agostinho": 2,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 2,
   "pt-nata": 2,
   "til-violet-jessop": 2,
@@ -583,7 +598,7 @@
   "fun-byron": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
-  "til-oxford": 2,
+  "til-oxford": 3,
   "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 3,
   "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 3,
   "bk-hour": 4,
@@ -599,7 +614,7 @@
   "til-til-an-imposing-soviet-iron-fountain-survived-an": 2,
   "til-wombat": 1,
   "til-nintendo": 2,
-  "til-banana": 1,
+  "til-banana": 2,
   "til-eiffel": 1,
   "fun-project-pigeon": 1,
   "fun-wilhelm-scream": 1,
@@ -1576,6 +1591,16 @@
    "tag:animals",
    "tag:weird",
    "tag:history"
+  ],
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:meteorologia",
+   "tag:ipma",
+   "tag:frio",
+   "tag:portugal"
   ]
  },
  "read": [
@@ -1598,7 +1623,9 @@
   "ai-sd",
   "til-stiglers-law",
   "til-wombat",
-  "bk-tdf"
+  "bk-tdf",
+  "bk-hour",
+  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp"
  ],
  "saved": [
   "pt-1755"

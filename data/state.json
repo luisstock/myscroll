@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:36:41.226Z",
+ "updatedAt": "2026-10-19T06:38:27.415Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -525,6 +525,20 @@
     "tag:frio",
     "tag:portugal"
    ]
+  },
+  "til-7-regency-rules-that-would-drive-modern-humans-u": {
+   "r": 3,
+   "at": "2026-10-19T06:37:50.151Z",
+   "f": [
+    "topic:til",
+    "sub:til/cracked",
+    "source:mental-floss",
+    "style:list",
+    "tag:history",
+    "tag:regency-era",
+    "tag:etiquette",
+    "tag:social-norms"
+   ]
   }
  },
  "opened": [
@@ -553,7 +567,8 @@
   "bk-hour",
   "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
   "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
-  "til-7-regency-rules-that-would-drive-modern-humans-u"
+  "til-7-regency-rules-that-would-drive-modern-humans-u",
+  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -572,7 +587,7 @@
   "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
   "tr-repair": 2,
   "tr-dumb": 2,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 4,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
   "science-perseverance-rover-takes-the-crown-for-off-world": 2,
   "pt-lingua-mirandesa": 2,
@@ -1623,6 +1638,16 @@
    "tag:regency-era",
    "tag:etiquette",
    "tag:social-norms"
+  ],
+  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll": [
+   "topic:ai",
+   "sub:ai/local-llm",
+   "source:r-comfyui",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:local-llm",
+   "tag:vram",
+   "tag:minimax"
   ]
  },
  "read": [
@@ -1648,7 +1673,8 @@
   "bk-tdf",
   "bk-hour",
   "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
-  "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as"
+  "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
+  "til-7-regency-rules-that-would-drive-modern-humans-u"
  ],
  "saved": [
   "pt-1755"

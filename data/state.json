@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:10:04.184Z",
+ "updatedAt": "2026-10-19T06:31:36.036Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -534,12 +534,13 @@
   "tech-a-new-us-bill-wants-to-force-game-publishers-to",
   "ai-sd",
   "til-stiglers-law",
-  "til-wombat"
+  "til-wombat",
+  "bk-tdf"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
   "motion-maxon-releases-cinema-4d-2027-0": 3,
-  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 3,
+  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 4,
   "mo-fischinger": 3,
   "mo-12": 3,
   "mo-ae": 2,
@@ -554,7 +555,7 @@
   "tr-repair": 2,
   "tr-dumb": 1,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
-  "science-a-99-million-year-old-lizard-tail-shedding-caugh": 2,
+  "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
   "science-perseverance-rover-takes-the-crown-for-off-world": 2,
   "pt-lingua-mirandesa": 2,
   "pt-morcegos-biblioteca-joanina": 1,

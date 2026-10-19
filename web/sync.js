@@ -2,7 +2,8 @@
 // at data/state.json, so the daily agent learns from the phone and a reinstall restores everything.
 // Needs the GitHub repo + token from Settings (fine-grained token: Contents read/write on that repo).
 const PATH = "data/state.json";
-const KEYS = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved"];
+const KEYS = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
+  "later", "hidden", "readLog", "follows", "moodboard", "remember"];
 const prefix = "myscroll:";
 
 const get = (k, fb) => { try { return JSON.parse(localStorage.getItem(prefix + k)) ?? fb; } catch { return fb; } };
@@ -49,8 +50,20 @@ function merge(local, remote) {
   }
   const skips = { ...(remote.skips ?? {}) };
   for (const [id, n] of Object.entries(local.skips ?? {})) skips[id] = Math.max(n, skips[id] ?? 0);
+  // Maps of id -> { at, ... }: the most recent entry wins (so "off: true" removals carry over too).
+  const latest = (a = {}, b = {}) => {
+    const out = { ...b };
+    for (const [id, v] of Object.entries(a)) if (!out[id] || new Date(v?.at ?? 0) >= new Date(out[id]?.at ?? 0)) out[id] = v;
+    return out;
+  };
   return {
     settings: local.settings ?? remote.settings,
+    later: latest(local.later, remote.later),
+    hidden: latest(local.hidden, remote.hidden),
+    readLog: latest(local.readLog, remote.readLog),
+    follows: latest(local.follows, remote.follows),
+    moodboard: latest(local.moodboard, remote.moodboard),
+    remember: latest(local.remember, remote.remember),
     ratings, skips,
     itemFeatures: { ...(remote.itemFeatures ?? {}), ...(local.itemFeatures ?? {}) },
     read: union(local.read, remote.read),

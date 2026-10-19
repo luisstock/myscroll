@@ -4,7 +4,8 @@ import { buildProfile, scoreItem } from "./ranking.js";
 import { isLocalDev } from "./env.js";
 import { markDirty } from "./sync.js";
 
-const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved"];
+const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
+  "later", "hidden", "readLog", "follows", "moodboard", "remember"];
 
 export const store = {
   get(key, fallback) {
@@ -26,7 +27,12 @@ export function reloadFromStorage() {
   state.skips = store.get("skips", {});
   state.itemFeatures = store.get("itemFeatures", {});
   state.progress = store.get("progress", {});
+  for (const k of MAPS) state[k] = store.get(k, {});
 }
+
+// Synced maps of id -> { at, ..., off?: true }. Removing sets off: true (so the removal syncs); use live() to read.
+const MAPS = ["later", "hidden", "readLog", "follows", "moodboard", "remember"];
+export const live = (map) => Object.entries(map).filter(([, v]) => v && !v.off);
 
 // Push the user's state to the server (data/state.json) so the daily agent can read it.
 // Debounced; failures are silent (the app works offline, the next change retries).
@@ -75,6 +81,12 @@ export const state = {
   skips: store.get("skips", {}),               // id -> times scrolled past unopened
   itemFeatures: store.get("itemFeatures", {}), // id -> features (kept after an item leaves the feed)
   progress: store.get("progress", {}),         // id -> how far you scrolled through it (0..1)
+  later: store.get("later", {}),               // id -> { at }: Read later
+  hidden: store.get("hidden", {}),             // id -> { at, f: features }: Not interested
+  readLog: store.get("readLog", {}),           // id -> { at, min, topic }: when an item was finished
+  follows: store.get("follows", {}),           // followId -> { at, title, query, topic, since }: followed stories
+  moodboard: store.get("moodboard", {}),       // key -> { at, src, kind: "image"|"video", itemId, title, topic }
+  remember: store.get("remember", {}),         // id -> { at, item, step, due }: spaced repetition of 5★ lessons/ideas
   profile: new Map(),
 };
 

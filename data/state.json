@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:08:03.958Z",
+ "updatedAt": "2026-10-19T06:10:04.184Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -497,6 +497,20 @@
     "tag:open-weights",
     "tag:image-gen"
    ]
+  },
+  "til-stiglers-law": {
+   "r": 3,
+   "at": "2026-10-19T06:09:10.320Z",
+   "f": [
+    "topic:til",
+    "sub:til/cracked",
+    "source:wikipedia",
+    "style:cracked",
+    "tag:science-history",
+    "tag:eponyms",
+    "tag:mathematics",
+    "tag:stiglers-law"
+   ]
   }
  },
  "opened": [
@@ -519,7 +533,8 @@
   "mo-ae",
   "tech-a-new-us-bill-wants-to-force-game-publishers-to",
   "ai-sd",
-  "til-stiglers-law"
+  "til-stiglers-law",
+  "til-wombat"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -534,20 +549,20 @@
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "tech-cities-are-pushing-back-against-driverless-robot": 2,
-  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 2,
+  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 3,
   "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
   "tr-repair": 2,
   "tr-dumb": 1,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 2,
-  "science-perseverance-rover-takes-the-crown-for-off-world": 1,
+  "science-perseverance-rover-takes-the-crown-for-off-world": 2,
   "pt-lingua-mirandesa": 2,
   "pt-morcegos-biblioteca-joanina": 1,
   "pt-alianca-luso-britanica": 2,
   "pt-quatro-candelabros-da-mitica-baixela-germain-est": 1,
   "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": 1,
   "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 1,
-  "pt-ninfa-fossil-pejao": 2,
+  "pt-ninfa-fossil-pejao": 3,
   "pt-porto-cidade-acolhedora": 2,
   "pt-agostinho": 1,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 2,
@@ -562,7 +577,7 @@
   "pt-cortica": 1,
   "fun-boring-and-dull": 2,
   "til-chuck-lorre-escaped-scientology-without-harassme": 2,
-  "ai-quant": 3,
+  "ai-quant": 4,
   "fun-byron": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
@@ -581,7 +596,7 @@
   "til-where-did-millions-of-tons-of-world-war-ii-milit": 1,
   "til-til-an-imposing-soviet-iron-fountain-survived-an": 2,
   "til-wombat": 1,
-  "til-nintendo": 1,
+  "til-nintendo": 2,
   "til-banana": 1,
   "til-eiffel": 1,
   "fun-project-pigeon": 1,
@@ -593,8 +608,8 @@
   "ai-sd": 2,
   "ai-whisper": 2,
   "ai-llamacpp": 2,
-  "tr-lofi": 1,
-  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
+  "tr-lofi": 2,
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 2,
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec": 1,
   "bike-celebrating-a-major-milestone-a-rider-s-first-20": 1,
@@ -608,7 +623,8 @@
   "til-under-the-light-of-the-hunter-s-moon": 1,
   "motion-engineering-a-12-second-vertical-dubstep-intro-i": 1,
   "motion-balancing-speed-and-readability-in-vertical-kine": 1,
-  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
+  "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1528,6 +1544,15 @@
    "tag:matte-painting",
    "tag:compositing",
    "tag:television"
+  ],
+  "ideas-broadcast-information-is-not-the-same-as-felt-ex": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:ai",
+   "tag:philosophy",
+   "tag:consciousness",
+   "tag:neuroscience"
   ]
  },
  "read": [
@@ -1547,7 +1572,9 @@
   "design-why-laika-spent-four-years-building-a-single-sto",
   "mo-ae",
   "tech-a-new-us-bill-wants-to-force-game-publishers-to",
-  "ai-sd"
+  "ai-sd",
+  "til-stiglers-law",
+  "til-wombat"
  ],
  "saved": [
   "pt-1755"

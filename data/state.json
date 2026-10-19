@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:06:17.512Z",
+ "updatedAt": "2026-10-19T06:07:13.755Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -603,7 +603,11 @@
   "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": 1,
   "bike-stress-testing-six-radically-different-gravel-bi": 1,
   "bike-eneco-tour-rapidly-equalizes-prize-money-after-p": 1,
-  "bike-putting-the-hype-to-the-test-silca-protocol-rcg": 1
+  "bike-putting-the-hype-to-the-test-silca-protocol-rcg": 1,
+  "til-under-the-light-of-the-hunter-s-moon": 1,
+  "motion-engineering-a-12-second-vertical-dubstep-intro-i": 1,
+  "motion-balancing-speed-and-readability-in-vertical-kine": 1,
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1482,6 +1486,47 @@
    "tag:gravel-gear",
    "tag:tires",
    "tag:silca"
+  ],
+  "til-under-the-light-of-the-hunter-s-moon": [
+   "topic:til",
+   "sub:til/story",
+   "source:mental-floss",
+   "style:story",
+   "tag:hunters-moon",
+   "tag:astronomy",
+   "tag:folklore",
+   "tag:autumn",
+   "tag:full-moon"
+  ],
+  "motion-engineering-a-12-second-vertical-dubstep-intro-i": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-motiondesign",
+   "style:reddit",
+   "tag:after-effects",
+   "tag:motion-graphics",
+   "tag:templates",
+   "tag:workflow"
+  ],
+  "motion-balancing-speed-and-readability-in-vertical-kine": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-motiondesign",
+   "style:reddit",
+   "tag:after-effects",
+   "tag:kinetic-typography",
+   "tag:motion-design",
+   "tag:workflow"
+  ],
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": [
+   "topic:motion",
+   "sub:motion/industry",
+   "source:cgchannel",
+   "style:news",
+   "tag:vfx",
+   "tag:matte-painting",
+   "tag:compositing",
+   "tag:television"
   ]
  },
  "read": [

@@ -2,13 +2,23 @@
 import { featuresOf } from "./ranking.js";
 import {
   state, store, saveSettings, DAY, topics, groups, topicOf, groupOf, subLabel, isTopicActive,
-  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow, reloadFromStorage,
+  rebuildProfile, pool, ranked, visibleItems, visibility, syncNow, reloadFromStorage, live, passesFilters,
 } from "./model.js";
+import { moodChip, moodScope } from "./moods.js";
+import { effectiveTheme, initBedtime } from "./bedtime.js";
+import { setupAsk } from "./ask.js";
+import { maybeRemember, rememberBlock } from "./remember.js";
+import { setupPin, renderMoodboard } from "./moodboard.js";
 import { pullState } from "./sync.js";
 import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
 import { loadMore } from "./loadmore.js";
 import { $, el } from "./ui.js";
+import { cornerButtons, setLater, hideItem, unhideItem, isHidden, laterItems, renderLater } from "./later.js";
+import { renderSearch } from "./search.js";
+import { initShare } from "./share.js";
+import { orderedGroups, orderedByReading, readingOrderOn } from "./order.js";
+import { canFollow, followButton, followTitle } from "./follow.js";
 import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
@@ -17,12 +27,13 @@ const feed = $("#feed");
 
 // ---------- theme ----------
 function applyTheme() {
-  document.documentElement.dataset.theme = state.settings.theme;
+  const theme = effectiveTheme(state.settings); // bedtime forces "night" without changing the saved choice
+  document.documentElement.dataset.theme = theme;
   document.documentElement.dataset.layout = state.settings.layout;
-  $("#themeBtn").textContent = THEME_ICON[state.settings.theme];
+  $("#themeBtn").textContent = THEME_ICON[theme];
   const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
   $('meta[name="theme-color"]').content = bg;
-  setSystemBars(state.settings.theme);
+  setSystemBars(theme);
 }
 
 // Android back: Settings/topic editor → feed → All → exit.
@@ -51,8 +62,14 @@ $("#settingsBtn").addEventListener("click", () => {
 // Active topics in display order: grouped topics follow their group's order, ungrouped ones go last.
 function orderedTopics() {
   const active = topics().filter((t) => isTopicActive(t.id));
-  const gIndex = (t) => { const i = groups().findIndex((g) => g.id === t.group); return i < 0 ? 999 : i; };
-  return active.map((t, i) => ({ t, i })).sort((a, b) => gIndex(a.t) - gIndex(b.t) || a.i - b.i).map((x) => x.t);
+  const gOrder = orderedGroups();
+  const gIndex = (t) => { const i = gOrder.findIndex((g) => g.id === t.group); return i < 0 ? 999 : i; };
+  const manual = active.map((t, i) => ({ t, i })).sort((a, b) => gIndex(a.t) - gIndex(b.t) || a.i - b.i).map((x) => x.t);
+  if (!readingOrderOn()) return manual;
+  // Most-read first: flat when the top bar shows topics, within each group when it shows groups.
+  if (state.settings.navBy !== "groups") return orderedByReading(manual);
+  return gOrder.flatMap((g) => orderedByReading(manual.filter((t) => t.group === g.id)))
+    .concat(orderedByReading(manual.filter((t) => !gOrder.some((g) => g.id === t.group))));
 }
 
 function renderChips() {
@@ -60,8 +77,9 @@ function renderChips() {
   const count = (pred) => items.filter(pred).length;
   const chips = [{ id: "all", label: "All", n: items.length }];
   if (isWeekDay()) chips.push({ id: "week", label: "📅 Week", n: weekItems().total });
+  chips.push({ id: "search", label: "🔍", aria: "Search", n: null });
   if (state.settings.navBy === "groups") {
-    for (const g of groups()) {
+    for (const g of orderedGroups()) {
       if (g.enabled === false) continue;
       const ids = new Set(topics().filter((t) => t.group === g.id && isTopicActive(t.id)).map((t) => t.id));
       if (ids.size) chips.push({ id: `group:${g.id}`, label: `${g.emoji} ${g.name}`, n: count((i) => ids.has(i.topic)) });
@@ -73,18 +91,24 @@ function renderChips() {
     for (const t of orderedTopics()) chips.push({ id: t.id, label: `${t.emoji} ${t.label}`, n: count((i) => i.topic === t.id) });
   }
   chips.push({ id: "saved", label: "⭐ Saved", n: state.saved.size });
+  chips.push({ id: "later", label: "🕒 Later", n: laterItems().length });
+  const pins = live(state.moodboard).length;
+  if (pins || state.view === "moodboard") chips.push({ id: "moodboard", label: "📌 Moodboard", n: pins });
   $("#settingsBtn").setAttribute("aria-pressed", String(state.view === "settings"));
 
-  $("#chips").replaceChildren(...chips.map((c) => el("button", {
-    class: "chip", "aria-pressed": String(state.view === c.id),
+  $("#chips").replaceChildren(moodChip({
+    settings: state.settings, topics: () => orderedTopics(), save: saveSettings,
+    onChange: () => { state.sub = null; render(); window.scrollTo({ top: 0 }); },
+  }), ...chips.map((c) => el("button", {
+    class: "chip", "aria-pressed": String(state.view === c.id), "aria-label": c.aria,
     onclick: () => { state.view = c.id; state.sub = null; render(); window.scrollTo({ top: 0 }); },
-  }, c.label, el("span", { class: "n" }, String(c.n)))));
+  }, c.label, c.n == null ? null : el("span", { class: "n" }, String(c.n)))));
 }
 
 // Read items leave the feed, so progress = today's read ÷ (today's read + what's still in the scroll).
 function updateProgress() {
   const left = visibleItems().length;
-  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic)).length;
+  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic) && !i.query && !i.shared && passesFilters(i)).length;
   const total = done + left;
   $("#progressBar").style.width = total ? `${(done / total) * 100}%` : "0";
   return { done, total };
@@ -115,6 +139,10 @@ function makeCard(item, { longread = false } = {}) {
   const sub = subLabel(item);
   $(".tag", node).textContent = longread ? "🌙 Long read" : (sub ? `${topic.label} · ${sub}` : topic.label);
   $(".mins", node).textContent = `${item.video ? "▶ " : ""}${item.minutes ?? 1} min`;
+  if (item.follow) {
+    const ft = followTitle(item);
+    $(".tag", node).after(el("span", { class: "follow-tag" }, `🔔 Following · ${ft.length > 26 ? ft.slice(0, 25) + "…" : ft}`));
+  }
   const age = $(".age", node);
   age.textContent = ageLabel(item);
   age.classList.toggle("new", item.added === state.latest);
@@ -157,6 +185,11 @@ function makeCard(item, { longread = false } = {}) {
       node.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
   });
+  node.append(cornerButtons({
+    inLaterView: state.view === "later",
+    onLater: () => sendLater(node, item),
+    onHide: () => hideCard(node, item),
+  }));
   skipObserver.observe(node);
   return node;
 }
@@ -212,23 +245,57 @@ function dismiss(node, item) {
   state.read.add(item.id);
   store.set("read", [...state.read]);
   rememberFeatures(item);
+  state.readLog[item.id] = { at: new Date().toISOString(), min: item.minutes ?? 1, topic: item.topic };
+  store.set("readLog", state.readLog);
+  slideOut(node);
+  toast("Marked as read", "Undo", () => {
+    state.read.delete(item.id);
+    store.set("read", [...state.read]);
+    state.readLog[item.id] = { ...state.readLog[item.id], at: new Date().toISOString(), off: true };
+    store.set("readLog", state.readLog);
+    const y = window.scrollY;
+    render();
+    window.scrollTo({ top: y });
+  });
+}
+
+// Collapse a card out of the feed, then refresh the chips and progress.
+function slideOut(node) {
   node.style.height = `${node.offsetHeight}px`;
-  requestAnimationFrame(() => node.classList.add("leaving"));
+  void node.offsetHeight; // commit the fixed height so the transition starts from it
+  node.classList.add("leaving");
   setTimeout(() => {
     $(".hero iframe", node)?.remove();
     node.remove();
     renderChips();
     const { done, total } = updateProgress();
     $(".the-end", feed)?.replaceWith(theEnd(done, total));
+    if (["later", "search"].includes(state.view) && !feed.querySelector(".card")) renderFeed();
     trackReading();
   }, 320);
-  toast("Marked as read", "Undo", () => {
-    state.read.delete(item.id);
-    store.set("read", [...state.read]);
-    const y = window.scrollY;
-    render();
-    window.scrollTo({ top: y });
-  });
+}
+
+// Redraw after an Undo without losing the scroll position.
+function rerenderKeepScroll() {
+  const y = window.scrollY;
+  render();
+  window.scrollTo({ top: y });
+}
+
+// Corner clock: put the card in Read later (or take it out again when we're in the Later view).
+function sendLater(node, item) {
+  const removing = state.view === "later";
+  setLater(item.id, !removing);
+  slideOut(node);
+  toast(removing ? "Removed from Later" : "Saved for later", "Undo", () => { setLater(item.id, removing); rerenderKeepScroll(); });
+}
+
+// Corner ✕: never show it again and learn a little from it.
+function hideCard(node, item) {
+  hideItem(item);
+  rebuildProfile();
+  slideOut(node);
+  toast("Hidden — less like this", "Undo", () => { unhideItem(item.id); rebuildProfile(); rerenderKeepScroll(); });
 }
 
 let toastTimer;
@@ -240,6 +307,14 @@ function toast(text, actionLabel, onAction) {
   document.body.append(t);
   toastTimer = setTimeout(() => t.remove(), 5000);
 }
+
+// Open Settings and scroll to a section (e.g. the AI key setup link inside an answer box).
+function openSettingsAt(selector) {
+  state.view = "settings"; state.editTopic = null; render();
+  document.querySelector(selector)?.scrollIntoView({ block: "start" });
+  window.scrollBy(0, -110);
+}
+const moodboardCtx = { state, store, live, topicOf, onChange: () => renderChips() };
 
 function buildBody(node, item) {
   const hero = $(".hero", node);
@@ -264,6 +339,8 @@ function buildBody(node, item) {
   if (item.book) $(".prose", node).after(lessonCards(item.book));
 
   setupReadMore(node, item);
+  setupAsk(node, item, { trackReading, openSettingsAI: () => openSettingsAt(".ai-section") });
+  setupPin(node, item, moodboardCtx);
 
   const src = $(".source", node);
   src.href = item.source.url;
@@ -278,6 +355,8 @@ function buildBody(node, item) {
   if (!$(".done-btn", node)) {
     $(".actions", node).append(el("button", { class: "done-btn", onclick: () => dismiss(node, item) }, "✓ Done"));
   }
+
+  if (canFollow(item) && !$(".follow-btn", node)) $(".actions", node).append(followButton(item));
 
   const saveBtn = $("[data-save]", node);
   const paintSave = () => {
@@ -375,6 +454,7 @@ function rate(item, r, node) {
   if (state.ratings[item.id]?.r === r) delete state.ratings[item.id];
   else state.ratings[item.id] = { r, at: new Date().toISOString(), f: featuresOf(item) };
   store.set("ratings", state.ratings);
+  maybeRemember(item, { state, store });
   rememberFeatures(item);
   rebuildProfile();
   paintRating(node, item.id);
@@ -412,7 +492,7 @@ const isWeekDay = () => new Date().getDay() === 0;
 function weekItems() {
   const since = new Date(state.latest);
   since.setDate(since.getDate() - 6);
-  const inWeek = pool().filter((i) => new Date(i.added) >= since && isTopicActive(i.topic));
+  const inWeek = pool().filter((i) => new Date(i.added) >= since && isTopicActive(i.topic) && !isHidden(i.id) && !i.query && !i.shared);
   const favourites = inWeek.filter((i) => (state.ratings[i.id]?.r ?? 0) >= 4)
     .sort((a, b) => state.ratings[b.id].r - state.ratings[a.id].r);
   const saved = inWeek.filter((i) => state.saved.has(i.id) && !favourites.includes(i));
@@ -439,11 +519,21 @@ function loadMoreScope() {
   if (v.startsWith("group:")) {
     const g = groupOf(v.slice(6));
     const ids = orderedTopics().filter((t) => t.group === g?.id).map((t) => t.id);
-    if (state.sub && ids.includes(state.sub)) { const t = topicOf(state.sub); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
+    if (state.sub && ids.includes(state.sub)) {
+      const t = topicOf(state.sub);
+      const sub = state.sub2 && t.subs?.find((s) => s.id === state.sub2);
+      if (sub) return { topics: [t.id], sub: `${t.id}/${sub.id}`, label: `${t.emoji} ${sub.label}` }; // the narrowest view
+      return { topics: [t.id], label: `${t.emoji} ${t.label}` };
+    }
     return { topics: ids, label: `${g.emoji} ${g.name}` };
   }
-  if (v !== "all" && v !== "saved" && v !== "settings" && v !== "week") { const t = topicOf(v); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
-  return { topics: null, label: "" };
+  if (!["all", "saved", "settings", "week", "later", "search"].includes(v)) {
+    const t = topicOf(v);
+    const sub = state.sub && t.subs?.find((s) => s.id === state.sub);
+    if (sub) return { topics: [t.id], sub: `${t.id}/${sub.id}`, label: `${t.emoji} ${sub.label}` }; // the narrowest view
+    return { topics: [t.id], label: `${t.emoji} ${t.label}` };
+  }
+  return (v === "all" && moodScope(state.settings)) || { topics: null, label: "" };
 }
 
 function theEnd(done, total) {
@@ -456,7 +546,7 @@ function theEnd(done, total) {
     status.hidden = false;
     status.classList.remove("error");
     try {
-      await loadMore((text) => { status.textContent = text; }, scope.topics);
+      await loadMore((text) => { status.textContent = text; }, scope);
       status.textContent = "Done! Fresh items added below the ones you had.";
       await reloadEditions();
     } catch (err) {
@@ -491,11 +581,12 @@ async function reloadEditions() {
 const label = (text, cls = "section-label") => el("p", { class: cls }, text);
 const empty = (text) => el("p", { class: "empty" }, text);
 
-function filterChips(options) {
+// key: "sub" (topic inside a group, or subcategory inside a topic) or "sub2" (subcategory of the topic picked inside a group).
+function filterChips(options, key = "sub") {
   if (options.length < 2) return null;
   return el("div", { class: "subchips" }, [{ id: null, label: "All" }, ...options].map((o) => el("button", {
-    class: "subchip", "aria-pressed": String(state.sub === o.id),
-    onclick: () => { state.sub = o.id; renderFeed(); },
+    class: "subchip", "aria-pressed": String(state[key] === o.id),
+    onclick: () => { state[key] = o.id; if (key === "sub") state.sub2 = null; renderFeed(); },
   }, o.label)));
 }
 
@@ -519,12 +610,14 @@ function renderFeed() {
   if (state.view === "settings") {
     return renderSettings({ root: feed, refreshChrome: () => { renderChips(); updateProgress(); }, applyTheme });
   }
+  if (state.view === "moodboard") return renderMoodboard(feed, moodboardCtx);
   const items = visibleItems();
   const nodes = [];
 
   if (state.view === "week") {
     nodes.push(...renderWeek());
   } else if (state.view === "all") {
+    nodes.push(rememberBlock({ state, store, live }));
     if (isWeekDay()) nodes.push(el("button", { class: "week-banner", onclick: () => { state.view = "week"; render(); window.scrollTo({ top: 0 }); } },
       "📅 It's Sunday: your week in review is ready →"));
     nodes.push(...items.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
@@ -535,8 +628,15 @@ function renderFeed() {
     } else {
       nodes.push(...topicSections(items, state.settings.navBy === "groups"));
     }
+  } else if (state.view === "later") {
+    nodes.push(...renderLater({ makeCard, empty }));
+  } else if (state.view === "search") {
+    nodes.push(...renderSearch({
+      makeCard, label, empty, reload: reloadEditions, rerender: () => { renderFeed(); window.scrollTo({ top: 0 }); },
+      openSync: () => { state.view = "settings"; state.editTopic = null; render(); document.querySelector(".sync-section")?.scrollIntoView({ block: "start" }); window.scrollBy(0, -110); },
+    }));
   } else if (state.view === "saved") {
-    const saved = ranked(pool().filter((i) => state.saved.has(i.id)));
+    const saved = ranked(pool().filter((i) => state.saved.has(i.id) && !isHidden(i.id)));
     if (!saved.length) nodes.push(empty("Nothing saved yet. Open an item and tap ☆ Save."));
     nodes.push(...saved.map((i) => makeCard(i)));
   } else if (state.view.startsWith("group:")) {
@@ -544,7 +644,12 @@ function renderFeed() {
     const ts = orderedTopics().filter((t) => t.group === gid);
     const inGroup = items.filter((i) => ts.some((t) => t.id === i.topic));
     nodes.push(filterChips(ts.filter((t) => inGroup.some((i) => i.topic === t.id)).map((t) => ({ id: t.id, label: `${t.emoji} ${t.label}` }))));
-    const shown = inGroup.filter((i) => !state.sub || i.topic === state.sub);
+    let shown = inGroup.filter((i) => !state.sub || i.topic === state.sub);
+    if (state.sub) {
+      const subs = (topicOf(state.sub).subs ?? []).filter((s) => shown.some((i) => i.sub === s.id));
+      nodes.push(filterChips(subs, "sub2"));
+      if (subs.some((s) => s.id === state.sub2)) shown = shown.filter((i) => i.sub === state.sub2);
+    }
     nodes.push(...shown.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
     nodes.push(...(state.sub ? shown.filter((i) => i.kind !== "longread").map((i) => makeCard(i)) : topicSections(shown, false)));
   } else {
@@ -554,10 +659,10 @@ function renderFeed() {
     nodes.push(...inTopic.filter((i) => !state.sub || i.sub === state.sub).map((i) => makeCard(i, { longread: i.kind === "longread" })));
   }
 
-  if (!nodes.some((n) => n?.classList?.contains("card")) && !["saved", "week"].includes(state.view)) {
+  if (!nodes.some((n) => n?.classList?.contains("card")) && !["saved", "week", "later", "search"].includes(state.view)) {
     nodes.push(empty("Nothing here right now. New items arrive with tomorrow's edition."));
   }
-  if (!["saved", "week"].includes(state.view)) {
+  if (!["saved", "week", "later", "search"].includes(state.view)) {
     const { done, total } = updateProgress();
     nodes.push(theEnd(done, total));
   }
@@ -623,7 +728,7 @@ function render() {
   // A view can disappear (group turned off, topic hidden): fall back to All.
   const v = state.view;
   if (v.startsWith("group:") ? groupOf(v.slice(6))?.enabled === false || !groupOf(v.slice(6))
-    : !["all", "saved", "settings", "week"].includes(v) && !isTopicActive(v)) state.view = "all";
+    : !["all", "saved", "settings", "week", "later", "search", "moodboard"].includes(v) && !isTopicActive(v)) state.view = "all";
   renderChips();
   renderFeed();
 }
@@ -654,6 +759,13 @@ async function load() {
     `${date.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })} · Edition #${today.number}`;
   rebuildProfile();
   render();
+  initShare({
+    toast: (text) => toast(text),
+    reload: reloadEditions,
+    showLater: () => { state.view = "later"; state.sub = null; render(); window.scrollTo({ top: 0 }); },
+    refresh: () => { if (state.view === "later") { const y = window.scrollY; render(); window.scrollTo({ top: y }); } },
+  });
+  initBedtime({ settings: () => state.settings, onChange: () => { applyTheme(); render(); } });
 
   // Bring in ratings/read state from GitHub (e.g. after a reinstall); re-render if anything changed.
   if (await pullState()) {

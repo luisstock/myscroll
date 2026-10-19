@@ -1,6 +1,6 @@
 name: MyScroll daily edition
 # The run's title doubles as the request's identity (used to skip repeated Load more requests).
-run-name: ${{ inputs.more && format('Load more {0} {1}', inputs.more, inputs.topics || 'all') || (github.event_name == 'push' && 'Publish app' || 'Daily edition') }}
+run-name: ${{ inputs.url && format('Share: {0}', inputs.url) || inputs.query && format('Search: {0}', inputs.query) || inputs.sub && format('Load more {0} {1}', inputs.more, inputs.sub) || inputs.more && format('Load more {0} {1}', inputs.more, inputs.topics || 'all') || (github.event_name == 'push' && 'Publish app' || 'Daily edition') }}
 
 on:
   schedule:
@@ -19,6 +19,18 @@ on:
         default: ""
       topics:
         description: "Load more only for these topic ids, comma separated (empty = all)"
+        required: false
+        default: ""
+      sub:
+        description: "Load more only for this subcategory, as topic/sub (e.g. ai/frontier). Needs 'more'"
+        required: false
+        default: ""
+      query:
+        description: "Search: research this text on the web and add the best 'more' items (default 10)"
+        required: false
+        default: ""
+      url:
+        description: "Share: add this one page (article, Reddit thread or YouTube link) to today's edition"
         required: false
         default: ""
 
@@ -74,7 +86,7 @@ jobs:
       # The request currently being done is the reference: a later identical Load more is skipped.
       - name: Skip a repeated Load more
         id: dupe
-        if: github.event_name == 'workflow_dispatch' && inputs.more != ''
+        if: github.event_name == 'workflow_dispatch' && (inputs.more != '' || inputs.query != '' || inputs.url != '')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -90,12 +102,22 @@ jobs:
       - name: Research and write the edition
         if: github.event_name != 'push' && steps.dupe.outputs.skip != 'true'
         env:
+          # Inputs reach the shell only as environment variables, never interpolated into the script.
           MORE: ${{ inputs.more }}
           TOPICS: ${{ inputs.topics }}
+          SUB: ${{ inputs.sub }}
+          QUERY: ${{ inputs.query }}
+          SHARE_URL: ${{ inputs.url }}
         run: |
-          if [ -n "$MORE" ]; then
-            if ! [[ "$MORE" =~ ^[0-9]{1,2}$ && "$TOPICS" =~ ^[a-z0-9,-]*$ ]]; then echo "bad inputs"; exit 1; fi
-            node scripts/pipeline/run.mjs --more "$MORE" ${TOPICS:+--topics "$TOPICS"}
+          if [ -n "$SHARE_URL" ]; then
+            if ! [[ "$SHARE_URL" =~ ^https?://[^[:space:]]+$ ]]; then echo "bad url"; exit 1; fi
+            node scripts/pipeline/run.mjs --url "$SHARE_URL"
+          elif [ -n "$QUERY" ]; then
+            if [ "${#QUERY}" -gt 200 ] || ! [[ "${MORE:-10}" =~ ^[0-9]{1,2}$ ]]; then echo "bad inputs"; exit 1; fi
+            node scripts/pipeline/run.mjs --more "${MORE:-10}" --query "$QUERY"
+          elif [ -n "$MORE" ]; then
+            if ! [[ "$MORE" =~ ^[0-9]{1,2}$ && "$TOPICS" =~ ^[a-z0-9,-]*$ && "$SUB" =~ ^([a-z0-9-]+/[a-z0-9-]+)?$ ]]; then echo "bad inputs"; exit 1; fi
+            node scripts/pipeline/run.mjs --more "$MORE" ${SUB:+--sub "$SUB"} ${TOPICS:+--topics "$TOPICS"}
           else
             node scripts/pipeline/run.mjs
           fi
@@ -106,7 +128,7 @@ jobs:
           git config user.name "myscroll-bot"
           git config user.email "myscroll-bot@users.noreply.github.com"
           git add content data/history.json data/source-cache.json web/editions web/catalog.json web/agent-notes.json
-          git diff --cached --quiet || git commit -m "Edition $(date +%F)${{ inputs.more && ' (load more)' || '' }}"
+          git diff --cached --quiet || git commit -m "Edition $(date +%F)${{ (inputs.more || inputs.query || inputs.url) && ' (load more)' || '' }}"
           # The phone may have synced data/state.json while we were running: rebase on top of it.
           for i in 1 2 3; do git pull --rebase --autostash -q && git push && break; sleep 5; done
 

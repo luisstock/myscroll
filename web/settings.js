@@ -2,10 +2,15 @@
 import {
   state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
   slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
-  visibility, featureLabel, reloadFromStorage,
+  visibility, featureLabel, reloadFromStorage, live,
 } from "./model.js";
 import { el } from "./ui.js";
+import { aiSection } from "./ai.js";
+import { moodsSection } from "./moods.js";
+import { bedtimeSection } from "./bedtime.js";
+import { statsSection } from "./stats.js";
 import { github } from "./loadmore.js";
+import { followedSection } from "./follow.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
 
 let ctx; // { root, refreshChrome, applyTheme }
@@ -15,8 +20,12 @@ export function renderSettings(context) {
   if (state.editTopic) return renderTopicEditor(state.editTopic);
   const s = state.settings;
   ctx.root.replaceChildren(el("div", { class: "settings" },
-    learnedSection(), readingSection(s), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
-    groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
+    statsSection({ state, live, topicOf }),
+    learnedSection(), readingSection(s),
+    moodsSection({ settings: s, topics: () => topics().filter((t) => !t.hidden), save: saveSettings, rerender }),
+    bedtimeSection({ settings: s, save: saveSettings, rerender }),
+    aiSection({ rerender }), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
+    followedSection(() => renderSettings(ctx)), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
 }
 
 // ---------- Load more ----------
@@ -106,6 +115,8 @@ function readingSection(s) {
       seg([["dark", "Dark"], ["night", "Night"], ["light", "Light"]], s.theme, (v) => { s.theme = v; saveSettings(); ctx.applyTheme(); renderSettings(ctx); })),
     el("div", { class: "row" }, el("span", {}, "Top bar shows"),
       seg([["groups", "Groups"], ["topics", "Topics"]], s.navBy, (v) => { s.navBy = v; rerender(); })),
+    el("label", { class: "row" }, el("span", {}, "Order by what I read most"),
+      el("input", { type: "checkbox", checked: s.orderByReading !== false, onchange: (e) => { s.orderByReading = e.target.checked; rerender(); } })),
     el("label", { class: "row" }, el("span", {}, "Items per edition"),
       el("input", { type: "number", min: 10, max: 150, step: 5, value: s.dailyTarget, onchange: (e) => { s.dailyTarget = Number(e.target.value); saveSettings(); } })),
     el("label", { class: "row" }, el("span", {}, "News expire after (days)"),

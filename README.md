@@ -21,14 +21,17 @@ npm install
 node scripts/pipeline/run.mjs --dry      # tudo menos o modelo; guarda data/candidates-<data>.json
 node scripts/pipeline/run.mjs            # edição de hoje
 node scripts/pipeline/run.mjs --more 15  # Load more: acrescenta ~15 itens a hoje
+node scripts/pipeline/run.mjs --more 15 --sub ai/frontier         # Load more só de uma subcategoria
+node scripts/pipeline/run.mjs --more 10 --query "gravel tyres"    # Pesquisa na web (Google News, Reddit, HN, Wikipedia) + 1 chamada ao modelo
+node scripts/pipeline/run.mjs --url https://…                     # Partilhar: 1 item a partir de um link (artigo, Reddit, YouTube)
 ```
 
 ## Estrutura
 
 - `web/`: a app (HTML/CSS/JS, sem build). `app.js` (feed), `settings.js`, `model.js` (estado e regras), `readmore.js`, `loadmore.js`, `ranking.js` (gosto, ver [docs/ranking.md](docs/ranking.md)), `taxonomy.json` (tópicos e grupos), `catalog.json` (fontes).
-- `scripts/pipeline/`: o agente diário (`run.mjs`, `gather.mjs`, `select.mjs`, `extract.mjs`, `write.mjs`, `llm.mjs`, `history.mjs`).
+- `scripts/pipeline/`: o agente diário (`run.mjs`, `gather.mjs`, `search.mjs` (pesquisa e partilha), `select.mjs`, `extract.mjs`, `write.mjs`, `llm.mjs`, `history.mjs`).
 - `scripts/agent/`: `plan.mjs` e `finalize.mjs` (partilhados), `context.mjs`.
-- `scripts/serve.mjs`: servidor local: app, Read more (`/api/fetch`), sincronização (`/api/state`) e Load more (`/api/run`).
+- `scripts/serve.mjs`: servidor local: app, Read more (`/api/fetch`), sincronização (`/api/state`) Load more / pesquisa / partilha (`/api/run?more=&topics=&sub=&query=&url=`) e Ask/traduzir (`POST /api/llm`).
 
 ## Testar no PC
 
@@ -37,3 +40,11 @@ node scripts/serve.mjs
 ```
 
 Abrir http://localhost:5173. Para o Load more funcionar localmente, arranca o servidor com `GEMINI_API_KEY` definida.
+
+## Partilhar do Android
+
+A app aparece no menu Partilhar de qualquer app (texto/links, `ShareInPlugin` em `android/`). O link vai para Read later e o agente escreve o item (`--url`).
+
+## Seguir uma história
+
+O run diário lê `follows` do estado sincronizado: para cada uma pesquisa os últimos 7 dias (desde `since`), tira o que já foi mostrado e escreve até 2 atualizações (`follow`) numa só chamada ao modelo.

@@ -48,6 +48,8 @@ export function buildProfile(events, now = Date.now(), p = PARAMS) {
     if (e.rating != null) {
       const { s, w } = ratingSignal(e.rating);
       signals.push([w, s]);
+    } else if (e.notInterested) {
+      signals.push([1, -0.6]); // "Not interested" counts like a 1★
     } else {
       // Implicit feedback is weak on purpose: explicit ratings should dominate.
       if (e.opened) signals.push([0.3, 0.3]);

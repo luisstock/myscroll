@@ -4,7 +4,7 @@ import { titleSimilarity, normUrl } from "./history.mjs";
 
 const DAY = 864e5;
 
-export function preselect(plan, candidates, { history, ranking, profile, settings, config, extraSkip = [] }) {
+export function preselect(plan, candidates, { history, ranking, profile, settings, config, extraSkip = [], sub = null }) {
   const now = Date.now();
   const picked = {};
   const seenHere = [];
@@ -12,6 +12,7 @@ export function preselect(plan, candidates, { history, ranking, profile, setting
 
   for (const topic of plan.topics) {
     const kws = [topic.label, ...(topic.keywords ?? [])].join(" ").toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 3);
+    const subWords = sub && sub.topic === topic.id ? sub.label.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 2) : [];
     const pool = candidates.filter((c) => c.topic === topic.id)
       .filter((c) => !history.seen(c) && !skip.has(normUrl(c.url)))
       .map((c) => {
@@ -22,7 +23,9 @@ export function preselect(plan, candidates, { history, ranking, profile, setting
         const taste = ranking.scoreItem(itemLike, profile, settings);
         if (taste.muted) return null;
         const text = `${c.title} ${c.summary}`.toLowerCase();
-        const relevance = Math.min(0.6, kws.filter((w) => text.includes(w)).length * 0.2);
+        let relevance = Math.min(0.6, kws.filter((w) => text.includes(w)).length * 0.2);
+        // "Load more" for one subcategory: strongly prefer candidates that mention its label words.
+        if (subWords.length) relevance += 1.5 * (subWords.filter((w) => text.includes(w)).length / subWords.length);
         const fresh = ageDays == null ? 0.1 : Math.max(0, 1 - ageDays / config.newsMaxAgeDays) * 0.6;
         const popular = c.engagement ? Math.min(0.8, Math.log10(1 + c.engagement) / 5) : 0;
         const source = 0.3 * ((c.sourceWeight ?? 1) - 1);

@@ -3,8 +3,11 @@
 import { buildProfile, scoreItem } from "./ranking.js";
 import { isLocalDev } from "./env.js";
 import { markDirty } from "./sync.js";
+import { moodFilter } from "./moods.js";
+import { bedtimeFilter } from "./bedtime.js";
 
-const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved"];
+const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
+  "later", "hidden", "readLog", "follows", "moodboard", "remember"];
 
 export const store = {
   get(key, fallback) {
@@ -26,7 +29,12 @@ export function reloadFromStorage() {
   state.skips = store.get("skips", {});
   state.itemFeatures = store.get("itemFeatures", {});
   state.progress = store.get("progress", {});
+  for (const k of MAPS) state[k] = store.get(k, {});
 }
+
+// Synced maps of id -> { at, ..., off?: true }. Removing sets off: true (so the removal syncs); use live() to read.
+const MAPS = ["later", "hidden", "readLog", "follows", "moodboard", "remember"];
+export const live = (map) => Object.entries(map).filter(([, v]) => v && !v.off);
 
 // Push the user's state to the server (data/state.json) so the daily agent can read it.
 // Debounced; failures are silent (the app works offline, the next change retries).
@@ -57,6 +65,7 @@ const DEFAULT_SETTINGS = {
   sourceOverrides: {},                     // catalog sourceId -> { weight?, deleted?, enabled? }
   customSources: [],                       // [{ id, topic, name, url, type, weight, tags }]
   unmuted: [],                             // features the user un-muted by hand
+  orderByReading: true,                    // chips/sections ordered by how much you read each topic
 };
 
 export const state = {
@@ -66,6 +75,7 @@ export const state = {
   latest: null,
   view: "all",           // "all" | "group:<id>" | topicId | "saved" | "settings"
   sub: null,             // sub-filter inside a view (topic id inside a group, or subcategory inside a topic)
+  sub2: null,            // subcategory of the topic picked inside a group
   editTopic: null,       // topic id being edited in Settings, or "new"
   settings: { ...DEFAULT_SETTINGS, ...store.get("settings", {}) },
   read: new Set(store.get("read", [])),
@@ -75,6 +85,12 @@ export const state = {
   skips: store.get("skips", {}),               // id -> times scrolled past unopened
   itemFeatures: store.get("itemFeatures", {}), // id -> features (kept after an item leaves the feed)
   progress: store.get("progress", {}),         // id -> how far you scrolled through it (0..1)
+  later: store.get("later", {}),               // id -> { at }: Read later
+  hidden: store.get("hidden", {}),             // id -> { at, f: features }: Not interested
+  readLog: store.get("readLog", {}),           // id -> { at, min, topic }: when an item was finished
+  follows: store.get("follows", {}),           // followId -> { at, title, query, topic, since }: followed stories
+  moodboard: store.get("moodboard", {}),       // key -> { at, src, kind: "image"|"video", itemId, title, topic }
+  remember: store.get("remember", {}),         // id -> { at, item, step, due }: spaced repetition of 5★ lessons/ideas
   profile: new Map(),
 };
 
@@ -201,6 +217,9 @@ export function rebuildProfile() {
     if (state.ratings[id] || state.opened.has(id) || !state.itemFeatures[id]) continue;
     events.push({ features: state.itemFeatures[id], at: now, skips: n });
   }
+  for (const [id, h] of live(state.hidden)) {
+    if (!state.ratings[id] && h.f) events.push({ features: h.f, at: h.at, notInterested: true });
+  }
   state.profile = buildProfile(events);
   for (const f of state.settings.unmuted) {
     const e = state.profile.get(f);
@@ -222,6 +241,9 @@ function daysSince(date) {
 
 export function visibility(item) {
   if (state.read.has(item.id)) return "done"; // read to the end (or Done): it leaves the feed
+  if (state.hidden[item.id] && !state.hidden[item.id].off) return "hidden"; // Not interested
+  if (item.query) return "search"; // only shown in the Search view
+  if (item.shared || (state.later[item.id] && !state.later[item.id].off)) return "later"; // only in Read later
   if (item.kind === "news") {
     if (daysSince(itemDate(item)) > state.settings.newsExpireDays) return "expired";
   } else if (state.settings.skipRule.enabled && !state.opened.has(item.id) && (state.skips[item.id] ?? 0) >= state.settings.skipRule.limit) {
@@ -254,8 +276,11 @@ export function ranked(items) {
     .map((x) => x.item);
 }
 
+// Active mood + bedtime calm filter (pure rules in moods.js / bedtime.js).
+export const passesFilters = (item) => moodFilter(item, state.settings) && bedtimeFilter(item, state.settings);
+
 export function visibleItems() {
-  return ranked(pool().filter((i) => visibility(i) === "visible"));
+  return ranked(pool().filter((i) => visibility(i) === "visible" && passesFilters(i)));
 }
 
 export function featureLabel(f) {

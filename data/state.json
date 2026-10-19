@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T07:51:11.119Z",
+ "updatedAt": "2026-10-19T07:51:59.804Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -593,7 +593,10 @@
   "pt-nata",
   "motion-balancing-speed-and-readability-in-vertical-kine",
   "books-untangling-generational-power-and-servitude",
-  "fun-stubbs"
+  "fun-stubbs",
+  "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias",
+  "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
+  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -692,7 +695,15 @@
   "til-the-global-scramble-and-strange-fakes-of-transla": 1,
   "design-visualizing-fuzzy-memories-in-an-unbound-book": 1,
   "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1,
-  "science-white-dwarfs-aren-t-just-white-astronomers-find": 1
+  "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": 1,
+  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto": 1,
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 1,
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": 1,
+  "pt-operacao-marques-arranca-segundo-julgamento-de-s": 1,
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
+  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": 1,
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1781,6 +1792,116 @@
    "tag:white-dwarfs",
    "tag:space-science",
    "tag:physics"
+  ],
+  "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:design",
+   "tag:artesanato",
+   "tag:castelo-branco",
+   "tag:joalharia"
+  ],
+  "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:gastronomia",
+   "tag:coimbra",
+   "tag:tradicao",
+   "tag:tascas"
+  ],
+  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:publico",
+   "style:story",
+   "tag:cidadania",
+   "tag:politica",
+   "tag:livros",
+   "tag:sociedade"
+  ],
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:observador",
+   "style:explainer",
+   "tag:sociedade",
+   "tag:reciclagem",
+   "tag:economia",
+   "tag:lisboa"
+  ],
+  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:publico",
+   "style:news",
+   "tag:musica",
+   "tag:espetaculos",
+   "tag:porto",
+   "tag:lisboa"
+  ],
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:news",
+   "tag:cinema",
+   "tag:lisboa",
+   "tag:cultura",
+   "tag:streaming"
+  ],
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:observador",
+   "style:news",
+   "tag:desporto",
+   "tag:ciclismo",
+   "tag:sangalhos",
+   "tag:jogos-olimpicos"
+  ],
+  "pt-operacao-marques-arranca-segundo-julgamento-de-s": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:justica",
+   "tag:politica",
+   "tag:operacao-marques",
+   "tag:tribunais"
+  ],
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:economia",
+   "tag:salarios",
+   "tag:funcao-publica",
+   "tag:sindicatos"
+  ],
+  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:lisboa",
+   "tag:eleicoes",
+   "tag:brasil",
+   "tag:emigracao"
+  ],
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:politica",
+   "tag:habitacao",
+   "tag:porto",
+   "tag:governo"
   ]
  },
  "read": [
@@ -1814,7 +1935,10 @@
   "bike-fem-van-empel-returns-to-racing-after-nearly-a-y",
   "ai-strot-compiles-llm-intent-once-into-a-60ms-local",
   "pt-nata",
-  "fun-stubbs"
+  "fun-stubbs",
+  "pt-utero-criativo-mae-e-filha-dao-nova-vida-a-joias",
+  "pt-a-tasca-por-baixo-de-um-predio-em-coimbra-onde-o",
+  "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo"
  ],
  "saved": [
   "pt-1755",

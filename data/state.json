@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T07:54:21.709Z",
+ "updatedAt": "2026-10-19T07:55:52.965Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -613,7 +613,11 @@
   "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
   "pt-musica-sertaneja-das-bombas-de-gasolina-projeto",
   "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani",
-  "pt-ninfa-fossil-pejao"
+  "pt-ninfa-fossil-pejao",
+  "tech-how-military-tech-turned-into-the-ultimate-class",
+  "tr-dumb",
+  "tech-cities-are-pushing-back-against-driverless-robot",
+  "til-under-the-light-of-the-hunter-s-moon"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -630,7 +634,7 @@
   "tech-cities-are-pushing-back-against-driverless-robot": 2,
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 3,
   "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
-  "tr-repair": 3,
+  "tr-repair": 4,
   "tr-dumb": 2,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 5,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
@@ -708,7 +712,7 @@
   "fun-mike": 2,
   "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 2,
-  "tech-a-police-officer-shared-automated-license-plate": 1,
+  "tech-a-police-officer-shared-automated-license-plate": 2,
   "til-the-global-scramble-and-strange-fakes-of-transla": 1,
   "design-visualizing-fuzzy-memories-in-an-unbound-book": 1,
   "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1,
@@ -1930,6 +1934,14 @@
    "tag:habitacao",
    "tag:porto",
    "tag:lisboa"
+  ],
+  "tech-how-military-tech-turned-into-the-ultimate-class": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:tech-history",
+   "tag:education",
+   "tag:projectors"
   ]
  },
  "read": [
@@ -1969,7 +1981,11 @@
   "pt-25-anos-a-escrever-um-livro-para-propor-uma-demo",
   "pt-musica-sertaneja-das-bombas-de-gasolina-projeto",
   "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani",
-  "pt-ninfa-fossil-pejao"
+  "pt-ninfa-fossil-pejao",
+  "tech-how-military-tech-turned-into-the-ultimate-class",
+  "tr-dumb",
+  "tech-cities-are-pushing-back-against-driverless-robot",
+  "tech-the-humble-14-milk-frother-and-the-19th-century"
  ],
  "saved": [
   "pt-1755",

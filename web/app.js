@@ -519,7 +519,12 @@ function loadMoreScope() {
   if (v.startsWith("group:")) {
     const g = groupOf(v.slice(6));
     const ids = orderedTopics().filter((t) => t.group === g?.id).map((t) => t.id);
-    if (state.sub && ids.includes(state.sub)) { const t = topicOf(state.sub); return { topics: [t.id], label: `${t.emoji} ${t.label}` }; }
+    if (state.sub && ids.includes(state.sub)) {
+      const t = topicOf(state.sub);
+      const sub = state.sub2 && t.subs?.find((s) => s.id === state.sub2);
+      if (sub) return { topics: [t.id], sub: `${t.id}/${sub.id}`, label: `${t.emoji} ${sub.label}` }; // the narrowest view
+      return { topics: [t.id], label: `${t.emoji} ${t.label}` };
+    }
     return { topics: ids, label: `${g.emoji} ${g.name}` };
   }
   if (!["all", "saved", "settings", "week", "later", "search"].includes(v)) {
@@ -576,11 +581,12 @@ async function reloadEditions() {
 const label = (text, cls = "section-label") => el("p", { class: cls }, text);
 const empty = (text) => el("p", { class: "empty" }, text);
 
-function filterChips(options) {
+// key: "sub" (topic inside a group, or subcategory inside a topic) or "sub2" (subcategory of the topic picked inside a group).
+function filterChips(options, key = "sub") {
   if (options.length < 2) return null;
   return el("div", { class: "subchips" }, [{ id: null, label: "All" }, ...options].map((o) => el("button", {
-    class: "subchip", "aria-pressed": String(state.sub === o.id),
-    onclick: () => { state.sub = o.id; renderFeed(); },
+    class: "subchip", "aria-pressed": String(state[key] === o.id),
+    onclick: () => { state[key] = o.id; if (key === "sub") state.sub2 = null; renderFeed(); },
   }, o.label)));
 }
 
@@ -638,7 +644,12 @@ function renderFeed() {
     const ts = orderedTopics().filter((t) => t.group === gid);
     const inGroup = items.filter((i) => ts.some((t) => t.id === i.topic));
     nodes.push(filterChips(ts.filter((t) => inGroup.some((i) => i.topic === t.id)).map((t) => ({ id: t.id, label: `${t.emoji} ${t.label}` }))));
-    const shown = inGroup.filter((i) => !state.sub || i.topic === state.sub);
+    let shown = inGroup.filter((i) => !state.sub || i.topic === state.sub);
+    if (state.sub) {
+      const subs = (topicOf(state.sub).subs ?? []).filter((s) => shown.some((i) => i.sub === s.id));
+      nodes.push(filterChips(subs, "sub2"));
+      if (subs.some((s) => s.id === state.sub2)) shown = shown.filter((i) => i.sub === state.sub2);
+    }
     nodes.push(...shown.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
     nodes.push(...(state.sub ? shown.filter((i) => i.kind !== "longread").map((i) => makeCard(i)) : topicSections(shown, false)));
   } else {

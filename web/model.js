@@ -75,6 +75,7 @@ export const state = {
   latest: null,
   view: "all",           // "all" | "group:<id>" | topicId | "saved" | "settings"
   sub: null,             // sub-filter inside a view (topic id inside a group, or subcategory inside a topic)
+  sub2: null,            // subcategory of the topic picked inside a group
   editTopic: null,       // topic id being edited in Settings, or "new"
   settings: { ...DEFAULT_SETTINGS, ...store.get("settings", {}) },
   read: new Set(store.get("read", [])),

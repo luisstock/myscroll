@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T06:38:55.383Z",
+ "updatedAt": "2026-10-19T06:39:03.422Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -568,7 +568,8 @@
   "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp",
   "pt-setenil-de-las-bodegas-a-vila-espanhola-onde-as",
   "til-7-regency-rules-that-would-drive-modern-humans-u",
-  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll"
+  "ai-a-clever-hot-seat-tool-lets-one-gpu-run-local-ll",
+  "design-designing-with-abandon-nuria-balinha-s-weekly-zi"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 4,
@@ -660,7 +661,8 @@
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
   "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1,
   "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": 1,
-  "fun-mike": 1
+  "fun-mike": 1,
+  "news-nsw-introduces-special-bill-to-bypass-high-court": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1648,6 +1650,25 @@
    "tag:local-llm",
    "tag:vram",
    "tag:minimax"
+  ],
+  "design-designing-with-abandon-nuria-balinha-s-weekly-zi": [
+   "topic:design",
+   "source:its-nice-that",
+   "style:explainer",
+   "tag:graphic-design",
+   "tag:zine-making",
+   "tag:typography",
+   "tag:editorial-design"
+  ],
+  "news-nsw-introduces-special-bill-to-bypass-high-court": [
+   "topic:news",
+   "sub:news/world",
+   "source:guardian-world",
+   "style:news",
+   "tag:australia",
+   "tag:coal-mining",
+   "tag:climate-policy",
+   "tag:rule-of-law"
   ]
  },
  "read": [

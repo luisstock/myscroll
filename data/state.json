@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:43:57.194Z",
+ "updatedAt": "2026-10-19T06:06:17.512Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -568,9 +568,9 @@
   "til-oxford": 2,
   "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 3,
   "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 3,
-  "bk-hour": 3,
-  "bk-roubaix": 3,
-  "bk-tdf": 2,
+  "bk-hour": 4,
+  "bk-roubaix": 4,
+  "bk-tdf": 3,
   "books-creating-art-in-times-of-anxiety-and-chaos": 1,
   "books-untangling-generational-power-and-servitude": 1,
   "til-robert-smalls": 1,
@@ -593,7 +593,17 @@
   "ai-whisper": 2,
   "ai-llamacpp": 2,
   "tr-lofi": 1,
-  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
+  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
+  "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec": 1,
+  "bike-celebrating-a-major-milestone-a-rider-s-first-20": 1,
+  "bike-road-oriented-build-plan-for-a-steel-nordest-alb": 1,
+  "bike-marianne-vos-claims-her-15th-world-title-on-aust": 1,
+  "bike-tobias-kongstad-sprints-to-victory-at-big-sugar": 1,
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": 1,
+  "bike-stress-testing-six-radically-different-gravel-bi": 1,
+  "bike-eneco-tour-rapidly-equalizes-prize-money-after-p": 1,
+  "bike-putting-the-hype-to-the-test-silca-protocol-rcg": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1385,6 +1395,93 @@
    "tag:neuroscience",
    "tag:motivation",
    "tag:mental-health"
+  ],
+  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:velo-gravel",
+   "style:story",
+   "tag:gravel-racing",
+   "tag:uci-worlds"
+  ],
+  "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:velo-gravel",
+   "style:story",
+   "tag:gravel-racing",
+   "tag:uci",
+   "tag:uci-gravel-worlds"
+  ],
+  "bike-celebrating-a-major-milestone-a-rider-s-first-20": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:r-gravelcycling",
+   "style:story",
+   "tag:cycling-milestones",
+   "tag:personal-story"
+  ],
+  "bike-road-oriented-build-plan-for-a-steel-nordest-alb": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:r-gravelcycling",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:bike-builds",
+   "tag:steel-frames"
+  ],
+  "bike-marianne-vos-claims-her-15th-world-title-on-aust": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:velo-gravel",
+   "style:news",
+   "tag:gravel-racing",
+   "tag:marianne-vos",
+   "tag:uci-gravel-worlds"
+  ],
+  "bike-tobias-kongstad-sprints-to-victory-at-big-sugar": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:cyclingnews-gravel",
+   "style:story",
+   "tag:gravel-racing",
+   "tag:life-time-grand-prix"
+  ],
+  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:cyclingnews-gravel",
+   "style:news",
+   "tag:cyclo-cross",
+   "tag:fem-van-empel",
+   "tag:racing-return"
+  ],
+  "bike-stress-testing-six-radically-different-gravel-bi": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:bike-testing",
+   "tag:squamish"
+  ],
+  "bike-eneco-tour-rapidly-equalizes-prize-money-after-p": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:cyclingnews-gravel",
+   "style:news",
+   "tag:cycling-news",
+   "tag:prize-money",
+   "tag:equality"
+  ],
+  "bike-putting-the-hype-to-the-test-silca-protocol-rcg": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:tires",
+   "tag:silca"
   ]
  },
  "read": [

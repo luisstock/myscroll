@@ -318,5 +318,18 @@
   "v2:en:Paul_Graham_(programmer)": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Paulgraham_240x320.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "credit": "File:Paulgraham_240x320.jpg"
+  },
+  "v2:en:Cozido_à_portuguesa": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cozido_a_portuguesa_1.JPG/1280px-Cozido_a_portuguesa_1.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Cozido_a_portuguesa_1.JPG"
+  },
+  "v2:en:Castelo_Branco": null,
+  "og:https://www.nit.pt/compras/lojas-e-marcas/utero-criativo-a-marca-de-joalharia-criada-por-mae-e-filha-que-celebra-a-beleza-da-imperfeicao": {
+    "url": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1710510&ts=20261016181054",
+    "credit": "www.nit.pt"
+  },
+  "v2:en:Música_sertaneja": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sergioreis.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:Sergioreis.jpg"
   }
 }

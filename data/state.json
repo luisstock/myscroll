@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T22:46:10.719Z",
+ "updatedAt": "2026-10-20T22:46:50.024Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -710,7 +710,7 @@
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
   "fun-project-pigeon": 1,
-  "fun-boring-and-dull": 1,
+  "fun-boring-and-dull": 2,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
   "books-the-traps-of-free-will-and-fate-across-time": 3,
@@ -2597,7 +2597,8 @@
   "news-a-look-beneath-the-hood-of-the-us-economy",
   "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
   "books-the-traps-of-free-will-and-fate-across-time",
-  "bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na"
+  "bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na",
+  "fun-boaty"
  ],
  "saved": [
   "pt-1755",
@@ -3163,6 +3164,12 @@
    "at": "2026-10-20T22:45:12.317Z",
    "min": 0,
    "topic": "bike",
+   "quick": true
+  },
+  "fun-boaty": {
+   "at": "2026-10-20T22:46:32.641Z",
+   "min": 0,
+   "topic": "fun",
    "quick": true
   }
  },

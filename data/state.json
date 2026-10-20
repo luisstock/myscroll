@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:11:46.650Z",
+ "updatedAt": "2026-10-20T17:22:17.382Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -327,14 +327,30 @@
     "description": "Sites de fórmula 1, reddit formula1",
     "keywords": [
      "F1",
-     "F1 sites de fórmula 1",
-     "F1 reddit formula1"
+     "formula1"
+    ],
+    "subs": [],
+    "group": "sport",
+    "custom": true,
+    "status": "ready",
+    "created": "2026-10-18T23:24:51.456Z"
+   },
+   {
+    "id": "health",
+    "label": "Health",
+    "emoji": "🏋️",
+    "description": "técnicas de emagrecer, tracking de saúde, saúde no geral",
+    "keywords": [
+     "Health",
+     "Health técnicas de emagrecer",
+     "Health tracking de saúde",
+     "Health saúde no geral"
     ],
     "subs": [],
     "group": "sport",
     "custom": true,
     "status": "new",
-    "created": "2026-10-18T23:24:51.456Z"
+    "created": "2026-10-20T16:40:51.242Z"
    }
   ],
   "groups": null,
@@ -424,6 +440,96 @@
     "type": "reddit",
     "weight": 1,
     "custom": true
+   },
+   {
+    "id": "health-r-healthyhoaxes",
+    "topic": "health",
+    "name": "r/Healthyhoaxes",
+    "url": "https://www.reddit.com/r/health",
+    "type": "reddit",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "note": "A broad community discussing general health news, research, and lifestyle habits.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-huberman-lab",
+    "topic": "health",
+    "name": "Huberman Lab",
+    "url": "https://www.youtube.com/@hubermanlab",
+    "type": "video",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2D2CMWXMOVWx7giW1n3LIg",
+    "note": "Dr. Andrew Huberman provides science-based tools for everyday life, including protocols for fat loss, sleep, and metabolic health.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-renaissance-periodization",
+    "topic": "health",
+    "name": "Renaissance Periodization",
+    "url": "https://www.youtube.com/@RenaissancePeriodization",
+    "type": "video",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfQgsKhHjSyRLOp9mnffqVg",
+    "note": "Dr. Mike Israetel offers humorous yet deeply informative content on hypertrophy, dieting, and weight loss techniques backed by science.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-mark-s-daily-apple",
+    "topic": "health",
+    "name": "Mark's Daily Apple",
+    "url": "https://www.marksdailyapple.com",
+    "type": "site",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://www.marksdailyapple.com/feed",
+    "note": "A premier site for ancestral health, primal living, weight management tips, and general wellness articles with an active RSS feed.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-dr-greger-s-nutritionfacts-org",
+    "topic": "health",
+    "name": "Dr. Greger's NutritionFacts.org",
+    "url": "https://nutritionfacts.org",
+    "type": "site",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://nutritionfacts.org/feed",
+    "note": "Publishes evidence-based updates on nutrition, weight loss, and preventing chronic diseases via regular articles and videos.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-peter-attia-s-the-drive",
+    "topic": "health",
+    "name": "Peter Attia's The Drive",
+    "url": "https://peterattiamd.com",
+    "type": "site",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://peterattiamd.com/feed/",
+    "note": "Focuses on the extension of healthspan, longevity, metabolic tracking, and deep dives into physical optimization.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-verywell-health",
+    "topic": "health",
+    "name": "Verywell Health",
+    "url": "https://www.verywellhealth.com",
+    "type": "site",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://feeds-api.dotdashmeredith.com/v1/rss/google/e9bc2236-f9bf-46ed-8fb4-be30d91fd32f",
+    "note": "Provides clear, expert-reviewed, and up-to-date information on general health, conditions, and wellness tracking.",
+    "discovered": "2026-10-20"
    }
   ],
   "unmuted": [],
@@ -531,7 +637,8 @@
   "science-esa-s-euclid-telescope-was-built-to-map-galaxies",
   "pt-porto-cidade-acolhedora",
   "tech-apple-schedules-surprise-late-october-event-for",
-  "books-the-design-of-everyday-things"
+  "books-the-design-of-everyday-things",
+  "ai-spotify-expands-paid-podcast-memberships"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -542,39 +649,58 @@
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
   "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 2,
   "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
-  "motion-animating-ui-promos-outside-after-effects-using": 2,
-  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 2,
-  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 2,
-  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 1,
-  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
-  "mo-fischinger": 1,
-  "ai-openmoss-lands-in-comfyui-with-structured-layout": 1,
-  "ai-microsoft-warns-ai-agents-are-insider-threats-as": 1,
+  "motion-animating-ui-promos-outside-after-effects-using": 3,
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 3,
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 3,
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 2,
+  "mo-fischinger": 2,
+  "ai-openmoss-lands-in-comfyui-with-structured-layout": 2,
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as": 2,
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
   "fun-project-pigeon": 1,
   "fun-boring-and-dull": 1,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 1,
-  "books-the-traps-of-free-will-and-fate-across-time": 1,
-  "books-the-deep-roots-of-jewish-dissent": 1,
-  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 1,
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
-  "ideas-beauty-is-an-act-of-unselfing": 1,
-  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "books-the-traps-of-free-will-and-fate-across-time": 2,
+  "books-the-deep-roots-of-jewish-dissent": 2,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 2,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 2,
+  "ideas-beauty-is-an-act-of-unselfing": 2,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
-  "motion-exploring-retro-animation-styles-in-afte": 1,
+  "motion-exploring-retro-animation-styles-in-afte": 2,
   "pt-cortica": 2,
-  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 3,
   "pt-alianca-luso-britanica": 2,
-  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 2,
-  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 2,
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 3,
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 3,
   "pt-porto-cidade-acolhedora": 1,
   "tech-apple-schedules-surprise-late-october-event-for": 1,
-  "tech-a-russian-military-satellite-shadowed-an-earth-i": 1,
-  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 1,
-  "tr-repair": 1,
-  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 1
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": 2,
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 2,
+  "tr-repair": 2,
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 2,
+  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 1,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 1,
+  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
+  "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
+  "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
+  "science-perseverance-rover-takes-the-crown-for-off-world": 1,
+  "news-a-look-beneath-the-hood-of-the-us-economy": 1,
+  "news-how-el-nino-split-the-pacific-and-atlantic-hurri": 1,
+  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 1,
+  "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
+  "news-outcry-in-australia-after-incarcerated-mother-sh": 1,
+  "news-brazil-s-amazon-deforestation-drops-to-six-year": 1,
+  "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
+  "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
+  "ai-llamacpp": 1,
+  "ai-quant": 1,
+  "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2260,6 +2386,51 @@
    "tag:ux",
    "tag:psychology",
    "tag:problem-solving"
+  ],
+  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": [
+   "topic:science",
+   "source:nasa",
+   "style:story",
+   "tag:nasa",
+   "tag:mars-analog",
+   "tag:spaceflight",
+   "tag:psychology"
+  ],
+  "news-a-look-beneath-the-hood-of-the-us-economy": [
+   "topic:news",
+   "sub:news/economy",
+   "source:bbc-world",
+   "style:explainer",
+   "tag:us-economy",
+   "tag:inflation",
+   "tag:tariffs",
+   "tag:macroeconomics"
+  ],
+  "news-how-el-nino-split-the-pacific-and-atlantic-hurri": [
+   "topic:news",
+   "sub:news/climate",
+   "source:bbc-world",
+   "style:news",
+   "tag:climate",
+   "tag:el-nino",
+   "tag:meteorology",
+   "tag:hurricanes"
+  ],
+  "ai-spotify-expands-paid-podcast-memberships": [
+   "topic:ai",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:tech",
+   "tag:curiosities"
+  ],
+  "ai-anthropic-and-nscale-in-talks-for-anothe": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:ai",
+   "tag:frontier-models",
+   "tag:tech"
   ]
  },
  "read": [
@@ -2342,7 +2513,9 @@
   "pt-quatro-candelabros-da-mitica-baixela-germain-est",
   "tech-a-99-car-tracker-betting-parents-care-more-about",
   "pt-alianca-luso-britanica",
-  "fun-wilhelm-scream"
+  "fun-wilhelm-scream",
+  "pt-cortica",
+  "pt-porto-cidade-acolhedora"
  ],
  "saved": [
   "pt-1755",
@@ -2737,6 +2910,17 @@
     "tag:wilhelm-scream",
     "tag:star-wars"
    ]
+  },
+  "pt-cortica": {
+   "at": "2026-10-20T16:47:19.839Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:til",
+    "tag:natureza",
+    "tag:economia"
+   ]
   }
  },
  "readLog": {
@@ -2855,6 +3039,12 @@
    "at": "2026-10-20T13:19:01.280Z",
    "min": 1,
    "topic": "tech"
+  },
+  "pt-porto-cidade-acolhedora": {
+   "at": "2026-10-20T16:47:34.065Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
   }
  },
  "follows": null,

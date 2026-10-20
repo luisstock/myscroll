@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T17:20:58.992Z",
+ "updatedAt": "2026-10-20T17:22:17.382Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -698,7 +698,9 @@
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
   "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
   "ai-llamacpp": 1,
-  "ai-quant": 1
+  "ai-quant": 1,
+  "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [

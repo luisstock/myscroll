@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:07:19.717Z",
+ "updatedAt": "2026-10-20T16:07:57.720Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -392,6 +392,10 @@
     "deleted": false
    },
    "wired": {
+    "enabled": true,
+    "deleted": false
+   },
+   "futility-closet": {
     "enabled": true,
     "deleted": false
    }

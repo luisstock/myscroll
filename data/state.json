@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:12:26.172Z",
+ "updatedAt": "2026-10-20T12:14:37.212Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -386,6 +386,10 @@
    "time-out-lisboa": {
     "enabled": true,
     "deleted": false
+   },
+   "damn-interesting": {
+    "enabled": true,
+    "deleted": false
    }
   },
   "customSources": [
@@ -401,6 +405,15 @@
      "philosophy",
      "creativity"
     ],
+    "weight": 1,
+    "custom": true
+   },
+   {
+    "id": "custom-1792498462111",
+    "topic": "pt",
+    "name": "LusoMeteo",
+    "url": "https://www.reddit.com/r/t5_dpdygj/s/lvIFNdbWw3",
+    "type": "reddit",
     "weight": 1,
     "custom": true
    }

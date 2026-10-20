@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T22:46:50.024Z",
+ "updatedAt": "2026-10-20T22:51:27.452Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -688,7 +688,8 @@
   "ai-spotify-expands-paid-podcast-memberships",
   "ai-openmoss-lands-in-comfyui-with-structured-layout",
   "news-a-look-beneath-the-hood-of-the-us-economy",
-  "news-how-el-nino-split-the-pacific-and-atlantic-hurri"
+  "news-how-el-nino-split-the-pacific-and-atlantic-hurri",
+  "til-a-6-time-capsule-of-early-american-life"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -709,7 +710,7 @@
   "ai-microsoft-warns-ai-agents-are-insider-threats-as": 2,
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
-  "fun-project-pigeon": 1,
+  "fun-project-pigeon": 2,
   "fun-boring-and-dull": 2,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
@@ -754,7 +755,11 @@
   "design-fifty-shades-of-hay-wicker-parodies-bodi": 1,
   "design-the-creepy-beautiful-digital-art-behind": 1,
   "design-an-existential-spiral-over-video-call-ap": 1,
-  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1
+  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
+  "til-what-colonial-williamsburg-ate-before-pa": 1,
+  "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
+  "til-the-mystery-of-the-oldest-surviving-amer": 1,
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2509,6 +2514,50 @@
    "tag:tech",
    "tag:design",
    "tag:curiosities"
+  ],
+  "til-what-colonial-williamsburg-ate-before-pa": [
+   "topic:til",
+   "sub:til/til",
+   "source:mental-floss",
+   "style:explainer",
+   "tag:food",
+   "tag:history",
+   "tag:curiosities"
+  ],
+  "til-sweden-s-giant-concrete-tribute-to-vineg": [
+   "topic:til",
+   "sub:til/til",
+   "source:atlas-obscura",
+   "style:til",
+   "tag:design",
+   "tag:curiosities",
+   "tag:sweden"
+  ],
+  "til-the-mystery-of-the-oldest-surviving-amer": [
+   "topic:til",
+   "sub:til/til",
+   "source:atlas-obscura",
+   "style:til",
+   "tag:history",
+   "tag:curiosities",
+   "tag:usa"
+  ],
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": [
+   "topic:fun",
+   "source:bored-panda",
+   "style:story",
+   "tag:culture",
+   "tag:humor",
+   "tag:reddit"
+  ],
+  "til-a-6-time-capsule-of-early-american-life": [
+   "topic:til",
+   "sub:til/til",
+   "source:atlas-obscura",
+   "style:til",
+   "tag:history",
+   "tag:architecture",
+   "tag:usa"
   ]
  },
  "read": [
@@ -2598,7 +2647,9 @@
   "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
   "books-the-traps-of-free-will-and-fate-across-time",
   "bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na",
-  "fun-boaty"
+  "fun-boaty",
+  "fun-boring-and-dull",
+  "fun-byron"
  ],
  "saved": [
   "pt-1755",
@@ -3029,6 +3080,29 @@
     "tag:bike-tech",
     "tag:trek-domane",
     "tag:gravel-gear"
+   ]
+  },
+  "fun-boring-and-dull": {
+   "at": "2026-10-20T22:50:57.441Z",
+   "f": [
+    "topic:fun",
+    "source:wikipedia",
+    "style:til",
+    "tag:place-names",
+    "tag:twin-towns",
+    "tag:oregon",
+    "tag:scotland"
+   ]
+  },
+  "fun-byron": {
+   "at": "2026-10-20T22:51:09.260Z",
+   "f": [
+    "topic:fun",
+    "source:wikipedia",
+    "style:til",
+    "tag:history",
+    "tag:animals",
+    "tag:absurd"
    ]
   }
  },
@@ -3799,6 +3873,233 @@
     },
     "lang": "en",
     "minutes": 2,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "fun-a-christian-dad-takes-on-a-14-foot-hallo",
+    "topic": "fun",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "culture",
+     "humor",
+     "reddit"
+    ],
+    "title": "A Christian Dad Takes On a 14-Foot Halloween Demon",
+    "snippet": "An Ohio father's impassioned LinkedIn rant about a terrifying neighborhood lawn display inadvertently amused the internet.",
+    "body": [
+     "Halloween brings out all kinds of seasonal decor, but a 14-foot demon holding a bloody axe proved to be a bridge too far for one father of two. In a viral LinkedIn post, Colin Stroud vented about the spooky setup disrupting his family's neighborhood walks and keeping his four-year-old daughter awake at night.",
+     "Rather than just asking the neighbor to tone it down, the dad offered an unexpected silver lining. He claimed the terrifying ordeal served as a powerful 'faith activation' that brought his young children closer to God."
+    ],
+    "more": [
+     "Naturally, social media users had a field day with the logic, offering up endless sarcastic reactions to the idea that giant lawn demons are a legitimate parenting tool.",
+     "While some parents sympathized with the difficulty of explaining neighborhood spooks to sensitive toddlers, the dramatic framing turned the local dispute into pure internet comedy."
+    ],
+    "source": {
+     "id": "bored-panda",
+     "name": "Bored Panda",
+     "url": "https://www.boredpanda.com/christian-man-halloween-decoration-neighbor-rant-toddler/"
+    },
+    "image": {
+     "src": "https://static.boredpanda.com/blog/wp-content/uploads/2026/10/cover_image_720_6ad78dac04b0a.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "til-the-mystery-of-the-oldest-surviving-amer": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "til-the-mystery-of-the-oldest-surviving-amer",
+    "topic": "til",
+    "sub": "til",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "til",
+    "tags": [
+     "history",
+     "curiosities",
+     "usa"
+    ],
+    "title": "The Mystery of the Oldest Surviving American Flag",
+    "snippet": "Hidden in a Massachusetts town lies the Bedford Flag, an ornate crimson banner that may have seen the opening shots of the Revolution.",
+    "body": [
+     "In a small historic town just outside Boston sits the Bedford Flag, recognized as the oldest complete surviving flag in the United States. Featuring an ornate crimson silk damask background adorned with grapes and pomegranates, the banner depicts an armored hand grasping a sword from a cloud beneath the motto Vince Aut Morire, or Conquer or Die.",
+     "Though experts place its creation in the early 1700s based on its unique pigments and design, the exact maker remains a mystery. Records suggest minuteman Nathaniel Page may have carried it straight into the Battles of Lexington and Concord in 1775."
+    ],
+    "more": [
+     "For generations, the flag remained in the Page family before being handed over to the town in 1885. Today, visitors can still view the delicate relic by requesting the key to the town's dedicated Flag Room.",
+     "The striking design lives on locally, appearing on police and fire department uniforms, town seals, and reenactor parades every Patriots' Day."
+    ],
+    "source": {
+     "id": "atlas-obscura",
+     "name": "Atlas Obscura",
+     "url": "https://www.atlasobscura.com/places/bedford-flag"
+    },
+    "image": {
+     "src": "https://img.atlasobscura.com/Q59BIilady2OZDtnWVazOUoWBz9Q97caj42BCLP4UEA/rt:fit/w:600/c:3206:2137:nowe:554:384/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82ZjA4/YjcyNS1kZjkwLTQx/NTAtYmExNy03OTZk/MjlkMDJjYmUyZjVj/MzNmY2FlM2FmYmMz/YTZfSU1HXzY3OTku/anBlZw.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "til-a-6-time-capsule-of-early-american-life": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "til-a-6-time-capsule-of-early-american-life",
+    "topic": "til",
+    "sub": "til",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "til",
+    "tags": [
+     "history",
+     "architecture",
+     "usa"
+    ],
+    "title": "A $6 Time Capsule of Early American Life in Rhode Island",
+    "snippet": "The Paine House Museum preserves centuries of local history inside a structure that started as a humble one-room sawmill home.",
+    "body": [
+     "Tucked off a Rhode Island highway sits the Paine House Museum, a living snapshot of early American domestic life. Originally built in the late 1600s by Samuel Bennett to support his local sawmill, the building slowly evolved over the centuries as successive owners added their own architectural touches.",
+     "Last lived in during the 1940s, the house now serves as a modest museum where visitors can step back in time for a nominal fee and observe how much living standards have shifted."
+    ],
+    "more": [
+     "Visiting requires a bit of local navigation, including finding street parking carefully away from the nearby fire station and residential bottlenecks.",
+     "During warmer months, the grounds occasionally host a local farmer's market, blending community charm with a tangible connection to early colonial craftsmanship."
+    ],
+    "source": {
+     "id": "atlas-obscura",
+     "name": "Atlas Obscura",
+     "url": "https://www.atlasobscura.com/places/paine-house-museum"
+    },
+    "image": {
+     "src": "https://img.atlasobscura.com/8bWPSQe4JctRTTY4UQKxumAQ5HRZ7G8OPkxOdJIdpEE/rt:fit/w:600/c:916:611:nowe:49:69/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8zODdl/MjQyNC1lMWU1LTQx/N2EtOGNjZi0yOGEz/NzNhNzMwN2M1NWNh/M2U1ZTlkZDJiMDBj/YmRfQ292ZW50cnlS/SV9QYWluZUhvdXNl/LmpwZw.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "til-what-colonial-williamsburg-ate-before-pa": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "til-what-colonial-williamsburg-ate-before-pa",
+    "topic": "til",
+    "sub": "til",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "explainer",
+    "tags": [
+     "food",
+     "history",
+     "curiosities"
+    ],
+    "title": "What Colonial Williamsburg Ate Before Pancakes Ruled",
+    "snippet": "Long before modern syrup-drenched breakfasts, early American mornings relied on coarse cornmeal and kitchen leftovers.",
+    "body": [
+     "Today, Williamsburg is famously packed with pancake houses and breakfast festivals, but mornings 250 years ago looked drastically different. For working-class settlers and enslaved laborers in colonial Virginia, breakfast was an absolute necessity rather than a leisurely culinary event.",
+     "Because wheat flour was an expensive luxury reserved for the elite, common tables relied heavily on corn. Cooks prepared simple hoecakes by mixing coarse cornmeal with water, salt, and lard, often cooking them over an open hearth using whatever metal tool was close at hand."
+    ],
+    "more": [
+     "When time allowed, breakfast often doubled as a practical way to clear out yesterday's menu, pairing fresh hoecakes with whatever survived the previous night's dinner.",
+     "Meanwhile, wealthy aristocrats enjoyed a much slower, refined morning routine featuring boiled milk and leisurely pacing, proving that historical breakfast divides ran deep."
+    ],
+    "source": {
+     "id": "mental-floss",
+     "name": "Mental Floss",
+     "url": "https://www.mentalfloss.com/food/what-people-ate-breakfast-colonial-williamsburg?utm_source=RSS"
+    },
+    "image": {
+     "src": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_313/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/mentalfloss/01m5ak5vsztneqtme589.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "til-the-chance-1962-encounter-that-made-tom": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "til-the-chance-1962-encounter-that-made-tom",
+    "topic": "til",
+    "sub": "til",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "music",
+     "history",
+     "elvis"
+    ],
+    "title": "The Chance 1962 Encounter That Made Tom Petty a Musician",
+    "snippet": "A ten-year-old Tom Petty traded his slingshot for vinyl records after a brief backstage meeting with Elvis Presley.",
+    "body": [
+     "Before leading the Heartbreakers and rocking alongside Bob Dylan, Tom Petty's entire life trajectory was altered by a single afternoon in 1962. While visiting his uncle on the Florida set of an Elvis Presley film, young Petty joined the crowds peering through a chain-link fence.",
+     "After slipping into a backstage area, he caught a glimpse of the King of Rock and Roll, who briefly stopped to say hello. That fleeting encounter sparked an obsessive love for music that instantly changed his priorities."
+    ],
+    "more": [
+     "Upon returning home, Petty promptly traded his prized aluminum slingshot for a box of vinyl 45s and began obsessively playing records.",
+     "He later reflected on how difficult it was to source music history back then, eventually mailing away to England just to secure a copy of The Elvis Presley Handbook."
+    ],
+    "source": {
+     "id": "mental-floss",
+     "name": "Mental Floss",
+     "url": "https://www.mentalfloss.com/entertainment/music/elvis-presley-encounter-changed-tom-petty-life?utm_source=RSS"
+    },
+    "image": {
+     "src": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1349,h_758,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01m5d08987tkw61etywp.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "til-sweden-s-giant-concrete-tribute-to-vineg": {
+   "at": "2026-10-20T22:46:50.496Z",
+   "item": {
+    "id": "til-sweden-s-giant-concrete-tribute-to-vineg",
+    "topic": "til",
+    "sub": "til",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "til",
+    "tags": [
+     "design",
+     "curiosities",
+     "sweden"
+    ],
+    "title": "Sweden's Giant Concrete Tribute to Vinegar",
+    "snippet": "A 16-foot replica of a classic glass bottle stands as a quirky roadside monument to a southern Swedish town's industrial past.",
+    "body": [
+     "In the small Swedish town of Perstorp, local acetic acid production has roots stretching back to 1881, when factories began utilizing raw materials from surrounding beech forests. To honor that heritage, the town unveiled a massive 16-foot concrete replica of its iconic glass vinegar bottle complete with a bright red cap.",
+     "Positioned right beside a main road near the train station, the oversized landmark serves as an unmistakable local symbol and a playful nod to everyday kitchen staples."
+    ],
+    "more": [
+     "Unveiled in 1994 by a prominent television chef, the monument even doubles as a practical guide for visitors.",
+     "Laminated panels mounted directly on the giant bottle offer traditional cucumber-pickling tips alongside handy travel recommendations for the local municipality."
+    ],
+    "source": {
+     "id": "atlas-obscura",
+     "name": "Atlas Obscura",
+     "url": "https://www.atlasobscura.com/places/giant-perstorp-vinegar-bottle"
+    },
+    "image": {
+     "src": "https://img.atlasobscura.com/n9H3SYsw0sjNuVNCF2efBQIlzbpxvGKxAQHNArZusUM/rt:fit/w:600/c:2070:1380:nowe:490:1331/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80NmFl/YzJhZC02NGZiLTRi/MmItYjEwNy04OTJh/NGJiZTUyMzY3MGI4/ZGQ4ODg3NTU3ZGE2/ODdfMjAyNjA4MDZf/MTEwNTMxLmpwZw.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
     "added": "2026-10-20",
     "fast": true
    }

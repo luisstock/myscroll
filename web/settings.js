@@ -5,6 +5,7 @@ import {
   visibility, featureLabel, reloadFromStorage, live,
 } from "./model.js";
 import { el } from "./ui.js";
+import { collapseSections } from "./collapse.js";
 import { aiSection } from "./ai.js";
 import { moodsSection } from "./moods.js";
 import { bedtimeSection } from "./bedtime.js";
@@ -27,6 +28,7 @@ export function renderSettings(context) {
     bedtimeSection({ settings: s, save: saveSettings, rerender }),
     aiSection({ rerender }), Object.assign(loadMoreSection(s), { className: "set-section sync-section" }),
     followedSection(() => renderSettings(ctx)), groupsSection(), topicsSection(), sourcesSection(), backlogSection()));
+  collapseSections(ctx.root);
 }
 
 // ---------- Load more ----------

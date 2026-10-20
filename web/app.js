@@ -20,6 +20,7 @@ import { renderSearch } from "./search.js";
 import { initShare } from "./share.js";
 import { orderedGroups, orderedByReading, readingOrderOn } from "./order.js";
 import { canFollow, followButton, followTitle } from "./follow.js";
+import { attachSwipe, swiping } from "./swipe.js";
 import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
@@ -192,6 +193,7 @@ function makeCard(item, { longread = false } = {}) {
     onLater: () => sendLater(node, item),
     onHide: () => hideCard(node, item),
   }));
+  attachSwipe(node, { onLeft: () => hideCard(node, item), onRight: () => dismiss(node, item, { quick: true, like: true }) });
   skipObserver.observe(node);
   return node;
 }
@@ -242,7 +244,14 @@ window.addEventListener("scroll", () => {
 
 // Mark as read, slide the card out, offer Undo.
 // quick: marked from the closed card without reading it, so it adds no reading minutes to the stats.
-function dismiss(node, item, { quick = false } = {}) {
+// like: swiped right, so also a soft 4★ (only if you hadn't rated it) that Undo takes back.
+function dismiss(node, item, { quick = false, like = false } = {}) {
+  const liked = like && !state.ratings[item.id];
+  if (liked) {
+    state.ratings[item.id] = { r: 4, at: new Date().toISOString(), f: featuresOf(item), via: "swipe" };
+    store.set("ratings", state.ratings);
+    rebuildProfile();
+  }
   state.progress[item.id] = 1;
   store.set("progress", state.progress);
   state.read.add(item.id);
@@ -251,7 +260,12 @@ function dismiss(node, item, { quick = false } = {}) {
   state.readLog[item.id] = { at: new Date().toISOString(), min: quick ? 0 : item.minutes ?? 1, topic: item.topic, ...(quick ? { quick: true } : {}) };
   store.set("readLog", state.readLog);
   slideOut(node);
-  toast("Marked as read", "Undo", () => {
+  toast(liked ? "Liked — more like this" : "Marked as read", "Undo", () => {
+    if (liked && state.ratings[item.id]?.via === "swipe") {
+      delete state.ratings[item.id];
+      store.set("ratings", state.ratings);
+      rebuildProfile();
+    }
     state.read.delete(item.id);
     store.set("read", [...state.read]);
     state.readLog[item.id] = { ...state.readLog[item.id], at: new Date().toISOString(), off: true };
@@ -727,10 +741,11 @@ $(".top").after(pullEl);
 const PULL_TRIGGER = 90;
 let pull = null;
 window.addEventListener("touchstart", (e) => {
-  pull = state.view === "all" && window.scrollY <= 0 && e.touches.length === 1 ? { y0: e.touches[0].clientY, d: 0 } : null;
+  pull = state.view === "all" && window.scrollY <= 0 && e.touches.length === 1 ? { x0: e.touches[0].clientX, y0: e.touches[0].clientY, d: 0 } : null;
 }, { passive: true });
 window.addEventListener("touchmove", (e) => {
   if (!pull) return;
+  if (swiping() || Math.abs(e.touches[0].clientX - pull.x0) > Math.abs(e.touches[0].clientY - pull.y0)) { pull = null; pullEl.style.height = "0"; return; } // a sideways card swipe, not a pull
   pull.d = Math.max(0, (e.touches[0].clientY - pull.y0) * 0.5); // resistance
   if (pull.d <= 0) return;
   e.preventDefault(); // we handle this pull, not the page

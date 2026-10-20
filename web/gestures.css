@@ -1,0 +1,23 @@
+/* ---------- swipe on closed cards ---------- */
+.card:not(.open) { touch-action: pan-y; }
+body.swiping .feed { overflow-x: clip; }
+.swipe-tint { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; display: flex; align-items: flex-start; transition: opacity .15s ease; }
+.swipe-tint.left { background: color-mix(in srgb, var(--bad) 28%, transparent); justify-content: flex-end; }
+.swipe-tint.right { background: color-mix(in srgb, var(--good) 28%, transparent); justify-content: flex-start; }
+.swipe-badge { margin: 12px; padding: 5px 11px; border-radius: 999px; font-size: 13px; font-weight: 600; background: var(--surface); border: 1px solid currentColor; }
+.swipe-tint.left .swipe-badge { color: var(--bad); }
+.swipe-tint.right .swipe-badge { color: var(--good); }
+
+/* ---------- collapsible settings sections ---------- */
+.set-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; cursor: pointer; min-height: 32px; -webkit-tap-highlight-color: transparent; }
+.set-chev { color: var(--muted); font-size: 16px; transition: transform .25s ease; }
+.set-section.collapsed .set-chev { transform: rotate(-90deg); }
+.set-body { display: grid; grid-template-rows: 1fr; transition: grid-template-rows .25s ease; }
+.set-inner { overflow: hidden; min-height: 0; }
+.set-section:not(.collapsed) .set-inner { padding-top: 4px; }
+.set-section.collapsed .set-body { grid-template-rows: 0fr; }
+.set-section.collapsed .set-inner { visibility: hidden; transition: visibility 0s .25s; }
+.stats-section summary { list-style: none; }
+.stats-section summary::-webkit-details-marker { display: none; }
+.stats-section summary::after { content: "▾"; margin-left: auto; color: var(--muted); font-size: 16px; transition: transform .25s ease; }
+.stats-section:not([open]) summary::after { transform: rotate(-90deg); }

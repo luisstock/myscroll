@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:27:22.170Z",
+ "updatedAt": "2026-10-20T12:28:09.231Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -1942,7 +1942,8 @@
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
-  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle"
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr"
  ],
  "saved": [
   "pt-1755",
@@ -2231,6 +2232,12 @@
    "at": "2026-10-20T12:12:12.470Z",
    "min": 1,
    "topic": "pt"
+  },
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": {
+   "at": "2026-10-20T12:28:01.199Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
   }
  },
  "follows": null,

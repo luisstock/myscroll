@@ -10,7 +10,8 @@ import { aiSection } from "./ai.js";
 import { moodsSection } from "./moods.js";
 import { bedtimeSection } from "./bedtime.js";
 import { statsSection } from "./stats.js";
-import { github } from "./loadmore.js";
+import { github, loadMore } from "./loadmore.js";
+import { getJSON } from "./env.js";
 import { followedSection } from "./follow.js";
 import { discoverSources, canDiscover, aiSuggestions, askedRecently, dismissSuggestion, addSuggestion, isFinding } from "./discover.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
@@ -326,8 +327,49 @@ function suggestionsSection(topic) {
 }
 
 // ✨ Find sources: Gemini suggests, this device checks each one works, the good ones go to the suggestions above.
+// Without a Gemini key on this device: the agent on GitHub finds sources for a topic that has none (a few minutes);
+// suggestions for a topic that already has some need the key.
+function agentFindBox(topic) {
+  const status = el("p", { class: "more-status", hidden: true });
+  const empty = !allSources().some((s) => s.topic === topic.id);
+  const openAI = () => {
+    state.editTopic = null;
+    renderSettings(ctx);
+    const sec = document.querySelector(".ai-section");
+    if (sec?.classList.contains("collapsed")) sec.querySelector(".set-head")?.click();
+    sec?.scrollIntoView({ block: "start" });
+    window.scrollBy(0, -110);
+  };
+  const btn = el("button", { type: "button", class: "mini-btn add find-btn" }, "✨ Find sources");
+  btn.onclick = async () => {
+    status.hidden = false;
+    status.classList.remove("error");
+    if (!empty) {
+      status.replaceChildren("Suggestions come from Gemini: add your free key once in Settings → AI. ",
+        el("button", { class: "setup-link", onclick: openAI }, "Open Settings → AI →"));
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = "Finding…";
+    try {
+      await loadMore((t) => { status.textContent = t; }, { topics: [topic.id] });
+      state.catalog = (await getJSON("catalog.json")).sources; // the agent adds what it found to the catalog
+      if (state.editTopic === topic.id) rerender();
+    } catch (err) {
+      status.replaceChildren(err.message, err.needsSetup ? el("button", { class: "setup-link", onclick: openAI }, " Or add a Gemini key →") : null);
+      status.classList.add("error");
+      btn.disabled = false;
+      btn.textContent = "✨ Find sources";
+    }
+  };
+  return el("div", { class: "find-box" }, btn, status,
+    el("p", { class: "set-hint" }, empty
+      ? "The agent will look for good sources for this topic and bring the first items (a few minutes). With a Gemini key in Settings → AI it takes seconds."
+      : "Add your Gemini key in Settings → AI to get source suggestions you can add with one tap."));
+}
+
 function findSourcesBox(topic) {
-  if (!canDiscover()) return el("p", { class: "set-hint" }, "✨ Add your Gemini key in Settings → AI to find sources automatically from the description.");
+  if (!canDiscover()) return agentFindBox(topic);
   const status = el("p", { class: "more-status", hidden: true });
   const btn = el("button", { type: "button", class: "mini-btn add find-btn" }, "✨ Find sources");
   btn.onclick = async () => {

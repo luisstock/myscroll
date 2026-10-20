@@ -133,8 +133,8 @@ if (shareUrl) {
     log(`Reusing saved candidates: ${Object.entries(picked).map(([t, l]) => `${t} ${l.length}`).join(", ")}`);
   } else {
     // 3. gather
-    // New topics with no sources: find and check some first (they reach the app through the catalog).
-    for (const topic of plan.topics.filter((t) => !t.sources.length && t.status === "new" && !dry)) {
+    // Topics with no sources (usually new ones): find and check some first (they reach the app through the catalog).
+    for (const topic of plan.topics.filter((t) => !t.sources.length && !dry)) {
       try {
         const found = await discoverSources(config, topic, log);
         topic.sources = found.map((s) => ({ id: `${topic.id}-${s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`.slice(0, 50), name: s.name, url: s.url, type: s.type, weight: 1, ...(s.feed ? { feed: s.feed } : {}) }));

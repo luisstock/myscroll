@@ -1555,6 +1555,81 @@
         "science",
         "philosophy"
       ]
+    },
+    {
+      "id": "f1-formula-1-reddit",
+      "topic": "f1",
+      "name": "Formula 1 Reddit",
+      "url": "https://www.reddit.com/r/formula1",
+      "type": "reddit",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20"
+    },
+    {
+      "id": "f1-chain-bear",
+      "topic": "f1",
+      "name": "Chain Bear",
+      "url": "https://www.youtube.com/@chainbear",
+      "type": "video",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20"
+    },
+    {
+      "id": "f1-driver61",
+      "topic": "f1",
+      "name": "Driver61",
+      "url": "https://www.youtube.com/@Driver61",
+      "type": "video",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20"
+    },
+    {
+      "id": "f1-autosport",
+      "topic": "f1",
+      "name": "Autosport",
+      "url": "https://www.autosport.com/f1/",
+      "type": "site",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20",
+      "feed": "https://www.autosport.com/rss/google/"
+    },
+    {
+      "id": "f1-the-race",
+      "topic": "f1",
+      "name": "The Race",
+      "url": "https://the-race.com/formula-1/",
+      "type": "site",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20",
+      "feed": "https://www.the-race.com/rss/"
+    },
+    {
+      "id": "f1-motorsport-com",
+      "topic": "f1",
+      "name": "Motorsport.com",
+      "url": "https://www.motorsport.com/f1/",
+      "type": "site",
+      "tags": [
+        "formula-1"
+      ],
+      "default": true,
+      "discovered": "2026-10-20",
+      "feed": "https://www.motorsport.com/rss/google/"
     }
   ]
 }

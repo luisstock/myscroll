@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:42:22.367Z",
+ "updatedAt": "2026-10-20T12:52:23.135Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -518,7 +518,12 @@
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 1,
   "books-the-traps-of-free-will-and-fate-across-time": 1,
-  "books-the-deep-roots-of-jewish-dissent": 1
+  "books-the-deep-roots-of-jewish-dissent": 1,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 1,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
+  "ideas-beauty-is-an-act-of-unselfing": 1,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2087,6 +2092,14 @@
    "tag:jewish-history",
    "tag:anti-zionism",
    "tag:political-history"
+  ],
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:relationships",
+   "tag:change",
+   "tag:philosophy"
   ]
  },
  "read": [

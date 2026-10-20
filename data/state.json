@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:40:03.717Z",
+ "updatedAt": "2026-10-20T12:40:44.767Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -490,7 +490,8 @@
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
   "pt-tendas-retiradas-em-lisboa-e-porto-apos",
   "f1-christian-horner-reveals-true-stance-on-liam-law",
-  "ai-one-third-of-the-most-popular-comfyui-custom-nod"
+  "ai-one-third-of-the-most-popular-comfyui-custom-nod",
+  "bike-moots-overhauls-the-routt-with-57mm-clearance-an"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -513,7 +514,8 @@
   "fun-boaty": 1,
   "fun-project-pigeon": 1,
   "fun-boring-and-dull": 1,
-  "fun-byron": 1
+  "fun-byron": 1,
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2035,6 +2037,25 @@
    "tag:frontier-models",
    "tag:ai-agents",
    "tag:security"
+  ],
+  "bike-moots-overhauls-the-routt-with-57mm-clearance-an": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:titanium-bikes",
+   "tag:moots-routt",
+   "tag:gravel-tech",
+   "tag:bike-geometry"
+  ],
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:bike-geometry",
+   "tag:colnago"
   ]
  },
  "read": [

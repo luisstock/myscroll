@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T00:12:07.096Z",
+ "updatedAt": "2026-10-20T00:13:59.460Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -8,7 +8,7 @@
   "dailyTarget": 40,
   "newsExpireDays": 7,
   "skipRule": {
-   "enabled": false,
+   "enabled": true,
    "limit": 20
   },
   "topicWeights": {},
@@ -407,7 +407,8 @@
   ],
   "unmuted": [],
   "orderByReading": true,
-  "activeMood": null
+  "activeMood": null,
+  "moods": null
  },
  "ratings": {
   "lr-tongan-castaways-2": {
@@ -738,19 +739,19 @@
   "design-visualizing-fuzzy-memories-in-an-unbound-book": 3,
   "news-thawing-permafrost-leaches-heavy-metals-into-sva": 2,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 2,
-  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": 2,
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": 3,
   "pt-musica-sertaneja-das-bombas-de-gasolina-projeto": 1,
   "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 1,
   "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": 1,
-  "pt-operacao-marques-arranca-segundo-julgamento-de-s": 2,
+  "pt-operacao-marques-arranca-segundo-julgamento-de-s": 3,
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
-  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": 1,
-  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 2,
+  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": 2,
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 3,
   "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": 1,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 2,
-  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 1,
-  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1,
-  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 1,
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 2,
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 2,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
   "ideas-beauty-is-an-act-of-unselfing": 1
  },

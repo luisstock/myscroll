@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T22:52:00.093Z",
+ "updatedAt": "2026-10-20T22:52:32.440Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -759,7 +759,8 @@
   "til-what-colonial-williamsburg-ate-before-pa": 1,
   "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
-  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
+  "design-is-a-high-production-movie-trailer-the-n": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2558,6 +2559,14 @@
    "tag:history",
    "tag:architecture",
    "tag:usa"
+  ],
+  "design-is-a-high-production-movie-trailer-the-n": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:story",
+   "tag:visual-design",
+   "tag:illustration",
+   "tag:ai"
   ]
  },
  "read": [
@@ -4097,6 +4106,450 @@
     },
     "image": {
      "src": "https://img.atlasobscura.com/n9H3SYsw0sjNuVNCF2efBQIlzbpxvGKxAQHNArZusUM/rt:fit/w:600/c:2070:1380:nowe:490:1331/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80NmFl/YzJhZC02NGZiLTRi/MmItYjEwNy04OTJh/NGJiZTUyMzY3MGI4/ZGQ4ODg3NTU3ZGE2/ODdfMjAyNjA4MDZf/MTEwNTMxLmpwZw.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-booms-shakes-october-s-strategy-power-mo": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-booms-shakes-october-s-strategy-power-mo",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-19",
+    "style": "news",
+    "tags": [
+     "design-industry",
+     "strategy",
+     "agency-life"
+    ],
+    "title": "Booms & Shakes: October's strategy power moves and the return of human craft",
+    "snippet": "Major creative agencies are doubling down on human-led strategy and craft rather than AI specialists as the industry restructures.",
+    "body": [
+     "October's biggest creative industry movers and shakes reveal a clear trend toward restructuring and a renewed focus on strategy. Agencies like Landor, Small World, and Dalziel & Pow have all recently appointed top-level strategy leads.",
+     "Interestingly, none of the recent press releases mentioned 'AI specialists.' Instead, the industry is leaning heavily into human-led craft, responsible AI use, and detailed campaign measurement to prove their value to clients."
+    ],
+    "more": [
+     "The shift also includes significant agency consolidation, such as The Chase acquiring Squad in Manchester and York's Say Yes and Verse merging into COMMON.",
+     "Meanwhile, studios like ustwo are appointing former creative technologists as engineering leads, highlighting a growing industry consensus that creativity remains a crucial soft skill for technical leadership."
+    ],
+    "source": {
+     "id": "creative-boom",
+     "name": "Creative Boom",
+     "url": "https://www.creativeboom.com/booms-shakes/booms-shakes-october/"
+    },
+    "image": {
+     "src": "https://media.creativeboom.com/a371e412-9e48-4a3d-b5d4-e0a4de204ef5/conversions/518804d861720b35bd97679349f4adf64a1c9923-medium.webp"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-is-a-high-production-movie-trailer-the-n": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-is-a-high-production-movie-trailer-the-n",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "visual-design",
+     "illustration",
+     "ai"
+    ],
+    "title": "Is a high-production movie trailer the new portfolio for graphic designers?",
+    "snippet": "A visual designer's viral 8K short film about beating AI and portofolio fatigue has sparked intense debate.",
+    "body": [
+     "In an era where traditional portfolios and social media feeds struggle to stand out against AI-generated content, visual designer Darshita Patankar took a radically different approach to finding work.",
+     "Instead of a standard website, she teamed up with her brother to produce a sleek, four-minute cinematic film titled 'Design is Dead,' showcasing her early roots in MS Paint, her design philosophy, and her custom typefaces."
+    ],
+    "more": [
+     "The ambitious project has ignited discussions across the design community regarding whether high-production video marketing is becoming a necessary tool for freelancers.",
+     "Beyond the flashy format, the video's core message argues that design should remain a fundamental core of brand decision-making rather than just a superficial output."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/news/is-this-what-designers-need-to-do-to-get-work-in-2026-a-viral-high-production-video-has-sparked-debate"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/KajASJiLzFaaLtzCDKeVZZ-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-davinci-resolve-studio-drops-price-in-a": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-davinci-resolve-studio-drops-price-in-a",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "video-editing",
+     "software",
+     "color-grading"
+    ],
+    "title": "DaVinci Resolve Studio drops price in a rare 20% discount",
+    "snippet": "Blackmagic Design has slashed the price of its full studio package for the first time since late 2024.",
+    "body": [
+     "Known as an industry standard for Hollywood color-grading and timeline editing, DaVinci Resolve Studio rarely sees price cuts due to its already reasonable one-off purchase model.",
+     "Blackmagic Design has temporarily reduced the full studio package from $295 to $236, offering a rare entry point for creators looking to escape subscription software models."
+    ],
+    "more": [
+     "Alongside robust video tools, the software now features a dedicated Photo Page, bringing node-based color grading and raw image editing capabilities to still photography as an alternative to Lightroom.",
+     "With annual updates that include new AI tools and audio editing via Fairlight, it remains one of the most comprehensive multimedia suites on the market."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/deals/davinci-resolve-studio-just-got-a-super-rare-20-percent-discount"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/h23QF4gaRHC4knWbuDyw6H-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-cricut-s-stickerpix-combines-printing-la": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-cricut-s-stickerpix-combines-printing-la",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "hardware",
+     "diy-craft",
+     "printing"
+    ],
+    "title": "Cricut's StickerPix combines printing, laminating, and cutting",
+    "snippet": "Cricut's new compact device rolls multiple sticker-making steps into one machine, but comes with a notable catch.",
+    "body": [
+     "Cricut is best known for precision cutters, but their new StickerPix Print + Cut aims to solve the cumbersome multi-step process of making stickers at home.",
+     "The compact box integrates printing, laminating, and precision cutting into a single workflow that outputs crisp, colour-accurate sheets in under a minute."
+    ],
+    "more": [
+     "Available in different tiers, the beginner model restricts users to pre-made templates, while the higher-end version allows full custom shape cutting.",
+     "Despite its user-friendly design and quick output, locked-in proprietary materials and ongoing ink costs mean users will need to weigh convenience against long-term expenses."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/reviews/cricut-stickerpix-print-cut-review-a-playful-and-purposeful-printer-with-a-costly-catch"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/msoZ6YuzUe9ZSTbpD3p8oV-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-in-clubland-documenting-35-years-of-rave": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-in-clubland-documenting-35-years-of-rave",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-19",
+    "style": "story",
+    "tags": [
+     "photography",
+     "rave-culture",
+     "books"
+    ],
+    "title": "In Clubland: Documenting 35 years of rave and superclub culture",
+    "snippet": "Photographer Mark McNulty's new book captures four decades of dance music history from acid house onwards.",
+    "body": [
+     "Liverpool photographer Mark McNulty has spent decades documenting the evolution of UK club culture, capturing moments from the early days of acid house through the superclub boom.",
+     "His upcoming book, In Clubland: 35 Summers of Love, compiles over 550 photographs across 240 pages, offering an unfiltered look at the energy of youth and nightlife."
+    ],
+    "more": [
+     "Published by Modern Sky, the book coincides with McNulty's exhibition at Tate Britain as part of the British Culture Archive's showcase on 90s art and fashion.",
+     "Before finding his calling behind the lens, McNulty briefly played in a local band alongside future members of Pulp and The Stone Roses before realizing his fifteen minutes on stage were better spent documenting the scene."
+    ],
+    "source": {
+     "id": "creative-boom",
+     "name": "Creative Boom",
+     "url": "https://www.creativeboom.com/books/mark-mcnultys-in-clubland-documents-35-years-of-rave-culture-from-acid-house-to-the-age-of-the-superclub/"
+    },
+    "image": {
+     "src": "https://media.creativeboom.com/01366413-d7e8-4100-a351-ddf532cb3fb9/conversions/a8b63ef486d5744a11f514429613259a01cd7921-medium.webp"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-final-fantasy-resonance-brings-hd-2d-vis": {
+   "at": "2026-10-20T22:52:02.855Z",
+   "item": {
+    "id": "design-final-fantasy-resonance-brings-hd-2d-vis",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "gaming",
+     "pixel-art",
+     "visual-design"
+    ],
+    "title": "Final Fantasy Resonance brings HD-2D visuals to a classic franchise",
+    "snippet": "Square Enix applies its stunning HD-2D Unreal Engine 5 technology to a new turn-based JRPG.",
+    "body": [
+     "Square Enix continues to experiment with its distinctive HD-2D graphic style, which pairs pixelated 2D characters with lush, dimensional 3D environments rendered in bold color palettes.",
+     "While previous iterations graced titles like Octopath Traveler, Final Fantasy Resonance adapts the aesthetic to a new turn-based adventure with dynamic camera movements."
+    ],
+    "more": [
+     "The game moves beyond traditional isometric perspectives, occasionally shifting the camera closer to ground level during town exploration to use depth-of-field effects.",
+     "Built on Unreal Engine 5, the release opens up exciting visual possibilities for how the studio might revisit its vast retro back catalogue in the future."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/reviews/final-fantasy-resonance-switch-2-review-modern-retro-at-its-finest"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/pjWTy6ozXccKqwZUbY6r8U-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-apple-s-3-000-studio-display-xdr-bright": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-apple-s-3-000-studio-display-xdr-bright",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "hardware",
+     "apple",
+     "displays",
+     "design"
+    ],
+    "title": "Apple's $3,000 Studio Display XDR: Bright, beautiful, and niche",
+    "snippet": "Apple has expanded its high-end monitor lineup with a feature-packed 120Hz mini-LED screen built specifically for professionals.",
+    "body": [
+     "The new Studio Display XDR sits at the very top of Apple's monitor range, bringing a 5K resolution, massive mini-LED brightness, and a smooth 120Hz refresh rate to professional desks. It packs a surprising amount of internal hardware, including six speakers, three microphones, and a Center Stage camera.",
+     "While the build quality and color coverage are exceptional, the steep price tag and strict compatibility with Apple's latest Macs mean it will likely remain a rare sight in most standard studios."
+    ],
+    "more": [
+     "Retaining the sleek aluminum profile of its predecessor, the XDR version adds two powered Thunderbolt 5 ports and a height-adjustable stand as standard. For creative professionals relying on color accuracy, the expansive color gamut and deep contrast make it a powerful tool, even if the investment requires careful consideration."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/reviews/apple-studio-display-xdr-review"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/8sLRjaWe6Y9RVFDt8Pezck-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-can-a-security-style-hologram-keep-your": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-can-a-security-style-hologram-keep-your",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "explainer",
+    "tags": [
+     "branding",
+     "ai",
+     "identity",
+     "ethics"
+    ],
+    "title": "Can a security-style hologram keep your face out of AI models?",
+    "snippet": "UnitedUs has designed a new visual identity for Twinnin centered around a verified human trust mark.",
+    "body": [
+     "As generative AI makes mimicking voices and likenesses terrifyingly easy, a consent registry called Twinnin has undergone a complete rebrand to make human verification feel tangible. Brighton agency UnitedUs crafted an identity built around a clear choice: license your likeness or defend it.",
+     "The resulting logo borrows technical coordinates from facial recognition software and renders them as shimmering, three-dimensional badges reminiscent of security holograms on software packaging."
+    ],
+    "more": [
+     "The design relies on immediate psychological association, using familiar security cues to make data ownership transparent. By boiling the complex legalities of digital consent down to straightforward trust markers, the branding gives individuals a distinct way to signal their boundaries in an automated world."
+    ],
+    "source": {
+     "id": "creative-boom",
+     "name": "Creative Boom",
+     "url": "https://www.creativeboom.com/news/can-a-trust-mark-keep-your-face-out-of-ai-unitedus-thinks-so-with-its-rebrand-for-twinnin/"
+    },
+    "image": {
+     "src": "https://media.creativeboom.com/3eaa4193-2b21-44ab-86bc-b1e8e49cb4e2/conversions/4cb56a1d353ed2ac6a05c5a8f611ea7c5f7b0b4c-medium.webp"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-stupid-never-dies-when-anime-punk-and-po": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-stupid-never-dies-when-anime-punk-and-po",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-19",
+    "style": "news",
+    "tags": [
+     "art-direction",
+     "gaming",
+     "animation",
+     "visuals"
+    ],
+    "title": "Stupid Never Dies: When anime, punk, and pop art collide",
+    "snippet": "This chaotic action RPG mashes up graphic design and stop-motion aesthetics, but struggles beneath its vibrant surface.",
+    "body": [
+     "Built in Unreal Engine 5, the art direction of Stupid Never Dies is an aggressive, fizzy mash-up of anime, manga, punk rock, and scrapbooking aesthetics. It feels akin to throwing Spider-Man: Into the Spider-Verse and Persona 5 into a blender with a stack of nineties zines.",
+     "Despite its striking visual personality and zippy combat transformations, the game's repetitive loops and awkward targeting can occasionally overshadow its brilliant style."
+    ],
+    "more": [
+     "The visual world-building leans heavily into chaotic textures and maximalist color palettes, proving once again that unique stylistic execution can carry a project's atmosphere even when underlying mechanics feel overly familiar."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/reviews/stupid-never-dies-review-smashes-anime-pop-art-and-punk-into-one-fine-mess"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/jFmPbgrcNzuUt3nYGD3PVN-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-can-google-s-new-desktop-os-bridge-the-m": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-can-google-s-new-desktop-os-bridge-the-m",
+    "topic": "design",
+    "kind": "news",
+    "published": "2026-10-19",
+    "style": "news",
+    "tags": [
+     "hardware",
+     "software",
+     "google",
+     "laptops"
+    ],
+    "title": "Can Google's new desktop OS bridge the mobile app gap?",
+    "snippet": "The high-end Googlebook brings Android applications to a desktop environment, but creative software still lags behind.",
+    "body": [
+     "Google's latest attempt at a desktop operating system fuses Chrome's DNA with Android, letting users run mobile apps in resizable windows with full mouse support. Built on premium hardware with OLED screens and robust processors, it aims to carve out space alongside traditional laptops.",
+     "For creative workflows, running mobile versions of editing tools offers a glimpse of the future, though full desktop-tier video editing remains a notable limitation of the current software ecosystem."
+    ],
+    "more": [
+     "Hardware-wise, devices like Acer's iteration lean into understated industrial design, complete with subtle glowing indicator bars. While first-generation growing pains are apparent, future updates could position these hybrid machines as serious contenders for creative professionals on the move."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/reviews/tested-the-googlebook-tries-to-put-android-on-the-desktop-but-is-it-successful"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/h62dCCshxR62BWEtmR9eXH-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-finding-accidental-beauty-in-awkward-fac": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-finding-accidental-beauty-in-awkward-fac",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "photography",
+     "graphic-design",
+     "culture",
+     "art"
+    ],
+    "title": "Finding accidental beauty in awkward Facebook Marketplace listings",
+    "snippet": "Graphic designer Casey Roarty is turning harsh flash photography and compressed second-hand items into fine art.",
+    "body": [
+     "Hours of scrolling through second-hand listings often reveal a surreal gallery of awkward crops, domestic lighting, and accidental reflections. When designer Casey Roarty moved house, he began cataloging these strange, unintentionally poetic digital artifacts for a personal project titled Is This Still Available?",
+     "In an era where hyper-polished, AI-generated imagery is frictionless to produce, these raw, human-shot photos offer a refreshing counter-narrative steeped in genuine imperfection."
+    ],
+    "more": [
+     "The project highlights the soft, painterly qualities introduced by heavy image compression and hastily snapped photos of vintage toys or warped fancy dress costumes. By extracting these forgotten snapshots from their practical e-commerce context, Roarty celebrates the unscripted visual culture of the internet."
+    ],
+    "source": {
+     "id": "creative-boom",
+     "name": "Creative Boom",
+     "url": "https://www.creativeboom.com/work/casey-roarty-digs-through-facebook-marketplace-listings-and-transforms-his-findings-into-art/"
+    },
+    "image": {
+     "src": "https://media.creativeboom.com/0e73a5e4-e93c-4b8a-8f62-028bb12fd305/conversions/317c29cfa20e349a2e8c60972d3c3d42fc8f158b-medium.webp"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-building-believable-fantasy-worlds-throu": {
+   "at": "2026-10-20T22:52:17.424Z",
+   "item": {
+    "id": "design-building-believable-fantasy-worlds-throu",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "explainer",
+    "tags": [
+     "world-building",
+     "blender",
+     "concept-art",
+     "process"
+    ],
+    "title": "Building believable fantasy worlds through consistent internal logic",
+    "snippet": "Environment concept artist Oliver Chen breaks down how magical resources should dictate architectural design.",
+    "body": [
+     "When designing fictional environments, every architectural detail should reflect the underlying rules of the setting. In a recent world-building project centered around a town powered by star sand condensed from starlight, the local architecture and glowing chimneys were explicitly tailored to merge technology with faith.",
+     "Using 3D tools like Daz Studio and Blender for initial composition and lighting helps establish spatial consistency before diving into detailed digital painting."
+    ],
+    "more": [
+     "By leaning on 3D asset libraries for base structures, artists can focus their energy on atmospheric effects, textures, and small props that make a scene feel truly lived-in. Grounding fantasy elements in logical systems ensures the final concept art feels cohesive and believable to the viewer."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/how-to/every-part-of-a-fantasy-world-must-follow-its-own-clear-rules-and-logic"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/KALigYVoJvyZbeFukqKDDj-1920-80.png"
     },
     "lang": "en",
     "minutes": 1,

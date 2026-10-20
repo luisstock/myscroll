@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:24:30.805Z",
+ "updatedAt": "2026-10-20T16:41:06.250Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -334,6 +334,23 @@
     "custom": true,
     "status": "ready",
     "created": "2026-10-18T23:24:51.456Z"
+   },
+   {
+    "id": "health",
+    "label": "Health",
+    "emoji": "🏋️",
+    "description": "técnicas de emagrecer, tracking de saúde, saúde no geral",
+    "keywords": [
+     "Health",
+     "Health técnicas de emagrecer",
+     "Health tracking de saúde",
+     "Health saúde no geral"
+    ],
+    "subs": [],
+    "group": "sport",
+    "custom": true,
+    "status": "new",
+    "created": "2026-10-20T16:40:51.242Z"
    }
   ],
   "groups": null,

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:11:46.650Z",
+ "updatedAt": "2026-10-20T16:23:13.481Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -333,7 +333,7 @@
     "subs": [],
     "group": "sport",
     "custom": true,
-    "status": "new",
+    "status": "ready",
     "created": "2026-10-18T23:24:51.456Z"
    }
   ],

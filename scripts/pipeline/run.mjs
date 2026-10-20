@@ -138,6 +138,14 @@ if (shareUrl) {
       const found = await searchGather(`${sub.label} ${topic.label}`, { sources: ["gnews", "hn"], sinceDays: 30, log: (r) => console.log(r) });
       candidates.push(...found.slice(0, 20).map((c) => ({ ...c, topic: topic.id })));
     }
+    // A topic the user just created has no sources yet: search the web for its name and keywords instead.
+    for (const topic of plan.topics.filter((t) => !t.sources.length)) {
+      const queries = [...new Set([topic.label, ...topic.keywords.slice(0, 2)])];
+      for (const q of queries) {
+        const found = await searchGather(q, { sinceDays: 14, log: (r) => console.log(r) });
+        candidates.push(...found.slice(0, 15).map((c) => ({ ...c, topic: topic.id })));
+      }
+    }
     log(`${candidates.length} candidates`);
 
     // 4. preselect

@@ -17,7 +17,9 @@ Implemented in `web/ranking.js` (shared by the app and the daily agent).
 | 4 | +0.6 | ×1 |
 | 5 | +1.0 | ×1 |
 
-"Not interested" (the ✕ on a card) counts like a 1★: −0.6 at weight 1, unless you also rated that item.
+"Not interested" (the ✕ on a card, or swiping it left) counts like a 1★: −0.6 at weight 1, unless you also rated that item.
+
+Swiping a card right counts as a 4★ (+0.6 at weight 1, stored as a rating with `via: "swipe"`), unless you had already rated that item; Undo removes it.
 
 Implicit signals are deliberately weak: opening without rating = +0.3 at weight 0.3; scrolling past an item 3+ times without opening = −0.5 at a small weight.
 

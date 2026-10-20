@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:15:45.399Z",
+ "updatedAt": "2026-10-20T12:16:13.572Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -486,7 +486,8 @@
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
-  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr"
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
  ],
  "skips": {},
  "itemFeatures": {
@@ -2166,6 +2167,19 @@
     "tag:linguas",
     "tag:miranda-do-douro",
     "tag:tras-os-montes"
+   ]
+  },
+  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": {
+   "at": "2026-10-20T12:15:47.055Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:musica",
+    "tag:cultura",
+    "tag:ccb",
+    "tag:piano"
    ]
   }
  },

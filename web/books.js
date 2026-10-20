@@ -64,7 +64,7 @@ async function fetchSuggestions() {
 const BOOK_SCHEMA = {
   type: "object",
   properties: {
-    found: { type: "boolean", description: "false if you are not sure this book exists or what it says" },
+    found: { type: "boolean", description: "true if you know this book; false only if you don't recognise it at all" },
     bookTitle: { type: "string" }, author: { type: "string" },
     sub: { type: "string" }, tags: { type: "array", items: { type: "string" } },
     title: { type: "string", description: "the book's big idea as a headline" },
@@ -77,20 +77,23 @@ const BOOK_SCHEMA = {
     takeaway: { type: "string", description: "one concrete thing to try this week" },
     forWho: { type: "string", description: "who will get the most out of this book, one sentence" },
   },
-  required: ["found"],
+  required: ["found", "bookTitle", "author", "sub", "tags", "title", "snippet", "body", "lessons", "takeaway", "forWho"],
 };
 
 const BOOK_SYSTEM = `You write book summaries for MyScroll, a personal reading app, in the style of Deepstash: the big idea, a few punchy lessons, one thing to try.
 The reader is a Portuguese motion designer who reads in English in bed. Tone: curious, warm, clear, no hype.
-Write from well-established knowledge of the book. If you are unsure the book exists, or unsure of its content, return found=false and leave the rest empty. Never invent chapters, anecdotes, numbers or quotes.
+Write from well-established knowledge of the book: its central argument and best-known ideas. Only if you don't recognise the book at all, return found=false with the other fields empty. Never invent chapters, anecdotes, numbers or quotes; stay with the ideas the book is known for.
 Put everything in your own words; no long quotes. body: 60-120 words in 1-2 paragraphs. 3-5 lessons, each a punchy title and 2-3 sentences. tags: 2-5 lowercase-hyphenated tags.`;
 
 async function writeBook({ title, author }) {
   const subs = subsOf();
-  const out = await askJSON({
-    system: BOOK_SYSTEM, fast: true, schema: BOOK_SCHEMA,
+  const req = {
+    system: BOOK_SYSTEM, schema: BOOK_SCHEMA,
     prompt: `Write the summary card for the book "${title}"${author ? ` by ${author}` : ""}.\nFor "sub" pick the best fit: ${subs.map((s) => `${s.id} (${s.label})`).join(", ")}.`,
-  });
+  };
+  const usable = (o) => o.found && o.title && o.bookTitle && (o.lessons ?? []).filter((l) => l?.title && l?.text).length >= 3;
+  let out = await askJSON({ ...req, fast: true }); // the quick model first…
+  if (!usable(out)) out = await askJSON(req); // …the bigger one knows more books
   const lessons = (out.lessons ?? []).filter((l) => l?.title && l?.text).slice(0, 5);
   if (!out.found || lessons.length < 3 || !out.title || !out.bookTitle) {
     throw new Error(`I'm not sure enough about “${title}” to summarise it without making things up. Try another title.`);

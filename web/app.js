@@ -337,7 +337,9 @@ function toast(text, actionLabel, onAction) {
 // Open Settings and scroll to a section (e.g. the AI key setup link inside an answer box).
 function openSettingsAt(selector) {
   state.view = "settings"; state.editTopic = null; render();
-  document.querySelector(selector)?.scrollIntoView({ block: "start" });
+  const sec = document.querySelector(selector);
+  if (sec?.classList.contains("collapsed")) sec.querySelector(".set-head")?.click(); // open it if it's folded
+  sec?.scrollIntoView({ block: "start" });
   window.scrollBy(0, -110);
 }
 const moodboardCtx = { state, store, live, topicOf, onChange: () => renderChips() };
@@ -686,7 +688,7 @@ function renderFeed() {
   } else if (state.view === "search") {
     nodes.push(...renderSearch({
       makeCard, label, empty, reload: reloadEditions, rerender: () => { renderFeed(); window.scrollTo({ top: 0 }); },
-      openSync: () => { state.view = "settings"; state.editTopic = null; render(); document.querySelector(".sync-section")?.scrollIntoView({ block: "start" }); window.scrollBy(0, -110); },
+      openSync: () => openSettingsAt(".sync-section"),
     }));
   } else if (state.view === "saved") {
     const saved = ranked(pool().filter((i) => state.saved.has(i.id) && !isHidden(i.id)));

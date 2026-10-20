@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T14:59:17.808Z",
+ "updatedAt": "2026-10-20T14:59:58.799Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -518,7 +518,8 @@
   "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
   "pt-volta",
   "tech-a-99-car-tracker-betting-parents-care-more-about",
-  "science-esa-s-euclid-telescope-was-built-to-map-galaxies"
+  "science-esa-s-euclid-telescope-was-built-to-map-galaxies",
+  "pt-porto-cidade-acolhedora"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -551,11 +552,11 @@
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "motion-exploring-retro-animation-styles-in-afte": 1,
-  "pt-cortica": 1,
-  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1,
-  "pt-alianca-luso-britanica": 1,
-  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 1,
-  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
+  "pt-cortica": 2,
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
+  "pt-alianca-luso-britanica": 2,
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 2,
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 2,
   "pt-porto-cidade-acolhedora": 1,
   "tech-apple-schedules-surprise-late-october-event-for": 1,
   "tech-a-russian-military-satellite-shadowed-an-earth-i": 1,
@@ -2317,7 +2318,8 @@
   "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par",
   "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei",
   "pt-quatro-candelabros-da-mitica-baixela-germain-est",
-  "tech-a-99-car-tracker-betting-parents-care-more-about"
+  "tech-a-99-car-tracker-betting-parents-care-more-about",
+  "pt-alianca-luso-britanica"
  ],
  "saved": [
   "pt-1755",
@@ -2685,6 +2687,19 @@
     "tag:arte",
     "tag:patrimonio",
     "tag:lisboa"
+   ]
+  },
+  "pt-alianca-luso-britanica": {
+   "at": "2026-10-20T14:59:30.211Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia",
+    "style:til",
+    "tag:historia",
+    "tag:alianca-luso-britanica",
+    "tag:tratado-de-windsor",
+    "tag:diplomacia"
    ]
   }
  },

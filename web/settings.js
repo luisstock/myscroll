@@ -11,6 +11,7 @@ import { bedtimeSection } from "./bedtime.js";
 import { statsSection } from "./stats.js";
 import { github } from "./loadmore.js";
 import { followedSection } from "./follow.js";
+import { discoverSources, canDiscover } from "./discover.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
 
 let ctx; // { root, refreshChrome, applyTheme }
@@ -234,9 +235,12 @@ function renderTopicEditor(id) {
       if (!data.keywords.length) data.keywords = deriveKeywords(label, data.description, subs);
       const topic = { id: newId, ...data, custom: true, status: "new", created: new Date().toISOString() };
       list.push(topic);
-      // Get it working straight away: attach the best-matching sources from the catalog.
+      // Get it working straight away: attach the best-matching sources from the catalog...
       for (const src of suggestSources(topic, 4)) enableCatalogSource(src, newId);
       state.editTopic = newId;
+      autoFind = newId; // ...and let Gemini find more as soon as the editor opens
+    } else if (data.description !== (t.description ?? "") && !allSources().some((s) => s.topic === id)) {
+      autoFind = id; // a description was added to a topic that still has no sources
     } else {
       Object.assign(list.find((x) => x.id === id), data);
     }
@@ -266,8 +270,8 @@ function renderTopicEditor(id) {
       "🆕 Ready to use with the sources below. On its next run the agent will finish setting it up: look for more sources and learn what's worth showing."));
     extra.push(section("How the agent will search", "Built from your keywords and description, plus every source below.",
       el("ul", { class: "plan" }, searchPlan(t).map((q) => el("li", {}, q)))));
-    extra.push(section(`Sources (${mine.length})`, mine.length ? null : "No sources yet. Add some below, or let the agent find them.",
-      mine.map((src) => sourceRow(src)), addSourceForm(id)));
+    extra.push(section(`Sources (${mine.length})`, mine.length ? null : "No sources yet. Tap ✨ Find sources, add some below, or let the agent find them.",
+      findSourcesBox(t), mine.map((src) => sourceRow(src)), addSourceForm(id)));
     if (suggested.length) extra.push(section("Suggested sources", "From the MyScroll catalog, matched to this topic.",
       suggested.map((src) => el("div", { class: "src-row sugg" },
         el("div", { class: "src-name" }, el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name), el("span", { class: "badge" }, src.type)),
@@ -289,6 +293,32 @@ function renderTopicEditor(id) {
 }
 
 // ---------- Sources ----------
+// ✨ Find sources: Gemini suggests, this device checks each one works, the good ones become normal sources.
+let autoFind = null;
+function findSourcesBox(topic) {
+  if (!canDiscover()) return el("p", { class: "set-hint" }, "✨ Add your Gemini key in Settings → AI to find sources automatically from the description.");
+  const status = el("p", { class: "more-status", hidden: true });
+  const btn = el("button", { type: "button", class: "mini-btn add find-btn" }, "✨ Find sources");
+  btn.onclick = async () => {
+    btn.disabled = true;
+    btn.textContent = "Finding…";
+    status.hidden = false;
+    status.classList.remove("error");
+    try {
+      const { added, skipped } = await discoverSources(topic, (t) => { status.textContent = t; });
+      if (!added.length) throw new Error(`No working sources found${skipped.length ? ` (${skipped.length} didn't answer)` : ""}. Try a more specific description.`);
+      if (state.editTopic === topic.id) rerender();
+    } catch (err) {
+      status.textContent = err.message;
+      status.classList.add("error");
+      btn.disabled = false;
+      btn.textContent = "✨ Find sources";
+    }
+  };
+  if (autoFind === topic.id) { autoFind = null; setTimeout(() => btn.click(), 0); }
+  return el("div", { class: "find-box" }, btn, status);
+}
+
 function sourceRow(src) {
   const s = state.settings;
   return el("div", { class: "src-row" },

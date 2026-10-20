@@ -135,6 +135,13 @@ async function wikipediaFeatured(date) {
 }
 
 // ---------- main ----------
+// The app's fast Load more reads feeds straight from the phone: publish the feeds/channels found so far.
+export async function writeFeeds() {
+  const feeds = {};
+  for (const [url, c] of Object.entries(cache)) if (c.feed || c.channelId) feeds[url] = { ...(c.feed ? { feed: c.feed } : {}), ...(c.channelId ? { channelId: c.channelId } : {}) };
+  await writeFile(join(root, "web", "feeds.json"), JSON.stringify(feeds, null, 1));
+}
+
 export async function gather(plan, { log = console.log } = {}) {
   cache = JSON.parse(await readFile(cachePath, "utf8").catch(() => "{}"));
   const jobs = [];
@@ -176,6 +183,7 @@ export async function gather(plan, { log = console.log } = {}) {
   }
   await mkdir(join(root, "data"), { recursive: true });
   await writeFile(cachePath, JSON.stringify(cache, null, 2));
+  await writeFeeds();
   log(report.join("\n"));
   return results;
 }

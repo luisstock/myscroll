@@ -73,7 +73,8 @@ function startRun(req, res) {
 const status = () => (job ? { running: !job.done, startedAt: job.startedAt, finishedAt: job.finishedAt ?? null, code: job.code, last: job.log.at(-1) ?? "", log: job.log } : { running: false });
 const json = (res, code, body) => res.writeHead(code, { "Content-Type": "application/json", "Cache-Control": "no-store" }).end(JSON.stringify(body));
 
-// Ask / translate on the PC: POST /api/llm { system, prompt, schema } -> the parsed JSON from the configured model.
+// Ask / translate / fast Load more on the PC: POST /api/llm { system, prompt, schema, search? } -> the parsed JSON
+// from the configured model (with search: true -> { json, sources }, using Google Search grounding).
 async function llm(req, res) {
   let body = "";
   for await (const chunk of req) {
@@ -88,8 +89,10 @@ async function llm(req, res) {
   try {
     const config = JSON.parse(await readFile(join(projectRoot, "myscroll.config.json"), "utf8"));
     const { generateJSON } = await import("./pipeline/llm.mjs");
-    const { json: out } = await generateJSON(config, { system: b.system, prompt: b.prompt, schema: b.schema });
-    json(res, 200, out);
+    const { json: out, sources } = await generateJSON(config, { system: b.system, prompt: b.prompt, schema: b.schema, search: b.search === true,
+      // fast: the lite model answers in seconds; the main one only if the lite one is busy.
+      ...(b.fast === true ? { models: [...(config.fallbackModels?.gemini ?? []).filter((m) => /lite/.test(m)), config.models.gemini] } : {}) });
+    json(res, 200, b.search === true ? { json: out, sources: sources ?? [] } : out);
   } catch (e) {
     json(res, 500, { error: String(e.message ?? e).slice(0, 400) });
   }

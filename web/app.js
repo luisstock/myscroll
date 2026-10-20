@@ -13,6 +13,7 @@ import { pullState } from "./sync.js";
 import { renderSettings } from "./settings.js";
 import { readMore } from "./readmore.js";
 import { loadMore } from "./loadmore.js";
+import { fastLoadMore, canFastLoad, withLocal } from "./fastmore.js";
 import { $, el } from "./ui.js";
 import { cornerButtons, setLater, hideItem, unhideItem, isHidden, laterItems, renderLater } from "./later.js";
 import { renderSearch } from "./search.js";
@@ -187,6 +188,7 @@ function makeCard(item, { longread = false } = {}) {
   });
   node.append(cornerButtons({
     inLaterView: state.view === "later",
+    onRead: () => dismiss(node, item, { quick: true }),
     onLater: () => sendLater(node, item),
     onHide: () => hideCard(node, item),
   }));
@@ -239,13 +241,14 @@ window.addEventListener("scroll", () => {
 }, { passive: true });
 
 // Mark as read, slide the card out, offer Undo.
-function dismiss(node, item) {
+// quick: marked from the closed card without reading it, so it adds no reading minutes to the stats.
+function dismiss(node, item, { quick = false } = {}) {
   state.progress[item.id] = 1;
   store.set("progress", state.progress);
   state.read.add(item.id);
   store.set("read", [...state.read]);
   rememberFeatures(item);
-  state.readLog[item.id] = { at: new Date().toISOString(), min: item.minutes ?? 1, topic: item.topic };
+  state.readLog[item.id] = { at: new Date().toISOString(), min: quick ? 0 : item.minutes ?? 1, topic: item.topic, ...(quick ? { quick: true } : {}) };
   store.set("readLog", state.readLog);
   slideOut(node);
   toast("Marked as read", "Undo", () => {
@@ -290,12 +293,20 @@ function sendLater(node, item) {
   toast(removing ? "Removed from Later" : "Saved for later", "Undo", () => { setLater(item.id, removing); rerenderKeepScroll(); });
 }
 
-// Corner ✕: never show it again and learn a little from it.
+// Corner ✕: counts as read (it leaves the feed and the progress bar moves) and teaches "less of this".
 function hideCard(node, item) {
   hideItem(item);
+  state.read.add(item.id);
+  store.set("read", [...state.read]);
   rebuildProfile();
   slideOut(node);
-  toast("Hidden — less like this", "Undo", () => { unhideItem(item.id); rebuildProfile(); rerenderKeepScroll(); });
+  toast("Read — less like this", "Undo", () => {
+    unhideItem(item.id);
+    state.read.delete(item.id);
+    store.set("read", [...state.read]);
+    rebuildProfile();
+    rerenderKeepScroll();
+  });
 }
 
 let toastTimer;
@@ -538,42 +549,55 @@ function loadMoreScope() {
 
 function theEnd(done, total) {
   const scope = loadMoreScope();
-  const idleLabel = scope.label ? `Load more ${scope.label}` : "Load more";
   const status = el("p", { class: "more-status", hidden: true });
-  const btn = el("button", { class: "load-more", onclick: async () => {
-    btn.disabled = true;
-    btn.textContent = "Loading more…";
+  const fastOk = canFastLoad();
+  // Two ways to get more: ⚡ Fast (this device + Gemini, ~1 min) and Full (the agent on GitHub, a few minutes).
+  const run = async (fast, btn, idle) => {
+    for (const b of buttons) b.disabled = true;
+    btn.textContent = "Loading…";
     status.hidden = false;
     status.classList.remove("error");
     try {
-      await loadMore((text) => { status.textContent = text; }, scope);
-      status.textContent = "Done! Fresh items added below the ones you had.";
+      const onStatus = (text) => { status.textContent = text; };
+      if (fast) {
+        const n = await fastLoadMore(onStatus, scope);
+        status.textContent = `Done! ${n} fresh item${n > 1 ? "s" : ""} added.`;
+      } else {
+        await loadMore(onStatus, scope);
+        status.textContent = "Done! Fresh items added below the ones you had.";
+      }
       await reloadEditions();
     } catch (err) {
       status.replaceChildren(err.message, err.needsSetup
-        ? el("button", { class: "setup-link", onclick: () => {
-            state.view = "settings"; state.editTopic = null; render();
-            document.querySelector(".sync-section")?.scrollIntoView({ block: "start" });
-            window.scrollBy(0, -110);
-          } }, "Open Sync settings →")
+        ? el("button", { class: "setup-link", onclick: () => openSettingsAt(fast ? ".ai-section" : ".sync-section") },
+            fast ? "Open Settings → AI →" : "Open Sync settings →")
         : null);
       status.classList.add("error");
-      btn.disabled = false;
-      btn.textContent = idleLabel;
+      for (const b of buttons) b.disabled = false;
+      btn.textContent = idle;
     }
-  } }, idleLabel);
+  };
+  const fastBtn = el("button", { class: "load-more fast", title: "On this phone with Gemini: about 10 seconds" }, "⚡ Fast");
+  const fullBtn = el("button", { class: "load-more", title: "The full agent on GitHub: a few minutes, more sources" }, fastOk ? "🔬 Full" : "Load more");
+  fastBtn.onclick = () => run(true, fastBtn, "⚡ Fast");
+  fullBtn.onclick = () => run(false, fullBtn, fastOk ? "🔬 Full" : "Load more");
+  const buttons = fastOk ? [fastBtn, fullBtn] : [fullBtn];
   return el("section", { class: "the-end" },
     el("div", { class: "moon" }, "🌙"),
     el("h3", {}, "That's all for now"),
     el("p", {}, `You've read ${done} of ${total}.`),
     el("p", {}, "Whatever you didn't read stays here for tomorrow.", el("br"), "Go to sleep. 😴"),
-    el("div", { class: "more-wrap" }, el("p", { class: "more-q" }, "Still awake and want more?"), btn, status));
+    el("div", { class: "more-wrap" },
+      el("p", { class: "more-q" }, scope.label ? `Still awake? Load more ${scope.label}` : "Still awake and want more?"),
+      el("div", { class: "load-row" }, ...buttons),
+      fastOk ? el("p", { class: "load-hint" }, "⚡ Fast: on this phone, ~10 s · 🔬 Full: the agent, more sources, a few min") : null,
+      status));
 }
 
 async function reloadEditions() {
   const index = await getJSON("editions/index.json");
   state.latest = index.latest;
-  state.editions = await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`)));
+  state.editions = withLocal(await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`))));
   const y = window.scrollY;
   render();
   window.scrollTo({ top: y });
@@ -740,7 +764,7 @@ async function load() {
   state.catalog = catalog.sources;
   state.latest = index.latest;
   // Only the last 30 editions can hold unread items worth carrying over.
-  state.editions = await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`)));
+  state.editions = withLocal(await Promise.all(index.editions.slice(0, 30).map((d) => getJSON(`editions/${d}.json`))));
 
   // The agent marks new topics as set up (and may add sources to the catalog) in agent-notes.json.
   const notes = await getJSON("agent-notes.json", { optional: true });

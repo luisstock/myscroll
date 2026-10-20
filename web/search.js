@@ -2,6 +2,7 @@
 // items whose `query` matches. Recent searches are kept on this device only.
 import { state, pool, ranked } from "./model.js";
 import { loadMore } from "./loadmore.js";
+import { fastLoadMore, canFastLoad } from "./fastmore.js";
 import { isHidden } from "./later.js";
 import { el } from "./ui.js";
 
@@ -41,7 +42,14 @@ export function renderSearch(ctx) {
     status.classList.remove("error");
     status.textContent = "Starting…";
     try {
-      await loadMore((t) => { status.textContent = t; }, { query: q });
+      const onStatus = (t) => { status.textContent = t; };
+      // Fast on this device when possible; if that finds nothing, the full agent searches more of the web.
+      let fastDone = false;
+      if (canFastLoad()) {
+        try { await fastLoadMore(onStatus, { query: q }); fastDone = true; }
+        catch (e) { if (e.needsSetup) throw e; onStatus("Nothing quick: asking the full agent…"); }
+      }
+      if (!fastDone) await loadMore(onStatus, { query: q });
       busy = false;
       await ctx.reload();
     } catch (err) {

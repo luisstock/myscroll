@@ -33,6 +33,7 @@ export function laterItems() {
 }
 
 const ICON_CLOCK = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>';
+const ICON_CHECK = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
 const ICON_X = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
 
 function cornerBtn(cls, icon, label, onClick) {
@@ -42,11 +43,13 @@ function cornerBtn(cls, icon, label, onClick) {
   return b;
 }
 
-// Two small round buttons over the top-right of a closed card. inLaterView: the clock removes it from Later.
-export function cornerButtons({ inLaterView, onLater, onHide }) {
+// Three small round buttons in a row on a closed card: ✓ read (without opening), ✕ read but less of this,
+// 🕒 read later. inLaterView: the clock removes it from Later.
+export function cornerButtons({ inLaterView, onRead, onLater, onHide }) {
   return el("div", { class: "corner" },
-    cornerBtn(inLaterView ? "later on" : "later", ICON_CLOCK, inLaterView ? "Remove from Read later" : "Read later", onLater),
-    cornerBtn("hide", ICON_X, "Not interested", onHide));
+    cornerBtn("read", ICON_CHECK, "Mark as read", onRead),
+    cornerBtn("hide", ICON_X, "Read — less of this", onHide),
+    cornerBtn(inLaterView ? "later on" : "later", ICON_CLOCK, inLaterView ? "Remove from Read later" : "Read later", onLater));
 }
 
 // The Later view: add-a-link box, pending shares, then the items.

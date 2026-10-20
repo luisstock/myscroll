@@ -7,6 +7,7 @@ import { el } from "./ui.js";
 
 // Same models as the daily pipeline (myscroll.config.json: models.gemini + fallbackModels.gemini).
 const MODELS = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"];
+const FAST_MODELS = ["gemini-3.5-flash-lite", "gemini-3.8-flash"]; // lite answers in ~5 s, 3.8 can take a minute
 
 const readLocal = (k, fb) => { try { return JSON.parse(localStorage.getItem("myscroll:" + k)) ?? fb; } catch { return fb; } };
 const writeLocal = (k, v) => { try { localStorage.setItem("myscroll:" + k, JSON.stringify(v)); } catch {} };
@@ -49,9 +50,20 @@ async function viaServer(req) {
   throw err;
 }
 
-async function viaGemini({ system, prompt, schema }, key) {
+// JSON out of a free-text answer (Google Search grounding can't always be combined with a response schema).
+function parseLooseJSON(text) {
+  const t = text.replace(/^\s*```(?:json)?\s*/i, "").replace(/\s*```\s*$/, "");
+  try { return JSON.parse(t); } catch {}
+  return JSON.parse(t.slice(t.search(/[[{]/), Math.max(t.lastIndexOf("}"), t.lastIndexOf("]")) + 1));
+}
+
+// search: Google Search grounding; the result is then { json, sources: [{ uri, title }] }.
+async function viaGemini({ system, prompt, schema, search = false, fast = false }, key) {
   let last;
-  for (const model of MODELS) {
+  let plain = false; // fell back to "JSON in the prompt" because the model refused schema + tools
+  const models = fast ? FAST_MODELS : MODELS;
+  for (let i = 0; i < models.length; i++) {
+    const model = models[i];
     let res;
     try {
       res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
@@ -59,14 +71,15 @@ async function viaGemini({ system, prompt, schema }, key) {
         headers: { "Content-Type": "application/json", "x-goog-api-key": key },
         body: JSON.stringify({
           systemInstruction: { parts: [{ text: system }] },
-          contents: [{ role: "user", parts: [{ text: prompt }] }],
+          contents: [{ role: "user", parts: [{ text: plain ? `${prompt}\n\nAnswer with JSON only, matching this JSON schema:\n${JSON.stringify(schema)}` : prompt }] }],
+          ...(search ? { tools: [{ google_search: {} }] } : {}),
           generationConfig: {
-            responseMimeType: "application/json", responseSchema: geminiSchema(schema), temperature: 0.6,
+            ...(plain ? {} : { responseMimeType: "application/json", responseSchema: geminiSchema(schema) }), temperature: 0.6,
             ...(model.startsWith("gemini-2.5") ? { thinkingConfig: { thinkingBudget: 0 } }
               : model.startsWith("gemini-3") ? { thinkingConfig: { thinkingLevel: "low" } } : {}),
           },
         }),
-        signal: AbortSignal.timeout(60000),
+        signal: AbortSignal.timeout(search ? 120000 : 60000),
       });
     } catch (e) {
       last = new Error("Couldn't reach Gemini. Check your connection and try again.");
@@ -74,6 +87,7 @@ async function viaGemini({ system, prompt, schema }, key) {
     }
     if (res.status === 400 || res.status === 401 || res.status === 403) {
       const text = await res.text();
+      if (search && !plain && res.status === 400 && !/API key|API_KEY/i.test(text)) { plain = true; i--; continue; } // same model, JSON in the prompt
       if (/API key|API_KEY|permission|PERMISSION/i.test(text)) throw Object.assign(new Error("Gemini doesn't accept this key. Paste it again in Settings → AI."), { needsSetup: true });
       throw new Error(`Gemini ${res.status}: ${text.replace(/\s+/g, " ").slice(0, 160)}`);
     }
@@ -84,24 +98,51 @@ async function viaGemini({ system, prompt, schema }, key) {
     const data = await res.json();
     const text = (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? "").join("");
     if (!text) { last = new Error("Gemini returned no text. Try again."); continue; }
-    try { return JSON.parse(text); } catch { last = new Error("Gemini's answer was cut off. Try again."); }
+    try {
+      const json = plain ? parseLooseJSON(text) : JSON.parse(text);
+      if (!search) return json;
+      const sources = (data.candidates?.[0]?.groundingMetadata?.groundingChunks ?? []).map((c) => c.web).filter(Boolean);
+      return { json, sources };
+    } catch { last = new Error("Gemini's answer was cut off. Try again."); }
   }
   throw last ?? new Error("Gemini didn't answer.");
 }
 
-export async function askJSON({ system, prompt, schema }) {
+// Like askJSON, with Google Search grounding: -> { json, sources: [{ uri, title }] }.
+export async function askSearch({ system, prompt, schema }) {
+  const req = { system, prompt, schema, search: true };
   if (isLocalDev) {
-    try { return await viaServer({ system, prompt, schema }); }
+    try { return await viaServer(req); }
     catch (e) {
       if (!e.serverUnavailable) throw e;
       const key = geminiKey.get();
       if (!key) throw needsSetup();
-      return viaGemini({ system, prompt, schema }, key);
+      return viaGemini(req, key);
     }
   }
   const key = geminiKey.get();
   if (!key) throw needsSetup();
-  return viaGemini({ system, prompt, schema }, key);
+  return viaGemini(req, key);
+}
+
+// Whether the fast (on-device) Gemini path can run here.
+export const canUseAI = () => isLocalDev || !!geminiKey.get();
+
+// fast: lite model first (seconds instead of a minute), for the fast Load more.
+export async function askJSON({ system, prompt, schema, fast = false }) {
+  const req = { system, prompt, schema, ...(fast ? { fast: true } : {}) };
+  if (isLocalDev) {
+    try { return await viaServer(req); }
+    catch (e) {
+      if (!e.serverUnavailable) throw e;
+      const key = geminiKey.get();
+      if (!key) throw needsSetup();
+      return viaGemini(req, key);
+    }
+  }
+  const key = geminiKey.get();
+  if (!key) throw needsSetup();
+  return viaGemini(req, key);
 }
 
 // ---------- Settings → AI ----------

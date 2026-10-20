@@ -22,6 +22,7 @@ import { extract } from "./extract.mjs";
 import { writeTopic, writeLongread, writeSearch, writeShare, writeFollows } from "./write.mjs";
 import { loadHistory, seedFromEditions } from "./history.mjs";
 import { searchGather, pickCandidates, urlCandidate } from "./search.mjs";
+import { discoverSources } from "../agent/discover.mjs";
 
 const args = process.argv.slice(2);
 const opt = (name) => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -55,6 +56,8 @@ if (published && !append && !dry && !flag("force") && !existing?.partial) {
 // 1. plan
 execFileSync(process.execPath, [join(root, "scripts", "agent", "plan.mjs"), date], { stdio: "ignore" });
 const plan = JSON.parse(await readFile(join(root, "data", `plan-${date}.json`), "utf8"));
+const discovered = []; // sources found for new topics (finalize adds them to the catalog)
+const readyTopics = [];
 
 // 2. memory of everything shown, so nothing repeats
 const { model, ranking, state, live } = await loadContext();
@@ -130,6 +133,15 @@ if (shareUrl) {
     log(`Reusing saved candidates: ${Object.entries(picked).map(([t, l]) => `${t} ${l.length}`).join(", ")}`);
   } else {
     // 3. gather
+    // New topics with no sources: find and check some first (they reach the app through the catalog).
+    for (const topic of plan.topics.filter((t) => !t.sources.length && t.status === "new" && !dry)) {
+      try {
+        const found = await discoverSources(config, topic, log);
+        topic.sources = found.map((s) => ({ id: `${topic.id}-${s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`.slice(0, 50), name: s.name, url: s.url, type: s.type, weight: 1, ...(s.feed ? { feed: s.feed } : {}) }));
+        discovered.push(...found.map((s) => ({ topic: topic.id, name: s.name, url: s.url, type: s.type, activate: true })));
+        if (found.length) readyTopics.push(topic.id);
+      } catch (e) { log(`  ${topic.id}: couldn't find sources — ${e.message}`); }
+    }
     log("Gathering from sources…");
     const candidates = await gather(plan, { log: (r) => console.log(r) });
     if (sub) {
@@ -241,6 +253,8 @@ for (const it of [...items, newLongread].filter(Boolean)) {
 const edition = existing
   ? { ...existing, longread: longread ?? existing.longread, items: [...existing.items, ...items], partial: append ? existing.partial : undefined }
   : { date, longread: longread ?? undefined, items, ...(append ? { partial: true } : {}) };
+if (discovered.length) edition.discoveredSources = [...(edition.discoveredSources ?? []), ...discovered];
+if (readyTopics.length) edition.readyTopics = [...new Set([...(edition.readyTopics ?? []), ...readyTopics])];
 await writeFile(contentPath, JSON.stringify(edition, null, 2));
 
 // 7. finalize & remember

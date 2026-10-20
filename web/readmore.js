@@ -56,8 +56,16 @@ async function reddit(url) {
 }
 
 async function article(url) {
-  const html = await proxied(url);
+  const { blocks } = extractArticle(await proxied(url));
+  const words = blocks.filter((b) => b.type !== "h").reduce((s, b) => s + b.text.split(" ").length, 0);
+  if (words < 80) throw new Error("Couldn't pull the article text from this site (it may need a browser or a subscription).");
+  return { blocks: dropTrailingHeadings(blocks), from: new URL(url).hostname.replace(/^www\./, "") };
+}
+
+// The readable text of a page (also used by the fast Load more): { blocks, image } from its HTML.
+export function extractArticle(html) {
   const doc = new DOMParser().parseFromString(html, "text/html");
+  const image = doc.querySelector('meta[property="og:image"], meta[name="twitter:image"]')?.getAttribute("content") ?? null;
   doc.querySelectorAll("script, style, noscript, nav, header, footer, aside, form, iframe, svg, button, figure, [role=navigation], [aria-hidden=true], .comments, #comments, .newsletter, .related, .share, .social, .ad, .advert")
     .forEach((n) => n.remove());
 
@@ -79,16 +87,16 @@ async function article(url) {
     blocks.push({ type: isHeading ? "h" : n.tagName === "BLOCKQUOTE" ? "quote" : "p", text });
     if (blocks.length >= MAX_BLOCKS) break;
   }
-  const words = blocks.filter((b) => b.type !== "h").reduce((s, b) => s + b.text.split(" ").length, 0);
-  if (words < 80) throw new Error("Couldn't pull the article text from this site (it may need a browser or a subscription).");
-  return { blocks: dropTrailingHeadings(blocks), from: new URL(url).hostname.replace(/^www\./, "") };
+  return { blocks, image };
 }
 
-async function proxied(url) {
+// Fetch a page without CORS limits: native HTTP in the app, the dev server's proxy on the PC.
+export const canFetchPages = isNative || isLocalDev;
+export async function proxied(url) {
   // Android: native HTTP (CapacitorHttp) has no CORS limits, fetch the page directly.
   // Local dev: go through the dev server's proxy. Plain browsers elsewhere can't, so they get a clear error.
   if (!isNative && !isLocalDev) throw new Error("Full text isn't available here — open the source.");
-  const res = await fetch(isNative ? url : `/api/fetch?url=${encodeURIComponent(url)}`);
+  const res = await fetch(isNative ? url : `/api/fetch?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new Error(`The source answered ${res.status}.`);
   return res.text();
 }

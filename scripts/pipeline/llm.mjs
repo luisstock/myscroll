@@ -15,7 +15,15 @@ function geminiSchema(s) {
   return out;
 }
 
-async function gemini({ system, prompt, schema, model }) {
+// JSON out of a free-text answer (used when Google Search grounding can't be combined with a response schema).
+export function parseLooseJSON(text) {
+  const t = text.replace(/^\s*```(?:json)?\s*/i, "").replace(/\s*```\s*$/, "");
+  try { return JSON.parse(t); } catch {}
+  return JSON.parse(t.slice(t.search(/[[{]/), Math.max(t.lastIndexOf("}"), t.lastIndexOf("]")) + 1));
+}
+
+// search: true adds Google Search grounding; the answer then also carries the pages it used (sources).
+async function gemini({ system, prompt, schema, model, search = false, plainJSON = false }) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error("GEMINI_API_KEY is not set (create one at https://aistudio.google.com/apikey)");
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
@@ -24,8 +32,9 @@ async function gemini({ system, prompt, schema, model }) {
     body: JSON.stringify({
       systemInstruction: { parts: [{ text: system }] },
       contents: [{ role: "user", parts: [{ text: prompt }] }],
+      ...(search ? { tools: [{ google_search: {} }] } : {}),
       generationConfig: {
-        responseMimeType: "application/json", responseSchema: geminiSchema(schema), temperature: 0.7,
+        ...(plainJSON ? {} : { responseMimeType: "application/json", responseSchema: geminiSchema(schema) }), temperature: 0.7,
         // Summarising doesn't need much reasoning: keep thinking low to save quota and time.
         ...(model.startsWith("gemini-2.5") ? { thinkingConfig: { thinkingBudget: 0 } }
           : model.startsWith("gemini-3") ? { thinkingConfig: { thinkingLevel: "low" } } : {}),
@@ -34,6 +43,10 @@ async function gemini({ system, prompt, schema, model }) {
   });
   if (!res.ok) {
     const detail = (await res.text()).replace(/\s+/g, " ").slice(0, 300);
+    // Some models don't take a response schema together with tools: ask for JSON in the prompt instead.
+    if (search && !plainJSON && res.status === 400) {
+      return gemini({ system, prompt: `${prompt}\n\nAnswer with JSON only, matching this JSON schema:\n${JSON.stringify(schema)}`, schema, model, search, plainJSON: true });
+    }
     const err = new Error(`Gemini ${model} ${res.status}: ${detail}`);
     err.retryable = res.status === 429 || res.status >= 500;
     err.tryNextModel = res.status === 404 || res.status === 429 || res.status === 503;
@@ -42,7 +55,8 @@ async function gemini({ system, prompt, schema, model }) {
   const data = await res.json();
   const text = (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? "").join("");
   if (!text) throw new Error(`Gemini returned no text (${data.candidates?.[0]?.finishReason ?? "unknown"})`);
-  return { json: JSON.parse(text), usage: data.usageMetadata };
+  const sources = (data.candidates?.[0]?.groundingMetadata?.groundingChunks ?? []).map((c) => c.web).filter(Boolean);
+  return { json: plainJSON ? parseLooseJSON(text) : JSON.parse(text), usage: data.usageMetadata, sources };
 }
 
 async function ollama({ system, prompt, schema, model, url }) {
@@ -82,7 +96,8 @@ export async function generateJSON(config, req) {
   const provider = process.env.MYSCROLL_PROVIDER || config.provider;
   const fn = PROVIDERS[provider];
   if (!fn) throw new Error(`Unknown provider "${provider}" (use gemini, ollama or claude)`);
-  const models = [process.env.MYSCROLL_MODEL || config.models[provider], ...(config.fallbackModels?.[provider] ?? [])];
+  // req.models: an explicit order (e.g. the quick lite model first for the app's fast Load more).
+  const models = req.models?.length ? req.models : [process.env.MYSCROLL_MODEL || config.models[provider], ...(config.fallbackModels?.[provider] ?? [])];
   let lastError;
   for (const model of models) {
     for (let attempt = 1; attempt <= 3; attempt++) {

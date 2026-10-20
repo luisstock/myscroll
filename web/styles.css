@@ -213,6 +213,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .more-q { font-size: 13px; }
 .load-more { margin-top: 6px; padding: 12px 22px; border-radius: 99px; font-weight: 600; background: var(--surface); border: 1px solid color-mix(in srgb, var(--accent) 50%, var(--line)); color: var(--accent); }
 .load-more:disabled { opacity: .7; }
+.load-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.load-more.fast { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.load-hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
 .more-status { font-size: 13px; color: var(--text); margin-top: 10px; }
 .more-status.error { color: var(--bad); }
 .setup-link { display: block; margin: 8px auto 0; color: var(--accent); font-weight: 600; text-decoration: underline; }
@@ -351,8 +354,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .the-end p { margin: 4px 0; font-size: 14px; line-height: 1.5; }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
 
-/* corner buttons on closed cards: Read later (clock) and Not interested (x) */
-.corner { position: absolute; top: 8px; right: 8px; z-index: 2; display: flex; gap: 6px; }
+/* corner buttons on closed cards, in a row: read (✓), read but less of this (✕), read later (clock) */
+.corner { position: absolute; top: 8px; right: 8px; z-index: 2; display: flex; flex-direction: row; gap: 6px; }
 .corner-btn {
   width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; padding: 0;
   background: color-mix(in srgb, var(--bg) 72%, transparent); color: var(--text); opacity: .8;
@@ -363,10 +366,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .corner-btn.on { color: var(--accent); border-color: var(--accent); opacity: 1; }
 .corner-btn svg { display: block; }
 .card.open .corner { display: none; }
-.card.no-img .meta { padding-right: 80px; }
-:root[data-layout="list"] .corner, :root[data-layout="text"] .corner { flex-direction: column; }
-:root[data-layout="list"] .corner { right: 98px; top: 10px; }
-:root[data-layout="list"] .card-text, :root[data-layout="text"] .card-text { padding-right: 40px; }
+.card.no-img .meta { padding-right: 120px; }
+.corner-btn.read:hover, .corner-btn.read:focus-visible { color: var(--accent); }
+/* list and text layouts: the row sits under the text, right-aligned, instead of over it */
+:root[data-layout="list"] .corner, :root[data-layout="text"] .corner { position: static; justify-content: flex-end; padding: 0 12px 10px; }
 :root[data-layout="list"] .card.no-img .meta, :root[data-layout="text"] .card.no-img .meta { padding-right: 0; }
 .meta:has(.follow-tag) { flex-wrap: wrap; }
 .follow-tag { color: var(--accent); font-weight: 500; }

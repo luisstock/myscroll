@@ -1,8 +1,8 @@
 // "Find sources": Gemini suggests sources for a topic from its name and description, then this device checks
-// that each one is alive (a working feed, subreddit or YouTube channel) before adding it as a normal source
-// you can weight, turn off or delete. The daily agent does the same for new topics that still have none.
+// that each one is alive (a working feed, subreddit or YouTube channel) and keeps the good ones as suggestions;
+// "+ Add" turns one into a normal source you can weight, turn off or delete. The daily agent has its own version for new topics.
 import { state, allSources, saveSettings, slugify } from "./model.js";
-import { askJSON, canUseAI } from "./ai.js";
+import { askJSON, canUseAI, local } from "./ai.js";
 import { proxied, canFetchPages } from "./readmore.js";
 import { parseFeed } from "./fastmore.js";
 
@@ -69,30 +69,78 @@ async function verify(s) {
   } catch { return null; }
 }
 
-// Finds, checks and adds sources to a topic. onStatus(text). Resolves { added: [names], skipped: [names] }.
-export async function discoverSources(topic, onStatus = () => {}) {
+// ---------- suggestion cache (local, per topic) ----------
+// { topicId: [{ name, url, type, feed?, why, checkedAt }] }: verified sources waiting for a tap on "+ Add".
+const keyOf = (u) => u.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/+$/, "");
+const WEEK = 7 * 864e5;
+const readSugg = () => local.get("sourceSuggestions", {});
+const readDismissed = () => local.get("sourceDismissed", {});
+
+// AI suggestions for a topic that aren't a source yet.
+export function aiSuggestions(topicId) {
+  const have = new Set(allSources().filter((x) => x.topic === topicId).map((x) => keyOf(x.url)));
+  return (readSugg()[topicId] ?? []).filter((s) => !have.has(keyOf(s.url)));
+}
+// Whether Gemini was asked for this topic in the last 7 days (even if nothing came back).
+export const askedRecently = (topicId) => Date.now() - (local.get("sourceSuggestionsRun", {})[topicId] ?? 0) < WEEK;
+
+export function dismissSuggestion(topicId, sug) {
+  const all = readSugg();
+  all[topicId] = (all[topicId] ?? []).filter((x) => keyOf(x.url) !== keyOf(sug.url));
+  local.set("sourceSuggestions", all);
+  const d = readDismissed();
+  d[topicId] = [...new Set([...(d[topicId] ?? []), keyOf(sug.url)])];
+  local.set("sourceDismissed", d);
+}
+
+// Turns a suggestion into a normal custom source (and removes it from the suggestions).
+export function addSuggestion(topicId, sug) {
+  const ids = new Set(state.settings.customSources.map((x) => x.id));
+  let id = `${topicId}-${slugify(sug.name)}`.slice(0, 50);
+  for (let k = 2; ids.has(id); k++) id = `${topicId}-${slugify(sug.name)}-${k}`.slice(0, 50);
+  state.settings.customSources.push({
+    id, topic: topicId, name: sug.name, url: sug.url, type: sug.type, weight: 1, tags: [], custom: true,
+    ...(sug.feed ? { feed: sug.feed } : {}), note: sug.why, discovered: new Date().toISOString().slice(0, 10),
+  });
+  saveSettings();
+  const all = readSugg();
+  all[topicId] = (all[topicId] ?? []).filter((x) => keyOf(x.url) !== keyOf(sug.url));
+  local.set("sourceSuggestions", all);
+}
+
+// One run per topic at a time (the editor and the button can both ask).
+const running = new Map();
+export const isFinding = (topicId) => running.has(topicId);
+
+// Asks Gemini, verifies each idea, caches the working ones as suggestions. autoAdd: also adds the first N as sources
+// (used for a brand-new topic with none). onStatus(text). Resolves { found: [names], added: [names], skipped: [names] }.
+export function discoverSources(topic, onStatus = () => {}, { autoAdd = 0 } = {}) {
+  if (!running.has(topic.id)) {
+    const p = run(topic, onStatus, autoAdd).finally(() => running.delete(topic.id));
+    running.set(topic.id, p);
+  }
+  return running.get(topic.id);
+}
+
+async function run(topic, onStatus, autoAdd) {
   onStatus("Asking Gemini for good sources…");
   const ideas = await suggest(topic);
-  const have = new Set(allSources().filter((x) => x.topic === topic.id).map((x) => x.url.replace(/\/+$/, "").toLowerCase()));
-  const key = (u) => u.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/+$/, "");
-  const haveKeys = new Set([...have].map(key));
-  const fresh = ideas.filter((s, i) => s.url && s.name && !haveKeys.has(key(s.url)) && ideas.findIndex((x) => key(x.url ?? "") === key(s.url)) === i);
+  const gone = new Set(readDismissed()[topic.id] ?? []);
+  const haveKeys = new Set(allSources().filter((x) => x.topic === topic.id).map((x) => keyOf(x.url)));
+  const fresh = ideas.filter((s, i) => s.url && s.name && !haveKeys.has(keyOf(s.url)) && !gone.has(keyOf(s.url)) && ideas.findIndex((x) => keyOf(x.url ?? "") === keyOf(s.url)) === i);
   onStatus(`Checking ${fresh.length} sources…`);
   const checked = [];
   for (let i = 0; i < fresh.length; i += 4) checked.push(...await Promise.all(fresh.slice(i, i + 4).map(async (s) => ({ s, ok: await verify(s) }))));
+  const now = new Date().toISOString();
+  const good = checked.filter((x) => x.ok).map(({ s, ok }) => ({
+    name: s.name, url: ok.url, type: ok.type, ...(ok.feed ? { feed: ok.feed } : {}), why: s.why ?? "", checkedAt: now,
+  }));
+  const all = readSugg();
+  const kept = (all[topic.id] ?? []).filter((x) => !good.some((g) => keyOf(g.url) === keyOf(x.url)));
+  all[topic.id] = [...good, ...kept].slice(0, 20);
+  local.set("sourceSuggestions", all);
+  local.set("sourceSuggestionsRun", { ...local.get("sourceSuggestionsRun", {}), [topic.id]: Date.now() });
   const added = [];
-  const ids = new Set(state.settings.customSources.map((x) => x.id));
-  for (const { s, ok } of checked) {
-    if (!ok) continue;
-    let id = `${topic.id}-${slugify(s.name)}`.slice(0, 50);
-    for (let k = 2; ids.has(id); k++) id = `${topic.id}-${slugify(s.name)}-${k}`.slice(0, 50);
-    ids.add(id);
-    state.settings.customSources.push({
-      id, topic: topic.id, name: s.name, url: ok.url, type: ok.type, weight: 1, tags: [], custom: true,
-      ...(ok.feed ? { feed: ok.feed } : {}), note: s.why, discovered: new Date().toISOString().slice(0, 10),
-    });
-    added.push(s.name);
-  }
-  if (added.length) saveSettings();
-  return { added, skipped: checked.filter((x) => !x.ok).map((x) => x.s.name) };
+  for (const g of good.slice(0, autoAdd)) { addSuggestion(topic.id, g); added.push(g.name); }
+  return { found: good.map((g) => g.name), added, skipped: checked.filter((x) => !x.ok).map((x) => x.s.name) };
 }

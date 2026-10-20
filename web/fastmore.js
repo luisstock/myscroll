@@ -20,7 +20,13 @@ export const withLocal = (editions) => {
   return items.length ? [...editions, { date: "local", items }] : editions;
 };
 
-export const canFastLoad = () => canFetchPages && canUseAI();
+// Adds ready-made items (e.g. an AI book summary) to the local store; an item with the same id is replaced.
+export function addLocalItems(items) {
+  const ids = new Set(items.map((i) => i.id));
+  local.set("fastItems", [...localItems().filter((i) => !ids.has(i.id)), ...items]);
+}
+
+export const canFastLoad =() => canFetchPages && canUseAI();
 
 // ---------- gathering ----------
 const q = encodeURIComponent;

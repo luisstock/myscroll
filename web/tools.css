@@ -133,3 +133,26 @@
 .stats-topics small { color: var(--muted); font-size: 12.5px; }
 .stats-won { margin: 14px 0 2px; font-family: var(--read-font); font-size: 15.5px; line-height: 1.5; }
 .lightbox .sheet-backdrop { background: rgb(0 0 0 / .82); }
+
+/* ---------- Suggested sources (AI) ---------- */
+.badge.ai { color: var(--accent); }
+.sugg-name { display: grid; gap: 3px; min-width: 0; }
+.sugg-line { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.sugg-why { color: var(--muted); font-size: 12px; line-height: 1.35; }
+.sugg-ctl { display: flex; align-items: center; gap: 6px; flex: none; }
+.sugg-ctl .del { width: 30px; height: 30px; font-size: 12px; }
+
+/* ---------- Books: suggest + write ---------- */
+.books-panel { margin: 4px 0 14px; padding: 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: grid; gap: 10px; }
+.books-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.books-head h3 { margin: 0; font-size: 15px; }
+.books-panel .set-hint { margin: 0; }
+.book-list { display: grid; gap: 6px; }
+.book-sugg { display: grid; gap: 2px; text-align: left; padding: 9px 12px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); color: var(--text); }
+.book-sugg:disabled { opacity: .55; }
+.bs-title { font-weight: 600; font-size: 14.5px; }
+.bs-by { color: var(--muted); font-size: 12px; }
+.bs-hook { font-size: 13px; line-height: 1.4; }
+.book-ask { display: flex; gap: 8px; }
+.book-ask input { flex: 1; min-width: 0; }
+.book-ask button { padding: 0 14px; border-radius: 10px; background: var(--accent); color: var(--accent-ink); font-weight: 600; flex: none; }

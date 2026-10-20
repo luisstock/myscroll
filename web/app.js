@@ -20,6 +20,7 @@ import { renderSearch } from "./search.js";
 import { initShare } from "./share.js";
 import { orderedGroups, orderedByReading, readingOrderOn } from "./order.js";
 import { canFollow, followButton, followTitle } from "./follow.js";
+import { booksPanel } from "./books.js";
 import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
@@ -602,6 +603,20 @@ async function reloadEditions() {
   render();
   window.scrollTo({ top: y });
 }
+// Books view: reload with the new summary, then scroll to its card and open it.
+const booksCtx = {
+  openSettingsAI: () => openSettingsAt(".ai-section"),
+  async openItem(id) {
+    state.sub2 = null;
+    if (state.view === "books") state.sub = null;
+    await reloadEditions();
+    const node = feed.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+    if (!node) return;
+    node.scrollIntoView({ block: "start" });
+    window.scrollBy(0, -110); // clear the sticky header
+    $(".card-head", node).click();
+  },
+};
 const label = (text, cls = "section-label") => el("p", { class: cls }, text);
 const empty = (text) => el("p", { class: "empty" }, text);
 
@@ -674,11 +689,13 @@ function renderFeed() {
       nodes.push(filterChips(subs, "sub2"));
       if (subs.some((s) => s.id === state.sub2)) shown = shown.filter((i) => i.sub === state.sub2);
     }
+    if (state.sub === "books") nodes.push(booksPanel(booksCtx));
     nodes.push(...shown.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
     nodes.push(...(state.sub ? shown.filter((i) => i.kind !== "longread").map((i) => makeCard(i)) : topicSections(shown, false)));
   } else {
     const t = topicOf(state.view);
     const inTopic = items.filter((i) => i.topic === state.view);
+    if (state.view === "books") nodes.push(booksPanel(booksCtx));
     nodes.push(filterChips((t.subs ?? []).filter((s) => inTopic.some((i) => i.sub === s.id))));
     nodes.push(...inTopic.filter((i) => !state.sub || i.sub === state.sub).map((i) => makeCard(i, { longread: i.kind === "longread" })));
   }

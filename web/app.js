@@ -21,7 +21,8 @@ import { initShare } from "./share.js";
 import { orderedGroups, orderedByReading, readingOrderOn } from "./order.js";
 import { canFollow, followButton, followTitle } from "./follow.js";
 import { attachSwipe, swiping } from "./swipe.js";
-import { booksPanel } from "./books.js";
+import { renderLibrary, libraryBooks, isAIBook } from "./library.js";
+import { spread } from "./mix.js";
 import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
@@ -95,6 +96,7 @@ function renderChips() {
   }
   chips.push({ id: "saved", label: "⭐ Saved", n: state.saved.size });
   chips.push({ id: "later", label: "🕒 Later", n: laterItems().length });
+  chips.push({ id: "library", label: "📚 Library", n: libraryBooks().unread.length });
   const pins = live(state.moodboard).length;
   if (pins || state.view === "moodboard") chips.push({ id: "moodboard", label: "📌 Moodboard", n: pins });
   $("#settingsBtn").setAttribute("aria-pressed", String(state.view === "settings"));
@@ -111,7 +113,7 @@ function renderChips() {
 // Read items leave the feed, so progress = today's read ÷ (today's read + what's still in the scroll).
 function updateProgress() {
   const left = visibleItems().length;
-  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic) && !i.query && !i.shared && passesFilters(i)).length;
+  const done = pool().filter((i) => i.added === state.latest && state.read.has(i.id) && isTopicActive(i.topic) && !i.query && !i.shared && !isAIBook(i) && passesFilters(i)).length;
   const total = done + left;
   $("#progressBar").style.width = total ? `${(done / total) * 100}%` : "0";
   return { done, total };
@@ -289,6 +291,7 @@ function slideOut(node) {
     const { done, total } = updateProgress();
     $(".the-end", feed)?.replaceWith(theEnd(done, total));
     if (["later", "search"].includes(state.view) && !feed.querySelector(".card")) renderFeed();
+    if (state.view === "library") { const y = window.scrollY; renderFeed(); window.scrollTo({ top: y }); } // the book moves to Finished
     trackReading();
   }, 320);
 }
@@ -520,7 +523,7 @@ const isWeekDay = () => new Date().getDay() === 0;
 function weekItems() {
   const since = new Date(state.latest);
   since.setDate(since.getDate() - 6);
-  const inWeek = pool().filter((i) => new Date(i.added) >= since && isTopicActive(i.topic) && !isHidden(i.id) && !i.query && !i.shared);
+  const inWeek = pool().filter((i) => new Date(i.added) >= since && isTopicActive(i.topic) && !isHidden(i.id) && !i.query && !i.shared && !isAIBook(i));
   const favourites = inWeek.filter((i) => (state.ratings[i.id]?.r ?? 0) >= 4)
     .sort((a, b) => state.ratings[b.id].r - state.ratings[a.id].r);
   const saved = inWeek.filter((i) => state.saved.has(i.id) && !favourites.includes(i));
@@ -555,7 +558,7 @@ function loadMoreScope() {
     }
     return { topics: ids, label: `${g.emoji} ${g.name}` };
   }
-  if (!["all", "saved", "settings", "week", "later", "search"].includes(v)) {
+  if (!["all", "saved", "settings", "week", "later", "search", "library"].includes(v)) {
     const t = topicOf(v);
     const sub = state.sub && t.subs?.find((s) => s.id === state.sub);
     if (sub) return { topics: [t.id], sub: `${t.id}/${sub.id}`, label: `${t.emoji} ${sub.label}` }; // the narrowest view
@@ -623,10 +626,10 @@ async function reloadEditions() {
 const booksCtx = {
   openSettingsAI: () => openSettingsAt(".ai-section"),
   async openItem(id) {
-    state.sub2 = null;
-    if (state.view === "books") state.sub = null;
     await reloadEditions();
-    const node = feed.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+    const sel = `[data-id="${CSS.escape(id)}"]`;
+    feed.querySelector(`.fin-row${sel}`)?.click(); // a finished book: open its card again
+    const node = feed.querySelector(`.card${sel}`);
     if (!node) return;
     node.scrollIntoView({ block: "start" });
     window.scrollBy(0, -110); // clear the sticky header
@@ -644,6 +647,9 @@ function filterChips(options, key = "sub") {
     onclick: () => { state[key] = o.id; if (key === "sub") state.sub2 = null; renderFeed(); },
   }, o.label)));
 }
+
+// Mixed (default): rank order with topics spread out, no section headers. "By topic" keeps the sections.
+const mixedFeed = () => state.settings.feedOrder !== "topics";
 
 function topicSections(items, withGroupHeaders) {
   const nodes = [];
@@ -678,11 +684,15 @@ function renderFeed() {
     nodes.push(...items.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
     if (state.shuffleSeed != null) {
       nodes.push(el("div", { class: "shuffle-bar" }, el("span", {}, "🔀 Shuffled"),
-        el("button", { onclick: () => { state.shuffleSeed = null; renderFeed(); window.scrollTo({ top: 0 }); } }, "Sort by topic")));
+        el("button", { onclick: () => { state.shuffleSeed = null; renderFeed(); window.scrollTo({ top: 0 }); } }, (mixedFeed() ? "Back to my order" : "Sort by topic"))));
       nodes.push(...shuffled(items.filter((i) => i.kind !== "longread"), state.shuffleSeed).map((i) => makeCard(i)));
+    } else if (mixedFeed()) {
+      nodes.push(...spread(items.filter((i) => i.kind !== "longread"), (i) => i.topic).map((i) => makeCard(i)));
     } else {
       nodes.push(...topicSections(items, state.settings.navBy === "groups"));
     }
+  } else if (state.view === "library") {
+    nodes.push(...renderLibrary({ makeCard, booksCtx, label, empty }));
   } else if (state.view === "later") {
     nodes.push(...renderLater({ makeCard, empty }));
   } else if (state.view === "search") {
@@ -705,21 +715,23 @@ function renderFeed() {
       nodes.push(filterChips(subs, "sub2"));
       if (subs.some((s) => s.id === state.sub2)) shown = shown.filter((i) => i.sub === state.sub2);
     }
-    if (state.sub === "books") nodes.push(booksPanel(booksCtx));
     nodes.push(...shown.filter((i) => i.kind === "longread").map((i) => makeCard(i, { longread: true })));
-    nodes.push(...(state.sub ? shown.filter((i) => i.kind !== "longread").map((i) => makeCard(i)) : topicSections(shown, false)));
+    const rest = shown.filter((i) => i.kind !== "longread");
+    if (mixedFeed()) nodes.push(...spread(rest, state.sub ? (i) => i.sub : (i) => i.topic).map((i) => makeCard(i))); // one topic picked: spread its subcategories
+    else nodes.push(...(state.sub ? rest.map((i) => makeCard(i)) : topicSections(shown, false)));
   } else {
     const t = topicOf(state.view);
     const inTopic = items.filter((i) => i.topic === state.view);
-    if (state.view === "books") nodes.push(booksPanel(booksCtx));
     nodes.push(filterChips((t.subs ?? []).filter((s) => inTopic.some((i) => i.sub === s.id))));
-    nodes.push(...inTopic.filter((i) => !state.sub || i.sub === state.sub).map((i) => makeCard(i, { longread: i.kind === "longread" })));
+    const inSub = inTopic.filter((i) => !state.sub || i.sub === state.sub);
+    const list = mixedFeed() && !state.sub ? spread(inSub, (i) => i.sub) : inSub; // mixed: spread by subcategory
+    nodes.push(...list.map((i) => makeCard(i, { longread: i.kind === "longread" })));
   }
 
-  if (!nodes.some((n) => n?.classList?.contains("card")) && !["saved", "week", "later", "search"].includes(state.view)) {
+  if (!nodes.some((n) => n?.classList?.contains("card")) && !["saved", "week", "later", "search", "library"].includes(state.view)) {
     nodes.push(empty("Nothing here right now. New items arrive with tomorrow's edition."));
   }
-  if (!["saved", "week", "later", "search"].includes(state.view)) {
+  if (!["saved", "week", "later", "search", "library"].includes(state.view)) {
     const { done, total } = updateProgress();
     nodes.push(theEnd(done, total));
   }
@@ -786,7 +798,7 @@ function render() {
   // A view can disappear (group turned off, topic hidden): fall back to All.
   const v = state.view;
   if (v.startsWith("group:") ? groupOf(v.slice(6))?.enabled === false || !groupOf(v.slice(6))
-    : !["all", "saved", "settings", "week", "later", "search", "moodboard"].includes(v) && !isTopicActive(v)) state.view = "all";
+    : !["all", "saved", "settings", "week", "later", "search", "moodboard", "library"].includes(v) && !isTopicActive(v)) state.view = "all";
   renderChips();
   renderFeed();
 }

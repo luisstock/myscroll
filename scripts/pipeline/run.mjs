@@ -136,7 +136,7 @@ if (shareUrl) {
     // Topics with no sources (usually new ones): find and check some first (they reach the app through the catalog).
     for (const topic of plan.topics.filter((t) => !t.sources.length && !dry)) {
       try {
-        const found = await discoverSources(config, topic, log);
+        const found = await discoverSources(config, topic, log, plan.profile);
         topic.sources = found.map((s) => ({ id: `${topic.id}-${s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`.slice(0, 50), name: s.name, url: s.url, type: s.type, weight: 1, ...(s.feed ? { feed: s.feed } : {}) }));
         discovered.push(...found.map((s) => ({ topic: topic.id, name: s.name, url: s.url, type: s.type, activate: true })));
         if (found.length) readyTopics.push(topic.id);

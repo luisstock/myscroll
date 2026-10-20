@@ -3,6 +3,7 @@
 // (a working subreddit, YouTube channel or site feed) before it is used. Unchecked suggestions are dropped.
 import { generateJSON } from "../pipeline/llm.mjs";
 import { get, redditGet, parseFeed } from "../pipeline/gather.mjs";
+import { readerProfile } from "../../web/profile.js";
 
 const SCHEMA = {
   type: "object",
@@ -48,9 +49,11 @@ async function verify(s) {
   } catch { return null; }
 }
 
-export async function discoverSources(config, topic, log = () => {}) {
+// profile: optional { about, avoid } (the reader's settings.profile).
+export async function discoverSources(config, topic, log = () => {}, profile = null) {
   const prompt = [
     `Suggest 10 high-quality, currently active sources for this reading topic: ${topic.label}.`,
+    readerProfile({ profile }),
     topic.description ? `What the reader wants: ${topic.description}` : "",
     topic.keywords?.length ? `Keywords: ${topic.keywords.join(", ")}` : "",
     topic.lang === "pt" ? "Prefer sources in Portuguese (Portugal)." : "Sources in English.",

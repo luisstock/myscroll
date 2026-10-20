@@ -1,6 +1,6 @@
 // Books, Deepstash style: Gemini suggests books for this reader, you pick one (or type any title) and it writes
-// the book card: big idea, swipeable lessons, one thing to try. Items live with the fast local items.
-import { state, pool, topicOf, slugify } from "./model.js";
+// the book card: big idea, swipeable lessons, one thing to try. Items live with the fast local items and show in the 📚 Library.
+import { state, pool, topicOf, slugify, readerProfile } from "./model.js";
 import { askJSON, canUseAI, local } from "./ai.js";
 import { addLocalItems } from "./fastmore.js";
 import { el } from "./ui.js";
@@ -51,10 +51,10 @@ function suggestPrompt() {
   ].filter(Boolean).join("\n");
 }
 
-const SUGG_SYSTEM = `You are a thoughtful book curator. The reader is a Portuguese motion designer who reads in English in bed. Be specific and honest; never invent books.`;
+const suggSystem = () => `You are a thoughtful book curator. ${readerProfile(state.settings)}\nBe specific and honest; never invent books.`;
 
 async function fetchSuggestions() {
-  const { books } = await askJSON({ system: SUGG_SYSTEM, prompt: suggestPrompt(), schema: SUGG_SCHEMA, fast: true });
+  const { books } = await askJSON({ system: suggSystem(), prompt: suggestPrompt(), schema: SUGG_SCHEMA, fast: true });
   const out = (books ?? []).filter((b) => b.title && b.author);
   local.set("bookSuggestions", { at: Date.now(), books: out });
   return out;
@@ -80,15 +80,16 @@ const BOOK_SCHEMA = {
   required: ["found", "bookTitle", "author", "sub", "tags", "title", "snippet", "body", "lessons", "takeaway", "forWho"],
 };
 
-const BOOK_SYSTEM = `You write book summaries for MyScroll, a personal reading app, in the style of Deepstash: the big idea, a few punchy lessons, one thing to try.
-The reader is a Portuguese motion designer who reads in English in bed. Tone: curious, warm, clear, no hype.
+const bookSystem = () => `You write book summaries for MyScroll, a personal reading app, in the style of Deepstash: the big idea, a few punchy lessons, one thing to try.
+${readerProfile(state.settings)}
+Tone: curious, warm, clear, no hype.
 Write from well-established knowledge of the book: its central argument and best-known ideas. Only if you don't recognise the book at all, return found=false with the other fields empty. Never invent chapters, anecdotes, numbers or quotes; stay with the ideas the book is known for.
 Put everything in your own words; no long quotes. body: 60-120 words in 1-2 paragraphs. 3-5 lessons, each a punchy title and 2-3 sentences. tags: 2-5 lowercase-hyphenated tags.`;
 
 async function writeBook({ title, author }) {
   const subs = subsOf();
   const req = {
-    system: BOOK_SYSTEM, schema: BOOK_SCHEMA,
+    system: bookSystem(), schema: BOOK_SCHEMA,
     prompt: `Write the summary card for the book "${title}"${author ? ` by ${author}` : ""}.\nFor "sub" pick the best fit: ${subs.map((s) => `${s.id} (${s.label})`).join(", ")}.`,
   };
   const usable = (o) => o.found && o.title && o.bookTitle && (o.lessons ?? []).filter((l) => l?.title && l?.text).length >= 3;
@@ -112,7 +113,7 @@ async function writeBook({ title, author }) {
     book: { title: out.bookTitle, author: out.author ?? author ?? "", lessons, takeaway: out.takeaway ?? "", forWho: out.forWho ?? "" },
     source: { id: "ai-books", name: "MyScroll · AI summary", url: `https://openlibrary.org/search?q=${q}` },
     lang: "en", minutes: Math.max(2, Math.round(([out.snippet, ...body, ...lessons.map((l) => l.text)].join(" ").split(/\s+/).length) / 220)),
-    added: state.latest, fast: true,
+    added: state.latest, made: Date.now(), fast: true,
   };
   addLocalItems([item]);
   return item;
@@ -158,7 +159,7 @@ export function booksPanel(ctx) {
 
   function paint() {
     if (!canUseAI()) {
-      root.replaceChildren(el("h3", {}, "📚 Suggest books"),
+      root.replaceChildren(el("h3", {}, "Suggested for you"),
         el("p", { class: "set-hint" }, "Gemini suggests books for you and writes the lessons."),
         el("button", { class: "setup-link", onclick: ctx.openSettingsAI }, "Open Settings → AI →"));
       return;
@@ -167,7 +168,7 @@ export function booksPanel(ctx) {
     const mine = new Set(have().map((i) => bookKey(i.book.title)));
     const list = (cached?.books ?? []).filter((b) => !mine.has(bookKey(b.title)));
     root.replaceChildren(...[
-      el("div", { class: "books-head" }, el("h3", {}, "📚 Suggest books"),
+      el("div", { class: "books-head" }, el("h3", {}, "Suggested for you"),
         el("button", { class: "mini-btn", disabled: busy, onclick: refresh }, cached ? "↻ New suggestions" : "Suggest")),
       !cached && !status ? el("p", { class: "set-hint" }, "Eight books picked for you, from what you like and rate. Tap one for a lesson card.") : null,
       list.length ? el("div", { class: "book-list" }, list.map((b) => el("button", { class: "book-sugg", disabled: busy, onclick: () => pick(b) },

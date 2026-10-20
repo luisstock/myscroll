@@ -156,3 +156,10 @@
 .book-ask { display: flex; gap: 8px; }
 .book-ask input { flex: 1; min-width: 0; }
 .book-ask button { padding: 0 14px; border-radius: 10px; background: var(--accent); color: var(--accent-ink); font-weight: 600; flex: none; }
+
+/* ---------- Library: finished books ---------- */
+.fin-list { display: grid; gap: 6px; }
+.fin-row { display: grid; grid-template-columns: 1fr auto; gap: 0 10px; align-items: baseline; text-align: left; padding: 10px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); color: var(--text); }
+.fin-title { font-weight: 600; font-size: 14.5px; }
+.fin-by { grid-column: 1; color: var(--muted); font-size: 12px; }
+.fin-rate { grid-column: 2; grid-row: 1 / span 2; align-self: center; color: var(--accent); font-size: 13px; font-weight: 600; }

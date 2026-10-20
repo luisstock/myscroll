@@ -23,6 +23,7 @@ import { canFollow, followButton, followTitle } from "./follow.js";
 import { attachSwipe, swiping } from "./swipe.js";
 import { renderLibrary, libraryBooks, isAIBook } from "./library.js";
 import { spread } from "./mix.js";
+import { scheduleOffline, cachedImageUrl } from "./offline.js";
 import { getJSON, dataUrl, setSystemBars, onBackButton } from "./env.js";
 
 const THEMES = ["dark", "night", "light"];
@@ -123,7 +124,10 @@ function updateProgress() {
 function imageEl(item) {
   if (!item.image?.src) return null;
   const img = el("img", { src: dataUrl(item.image.src), alt: "", loading: "lazy" });
-  img.onerror = () => img.remove();
+  img.onerror = async () => { // offline: try the saved copy before giving up
+    const saved = img.dataset.retried ? null : await cachedImageUrl(img.getAttribute("src"));
+    if (saved) { img.dataset.retried = "1"; img.src = saved; } else img.remove();
+  };
   return img;
 }
 
@@ -621,6 +625,7 @@ async function reloadEditions() {
   const y = window.scrollY;
   render();
   window.scrollTo({ top: y });
+  scheduleOffline();
 }
 // Books view: reload with the new summary, then scroll to its card and open it.
 const booksCtx = {
@@ -844,6 +849,7 @@ async function load() {
     rebuildProfile();
     render();
   }
+  scheduleOffline();
 }
 
 load().catch((err) => {

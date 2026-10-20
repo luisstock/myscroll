@@ -13,6 +13,7 @@ import { bedtimeSection } from "./bedtime.js";
 import { statsSection } from "./stats.js";
 import { github, loadMore } from "./loadmore.js";
 import { getJSON } from "./env.js";
+import { offlineSection } from "./offline-ui.js";
 import { followedSection } from "./follow.js";
 import { discoverSources, canDiscover, aiSuggestions, askedRecently, dismissSuggestion, addSuggestion, isFinding } from "./discover.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
@@ -150,6 +151,7 @@ function readingSection(s) {
       el("input", { type: "checkbox", checked: s.skipRule.enabled, onchange: (e) => { s.skipRule.enabled = e.target.checked; rerender(); } })),
     el("label", { class: "row" + (s.skipRule.enabled ? "" : " disabled") }, el("span", {}, "…after this many times"),
       el("input", { type: "number", min: 2, max: 50, value: s.skipRule.limit, disabled: !s.skipRule.enabled, onchange: (e) => { s.skipRule.limit = Number(e.target.value); rerender(); } })),
+    offlineSection(),
   );
 }
 

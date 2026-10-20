@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T11:13:14.206Z",
+ "updatedAt": "2026-10-20T11:13:56.547Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -642,7 +642,8 @@
   "motion-maxon-releases-cinema-4d-2027-0",
   "tech-a-police-officer-shared-automated-license-plate",
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
-  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr"
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
+  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 7,
@@ -764,7 +765,9 @@
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": 1,
   "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": 1,
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
-  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": 1
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": 1,
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": 1,
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2119,6 +2122,35 @@
    "tag:ipma",
    "tag:clima",
    "tag:outono"
+  ],
+  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:economia",
+   "tag:banco-de-portugal",
+   "tag:desigualdade",
+   "tag:habitacao"
+  ],
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:sociedade",
+   "tag:tempo",
+   "tag:uniao-europeia"
+  ],
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:imprensa",
+   "tag:politica",
+   "tag:habitacao",
+   "tag:justica"
   ]
  },
  "read": [
@@ -2172,7 +2204,8 @@
   "tech-a-police-officer-shared-automated-license-plate",
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
   "mo-roto",
-  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr"
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
+  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60"
  ],
  "saved": [
   "pt-1755",
@@ -2426,6 +2459,11 @@
   },
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": {
    "at": "2026-10-20T11:08:08.178Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60": {
+   "at": "2026-10-20T11:13:41.734Z",
    "min": 1,
    "topic": "pt"
   }

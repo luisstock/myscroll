@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:29:13.181Z",
+ "updatedAt": "2026-10-20T12:31:11.337Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -1976,7 +1976,8 @@
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
-  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr"
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
  ],
  "saved": [
   "pt-1755",
@@ -2268,6 +2269,12 @@
   },
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": {
    "at": "2026-10-20T12:28:01.199Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": {
+   "at": "2026-10-20T12:30:56.335Z",
    "min": 0,
    "topic": "pt",
    "quick": true

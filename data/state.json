@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-20T12:16:13.572Z",
+ "updatedAt": "2026-10-20T15:01:34.887Z",
  "device": "app",
  "settings": {
   "theme": "dark",
   "layout": "cards",
-  "navBy": "topics",
+  "navBy": "groups",
   "dailyTarget": 40,
   "newsExpireDays": 7,
   "skipRule": {
@@ -390,6 +390,10 @@
    "damn-interesting": {
     "enabled": true,
     "deleted": false
+   },
+   "wired": {
+    "enabled": true,
+    "deleted": false
    }
   },
   "customSources": [
@@ -420,10 +424,23 @@
   ],
   "unmuted": [],
   "orderByReading": true,
-  "activeMood": null,
+  "activeMood": "relax",
   "moods": null
  },
- "ratings": {},
+ "ratings": {
+  "pt-volta": {
+   "r": 3,
+   "at": "2026-10-20T13:14:57.410Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:til",
+    "tag:ciclismo",
+    "tag:historia"
+   ]
+  }
+ },
  "opened": [
   "lr-tongan-castaways-2",
   "lr-1816",
@@ -487,9 +504,67 @@
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
-  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos",
+  "f1-christian-horner-reveals-true-stance-on-liam-law",
+  "ai-one-third-of-the-most-popular-comfyui-custom-nod",
+  "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
+  "ideas-reality-does-not-exist-independently-of-you-nor",
+  "pt-quando-o-sporting-processou-o-publico-nu",
+  "pt-presidente-da-cip-critica-protestos-e-de",
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r",
+  "pt-carneiro-classifica-lei-das-rendas-como",
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por",
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
+  "pt-volta",
+  "tech-a-99-car-tracker-betting-parents-care-more-about",
+  "science-esa-s-euclid-telescope-was-built-to-map-galaxies",
+  "pt-porto-cidade-acolhedora",
+  "tech-apple-schedules-surprise-late-october-event-for"
  ],
- "skips": {},
+ "skips": {
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1,
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": 1,
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
+  "pt-quando-o-sporting-processou-o-publico-nu": 1,
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1,
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
+  "motion-animating-ui-promos-outside-after-effects-using": 2,
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 2,
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 2,
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 1,
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
+  "mo-fischinger": 1,
+  "ai-openmoss-lands-in-comfyui-with-structured-layout": 1,
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as": 1,
+  "fun-wilhelm-scream": 1,
+  "fun-boaty": 1,
+  "fun-project-pigeon": 1,
+  "fun-boring-and-dull": 1,
+  "fun-byron": 1,
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 1,
+  "books-the-traps-of-free-will-and-fate-across-time": 1,
+  "books-the-deep-roots-of-jewish-dissent": 1,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 1,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
+  "ideas-beauty-is-an-act-of-unselfing": 1,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
+  "motion-exploring-retro-animation-styles-in-afte": 1,
+  "pt-cortica": 2,
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
+  "pt-alianca-luso-britanica": 2,
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 2,
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 2,
+  "pt-porto-cidade-acolhedora": 1,
+  "tech-apple-schedules-surprise-late-october-event-for": 1,
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": 1,
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 1,
+  "tr-repair": 1,
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 1
+ },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
    "topic:til",
@@ -1882,6 +1957,288 @@
    "tag:photography",
    "tag:design-matters",
    "tag:los-angeles"
+  ],
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:transportes",
+   "tag:greve",
+   "tag:margem-sul",
+   "tag:lisboa"
+  ],
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:portugal",
+   "tag:habitacao",
+   "tag:manifestacao",
+   "tag:psp"
+  ],
+  "pt-quando-o-sporting-processou-o-publico-nu": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:desporto",
+   "tag:futebol",
+   "tag:justica",
+   "tag:sporting"
+  ],
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:desporto",
+   "tag:motogp",
+   "tag:honda"
+  ],
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:lisboa"
+  ],
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": [
+   "topic:f1",
+   "source:web",
+   "style:video",
+   "tag:f1",
+   "tag:daniel-ricciardo"
+  ],
+  "f1-christian-horner-reveals-true-stance-on-liam-law": [
+   "topic:f1",
+   "source:web",
+   "style:news",
+   "tag:f1",
+   "tag:red-bull",
+   "tag:liam-lawson"
+  ],
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": [
+   "topic:f1",
+   "source:web",
+   "style:news",
+   "tag:f1",
+   "tag:red-bull",
+   "tag:motorsport"
+  ],
+  "motion-animating-ui-promos-outside-after-effects-using": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-motiondesign",
+   "style:reddit",
+   "tag:davinci-resolve",
+   "tag:figma",
+   "tag:ui-animation",
+   "tag:app-promo"
+  ],
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:motionographer",
+   "style:story",
+   "tag:tomakti-studio",
+   "tag:dimitrios-sakkas",
+   "tag:animation",
+   "tag:motion-design"
+  ],
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": [
+   "topic:motion",
+   "sub:motion/industry",
+   "source:motionographer",
+   "style:news",
+   "tag:rove",
+   "tag:rebrand",
+   "tag:motion-graphics",
+   "tag:studio-news"
+  ],
+  "ai-openmoss-lands-in-comfyui-with-structured-layout": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-comfyui",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:open-source",
+   "tag:image-generation"
+  ],
+  "ai-one-third-of-the-most-popular-comfyui-custom-nod": [
+   "topic:ai",
+   "sub:ai/motion-ai",
+   "source:r-comfyui",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:open-source",
+   "tag:workflows"
+  ],
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:frontier-models",
+   "tag:ai-agents",
+   "tag:security"
+  ],
+  "bike-moots-overhauls-the-routt-with-57mm-clearance-an": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:titanium-bikes",
+   "tag:moots-routt",
+   "tag:gravel-tech",
+   "tag:bike-geometry"
+  ],
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:bike-geometry",
+   "tag:colnago"
+  ],
+  "books-the-traps-of-free-will-and-fate-across-time": [
+   "topic:books",
+   "sub:books/life",
+   "source:guardian-books",
+   "style:book",
+   "tag:audrey-niffenegger",
+   "tag:book-review",
+   "tag:time-travel",
+   "tag:fiction"
+  ],
+  "ideas-reality-does-not-exist-independently-of-you-nor": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:psychology",
+   "tag:perception",
+   "tag:reality"
+  ],
+  "books-the-deep-roots-of-jewish-dissent": [
+   "topic:books",
+   "sub:books/life",
+   "source:guardian-books",
+   "style:book",
+   "tag:benjamin-moser",
+   "tag:jewish-history",
+   "tag:anti-zionism",
+   "tag:political-history"
+  ],
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:relationships",
+   "tag:change",
+   "tag:philosophy"
+  ],
+  "motion-exploring-retro-animation-styles-in-afte": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-aftereffects",
+   "style:video",
+   "tag:motion",
+   "tag:after-effects",
+   "tag:animation"
+  ],
+  "pt-presidente-da-cip-critica-protestos-e-de": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:economia"
+  ],
+  "pt-carneiro-classifica-lei-das-rendas-como": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:politica"
+  ],
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:portugal",
+   "tag:seguranca",
+   "tag:justica"
+  ],
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:tecnologia",
+   "tag:portugal",
+   "tag:banca"
+  ],
+  "tech-a-99-car-tracker-betting-parents-care-more-about": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:gadgets",
+   "tag:connected-cars",
+   "tag:hardware",
+   "tag:privacy"
+  ],
+  "tech-apple-schedules-surprise-late-october-event-for": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:macbook-pro",
+   "tag:hardware",
+   "tag:display"
+  ],
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:news",
+   "tag:space",
+   "tag:satellites",
+   "tag:defense",
+   "tag:astronomy"
+  ],
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:story",
+   "tag:artificial-intelligence",
+   "tag:cybersecurity",
+   "tag:openai",
+   "tag:espionage"
+  ],
+  "science-esa-s-euclid-telescope-was-built-to-map-galaxies": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:astronomy",
+   "tag:euclid-telescope",
+   "tag:comets",
+   "tag:solar-system"
+  ],
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:atmospheric-optics",
+   "tag:rainbows",
+   "tag:physics",
+   "tag:meteorology"
   ]
  },
  "read": [
@@ -1939,7 +2296,31 @@
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
-  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle"
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
+  "pt-metro-da-margem-sul-avanca-para-greve-pr",
+  "books-untangling-generational-power-and-servitude",
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano",
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula",
+  "pt-diogo-moreira-na-equipa-oficial-honda-de",
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos",
+  "pt-quando-o-sporting-processou-o-publico-nu",
+  "pt-intervencao-da-psp-poe-fim-a-acampamento",
+  "pt-presidente-da-cip-critica-protestos-e-de",
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r",
+  "pt-carneiro-classifica-lei-das-rendas-como",
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por",
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
+  "pt-agostinho",
+  "pt-volta",
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov",
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con",
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par",
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei",
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est",
+  "tech-a-99-car-tracker-betting-parents-care-more-about",
+  "pt-alianca-luso-britanica"
  ],
  "saved": [
   "pt-1755",
@@ -2181,6 +2562,146 @@
     "tag:ccb",
     "tag:piano"
    ]
+  },
+  "books-untangling-generational-power-and-servitude": {
+   "at": "2026-10-20T12:41:46.557Z",
+   "f": [
+    "topic:books",
+    "sub:books/life",
+    "source:five-books",
+    "style:book",
+    "tag:historical-fiction",
+    "tag:feudalism",
+    "tag:india",
+    "tag:storytelling"
+   ]
+  },
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": {
+   "at": "2026-10-20T13:12:56.265Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:explainer",
+    "tag:historia",
+    "tag:portugal",
+    "tag:afonso-henriques",
+    "tag:idade-media"
+   ]
+  },
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": {
+   "at": "2026-10-20T13:13:00.180Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:desporto",
+    "tag:motogp",
+    "tag:honda"
+   ]
+  },
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": {
+   "at": "2026-10-20T13:13:17.243Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:portugal",
+    "tag:habitacao",
+    "tag:manifestacao",
+    "tag:psp"
+   ]
+  },
+  "pt-agostinho": {
+   "at": "2026-10-20T13:14:50.092Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:story",
+    "tag:ciclismo",
+    "tag:historia"
+   ]
+  },
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": {
+   "at": "2026-10-20T13:15:03.788Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:story",
+    "tag:cinema",
+    "tag:hollywood",
+    "tag:biografia",
+    "tag:livros"
+   ]
+  },
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": {
+   "at": "2026-10-20T13:15:06.324Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:story",
+    "tag:musica",
+    "tag:the-voice",
+    "tag:televisao",
+    "tag:historias-de-vida"
+   ]
+  },
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": {
+   "at": "2026-10-20T13:15:08.872Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:explainer",
+    "tag:sociedade",
+    "tag:reciclagem",
+    "tag:economia",
+    "tag:lisboa"
+   ]
+  },
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": {
+   "at": "2026-10-20T13:15:15.417Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:news",
+    "tag:desporto",
+    "tag:ciclismo",
+    "tag:sangalhos",
+    "tag:jogos-olimpicos"
+   ]
+  },
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est": {
+   "at": "2026-10-20T13:18:37.507Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:news",
+    "tag:historia",
+    "tag:arte",
+    "tag:patrimonio",
+    "tag:lisboa"
+   ]
+  },
+  "pt-alianca-luso-britanica": {
+   "at": "2026-10-20T14:59:30.211Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia",
+    "style:til",
+    "tag:historia",
+    "tag:alianca-luso-britanica",
+    "tag:tratado-de-windsor",
+    "tag:diplomacia"
+   ]
   }
  },
  "readLog": {
@@ -2228,6 +2749,77 @@
    "at": "2026-10-20T12:12:12.470Z",
    "min": 1,
    "topic": "pt"
+  },
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": {
+   "at": "2026-10-20T12:28:01.199Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": {
+   "at": "2026-10-20T12:30:56.335Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": {
+   "at": "2026-10-20T12:31:12.527Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": {
+   "at": "2026-10-20T13:12:58.503Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos": {
+   "at": "2026-10-20T13:13:02.467Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-quando-o-sporting-processou-o-publico-nu": {
+   "at": "2026-10-20T13:13:14.905Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-presidente-da-cip-critica-protestos-e-de": {
+   "at": "2026-10-20T13:14:09.369Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": {
+   "at": "2026-10-20T13:14:18.496Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-carneiro-classifica-lei-das-rendas-como": {
+   "at": "2026-10-20T13:14:34.534Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por": {
+   "at": "2026-10-20T13:14:40.325Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d": {
+   "at": "2026-10-20T13:14:47.887Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-volta": {
+   "at": "2026-10-20T13:14:58.169Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "tech-a-99-car-tracker-betting-parents-care-more-about": {
+   "at": "2026-10-20T13:19:01.280Z",
+   "min": 1,
+   "topic": "tech"
   }
  },
  "follows": null,

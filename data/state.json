@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T00:10:37.927Z",
+ "updatedAt": "2026-10-20T00:12:07.096Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -407,7 +407,7 @@
   ],
   "unmuted": [],
   "orderByReading": true,
-  "activeMood": "relax"
+  "activeMood": null
  },
  "ratings": {
   "lr-tongan-castaways-2": {
@@ -2202,6 +2202,28 @@
     "tag:animals",
     "tag:polish-army",
     "tag:wojtek"
+   ]
+  },
+  "fun-mike": {
+   "at": "2026-10-20T00:11:44.390Z",
+   "f": [
+    "topic:fun",
+    "source:wikipedia",
+    "style:story",
+    "tag:animals",
+    "tag:weird",
+    "tag:history"
+   ]
+  },
+  "fun-emu": {
+   "at": "2026-10-20T00:11:46.118Z",
+   "f": [
+    "topic:fun",
+    "source:wikipedia",
+    "style:story",
+    "tag:animals",
+    "tag:history",
+    "tag:absurd"
    ]
   }
  },

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T11:08:45.755Z",
+ "updatedAt": "2026-10-20T11:09:32.377Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -672,7 +672,7 @@
   "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 4,
   "pt-ninfa-fossil-pejao": 3,
   "pt-porto-cidade-acolhedora": 4,
-  "pt-agostinho": 4,
+  "pt-agostinho": 5,
   "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 3,
   "pt-nata": 2,
   "til-violet-jessop": 3,
@@ -752,13 +752,16 @@
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 3,
   "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": 1,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 3,
-  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 2,
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 3,
   "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
   "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 2,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
   "ideas-beauty-is-an-act-of-unselfing": 1,
   "til-camp-crystal-lake-is-actually-an-active-boy-scou": 1,
-  "til-the-michigan-bookstore-where-you-shop-for-paperb": 1
+  "til-the-michigan-bookstore-where-you-shop-for-paperb": 1,
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": 1,
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": 1,
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2053,6 +2056,36 @@
    "tag:oddities",
    "tag:spiders",
    "tag:michigan"
+  ],
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:observador",
+   "style:explainer",
+   "tag:historia",
+   "tag:portugal",
+   "tag:afonso-henriques",
+   "tag:idade-media"
+  ],
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:news",
+   "tag:cinema",
+   "tag:hollywood",
+   "tag:joaquim-de-almeida",
+   "tag:televisao"
+  ],
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:lisboa",
+   "tag:cinema",
+   "tag:clube-ferroviario",
+   "tag:margaret-qualley"
   ]
  },
  "read": [
@@ -2321,6 +2354,19 @@
     "tag:lisboa",
     "tag:porto",
     "tag:sociedade"
+   ]
+  },
+  "pt-lingua-mirandesa": {
+   "at": "2026-10-20T11:09:28.449Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia",
+    "style:explainer",
+    "tag:mirandes",
+    "tag:linguas",
+    "tag:miranda-do-douro",
+    "tag:tras-os-montes"
    ]
   }
  },

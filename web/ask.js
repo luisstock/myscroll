@@ -2,6 +2,7 @@
 // "PT" (reads the whole card in European Portuguese). Answers and translations are cached locally.
 import { el, $ } from "./ui.js";
 import { askJSON, local } from "./ai.js";
+import { state, readerProfile } from "./model.js";
 
 const MODES = {
   explain: { label: "Explain more", task: "Explain this item in more depth: unpack the key idea, how it works and why it matters." },
@@ -9,7 +10,7 @@ const MODES = {
   eli5: { label: "ELI5", task: "Explain it like I'm five: very simple words, short sentences, one friendly everyday analogy." },
 };
 
-const ASK_SYSTEM = `You are a calm reading companion inside a personal reading app. The reader is a Portuguese motion designer reading in English in bed.
+const askSystem = () => `You are a calm reading companion inside a personal reading app. ${readerProfile(state.settings)}
 Answer ONLY from the SOURCE TEXT you are given. If the text doesn't cover what is needed, say so plainly instead of guessing.
 Write 80 to 200 words of plain prose in British English. No markdown, no headings, no bullet lists. Short paragraphs separated by a blank line.`;
 
@@ -76,7 +77,7 @@ export function setupAsk(node, item, opts = {}) {
     Object.values(buttons).forEach((b) => (b.disabled = true));
     try {
       const out = await askJSON({
-        system: ASK_SYSTEM,
+        system: askSystem(),
         prompt: `${MODES[mode].task}\n\nSOURCE TEXT:\n${sourceText(item)}`,
         schema: ASK_SCHEMA,
       });

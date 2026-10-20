@@ -3,7 +3,7 @@
 import { el } from "./ui.js";
 
 const KEY = "myscroll:settingsOpen";
-const OPEN_BY_DEFAULT = ["Reading"];
+const OPEN_BY_DEFAULT = ["Reading", "👤 Your profile"];
 
 function load() {
   try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; }

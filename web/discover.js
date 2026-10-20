@@ -1,7 +1,7 @@
 // "Find sources": Gemini suggests sources for a topic from its name and description, then this device checks
 // that each one is alive (a working feed, subreddit or YouTube channel) and keeps the good ones as suggestions;
 // "+ Add" turns one into a normal source you can weight, turn off or delete. The daily agent has its own version for new topics.
-import { state, allSources, saveSettings, slugify } from "./model.js";
+import { state, allSources, saveSettings, slugify, readerProfile } from "./model.js";
 import { askJSON, canUseAI, local } from "./ai.js";
 import { proxied, canFetchPages } from "./readmore.js";
 import { parseFeed } from "./fastmore.js";
@@ -31,6 +31,7 @@ const SCHEMA = {
 async function suggest(topic) {
   const prompt = [
     `Suggest 10 high-quality, currently active sources for this reading topic: ${topic.label}.`,
+    readerProfile(state.settings),
     topic.description ? `What the reader wants: ${topic.description}` : "",
     topic.keywords?.length ? `Keywords: ${topic.keywords.join(", ")}` : "",
     topic.lang === "pt" ? "Prefer sources in Portuguese (Portugal)." : "Sources in English.",

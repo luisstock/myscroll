@@ -1,9 +1,11 @@
 // Turns pre-selected, extracted candidates into finished MyScroll items with one model call per topic.
 // The model only chooses and writes; links, dates, sources and videos always come from the candidate.
 import { generateJSON } from "./llm.mjs";
+import { readerProfile } from "../../web/profile.js";
 
-const SYSTEM = `You are the editor of MyScroll, a personal daily reading app that replaces doomscrolling.
-The reader: a Portuguese motion designer who reads in English before bed. Into After Effects and motion design, local and frontier AI, gravel cycling and technique, random curiosities (Reddit TIL, old Cracked), tech, science, design.
+// The system prompt for a run; plan.profile = { about, avoid } from the reader's synced settings (empty = the default text).
+const SYSTEM = (plan) => `You are the editor of MyScroll, a personal daily reading app that replaces doomscrolling.
+${readerProfile({ profile: plan?.profile })}
 
 Rules:
 - Write only from the provided source text. Never invent facts, numbers, names or quotes. If the text is thin, write less rather than make things up.
@@ -105,7 +107,7 @@ export async function writeTopic(config, topic, candidates, plan, opts = {}) {
   ].filter((l) => l !== "").join("\n");
 
   const isBook = topic.format === "book";
-  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: isBook ? BOOK_SCHEMA : TOPIC_SCHEMA });
+  const { json, usage } = await generateJSON(config, { system: SYSTEM(plan), prompt, schema: isBook ? BOOK_SCHEMA : TOPIC_SCHEMA });
   const items = (json.items ?? [])
     .filter((it) => candidates[it.candidate])
     .map((it) => (opts.sub ? { ...it, sub: opts.sub.id } : it))
@@ -143,7 +145,7 @@ export async function writeLongread(config, candidates, plan) {
     "",
     ...candidates.map(candidateBlock),
   ].join("\n");
-  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: LONGREAD_SCHEMA });
+  const { json, usage } = await generateJSON(config, { system: SYSTEM(plan), prompt, schema: LONGREAD_SCHEMA });
   const c = candidates[json.candidate];
   if (!c) return { item: null, usage };
   const item = toItem({ ...json, style: "story", sub: "story", more: [], explore: false }, c, plan.topics.find((t) => t.id === c.topic) ?? { id: c.topic, subs: [] }, plan);
@@ -199,7 +201,7 @@ async function writeMixed(config, candidates, plan, { header, want, pickTopic = 
     "",
     ...candidates.map((c, i) => candidateBlock(c, i) + (topicFor ? `\nFollow: ${c.followId}\nTopic: ${topicFor(c).id}${topicFor(c).lang === "pt" ? " (write in European Portuguese)" : ""}` : "")),
   ].join("\n");
-  const { json, usage } = await generateJSON(config, { system: SYSTEM, prompt, schema: MIXED_SCHEMA });
+  const { json, usage } = await generateJSON(config, { system: SYSTEM(plan), prompt, schema: MIXED_SCHEMA });
   const used = new Set();
   const items = (json.items ?? []).filter((it) => candidates[it.candidate] && !used.has(it.candidate) && used.add(it.candidate)).slice(0, want).map((it) => {
     const c = candidates[it.candidate];

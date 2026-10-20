@@ -5,6 +5,7 @@ import {
   visibility, featureLabel, reloadFromStorage, live,
 } from "./model.js";
 import { el } from "./ui.js";
+import { DEFAULT_ABOUT } from "./profile.js";
 import { collapseSections } from "./collapse.js";
 import { aiSection } from "./ai.js";
 import { moodsSection } from "./moods.js";
@@ -23,6 +24,7 @@ export function renderSettings(context) {
   if (state.editTopic) return renderTopicEditor(state.editTopic);
   const s = state.settings;
   ctx.root.replaceChildren(el("div", { class: "settings" },
+    profileSection(s),
     statsSection({ state, live, topicOf }),
     learnedSection(), readingSection(s),
     moodsSection({ settings: s, topics: () => topics().filter((t) => !t.hidden), save: saveSettings, rerender }),
@@ -85,6 +87,20 @@ function seg(options, value, onPick, cls = "") {
 const weightControl = (value, onChange) =>
   seg([[0, "Off"], [1, "Normal"], [2, "More"], [3, "Max"]], value, onChange, "weights");
 
+// ---------- Your profile ----------
+// Who you are and what to avoid: every AI prompt (Fast, books, ask, sources, the daily agent) starts from this.
+function profileSection(s) {
+  const p = (s.profile ??= { about: "", avoid: "" });
+  let timer;
+  const save = (key) => (e) => { p[key] = e.target.value; clearTimeout(timer); timer = setTimeout(saveSettings, 400); };
+  const flush = () => { clearTimeout(timer); saveSettings(); };
+  return section("👤 Your profile", "Tell MyScroll who is reading. It is used whenever AI writes for you. Saved as you type.",
+    el("label", { class: "field" }, el("span", {}, "About you"),
+      el("textarea", { rows: 4, placeholder: DEFAULT_ABOUT, "aria-label": "About you", oninput: save("about"), onchange: flush },  p.about ?? "")),
+    el("label", { class: "field" }, el("span", {}, "Less of this"),
+      el("textarea", { rows: 2, placeholder: "e.g. celebrity gossip, crypto hype, politics outrage", "aria-label": "Less of this", oninput: save("avoid"), onchange: flush }, p.avoid ?? "")));
+}
+
 // ---------- What MyScroll learned ----------
 function learnedSection() {
   const s = state.settings;
@@ -119,6 +135,8 @@ function readingSection(s) {
       seg([["dark", "Dark"], ["night", "Night"], ["light", "Light"]], s.theme, (v) => { s.theme = v; saveSettings(); ctx.applyTheme(); renderSettings(ctx); })),
     el("div", { class: "row" }, el("span", {}, "Top bar shows"),
       seg([["groups", "Groups"], ["topics", "Topics"]], s.navBy, (v) => { s.navBy = v; rerender(); })),
+    el("div", { class: "row" }, el("span", {}, "Feed order"),
+      seg([["mixed", "Mixed"], ["topics", "By topic"]], s.feedOrder ?? "mixed", (v) => { s.feedOrder = v; rerender(); })),
     el("label", { class: "row" }, el("span", {}, "Order by what I read most"),
       el("input", { type: "checkbox", checked: s.orderByReading !== false, onchange: (e) => { s.orderByReading = e.target.checked; rerender(); } })),
     el("label", { class: "row" }, el("span", {}, "Items per edition"),

@@ -6,6 +6,8 @@ import { markDirty } from "./sync.js";
 import { moodFilter } from "./moods.js";
 import { bedtimeFilter } from "./bedtime.js";
 
+export { readerProfile } from "./profile.js";
+
 const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
   "later", "hidden", "readLog", "follows", "moodboard", "remember"];
 
@@ -66,6 +68,8 @@ const DEFAULT_SETTINGS = {
   customSources: [],                       // [{ id, topic, name, url, type, weight, tags }]
   unmuted: [],                             // features the user un-muted by hand
   orderByReading: true,                    // chips/sections ordered by how much you read each topic
+  feedOrder: "mixed",                      // "mixed" (rank order, topics spread out) | "topics" (sections per topic)
+  // profile: { about, avoid }             // Settings → Your profile, used in every prompt (see profile.js)
 };
 
 export const state = {
@@ -242,6 +246,7 @@ function daysSince(date) {
 export function visibility(item) {
   if (state.read.has(item.id)) return "done"; // read to the end (or Done): it leaves the feed
   if (state.hidden[item.id] && !state.hidden[item.id].off) return "hidden"; // Not interested
+  if (item.source?.id === "ai-books") return "library"; // AI-written books live in the Library, not the feed
   if (item.query) return "search"; // only shown in the Search view
   if (item.shared || (state.later[item.id] && !state.later[item.id].off)) return "later"; // only in Read later
   if (item.kind === "news") {

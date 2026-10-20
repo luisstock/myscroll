@@ -2,19 +2,22 @@
 //   feeds of your sources (+ Reddit / Hacker News search for topics without sources or a search query)
 //   → article text → ONE Gemini call (the key from Settings → AI, or the PC server's)
 // The items it writes live only on this device (myscroll:fastItems) and join the feed like any other.
-import { state, allSources, topicOf, topics, isTopicActive, topicWeight, pool, slugify } from "./model.js";
+import { state, allSources, topicOf, topics, isTopicActive, topicWeight, pool, slugify, readerProfile } from "./model.js";
 import { askJSON, local, canUseAI } from "./ai.js";
 import { proxied, extractArticle, canFetchPages } from "./readmore.js";
 import { getJSON } from "./env.js";
 
 const KEEP_DAYS = 30;
 const DAY = 864e5;
+const MAX_AI_BOOKS = 200;
 
 // ---------- local items: an extra "edition" the pool reads ----------
 export function localItems() {
   const since = Date.now() - KEEP_DAYS * DAY;
-  // Book cards you asked for stay until you've read them; the rest go after a month.
-  return local.get("fastItems", []).filter((i) => (i.book && !state.read.has(i.id)) || new Date(`${i.added}T12:00:00`).getTime() >= since);
+  // AI book cards you asked for stay forever (the 200 newest); the rest go after a month.
+  const all = local.get("fastItems", []);
+  const keepBooks = new Set(all.filter((i) => i.source?.id === "ai-books").slice(-MAX_AI_BOOKS));
+  return all.filter((i) => keepBooks.has(i) || (i.source?.id !== "ai-books" && new Date(`${i.added}T12:00:00`).getTime() >= since));
 }
 export const withLocal = (editions) => {
   const items = localItems();
@@ -157,8 +160,8 @@ async function withText(c) {
 }
 
 // ---------- writing ----------
-const SYSTEM = `You are the editor of MyScroll, a personal daily reading app that replaces doomscrolling.
-The reader: a Portuguese motion designer who reads in English before bed. Into After Effects and motion design, local and frontier AI, gravel cycling, curiosities, tech, science, design.
+const system = () => `You are the editor of MyScroll, a personal daily reading app that replaces doomscrolling.
+${readerProfile(state.settings)}
 Write only from the provided text. Never invent facts, numbers, names or quotes; if the text is thin, write less.
 Tone: curious, warm, a little witty, no hype, no clickbait.
 title: specific and intriguing, max 90 characters. snippet: 1-2 sentences. body: 2-3 short paragraphs, 80-200 words. more: 2-4 paragraphs, 150-300 words, deeper, no repetition of the body.
@@ -241,7 +244,7 @@ export async function fastLoadMore(onStatus, scope = {}) {
   const withTexts = await Promise.all(picked.map(withText));
   lap(`read ${withTexts.filter((c) => c.text).length}/${picked.length} articles`);
   onStatus("Writing your items…");
-  const { items } = await askJSON({ system: SYSTEM, prompt: prompt(withTexts, scope, n), schema: SCHEMA, fast: true });
+  const { items } = await askJSON({ system: system(), prompt: prompt(withTexts, scope, n), schema: SCHEMA, fast: true });
   lap("written");
   const taken = new Set(pool().map((i) => i.id));
   const fresh = (items ?? []).filter((it) => withTexts[it.candidate]).map((it) => toItem(it, withTexts[it.candidate], scope, taken));

@@ -43,6 +43,7 @@ const number = Math.max(0, ...state.editions.map((e) => e.number ?? 0)) + (index
 const plan = {
   date, number, target, longread: 1, explorationShare: 0.15,
   stateUpdatedAt: synced.updatedAt ?? null,
+  profile: s.profile ?? null, // { about, avoid } from Settings → Your profile
   topics, taste, recent,
   setupTopics: topics.filter((t) => t.status === "new").map((t) => t.id),
 };

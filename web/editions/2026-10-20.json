@@ -1,6 +1,48 @@
 {
   "date": "2026-10-20",
   "number": 4,
+  "longread": {
+    "id": "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
+    "topic": "design",
+    "kind": "longread",
+    "published": "2026-10-16",
+    "style": "story",
+    "tags": [
+      "graphic-design",
+      "illustration",
+      "photography",
+      "design-matters",
+      "los-angeles"
+    ],
+    "title": "Nicer Tuesdays Heads to Los Angeles with Debbie Millman and Micaiah Carter",
+    "snippet": "It’s Nice That is wrapping up its 2026 event schedule by bringing its flagship event series to Los Angeles for an evening of talks, Q&As, and design insights.",
+    "body": [
+      "It’s Nice That is sneaking in one last extra special event across the pond to wrap up 2026. The creative publication is bringing its flagship series, Nicer Tuesdays, back to Los Angeles on Tuesday 10 November for an evening of talks, insights, and conversations with prominent creative voices.",
+      "The evening will take place at Lodge Room, located on the second floor at 104 N Ave 56 in Los Angeles, California 90042. Doors open at 7:00 PM, with the main schedule of talks set to begin around 7:30 PM. The gathering offers a line-up spanning portrait photography, self-published zines, and design commentary.",
+      "Taking the stage first is photographer and director Micaiah Carter, who is acclaimed for his portraits of Black cultural icons such as Zendaya, Pharrell, and Solange. Carter uses his lens as a force for representation and change, balancing high-profile commercial work with personal photo projects that celebrate the beauty of Black communities across America.",
+      "Carter’s imagery has left an unmistakable mark across visual culture and multiple industries. He has directed music videos, shot album covers, and shaped seminal campaigns for major clients including Vogue, Vanity Fair, Apple, and Nike. At the Los Angeles event, Carter will share insights from his career and his debut monograph, What’s My Name.",
+      "Joining him on the schedule is fashion-obsessed multidisciplinary artist Bijou Karman. Integrating painting, illustration, and graphic design, Karman’s artwork has appeared in international print formats, gallery walls, and large-scale commercial campaigns. Throughout her wide-ranging practice across fine art and commercial illustration, self-publishing has remained her most consistent medium.",
+      "Karman previously discussed her zine Peace Eye, and has since produced the official Daisy Chain Fields Zine for singer Olivia Rodrigo. Her presentation will give attendees a behind-the-scenes look at her illustration work through the lens of print and self-publishing, celebrating the creative value that comes from committing to nonsensical personal passion projects.",
+      "The evening will also feature the first-ever Los Angeles Q&A session with designer, writer, educator, and podcast host Debbie Millman. Sitting down with LA Nicer Tuesdays host Meg Farmer, Millman will look back over her extensive career at the intersection of design, storytelling, and cultural commentary.",
+      "Millman is the founder and host of Design Matters, one of the world's first and longest-running podcasts, which celebrated its 20th anniversary last year. Having interviewed more than 700 of the world’s most influential creative thinkers and makers, Millman has also written several pioneering books that helped steer critical approaches within the field.",
+      "Despite her decades of leadership and research, Millman marked her podcast's 20-year milestone by stating that she is just getting started. Her stage interview will dive into the history of Design Matters, alongside the most valuable lessons she has learned from interviewing design icons over her career.",
+      "The event is fully seated, so attendees are encouraged to arrive early to secure a seat. While the venue itself does not offer direct parking facilities, ample street parking is available nearby in the surrounding neighborhood.",
+      "Organizers note that photography and filming will take place throughout the evening for marketing and promotional purposes. Attendees with specific access requirements are invited to contact the team in advance at nicertuesdays@itsnicethat.com to arrange assistance with the venue staff."
+    ],
+    "source": {
+      "id": "its-nice-that",
+      "name": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-november-la-launch-161026"
+    },
+    "wiki": "Debbie_Millman",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-10-20/design-nicer-tuesdays-heads-to-los-angeles-with-debbie.png",
+      "credit": "www.itsnicethat.com"
+    },
+    "minutes": 3,
+    "added": "2026-10-20"
+  },
   "items": [
     {
       "id": "til-the-queen-who-ended-burmese-royal-polygamy-at-cu",
@@ -351,7 +393,1378 @@
       },
       "minutes": 1,
       "added": "2026-10-20"
+    },
+    {
+      "id": "til-where-daughters-inherit-and-husbands-move-in",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "reddit",
+      "tags": [
+        "anthropology",
+        "india",
+        "matrilineality",
+        "khasi"
+      ],
+      "title": "Where Daughters Inherit and Husbands Move In",
+      "snippet": "In the hills of Northeast India, the Khasi people run an ancient matrilineal society where ancestral property passes down strictly to the youngest daughter.",
+      "body": [
+        "In the state of Meghalaya in northeast India, the indigenous Khasi people practice one of the largest surviving matrilineal systems in the world. Children take their mother's family name, newly married husbands pack their bags to move into their mother-in-law's household, and all ancestral wealth flows to the youngest daughter.",
+        "The youngest daughter, known as the Ka Khadduh, holds a pivotal role in the family unit. Alongside the inheritance, she assumes the solemn duty of caring for her aging parents and looking after the education and welfare of her siblings. If a family has no daughters, they adopt one to pass down the lineage and rights.",
+        "Yet despite the dominant economic position of women, the society is not a matriarchy. Men historically held the throne, and male representation remains overwhelming in local village councils and modern state politics."
+      ],
+      "more": [
+        "The Khasi tracing of descent through women is deeply woven into origin myths and traditional history. Legends suggest that when ancient kings went to war, the women were left behind to manage family affairs and society, rooting their authority deep into the culture. Even the epic Mahabharata makes reference to Nari Rajya, a kingdom of women, which scholars often link to this region.",
+        "Socially, women enjoy unusual independence compared to much of the region. There is no social stigma surrounding remarrying or bearing children outside of marriage, both safeguarded under the Khasi Social Custom Lineage Act. Most small family businesses are owned and run by women, who manage the domestic purse strings.",
+        "The setup does have its frictions. Some Khasi men feel relegated to secondary status, complaining that they cannot own ancestral land or steer family businesses. Groups like the Syngkhong Rympei Thymmai have formed specifically to campaign for men's rights and push for a transition toward patrilineal norms.",
+        "On Reddit, readers noted the pragmatic catch behind the youngest daughter inheriting: elder care. As older children grow up and move on, the youngest remains anchored at home to look after aging parents. Others observed the crucial distinction between a matrilineal society and a matriarchal one—women may hold the family assets, but the traditional Dorbar Shnong governing councils historically barred women from taking office, keeping institutional political power largely in male hands."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xa1mm7/til_about_the_indigenous_khasi_people_of/"
+      },
+      "wiki": "Khasi_people",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/til-where-daughters-inherit-and-husbands-move-in.jpg",
+        "credit": "File:Khasi_Girls.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "til-inside-the-house-that-turned-its-back-on-the-str",
+      "topic": "til",
+      "sub": "story",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "explainer",
+      "tags": [
+        "architecture",
+        "cairo",
+        "egypt",
+        "design"
+      ],
+      "title": "Inside the House That Turned Its Back on the Street",
+      "snippet": "Hidden behind unassuming Ottoman walls in Cairo, the 18th-century Ali Labib House keeps cool with passive airflow and brilliant courtyard design.",
+      "body": [
+        "Tucked into historic Cairo, the Ali Labib House was built by two brothers in the 1700s. It stands as a fully preserved Ottoman-era Cairene mansion, combining Turkish and Egyptian Arab domestic traditions into a private architectural sanctuary.",
+        "Like many high-end residential homes of its era, the house turns completely inward. From the street, the facade is plain and austere. Step through the threshold, however, and it opens into a multi-story courtyard oasis lined with elaborate tilework, delicate wooden screens, and hand-carved ceilings.",
+        "Long before electrical cooling existed, its architects mastered passive climate control. High ceilings, strategically positioned upper windows, and shaded porticos work together to pull hot air up and draw cool breezes across the courtyard floor."
+      ],
+      "more": [
+        "Since 2010, the historic mansion has served as the House of Egyptian Architecture, operating as a public cultural center and museum dedicated to the evolution of building design across the nation, from ancient times to modern day.",
+        "Inside, the original decorative arts remain preserved as a tactile time capsule. Visitors can spot painted Turkish cityscapes alongside vibrant stained-glass panels and mashrabiya woodwork—the lattice screens designed to provide ventilation and shade while preserving visual privacy from prying eyes outside.",
+        "Each room pairs period architecture with dioramas, photographs, and historical schematics tracing Egypt's broader design heritage, celebrating both palatial monuments and humble everyday dwellings. Up on the open rooftop, the mansion provides sweeping panoramic views over historic Cairo's dense thicket of stone minarets, aged fortifications, and rooftop pigeon coops."
+      ],
+      "source": {
+        "id": "atlas-obscura",
+        "name": "Atlas Obscura",
+        "url": "https://www.atlasobscura.com/places/house-of-egyptian-architecture"
+      },
+      "wiki": "Islamic_architecture",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/til-inside-the-house-that-turned-its-back-on-the-str.jpg",
+        "credit": "File:Jerusalem_DomeoftheRock_J65.JPG"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "til-the-historic-american-cemeteries-best-seen-with",
+      "topic": "til",
+      "sub": "cracked",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "list",
+      "tags": [
+        "history",
+        "cemeteries",
+        "travel",
+        "architecture"
+      ],
+      "title": "The Historic American Cemeteries Best Seen with a Guide",
+      "snippet": "From Spanish-moss ruins in Georgia to above-ground vaults in New Orleans, these burial grounds carry extraordinary histories best unlocked on foot.",
+      "body": [
+        "Wandering an old graveyard alone is peaceful, but some historic American resting grounds contain so much layered architecture and lore that they demand a proper narrator. Across the United States, several landmark cemeteries stand out for their striking landscapes and bizarre histories.",
+        "In New Orleans, St. Louis Cemetery No. 1, founded in 1789, forms a maze of crumbling above-ground French and Spanish vaults. Because of its fragile state and historical importance—including the vault of 19th-century Voodoo practitioner Marie Laveau—the site is so protected that travelers can only enter via an official walking tour.",
+        "Further north in New York, Sleepy Hollow Cemetery covers rolling, wooded hills where Washington Irving rests alongside industrialist Andrew Carnegie, best explored under lantern light along moss-covered paths."
+      ],
+      "more": [
+        "Further south along Georgia's Wilmington River lies Bonaventure Cemetery. Spanning 150 acres, it is famously draped in Spanish moss that softens Gothic angel monuments and ancient oak groves. Noted figures like songwriter Johnny Mercer and poet Conrad Aiken rest under its canopy, earning past praise from travelers like John Muir and Oscar Wilde.",
+        "In Massachusetts, Salem's Old Burying Ground preserves the grave of John Hathorne, one of the prominent judges who oversaw the 1692 Salem witch trials. Interestingly, those condemned and executed during the trials were denied Christian burial, leaving Hathorne resting near the victims' absent memory.",
+        "On the West Coast, Hollywood Forever Cemetery takes a completely different path. Established in Los Angeles, it houses luminaries from Judy Garland to David Lynch. Rather than maintaining somber silence, the cemetery embraces its film heritage with outdoor summer cinema screenings and lively celebrations, turning memorial architecture into an active community space."
+      ],
+      "source": {
+        "id": "mental-floss",
+        "name": "Mental Floss",
+        "url": "https://www.mentalfloss.com/geography/wanderlust/best-cemetery-tours-us?utm_source=RSS"
+      },
+      "wiki": "St._Louis_Cemetery",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/til-the-historic-american-cemeteries-best-seen-with.jpg",
+        "credit": "www.mentalfloss.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "fun-florida-gambling-helpline-director-sentenced-for",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "florida",
+        "irony",
+        "crime",
+        "addiction"
+      ],
+      "title": "Florida Gambling Helpline Director Sentenced for Embezzling to Fund Addiction",
+      "snippet": "In an irony almost too perfect for fiction, the head of Florida's problem gambling support line was just sentenced to a decade behind bars.",
+      "body": [
+        "Philip Lee Sullivan, the former director of Florida's 888-ADMIT-IT gambling helpline, has received nearly ten years in state prison. The charge: embezzling company cash from his prior employer to bankroll his own compulsive gambling addiction.",
+        "Before stepping up to run the state helpline, Sullivan served as chief financial officer for Royal American in Panama City. An internal audit discovered he had been charging company credit cards for gift cards and cash cards to keep his betting habit going, leading to six felony charges and nearly $1.5 million in restitution."
+      ],
+      "more": [
+        "Sullivan's legal troubles began after an internal audit in March 2024 revealed widespread unauthorized transactions on his corporate credit card. The transactions stretched back to April 2023, during which he systematically acquired gift cards and cash cards to feed his habit.",
+        "Bizarrely, Sullivan went on to lead the Florida Council on Compulsive Gambling’s helpline starting in March 2025. Just three days before receiving his prison sentence, he appeared on an ODAAT Gambling Awareness podcast interview, speaking publicly about how gambling had destroyed his personal finances and plunged him into debt.",
+        "In court, Sullivan's family and defense attorneys argued that his behavior had been exacerbated by an Adderall prescription for ADHD. His wife testified that she noticed stark personality shifts once the medication started, maintaining he would not have committed the crimes without it.",
+        "Prosecutors countered that Sullivan's actions were far from accidental or reckless impulses. Witnesses testified that he intentionally dismantled company safeguards and navigated around internal fraud controls to siphon funds away.",
+        "Online observers could not ignore the headline's bitter perfection, with commenters noting he was certainly qualified to understand the caller's plight, if entirely unprepared to model the solution."
+      ],
+      "source": {
+        "id": "r-nottheonion",
+        "name": "r/nottheonion",
+        "url": "https://www.reddit.com/r/nottheonion/comments/1xaekzk/florida_gambling_helpline_director_jailed_for/"
+      },
+      "wiki": "Problem_gambling",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/fun-florida-gambling-helpline-director-sentenced-for.jpg",
+        "credit": "File:Gambling_chips.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "rove",
+        "rebrand",
+        "motion-graphics",
+        "studio-news"
+      ],
+      "title": "ROVE Rebrands to Reflect Its Evolution into a Motion-Led Studio",
+      "snippet": "Portland-born studio ROVE unveils a fresh brand identity and website as it completes its shift from live-action to design and animation.",
+      "body": [
+        "Founded in Portland, Maine, in 2017 by Gabe Bornstein and Jay Brown as a two-person live-action shop, ROVE has officially launched a new brand identity and website. The rebrand marks its evolution into a design-, animation-, and motion-led creative studio operating with a remote team across the US and Canada.",
+        "The studio's in-house creative team led the rebranding effort, collaborating with artists like Irene Feleo on the wordmark and core stamp, alongside Connor Linde for elements of the visual identity. The new digital home, built in partnership with STOKT, features expanded case studies for major clients including Google, Spotify, and NOBULL."
+      ],
+      "more": [
+        "ROVE's strategic shift reflects a broader trend of production houses embracing a fluid, multi-disciplinary model. While the company retains its original name, it has introduced the moniker \"Beyond\" to encapsulate its ability to move between design, 2D/3D animation, VFX, and traditional live-action production without being boxed into a single niche.",
+        "To support this new phase of growth, ROVE has signed with Ashley McKim Consulting for strategic sales and agency representation. This complements their ongoing partnership with Aspire Artists Agency, which continues to handle their entertainment and broadcast side—responsible for prominent work such as Disney and Freeform's 25 Days of Christmas campaign.",
+        "The newly launched website at rovebeyond.com showcases their updated showreel alongside in-depth project breakdowns that detail their process from early design concepts through finishing. Adding a bit of personality to the corporate overhaul, the team even included an interactive mini-game on their 404 page.",
+        "By grounding their brand identity in strong motion design and flexible typography, ROVE positions itself to capture high-end agency work while maintaining the creative agility of a distributed remote collective."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/rove-new-brand-identity-website-ashley-mckim/"
+      },
+      "wiki": "Motion_graphics",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/motion-rove-rebrands-to-reflect-its-evolution-into-a-mo.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "motion-the-continuous-thread-from-cosmic-chaos-to-human",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "tomakti-studio",
+        "dimitrios-sakkas",
+        "animation",
+        "motion-design"
+      ],
+      "title": "The Continuous Thread: From Cosmic Chaos to Human Starlight",
+      "snippet": "Dimitrios Sakkas's new short film traces a visual arc from the Big Bang to a quiet moment atop a mountain peak.",
+      "body": [
+        "Tomakti Studio has released *The Continuous Thread*, a poetic short film created by animator Dimitrios Sakkas. The project sets out to visualize the unbroken link between cosmic history and human presence, beginning at the origin of the universe and ending on a quiet mountain summit.",
+        "The narrative opens with the violent genesis of the cosmos, where glowing particles and turbulent fluid motions morph into forming planets. As the scale shifts downward, cosmic geometry yields to terrestrial life, depicting dense forests and wildlife before focusing on a single human observer."
+      ],
+      "more": [
+        "The film relies heavily on transitions of scale, using flowing particle systems and abstract geometric motion to seamlessly bridge light-years of space with organic biological forms. The visual motif reinforces the scientific reality that the elements composing human life were forged inside ancient stars.",
+        "Audio plays a crucial role in grounding the grand visual narrative. The atmospheric score was composed by Angelos Liaros (performing as Blakk Harbor), accompanied by detailed sound design from Sotiris Laskaris. Together, the soundscape transitions from low, rumbling cosmic rumbles to tactile, natural ambience as the visual camera settles on Earth.",
+        "By weaving macro cosmic imagery with intimate micro details, Sakkas offers a meditative study in pacing and visual continuity, proving how abstract motion graphics can evoke deep existential resonance."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/quickie/the-continuous-thread-tomakti-studio/"
+      },
+      "wiki": "Animation",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/motion-the-continuous-thread-from-cosmic-chaos-to-human.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "motion-animating-ui-promos-outside-after-effects-using",
+      "topic": "motion",
+      "sub": "techniques",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "reddit",
+      "tags": [
+        "davinci-resolve",
+        "figma",
+        "ui-animation",
+        "app-promo"
+      ],
+      "title": "Animating UI Promos Outside After Effects using Figma and DaVinci Resolve",
+      "snippet": "A motion designer demonstrates a workflow for building sleek 3D phone app promos without touching standard Adobe tools.",
+      "body": [
+        "A creator on r/MotionDesign shared a 35-second concept app promo for a food delivery service named SwiftBite, detailing a workflow that bypasses After Effects entirely in favor of Figma and DaVinci Resolve.",
+        "The author designed all interface screens inside Figma before importing the assets into Resolve for compositing, camera moves, and final editing. The resulting promo highlights key user journeys—browsing, live tracking, and delivery notifications—framed around 3D device mockups and kinetic typography."
+      ],
+      "more": [
+        "The breakdown highlights a growing shift among indie motion designers looking for streamlined alternatives to traditional After Effects pipelines for UI showcase videos. By leveraging DaVinci Resolve's built-in Fusion page for 3D camera moves and node-based compositing, creators can achieve smooth spatial maneuvers around screen layouts directly on their edit timeline.",
+        "Key design choices focused on conversion-driven pacing: using warm gradient palettes to match the brand identity, keeping kinetic text snappy for short-form social video formats (Reels, TikTok, and Shorts), and maintaining tight camera tracking on micro-interactions to keep viewers engaged.",
+        "Reddit commentators and fellow designers noted the potential of this pipeline for rapid SaaS and mobile app marketing, where tight feedback loops between UI design files and final video renders are critical."
+      ],
+      "source": {
+        "id": "r-motiondesign",
+        "name": "r/MotionDesign",
+        "url": "https://www.reddit.com/r/MotionDesign/comments/1xa9uq5/designed_in_figma_animated_in_davinci_resolve_a/"
+      },
+      "wiki": "DaVinci_Resolve",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/motion-animating-ui-promos-outside-after-effects-using.png",
+        "credit": "File:DaVinci_Resolve_Studio.png"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ai-openmoss-lands-in-comfyui-with-structured-layout",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "reddit",
+      "tags": [
+        "comfyui",
+        "open-source",
+        "image-generation"
+      ],
+      "title": "OpenMOSS Lands in ComfyUI with Structured Layouts and Actual Legible Text",
+      "snippet": "A new 5B DiT model bridges the gap between raw generation and graphic design, taking JSON bounding boxes to place elements right where you want them.",
+      "body": [
+        "OpenMOSS has released MOSS-Image, an open-source 5B Diffusion Transformer (DiT) released under Apache 2.0 that pairs a Qwen3.5-9B text encoder with the FLUX.2 VAE. It is already supported in ComfyUI, shipping in both a Base version and an SFT release fine-tuned on curated data.",
+        "What makes it stand out for design workflows is control. Alongside rendering surprisingly crisp, legible text in English and Chinese, MOSS-Image supports structured layout prompts. You can feed it bounding boxes inside a JSON payload to dictate exactly where typography and visual elements should land on the canvas.",
+        "Because it is not step-distilled, rendering takes a bit of time (the suggested default sits at 50 steps, CFG 3, shift 5 at 1024×1024). The raw BF16 weights are heavy at around 27 GB combined, but community INT4 and INT8 quants are already running happily on 8 GB cards."
+      ],
+      "more": [
+        "Open-weight image generation has made massive leaps in photographic realism, but graphic designers and motion artists frequently hit a wall with typography and spatial composition. Generating a movie poster, thumbnail, or UI mock-up typically requires either heavy inpainting passes or bringing assets into Illustrator to overlay typography manually.",
+        "MOSS-Image attacks this limitation directly by combining a heavy linguistic backbone with bounding box spatial control. By using Qwen3.5-9B as the text encoder, the model exhibits a far firmer grasp of character structure and spelling, avoiding the garbled glyphs typical of older diffusion architectures.",
+        "Layout control via JSON is where things get truly practical. Instead of wrestling with negative prompts and loose positional tokens like 'on the top left', users can define explicit bounding boxes. This makes it viable for automated production pipelines, automated card generation, or laying down balanced design compositions before animating the source assets.",
+        "Resource requirements are steep at full precision—a 10 GB DiT model matched with a 17 GB text encoder easily overflows modest consumer setups. However, the rapid emergence of quantized checkpoints means hobbyists and solo creators can experiment with it without needing enterprise-grade VRAM.",
+        "The official workflow and files are accessible via Hugging Face under Comfy-Org/MOSS-Image, giving node-based creators an immediate playground to test structured prompt layouts."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xa6wmo/openmoss_released_mossimage_and_its_now_supported/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ai-one-third-of-the-most-popular-comfyui-custom-nod",
+      "topic": "ai",
+      "sub": "motion-ai",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "reddit",
+      "tags": [
+        "comfyui",
+        "open-source",
+        "workflows"
+      ],
+      "title": "One Third of the Most Popular ComfyUI Custom Nodes Haven’t Been Updated in Over a Year",
+      "snippet": "A new nightly tracker reveals the fragility of node-based AI workflows, showing that 98 of the top 300 custom packs have gone entirely quiet.",
+      "body": [
+        "Anyone chaining together complex pipelines in ComfyUI knows the terror of hitting 'Update All' and watching half their custom nodes break. Frustrated by the mystery of whether packs were abandoned or merely quiet, a developer built NodeWatch, a tracker auditing the top 300 extensions across 6,000 registered packages.",
+        "The diagnostic numbers are eye-opening: 98 of the top 300 packs have had zero commits in the past 12 months, and 15 haven't seen an update in over two years. Together, those 98 dormant packages represent roughly 22.6 million downloads from the registry.",
+        "Beloved foundational toolkits like ComfyUI_essentials and ComfyUI_IPAdapter_plus haven't pushed code since April 2025. Meanwhile, repositories for heavily used utilities like comfyui-reactor-node have vanished from GitHub entirely despite lingering on the registry."
+      ],
+      "more": [
+        "The modern generative workflow relies heavily on community-maintained node ecosystems. Whether routing latents for upscaling, manipulating image masks, or chaining video conditioning, creators routinely stitch together dozens of independent extensions. When core dependencies drift, fragile production pipelines crumble.",
+        "NodeWatch checks the registry nightly to parse GitHub activity, commit dates, issue counts, and package metadata. Out of the 296 tracked repositories returning issue data, the tool surfaced approximately 6,400 open issues, with over 1,000 containing explicit flags like 'error', 'crash', 'fail', or 'broken' in their headers.",
+        "A major root cause behind the instability is package hygiene. While 293 of the top 300 packs maintain a pyproject configuration, only 12 declare an explicit 'requires-comfyui' version boundary. Without clear compatibility guardrails, users are left playing Russian roulette whenever the core ComfyUI engine pushes breaking changes.",
+        "The author cautions that a 'Stale' label is a heuristic rather than an automatic death sentence. Many established nodes solve narrow, straightforward mathematical or image-routing problems and simply do not need ongoing code churn once stable.",
+        "Still, with several popular packs accumulating fresh issue backlogs and missing upstream repos, the tracker serves as a vital sanity check before building a new workflow around unmaintained foundations."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1x9xs6u/98_of_the_300_mostpopular_comfyui_custom_nodes/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ai-microsoft-warns-ai-agents-are-insider-threats-as",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "frontier-models",
+        "ai-agents",
+        "security"
+      ],
+      "title": "Microsoft Warns AI Agents Are 'Insider Threats' as Frontier Models Can’t Be Trusted",
+      "snippet": "Satya Nadella is telling companies to stop taking safety assurances at face value, treating deployed autonomous agents like unpredictable rogue employees.",
+      "body": [
+        "Microsoft has introduced Guardian Agents under its Project Perception security banner, pitched as an independent monitoring shield for enterprises deploying autonomous AI. The launch reflects a shifting internal posture: rather than just guarding against external attacks, companies must treat internal AI agents as potential insider threats.",
+        "Microsoft security chief Hayete Gallot stated bluntly that frontier models cannot be trusted—not necessarily because they are malicious, but because they are fundamentally unpredictable. Trained strictly to complete tasks, agents lack organizational judgment even when given wide access to critical infrastructure.",
+        "CEO Satya Nadella echoed the sentiment on his blog, arguing that enterprises cannot outsource responsibility to the labs training these systems. His takeaway: organizations must separate the suppliers of raw intelligence from the authority overseeing it."
+      ],
+      "more": [
+        "Project Perception debuted originally to combat automated offensive tooling like Anthropic’s Mythos and OpenAI’s Daybreak scanner. It initially framed enterprise defense around simulated attacks using red, blue, and green AI teams. However, the rapid rollout of autonomous operational agents shifted the threat landscape inward.",
+        "As tools like Claude Code, Codex, and OpenClaw gain root-level autonomy across developer environments and internal company databases, their blast radius expands exponentially. If an agent misinterprets an objective, it holds the permissions necessary to delete databases, leak proprietary data, or push flawed code without human review.",
+        "There is an obvious commercial irony at play. Microsoft has poured billions into OpenAI and Anthropic, relying on their technology across its product lines. By positioning frontier models as inherently risky, Microsoft is attempting to carve out a lucrative niche as the authoritative cloud-level auditor and intermediary.",
+        "The newly announced Guardian Agents join an update to Microsoft Defender that detects up to 60 distinct agent frameworks brought into workplaces by staff. The system is designed to dynamically throttle permissions based on task risk and demand human sign-off when an agent makes sensitive operational calls.",
+        "This defensive posture is rapidly coalescing into industry policy. Microsoft recently joined over 100 technology firms backing Nvidia's Open Agent Safety Platform, which uses hardware-isolated sandbox environments to enforce physical kill switches if an autonomous workflow wanders out of bounds."
+      ],
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch · AI",
+        "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+      },
+      "wiki": "Microsoft",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/ai-microsoft-warns-ai-agents-are-insider-threats-as.png",
+        "credit": "techcrunch.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "evergreen",
+      "published": "2026-09-24",
+      "style": "story",
+      "tags": [
+        "gravel-racing",
+        "bike-tech",
+        "trek-domane",
+        "gravel-gear"
+      ],
+      "title": "How a Parking Lot Wheel Swap Crowned a Gravel National Champion",
+      "snippet": "Cobe Freeburn’s winning setup for the US Gravel National Championship wasn’t a corporate master plan. It started with two bike nerds messing around outside a condo in Steamboat Springs.",
+      "body": [
+        "Before Cobe Freeburn powered across the finish line to claim the US Gravel National Championship, his choice of machinery was born out of pure, informal bike curiosity. While covering the scene ahead of SBT GRVL in Steamboat Springs, cycling journalist Logan Jones-Wilkins pulled an unreleased Trek Domane road-endurance test bike out of his truck to show Freeburn, a 24-year-old Trek-sponsored pro from Durango.",
+        "What followed was an impromptu garage experiment. Freeburn grabbed a set of gravel wheels shod with 45mm tires, threw them onto the Domane frame with teammate Daxton Mock watching, and realized the road bike had enough room to turn into an ultra-fast gravel weapon.",
+        "Months later, Freeburn crossed the line in first place at Gravel Nationals aboard that very platform. Fellow Trek rider Paige Onweller also piloted the Domane to victory in the women’s race, proving that grassroots tinkering can outsmart boardroom equipment planning."
+      ],
+      "more": [
+        "As gravel racing continues to professionalize, the sport is seeing larger support staffs, corporate marketing strategies, and higher media demands. Yet, the roots of the discipline still retain a distinct, DIY spirit where riders and mechanics obsess over non-standard setups.",
+        "When Jones-Wilkins arrived in Steamboat Springs with the unreleased Domane, it was still roughly two months away from its public launch. Freeburn knew the bike existed because of his factory affiliation, but he had never laid eyes on one in person. Spotting it in the back of a truck quickly turned casual gear talk into tactical plotting.",
+        "Squeezing wide gravel rubber into road endurance frames is a classic privateer move, trading off excessive mud clearance for tighter geometry, aerodynamic efficiency, and lower overall weight on hardpack courses. According to Paige Onweller, making the switch happen under a factory umbrella was actually a stretch behind the scenes rather than a coordinated push from Trek.",
+        "Ultimately, Freeburn's victory showed that even as commercial interests flood off-road racing, winning setups are still occasionally dictated by two guys in a dusty parking lot asking what happens if you squeeze wider rubber into an endurance road frame."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/cobe-freeburn-trek-domane-gravel-nationals-bike-dropped-newsletter/"
+      },
+      "wiki": "Trek_Bicycle_Corporation",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "evergreen",
+      "published": "2026-09-24",
+      "style": "explainer",
+      "tags": [
+        "titanium-bikes",
+        "moots-routt",
+        "gravel-tech",
+        "bike-geometry"
+      ],
+      "title": "Moots Overhauls the Routt With 57mm Clearance and Modern Geometry",
+      "snippet": "Moots has consolidated its classic titanium Routt gravel line into a single, highly capable platform built around massive tire clearance and slackened front ends.",
+      "body": [
+        "Steamboat Springs titanium builder Moots has rolled out a major redesign of its flagship Routt gravel frame. Rather than splitting the lineup across multiple distinct offshoots like the Routt 45, Routt CRD, and Routt RSL, the new model folds them into a single modernized platform, with a premium RSL titanium tubing variant planned for 2027.",
+        "The standout technical change is massive tire clearance, pushing up to 57mm, though designed fundamentally around 50mm rubber. The geometry stretches to match: longer 437mm chainstays provide high-speed stability, while a 70.5-degree head tube angle paired with a 50mm offset carbon fork relaxes front-end handling over loose terrain.",
+        "The frame embraces contemporary standards, including in-house machined UDH dropouts, a 3D-printed titanium chainstay yoke clearing up to 48-tooth chainrings, and an internal-only cable layout driven by a D-shaped carbon steerer tube."
+      ],
+      "more": [
+        "When Moots first introduced the Routt in 2013, gravel bikes were still closely tethered to cyclocross frames with slightly relaxed geometry and mild clearance boosts. Over the past decade, technical courses and rough backcountry washboards have shifted design philosophies closer to early rigid mountain bikes, making clearance for wide-volume tires standard practice.",
+        "The construction of the new Routt relies on American-made titanium welded in Colorado, paired with a newly designed carbon gravel fork. The frame incorporates an integrated 3D-printed yoke on the drive-side chainstay, an engineering solution that allows builders to squeeze wide tires against large chainrings without compromising structural rigidity or chainstay length.",
+        "Modern integration comes with specific constraints: the frame features completely internal routing guided through a D-shaped fork steerer, making it exclusively compatible with electronic shifting systems. Dropouts have also been updated to SRAM’s Universal Derailleur Hanger (UDH) standard, directly supporting transmission-style direct-mount rear derailleurs.",
+        "As expected from handmade titanium, entry pricing sits at the premium end of the market. The standalone frameset retails for $5,499, while complete SRAM builds range from $9,999 for a Force XPLR 13-speed setup up to $12,499 for Red XPLR, rolling on NOBL FAR 50 carbon hoops and Chris King bearings."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/moots-routt-updates-bigger-tire-clearance/"
+      },
+      "wiki": "Moots_Cycles",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/bike-moots-overhauls-the-routt-with-57mm-clearance-an.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "bike-uci-gravel-worlds-skips-the-us-heartland-through",
+      "topic": "bike",
+      "sub": "gravel",
+      "kind": "evergreen",
+      "published": "2026-09-24",
+      "style": "news",
+      "tags": [
+        "uci-gravel",
+        "gravel-racing",
+        "cycling-news",
+        "world-championships"
+      ],
+      "title": "UCI Gravel Worlds Skips the US Heartland Through at Least 2031",
+      "snippet": "Despite America creating the modern gravel racing scene, the UCI’s newly released championship schedule locks the race out of the United States for the next half-decade.",
+      "body": [
+        "The UCI has announced 19 upcoming world championship hosts across its cycling disciplines, and the United States was entirely absent from the gravel calendar through 2031. For the country that turned farm tracks and county dirt roads into a global discipline, the rainbow jersey will stay across the Atlantic and in the Middle East.",
+        "Upcoming editions of the Gravel World Championships are slated for Châtel, France in 2027, AlUla, Saudi Arabia in 2028, Villars-sur-Ollon, Switzerland in 2029, Turnhout, Belgium in 2030, and Trentino, Italy in 2031.",
+        "While iconic US events like Unbound Gravel and SBT GRVL remain the cultural and commercial heart of the scene, the discipline's official championship has never set foot on American soil since its inception in 2022."
+      ],
+      "more": [
+        "Gravel cycling evolved from a scrappy, American grassroots scene into cycling's biggest growth driver over the last decade. Yet the UCI’s sanctioned world championship has struggled to fully win over the sport's traditional privateer base, where events emphasize massive mass-participation formats over governed elite pelotons.",
+        "That divide has also played out on the podium: since the championship was established, pure gravel specialists have frequently been beaten to the rainbow jersey by crossover WorldTour road stars like Mathieu van der Poel and Marianne Vos.",
+        "The UCI's calendar also showed an absence of North American road worlds in the medium term, leaving 2033 as the next possible opening for a US road event. However, off-road fans will see some elite mountain bike racing: Durango, Colorado will host the 2030 MTB Worlds, followed by Mont-Sainte-Anne, Canada in 2032, and Atlixco, Mexico for the 2029 MTB Marathon Worlds.",
+        "Beyond gravel, the governing body is looking to expand into emerging markets, confirming Pune, India as the host of the 2032 road championships—a milestone push into a country of 1.4 billion people that has rarely seen top-tier UCI calendar fixtures."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-was-built-in-america-but-uci-worlds-arent-coming-any-time-soon/"
+      },
+      "wiki": "UCI_Gravel_World_Championships",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/bike-uci-gravel-worlds-skips-the-us-heartland-through.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "news-a-look-beneath-the-hood-of-the-us-economy",
+      "topic": "news",
+      "sub": "economy",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "explainer",
+      "tags": [
+        "us-economy",
+        "inflation",
+        "tariffs",
+        "macroeconomics"
+      ],
+      "title": "A Look Beneath the Hood of the US Economy",
+      "snippet": "Top-line GDP numbers tell a story of resilience, but rising borrowing costs and stubborn inflation reveal a far more complicated picture for ordinary households.",
+      "body": [
+        "Heading into the midterm elections, top-line figures present a resilient United States economy: GDP is expanding at an annualized rate of 2.2%, outpacing every other G7 nation. Much of this momentum is bolstered by a private boom in artificial intelligence infrastructure, with monthly spending on data centre construction reaching roughly $5 billion.",
+        "Behind that growth, however, lies persistent consumer pressure. Inflation sits at 3.7%, having climbed from the 3% baseline seen at the start of 2025. Economists link the uptick both to broad import tariffs and to energy market disruptions stemming from overseas conflict.",
+        "As a result, daily expenses and capital costs are squeezing typical families. Mortgage rates have pushed past 7%, slowing the housing sector, while job additions have cooled to an average of 34,000 per month."
+      ],
+      "more": [
+        "While aggregate expansion has outdone the International Monetary Fund's earlier pessimistic forecasts, the distributional impact remains sharply uneven. An analysis by the Institute on Taxation and Economic Policy suggests the middle fifth of American households is roughly $1,700 worse off in 2026 than otherwise projected, reflecting higher retail prices and the expiration of certain healthcare subsidies.",
+        "By contrast, the top 1% of earners has seen notable net gains, primarily driven by tax policy shifts. The promised manufacturing boom intended to counter these strains has been slow to materialize: net monthly job growth has settled around 34,000, down from the 122,000 monthly pace recorded late in 2024.",
+        "Financial markets are also pricing in the wider public balance sheet. Heavy government borrowing has pushed 10-year US Treasury yields above 5%, hitting marks unseen since the 2007 financial crisis. That baseline ripples directly into long-term private borrowing.",
+        "In the housing market, 30-year fixed mortgages have reached an average rate of 7.4%. This has largely frozen activity: prospective first-time buyers find entry points unaffordable, while current homeowners cling tightly to legacy mortgages locked in during years of rock-bottom rates.",
+        "Looking forward, economists point to two clear pressure points. Continued momentum depends heavily on whether massive corporate spending on data centres and AI can sustain its current clip, and whether elevated bond yields eventually force a broader slowdown across consumer credit."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Economy_of_the_United_States",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/news-a-look-beneath-the-hood-of-the-us-economy.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "news-how-el-nino-split-the-pacific-and-atlantic-hurri",
+      "topic": "news",
+      "sub": "climate",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "climate",
+        "el-nino",
+        "meteorology",
+        "hurricanes"
+      ],
+      "title": "How El Niño Split the Pacific and Atlantic Hurricane Seasons",
+      "snippet": "Warm equatorial waters have sparked an intense storm surge in the eastern Pacific, even as Atlantic hurricane paths stay surprisingly quiet.",
+      "body": [
+        "This year's weather patterns show a stark split across the world's major oceans. In the eastern Pacific, unusually warm waters have fueled a relentless hurricane run, producing 22 named storms, 12 hurricanes, and 10 major systems well before the official season closes.",
+        "The Atlantic basin, meanwhile, has experienced an eerie calm. Increased upper-atmosphere wind shear has suppressed cyclone formation, yielding only eight tropical storms and just one hurricane so far.",
+        "The divergence demonstrates the mechanical influence of the El Niño climate cycle, which simultaneously creates ideal nursery conditions for storms in one ocean while tearing them apart in another."
+      ],
+      "more": [
+        "The driving engine behind the Pacific surge is a combination of elevated sea-surface temperatures and weakened vertical wind shear high in the atmosphere. This setup allows developing disturbances to organize rapidly without having their cloud structures disrupted.",
+        "A prime example was Hurricane Polo, which underwent rapid intensification to generate gusts of up to 180 mph (285 km/h). Polo was part of a rare cluster of three simultaneous hurricanes churning across the basin alongside Odalys and Nolo—a phenomenon that has already repeated twice this season, having last occurred in 2015.",
+        "Across the Americas, the Atlantic side tells the opposite story. High wind shear rips apart convection before storms can consolidate into organized tropical depressions. The only hurricane to form there so far, Isaias, struck the Florida Panhandle and Alabama after setting a record as the latest-forming first Atlantic hurricane in the modern satellite era.",
+        "By this point in a typical year, the Atlantic would usually record ten named storms, five hurricanes, and two major systems. The contrasting baselines highlight how large-scale Pacific warming reroutes atmospheric energy across the entire continent."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "El_Niño",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/news-how-el-nino-split-the-pacific-and-atlantic-hurri.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "tech-bugged-meeting-rooms-and-royal-texts-inside-the",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "artificial-intelligence",
+        "cybersecurity",
+        "openai",
+        "espionage"
+      ],
+      "title": "Bugged meeting rooms and royal texts: inside the OpenAI espionage case",
+      "snippet": "A former engineer at OpenAI allegedly hid listening devices behind office monitors before trying to board a one-way flight to Riyadh.",
+      "body": [
+        "A federal court has denied bail to former OpenAI engineer Abdulrahman Alfozan, who is accused of planting hidden listening devices inside confidential conference rooms at the artificial intelligence lab.",
+        "According to US government filings, Alfozan modified recording devices to trigger automatically on speech, planting them in rooms hosting top-level executive meetings and discussions with US government officials. Days before his planned departure on a one-way ticket to Saudi Arabia, federal agents arrested him.",
+        "The case pulls the curtain back on the fierce international battle for frontier AI talent and technology, complete with WhatsApp chats with Saudi royalty, corporate espionage, and a frantic attempt to board flights abroad."
+      ],
+      "more": [
+        "Abdulrahman Alfozan joined OpenAI as an engineer in July 2025 with an annual base pay of $325,000 and $2.2 million in profit units. An MIT and UC Berkeley graduate with over a decade of Silicon Valley experience, he seemed like a standard senior hire. However, prosecutors allege that shortly after arriving, he began planning covert operations inside the firm.",
+        "Investigators revealed that Alfozan used his wife's personal ChatGPT account to research methods for modifying audio equipment into remotely controlled bugs that recorded whenever speech was detected. He also queried internal OpenAI productivity agents to map out which conference rooms were best suited for clandestine surveillance.",
+        "About two weeks before Alfozan was scheduled to fly to Riyadh on parental leave, OpenAI staff discovered a recording device stashed in a meeting room. The bug had captured conversations during critical visits by US government officials. Photos recovered from Alfozan's iPhone later showed audio hardware tucked behind television panels in other conference spaces.",
+        "The FBI also uncovered phone logs documenting conversations between Alfozan and a member of the Saudi royal family. In one chat, an official urged that 'Saudi needs you more then [sic] the US!', to which Alfozan replied '100'. Further logs showed him accessing a directory titled 'Saudi Gov Docs' on his phone and asking AI models to list high-ranking OpenAI personnel suitable for meetings with Saudi ministers.",
+        "Arguing against bail, federal prosecutors noted that Alfozan's family ticket to Riyadh had been paid for by the Saudi state, and after his arrest, a Saudi military contact booked another business-class route for his wife and child to Doha. Magistrate Judge Alex G. Tse agreed that the former engineer posed a severe flight risk, ordering him held in custody while formal charges proceed."
+      ],
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+      },
+      "wiki": "OpenAI",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/tech-bugged-meeting-rooms-and-royal-texts-inside-the.jpg",
+        "credit": "arstechnica.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "tech-a-99-car-tracker-betting-parents-care-more-about",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "explainer",
+      "tags": [
+        "gadgets",
+        "connected-cars",
+        "hardware",
+        "privacy"
+      ],
+      "title": "A $99 car tracker betting parents care more about privacy than spy gear",
+      "snippet": "Most connected car dongles either died or sold user driving logs to brokers. A new startup wants to charge upfront instead.",
+      "body": [
+        "Modern vehicles capture reams of driving metrics, and car manufacturers frequently bundle that data into broker feeds. Enter the Miles Plug: a screenless, battery-free dongle that plugs into an OBD-II port to log trips, diagnose engine codes, and monitor driver habits without sharing your data.",
+        "Developed by former Wink and Ring alumni, the gadget targets parents of teenage drivers. It logs sudden braking, speed alerts, and maintenance warnings to a shared dashboard, keeping both parent and teen on the exact same view.",
+        "Rather than subsidizing hardware by selling telematics to insurance firms, the company charges $99 up front alongside a yearly subscription, aiming to survive where earlier predecessors famously crashed."
+      ],
+      "more": [
+        "The Miles Plug is built around an older concept originally popularized by devices like the Automatic Pro back in 2016. Automatic offered real-time car diagnostics and crash detection over cellular networks, but folded in 2020 after finding its one-off purchase business model completely unsustainable without recurring income.",
+        "Founders Matt McGovren and Kit Klein lived through similar pain points at Wink, experiencing outages and eventual insolvency before launching Miles. To avoid repeating that trajectory, Miles charges $180 per year on top of the $99 device price, framing the cost as a bundled alternative to separate roadside assistance, location sharing, and telematics suites.",
+        "Privacy is the core sales pitch. Major automakers have faced mounting criticism—and regulatory bans, in General Motors' case—for offloading driver behavior files to data aggregators. Miles claims all car telemetry is encrypted, with sensitive data end-to-end secured. Because tracking belongs to the physical dongle and not a mobile phone app, location tracing ends the moment you walk away from the vehicle.",
+        "Under the hood, the system reads the car's VIN directly from the port, feeding diagnostics into an AI assistant dubbed 'Miles Mechanic.' The chatbot translates cryptic dashboard check-engine lights into repair estimates and scheduled maintenance windows like air filter updates and tire rotations.",
+        "Looking forward, the developers are beta testing an MCP (Model Context Protocol) server connection. The goal is to allow owners to route local vehicle data to personal smart home assistants or private local AI engines, letting drivers check fuel levels or schedule checkups entirely on their own terms."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1013918/miles-plug-vehicle-tracking-data-privacy-specs-price-launch-date"
+      },
+      "wiki": "On-board_diagnostics",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/tech-a-99-car-tracker-betting-parents-care-more-about.jpeg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "tech-a-russian-military-satellite-shadowed-an-earth-i",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "space",
+        "satellites",
+        "defense",
+        "astronomy"
+      ],
+      "title": "A Russian military satellite shadowed an Earth-imaging craft in low orbit",
+      "snippet": "Orbital tracking systems logged an unprecedented close-range maneuver around a commercial imaging satellite used by Ukraine.",
+      "body": [
+        "A Russian military satellite, Kosmos 2612, executed a series of unsanctioned proximity maneuvers around a commercial radar satellite, ICEYE-X36, according to orbital data firm LeoLabs.",
+        "The Russian craft closed in from hundreds of kilometers away before maintaining formation just 500 meters away—and likely closer. The two spacecraft were temporarily so close that ground radar struggled to separate them.",
+        "The incident represents the first documented case of an unsanctioned rendezvous and proximity operation of this scale against a Western commercial imaging platform in low-Earth orbit."
+      ],
+      "more": [
+        "The rendezvous occurred between Kosmos 2612, a spacecraft launched aboard a Russian Soyuz rocket in April, and ICEYE-X36, a US-operated radar satellite whose imagery plays an active role in supporting Ukrainian battlefield intelligence.",
+        "LeoLabs, which maintains a worldwide network of radars tracking debris and operational satellites down to two centimeters across, noted that multiple Russian payloads had been loitering near ICEYE-X36's orbital plane for months. Four of the six satellites deployed in the April Soyuz launch made orbital adjustments that aligned them directly with the target craft.",
+        "The operation escalated sharply when Kosmos 2612 fired its thrusters to close the remaining gap. By late in the week, it had settled into station-keeping positions 2 to 3 kilometers away before shifting ahead and behind ICEYE-X36.",
+        "Over the weekend, separation distances plummeted below 500 meters (1,640 feet). 'This was not a routine conjunction or flyby,' LeoLabs confirmed in their analysis, citing controlled approaches, positional adjustments, and loitering that match textbook rendezvous and proximity operations (RPO).",
+        "While direct kinetic attacks remain rare due to debris risks, orbital tailing allows militaries to inspect adversary sensor payloads, practice non-destructive electronic jamming, or signal strategic vulnerability to commercial vendors operating in conflict zones."
+      ],
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/"
+      },
+      "wiki": "Satellite",
+      "lang": "en",
+      "explore": true,
+      "image": {
+        "src": "editions/2026-10-20/tech-a-russian-military-satellite-shadowed-an-earth-i.jpg",
+        "credit": "arstechnica.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "tech-apple-schedules-surprise-late-october-event-for",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "apple",
+        "macbook-pro",
+        "hardware",
+        "display"
+      ],
+      "title": "Apple schedules surprise late October event for OLED laptops and M6 chips",
+      "snippet": "A second October presentation will spotlight touchscreen MacBook Pros, thinner chassis, and an OLED overhaul for the iPad Mini.",
+      "body": [
+        "Apple has sent out invites for a product event set for October 28th in Los Angeles, confirming plans for a second autumn launch.",
+        "Marketing executive Greg Joswiak teased the showing on social media with the tagline 'Can’t wait to pro and tell', signaling significant updates to high-end portable hardware.",
+        "Expected headlines include an OLED touchscreen redesign for the MacBook Pro, a lighter chassis featuring a Dynamic Island cutout, and the broader rollout of the M6 generation chip."
+      ],
+      "more": [
+        "The announcement comes quickly after Apple's initial hardware refreshes, confirming industry leaks that pointed to a late-fall display overhaul across the computing line. The scheduled October 28th keynote is set to air at 1 PM ET.",
+        "Leading the hardware list is a redesigned MacBook Pro. For years, Apple avoided touch interfaces on its primary macOS portables, but reports indicate the flagship laptop will incorporate an OLED touchscreen panel alongside a slimmer overall chassis. The redesign is also rumored to swap the traditional screen notch for an iPhone-style Dynamic Island.",
+        "Under the hood, Apple is preparing to install its M6 generation silicon across the lineup, following its recent introduction in the Mac Mini. Both a 14-inch MacBook Pro variant and updated all-in-one iMacs are slate to receive the chip upgrade.",
+        "The event isn't exclusively reserved for Mac hardware. An updated iPad Mini is also slated for introduction, bringing an OLED panel to the compact tablet along with a repositioned selfie camera moved to the landscape bezel for better video calling alignment."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
+      },
+      "wiki": "MacBook_Pro",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/tech-apple-schedules-surprise-late-october-event-for.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "science-esa-s-euclid-telescope-was-built-to-map-galaxies",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "euclid-telescope",
+        "comets",
+        "solar-system"
+      ],
+      "title": "ESA's Euclid telescope was built to map galaxies, but it just found a comet",
+      "snippet": "Designed to ignore our solar system and study deep space, the Euclid space telescope accidentally caught an uncharted, ancient comet streaking across its view.",
+      "body": [
+        "The European Space Agency’s Euclid space telescope was built to look far beyond our galactic neighborhood. Its job is to map billions of distant galaxies across cosmic time, which usually means pointing away from the dusty planetary plane where comets and asteroids wander. Yet in data gathered in September 2026, researchers spotted something fast and surprisingly close: a previously unknown comet, officially named C/2026 S1 (Euclid).",
+        "The object sits roughly 1.3 billion kilometers from Earth, placing it out between the orbits of Jupiter and Saturn. It travels on an inclined orbit that sits well above the plane of the planets and takes thousands of years to complete. The comet was flagged by University of Helsinki Ph.D. student Mikko Pöntinen, whose tracking software caught a telltale motion streak across Euclid's images.",
+        "Catching it was an unlikely stroke of luck. Euclid usually scans each patch of sky only once, but the timing of its sweep and the comet's path aligned across five separate image sets, revealing the characteristic fuzzy halo of gas and dust shedding into space."
+      ],
+      "more": [
+        "Euclid is an unusual instrument to be hunting comets. Its primary mission is cosmological: investigating dark matter and dark energy by charting the large-scale structure of the universe. To get the cleanest views of distant galaxies, the spacecraft actively avoids the ecliptic—the planetary plane where most solar system debris orbits—making local discoveries exceptionally rare.",
+        "When Mikko Pöntinen’s code flagged a streak moving across several consecutive frames, closer inspection revealed a classic coma—a cloud of vaporized gas and dust indicating an active icy body. Pöntinen was able to calculate its trajectory and locate the visitor in five different sets of Euclid exposures.",
+        "Beyond the thrill of an unexpected solar system find, the discovery served as a valuable operational rehearsal. Space agencies are currently planning dynamic missions like Comet Interceptor, which will wait in space to visit pristine comets entering the inner solar system for the first time.",
+        "Although C/2026 S1 itself won't be an intercept target, mission scientists noted that spotting it and issuing quick alerts to the global astronomical community proved that cross-mission tracking protocols work seamlessly. Follow-up observations from ground and space telescopes will now refine the comet's precise orbit as it makes its rare swing past the Sun."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
+      },
+      "wiki": "Euclid_(spacecraft)",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/science-esa-s-euclid-telescope-was-built-to-map-galaxies.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "science-nasa-s-simulated-mars-crew-marks-one-full-year-l",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "nasa",
+        "mars-analog",
+        "spaceflight",
+        "psychology"
+      ],
+      "title": "NASA's simulated Mars crew marks one full year locked in a 3D-printed habitat",
+      "snippet": "Four volunteers have spent an entire year inside a 1,700-square-foot enclosure, dealing with simulated spacewalks and a 45-minute communication delay.",
+      "body": [
+        "For 365 straight days, four people have lived together in a sealed, 1,700-square-foot 3D-printed habitat at NASA’s Johnson Space Center in Houston. The crew of CHAPEA Mission 2—Ross Elder, Ellen Ellis, Matthew Montgomery, and James Spicer—have spent the past year mimicking daily life on Mars.",
+        "Inside their confined quarters, the team grew crops, managed rationed resources, and stepped into simulated Martian terrain for suited extravehicular activities. Outside contact was deliberately strained: their only link to loved ones and mission control was email subjected to an authentic Mars-like delay of up to 45 minutes each way.",
+        "With their 378-day stay nearing its end, NASA is gathering a mountain of physical, cognitive, and behavioral data to figure out what it actually takes to keep human beings healthy, sane, and productive when Earth is out of reach."
+      ],
+      "more": [
+        "The Crew Health and Performance Exploration Analog (CHAPEA) is part of NASA’s Human Research Program, designed to stress-test human endurance before astronauts head toward the Moon and Mars. Unlike short orbital missions where Houston can offer real-time problem-solving, true interplanetary travel forces crews to operate with near-total autonomy.",
+        "The 45-minute round-trip comms latency is one of the project's most challenging psychological parameters. If an emergency occurs or equipment breaks down, the crew cannot chat through a quick solution; they must make critical medical, operational, and technical decisions entirely on their own.",
+        "Throughout their year in isolation, researchers tracked the crew's vital signs, physical exertion, dietary needs, and interpersonal dynamics. The data will help mission planners understand how constrained caloric intake, repetitive exercise regimes, and isolation affect performance during grueling tasks like surface spacewalks.",
+        "On October 31, the habitat doors will finally open. After reconnecting with their families, the four volunteers will undergo two intensive weeks of medical debriefs and psychological evaluations, helping engineers build better support systems for the real deep-space outposts to come."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/"
+      },
+      "wiki": "CHAPEA",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/science-nasa-s-simulated-mars-crew-marks-one-full-year-l.jpg",
+        "credit": "www.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "science-the-optical-trick-of-an-anticrepuscular-rainbow",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "explainer",
+      "tags": [
+        "atmospheric-optics",
+        "rainbows",
+        "physics",
+        "meteorology"
+      ],
+      "title": "The optical trick of an anticrepuscular rainbow fan",
+      "snippet": "A photograph taken at sunset in Italy appears to show a rainbow facing the Sun, defying optics until perspective explains the trick.",
+      "body": [
+        "Basic optics dictates a simple rule for rainbows: the Sun must always be directly behind you. Rainbows are formed when sunlight enters raindrops, reflects off their back inner surfaces, and bends back toward your eyes. Yet a recent snapshot from Presenzano, Italy, seemed to break physics, showing a rainbow fan arching directly above hills where the Sun appeared to sit.",
+        "The Sun wasn't actually there. The illusion was created by anticrepuscular rays—shafts of light and shadow emerging through cloud gaps near the setting Sun that stretched completely across the sky to converge on the opposite horizon.",
+        "When these sweeping rays illuminate localized rain showers on the antisolar side, they create a fan-shaped rainbow that tricks our depth perception, making it look as though the light source is in front of the viewer."
+      ],
+      "more": [
+        "Anticrepuscular rays are an optical illusion born of perspective, similar to the way parallel railway tracks appear to merge into a single point on the distant horizon. While standard crepuscular rays seem to fan out from the setting or rising Sun, anticrepuscular rays appear to converge toward the opposite, antisolar point in the sky.",
+        "In reality, these beams of light are running parallel to each other through the atmosphere. It is only because our eyes view them across vast linear distances that they seem to converge in front of us.",
+        "When an afternoon rain shower occupies that exact antisolar space, sunlight reflecting inside raindrops produces a rainbow. Because the cloud gaps cast alternating bands of bright sunlight and shadow across the sky, only sections of the rainbow are illuminated, resulting in a dramatic, fan-like arc.",
+        "The photographer in Presenzano spotted the rare display while hanging laundry at sunset, capturing how simple geometry and perspective can turn a standard atmospheric reflection into what looks like a reverse rainbow."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/"
+      },
+      "wiki": "Anticrepuscular_rays",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/science-the-optical-trick-of-an-anticrepuscular-rainbow.jpeg",
+        "credit": "science.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "design-when-text-loses-its-literal-meaning-laurenz-brun",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "explainer",
+      "tags": [
+        "typography",
+        "book-design",
+        "graphic-design",
+        "sourcetype"
+      ],
+      "title": "When text loses its literal meaning: Laurenz Brunner’s Dictionary of the Illegible",
+      "snippet": "From heavy metal band logos to comic book grawlixes and coded emojis, a new book from Swiss graphic designer Laurenz Brunner investigates what happens when typography stops being easily readable.",
+      "body": [
+        "What is the line between bad typography and meaningful abstraction? In his new decade-in-the-making project, Dictionary of the Illegible, Zurich-based designer Laurenz Brunner catalogued visual examples from art, fringe zines, graffiti, ancient engravings, and internet culture where written language breaks down into visual texture.",
+        "Growing up in Switzerland surrounded by rigid grid systems and hyper-legible public signage, Brunner became fascinated by what happened when type resisted clarity. Rather than viewing unreadability as a communication failure, the book explores how illegible text can create exclusive cultural codes, protect intimacy, or bypass automated censorship."
+      ],
+      "more": [
+        "The project pairs wildly disparate cultural artifacts side by side: a 16th-century engraving by Albrecht Dürer sits next to a cryptic screen capture from Family Guy, while heavy metal logos—often drawn like exploded Rorschach paintings of lightning bolts and nervous systems—are examined alongside ancient inscriptions. Arranged alphabetically like a conventional dictionary, the book intentionally uses a strict layout structure to house contents that inherently resist linear categorization.",
+        "Brunner notes that metal band logos are a prime example of text that is technically illegible to an outsider, yet immediately readable and meaningful to fans of the genre. The visual complexity acts as a filter, gatekeeping the community while signaling a shared identity without relying on literal prose.",
+        "In an era where language is increasingly synthesized by algorithms, processed by optical character recognition, and filtered for online attention, human-generated illegibility takes on a new layer of friction. By leaning into visual abstraction, typography reclaims a space where meaning is interpreted rather than simply consumed."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/features/sourcetype-laurenz-brunner-dictionary-of-the-illegible-graphic-design-publication-spotlight-191026"
+      },
+      "wiki": "Typography",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/design-when-text-loses-its-literal-meaning-laurenz-brun.png",
+        "credit": "www.itsnicethat.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "design-how-makeshift-paper-signs-exposed-a-flaw-in-sing",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "explainer",
+      "tags": [
+        "wayfinding",
+        "singapore",
+        "graphic-design",
+        "information-design"
+      ],
+      "title": "How makeshift paper signs exposed a flaw in Singapore’s transit wayfinding",
+      "snippet": "Despite state-of-the-art train lines and professional graphic standards, Singapore’s MRT stations remain covered in informal inkjet-printed paper signs made by local station staff.",
+      "body": [
+        "Singapore’s Mass Rapid Transit (MRT) network is widely considered one of the cleanest and most efficient transit systems in the world. Yet across its 140+ stations, commuters are routinely guided by ad-hoc A4 paper signs created by station managers using word processors, bold red text, underlines, and stock clip art.",
+        "These makeshift notices point toward exits, warn passengers not to tap out accidentally at stacked interchanges, and reassure commuters navigating multi-level escalator labyrinths. While intended as temporary hotfixes, their persistence highlights how official wayfinding systems struggle to adapt as complex transit networks scale."
+      ],
+      "more": [
+        "The problem began as the MRT expanded from a simple 6-kilometer line into an interconnected 360-kilometer network. System-wide wayfinding redesigns in 2001 and 2020 attempted to streamline directories and map signage. However, architectural complexities at newer underground stations—such as Bencoolen Station, which sits 43 meters below ground across six Escher-like escalator flights—frequently leave commuters disoriented.",
+        "When station managers notice recurring confusion, printing an A4 sheet and taping it near an escalator or fare gantry is far faster than requesting formal signage updates from transit authorities. Wayfinding designer Samuel Lim, who led the 2020 official MRT signage overhaul, points out that while official design systems cannot predict every operational edge case, relying permanently on paper signs dilutes passenger trust in the primary signage system.",
+        "Similar paper-sign phenomena exist in major rail networks worldwide, including Japan. While design purists view them as visual clutter, they remain a fascinating, ground-up testament to real-world human navigation overriding top-down graphic design."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/the-view-from-singapore-rmt-paper-signs-graphic-design-191026"
+      },
+      "wiki": "Wayfinding",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/design-how-makeshift-paper-signs-exposed-a-flaw-in-sing.png",
+        "credit": "www.itsnicethat.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "design-pentagram-s-bilingual-identity-for-design-doha-g",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "pentagram",
+        "branding",
+        "typography",
+        "bilingual-design"
+      ],
+      "title": "Pentagram’s bilingual identity for Design Doha gives Arabic and English equal weight",
+      "snippet": "Designing for two scripts with opposite reading directions often leaves one language looking secondary. Pentagram’s system for Design Doha Biennial solves this by interweaving them into a single structure.",
+      "body": [
+        "Bilingual branding presents a notoriously tricky typographic balance, particularly when combining Latin and Arabic scripts. Because Latin reads left-to-right and relies on distinct block letterforms, while Arabic reads right-to-left and is inherently cursive, one language frequently ends up relegated to small secondary subtitle text.",
+        "For the upcoming Design Doha Biennial 2026, Pentagram partner Samar Maakaroun developed a dynamic visual identity that treats both languages as equal partners. Rather than stacking translated text, the brand uses extended typographic strokes that stretch and interlock Arabic and Latin letterforms into a single continuous network."
+      ],
+      "more": [
+        "To achieve visual parity, both scripts are rendered using identical line weights and structural proportions. The extended connecting strokes scale across different digital and print layouts, mirroring the biennial's overarching theme of cultural and creative connectivity across the Arab world.",
+        "The system extends into sub-identities for individual festival exhibitions. For the headline showcase, 'Arab Design Now', the fine line-weight structure shifts into heavy geometric shapes that lock together, maintaining the bilingual structural rules while providing a distinct visual contrast for the event.",
+        "By building parity directly into the vector paths rather than treating translation as an afterthought, the identity provides a practical framework for graphic designers working in multi-script regions."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/"
+      },
+      "wiki": "Visual_identity",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/design-pentagram-s-bilingual-identity-for-design-doha-g.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "cinema",
+        "hollywood",
+        "joaquim-de-almeida",
+        "televisao"
+      ],
+      "title": "Joaquim de Almeida e a reforma milionária dos atores de Hollywood",
+      "snippet": "Após quase cinco décadas de trabalho nos Estados Unidos, o ator português regressou a Sintra com uma pensão de 8.500 euros mensais paga pelo sindicato norte-americano.",
+      "body": [
+        "Após 48 anos a trabalhar na indústria cinematográfica norte-americana, Joaquim de Almeida regressou a Portugal em abril de 2025. O ator de 69 anos revelou à comunicação social que tem direito a uma pensão do sindicato de atores dos EUA (SAG-AFTRA) de cerca de 8.500€ mensais, valor ao qual acresce a reforma atribuída pelo Estado português. Para consolidar a regresso definitivo, o ator vendeu recentemente a sua mansão em Santa Mónica, na Califórnia, instalando-se em Sintra.",
+        "Apesar do valor confortável da reforma, Joaquim de Almeida garantiu que não pretende reformar-se da representação. Continuará a aceitar papéis em cinema e televisão, mantendo uma atitude seletiva em relação aos projetos e aos colegas de elenco com quem contracena."
+      ],
+      "more": [
+        "A carreira internacional de Joaquim de Almeida começou a desenhar-se quando saiu de Portugal com apenas 18 anos, tendo estudado e trabalhado em diversos países europeus antes de se fixar nos Estados Unidos. A sua estreia no cinema deu-se em 1982 no filme “The Soldier”, seguindo-se “O Cônsul Honorário” em 1983, no qual contracenou com Richard Gere e Michael Caine.",
+        "A projeção global consolidou-se na década de 1990 com papéis de destaque em grandes produções. Em 1994 interpretou Félix Cortez no thriller “Perigo Real e Imediato” e contracenou com Marisa Tomei e Robert Downey Jr. em “Só Tu”. No ano seguinte, encarnou o vilão Bucho no icónico “Desperado”, ao lado de Antonio Banderas e Salma Hayek.",
+        "O currículo em Hollywood inclui ainda participações em filmes como “Atrás das Linhas do Inimigo” contracenando com Gene Hackman, “Che — A Guerrilha” de Steven Soderbergh, e mais recentemente no remake de “Road House” (2024), ao lado de Jake Gyllenhaal e Daniela Melchior. Em 2024 integra também o elenco de “O Hotel Palace”, realizado por Roman Polanski.",
+        "Paralelamente ao trabalho nos Estados Unidos, Joaquim de Almeida manteve uma presença regular no cinema nacional, com papéis em produções marcantes como “Capitães de Abril”, “Os Imortais” e “A Gaiola Dourada”. Em 2002 venceu um Globo de Ouro pela sua interpretação de Sherlock Holmes na produção brasileira “O Xangô de Baker Street”."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/cinema/joaquim-de-almeida-recebe-reforma-milionaria-do-sindicato-de-atores-dos-eua"
+      },
+      "wiki": "Joaquim_de_Almeida",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-20/pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "story",
+      "tags": [
+        "lisboa",
+        "cinema",
+        "clube-ferroviario",
+        "margaret-qualley"
+      ],
+      "title": "O histórico clube de Lisboa onde Margaret Qualley gravou em segredo",
+      "snippet": "A série 'Love of Your Life' colocou o Clube Ferroviário de Portugal no topo das tendências ao transformar a sede de Santa Apolónia num cenário de dança.",
+      "body": [
+        "A longa-metragem \"Love of Your Life\", protagonizada por Margaret Qualley e lançada em outubro na Prime Video, tornou-se num dos títulos mais vistos da plataforma. A história acompanha Maya, uma enfermeira que troca Boston por Lisboa após uma tragédia pessoal. Entre os vários cenários da capital portuguesa e do Algarve, destaca-se uma cena em que a protagonista tem uma aula de bachata num salão tradicional.",
+        "Essa sequência foi filmada no verão anterior nas instalações do Clube Ferroviário de Portugal, em Santa Apolónia. A produção alugou o espaço e manteve o secretismo habitual, assumindo a gestão total das gravações antes de devolver o salão intocado à coletividade."
+      ],
+      "more": [
+        "A escolha do Clube Ferroviário de Portugal coloca os holofotes sobre uma das mais antigas coletividades de Lisboa. A organização resultou da fusão, em 15 de dezembro de 1961, de duas entidades históricas associadas aos trabalhadores dos caminhos de ferro: o Grupo Desportivo da CP (fundado em 1928) e o Ateneu Ferroviário (criado em 1934).",
+        "A sede, instalada na Rua de Santa Apolónia, visava originalmente centralizar as atividades culturais, desportivas e recreativas dos trabalhadores ferroviários, cujas práticas decorriam anteriormente em espaços dispersos pela cidade. Durante décadas, o acesso esteve reservado aos funcionários da CP e, mais tarde, da Infraestruturas de Portugal.",
+        "A partir da década de 1990, o clube iniciou um processo de abertura à comunidade local. Atualmente, o espaço oferece diversas modalidades desportivas — como remo, atletismo, futebol e voleibol — além de ginásio, artes marciais e aulas de dança que vão do tango às danças de salão."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/fit/ginasios-e-outdoor/love-of-your-life-descobrimos-onde-margaret-qualley-aprendeu-a-dancar-em-lisboa"
+      },
+      "wiki": "Lisbon",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-20/pt-o-historico-clube-de-lisboa-onde-margaret-qualle.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "explainer",
+      "tags": [
+        "historia",
+        "portugal",
+        "afonso-henriques",
+        "idade-media"
+      ],
+      "title": "Afinal, em que ano é que Portugal celebra 900 anos de história?",
+      "snippet": "Batalha de São Mamede, Batalha de Ourique ou Tratado de Zamora? A controvérsia entre historiadores sobre a data exata da fundação da nação.",
+      "body": [
+        "O debate em redor das comemorações dos 900 anos de Portugal voltou a surgir com o aproximar de datas emblemáticas. Ao contrário de Estados modernos com declarações formais de independência, a formação do reino português na Idade Média foi um processo gradual com escassa documentação sobrevivente, o que leva os historiadores a divergirem sobre o ano exato do nascimento do país.",
+        "Entre os marcos mais citados estão a Batalha de São Mamede em 1128 (que faria 900 anos em 2028), a Batalha de Ourique em 1139 e a assinatura do Tratado de Zamora em 1143. O historiador Rui Ramos explica que a ausência de um momento fundador único torna a contagem das «velas» do país uma questão de interpretação historiográfica."
+      ],
+      "more": [
+        "Nos processos modernos de descolonização ou criação de novos Estados no século XX, uma data de independência é fixada por acordos diplomáticos ou declarações unilaterais. Na Europa do século XII, contudo, a afirmação de soberania ocorria através de dinâmicas políticas e militares complexas entre feudos e reinos vizinhos.",
+        "A região entre os rios Minho e Mondego — conhecida na documentação latina por Portucale — integrava o Reino de Leão e Castela sob o estatuto de condado. Administrada por um conde vassalo do rei Afonso VI, a região começou a dar sinais de autonomia política e militar a partir do início do século XII.",
+        "Com a ascensão de D. Afonso Henriques, os confrontos militares com as forças da sua mãe, D. Teresa, e com o rei Afonso VII culminaram na afirmação progressiva do poder do jovem chefe militar. A Batalha de São Mamede, em 1128, representou a rutura política interna da nobreza portucalense.",
+        "Por seu turno, o título de rei assumido por Afonso Henriques após 1139 e o subsequente reconhecimento diplomático em Zamora em 1143 constituem outros pilares do processo. A falta de consenso em fixar um único ano reflete a própria natureza da transição do Condado Portucalense para um reino autónomo."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/programas/e-o-resto-e-historia/afinal-quando-e-que-portugal-faz-900-anos/"
+      },
+      "wiki": "Afonso_I_of_Portugal",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-20/pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano.jpg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "books-the-traps-of-free-will-and-fate-across-time",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-19",
+      "style": "book",
+      "tags": [
+        "audrey-niffenegger",
+        "book-review",
+        "time-travel",
+        "fiction"
+      ],
+      "title": "The Traps of Free Will and Fate Across Time",
+      "snippet": "Audrey Niffenegger's sequel to The Time Traveler's Wife shifts from a passionate love story into an exhausted exploration of predestination and loss.",
+      "body": [
+        "In Life Out of Order, Audrey Niffenegger returns to the world of time travel, following Alba and her family as they navigate overlapping timelines, ethical dilemmas, and a decaying world.",
+        "While its predecessor anchored its temporal paradoxes in a fierce, selfish love story between Henry and Clare, this sequel replaces that emotional heat with fatalism and exhaustion."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/19/life-out-of-order-by-audrey-niffenegger-review-does-this-sequel-measure-up-to-the-time-travelers-wife"
+      },
+      "wiki": "Audrey_Niffenegger",
+      "lang": "en",
+      "book": {
+        "title": "Life Out of Order",
+        "author": "Audrey Niffenegger",
+        "lessons": [
+          {
+            "title": "Predestination Erosion of Choice",
+            "text": "When characters believe their actions are already predetermined by time travel, the burden of moral responsibility fades. Why fret over decisions or feel regret when fate has already chosen your path for you?"
+          },
+          {
+            "title": "Emotional Anchors Hold Complex Stories Together",
+            "text": "A narrative can span decades and jump across centuries, but it requires a central emotional drive to keep readers engaged. Without a core relationship or desire, sprawling ideas quickly lose their impact."
+          },
+          {
+            "title": "Creating the People We Love",
+            "text": "Human relationships often involve actively shaping and influencing the people we care about. True intimacy involves a mutual, selfish adoration that binds lives together in inescapable knots."
+          }
+        ],
+        "takeaway": "Examine a recurring routine in your life to see if you are choosing it actively or following it out of passive habit.",
+        "forWho": "Readers interested in literary sequels, time-travel ethics, and stories about grief and memory."
+      },
+      "image": {
+        "src": "editions/2026-10-20/books-the-traps-of-free-will-and-fate-across-time.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "books-the-deep-roots-of-jewish-dissent",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-19",
+      "style": "book",
+      "tags": [
+        "benjamin-moser",
+        "jewish-history",
+        "anti-zionism",
+        "political-history"
+      ],
+      "title": "The Deep Roots of Jewish Dissent",
+      "snippet": "Benjamin Moser profiles twelve historical figures to show that opposition to Zionism was once a vibrant, mainstream debate in Jewish communal life.",
+      "body": [
+        "Pulitzer-winning biographer Benjamin Moser explores the long-standing history of Jewish figures who opposed the Zionist movement from its 19th-century origins through to modern times.",
+        "By profiling activists, writers, and scholars, Moser reveals an alternative Jewish tradition rooted in universal human rights, international solidarity, and resistance to nationalism."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement"
+      },
+      "wiki": "Benjamin_Moser",
+      "lang": "en",
+      "book": {
+        "title": "Anti-Zionism: A Jewish History",
+        "author": "Benjamin Moser",
+        "lessons": [
+          {
+            "title": "Consensus Changes Over Time",
+            "text": "In 1914, less than 1% of American Jews belonged to the country's primary Zionist organization. Views that now seem universal were once fierce subjects of internal debate and minority positions."
+          },
+          {
+            "title": "Primary Archives Can Upend Historical Assumptions",
+            "text": "Historians who set out to study state records often find that primary source documents directly contradict the official national story, forcing a complete re-evaluation of past events."
+          },
+          {
+            "title": "Moral Conviction Demands Personal Sacrifice",
+            "text": "Prominent figures across generations have frequently sacrificed their standing, career safety, and community ties to speak out against actions that violated their ethical principles."
+          }
+        ],
+        "takeaway": "Research the early historical dissenters of a modern political or social consensus to better understand how opinions evolved.",
+        "forWho": "Readers of modern political history, biography, and stories about moral courage and dissent."
+      },
+      "image": {
+        "src": "editions/2026-10-20/books-the-deep-roots-of-jewish-dissent.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ideas-reality-does-not-exist-independently-of-you-nor",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "perception",
+        "reality"
+      ],
+      "title": "Reality does not exist independently of you, nor solely in your head; it is relational.",
+      "snippet": "Psychologist Lisa Feldman Barrett explains how our brains construct reality through an invisible mental frame called the Perception Box.",
+      "body": [
+        "According to psychologist Lisa Feldman Barrett, reality is neither purely objective nor entirely subjective. Instead, it is relational—a combination of the external world and the internal signals we bring to it. Perception is not a passive recording of facts, but an active process where the brain uses past experience to interpret sensory inputs.",
+        "Consider the classic philosophical question: if a falling tree has no organism around to hear it, does it make a sound? Barrett notes that the tree creates physical vibrations, but those vibrations only become sound when an organism detects and interprets them. By recognizing that different creatures have access to different signals, we can begin to understand that reality exists only in relation to the observer."
+      ],
+      "more": [
+        "For centuries, humanity has debated whether reality is an absolute truth waiting to be discovered or a purely subjective illusion created by individual minds. Barrett cuts through this binary by introducing the concept of the Perception Box. This invisible mental framework is constructed from past experiences, bodily signals, and learned meanings, acting as the lens through which we experience every waking moment.",
+        "This perspective shifts how we approach disagreements and human understanding. When two people interpret a situation differently—such as a patient feeling anger while a therapist perceives sadness—an objective framework insists one must be right and the other wrong. A relational framework, however, acknowledges that both experiences are real to the individuals generating them, because the brain is actively constructing meaning rather than passively absorbing data.",
+        "Moreover, this framework humbles our confidence in absolute truth. Other animals possess sensory surfaces and biological equipment entirely foreign to humans, meaning vast dimensions of the physical world are completely inaccessible to our nervous systems. What we call 'reality' is merely our specific biological slice of a much larger, multi-layered existence."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/perception-box/how-to-experience-more-of-reality/"
+      },
+      "wiki": "Perception",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/ideas-reality-does-not-exist-independently-of-you-nor.png",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ideas-the-fear-of-change-in-love-dissolves-when-we-see",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "idea",
+      "tags": [
+        "relationships",
+        "change",
+        "philosophy"
+      ],
+      "title": "The fear of change in love dissolves when we see it not as loss, but as a rosary of nows.",
+      "snippet": "Anne Morrow Lindbergh explores how embracing the natural mutability of relationships liberates us from the trap of static perfection.",
+      "body": [
+        "Human beings desperately crave constancy, clinging to the illusion that what we cherish will remain unchanged forever. Yet, as writer Anne Morrow Lindbergh argues in Gift from the Sea, intimate relationships naturally evolve past their initial unencumbered phase of spring-like elation. When a bond deepens and becomes complicated by life, we often mistake transformation for tragedy.",
+        "Lindbergh suggests an alternative orientation: rather than demanding permanent continuity from a relationship, we should accept its fluid forms. True presence means meeting each moment on its own terms, allowing love to grow and expand rather than forcing it into a single, unchanging mold."
+      ],
+      "more": [
+        "Every intimate relationship begins in a state of pure simplicity. Two individuals meet free of heavy responsibilities, debts to the past, or worries about the future, sharing a self-enclosed world of mutual discovery. But time inevitably invites complexity. Responsibilities, external pressures, and the deeper realities of human nature enter the picture, shifting the dynamic from the breathless romance of spring into the more mature seasons of life.",
+        "The pain we feel during these transitions usually stems from a fundamental error in our understanding of love. Influenced by romantic myths, we often demand that a partner's love be total, permanent, and static, viewing any departure from the original honeymoon phase as a failure. We look to our partners to provide a flattering mirror for our self-image, tasking them with bearing the emotional weight of parts we refuse to examine ourselves.",
+        "True identity, however, cannot be found by outsourcing it to someone else's adoration; it must be forged through internal creative activity and self-discovery. When we stop demanding that love remain frozen in a singular, permanent form, we liberate both ourselves and our partners. We begin to see living relationships as dynamic processes of continual expansion, where the true promise of love is not permanence, but presence."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/19/anne-morrow-lindbergh-change/"
+      },
+      "wiki": "Anne_Morrow_Lindbergh",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/ideas-the-fear-of-change-in-love-dissolves-when-we-see.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "f1-christian-horner-building-red-bull-s-f1-engine-w",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "f1",
+        "red-bull",
+        "motorsport"
+      ],
+      "title": "Christian Horner: Building Red Bull’s F1 engine was “scary as hell”",
+      "snippet": "Former Red Bull team principal Christian Horner opens up about the massive gamble of building an in-house power unit from scratch.",
+      "body": [
+        "Former Red Bull team principal Christian Horner has admitted that building the team’s in-house power unit from scratch was “scary as hell”, especially after the engine claimed its maiden race wins in the 2026 season. Horner was removed from his position after the 2025 British Grand Prix following a period of poor results and controversy.",
+        "Despite his departure, Horner had led Red Bull’s partnership with Ford after Honda's departure from the sport. The new power unit has since been praised by the FIA as a benchmark internal combustion engine, taking wins at Sepang and Singapore under Max Verstappen."
+      ],
+      "more": [
+        "Speaking about the powertrain project, Horner described it as arguably the biggest challenge of his tenure at Red Bull. Because it was a complete startup with zero prior engine-building experience, the team had to manufacture facilities, machine cylinders from solid blocks of metal, and design pistons completely from scratch.",
+        "The sheer scale of the project involved navigating the most complex set of engine regulations in Formula 1 history. To see the engine win in its 16th race during its debut season brought immense pride to Horner, who credited the dedication and commitment of the entire workforce in beating established manufacturers with decades more experience.",
+        "The revelations come as part of a wider media tour surrounding Horner’s new memoir, Drive. In the book, he also claims that the legendary Niki Lauda once attempted to hire him as Mercedes team principal before the role eventually went to Toto Wolff.",
+        "Meanwhile, Red Bull continues its fierce on-track campaign, heading into the race weekend in Austin sitting just seven points behind McLaren in the battle for third place in the constructors' championship."
+      ],
+      "source": {
+        "id": "web",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/christian-horner-receives-unexpected-call-from-red-bull-after-breakthrough/10866228/"
+      },
+      "wiki": "Red_Bull_Racing",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/f1-christian-horner-building-red-bull-s-f1-engine-w.jpg",
+        "credit": "www.motorsport.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "f1-christian-horner-reveals-true-stance-on-liam-law",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "f1",
+        "red-bull",
+        "liam-lawson"
+      ],
+      "title": "Christian Horner reveals true stance on Liam Lawson’s abrupt Red Bull promotion",
+      "snippet": "Former team boss Christian Horner admits he felt uneasy about rushing Liam Lawson into the senior Red Bull seat.",
+      "body": [
+        "Former Red Bull team principal Christian Horner has confessed he was uncomfortable with the decision to promote Liam Lawson to the senior team at the start of 2025. Lawson was drafted in to replace Sergio Perez after the Mexican's dramatic loss of form, but entered the seat with just 11 grand prix starts under his belt.",
+        "Lawson faced a brutal baptism of fire, struggling in tricky conditions in Melbourne and getting caught out on unfamiliar tracks. Following a difficult weekend in China, he was demoted back to Racing Bulls in favor of Yuki Tsunoda, a move Horner admits dealt a heavy blow to the young driver's confidence."
+      ],
+      "more": [
+        "In excerpts from his upcoming memoir Drive, Horner sheds light on the internal political friction at Red Bull regarding the driver lineup. He claims that Helmut Marko heavily championed Lawson's promotion and even prematurely promised the drive to the New Zealander before official channels had confirmed it.",
+        "Horner argues that putting such immense pressure on an inexperienced driver who had never even contested an F1 pre-season was setting him up for an uphill battle. When Horner challenged Marko about the premature promises, denials reportedly followed.",
+        "After returning to Racing Bulls, Lawson managed to steady his season and rebuild his form, securing a career-best fifth-place finish in Azerbaijan and finishing 14th in the overall standings. Horner maintains that while the demotion was tough for Lawson, the initial promotion was a flawed decision from the start."
+      ],
+      "source": {
+        "id": "web",
+        "name": "RacingNews365",
+        "url": "https://racingnews365.com/christian-horner-declares-true-liam-lawson-stance-after-red-bull-axe"
+      },
+      "wiki": "Liam_Lawson",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/f1-christian-horner-reveals-true-stance-on-liam-law.jpg",
+        "credit": "racingnews365.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
+    },
+    {
+      "id": "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "video",
+      "tags": [
+        "f1",
+        "daniel-ricciardo"
+      ],
+      "title": "When Daniel Ricciardo rolled up to Austin on a horse",
+      "snippet": "Take a look back at one of Daniel Ricciardo's most memorable and eccentric paddock entrances at the United States Grand Prix.",
+      "body": [
+        "Daniel Ricciardo is no stranger to making an unforgettable entrance at the Circuit of the Americas in Austin, Texas. Over the years, the charismatic Australian driver has treated the Formula 1 paddock to several legendary arrivals.",
+        "Among his most iconic moments in Texas was the time the driver decided to ditch traditional transport and roll right up to the paddock on horseback, fully leaning into the local Texan theme with characteristic flair."
+      ],
+      "more": [
+        "Ricciardo's paddock outfits and grand arrivals became a beloved staple of the United States Grand Prix weekend, often showcasing his love for American culture, western wear, and tongue-in-cheek humor. Whether arriving in cowboy boots and custom jackets or riding in on unexpected modes of transport, he always knew how to set a lighthearted tone for the race weekend.",
+        "These light moments captured the playful side of the sport, offering a stark contrast to the intense pressure cooker of the F1 championship fight. As fans and media look back at his career highlights, his Texan antics remain a fan-favorite memory of his time in the paddock."
+      ],
+      "source": {
+        "id": "web",
+        "name": "Sky Sports",
+        "url": "https://www.skysports.com/f1/video/13600966/when-ricciardo-rolled-up-to-austin-on-a-horse"
+      },
+      "wiki": "Daniel_Ricciardo",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-20/f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h.jpg",
+        "credit": "www.skysports.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-20"
     }
-  ],
-  "partial": true
+  ]
 }

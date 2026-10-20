@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:00:22.466Z",
+ "updatedAt": "2026-10-20T12:16:13.572Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -386,6 +386,10 @@
    "time-out-lisboa": {
     "enabled": true,
     "deleted": false
+   },
+   "damn-interesting": {
+    "enabled": true,
+    "deleted": false
    }
   },
   "customSources": [
@@ -403,6 +407,15 @@
     ],
     "weight": 1,
     "custom": true
+   },
+   {
+    "id": "custom-1792498462111",
+    "topic": "pt",
+    "name": "LusoMeteo",
+    "url": "https://www.reddit.com/r/t5_dpdygj/s/lvIFNdbWw3",
+    "type": "reddit",
+    "weight": 1,
+    "custom": true
    }
   ],
   "unmuted": [],
@@ -410,182 +423,7 @@
   "activeMood": null,
   "moods": null
  },
- "ratings": {
-  "lr-tongan-castaways-2": {
-   "r": 4,
-   "at": "2026-10-18T22:56:24.216Z",
-   "f": [
-    "topic:til",
-    "sub:til/story",
-    "source:wikipedia",
-    "style:story",
-    "tag:castaways",
-    "tag:tonga",
-    "tag:true-story",
-    "tag:lord-of-the-flies"
-   ]
-  },
-  "pt-1755": {
-   "r": 3,
-   "at": "2026-10-18T23:06:11.767Z",
-   "f": [
-    "topic:pt",
-    "sub:pt/curiosidades",
-    "source:wikipedia-pt",
-    "style:story",
-    "tag:historia",
-    "tag:ciencia"
-   ]
-  },
-  "fun-london-bridge-arizona": {
-   "r": 3,
-   "at": "2026-10-18T23:09:28.897Z",
-   "f": [
-    "topic:fun",
-    "source:wikipedia",
-    "style:til",
-    "tag:london-bridge",
-    "tag:arizona",
-    "tag:architecture",
-    "tag:urban-legends"
-   ]
-  },
-  "design-the-graphic-design-internet-is-having-a-fit-over": {
-   "r": 3,
-   "at": "2026-10-18T23:11:13.687Z",
-   "f": [
-    "topic:design",
-    "source:creative-bloq",
-    "style:news",
-    "tag:typography",
-    "tag:branding",
-    "tag:pop-culture",
-    "tag:helvetica"
-   ]
-  },
-  "ideas-good-ideas-come-from-noticing-anomalies-at-the-e": {
-   "r": 3,
-   "at": "2026-10-18T23:12:16.767Z",
-   "f": [
-    "topic:ideas",
-    "source:paul-graham",
-    "style:idea",
-    "tag:ideas",
-    "tag:creativity",
-    "tag:learning",
-    "tag:innovation"
-   ]
-  },
-  "mo-ae": {
-   "r": 3,
-   "at": "2026-10-18T23:40:37.820Z",
-   "f": [
-    "topic:motion",
-    "sub:motion/tools",
-    "source:wikipedia",
-    "style:til",
-    "tag:after-effects",
-    "tag:history"
-   ]
-  },
-  "ai-sd": {
-   "r": 3,
-   "at": "2026-10-18T23:43:15.468Z",
-   "f": [
-    "topic:ai",
-    "sub:ai/image-video",
-    "source:wikipedia",
-    "style:story",
-    "tag:stable-diffusion",
-    "tag:open-weights",
-    "tag:image-gen"
-   ]
-  },
-  "til-stiglers-law": {
-   "r": 3,
-   "at": "2026-10-19T06:09:10.320Z",
-   "f": [
-    "topic:til",
-    "sub:til/cracked",
-    "source:wikipedia",
-    "style:cracked",
-    "tag:science-history",
-    "tag:eponyms",
-    "tag:mathematics",
-    "tag:stiglers-law"
-   ]
-  },
-  "pt-massa-de-ar-polar-traz-descida-acentuada-de-temp": {
-   "r": 3,
-   "at": "2026-10-19T06:35:10.126Z",
-   "f": [
-    "topic:pt",
-    "sub:pt/news",
-    "source:nit",
-    "style:news",
-    "tag:meteorologia",
-    "tag:ipma",
-    "tag:frio",
-    "tag:portugal"
-   ]
-  },
-  "til-7-regency-rules-that-would-drive-modern-humans-u": {
-   "r": 3,
-   "at": "2026-10-19T06:37:50.151Z",
-   "f": [
-    "topic:til",
-    "sub:til/cracked",
-    "source:mental-floss",
-    "style:list",
-    "tag:history",
-    "tag:regency-era",
-    "tag:etiquette",
-    "tag:social-norms"
-   ]
-  },
-  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": {
-   "r": 0,
-   "at": "2026-10-19T06:46:06.377Z",
-   "f": [
-    "topic:bike",
-    "sub:bike/gravel",
-    "source:cyclingnews-gravel",
-    "style:news",
-    "tag:cyclo-cross",
-    "tag:fem-van-empel",
-    "tag:racing-return"
-   ]
-  },
-  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": {
-   "r": 3,
-   "at": "2026-10-19T07:53:38.901Z",
-   "f": [
-    "topic:pt",
-    "sub:pt/news",
-    "source:observador",
-    "style:news",
-    "tag:sociedade",
-    "tag:habitacao",
-    "tag:porto",
-    "tag:lisboa"
-   ]
-  },
-  "til-under-the-light-of-the-hunter-s-moon": {
-   "r": 3,
-   "at": "2026-10-19T07:56:27.063Z",
-   "f": [
-    "topic:til",
-    "sub:til/story",
-    "source:mental-floss",
-    "style:story",
-    "tag:hunters-moon",
-    "tag:astronomy",
-    "tag:folklore",
-    "tag:autumn",
-    "tag:full-moon"
-   ]
-  }
- },
+ "ratings": {},
  "opened": [
   "lr-tongan-castaways-2",
   "lr-1816",
@@ -646,132 +484,12 @@
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
   "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
-  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at"
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
  ],
- "skips": {
-  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 7,
-  "motion-maxon-releases-cinema-4d-2027-0": 4,
-  "motion-anna-huijun-wang-s-oroboro-collapses-dimensional": 5,
-  "mo-fischinger": 8,
-  "mo-12": 5,
-  "mo-ae": 2,
-  "mo-roto": 7,
-  "ai-elorian-launches-glimpse-to-give-multimodal-mode": 7,
-  "news-outcry-in-australia-after-incarcerated-mother-sh": 3,
-  "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
-  "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
-  "tech-cities-are-pushing-back-against-driverless-robot": 2,
-  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati": 3,
-  "tech-a-new-us-bill-wants-to-force-game-publishers-to": 2,
-  "tr-repair": 5,
-  "tr-dumb": 2,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 5,
-  "science-a-99-million-year-old-lizard-tail-shedding-caugh": 3,
-  "science-perseverance-rover-takes-the-crown-for-off-world": 2,
-  "pt-lingua-mirandesa": 5,
-  "pt-morcegos-biblioteca-joanina": 1,
-  "pt-alianca-luso-britanica": 4,
-  "pt-quatro-candelabros-da-mitica-baixela-germain-est": 4,
-  "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": 4,
-  "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": 4,
-  "pt-ninfa-fossil-pejao": 3,
-  "pt-porto-cidade-acolhedora": 4,
-  "pt-agostinho": 5,
-  "design-from-foraged-buttercups-to-olivia-rodrigo-s-main": 3,
-  "pt-nata": 2,
-  "til-violet-jessop": 3,
-  "bike-from-world-championships-in-nannup-to-morton-s-p": 3,
-  "til-octopus": 2,
-  "til-wojtek-bear": 2,
-  "bk-drais": 5,
-  "pt-volta": 4,
-  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 6,
-  "pt-cortica": 4,
-  "fun-boring-and-dull": 2,
-  "til-chuck-lorre-escaped-scientology-without-harassme": 2,
-  "ai-quant": 7,
-  "fun-byron": 3,
-  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 2,
-  "ideas-emotions-are-not-universal-biology-but-culturall": 2,
-  "til-oxford": 3,
-  "bike-stella-hobbs-solos-to-elite-women-s-victory-at-b": 4,
-  "bike-pro-gravel-rigs-at-big-sugar-huge-rubber-short-c": 3,
-  "bk-hour": 4,
-  "bk-roubaix": 5,
-  "bk-tdf": 3,
-  "books-creating-art-in-times-of-anxiety-and-chaos": 1,
-  "books-untangling-generational-power-and-servitude": 1,
-  "til-robert-smalls": 1,
-  "til-stiglers-law": 1,
-  "til-fly-geyser": 1,
-  "til-roy-sullivan-lightning": 2,
-  "til-where-did-millions-of-tons-of-world-war-ii-milit": 3,
-  "til-til-an-imposing-soviet-iron-fountain-survived-an": 4,
-  "til-wombat": 1,
-  "til-nintendo": 2,
-  "til-banana": 2,
-  "til-eiffel": 2,
-  "fun-project-pigeon": 4,
-  "fun-wilhelm-scream": 4,
-  "fun-busan-canal-shark": 2,
-  "fun-emu": 5,
-  "fun-stubbs": 2,
-  "fun-boaty": 4,
-  "ai-sd": 2,
-  "ai-whisper": 2,
-  "ai-llamacpp": 5,
-  "tr-lofi": 3,
-  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 2,
-  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 3,
-  "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec": 2,
-  "bike-celebrating-a-major-milestone-a-rider-s-first-20": 2,
-  "bike-road-oriented-build-plan-for-a-steel-nordest-alb": 3,
-  "bike-marianne-vos-claims-her-15th-world-title-on-aust": 2,
-  "bike-tobias-kongstad-sprints-to-victory-at-big-sugar": 2,
-  "bike-fem-van-empel-returns-to-racing-after-nearly-a-y": 1,
-  "bike-stress-testing-six-radically-different-gravel-bi": 3,
-  "bike-eneco-tour-rapidly-equalizes-prize-money-after-p": 1,
-  "bike-putting-the-hype-to-the-test-silca-protocol-rcg": 1,
-  "til-under-the-light-of-the-hunter-s-moon": 1,
-  "motion-engineering-a-12-second-vertical-dubstep-intro-i": 5,
-  "motion-balancing-speed-and-readability-in-vertical-kine": 1,
-  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 5,
-  "ideas-broadcast-information-is-not-the-same-as-felt-ex": 1,
-  "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": 3,
-  "fun-mike": 4,
-  "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
-  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 2,
-  "tech-a-police-officer-shared-automated-license-plate": 2,
-  "til-the-global-scramble-and-strange-fakes-of-transla": 2,
-  "design-visualizing-fuzzy-memories-in-an-unbound-book": 3,
-  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 2,
-  "science-white-dwarfs-aren-t-just-white-astronomers-find": 2,
-  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": 3,
-  "pt-musica-sertaneja-das-bombas-de-gasolina-projeto": 1,
-  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 2,
-  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": 2,
-  "pt-operacao-marques-arranca-segundo-julgamento-de-s": 3,
-  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 2,
-  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": 2,
-  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": 3,
-  "pt-protestos-pela-habitacao-entram-no-10-dia-e-mani": 1,
-  "ai-hybrid-reasoning-agents-thinking-in-latent-space": 3,
-  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": 3,
-  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 2,
-  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": 2,
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
-  "ideas-beauty-is-an-act-of-unselfing": 1,
-  "til-camp-crystal-lake-is-actually-an-active-boy-scou": 1,
-  "til-the-michigan-bookstore-where-you-shop-for-paperb": 1,
-  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": 1,
-  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": 1,
-  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": 1,
-  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": 1,
-  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
-  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": 1,
-  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": 1,
-  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1
- },
+ "skips": {},
  "itemFeatures": {
   "lr-tongan-castaways-2": [
    "topic:til",
@@ -2220,7 +1938,8 @@
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
-  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at"
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle"
  ],
  "saved": [
   "pt-1755",
@@ -2449,6 +2168,19 @@
     "tag:miranda-do-douro",
     "tag:tras-os-montes"
    ]
+  },
+  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": {
+   "at": "2026-10-20T12:15:47.055Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:musica",
+    "tag:cultura",
+    "tag:ccb",
+    "tag:piano"
+   ]
   }
  },
  "readLog": {
@@ -2489,6 +2221,11 @@
   },
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": {
    "at": "2026-10-20T12:00:19.776Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": {
+   "at": "2026-10-20T12:12:12.470Z",
    "min": 1,
    "topic": "pt"
   }

@@ -1,33 +1,43 @@
 // Fast "Load more": the same idea as the daily agent, run on this device in about a minute.
 //   feeds of your sources (+ Reddit / Hacker News search for topics without sources or a search query)
 //   → article text → ONE Gemini call (the key from Settings → AI, or the PC server's)
-// The items it writes live only on this device (myscroll:fastItems) and join the feed like any other.
-import { state, allSources, topicOf, topics, isTopicActive, topicWeight, pool, slugify, readerProfile } from "./model.js";
+// The items it writes are kept in the synced localItems map (see below) and join the feed like any other.
+import { state, store, allSources, topicOf, topics, isTopicActive, topicWeight, pool, slugify, readerProfile } from "./model.js";
 import { askJSON, local, canUseAI } from "./ai.js";
 import { proxied, extractArticle, canFetchPages } from "./readmore.js";
 import { getJSON } from "./env.js";
+import { prune, itemsOf, fromArray } from "./localitems.js";
 
-const KEEP_DAYS = 30;
 const DAY = 864e5;
-const MAX_AI_BOOKS = 200;
 
 // ---------- local items: an extra "edition" the pool reads ----------
-export function localItems() {
-  const since = Date.now() - KEEP_DAYS * DAY;
-  // AI book cards you asked for stay forever (the 200 newest); the rest go after a month.
-  const all = local.get("fastItems", []);
-  const keepBooks = new Set(all.filter((i) => i.source?.id === "ai-books").slice(-MAX_AI_BOOKS));
-  return all.filter((i) => keepBooks.has(i) || (i.source?.id !== "ai-books" && new Date(`${i.added}T12:00:00`).getTime() >= since));
+// Stored as the synced map myscroll:localItems (id -> { at, item }) so they follow you across devices and the daily
+// agent can see them (see localitems.js for the keep rules). The old device-only array myscroll:fastItems moves in once.
+function readMap() {
+  const old = local.get("fastItems", null);
+  if (Array.isArray(old)) {
+    // Migrate once; anything already in the map (e.g. pulled from another device) wins by recency.
+    const mine = fromArray(old);
+    const map = store.get("localItems", {});
+    for (const [id, e] of Object.entries(mine)) if (!map[id]) map[id] = e;
+    store.set("localItems", map);
+    try { localStorage.removeItem("myscroll:fastItems"); } catch {}
+    return map;
+  }
+  return store.get("localItems", {});
 }
+export function localItems() { return itemsOf(readMap()); }
 export const withLocal = (editions) => {
   const items = localItems();
   return items.length ? [...editions, { date: "local", items }] : editions;
 };
 
-// Adds ready-made items (e.g. an AI book summary) to the local store; an item with the same id is replaced.
+// Adds ready-made items (e.g. an AI book summary) to the synced local store; an item with the same id is replaced.
 export function addLocalItems(items) {
-  const ids = new Set(items.map((i) => i.id));
-  local.set("fastItems", [...localItems().filter((i) => !ids.has(i.id)), ...items]);
+  const map = prune(readMap());
+  const at = new Date().toISOString();
+  for (const item of items) map[item.id] = { at, item };
+  store.set("localItems", map);
 }
 
 export const canFastLoad =() => canFetchPages && canUseAI();
@@ -249,6 +259,6 @@ export async function fastLoadMore(onStatus, scope = {}) {
   const taken = new Set(pool().map((i) => i.id));
   const fresh = (items ?? []).filter((it) => withTexts[it.candidate]).map((it) => toItem(it, withTexts[it.candidate], scope, taken));
   if (!fresh.length) throw new Error("Gemini didn't find anything worth writing up. Try again or use the Full agent.");
-  local.set("fastItems", [...localItems(), ...fresh]);
+  addLocalItems(fresh);
   return fresh.length;
 }

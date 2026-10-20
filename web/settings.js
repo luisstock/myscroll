@@ -1,7 +1,7 @@
 // Settings screen: what the app learned, reading options, groups, topics (with editor), sources, backlog.
 import {
   state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
-  slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
+  slugify, deriveKeywords, allSources, suggestSources, sourceKey, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
   visibility, featureLabel, reloadFromStorage, live, editionSize,
 } from "./model.js";
 import { el } from "./ui.js";
@@ -328,7 +328,8 @@ function suggestionsSection(topic) {
       el("button", { class: "mini-btn add", onclick: () => { ai ? addSuggestion(topic.id, src) : enableCatalogSource(src, topic.id); rerender(); } }, "+ Add"),
       ai ? el("button", { class: "del", "aria-label": `Dismiss ${src.name}`, onclick: () => { dismissSuggestion(topic.id, src); paint(); } }, "✕") : null));
   const paint = () => {
-    const ai = aiSuggestions(topic.id), cat = suggestSources(topic, 8);
+    const ai = aiSuggestions(topic.id), aiKeys = new Set(ai.map((x) => sourceKey(x.url)));
+    const cat = suggestSources(topic, 8).filter((x) => !aiKeys.has(sourceKey(x.url))); // same site as an AI idea: show it once
     const busy = isFinding(topic.id) || autoFind === topic.id;
     sec.hidden = !ai.length && !cat.length && !busy;
     sec.replaceChildren(...[el("h3", {}, "Suggested sources"),

@@ -9,7 +9,7 @@ import { bedtimeFilter } from "./bedtime.js";
 export { readerProfile } from "./profile.js";
 
 const SYNCED = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
-  "later", "hidden", "readLog", "follows", "moodboard", "remember"];
+  "later", "hidden", "readLog", "follows", "moodboard", "remember", "localItems"];
 
 export const store = {
   get(key, fallback) {
@@ -153,6 +153,24 @@ export function sourceWeights() {
   return Object.fromEntries(allSources().map((s) => [s.id, s.weight]));
 }
 
+// Identity of a source, so the same site under slightly different URLs counts once:
+// hostname without www; /r/<name> for Reddit; @handle or channel id for YouTube.
+export function sourceKey(url) {
+  const raw = String(url ?? "").trim();
+  try {
+    const u = new URL(/^[a-z]+:\/\//i.test(raw) ? raw : "https://" + raw);
+    const host = u.hostname.toLowerCase().replace(/^(www|old|m|np)\./, "");
+    if (host === "reddit.com") { const r = u.pathname.match(/\/r\/([\w-]+)/i)?.[1]; return r ? `reddit.com/r/${r.toLowerCase()}` : host; }
+    if (host === "youtube.com" || host === "youtu.be") {
+      const id = u.searchParams.get("channel_id") ?? u.pathname.match(/\/channel\/(UC[\w-]{22})/)?.[1];
+      if (id) return `youtube.com/channel/${id}`;
+      const h = u.pathname.match(/\/(@[^/]+)/)?.[1] ?? u.pathname.match(/\/(?:c|user)\/([^/]+)/)?.[1];
+      return h ? `youtube.com/${h.toLowerCase().replace(/^@?/, "@")}` : host;
+    }
+    return host;
+  } catch { return raw.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/.*$/, ""); }
+}
+
 const STOP = new Set(["the", "and", "of", "for", "a", "in", "on", "to", "news", "new", "de", "e", "o", "a", "do", "da", "with", "what", "how"]);
 const tokens = (...texts) => new Set(texts.flat().filter(Boolean).join(" ").toLowerCase()
   .replace(/[-_/]/g, " ").split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 2 && !STOP.has(w)));
@@ -160,9 +178,9 @@ const tokens = (...texts) => new Set(texts.flat().filter(Boolean).join(" ").toLo
 // Catalog sources that fit a topic and aren't active for it yet, best first.
 export function suggestSources(topic, limit = 8) {
   const want = tokens(topic.label, topic.description, topic.keywords, topic.subs?.map((s) => s.label));
-  const active = new Set(allSources().filter((s) => s.topic === topic.id).map((s) => s.url));
+  const active = new Set(allSources().filter((s) => s.topic === topic.id).map((s) => sourceKey(s.url)));
   return state.catalog
-    .filter((s) => !active.has(s.url))
+    .filter((s) => !active.has(sourceKey(s.url)))
     .map((s) => {
       const have = tokens(s.name, s.tags);
       let score = s.topic === topic.id ? 3 : 0;

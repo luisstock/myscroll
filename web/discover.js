@@ -1,7 +1,7 @@
 // "Find sources": Gemini suggests sources for a topic from its name and description, then this device checks
 // that each one is alive (a working feed, subreddit or YouTube channel) and keeps the good ones as suggestions;
 // "+ Add" turns one into a normal source you can weight, turn off or delete. The daily agent has its own version for new topics.
-import { state, allSources, saveSettings, slugify, readerProfile } from "./model.js";
+import { state, allSources, saveSettings, slugify, readerProfile, sourceKey } from "./model.js";
 import { askJSON, canUseAI, local } from "./ai.js";
 import { proxied, canFetchPages } from "./readmore.js";
 import { parseFeed } from "./fastmore.js";
@@ -72,7 +72,7 @@ async function verify(s) {
 
 // ---------- suggestion cache (local, per topic) ----------
 // { topicId: [{ name, url, type, feed?, why, checkedAt }] }: verified sources waiting for a tap on "+ Add".
-const keyOf = (u) => u.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/+$/, "");
+const keyOf = sourceKey; // the same site under another URL (www, /feed/ vs /section/) is the same source
 const WEEK = 7 * 864e5;
 const readSugg = () => local.get("sourceSuggestions", {});
 const readDismissed = () => local.get("sourceDismissed", {});

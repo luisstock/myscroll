@@ -60,16 +60,19 @@ const discovered = []; // sources found for new topics (finalize adds them to th
 const readyTopics = [];
 
 // 2. memory of everything shown, so nothing repeats
-const { model, ranking, state, live } = await loadContext();
+const { model, ranking, state, live, localItems } = await loadContext();
 const history = await loadHistory();
 if (!history.list.length) await seedFromEditions(history, state.editions);
+// Stories the reader's devices already wrote (Fast Load more, AI books): count them as shown (URLs and titles).
+history.add(localItems.filter((i) => i.source?.url).map((i) => ({ url: i.source.url, title: i.title, date: i.added, id: i.id })));
 const todaysUrls = [...(existing?.items ?? []), existing?.longread].filter(Boolean).map((i) => i.source?.url);
 
 // "Not interested": never pick a story whose item the reader hid (the taste profile handles the rest in the app).
 const pool = state.editions.flatMap((e) => [e.longread, ...(e.items ?? [])]).filter(Boolean);
 const hiddenIds = new Set(live(state.hidden).map((h) => h.id));
 const hiddenUrls = pool.filter((i) => hiddenIds.has(i.id)).map((i) => i.source?.url).filter(Boolean);
-const skipUrls = [...todaysUrls, ...hiddenUrls];
+const localUrls = localItems.map((i) => i.source?.url).filter(Boolean);
+const skipUrls = [...todaysUrls, ...hiddenUrls, ...localUrls];
 
 // Subcategory focus: --sub topic/sub (restricts the plan to that topic).
 let sub = null;

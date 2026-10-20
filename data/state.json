@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T13:19:13.339Z",
+ "updatedAt": "2026-10-20T14:59:17.808Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -517,7 +517,8 @@
   "pt-apreensoes-de-cocaina-aumentam-68-em-por",
   "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
   "pt-volta",
-  "tech-a-99-car-tracker-betting-parents-care-more-about"
+  "tech-a-99-car-tracker-betting-parents-care-more-about",
+  "science-esa-s-euclid-telescope-was-built-to-map-galaxies"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -555,7 +556,12 @@
   "pt-alianca-luso-britanica": 1,
   "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 1,
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
-  "pt-porto-cidade-acolhedora": 1
+  "pt-porto-cidade-acolhedora": 1,
+  "tech-apple-schedules-surprise-late-october-event-for": 1,
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": 1,
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 1,
+  "tr-repair": 1,
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2186,6 +2192,51 @@
    "tag:connected-cars",
    "tag:hardware",
    "tag:privacy"
+  ],
+  "tech-apple-schedules-surprise-late-october-event-for": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:macbook-pro",
+   "tag:hardware",
+   "tag:display"
+  ],
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:news",
+   "tag:space",
+   "tag:satellites",
+   "tag:defense",
+   "tag:astronomy"
+  ],
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": [
+   "topic:tech",
+   "source:ars-technica",
+   "style:story",
+   "tag:artificial-intelligence",
+   "tag:cybersecurity",
+   "tag:openai",
+   "tag:espionage"
+  ],
+  "science-esa-s-euclid-telescope-was-built-to-map-galaxies": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:astronomy",
+   "tag:euclid-telescope",
+   "tag:comets",
+   "tag:solar-system"
+  ],
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:atmospheric-optics",
+   "tag:rainbows",
+   "tag:physics",
+   "tag:meteorology"
   ]
  },
  "read": [

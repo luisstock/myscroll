@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T13:13:38.664Z",
+ "updatedAt": "2026-10-20T13:15:34.245Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -427,7 +427,20 @@
   "activeMood": null,
   "moods": null
  },
- "ratings": {},
+ "ratings": {
+  "pt-volta": {
+   "r": 3,
+   "at": "2026-10-20T13:14:57.410Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:til",
+    "tag:ciclismo",
+    "tag:historia"
+   ]
+  }
+ },
  "opened": [
   "lr-tongan-castaways-2",
   "lr-1816",
@@ -498,7 +511,12 @@
   "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
   "ideas-reality-does-not-exist-independently-of-you-nor",
   "pt-quando-o-sporting-processou-o-publico-nu",
-  "pt-presidente-da-cip-critica-protestos-e-de"
+  "pt-presidente-da-cip-critica-protestos-e-de",
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r",
+  "pt-carneiro-classifica-lei-das-rendas-como",
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por",
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
+  "pt-volta"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -530,7 +548,9 @@
   "ideas-beauty-is-an-act-of-unselfing": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
-  "motion-exploring-retro-animation-styles-in-afte": 1
+  "motion-exploring-retro-animation-styles-in-afte": 1,
+  "pt-cortica": 1,
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2125,6 +2145,33 @@
    "tag:habitacao",
    "tag:portugal",
    "tag:economia"
+  ],
+  "pt-carneiro-classifica-lei-das-rendas-como": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:politica"
+  ],
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:portugal",
+   "tag:seguranca",
+   "tag:justica"
+  ],
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:tecnologia",
+   "tag:portugal",
+   "tag:banca"
   ]
  },
  "read": [
@@ -2192,7 +2239,18 @@
   "pt-diogo-moreira-na-equipa-oficial-honda-de",
   "pt-tendas-retiradas-em-lisboa-e-porto-apos",
   "pt-quando-o-sporting-processou-o-publico-nu",
-  "pt-intervencao-da-psp-poe-fim-a-acampamento"
+  "pt-intervencao-da-psp-poe-fim-a-acampamento",
+  "pt-presidente-da-cip-critica-protestos-e-de",
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r",
+  "pt-carneiro-classifica-lei-das-rendas-como",
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por",
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
+  "pt-agostinho",
+  "pt-volta",
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov",
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con",
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par",
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei"
  ],
  "saved": [
   "pt-1755",
@@ -2485,6 +2543,69 @@
     "tag:manifestacao",
     "tag:psp"
    ]
+  },
+  "pt-agostinho": {
+   "at": "2026-10-20T13:14:50.092Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:wikipedia-pt",
+    "style:story",
+    "tag:ciclismo",
+    "tag:historia"
+   ]
+  },
+  "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov": {
+   "at": "2026-10-20T13:15:03.788Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:story",
+    "tag:cinema",
+    "tag:hollywood",
+    "tag:biografia",
+    "tag:livros"
+   ]
+  },
+  "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con": {
+   "at": "2026-10-20T13:15:06.324Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:story",
+    "tag:musica",
+    "tag:the-voice",
+    "tag:televisao",
+    "tag:historias-de-vida"
+   ]
+  },
+  "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par": {
+   "at": "2026-10-20T13:15:08.872Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:explainer",
+    "tag:sociedade",
+    "tag:reciclagem",
+    "tag:economia",
+    "tag:lisboa"
+   ]
+  },
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei": {
+   "at": "2026-10-20T13:15:15.417Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:news",
+    "tag:desporto",
+    "tag:ciclismo",
+    "tag:sangalhos",
+    "tag:jogos-olimpicos"
+   ]
   }
  },
  "readLog": {
@@ -2565,6 +2686,37 @@
   },
   "pt-quando-o-sporting-processou-o-publico-nu": {
    "at": "2026-10-20T13:13:14.905Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-presidente-da-cip-critica-protestos-e-de": {
+   "at": "2026-10-20T13:14:09.369Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": {
+   "at": "2026-10-20T13:14:18.496Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-carneiro-classifica-lei-das-rendas-como": {
+   "at": "2026-10-20T13:14:34.534Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por": {
+   "at": "2026-10-20T13:14:40.325Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d": {
+   "at": "2026-10-20T13:14:47.887Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-volta": {
+   "at": "2026-10-20T13:14:58.169Z",
    "min": 1,
    "topic": "pt"
   }

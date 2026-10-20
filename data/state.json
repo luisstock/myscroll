@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T15:00:26.846Z",
+ "updatedAt": "2026-10-20T15:01:34.887Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -424,7 +424,7 @@
   ],
   "unmuted": [],
   "orderByReading": true,
-  "activeMood": null,
+  "activeMood": "relax",
   "moods": null
  },
  "ratings": {

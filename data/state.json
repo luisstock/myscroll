@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:41:06.250Z",
+ "updatedAt": "2026-10-20T16:41:32.777Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -440,6 +440,44 @@
     "type": "reddit",
     "weight": 1,
     "custom": true
+   },
+   {
+    "id": "health-r-healthyhoaxes",
+    "topic": "health",
+    "name": "r/Healthyhoaxes",
+    "url": "https://www.reddit.com/r/health",
+    "type": "reddit",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "note": "A broad community discussing general health news, research, and lifestyle habits.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-huberman-lab",
+    "topic": "health",
+    "name": "Huberman Lab",
+    "url": "https://www.youtube.com/@hubermanlab",
+    "type": "video",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2D2CMWXMOVWx7giW1n3LIg",
+    "note": "Dr. Andrew Huberman provides science-based tools for everyday life, including protocols for fat loss, sleep, and metabolic health.",
+    "discovered": "2026-10-20"
+   },
+   {
+    "id": "health-renaissance-periodization",
+    "topic": "health",
+    "name": "Renaissance Periodization",
+    "url": "https://www.youtube.com/@RenaissancePeriodization",
+    "type": "video",
+    "weight": 1,
+    "tags": [],
+    "custom": true,
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfQgsKhHjSyRLOp9mnffqVg",
+    "note": "Dr. Mike Israetel offers humorous yet deeply informative content on hypertrophy, dieting, and weight loss techniques backed by science.",
+    "discovered": "2026-10-20"
    }
   ],
   "unmuted": [],

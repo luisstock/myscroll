@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:31:11.337Z",
+ "updatedAt": "2026-10-20T12:31:29.919Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -487,14 +487,16 @@
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
-  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
   "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1,
   "pt-metro-da-margem-sul-avanca-para-greve-pr": 1,
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
-  "pt-quando-o-sporting-processou-o-publico-nu": 1
+  "pt-quando-o-sporting-processou-o-publico-nu": 1,
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1918,6 +1920,24 @@
    "tag:futebol",
    "tag:justica",
    "tag:sporting"
+  ],
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:desporto",
+   "tag:motogp",
+   "tag:honda"
+  ],
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:lisboa"
   ]
  },
  "read": [
@@ -1977,7 +1997,8 @@
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
-  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
+  "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
+  "pt-metro-da-margem-sul-avanca-para-greve-pr"
  ],
  "saved": [
   "pt-1755",
@@ -2275,6 +2296,12 @@
   },
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr": {
    "at": "2026-10-20T12:30:56.335Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": {
+   "at": "2026-10-20T12:31:12.527Z",
    "min": 0,
    "topic": "pt",
    "quick": true

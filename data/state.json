@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:31:29.919Z",
+ "updatedAt": "2026-10-20T12:33:32.487Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -488,7 +488,8 @@
   "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
-  "pt-tendas-retiradas-em-lisboa-e-porto-apos"
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos",
+  "f1-christian-horner-reveals-true-stance-on-liam-law"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -496,7 +497,8 @@
   "pt-metro-da-margem-sul-avanca-para-greve-pr": 1,
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
-  "pt-diogo-moreira-na-equipa-oficial-honda-de": 1
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1938,6 +1940,21 @@
    "tag:habitacao",
    "tag:portugal",
    "tag:lisboa"
+  ],
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": [
+   "topic:f1",
+   "source:web",
+   "style:video",
+   "tag:f1",
+   "tag:daniel-ricciardo"
+  ],
+  "f1-christian-horner-reveals-true-stance-on-liam-law": [
+   "topic:f1",
+   "source:web",
+   "style:news",
+   "tag:f1",
+   "tag:red-bull",
+   "tag:liam-lawson"
   ]
  },
  "read": [

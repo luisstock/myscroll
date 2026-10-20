@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T23:21:40.755Z",
+ "updatedAt": "2026-10-20T00:10:21.400Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -405,7 +405,9 @@
     "custom": true
    }
   ],
-  "unmuted": []
+  "unmuted": [],
+  "orderByReading": true,
+  "activeMood": "relax"
  },
  "ratings": {
   "lr-tongan-castaways-2": {
@@ -2078,5 +2080,133 @@
  "saved": [
   "pt-1755",
   "motion-balancing-speed-and-readability-in-vertical-kine"
- ]
+ ],
+ "later": null,
+ "hidden": {
+  "til-robert-smalls": {
+   "at": "2026-10-20T00:09:34.471Z",
+   "f": [
+    "topic:til",
+    "sub:til/story",
+    "source:wikipedia",
+    "style:story",
+    "tag:american-civil-war",
+    "tag:escape",
+    "tag:robert-smalls",
+    "tag:history"
+   ]
+  },
+  "til-nintendo": {
+   "at": "2026-10-20T00:09:37.049Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia",
+    "style:til",
+    "tag:companies",
+    "tag:games",
+    "tag:history"
+   ]
+  },
+  "til-oxford": {
+   "at": "2026-10-20T00:09:39.843Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia",
+    "style:til",
+    "tag:history",
+    "tag:time-perspective"
+   ]
+  },
+  "til-banana": {
+   "at": "2026-10-20T00:09:43.991Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia",
+    "style:til",
+    "tag:plants",
+    "tag:food"
+   ]
+  },
+  "til-eiffel": {
+   "at": "2026-10-20T00:09:46.040Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia",
+    "style:til",
+    "tag:engineering",
+    "tag:physics"
+   ]
+  },
+  "til-octopus": {
+   "at": "2026-10-20T00:09:49.293Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia",
+    "style:til",
+    "tag:animals",
+    "tag:biology"
+   ]
+  },
+  "til-fly-geyser": {
+   "at": "2026-10-20T00:09:54.363Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia-dyk",
+    "style:til",
+    "tag:nevada",
+    "tag:geology",
+    "tag:geysers",
+    "tag:accidental-landmarks"
+   ]
+  },
+  "til-roy-sullivan-lightning": {
+   "at": "2026-10-20T00:09:58.159Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia-dyk",
+    "style:til",
+    "tag:lightning",
+    "tag:guinness-records",
+    "tag:park-rangers",
+    "tag:weather"
+   ]
+  },
+  "til-violet-jessop": {
+   "at": "2026-10-20T00:09:59.842Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia-dyk",
+    "style:til",
+    "tag:titanic",
+    "tag:shipwrecks",
+    "tag:white-star-line",
+    "tag:history"
+   ]
+  },
+  "til-wojtek-bear": {
+   "at": "2026-10-20T00:10:06.398Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:wikipedia-dyk",
+    "style:til",
+    "tag:world-war-ii",
+    "tag:animals",
+    "tag:polish-army",
+    "tag:wojtek"
+   ]
+  }
+ },
+ "readLog": null,
+ "follows": null,
+ "moodboard": null,
+ "remember": null
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:34:18.896Z",
+ "updatedAt": "2026-10-20T12:34:59.712Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -489,7 +489,8 @@
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
   "pt-tendas-retiradas-em-lisboa-e-porto-apos",
-  "f1-christian-horner-reveals-true-stance-on-liam-law"
+  "f1-christian-horner-reveals-true-stance-on-liam-law",
+  "ai-one-third-of-the-most-popular-comfyui-custom-nod"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -499,7 +500,14 @@
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
   "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1,
-  "f1-christian-horner-building-red-bull-s-f1-engine-w": 1
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
+  "motion-animating-ui-promos-outside-after-effects-using": 1,
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 1,
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 1,
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 1,
+  "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
+  "mo-fischinger": 1,
+  "ai-openmoss-lands-in-comfyui-with-structured-layout": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1964,6 +1972,54 @@
    "tag:f1",
    "tag:red-bull",
    "tag:motorsport"
+  ],
+  "motion-animating-ui-promos-outside-after-effects-using": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-motiondesign",
+   "style:reddit",
+   "tag:davinci-resolve",
+   "tag:figma",
+   "tag:ui-animation",
+   "tag:app-promo"
+  ],
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:motionographer",
+   "style:story",
+   "tag:tomakti-studio",
+   "tag:dimitrios-sakkas",
+   "tag:animation",
+   "tag:motion-design"
+  ],
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": [
+   "topic:motion",
+   "sub:motion/industry",
+   "source:motionographer",
+   "style:news",
+   "tag:rove",
+   "tag:rebrand",
+   "tag:motion-graphics",
+   "tag:studio-news"
+  ],
+  "ai-openmoss-lands-in-comfyui-with-structured-layout": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-comfyui",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:open-source",
+   "tag:image-generation"
+  ],
+  "ai-one-third-of-the-most-popular-comfyui-custom-nod": [
+   "topic:ai",
+   "sub:ai/motion-ai",
+   "source:r-comfyui",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:open-source",
+   "tag:workflows"
   ]
  },
  "read": [

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:06:40.671Z",
+ "updatedAt": "2026-10-20T16:07:19.717Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -425,7 +425,13 @@
   "unmuted": [],
   "orderByReading": true,
   "activeMood": null,
-  "moods": null
+  "moods": null,
+  "bedtime": {
+   "enabled": true,
+   "from": "22:30",
+   "to": "06:00",
+   "minutes": 20
+  }
  },
  "ratings": {
   "pt-volta": {

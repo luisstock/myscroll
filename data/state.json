@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T11:10:23.165Z",
+ "updatedAt": "2026-10-20T11:13:14.206Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -761,7 +761,10 @@
   "til-the-michigan-bookstore-where-you-shop-for-paperb": 1,
   "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": 1,
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": 1,
-  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": 1
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": 1,
+  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": 1,
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2086,6 +2089,36 @@
    "tag:cinema",
    "tag:clube-ferroviario",
    "tag:margaret-qualley"
+  ],
+  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:musica",
+   "tag:cultura",
+   "tag:ccb",
+   "tag:piano"
+  ],
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:web",
+   "style:news",
+   "tag:demografia",
+   "tag:algarve",
+   "tag:sociedade",
+   "tag:ine"
+  ],
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:web",
+   "style:news",
+   "tag:meteorologia",
+   "tag:ipma",
+   "tag:clima",
+   "tag:outono"
   ]
  },
  "read": [

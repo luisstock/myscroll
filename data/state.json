@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:38:33.334Z",
+ "updatedAt": "2026-10-20T12:40:03.717Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -509,7 +509,11 @@
   "mo-fischinger": 1,
   "ai-openmoss-lands-in-comfyui-with-structured-layout": 1,
   "ai-microsoft-warns-ai-agents-are-insider-threats-as": 1,
-  "fun-wilhelm-scream": 1
+  "fun-wilhelm-scream": 1,
+  "fun-boaty": 1,
+  "fun-project-pigeon": 1,
+  "fun-boring-and-dull": 1,
+  "fun-byron": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [

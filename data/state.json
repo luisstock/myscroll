@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T18:06:03.988Z",
+ "updatedAt": "2026-10-20T18:06:44.590Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -534,13 +534,60 @@
   ],
   "unmuted": [],
   "orderByReading": true,
+  "feedOrder": "mixed",
   "activeMood": null,
-  "moods": null,
+  "moods": [
+   {
+    "id": "relax",
+    "name": "Relax",
+    "emoji": "😌",
+    "topics": [
+     "til",
+     "fun",
+     "bike"
+    ],
+    "maxMinutes": 5,
+    "noNews": true
+   },
+   {
+    "id": "learn",
+    "name": "Learn",
+    "emoji": "🧠",
+    "topics": [
+     "science",
+     "books",
+     "ideas",
+     "tech"
+    ]
+   },
+   {
+    "id": "work",
+    "name": "Work inspiration",
+    "emoji": "🎨",
+    "topics": [
+     "motion",
+     "design",
+     "ai"
+    ]
+   },
+   {
+    "id": "mood-mvgzv9it",
+    "name": "New mood",
+    "emoji": "🙂",
+    "topics": [
+     "health"
+    ]
+   }
+  ],
   "bedtime": {
    "enabled": true,
    "from": "22:30",
    "to": "06:00",
    "minutes": 20
+  },
+  "profile": {
+   "about": "",
+   "avoid": ""
   }
  },
  "ratings": {

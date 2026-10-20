@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T00:15:26.147Z",
+ "updatedAt": "2026-10-20T11:08:45.755Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -641,7 +641,8 @@
   "mo-12",
   "motion-maxon-releases-cinema-4d-2027-0",
   "tech-a-police-officer-shared-automated-license-plate",
-  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati"
+  "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 7,
@@ -2104,7 +2105,8 @@
   "til-chuck-lorre-escaped-scientology-without-harassme",
   "tech-a-police-officer-shared-automated-license-plate",
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
-  "mo-roto"
+  "mo-roto",
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr"
  ],
  "saved": [
   "pt-1755",
@@ -2254,6 +2256,72 @@
     "tag:history",
     "tag:absurd"
    ]
+  },
+  "pt-operacao-marques-arranca-segundo-julgamento-de-s": {
+   "at": "2026-10-20T11:07:54.311Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:justica",
+    "tag:politica",
+    "tag:operacao-marques",
+    "tag:tribunais"
+   ]
+  },
+  "pt-portugal-volta-a-vencer-o-premio-de-melhor-desti": {
+   "at": "2026-10-20T11:08:12.721Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:nit",
+    "style:news",
+    "tag:turismo",
+    "tag:world-travel-awards",
+    "tag:portugal",
+    "tag:algarve",
+    "tag:lisboa"
+   ]
+  },
+  "pt-eleicoes-brasileiras-em-lisboa-consulado-preve-p": {
+   "at": "2026-10-20T11:08:19.437Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:lisboa",
+    "tag:eleicoes",
+    "tag:brasil",
+    "tag:emigracao"
+   ]
+  },
+  "pt-portugal-bateu-recorde-absoluto-com-nove-ondas-d": {
+   "at": "2026-10-20T11:08:24.158Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:publico",
+    "style:news",
+    "tag:clima",
+    "tag:ipma",
+    "tag:meteorologia",
+    "tag:portugal"
+   ]
+  },
+  "pt-tendas-no-rossio-e-na-praca-d-joao-i-mantem-prot": {
+   "at": "2026-10-20T11:08:30.753Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:habitacao",
+    "tag:lisboa",
+    "tag:porto",
+    "tag:sociedade"
+   ]
   }
  },
  "readLog": {
@@ -2276,6 +2344,11 @@
    "at": "2026-10-20T00:15:14.948Z",
    "min": 1,
    "topic": "motion"
+  },
+  "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr": {
+   "at": "2026-10-20T11:08:08.178Z",
+   "min": 1,
+   "topic": "pt"
   }
  },
  "follows": null,

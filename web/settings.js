@@ -12,7 +12,7 @@ import { bedtimeSection } from "./bedtime.js";
 import { statsSection } from "./stats.js";
 import { github } from "./loadmore.js";
 import { followedSection } from "./follow.js";
-import { discoverSources, canDiscover } from "./discover.js";
+import { discoverSources, canDiscover, aiSuggestions, askedRecently, dismissSuggestion, addSuggestion, isFinding } from "./discover.js";
 import { syncConfigured, syncStatus, pullState, pushState } from "./sync.js";
 
 let ctx; // { root, refreshChrome, applyTheme }
@@ -267,17 +267,14 @@ function renderTopicEditor(id) {
   const extra = [];
   if (!isNew) {
     const mine = allSources().filter((s) => s.topic === id);
-    const suggested = suggestSources(t, 8);
+    const suggNode = suggestionsSection(t); // built before the Find button so it knows if a first-run search is pending
     if (t.status === "new") extra.push(el("p", { class: "notice" },
       "🆕 Ready to use with the sources below. On its next run the agent will finish setting it up: look for more sources and learn what's worth showing."));
     extra.push(section("How the agent will search", "Built from your keywords and description, plus every source below.",
       el("ul", { class: "plan" }, searchPlan(t).map((q) => el("li", {}, q)))));
     extra.push(section(`Sources (${mine.length})`, mine.length ? null : "No sources yet. Tap ✨ Find sources, add some below, or let the agent find them.",
       findSourcesBox(t), mine.map((src) => sourceRow(src)), addSourceForm(id)));
-    if (suggested.length) extra.push(section("Suggested sources", "From the MyScroll catalog, matched to this topic.",
-      suggested.map((src) => el("div", { class: "src-row sugg" },
-        el("div", { class: "src-name" }, el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name), el("span", { class: "badge" }, src.type)),
-        el("button", { class: "mini-btn add", onclick: () => { enableCatalogSource(src, id); rerender(); } }, "+ Add")))));
+    extra.push(suggNode);
     extra.push(el("button", { class: "link danger", onclick: () => {
       if (!confirm(`Delete the topic "${t.label}"? Items already in your scroll from it will disappear.`)) return;
       state.settings.topics = editableTopics().filter((x) => x.id !== id);
@@ -295,8 +292,40 @@ function renderTopicEditor(id) {
 }
 
 // ---------- Sources ----------
-// ✨ Find sources: Gemini suggests, this device checks each one works, the good ones become normal sources.
+// Suggested sources: catalog matches + Gemini's verified ideas (cached per topic). "+ Add" makes a normal source.
 let autoFind = null;
+let paintSugg = null; // repaints the open editor's suggestions section
+function suggestionsSection(topic) {
+  const sec = el("section", { class: "set-section sugg-section" });
+  const row = (src, ai) => el("div", { class: "src-row sugg" },
+    el("div", { class: "src-name sugg-name" },
+      el("div", { class: "sugg-line" }, el("a", { href: src.url, target: "_blank", rel: "noopener" }, src.name),
+        ai ? el("span", { class: "badge ai" }, "✨ AI") : null, el("span", { class: "badge" }, src.type)),
+      ai && src.why ? el("small", { class: "sugg-why" }, src.why) : null),
+    el("div", { class: "sugg-ctl" },
+      el("button", { class: "mini-btn add", onclick: () => { ai ? addSuggestion(topic.id, src) : enableCatalogSource(src, topic.id); rerender(); } }, "+ Add"),
+      ai ? el("button", { class: "del", "aria-label": `Dismiss ${src.name}`, onclick: () => { dismissSuggestion(topic.id, src); paint(); } }, "✕") : null));
+  const paint = () => {
+    const ai = aiSuggestions(topic.id), cat = suggestSources(topic, 8);
+    const busy = isFinding(topic.id) || autoFind === topic.id;
+    sec.hidden = !ai.length && !cat.length && !busy;
+    sec.replaceChildren(...[el("h3", {}, "Suggested sources"),
+      el("p", { class: "set-hint" }, "From the MyScroll catalog and from Gemini (checked: each one has a working feed)."),
+      busy ? el("p", { class: "more-status" }, "Looking for sources…") : null,
+      ...ai.map((s) => row(s, true)), ...cat.map((s) => row(s, false))].filter(Boolean));
+  };
+  paintSugg = () => { if (sec.isConnected && state.editTopic === topic.id) paint(); };
+  paint();
+  // Few suggestions and Gemini not asked this week: look in the background (a brand-new topic does it via autoFind).
+  if (autoFind !== topic.id && canDiscover() && !isFinding(topic.id) && !askedRecently(topic.id)
+    && aiSuggestions(topic.id).length + suggestSources(topic, 8).length < 3) {
+    discoverSources(topic).then(() => paintSugg?.(), () => paintSugg?.());
+    paint();
+  }
+  return sec;
+}
+
+// ✨ Find sources: Gemini suggests, this device checks each one works, the good ones go to the suggestions above.
 function findSourcesBox(topic) {
   if (!canDiscover()) return el("p", { class: "set-hint" }, "✨ Add your Gemini key in Settings → AI to find sources automatically from the description.");
   const status = el("p", { class: "more-status", hidden: true });
@@ -306,11 +335,20 @@ function findSourcesBox(topic) {
     btn.textContent = "Finding…";
     status.hidden = false;
     status.classList.remove("error");
+    paintSugg?.();
+    // A brand-new topic with no sources yet gets the top 3 verified ones right away so it works immediately.
+    const autoAdd = allSources().some((s) => s.topic === topic.id) ? 0 : 3;
     try {
-      const { added, skipped } = await discoverSources(topic, (t) => { status.textContent = t; });
-      if (!added.length) throw new Error(`No working sources found${skipped.length ? ` (${skipped.length} didn't answer)` : ""}. Try a more specific description.`);
-      if (state.editTopic === topic.id) rerender();
+      const { found, added, skipped } = await discoverSources(topic, (t) => { status.textContent = t; }, { autoAdd });
+      if (!found.length) throw new Error(`No working sources found${skipped.length ? ` (${skipped.length} didn't answer)` : ""}. Try a more specific description.`);
+      if (state.editTopic !== topic.id) return;
+      if (added.length) { rerender(); return; }
+      status.textContent = `Found ${found.length} working source${found.length > 1 ? "s" : ""}: see Suggested sources below.`;
+      btn.disabled = false;
+      btn.textContent = "✨ Find sources";
+      paintSugg?.();
     } catch (err) {
+      paintSugg?.();
       status.textContent = err.message;
       status.classList.add("error");
       btn.disabled = false;
@@ -318,7 +356,8 @@ function findSourcesBox(topic) {
     }
   };
   if (autoFind === topic.id) { autoFind = null; setTimeout(() => btn.click(), 0); }
-  return el("div", { class: "find-box" }, btn, status);
+  return el("div", { class: "find-box" }, btn, status,
+    allSources().some((s) => s.topic === topic.id) ? null : el("p", { class: "set-hint" }, "No sources yet: the 3 best working ones will be added automatically so this topic works right away."));
 }
 
 function sourceRow(src) {

@@ -13,14 +13,21 @@ const DAY = 864e5;
 // ---------- local items: an extra "edition" the pool reads ----------
 export function localItems() {
   const since = Date.now() - KEEP_DAYS * DAY;
-  return local.get("fastItems", []).filter((i) => new Date(`${i.added}T12:00:00`).getTime() >= since);
+  // Book cards you asked for stay until you've read them; the rest go after a month.
+  return local.get("fastItems", []).filter((i) => (i.book && !state.read.has(i.id)) || new Date(`${i.added}T12:00:00`).getTime() >= since);
 }
 export const withLocal = (editions) => {
   const items = localItems();
   return items.length ? [...editions, { date: "local", items }] : editions;
 };
 
-export const canFastLoad = () => canFetchPages && canUseAI();
+// Adds ready-made items (e.g. an AI book summary) to the local store; an item with the same id is replaced.
+export function addLocalItems(items) {
+  const ids = new Set(items.map((i) => i.id));
+  local.set("fastItems", [...localItems().filter((i) => !ids.has(i.id)), ...items]);
+}
+
+export const canFastLoad =() => canFetchPages && canUseAI();
 
 // ---------- gathering ----------
 const q = encodeURIComponent;

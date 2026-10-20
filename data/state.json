@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T13:15:34.245Z",
+ "updatedAt": "2026-10-20T13:19:13.339Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -516,7 +516,8 @@
   "pt-carneiro-classifica-lei-das-rendas-como",
   "pt-apreensoes-de-cocaina-aumentam-68-em-por",
   "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
-  "pt-volta"
+  "pt-volta",
+  "tech-a-99-car-tracker-betting-parents-care-more-about"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -550,7 +551,11 @@
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "motion-exploring-retro-animation-styles-in-afte": 1,
   "pt-cortica": 1,
-  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": 1,
+  "pt-alianca-luso-britanica": 1,
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": 1,
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 1,
+  "pt-porto-cidade-acolhedora": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2172,6 +2177,15 @@
    "tag:tecnologia",
    "tag:portugal",
    "tag:banca"
+  ],
+  "tech-a-99-car-tracker-betting-parents-care-more-about": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:gadgets",
+   "tag:connected-cars",
+   "tag:hardware",
+   "tag:privacy"
   ]
  },
  "read": [
@@ -2250,7 +2264,9 @@
   "pt-cinco-telefonemas-e-verdades-de-bastidores-a-nov",
   "pt-deixou-os-relvados-apos-as-lesoes-e-acabou-a-con",
   "pt-o-sistema-de-tara-retornavel-e-as-14-medidas-par",
-  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei"
+  "pt-quatro-medalhas-nos-mundiais-de-pista-e-as-gotei",
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est",
+  "tech-a-99-car-tracker-betting-parents-care-more-about"
  ],
  "saved": [
   "pt-1755",
@@ -2606,6 +2622,19 @@
     "tag:sangalhos",
     "tag:jogos-olimpicos"
    ]
+  },
+  "pt-quatro-candelabros-da-mitica-baixela-germain-est": {
+   "at": "2026-10-20T13:18:37.507Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:news",
+    "tag:historia",
+    "tag:arte",
+    "tag:patrimonio",
+    "tag:lisboa"
+   ]
   }
  },
  "readLog": {
@@ -2719,6 +2748,11 @@
    "at": "2026-10-20T13:14:58.169Z",
    "min": 1,
    "topic": "pt"
+  },
+  "tech-a-99-car-tracker-betting-parents-care-more-about": {
+   "at": "2026-10-20T13:19:01.280Z",
+   "min": 1,
+   "topic": "tech"
   }
  },
  "follows": null,

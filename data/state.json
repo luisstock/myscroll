@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T18:06:44.590Z",
+ "updatedAt": "2026-10-20T21:45:37.653Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -712,9 +712,9 @@
   "fun-project-pigeon": 1,
   "fun-boring-and-dull": 1,
   "fun-byron": 1,
-  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 2,
-  "books-the-traps-of-free-will-and-fate-across-time": 2,
-  "books-the-deep-roots-of-jewish-dissent": 2,
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
+  "books-the-traps-of-free-will-and-fate-across-time": 3,
+  "books-the-deep-roots-of-jewish-dissent": 3,
   "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 2,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 2,
   "ideas-beauty-is-an-act-of-unselfing": 2,
@@ -750,7 +750,8 @@
   "ai-llamacpp": 1,
   "ai-quant": 1,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
-  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1
+  "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2481,6 +2482,14 @@
    "tag:ai",
    "tag:frontier-models",
    "tag:tech"
+  ],
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:story",
+   "tag:design",
+   "tag:typography",
+   "tag:branding"
   ]
  },
  "read": [

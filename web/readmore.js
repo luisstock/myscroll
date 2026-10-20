@@ -4,14 +4,29 @@
 // this will be a native HTTP call instead.
 
 import { isNative, isLocalDev } from "./env.js";
+import { getCachedMore, putCachedMore } from "./offline.js";
 
 const MAX_BLOCKS = 40;
 
-export async function readMore(item) {
+export async function readMore(item, { network = false } = {}) {
   if (item.more) {
     const paras = Array.isArray(item.more) ? item.more : [item.more];
     return { blocks: paras.map((text) => ({ type: "p", text })), from: "MyScroll" };
   }
+  // Offline: serve the copy saved earlier. Online: fetch, keep a copy, fall back to the saved one on failure.
+  const saved = async () => { const hit = await getCachedMore(item.id); return hit ? { ...hit, from: "saved for offline" } : null; };
+  if (navigator.onLine === false && !network) { const hit = await saved(); if (hit) return hit; }
+  try {
+    const res = await fetchMore(item);
+    if (item.id) putCachedMore(item.id, res);
+    return res;
+  } catch (err) {
+    if (!network) { const hit = await saved(); if (hit) return hit; }
+    throw err;
+  }
+}
+
+async function fetchMore(item) {
   const url = item.source?.url;
   if (!url) throw new Error("No source link for this item.");
   if (/youtube\.com|youtu\.be|vimeo\.com/.test(url)) throw new Error("This one is a video — watch it above.");

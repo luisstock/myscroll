@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T17:22:17.382Z",
+ "updatedAt": "2026-10-20T17:57:17.668Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -3049,5 +3049,633 @@
  },
  "follows": null,
  "moodboard": null,
- "remember": null
+ "remember": null,
+ "localItems": {
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-intervencao-da-psp-poe-fim-a-acampamento",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "habitacao",
+     "manifestacao",
+     "psp"
+    ],
+    "title": "Intervenção da PSP põe fim a acampamentos pela habitação em Lisboa e no Porto",
+    "snippet": "A intervenção policial nas praças do Rossio, em Lisboa, e Dom João I, no Porto, resultou na detenção de 55 manifestantes e gerou debate sobre os limites da lei.",
+    "body": [
+     "A Polícia de Segurança Pública pôs fim na madrugada aos acampamentos de protesto pelo direito à habitação que concentravam dezenas de pessoas em Lisboa e no Porto. A operação policial resultou na detenção de 55 manifestantes na capital por crime de desobediência, após três avisos prévios para que abandonassem o local e retirassem as tendas.",
+     "Enquanto no Porto a saída dos manifestantes ocorreu de forma voluntária e sem incidentes após negociação com as autoridades, em Lisboa registaram-se momentos de tensão e empurrões. A direcção nacional da PSP defendeu que a atuação foi adequada, calma e proporcional.",
+     "Vogais e especialistas em direito constitucional apontam para a delicada linha entre a garantia da liberdade de reunião e a manutenção da ordem pública em democracias liberais, num momento em que a crise da habitação continua a mobilizar a sociedade."
+    ],
+    "more": [
+     "A polémica gerada em torno da desocupação levou vários partidos e figuras públicas a debaterem a proporção da força policial utilizada. O porta-voz da PSP rejeitou qualquer tipo de carga policial ou uso de bastões, sublinhando que a avaliação de risco foi feita de forma contínua antes de avançar para a praça.",
+     "Por sua vez, movimentos cívicos e associações de defesa da habitação criticaram duramente a actuação das autoridades, lembrando que o protesto pacífico é um pilar fundamental da participação cívica. Parte dos detidos deverá ser libertada ao longo do dia, enquanto continuam marcadas novas formas de contestação para os próximos tempos."
+    ],
+    "source": {
+     "id": "observador",
+     "name": "Observador",
+     "url": "https://observador.pt/programas/justica-cega/intervencao-da-psp-respeitou-a-lei-ao-por-fim-as-acampadas/"
+    },
+    "image": {
+     "src": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/01/29144757/770-podcast-justica-cega.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-quando-o-sporting-processou-o-publico-nu": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-quando-o-sporting-processou-o-publico-nu",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "desporto",
+     "futebol",
+     "justica",
+     "sporting"
+    ],
+    "title": "Quando o Sporting processou o Público num caso que durou quatro anos",
+    "snippet": "Uma retrospetiva judicial recorda o processo de 2001 em que o clube de Alvalade exigiu milhões ao jornal devido a notícias sobre as suas finanças.",
+    "body": [
+     "Em Fevereiro de 2001, o jornal PÚBLICO publicou artigos sobre dívidas fiscais de vários clubes portugueses, incluindo uma referência a valores em falta por parte do Sporting Clube de Portugal. O clube liderado na altura não tardou a reagir judicialmente.",
+     "Considerando que a honra da instituição tinha sido manchada, o clube avançou com um processo contra o jornal e três dos seus jornalistas, exigindo uma indemnização de 2,5 milhões de euros por danos morais.",
+     "O lituano desfecho nos tribunais só viria a acontecer anos mais tarde, em Abril de 2005, marcando um dos capítulos mais mediáticos na relação entre a imprensa escrita e as altas instâncias do futebol nacional."
+    ],
+    "more": [
+     "O caso faz parte de uma série de episódios jurídicos e políticos marcantes revisitados pela imprensa para analisar os limites entre o jornalismo de investigação, o segredo de justiça e a litigância de má-fé por parte de entidades influentes.",
+     "A análise destes processos históricos sublinha a importância da protecção legal da atividade jornalística num ecossistema democrático onde o escrutínio das contas de clubes com relevância pública continua a ser um tema sensível."
+    ],
+    "source": {
+     "id": "publico",
+     "name": "Público",
+     "url": "https://www.publico.pt/2026/10/20/video/devida-venia-sporting-processou-publico-caso-arrastou-quatro-anos-20261019-184611"
+    },
+    "image": {
+     "src": "https://imagens.publico.pt/imagens.aspx/canal_videos/videoPortal/Images/202610/dias_cunha98408.jpg?tp=VIDEOS&share=1&o=BarraFacebook_Publico.png"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-metro-da-margem-sul-avanca-para-greve-pr",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "transportes",
+     "greve",
+     "margem-sul",
+     "lisboa"
+    ],
+    "title": "Metro da Margem Sul avança para greve prolongada até final de outubro",
+    "snippet": "Trabalhadores da MTS exigem novos acordos salariais e melhores condições laborais, antevendo dias de grande transtorno para quem atravessa o Tejo.",
+    "body": [
+     "Os utentes dos transportes públicos na Margem Sul vão enfrentar uma semana particularmente difícil devido à greve total e parcial convocada pelos trabalhadores da Metro Transportes do Sul (MTS). A paralisação afeta diretamente os concelhos de Almada e Seixal.",
+     "Após dois anos e meio de negociações infrutíferas para um novo Acordo de Empresa, o sindicato avançou para a greve para contestar a falta de respostas às reivindicações de atualização salarial e melhores condições de organização do trabalho.",
+     "A empresa já veio classificar a greve como desproporcional, assegurando que mantém a disponibilidade para negociar, mas foram salvaguardados apenas alguns serviços mínimos essenciais nas horas de ponta."
+    ],
+    "more": [
+     "Com o trânsito rodoviário sob forte pressão adicional e alternativas de transporte reduzidas, aconselha-se aos passageiros que planeiem com antecedência as suas deslocações diárias para Lisboa.",
+     "A paralisação junta-se a um mês de outubro particularmente agitado no setor dos transportes na região de Lisboa, refletindo o descontentamento laboral generalizado em várias frentes de mobilidade urbana."
+    ],
+    "source": {
+     "id": "nit",
+     "name": "NiT",
+     "url": "https://www.nit.pt/fora-de-casa/na-cidade/caos-no-transito-metro-da-margem-sul-vai-estar-em-greve-ate-ao-final-de-outubro"
+    },
+    "image": {
+     "src": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1712127&ts=20261020111047"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-falha-tecnica-deixa-servicos-e-cartoes-d": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-falha-tecnica-deixa-servicos-e-cartoes-d",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "tecnologia",
+     "portugal",
+     "banca"
+    ],
+    "title": "Falha técnica deixa serviços e cartões da Revolut indisponíveis",
+    "snippet": "Uma paragem técnica deixou a aplicação da Revolut inoperacional, afetando pagamentos e levantamentos.",
+    "body": [
+     "Os utilizadores da Revolut enfrentam dificuldades no acesso a fundos devido a uma falha técnica que deixou a aplicação bancária inoperacional em Portugal e noutros mercados.",
+     "A interrupção comprometeu transações essenciais, incluindo pagamentos com cartões, levantamentos em caixas automáticas e transferências bancárias, gerando alertas de erro aos clientes."
+    ],
+    "more": [
+     "A empresa britânica confirmou a indisponibilidade parcial das suas funcionalidades centrais, assegurando contudo que os saldos e as informações pessoais dos clientes permanecem totalmente seguros e protegidos.",
+     "Embora a plataforma tenha registado perturbações significativas, a equipa técnica trabalhou para restabelecer a normalidade e mitigar o impacto nos milhares de utilizadores afetados pela falha."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/empresas/falha-tcnica-deixa-servios-e-cartes-da-revolut-indisponveis"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/2025-05-19/qpftw9go/dnimportcontentimages2024124C5369EF-BAF4-4E21-9C58-00CE656AB296.avif"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-presidente-da-cip-critica-protestos-e-de": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-presidente-da-cip-critica-protestos-e-de",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "habitacao",
+     "portugal",
+     "economia"
+    ],
+    "title": "Presidente da CIP critica protestos e defende o crescimento económico",
+    "snippet": "Armindo Monteiro criticou a minoria ruidosa nos protestos pela habitação e apelou a um pacto social.",
+    "body": [
+     "O presidente da CIP, Armindo Monteiro, criticou a minoria ruidosa responsável pelos protestos pela habitação, defendendo que a rua não resolve nem aproxima as soluções necessárias.",
+     "Numa declaração em Lisboa, o líder patronal sustentou que a resposta ao aumento do custo de vida passa pelo crescimento económico e pelo aumento da riqueza do país."
+    ],
+    "more": [
+     "Monteiro opôs uma maioria silenciosa, que trabalha diariamente, às formas de contestação mais visíveis, alertando para o risco de confrontos.",
+     "Apesar de demonstrar respeito por quem participa nos acampamentos, o responsável insistiu que o caminho ideal reside na cooperação institucional e na concertação social."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/habitao-presidente-da-cip-critica-minoria-ruidosa-e-diz-que-a-rua-no-resolve-e-no-aproxima"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/import/dvlrsekjvabvdvos/cf4ld46nqn1k.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-diogo-moreira-na-equipa-oficial-honda-de",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "desporto",
+     "motogp",
+     "honda"
+    ],
+    "title": "Diogo Moreira na equipa oficial Honda de MotoGP em 2027",
+    "snippet": "O piloto brasileiro vai integrar a equipa oficial da Honda no Mundial de Velocidade a partir de 2027.",
+    "body": [
+     "O brasileiro Diogo Moreira vai juntar-se a Fabio Quartararo na equipa oficial Honda no Mundial de MotoGP em 2027, num contrato plurianual anunciado pelo construtor japonês.",
+     "A promoção à estrutura principal acontece após a sua estreia na categoria rainha pela LCR Honda, onde se destacou ao conquistar um pódio numa corrida sprint no Japão."
+    ],
+    "more": [
+     "O jovem piloto de 22 anos, campeão mundial de Moto2 em 2025, afirmou realizar um sonho de infância ao integrar a Honda HRC Castrol.",
+     "Esta mudança insere-se na preparação para a entrada em vigor dos novos regulamentos técnicos previstos para 2027, com o objetivo de devolver a marca japonesa aos triunfos."
+    ],
+    "source": {
+     "id": "observador",
+     "name": "Observador",
+     "url": "https://observador.pt/2026/10/20/diogo-moreira-junta-se-a-quartararo-na-equipa-oficial-honda-de-motogp-em-2027/"
+    },
+    "image": {
+     "src": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:74/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/20104610/47877700.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-tendas-retiradas-em-lisboa-e-porto-apos",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "habitacao",
+     "portugal",
+     "lisboa"
+    ],
+    "title": "Tendas retiradas em Lisboa e Porto após intervenção da PSP",
+    "snippet": "A polícia retirou as tendas dos manifestantes no Rossio e na Praça D. João I, com novas protestos previstos.",
+    "body": [
+     "A PSP procedeu à retirada das tendas montadas por manifestantes nas acampadas da Praça D. João I, no Porto, e no Rossio, em Lisboa, numa operação realizada durante a madrugada.",
+     "Enquanto no Porto a ordem foi cumprida sem grande oposição, em Lisboa registaram-se detenções durante a intervenção policial que desmantelou os acampamentos."
+    ],
+    "more": [
+     "A ação das autoridades gerou forte repercussão pública no âmbito dos protestos contra a crise na habitação que têm marcado a atualidade nacional.",
+     "Os movimentos organizadores convocaram novas concentrações e manifestações para o final do mesmo dia em ambas as cidades."
+    ],
+    "source": {
+     "id": "publico",
+     "name": "Público",
+     "url": "https://www.publico.pt/2026/10/20/video/policia-retirou-tendas-lisboa-porto-novas-manifestacoes-convocadas-19h-20261020-094143"
+    },
+    "image": {
+     "src": "https://imagens.publico.pt/imagens.aspx/canal_videos/videoPortal/Images/202610/thumb-site98409.png?tp=VIDEOS&share=1&o=BarraFacebook_Publico.png"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-apreensoes-de-cocaina-aumentam-68-em-por": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-apreensoes-de-cocaina-aumentam-68-em-por",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "seguranca",
+     "justica"
+    ],
+    "title": "Apreensões de cocaína aumentam 68% em Portugal face a 2025",
+    "snippet": "Polícia Judiciária revela que o país já apreendeu 42 toneladas de cocaína ao longo deste ano.",
+    "body": [
+     "As autoridades policiais portuguesas já apreenderam 42 toneladas de cocaína, um valor que representa um aumento de 68% em comparação com o total registado no ano passado.",
+     "O anúncio foi feito pelo diretor nacional da Polícia Judiciária, Carlos Cabreiro, durante as celebrações do aniversário da instituição, destacando o esforço conjunto das forças de segurança."
+    ],
+    "more": [
+     "Cabreiro sublinhou a cooperação entre diferentes entidades e as Forças Armadas no combate ao tráfico internacional de estupefacientes.",
+     "Durante o evento, o responsável abordou também os desafios colocados pela inteligência artificial e reafirmou a solidez da estrutura da Polícia Judiciária."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "https://www.dn.pt/sociedade/apreenses-de-cocana-aumentam-68-em-portugal-face-a-todo-o-ano-de-2025"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/2026-10-20/3ta2s4fc/DOC.20261020.47973393.PET5578.JPG"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-carneiro-classifica-lei-das-rendas-como": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "pt-carneiro-classifica-lei-das-rendas-como",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "habitacao",
+     "portugal",
+     "politica"
+    ],
+    "title": "Carneiro classifica lei das rendas como desumana e injusta",
+    "snippet": "O secretário-geral do PS apelou ao primeiro-ministro para que deixe cair a nova legislação sobre arrendamento.",
+    "body": [
+     "O secretário-geral do Partido Socialista, José Luís Carneiro, classificou a nova lei das rendas como desumana e injusta, apelando ao Governo para reconsiderar a proposta.",
+     "Durante uma visita a projetos de habitação no Algarve, o líder socialista criticou a facilitação de despejos e defendeu limites claros para os encargos familiares."
+    ],
+    "more": [
+     "O PS propôs como alternativa a criação de uma garantia pública para proteger inquilinos vulneráveis e jovens, assegurando também maior segurança aos senhorios.",
+     "Carneiro reforçou a necessidade de expandir a oferta pública de habitação e criticou os valores de referência considerados moderados pelo Executivo."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "https://www.dn.pt/pol%C3%ADtica/carneiro-classifica-lei-das-rendas-como-desumana-e-injusta-e-quer-saber-se-montenegro-pode-deixar-cair-proposta"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/2025-12-22/04611rbt/carneiro-2.avif"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "ai-anthropic-and-nscale-in-talks-for-anothe": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "ai-anthropic-and-nscale-in-talks-for-anothe",
+    "topic": "ai",
+    "sub": "frontier",
+    "kind": "news",
+    "published": "2026-10-19",
+    "style": "news",
+    "tags": [
+     "ai",
+     "frontier-models",
+     "tech"
+    ],
+    "title": "Anthropic and Nscale in Talks for Another Massive Compute Deal",
+    "snippet": "Just a month after a $45 billion agreement, Anthropic and Nscale are reportedly discussing a second massive compute deal.",
+    "body": [
+     "Anthropic and infrastructure provider Nscale are reportedly in talks for another massive $45 billion compute deal, according to Bloomberg sources. This potential agreement follows closely on the heels of a similarly sized partnership announced just over a month ago.",
+     "The staggering sums being injected into AI infrastructure continue to unnerve some investors who question whether the massive spending will yield proportional profits. Despite these concerns, Anthropic is pressing forward as both companies work toward upcoming IPO plans."
+    ],
+    "more": [
+     "The relentless expansion of compute capacity underscores the intense resource race among frontier AI labs. While critics worry about a potential bubble fueled by exorbitant hardware costs, companies like Anthropic maintain that massive scaling is essential for future model capabilities.",
+     "Meanwhile, Nscale has encountered some investor pushback regarding its targeted $30 billion valuation ahead of its public debut, highlighting the shifting financial climate for infrastructure providers in the current AI boom."
+    ],
+    "source": {
+     "id": "techcrunch-ai",
+     "name": "TechCrunch · AI",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    "image": {
+     "src": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2236544023.jpeg?resize=1200,800"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-the-creepy-beautiful-digital-art-behind": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "design-the-creepy-beautiful-digital-art-behind",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "design",
+     "illustration",
+     "visual-culture"
+    ],
+    "title": "The Creepy, Beautiful Digital Art Behind the New Clayface Poster",
+    "snippet": "Illustrator Estevan Silveira blends comic style with classic body horror for a striking new movie poster.",
+    "body": [
+     "The upcoming DC film featuring Matt Hagen's Clayface is leaning heavily into body horror, and its promotional campaign is matching that energy. A new poster created by illustrator Estevan Silveira has been turning heads with its intricate and unsettling visual details.",
+     "The artwork depicts the hunched, melting form of Clayface clutching his head, set against grungy red backgrounds with retro creature-feature vibes. Fans online have praised the piece for offering a refreshing alternative to standard floating-head movie posters."
+    ],
+    "more": [
+     "The striking interplay of sickly yellow-and-green tones against deep reds gives the poster a distinct retro horror aesthetic that has resonated deeply with comic and movie fans alike.",
+     "In an era where blockbuster marketing often relies on generic digital composites, this detailed illustrative approach highlights the enduring power of strong, character-driven concept art in modern film branding."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/news/the-new-clayface-poster-is-skin-crawlingly-creepy"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/KfEkngK3PoKBRTwMBazHPd-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "design-fifty-shades-of-hay-wicker-parodies-bodi",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-19",
+    "style": "story",
+    "tags": [
+     "design",
+     "typography",
+     "branding"
+    ],
+    "title": "Fifty Shades of Hay: Wicker Parodies Bodice-Ripper Romances",
+    "snippet": "The new film poster for Wicker cleverly mimics vintage paperback romance novels with a woody twist.",
+    "body": [
+     "The upcoming film Wicker has leaned into its eccentric premise with a new poster that parodies classic, raunchy romance novel covers. Featuring lead actress Olivia Colman embraced by Alexander Skarsgård in sentient wicker form, the design hits all the right nostalgic notes.",
+     "Framed by rich jewel tones and elegant gold script typography, the artwork mimics vintage mass-market paperbacks while maintaining a surprisingly sophisticated visual standard. Fans quickly dubbed the clever pastiche 'Fifty Shades of Hay'."
+    ],
+    "more": [
+     "By subverting the visual tropes of 80s and 90s bodice-rippers, the marketing team turned what could have been a standard comedic poster into a piece of clever visual culture commentary.",
+     "The intricate typography and classical portrait composition elevate the joke, proving that genre parodies can still achieve genuine aesthetic merit when executed with a careful eye for historical design details."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/news/wicker-parodies-saucy-book-covers-in-new-film-poster"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/5otiZSm8jFhEGBdBUDyDWW-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "design-an-existential-spiral-over-video-call-ap": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "design-an-existential-spiral-over-video-call-ap",
+    "topic": "design",
+    "kind": "evergreen",
+    "published": "2026-10-20",
+    "style": "story",
+    "tags": [
+     "tech",
+     "design",
+     "curiosities"
+    ],
+    "title": "An Existential Spiral Over Video Call Appearance Filters",
+    "snippet": "A sick morning meeting prompts a reflection on the creeping ubiquity of digital beauty filters in the workplace.",
+    "body": [
+     "Logging into a work meeting while battling a cold, one writer was met with a prompt familiar to many remote workers: 'Touch up your appearance?' What followed was an unexpected dive into video platform beauty filters and the subtle ways digital alterations have infiltrated professional spaces.",
+     "While social media filters have long been recognized for warping self-image and contributing to body dysmorphia, seeing them applied to everyday work calls blurs the line between reality and digital performance even further."
+    ],
+    "more": [
+     "The experience raises quiet questions about workplace pressures and the implicit expectation to look permanently polished, even when dealing with ordinary human illnesses.",
+     "Moreover, the observation that these automated touch-up tools lean heavily toward traditional makeup aesthetics—often without equivalent options for masculine-leaning users—reveals how software defaults quietly encode societal assumptions about appearance."
+    ],
+    "source": {
+     "id": "creative-bloq",
+     "name": "Creative Bloq",
+     "url": "https://www.creativebloq.com/features/google-meets-appearance-filters-just-sent-me-into-an-existential-spiral"
+    },
+    "image": {
+     "src": "https://cdn.mos.cms.futurecdn.net/6Cpmbt3NodVMvosvPwfx6G-1920-80.jpg"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "ai-spotify-expands-paid-podcast-memberships": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "ai-spotify-expands-paid-podcast-memberships",
+    "topic": "ai",
+    "kind": "news",
+    "published": "2026-10-20",
+    "style": "news",
+    "tags": [
+     "tech",
+     "curiosities"
+    ],
+    "title": "Spotify Expands Paid Podcast Memberships Globally",
+    "snippet": "Creators can now offer bonus content, ad-free listening, and exclusive perks through new subscription tiers.",
+    "body": [
+     "Spotify is rolling out paid podcast memberships to 34 markets globally, giving creators a new way to monetize their core audiences beyond traditional ad revenue. Eligible podcasters can now offer tiered perks including bonus episodes, early access, and reduced ads.",
+     "The feature arrives as Spotify continues to invest heavily in its platform ecosystem, offering creators control over pricing and packaging while taking a ten percent cut of membership revenue."
+    ],
+    "more": [
+     "To qualify for the program, creators must meet specific engagement thresholds and host their shows on designated platforms like Spotify for Creators or Megaphone.",
+     "By shifting exclusive purchases to the web rather than in-app ecosystems, Spotify is attempting to build a sustainable alternative revenue model that directly rivals other major media hosting networks."
+    ],
+    "source": {
+     "id": "techcrunch-ai",
+     "name": "TechCrunch · AI",
+     "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/"
+    },
+    "image": {
+     "src": "https://techcrunch.com/wp-content/uploads/2026/10/Memberships-1.jpg?resize=1200,675"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "motion-exploring-retro-animation-styles-in-afte": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "motion-exploring-retro-animation-styles-in-afte",
+    "topic": "motion",
+    "sub": "techniques",
+    "kind": "evergreen",
+    "published": "2026-10-19",
+    "style": "video",
+    "tags": [
+     "motion",
+     "after-effects",
+     "animation"
+    ],
+    "title": "Exploring Retro Animation Styles in After Effects",
+    "snippet": "A motion designer shares a sneak peek of a fun, nostalgic project built in After Effects.",
+    "body": [
+     "An independent motion designer has offered a glimpse into an ongoing personal project titled 'The Modern World,' showcasing a distinct retro animation aesthetic built inside After Effects.",
+     "The short showcase highlights playful character styling and classic frame-by-frame texturing techniques that bring a warm, hand-crafted feel to digital motion work."
+    ],
+    "more": [
+     "Projects like this often rely on a mix of shape layers, custom expression setups, and vintage color grading to achieve an authentic mid-century or retro look without leaving the timeline.",
+     "Sharing work-in-progress clips within community spaces continues to be a great way for motion designers to trade workflow tips, experiment with niche styles, and gather feedback from peers."
+    ],
+    "source": {
+     "id": "r-aftereffects",
+     "name": "r/AfterEffects",
+     "url": "https://www.reddit.com/r/AfterEffects/comments/1xad5rf/the_modern_world_a_fun_retroanimation_im_working/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/cjVjMmNwenVpaXdoMd8ksPGs_dgCyopG3o-q4-EzpfanEdIy9dM_Gj98AFN9.png?width=640&crop=smart&auto=webp&s=e5a77aaaa1ee11c5cb3a4d8a48918bd38e952a82"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "books-the-design-of-everyday-things": {
+   "at": "2026-10-20T11:00:00.000Z",
+   "item": {
+    "id": "books-the-design-of-everyday-things",
+    "topic": "books",
+    "sub": "creativity",
+    "kind": "evergreen",
+    "style": "book",
+    "tags": [
+     "design",
+     "ux",
+     "psychology",
+     "problem-solving"
+    ],
+    "title": "Good design communicates how things work without needing instructions.",
+    "snippet": "Everyday objects should make their functions clear through affordances and feedback, removing the frustration of human error.",
+    "body": [
+     "Don Norman's classic explores why some objects satisfy us effortlessly while others cause endless frustration. He argues that bad design is usually the result of a mismatch between how a device works and how people naturally think it should work. By focusing on fundamental psychological principles like visibility, feedback, and mental models, creators can build products that feel intuitive and human-centered.",
+     "For anyone shaping visual experiences or physical spaces, this book is a gentle reminder that the user's struggle is almost always a design failure, not a personal one. It encourages a deep empathy for how people actually interact with the world around them."
+    ],
+    "book": {
+     "title": "The Design of Everyday Things",
+     "author": "Don Norman",
+     "lessons": [
+      {
+       "title": "Affordances suggest action",
+       "text": "Physical objects should naturally signal how they can be used. A flat plate on a door invites pushing, while a handle invites pulling, eliminating the need for instructional signs."
+      },
+      {
+       "title": "Feedback prevents confusion",
+       "text": "Every action requires immediate and clear feedback so the user knows the system received their command. Without it, people repeat actions unnecessarily and lose trust."
+      },
+      {
+       "title": "Mapping bridges intention and effect",
+       "text": "Good spatial mapping ensures that controls correspond clearly to their intended results. When a row of stove switches maps logically to the burners, errors drop significantly."
+      },
+      {
+       "title": "Embrace human error",
+       "text": "People will inevitably make mistakes, so systems must be designed to tolerate them. Treat errors as valuable feedback on where the design itself can be improved."
+      }
+     ],
+     "takeaway": "Walk around your workspace this week and identify one object that constantly frustrates you, then map out how a simple design change could fix it.",
+     "forWho": "Motion designers and creators who want to build more intuitive and human-friendly experiences."
+    },
+    "source": {
+     "id": "ai-books",
+     "name": "MyScroll · AI summary",
+     "url": "https://openlibrary.org/search?q=The%20Design%20of%20Everyday%20Things%20Don%20Norman"
+    },
+    "lang": "en",
+    "minutes": 2,
+    "added": "2026-10-20",
+    "fast": true
+   }
+  }
+ }
 }

@@ -288,6 +288,21 @@ export function visibleItems() {
   return ranked(pool().filter((i) => visibility(i) === "visible" && passesFilters(i)));
 }
 
+// ---------- edition size ----------
+// "Auto": about 1.4× what you actually finish per day over the last 14 days, so the scroll stays finite
+// without a growing pile of leftovers. Needs 7 days of history; never below 15 or above your "Items per edition".
+export function editionSize(settings = state.settings, readLog = state.readLog, now = Date.now()) {
+  const max = settings.dailyTarget ?? 40;
+  if (settings.editionSize === "fixed") return { target: max, auto: false };
+  const since = now - 14 * DAY;
+  const times = Object.values(readLog ?? {}).filter((v) => v && !v.off && v.at).map((v) => new Date(v.at).getTime()).filter((t) => t >= since);
+  const first = Math.min(...times);
+  const days = times.length ? Math.min(14, Math.ceil((now - first) / DAY)) : 0;
+  if (days < 7) return { target: max, auto: true, learning: true, days };
+  const perDay = times.length / days;
+  return { target: Math.max(15, Math.min(max, Math.round(perDay * 1.4))), auto: true, perDay };
+}
+
 export function featureLabel(f) {
   const kind = f.slice(0, f.indexOf(":"));
   const rest = f.slice(f.indexOf(":") + 1);

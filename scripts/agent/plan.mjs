@@ -10,7 +10,8 @@ const { model, ranking, state, synced, index } = await loadContext();
 const s = state.settings;
 
 const active = model.topics().filter((t) => model.isTopicActive(t.id));
-const target = s.dailyTarget ?? 40;
+// "Auto" edition size follows how much the reader actually finishes (web/model.js editionSize).
+const target = model.editionSize(s, state.readLog).target;
 const slots = ranking.allocateSlots(active.map((t) => t.id), state.profile, s, target);
 const sources = model.allSources();
 

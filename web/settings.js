@@ -2,7 +2,7 @@
 import {
   state, store, saveSettings, topics, groups, topicOf, groupOf, topicWeight, editableTopics, editableGroups,
   slugify, deriveKeywords, allSources, suggestSources, searchPlan, enableCatalogSource, removeSource, rebuildProfile, pool,
-  visibility, featureLabel, reloadFromStorage, live,
+  visibility, featureLabel, reloadFromStorage, live, editionSize,
 } from "./model.js";
 import { el } from "./ui.js";
 import { DEFAULT_ABOUT } from "./profile.js";
@@ -139,8 +139,11 @@ function readingSection(s) {
       seg([["mixed", "Mixed"], ["topics", "By topic"]], s.feedOrder ?? "mixed", (v) => { s.feedOrder = v; rerender(); })),
     el("label", { class: "row" }, el("span", {}, "Order by what I read most"),
       el("input", { type: "checkbox", checked: s.orderByReading !== false, onchange: (e) => { s.orderByReading = e.target.checked; rerender(); } })),
-    el("label", { class: "row" }, el("span", {}, "Items per edition"),
-      el("input", { type: "number", min: 10, max: 150, step: 5, value: s.dailyTarget, onchange: (e) => { s.dailyTarget = Number(e.target.value); saveSettings(); } })),
+    el("div", { class: "row" }, el("span", {}, "Edition size"),
+      seg([["auto", "Auto"], ["fixed", "Fixed"]], s.editionSize ?? "auto", (v) => { s.editionSize = v; rerender(); })),
+    el("p", { class: "set-hint" }, editionSizeHint(s)),
+    el("label", { class: "row" }, el("span", {}, (s.editionSize ?? "auto") === "auto" ? "At most, per edition" : "Items per edition"),
+      el("input", { type: "number", min: 10, max: 150, step: 5, value: s.dailyTarget, onchange: (e) => { s.dailyTarget = Number(e.target.value); rerender(); } })),
     el("label", { class: "row" }, el("span", {}, "News expire after (days)"),
       el("input", { type: "number", min: 1, max: 60, value: s.newsExpireDays, onchange: (e) => { s.newsExpireDays = Number(e.target.value); rerender(); } })),
     el("label", { class: "row" }, el("span", {}, "Remove curiosities scrolled past unopened"),
@@ -342,6 +345,13 @@ function suggestionsSection(topic) {
     paint();
   }
   return sec;
+}
+
+function editionSizeHint(s) {
+  const e = editionSize(s);
+  if (!e.auto) return `Every edition brings ${e.target} items.`;
+  if (e.learning) return `Learning how much you read (${e.days ?? 0} of 7 days). Until then: ${e.target} items.`;
+  return `Next edition: ~${e.target} items (you finish about ${Math.round(e.perDay)} a day). Unread items still carry over.`;
 }
 
 // ✨ Find sources: Gemini suggests, this device checks each one works, the good ones go to the suggestions above.

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:07:57.720Z",
+ "updatedAt": "2026-10-20T16:09:02.845Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -530,7 +530,8 @@
   "tech-a-99-car-tracker-betting-parents-care-more-about",
   "science-esa-s-euclid-telescope-was-built-to-map-galaxies",
   "pt-porto-cidade-acolhedora",
-  "tech-apple-schedules-surprise-late-october-event-for"
+  "tech-apple-schedules-surprise-late-october-event-for",
+  "books-the-design-of-everyday-things"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -2249,6 +2250,16 @@
    "tag:rainbows",
    "tag:physics",
    "tag:meteorology"
+  ],
+  "books-the-design-of-everyday-things": [
+   "topic:books",
+   "sub:books/creativity",
+   "source:ai-books",
+   "style:book",
+   "tag:design",
+   "tag:ux",
+   "tag:psychology",
+   "tag:problem-solving"
   ]
  },
  "read": [

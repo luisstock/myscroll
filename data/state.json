@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T23:27:12.445Z",
+ "updatedAt": "2026-10-20T23:32:33.177Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -689,7 +689,8 @@
   "ai-openmoss-lands-in-comfyui-with-structured-layout",
   "news-a-look-beneath-the-hood-of-the-us-economy",
   "news-how-el-nino-split-the-pacific-and-atlantic-hurri",
-  "til-a-6-time-capsule-of-early-american-life"
+  "til-a-6-time-capsule-of-early-american-life",
+  "bk-roubaix"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -2668,7 +2669,8 @@
   "bike-how-a-parking-lot-wheel-swap-crowned-a-gravel-na",
   "fun-boaty",
   "fun-boring-and-dull",
-  "fun-byron"
+  "fun-byron",
+  "bk-roubaix"
  ],
  "saved": [
   "pt-1755",
@@ -3264,6 +3266,11 @@
    "min": 0,
    "topic": "fun",
    "quick": true
+  },
+  "bk-roubaix": {
+   "at": "2026-10-20T23:32:18.173Z",
+   "min": 1,
+   "topic": "bike"
   }
  },
  "follows": null,

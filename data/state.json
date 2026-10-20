@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:52:23.135Z",
+ "updatedAt": "2026-10-20T13:13:38.664Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -390,6 +390,10 @@
    "damn-interesting": {
     "enabled": true,
     "deleted": false
+   },
+   "wired": {
+    "enabled": true,
+    "deleted": false
    }
   },
   "customSources": [
@@ -492,7 +496,9 @@
   "f1-christian-horner-reveals-true-stance-on-liam-law",
   "ai-one-third-of-the-most-popular-comfyui-custom-nod",
   "bike-moots-overhauls-the-routt-with-57mm-clearance-an",
-  "ideas-reality-does-not-exist-independently-of-you-nor"
+  "ideas-reality-does-not-exist-independently-of-you-nor",
+  "pt-quando-o-sporting-processou-o-publico-nu",
+  "pt-presidente-da-cip-critica-protestos-e-de"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -503,9 +509,9 @@
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
   "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1,
   "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
-  "motion-animating-ui-promos-outside-after-effects-using": 1,
-  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 1,
-  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 1,
+  "motion-animating-ui-promos-outside-after-effects-using": 2,
+  "motion-the-continuous-thread-from-cosmic-chaos-to-human": 2,
+  "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 2,
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 1,
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 1,
   "mo-fischinger": 1,
@@ -523,7 +529,8 @@
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
   "ideas-beauty-is-an-act-of-unselfing": 1,
   "ideas-emotions-are-not-universal-biology-but-culturall": 1,
-  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1
+  "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
+  "motion-exploring-retro-animation-styles-in-afte": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2100,6 +2107,24 @@
    "tag:relationships",
    "tag:change",
    "tag:philosophy"
+  ],
+  "motion-exploring-retro-animation-styles-in-afte": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-aftereffects",
+   "style:video",
+   "tag:motion",
+   "tag:after-effects",
+   "tag:animation"
+  ],
+  "pt-presidente-da-cip-critica-protestos-e-de": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:portugal",
+   "tag:economia"
   ]
  },
  "read": [
@@ -2161,7 +2186,13 @@
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
   "pt-metro-da-margem-sul-avanca-para-greve-pr",
-  "books-untangling-generational-power-and-servitude"
+  "books-untangling-generational-power-and-servitude",
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano",
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula",
+  "pt-diogo-moreira-na-equipa-oficial-honda-de",
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos",
+  "pt-quando-o-sporting-processou-o-publico-nu",
+  "pt-intervencao-da-psp-poe-fim-a-acampamento"
  ],
  "saved": [
   "pt-1755",
@@ -2416,6 +2447,44 @@
     "tag:india",
     "tag:storytelling"
    ]
+  },
+  "pt-afinal-em-que-ano-e-que-portugal-celebra-900-ano": {
+   "at": "2026-10-20T13:12:56.265Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:explainer",
+    "tag:historia",
+    "tag:portugal",
+    "tag:afonso-henriques",
+    "tag:idade-media"
+   ]
+  },
+  "pt-diogo-moreira-na-equipa-oficial-honda-de": {
+   "at": "2026-10-20T13:13:00.180Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:desporto",
+    "tag:motogp",
+    "tag:honda"
+   ]
+  },
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": {
+   "at": "2026-10-20T13:13:17.243Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:portugal",
+    "tag:habitacao",
+    "tag:manifestacao",
+    "tag:psp"
+   ]
   }
  },
  "readLog": {
@@ -2481,6 +2550,23 @@
    "min": 0,
    "topic": "pt",
    "quick": true
+  },
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": {
+   "at": "2026-10-20T13:12:58.503Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-tendas-retiradas-em-lisboa-e-porto-apos": {
+   "at": "2026-10-20T13:13:02.467Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-quando-o-sporting-processou-o-publico-nu": {
+   "at": "2026-10-20T13:13:14.905Z",
+   "min": 1,
+   "topic": "pt"
   }
  },
  "follows": null,

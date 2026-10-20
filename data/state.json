@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T18:01:32.102Z",
+ "updatedAt": "2026-10-20T18:04:44.955Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -639,7 +639,9 @@
   "tech-apple-schedules-surprise-late-october-event-for",
   "books-the-design-of-everyday-things",
   "ai-spotify-expands-paid-podcast-memberships",
-  "ai-openmoss-lands-in-comfyui-with-structured-layout"
+  "ai-openmoss-lands-in-comfyui-with-structured-layout",
+  "news-a-look-beneath-the-hood-of-the-us-economy",
+  "news-how-el-nino-split-the-pacific-and-atlantic-hurri"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -679,11 +681,11 @@
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 3,
   "pt-porto-cidade-acolhedora": 1,
   "tech-apple-schedules-surprise-late-october-event-for": 1,
-  "tech-a-russian-military-satellite-shadowed-an-earth-i": 2,
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": 3,
   "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 2,
   "tr-repair": 2,
   "science-the-optical-trick-of-an-anticrepuscular-rainbow": 2,
-  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 1,
+  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 2,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 1,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
@@ -2516,7 +2518,8 @@
   "pt-alianca-luso-britanica",
   "fun-wilhelm-scream",
   "pt-cortica",
-  "pt-porto-cidade-acolhedora"
+  "pt-porto-cidade-acolhedora",
+  "news-a-look-beneath-the-hood-of-the-us-economy"
  ],
  "saved": [
   "pt-1755",
@@ -3046,6 +3049,11 @@
    "min": 0,
    "topic": "pt",
    "quick": true
+  },
+  "news-a-look-beneath-the-hood-of-the-us-economy": {
+   "at": "2026-10-20T18:04:16.329Z",
+   "min": 1,
+   "topic": "news"
   }
  },
  "follows": null,

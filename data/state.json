@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T22:52:32.440Z",
+ "updatedAt": "2026-10-20T23:27:12.445Z",
  "device": "app",
  "settings": {
   "theme": "night",
@@ -760,7 +760,8 @@
   "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
-  "design-is-a-high-production-movie-trailer-the-n": 1
+  "design-is-a-high-production-movie-trailer-the-n": 1,
+  "design-finding-accidental-beauty-in-awkward-fac": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2567,6 +2568,15 @@
    "tag:visual-design",
    "tag:illustration",
    "tag:ai"
+  ],
+  "design-finding-accidental-beauty-in-awkward-fac": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:photography",
+   "tag:graphic-design",
+   "tag:culture",
+   "tag:art"
   ]
  },
  "read": [

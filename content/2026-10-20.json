@@ -1538,6 +1538,217 @@
       "wiki": "Daniel_Ricciardo",
       "imageUrl": "https://e0.365dm.com/26/10/1600x900/skysports-ricciardo-f1_7380853.jpg?20261019155649",
       "lang": "en"
+    },
+    {
+      "id": "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "economia",
+        "banco-de-portugal",
+        "desigualdade",
+        "habitacao"
+      ],
+      "title": "Os 10% mais ricos de Portugal concentram quase 60% da riqueza nacional",
+      "snippet": "Novos dados do Banco de Portugal mostram que os mais ricos aumentaram o património em 73% nos últimos 15 anos, alargando o fosso face à metade menos abonada da população.",
+      "body": [
+        "Segundo estatísticas divulgadas pelo Banco de Portugal no Dia Europeu da Estatística, os 10% de famílias com mais património controlam agora 59% de toda a riqueza líquida do país. Entre o final de 2010 e o início de 2026, a riqueza líquida deste grupo disparou 73%, passando de 413 milhões para 714 milhões de euros.",
+        "Em contrapartida, as famílias situadas abaixo da mediana — que correspondem a 50% dos agregados portugueses — detêm apenas cerca de 6% da riqueza total declarada. Embora este grupo tenha registado uma valorização de 51% do seu património no mesmo intervalo, viu a sua percentagem relativa diminuir.",
+        "O património dos portugueses continua a assentar fortemente no imobiliário, que representa em média mais de metade dos ativos totais das famílias, embora as participações financeiras façam a verdadeira diferença no topo da tabela."
+      ],
+      "more": [
+        "O estudo do banco central traça uma radiografia clara sobre como a composição dos bens familiares varia conforme o estrato económico. Do lado dos ativos, os imóveis residenciais predominam na base e no meio da pirâmide: representavam cerca de 74% dos ativos das famílias com riqueza líquida abaixo da mediana em 2025.",
+        "No caso dos 10% mais ricos, o peso do imobiliário é substancialmente inferior a 40%. A grande alavanca desse estrato é a diversificação em ativos financeiros: as participações em capital, como fundos de investimento, correspondem a 28% do total dos seus bens, superando inclusive os depósitos bancários, que ficam entre os 17% e os 21%.",
+        "Do lado dos passivos, o crédito à habitação continua a ser a principal fatia do endividamento em todos os escalões socioeconómicos. Foi precisamente a valorização das casas compradas com recurso a empréstimos bancários ao longo de décadas que evitou um fosso ainda mais acentuado face aos padrões europeus.",
+        "O Banco de Portugal assinala que a parcela de riqueza detida pelos 50% menos abonados é de 6,1% em Portugal, um valor que se situa acima da média da área do euro (4,5%). Ainda assim, a riqueza mediana nacional permanece sistematicamente inferior à registada entre os pares europeus."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/economia/os-10-mais-ricos-de-portugal-enriqueceram-73-em-15-anos"
+      },
+      "wiki": "Banco_de_Portugal",
+      "imageUrl": "https://media.assettype.com/dn/2026-07-17/bx8tdjq4/1582880A101-6198864.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-estrangeiros-ja-representam-10-ou-mais-da-popula",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "demografia",
+        "algarve",
+        "sociedade",
+        "ine"
+      ],
+      "title": "Estrangeiros já representam 10% ou mais da população em 101 concelhos do país",
+      "snippet": "Uma análise aos dados do INE revela uma mudança demográfica expressiva: em quase um terço dos municípios portugueses, pelo menos um em cada dez residentes nasceu fora do país.",
+      "body": [
+        "Dados recentes do Instituto Nacional de Estatística revelam que a população estrangeira residente em Portugal atingiu cerca de 1,6 milhões de pessoas no fecho de 2025, o equivalente a cerca de 14% do total nacional. O fenómeno reflete-se de forma muito evidente a nível local: 101 dos 308 concelhos têm já 10% ou mais de residentes estrangeiros.",
+        "O caso mais emblemático regista-se em Odemira, no Alentejo, onde os cidadãos com nacionalidade estrangeira representam 52,06% da população, tornando-se o único município português onde ultrapassam o número de cidadãos nacionais.",
+        "O Algarve lidera a nível regional no peso da comunidade internacional, com vários concelhos onde mais de um terço dos habitantes é estrangeiro, contrastando com zonas do interior centro e norte onde a presença internacional continua residual."
+      ],
+      "more": [
+        "O peso demográfico no sul do país concentra-se fortemente em concelhos costeiros. Em Vila do Bispo, os cidadãos estrangeiros perfazem 41,73% da população, seguidos de perto por Aljezur (40,50%) e Albufeira (38,79%). Lagos (35,92%), Loulé (31,21%) e Tavira (30,32%) consolidam a região como um dos polos de maior concentração multinacional do país.",
+        "Os dois maiores centros urbanos acompanham este ritmo demográfico: em Lisboa, os residentes estrangeiros compõem 25,64% dos habitantes recenseados, enquanto no Porto a percentagem ultrapassa os 22%.",
+        "A transformação, contudo, estende-se para lá dos centros metropolitanos ou dos destinos estivais. Municípios do interior e centro do país registam quotas relevantes, como Pedrógão Grande com 20,8%, além de Oliveira de Frades, Idanha-a-Nova e Vila Velha de Ródão, todos acima da marca dos 13%.",
+        "Em contrapartida, persiste um Portugal vincadamente homogéneo em termos de naturalidade. No distrito de Viseu, o concelho de Resende regista apenas 1,31% de residentes estrangeiros, número semelhante ao de Vinhais, em Trás-os-Montes, com 1,38%, expondo a profunda assimetria territorial na fixação de comunidades internacionais."
+      ],
+      "source": {
+        "id": "web",
+        "name": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-10-19/10-of-residents-in-portugal-municipalities-are-foreign/1102848"
+      },
+      "wiki": "Demografia_de_Portugal",
+      "imageUrl": "https://d1mnxluw9mpf9w.cloudfront.net/media/1792422332/Foreigners--TPN--Kam-Heskin.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-hora-de-inverno-regressa-no-domingo-relogios-atr",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "sociedade",
+        "tempo",
+        "uniao-europeia"
+      ],
+      "title": "Hora de inverno regressa no domingo: relógios atrasam 60 minutos",
+      "snippet": "Na madrugada de 25 de outubro, Portugal continental e as ilhas entram no horário de inverno. Apesar do debate em Bruxelas, a alteração semestral continua em vigor.",
+      "body": [
+        "Na madrugada do próximo domingo, 25 de outubro, os relógios em Portugal continental e na Madeira devem ser atrasados 60 minutos quando marcarem as 02h00, passando a ser 01h00. Nos Açores, o acerto é feito às 01h00, recuando para a meia-noite.",
+        "Esta mudança assinala a entrada oficial na hora legal de inverno, que se manterá em vigor até 28 de março de 2027, data em que os ponteiros voltarão a adiantar uma hora.",
+        "A rotina bienal cumpre uma diretiva europeia fixada no ano 2000, sobrevivendo a anos de discussões políticas em Bruxelas sobre a sua extinção definitiva."
+      ],
+      "more": [
+        "O regime atual encontra respaldo formal na legislação comunitária criada para uniformizar o mercado interno, estipulando que o acerto ocorra invariavelmente no último domingo de março e no último domingo de outubro.",
+        "O tema do abandono deste sistema tem estado na mesa das instituições da União Europeia desde pelo menos 2018. Uma consulta pública realizada à escala europeia pela Comissão Europeia mobilizou 4,6 milhões de cidadãos, com 84% dos inquiridos a manifestarem-se expressamente a favor do fim do desfasamento sazonal.",
+        "Na sequência desse resultado, o Parlamento Europeu votou favoravelmente em 2019 pelo término das alterações de horário até 2021. Porém, a concretização legislativa estagnou devido à falta de consenso no Conselho da União Europeia, onde os governos dos Estados-membros não chegaram a acordo sobre se deveriam fixar a hora de verão ou a hora de inverno com caráter permanente.",
+        "A Comissão Europeia previa avançar com novos estudos técnicos sobre a matéria durante o presente ano, mas, na ausência de diretrizes fechadas, os europeus continuam sujeitos à transição regular de horários."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/20/relogios-atrasam-uma-hora-na-madrugada-de-domingo-2/"
+      },
+      "wiki": "Horário_de_verão",
+      "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2560:1436:nowe:0:270/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/03/28092616/25925006-scaled.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "musica",
+        "cultura",
+        "ccb",
+        "piano"
+      ],
+      "title": "Joana Gama estreia no CCB o álbum criado em parceria com Ivan Vukosavljevic",
+      "snippet": "A pianista portuguesa leva ao palco lisboeta \"A mind in the heart\", um disco minimalista gravado na Holanda após um convite inesperado pelo correio digital.",
+      "body": [
+        "A pianista portuguesa Joana Gama atua esta sexta-feira no Centro Cultural de Belém, em Lisboa, para apresentar o álbum \"A mind in the heart\". O projeto nasceu a convite do compositor sérvio Ivan Vukosavljevic, radicado na cidade de Haia, numa colaboração artística que foi totalmente desenhada à distância.",
+        "Sem que os dois músicos se conhecessem pessoalmente, Vukosavljevic contactou a intérprete depois de ouvir as suas interpretações de obras de Erik Satie, John Cage e Hans Otte, considerando-a a instrumentista com a sensibilidade adequada para gravar o reportório lento e contemplativo que tinha em mãos.",
+        "O trabalho com oito composições acabou por ser gravado em setembro de 2025 no interior de uma igreja nos Países Baixos, marcando o início de uma digressão internacional de longo curso."
+      ],
+      "more": [
+        "Antes da reunião presencial para as sessões de gravação, o processo de ensaio e maturação decorreu durante meses através da partilha de maquetes e gravações de teste. Joana Gama vinha de projetos dedicados ao público mais jovem e da composição para a banda sonora do filme 'Kora', de Cláudia Varejão, estando sem publicar um álbum a solo de piano desde 'Arcueil', em 2019.",
+        "Editado no início de 2026, 'A mind in the heart' já passou por palcos dos Países Baixos e de Espanha, tendo concertos agendados em território nacional e no estrangeiro pelo menos até maio de 2027.",
+        "Na descrição conceptual do disco, Vukosavljevic define o título como uma alegoria da humildade e da afeição que dela emana, traduzida pela mente que desce das alturas da vontade própria para se instalar no centro das emoções.",
+        "O concerto no CCB terá uma conversa prévia entre o compositor e a pianista sobre a génese do projeto. Em novembro, a artista ruma aos Açores para a iniciativa Terra Incógnita na ilha Graciosa, onde preparará uma caminhada sonora com a Filarmónica Recreio dos Artistas, revelando também o desejo futuro de explorar temas ligados ao sono e ao sonho no seu trabalho."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/20/pianista-joana-gama-apresenta-a-mind-in-the-heart-no-ccb-em-lisboa-com-ivan-vukosavljevic/"
+      },
+      "wiki": "Centro_Cultural_de_Belém",
+      "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2019/12/01091809/27565170.jpg",
+      "lang": "pt",
+      "explore": true
+    },
+    {
+      "id": "pt-protestos-pela-habitacao-investigacao-no-sns-e-r",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "imprensa",
+        "politica",
+        "habitacao",
+        "justica"
+      ],
+      "title": "Protestos pela habitação, investigação no SNS e reciclagem marcam as manchetes",
+      "snippet": "A desmobilização de acampadas em Lisboa e no Porto, um inquérito a 120 milhões no SNS e as metas da reciclagem em risco dominam os jornais.",
+      "body": [
+        "A atualidade informativa nacional e internacional reparte-se pelas manifestações urbanas, os negócios públicos e as questões ambientais. No centro da atenção estão as intervenções policiais de madrugada no Rossio e no Porto para desmantelar os acampamentos pelo direito à habitação.",
+        "Na área da justiça e saúde, o Ministério Público está a investigar um suposto negócio de 120 milhões de euros no Serviço Nacional de Saúde envolvendo 160 contratos de serviços, a par do aumento das indemnizações em processos contra clínicos.",
+        "Nos municípios, a recolha de recicláveis cresceu apenas 1% apesar da injeção de 90 milhões de euros, o que afasta o país do cumprimento das metas ecológicas europeias."
+      ],
+      "more": [
+        "As mobilizações em torno da crise habitacional ganharam força ao longo dos últimos dias, com grupos de ativistas a manterem acampadas nas zonas centrais de Lisboa e do Porto. Após notificações da PSP a alertar para a impossibilidade da permanência das tendas, as autoridades avançaram para a desmobilização forçada, registando-se incidentes e detenções no Rossio durante a madrugada.",
+        "No plano parlamentar e partidário, o Jornal de Negócios detalha as respostas apresentadas pelas várias forças políticas para o mercado residencial, num espetro que vai desde o desagravamento fiscal e garantias a proprietários até ao estabelecimento de limites máximos nas rendas.",
+        "No setor ambiental, a revelação feita pelo Diário de Notícias indica fragilidades estruturais na gestão de resíduos urbanos: o investimento financeiro atribuído às câmaras municipais traduziu-se num acréscimo modesto na separação de lixo, mantendo os índices nacionais sob escrutínio da União Europeia.",
+        "No desporto, a suspensão do capitão da seleção Cristiano Ronaldo e os compromissos europeus dos clubes, incluindo a receção do FC Porto ao PSV para a Liga dos Campeões, completam os assuntos de maior circulação nas bancas."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/sociedade/revista-de-imprensa-protestos-em-frana-e-portugal-castigo-de-ronaldo-e-investigao-no-sns-dominam-as-capas"
+      },
+      "wiki": "Diário_de_Notícias",
+      "imageUrl": "https://media.assettype.com/dn/2025-08-21/og2uic8l/Revista-de-imprensa-3",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "meteorologia",
+        "ipma",
+        "clima",
+        "outono"
+      ],
+      "title": "IPMA coloca sul sob aviso amarelo perante o regresso das chuvas de outono",
+      "snippet": "Trovoada, granizo e rajadas de vento até 90 km/h afetam o Alentejo e o Algarve, quebrando um período prolongado de tempo seco.",
+      "body": [
+        "O Instituto Português do Mar e da Atmosfera (IPMA) emitiu aviso amarelo para os distritos de Faro e Beja devido à previsão de precipitação intensa, queda de granizo e trovoadas associadas a uma depressão que atinge a Península Ibérica.",
+        "As projeções apontavam para precipitações entre 10 e 20 milímetros numa única hora e rajadas de vento com capacidade para alcançar os 90 km/h, marcando a transição do país para padrões tipicamente outonais.",
+        "Embora o tempo instável dê tréguas no sul a partir do meio da semana, a chuva avança em direção às regiões norte e centro, acompanhada por uma descida geral dos termómetros."
+      ],
+      "more": [
+        "A instabilidade atmosférica teve início durante o fim de semana, com o IPMA a assinalar a entrada de massas de ar instáveis no território continental, com particular incidência nas zonas do interior.",
+        "Apesar dos aguaceiros e das trovoadas no Algarve e Baixo Alentejo, as temperaturas na orla meridional mantêm-se amenas, com máximas previstas em torno dos 22°C a 23°C em cidades como Portimão e Faro.",
+        "A partir de quarta-feira, a perturbação climática transfere-se com maior incidência para o norte e o centro de Portugal continental. A quebra de temperatura será mais acentuada nos períodos matinais e noturnos, reforçando as características do outono no interior.",
+        "Mesmo com a progressão da chuva e do arrefecimento nas restantes províncias, o litoral algarvio deverá voltar a beneficiar de abertas e períodos de céu limpo, mantendo valores diurnos ligeiramente acima dos 20°C."
+      ],
+      "source": {
+        "id": "web",
+        "name": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-10-19/autumn-weather-returns-to-portugal/1102550"
+      },
+      "wiki": "Instituto_Português_do_Mar_e_da_Atmosfera",
+      "imageUrl": "https://d1mnxluw9mpf9w.cloudfront.net/media/7699/autumn-leaves-2021-08-26-23-01-56-utc.jpg",
+      "lang": "pt",
+      "explore": true
     }
   ]
 }

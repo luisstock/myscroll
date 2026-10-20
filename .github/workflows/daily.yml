@@ -1,6 +1,6 @@
 name: MyScroll daily edition
 # The run's title doubles as the request's identity (used to skip repeated Load more requests).
-run-name: ${{ inputs.url && format('Share: {0}', inputs.url) || inputs.query && format('Search: {0}', inputs.query) || inputs.sub && format('Load more {0} {1}', inputs.more, inputs.sub) || inputs.more && format('Load more {0} {1}', inputs.more, inputs.topics || 'all') || (github.event_name == 'push' && 'Publish app' || 'Daily edition') }}
+run-name: "${{ inputs.url && format('Share: {0}', inputs.url) || inputs.query && format('Search: {0}', inputs.query) || inputs.sub && format('Load more {0} {1}', inputs.more, inputs.sub) || inputs.more && format('Load more {0} {1}', inputs.more, inputs.topics || 'all') || (github.event_name == 'push' && 'Publish app' || 'Daily edition') }}"
 
 on:
   schedule:

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:48:03.433Z",
+ "updatedAt": "2026-10-20T17:20:58.992Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -656,19 +656,19 @@
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 2,
   "mo-fischinger": 2,
   "ai-openmoss-lands-in-comfyui-with-structured-layout": 2,
-  "ai-microsoft-warns-ai-agents-are-insider-threats-as": 1,
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as": 2,
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
   "fun-project-pigeon": 1,
   "fun-boring-and-dull": 1,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 1,
-  "books-the-traps-of-free-will-and-fate-across-time": 1,
-  "books-the-deep-roots-of-jewish-dissent": 1,
-  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 1,
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 1,
-  "ideas-beauty-is-an-act-of-unselfing": 1,
-  "ideas-emotions-are-not-universal-biology-but-culturall": 1,
+  "books-the-traps-of-free-will-and-fate-across-time": 2,
+  "books-the-deep-roots-of-jewish-dissent": 2,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 2,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 2,
+  "ideas-beauty-is-an-act-of-unselfing": 2,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "motion-exploring-retro-animation-styles-in-afte": 2,
   "pt-cortica": 2,
@@ -694,7 +694,11 @@
   "news-nsw-introduces-special-bill-to-bypass-high-court": 1,
   "news-outcry-in-australia-after-incarcerated-mother-sh": 1,
   "news-brazil-s-amazon-deforestation-drops-to-six-year": 1,
-  "news-canada-moves-its-last-captive-whales-as-sanctuar": 1
+  "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
+  "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
+  "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
+  "ai-llamacpp": 1,
+  "ai-quant": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2416,6 +2420,15 @@
    "style:news",
    "tag:tech",
    "tag:curiosities"
+  ],
+  "ai-anthropic-and-nscale-in-talks-for-anothe": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:ai",
+   "tag:frontier-models",
+   "tag:tech"
   ]
  },
  "read": [

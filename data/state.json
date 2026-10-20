@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:16:13.572Z",
+ "updatedAt": "2026-10-20T12:27:22.170Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -489,7 +489,10 @@
   "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr",
   "pt-hora-de-inverno-regressa-no-domingo-relogios-atr"
  ],
- "skips": {},
+ "skips": {
+  "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1
+ },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
    "topic:til",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:12:04.181Z",
+ "updatedAt": "2026-10-20T12:12:26.172Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -647,7 +647,8 @@
   "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
-  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle"
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle",
+  "pt-ipma-coloca-sul-sob-aviso-amarelo-perante-o-regr"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 7,
@@ -2221,7 +2222,8 @@
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
   "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
-  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at"
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at",
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle"
  ],
  "saved": [
   "pt-1755",
@@ -2490,6 +2492,11 @@
   },
   "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": {
    "at": "2026-10-20T12:00:19.776Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-o-historico-clube-de-lisboa-onde-margaret-qualle": {
+   "at": "2026-10-20T12:12:12.470Z",
    "min": 1,
    "topic": "pt"
   }

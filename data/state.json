@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:33:32.487Z",
+ "updatedAt": "2026-10-20T12:34:00.688Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -498,7 +498,8 @@
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
-  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 1,
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1955,6 +1956,14 @@
    "tag:f1",
    "tag:red-bull",
    "tag:liam-lawson"
+  ],
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": [
+   "topic:f1",
+   "source:web",
+   "style:news",
+   "tag:f1",
+   "tag:red-bull",
+   "tag:motorsport"
   ]
  },
  "read": [

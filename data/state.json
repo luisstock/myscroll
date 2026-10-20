@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T11:58:52.785Z",
+ "updatedAt": "2026-10-20T12:00:15.452Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -644,7 +644,9 @@
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
-  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc"
+  "pt-joana-gama-estreia-no-ccb-o-album-criado-em-parc",
+  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at"
  ],
  "skips": {
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 7,
@@ -2152,6 +2154,16 @@
    "tag:politica",
    "tag:habitacao",
    "tag:justica"
+  ],
+  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie": [
+   "topic:design",
+   "source:its-nice-that",
+   "style:story",
+   "tag:graphic-design",
+   "tag:illustration",
+   "tag:photography",
+   "tag:design-matters",
+   "tag:los-angeles"
   ]
  },
  "read": [
@@ -2206,7 +2218,8 @@
   "tech-microsoft-and-nvidia-team-up-on-an-arm-workstati",
   "mo-roto",
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
-  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60"
+  "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
+  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie"
  ],
  "saved": [
   "pt-1755",
@@ -2467,6 +2480,11 @@
    "at": "2026-10-20T11:13:41.734Z",
    "min": 1,
    "topic": "pt"
+  },
+  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie": {
+   "at": "2026-10-20T11:59:52.581Z",
+   "min": 3,
+   "topic": "design"
   }
  },
  "follows": null,

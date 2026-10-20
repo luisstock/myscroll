@@ -31,7 +31,7 @@ export async function loadContext() {
   state.read = new Set(synced.read ?? []);
   state.saved = new Set(synced.saved ?? []);
   // Newer synced maps (id -> { at, ..., off? }). Set on state so the agent can read them even before model.js knows them.
-  for (const k of ["later", "hidden", "readLog", "follows", "moodboard", "remember"]) state[k] = synced[k] ?? {};
+  for (const k of ["later", "hidden", "readLog", "follows", "moodboard", "remember", "localItems"]) state[k] = synced[k] ?? {};
 
   const index = await readJSON("web/editions/index.json", { editions: [] });
   state.latest = index.latest;
@@ -39,7 +39,11 @@ export async function loadContext() {
   for (const d of index.editions.slice(0, 30)) state.editions.push(await readJSON(`web/editions/${d}.json`, { items: [] }));
   model.rebuildProfile();
 
-  return { model, ranking, state, synced, index, live };
+  // Items written on the reader's devices (⚡ Fast Load more, AI books): already shown, so the agent must not repeat their stories.
+  const { itemsOf } = await import("../../web/localitems.js");
+  const localItems = itemsOf(state.localItems);
+
+  return { model, ranking, state, synced, index, live, localItems };
 }
 
 export async function contentDates() {

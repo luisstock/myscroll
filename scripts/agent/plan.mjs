@@ -6,7 +6,7 @@ import { join } from "node:path";
 import { loadContext, localDate, root } from "./context.mjs";
 
 const date = process.argv[2] ?? localDate();
-const { model, ranking, state, synced, index } = await loadContext();
+const { model, ranking, state, synced, index, localItems } = await loadContext();
 const s = state.settings;
 
 const active = model.topics().filter((t) => model.isTopicActive(t.id));
@@ -37,7 +37,7 @@ const taste = {
 };
 
 // Things already shown recently: don't repeat them.
-const recent = model.pool().map((i) => ({ id: i.id, title: i.title, url: i.source?.url }));
+const recent = [...model.pool(), ...localItems].map((i) => ({ id: i.id, title: i.title, url: i.source?.url }));
 
 const number = Math.max(0, ...state.editions.map((e) => e.number ?? 0)) + (index.latest === date ? 0 : 1);
 const plan = {

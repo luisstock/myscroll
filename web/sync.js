@@ -1,9 +1,10 @@
 // Keeps the reader's state (ratings, read, opened, saved, skips, settings) in the GitHub repo
 // at data/state.json, so the daily agent learns from the phone and a reinstall restores everything.
 // Needs the GitHub repo + token from Settings (fine-grained token: Contents read/write on that repo).
+import { forSync } from "./localitems.js";
 const PATH = "data/state.json";
 const KEYS = ["settings", "ratings", "opened", "skips", "itemFeatures", "read", "saved",
-  "later", "hidden", "readLog", "follows", "moodboard", "remember"];
+  "later", "hidden", "readLog", "follows", "moodboard", "remember", "localItems"];
 const prefix = "myscroll:";
 
 const get = (k, fb) => { try { return JSON.parse(localStorage.getItem(prefix + k)) ?? fb; } catch { return fb; } };
@@ -38,11 +39,12 @@ async function readRemote() {
 function localState() {
   const s = { updatedAt: new Date().toISOString(), device: "app" };
   for (const k of KEYS) s[k] = get(k, null);
+  if (s.localItems) s.localItems = forSync(s.localItems); // pruned + slimmed: data/state.json must stay small
   return s;
 }
 
 // Union of both sides; for ratings the most recent one wins; settings stay local.
-function merge(local, remote) {
+export function merge(local, remote) {
   const union = (a, b) => [...new Set([...(a ?? []), ...(b ?? [])])];
   const ratings = { ...(remote.ratings ?? {}) };
   for (const [id, r] of Object.entries(local.ratings ?? {})) {
@@ -64,6 +66,7 @@ function merge(local, remote) {
     follows: latest(local.follows, remote.follows),
     moodboard: latest(local.moodboard, remote.moodboard),
     remember: latest(local.remember, remote.remember),
+    localItems: forSync(latest(local.localItems, remote.localItems)), // written-on-device items (Fast Load more, AI books)
     ratings, skips,
     itemFeatures: { ...(remote.itemFeatures ?? {}), ...(local.itemFeatures ?? {}) },
     read: union(local.read, remote.read),

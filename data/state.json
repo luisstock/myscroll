@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:00:15.452Z",
+ "updatedAt": "2026-10-20T12:00:22.466Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -2219,7 +2219,8 @@
   "mo-roto",
   "pt-habitacao-o-governo-e-a-mudanca-de-discurso-entr",
   "pt-os-10-mais-ricos-de-portugal-concentram-quase-60",
-  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie"
+  "design-nicer-tuesdays-heads-to-los-angeles-with-debbie",
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at"
  ],
  "saved": [
   "pt-1755",
@@ -2485,6 +2486,11 @@
    "at": "2026-10-20T11:59:52.581Z",
    "min": 3,
    "topic": "design"
+  },
+  "pt-joaquim-de-almeida-e-a-reforma-milionaria-dos-at": {
+   "at": "2026-10-20T12:00:19.776Z",
+   "min": 1,
+   "topic": "pt"
   }
  },
  "follows": null,

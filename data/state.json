@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T12:28:09.231Z",
+ "updatedAt": "2026-10-20T12:29:13.181Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -491,7 +491,10 @@
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
-  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1
+  "pt-protestos-pela-habitacao-investigacao-no-sns-e-r": 1,
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": 1,
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
+  "pt-quando-o-sporting-processou-o-publico-nu": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -1885,6 +1888,36 @@
    "tag:photography",
    "tag:design-matters",
    "tag:los-angeles"
+  ],
+  "pt-metro-da-margem-sul-avanca-para-greve-pr": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:transportes",
+   "tag:greve",
+   "tag:margem-sul",
+   "tag:lisboa"
+  ],
+  "pt-intervencao-da-psp-poe-fim-a-acampamento": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:portugal",
+   "tag:habitacao",
+   "tag:manifestacao",
+   "tag:psp"
+  ],
+  "pt-quando-o-sporting-processou-o-publico-nu": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:desporto",
+   "tag:futebol",
+   "tag:justica",
+   "tag:sporting"
   ]
  },
  "read": [

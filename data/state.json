@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T10:59:15.653Z",
+ "updatedAt": "2026-10-21T11:00:23.883Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -606,6 +606,19 @@
     "tag:ciclismo",
     "tag:historia"
    ]
+  },
+  "pt-idosos-da-classe-media-sem-rede-entre-lares-soci": {
+   "r": 4,
+   "at": "2026-10-21T11:00:05.393Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:habitacao",
+    "tag:seguranca-social"
+   ],
+   "via": "swipe"
   }
  },
  "opened": [
@@ -694,7 +707,9 @@
   "news-a-look-beneath-the-hood-of-the-us-economy",
   "news-how-el-nino-split-the-pacific-and-atlantic-hurri",
   "til-a-6-time-capsule-of-early-american-life",
-  "bk-roubaix"
+  "bk-roubaix",
+  "pt-idosos-da-classe-media-sem-rede-entre-lares-soci",
+  "pt-morte-de-modelo-internacional-volta-a-colocar-o"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -766,7 +781,8 @@
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
   "design-is-a-high-production-movie-trailer-the-n": 1,
-  "design-finding-accidental-beauty-in-awkward-fac": 1
+  "design-finding-accidental-beauty-in-awkward-fac": 1,
+  "design-building-believable-fantasy-worlds-throu": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2582,6 +2598,39 @@
    "tag:graphic-design",
    "tag:culture",
    "tag:art"
+  ],
+  "design-building-believable-fantasy-worlds-throu": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:explainer",
+   "tag:world-building",
+   "tag:blender",
+   "tag:concept-art",
+   "tag:process"
+  ],
+  "pt-deputada-australiana-recupera-apos-atropelamento": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:mundo",
+   "tag:justica"
+  ],
+  "pt-idosos-da-classe-media-sem-rede-entre-lares-soci": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:seguranca-social"
+  ],
+  "pt-morte-de-modelo-internacional-volta-a-colocar-o": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:saude",
+   "tag:internacional"
   ]
  },
  "read": [
@@ -2674,7 +2723,14 @@
   "fun-boaty",
   "fun-boring-and-dull",
   "fun-byron",
-  "bk-roubaix"
+  "bk-roubaix",
+  "pt-a-trajetoria-de-superacao-da-chef-mila-araujo-a",
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b",
+  "pt-adriana-calcanhotto-regressa-a-portugal-com-digr",
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca",
+  "pt-deputada-australiana-recupera-apos-atropelamento",
+  "pt-ordem-da-cabidela-leva-ciclo-de-jantares-gastron",
+  "pt-idosos-da-classe-media-sem-rede-entre-lares-soci"
  ],
  "saved": [
   "pt-1755",
@@ -3129,6 +3185,65 @@
     "tag:animals",
     "tag:absurd"
    ]
+  },
+  "pt-a-trajetoria-de-superacao-da-chef-mila-araujo-a": {
+   "at": "2026-10-21T10:59:40.141Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:publico",
+    "style:news",
+    "tag:gastronomia",
+    "tag:porto"
+   ]
+  },
+  "pt-a-comedia-sobre-os-casamentos-de-santo-antonio-b": {
+   "at": "2026-10-21T10:59:41.428Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:news",
+    "tag:cinema",
+    "tag:lisboa",
+    "tag:cultura",
+    "tag:streaming"
+   ]
+  },
+  "pt-adriana-calcanhotto-regressa-a-portugal-com-digr": {
+   "at": "2026-10-21T10:59:45.055Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:publico",
+    "style:news",
+    "tag:musica",
+    "tag:coimbra"
+   ]
+  },
+  "pt-treinador-portugues-e-golo-portista-dao-a-franca": {
+   "at": "2026-10-21T10:59:47.762Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:observador",
+    "style:story",
+    "tag:hoquei-em-patins",
+    "tag:desporto",
+    "tag:franca",
+    "tag:selecao-nacional"
+   ]
+  },
+  "pt-ordem-da-cabidela-leva-ciclo-de-jantares-gastron": {
+   "at": "2026-10-21T10:59:59.971Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:nit",
+    "style:news",
+    "tag:gastronomia",
+    "tag:acores"
+   ]
   }
  },
  "readLog": {
@@ -3275,6 +3390,18 @@
    "at": "2026-10-20T23:32:18.173Z",
    "min": 1,
    "topic": "bike"
+  },
+  "pt-deputada-australiana-recupera-apos-atropelamento": {
+   "at": "2026-10-21T10:59:52.524Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
+  },
+  "pt-idosos-da-classe-media-sem-rede-entre-lares-soci": {
+   "at": "2026-10-21T11:00:05.397Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
   }
  },
  "follows": null,

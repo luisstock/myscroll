@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:13:34.977Z",
+ "updatedAt": "2026-10-21T11:45:10.022Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -730,7 +730,8 @@
   "pt-christina-applegate-partilha-frustracao-com-sint",
   "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
   "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d",
-  "pt-taxa-de-juro-nos-novos-contratos-de-cred"
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred",
+  "pt-estudantes-protestam-contra-a-proposta-d"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -816,7 +817,8 @@
   "pt-russia-liberta-professor-norte-americano": 1,
   "pt-taxa-de-juro-nos-novos-contratos-de-cred": 1,
   "pt-estudantes-protestam-contra-a-proposta-d": 1,
-  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 1
+  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 1,
+  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2830,6 +2832,16 @@
    "tag:sustentabilidade",
    "tag:residuos",
    "tag:uniao-europeia"
+  ],
+  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:sociedade",
+   "tag:imigracao",
+   "tag:habitacao",
+   "tag:economia"
   ]
  },
  "read": [
@@ -2936,7 +2948,8 @@
   "pt-christina-applegate-partilha-frustracao-com-sint",
   "pt-psicanalista-aponta-impacto-depressivo-das-redes",
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at",
-  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe"
+  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred"
  ],
  "saved": [
   "pt-1755",
@@ -3662,6 +3675,11 @@
   },
   "pt-psicanalista-aponta-impacto-depressivo-das-redes": {
    "at": "2026-10-21T11:06:03.698Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred": {
+   "at": "2026-10-21T11:44:47.651Z",
    "min": 1,
    "topic": "pt"
   }

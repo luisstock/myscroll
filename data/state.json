@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T12:19:25.244Z",
+ "updatedAt": "2026-10-21T12:20:00.999Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -741,7 +741,7 @@
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
-  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 2,
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 3,
   "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
   "motion-animating-ui-promos-outside-after-effects-using": 3,
   "motion-the-continuous-thread-from-cosmic-chaos-to-human": 3,
@@ -760,7 +760,7 @@
   "books-the-traps-of-free-will-and-fate-across-time": 3,
   "books-the-deep-roots-of-jewish-dissent": 3,
   "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 2,
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 3,
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 4,
   "ideas-beauty-is-an-act-of-unselfing": 2,
   "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
@@ -791,13 +791,13 @@
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
   "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
-  "ai-llamacpp": 2,
-  "ai-quant": 1,
+  "ai-llamacpp": 3,
+  "ai-quant": 2,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
-  "design-fifty-shades-of-hay-wicker-parodies-bodi": 1,
-  "design-the-creepy-beautiful-digital-art-behind": 1,
-  "design-an-existential-spiral-over-video-call-ap": 1,
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": 2,
+  "design-the-creepy-beautiful-digital-art-behind": 2,
+  "design-an-existential-spiral-over-video-call-ap": 2,
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "til-what-colonial-williamsburg-ate-before-pa": 1,
   "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
@@ -821,7 +821,8 @@
   "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 1,
   "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": 1,
   "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu": 1,
-  "pt-deputada-australiana-perde-ambas-as-pern": 1
+  "pt-deputada-australiana-perde-ambas-as-pern": 1,
+  "design-can-a-security-style-hologram-keep-your": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2873,6 +2874,15 @@
    "style:news",
    "tag:internacional",
    "tag:sociedade"
+  ],
+  "design-can-a-security-style-hologram-keep-your": [
+   "topic:design",
+   "source:creative-boom",
+   "style:explainer",
+   "tag:branding",
+   "tag:ai",
+   "tag:identity",
+   "tag:ethics"
   ]
  },
  "read": [

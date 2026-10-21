@@ -1,0 +1,356 @@
+{
+  "date": "2026-10-21",
+  "number": 5,
+  "items": [
+    {
+      "id": "pt-idosos-da-classe-media-sem-rede-entre-lares-soci",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "habitacao",
+        "seguranca-social"
+      ],
+      "title": "Idosos da classe média sem rede entre lares sociais e preços privados",
+      "snippet": "A pensão média de velhice assegura apenas poucos meses num lar, empurrando a classe média para um funil financeiro.",
+      "body": [
+        "A pensão média de velhice da Segurança Social garante apenas cerca de cinco meses de estadia numa vaga a preço inteiro numa instituição ou lar privado. O fosso entre os rendimentos e os custos do setor comercial deixa a classe média sem apoios e sem liquidez.",
+        "Um estudo recente da Via Senior e da BA&N Research Unit revela um défice anual superior a 11 mil euros para estes agregados, que enfrentam mensalidades médias elevadas face a reformas modestas.",
+        "Perante a escassez de camas nas respostas comparticipadas e a lotação esgotada dos lares privados, muitas famílias recorrem à venda ou ao arrendamento da habitação própria dos idosos para cobrir os custos."
+      ],
+      "more": [
+        "O diagnóstico resulta do cruzamento de dados recentes da Segurança Social com o retrato das residências sénior em Portugal. Cerca de 52% das famílias que procuravam uma resposta até 1500 euros mensais viram-se obrigadas a pagar acima desse limite, num contexto em que nove em cada dez tentavam balizar os encargos até aos 2000 euros.",
+        "O estrangulamento financeiro agrava-se com o fator tempo. Metade das decisões de colocação residencial ocorrem a contrarrelógio em menos de 15 dias, precipitadas por quedas súbitas, internamentos hospitalares ou pela morte do cuidador informal, sem tempo para planear alternativas sustentáveis.",
+        "A jusante desta pressão está um bloqueio estrutural: Portugal conta com pouco mais de 100 mil camas para uma população que ultrapassa os 800 mil octogenários. Destas, cerca de 70 mil pertencem à rede social e apenas 30 mil a 35 mil ao setor privado comercial, que regista taxas de ocupação elevadas e extensas listas de espera.",
+        "Para mitigar o risco de exclusão e o recurso a respostas informais, o setor sugere a criação de um cheque-sénior inspirado em modelos internacionais. A medida permitiria subsidiar diretamente as famílias de menores rendimentos para aceder a vagas disponíveis em ambos os setores.",
+        "Na ausência de soluções imediatas, a fuga geográfica para distritos contíguos como Santarém ou Leiria, onde os custos chegam a ser sensivelmente mais baixos, tornou-se uma válvula de escape frequente para as famílias que procuram equilibrar as contas sem perder o contacto regular."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/sociedade/idosos-da-classe-mdia-sem-rede-nem-vagas-em-lares-sociais-nem-penses-que-paguem-privados"
+      },
+      "imageUrl": "https://media.assettype.com/dn/2026-10-20/pnw61d1p/45156083GI28102022PEDROCORREIA008.JPG",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-16",
+      "style": "news",
+      "tags": [
+        "saude",
+        "orcamento-do-estado"
+      ],
+      "title": "Liga Portuguesa contra o Cancro propõe baixa a 100% para doentes oncológicos",
+      "snippet": "Medida teria um impacto líquido estimado em 14 milhões de euros no Orçamento do Estado.",
+      "body": [
+        "A Liga Portuguesa Contra o Cancro defende que os doentes oncológicos passem a receber a totalidade do subsídio de doença durante o tratamento. Um estudo recente indica que a medida representaria um impacto líquido de 14 milhões de euros para os cofres públicos.",
+        "A atual quebra nos rendimentos durante a baixa médica penaliza sobretudo os trabalhadores com menores recursos, numa altura em que as despesas diretas e indiretas associadas à doença aumentam consideravelmente.",
+        "Com cerca de 61 mil novos casos diagnosticados anualmente no país, a proposta pretende salvaguardar a estabilidade financeira de uma faixa significativa da população em idade ativa."
+      ],
+      "more": [
+        "O estudo que fundamenta a reivindicação foi encomendado pela Liga Portuguesa Contra o Cancro à consultora Forvis Mazars. Os dados apontam que a perda de rendimento afeta de forma expressiva os trabalhadores logo nos primeiros trinta dias de baixa, independentemente de se tratarem de salários intermédios ou mais baixos.",
+        "Num cenário em que os doentes recebessem a totalidade do valor de referência, a despesa bruta da Segurança Social aumentaria em cerca de 34 milhões de euros, mas o acréscimo de receita fiscal estimado em 20 milhões reduziria o impacto líquido para os referidos 14 milhões de euros.",
+        "Os responsáveis lembram que o valor representa uma fatia residual da despesa total do Estado com subsídios de doença, mas faz uma diferença estrutural na vida das famílias atingidas pelo diagnóstico, evitando a sobreposição de crises económicas aos desafios clínicos.",
+        "Portugal regista atualmente uma prevalência de mais de 200 mil pessoas com cancro e valores de investimento na área oncológica inferiores à média europeia, tornando o reforço da proteção social uma prioridade apontada por diversas associações do setor."
+      ],
+      "source": {
+        "id": "web",
+        "name": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-10-16/full-sick-pay-proposed-for-cancer-patients-in-portugal/1101763"
+      },
+      "imageUrl": "https://d1mnxluw9mpf9w.cloudfront.net/media/9726/word-cancer-day-2022-11-07-22-05-33-utc.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-vigilia-no-campus-da-justica-e-reacoes-politicas",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "habitacao",
+        "politica"
+      ],
+      "title": "Vigília no Campus da Justiça e reações políticas à habitação e imigração",
+      "snippet": "Detidos em protestos recentes são ouvidos em tribunal enquanto o Governo debate prioridades económicas.",
+      "body": [
+        "O Campus da Justiça acolhe uma vigília de apoio aos manifestantes detidos na sequência dos recentes protestos pela habitação em Lisboa. Os dezenas de cidadãos retidos pelas autoridades vão prestar declarações perante a justiça.",
+        "A atualidade política ficou marcada por declarações do ministro da Defesa, Nuno Melo, que associou a intensidade da crise habitacional ao crescimento dos fluxos migratórios nos últimos anos.",
+        "Em simultâneo, os parceiros sociais preparam-se para reunir em Concertação Social para debater a evolução do salário mínimo e a monitorização de acordos de rendimentos."
+      ],
+      "more": [
+        "Os protestos que marcaram os últimos dias em Lisboa e no Porto resultaram em intervenções policiais e na detenção de mais de meia centena de pessoas por desobediência. Coletivos solidários convocaram concentrações públicas para acompanhar os trâmites legais dos arguidos.",
+        "No plano governamental, o executivo defende a necessidade de responsabilizar a oposição e foca-se na apresentação de medidas legislativas para responder às dificuldades no acesso à habitação, rejeitando críticas sobre a lentidão das soluções estruturais.",
+        "A agenda económica inclui também o debate em torno da proposta de Orçamento do Estado, que prevê a atualização gradual do salário mínimo nacional e enfrenta contestação de vários setores, incluindo estudantes universitários descontentes com o descongelamento das propinas.",
+        "As discussões em sede de Concertação Social prometem intensificar-se nas próximas semanas, com as centrais sindicais a exigirem valores superiores aos inicialmente previstos para a retribuição mínima garantida, face à persistência da inflação."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/liveblogs/vigilia-marcada-para-o-campus-da-justica-para-apoio-aos-55-detidos-da-acampada/"
+      },
+      "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2048:1153:nowe:0:197/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/21073212/whatsapp-image-2026-10-21-at-072830.jpeg",
+      "lang": "pt",
+      "explore": true
+    },
+    {
+      "id": "pt-psicanalista-aponta-impacto-depressivo-das-redes",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "redes-sociais",
+        "sociedade"
+      ],
+      "title": "Psicanalista aponta impacto depressivo das redes sociais e do consumo digital",
+      "snippet": "Vera Iaconelli alerta em Portugal para a insatisfação permanente gerada pelas plataformas digitais.",
+      "body": [
+        "A psicanalista Vera Iaconelli defende que as redes sociais alimentam a ilusão de uma vida de luxo inatingível, gerando frustrações que acabam por influenciar o comportamento dos cidadãos, inclusive no plano político.",
+        "Durante a sua passagem por Portugal para apresentar livros e participar em eventos culturais, a especialista destacou que a exibição constante de bem-estar nas plataformas promove uma insatisfação crónica.",
+        "Para a autora, a promessa de felicidade associada ao consumo desenfreado contrasta com a realidade da chamada vida comum, exigindo maior atenção coletiva e regulação digital."
+      ],
+      "more": [
+        "Em declarações prestadas durante o festival Fólio, em Óbidos, a psicanalista comparou a lógica das redes sociais à de produtos especulativos, onde o utilizador aguarda permanentemente por um grande prémio que raras vezes se concretiza.",
+        "O fenómeno afeta de forma transversal diferentes gerações, gerando preocupações acrescidas entre os pais quanto ao uso precoce de ecrãs por crianças e adolescentes, num contexto em que os próprios adultos enfrentam dependências tecnológicas semelhantes.",
+        "A especialista sublinha a urgência de repensar a regulação da atividade das grandes plataformas tecnológicas, envolvendo a sociedade civil, as escolas e os governos na criação de limites que protejam o bem-estar psicológico coletivo.",
+        "A reflexão estende-se ao modo como determinados discursos políticos aproveitam o descontentamento gerado por estas expectativas irreais para prometer soluções simplistas a problemas sociais complexos."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://dnbrasil.dn.pt/vera-iaconelli-as-redes-sociais-vendem-um-mundo-impossvel-de-alcanar"
+      },
+      "imageUrl": "https://media.assettype.com/dn/2026-10-20/a47r0qa3/81174850431292106672778834827740128489818947n.jpg",
+      "lang": "pt",
+      "explore": true
+    },
+    {
+      "id": "pt-alceu-valenca-celebra-80-anos-com-digressao-euro",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "musica",
+        "cultura"
+      ],
+      "title": "Alceu Valença celebra 80 anos com digressão europeia e passagem por Portugal",
+      "snippet": "Cantor brasileiro atua em Lisboa, Coimbra e Porto no âmbito da digressão comemorativa '80 Girassóis'.",
+      "body": [
+        "O músico brasileiro Alceu Valença traz a sua nova digressão a Portugal para celebrar oito décadas de vida e mais de cinco de carreira. O espetáculo integra passagens por salas emblemáticas como o Coliseu dos Recreios e o Coliseu do Porto.",
+        "Com uma relação de longa data com Lisboa, onde mantém residência parcial, o artista destaca a importância do palco como fonte de energia e vitalidade contínua.",
+        "A digressão '80 Girassóis' cruza clássicos intemporais com novas projeções visuais e elementos do acervo pessoal do cantor pernambucano."
+      ],
+      "more": [
+        "A ligação do intérprete a Portugal remonta ao final da década de 1970, tendo-se consolidado ao longo dos anos através da admiração mútua pelo fado e pela cultura popular de ambos os lados do Atlântico.",
+        "Em entrevista concedida na capital portuguesa, Alceu Valença refletiu sobre a evolução da música latino-americana e o papel da internet na aproximação entre artistas e públicos de diferentes geografias, permitindo maior autonomia face aos centros tradicionais da indústria fonográfica.",
+        "O alinhamento dos concertos em território nacional inclui temas fundamentais da discografia do autor, como 'Anunciação', 'Tropicana' e 'Coração Bobo', enriquecidos por registos visuais que documentam a sua trajetória artística.",
+        "Após os concertos em Portugal, a comitiva seguirá para outras cidades europeias, demonstrando a intenção de manter uma agenda preenchida e descartando qualquer hipótese de retirada dos palcos."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://dnbrasil.dn.pt/cultura-dn-brasil/alceu-valena-celebra-80-anos-em-turn-pela-europa-palco-para-mim-vitamina-alegria-energia"
+      },
+      "imageUrl": "https://media.assettype.com/dn/2026-10-13/gamf4p88/AlceuLeoAversa087B.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "musica",
+        "concertos"
+      ],
+      "title": "Fontaines D.C. iniciam em Lisboa digressão europeia do novo álbum",
+      "snippet": "Banda irlandesa atua na MEO Arena num momento de consolidação internacional e novas sonoridades.",
+      "body": [
+        "Os Fontaines D.C. regressam a Portugal para um concerto na MEO Arena, assinalando o arranque da digressão europeia de apresentação do quinto álbum de estúdio, intitulado 'Dopamine Chamber'.",
+        "O vocalista Grian Chatten tem abordado abertamente nas entrevistas o desgaste associado ao crescimento rápido da banda e as dificuldades superadas ao longo de anos de digressões intensas.",
+        "O novo disco marca uma evolução estética para o coletivo irlandês, incorporando influências eletrónicas e sintetizadores sem perder a intensidade lírica habitual."
+      ],
+      "more": [
+        "A trajetória do grupo tem sido acompanhada por uma reflexão constante sobre os excessos da vida na estrada, com o cantor a recordar períodos marcados por exaustão e episódios difíceis que acabaram por alimentar a matéria-prima das composições.",
+        "Para além da atividade musical, os membros da banda têm utilizado a visibilidade pública para tomar posição sobre temas políticos e humanitários internacionais, refletindo uma crescente preocupação com a responsabilidade cívica dos criadores.",
+        "O espetáculo em Lisboa promete revisitar os novos temas do grupo bem como êxitos anteriores que os consagraram como um dos nomes centrais do rock alternativo contemporâneo.",
+        "A digressão continuará por várias capitais europeias nas próximas semanas, consolidando o estatuto de uma das bandas mais requisitadas do panorama musical atual."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/musica/vocalista-dos-fontaines-d-c-ja-esta-em-lisboa-precisava-beber-imenso-para-subir-ao-palco"
+      },
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1712547&ts=20261020191044",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-ordem-da-cabidela-leva-ciclo-de-jantares-gastron",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "gastronomia",
+        "acores"
+      ],
+      "title": "Ordem da Cabidela leva ciclo de jantares gastronómicos às ilhas pela primeira vez",
+      "snippet": "Iniciativa reúne vários chefs em São Miguel e no Funchal para reinterpretar o tradicional prato.",
+      "body": [
+        "O ciclo de jantares promovido pela Ordem da Cabidela regressa com uma novidade geográfica: a expansão da iniciativa aos arquipélagos dos Açores e da Madeira.",
+        "O primeiro evento realiza-se num restaurante em São Miguel, juntando um painel de chefs para um menu de degustação dedicado à versatilidade do prato confecionado com sangue e miúdos.",
+        "A iniciativa passará posteriormente pelo Funchal antes de encerrar o programa anual com etapas no Porto e em Lisboa."
+      ],
+      "more": [
+        "Fundada com o intuito de celebrar a gastronomia tradicional e promover o convívio entre profissionais da restauração, a Ordem da Cabidela conta já com milhares de aderentes em todo o país.",
+        "As propostas gastronómicas apresentadas por cada anfitrião exploram cruzamentos criativos entre ingredientes locais e técnicas contemporâneas, desafiando a polarização habitual em torno da receita clássica.",
+        "Os bilhetes para as diferentes sessões estão disponíveis através de reserva direta nos espaços aderentes, com menus que variam consoante a criatividade dos chefs convidados em cada cidade.",
+        "O projeto continua a afirmar-se como uma montra para a valorização de produtos endógenos e receitas ancestrais reinterpretadas pela nova geração da restauração nacional."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/comida/restaurantes/os-jantares-onde-a-cabidela-e-a-estrela-estao-de-volta-desta-vez-nem-as-ilhas-escapam"
+      },
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1712313&ts=20261020191018",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-morte-de-modelo-internacional-volta-a-colocar-o",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "saude",
+        "internacional"
+      ],
+      "title": "Morte de modelo internacional volta a colocar o fentanil no centro do debate",
+      "snippet": "Opioide sintético continua a causar milhares de vítimas nos Estados Unidos e preocupa autoridades de saúde.",
+      "body": [
+        "O falecimento da modelo e empresária Sahara Ray, em Los Angeles, levantou suspeitas sobre o consumo de fentanil, um opioide sintético altamente potente que tem marcado a crise de overdoses em território norte-americano.",
+        "A substância, embora útil em contextos clínicos estritos, tornou-se dominante no mercado clandestino devido à sua mistura frequente com outras drogas e à venda de comprimidos falsificados.",
+        "Organizações de saúde pública reforçam a necessidade de alargar o acesso a tratamentos de dependência e a antagonistas capazes de reverter efeitos letais a tempo."
+      ],
+      "more": [
+        "O problema do fentanil tem sido associado ao longo dos anos a diversas figuras públicas internacionais, evidenciando que os riscos decorrentes do consumo de substâncias adulteradas afetam diferentes estratos sociais.",
+        "Dados recentes dos centros de controlo de doenças nos Estados Unidos indicam flutuações nas estatísticas anuais de mortalidade por overdose, sugerindo ligeiras melhorias decorrentes de novas estratégias de intervenção comunitária.",
+        "A facilidade com que estes compostos sintéticos são distribuídos ilegalmente sublinha a fragilidade dos mecanismos tradicionais de fiscalização e o desafio contínuo para os serviços de emergência médica.",
+        "As autoridades continuam a apelar à sensibilização dos consumidores para o perigo invisível associado a produtos farmacêuticos adquiridos fora dos circuitos legais regulados."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/fit/saude/o-vicio-perigoso-que-matou-a-ex-namorada-de-justin-bieber"
+      },
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1712583&ts=20261020201049",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-deputada-australiana-recupera-apos-atropelamento",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "mundo",
+        "justica"
+      ],
+      "title": "Deputada australiana recupera após atropelamento deliberado que resultou em amputação",
+      "snippet": "Helen Haines encontra-se estável enquanto a justiça investiga o sucedido.",
+      "body": [
+        "A deputada australiana Helen Haines encontra-se em estado estável depois de ter sofrido um atropelamento deliberado que a obrigou à amputação de ambas as pernas.",
+        "As autoridades policiais indicaram não ter encontrado indícios de contactos prévios entre a parlamentar e o arguido detido pelo ato.",
+        "A defesa do suspeito apontou a existência de uma condição neurológica rara para enquadrar o sucedido durante a investigação criminal."
+      ],
+      "more": [
+        "O caso gerou forte comoção na Austrália, mobilizando mensagens de solidariedade de diversas forças políticas e líderes institucionais face à gravidade do sucedido.",
+        "O processo judicial seguirá os trâmites legais habituais para apurar todas as circunstâncias associadas ao incidente e avaliar a responsabilidade penal do indivíduo detido.",
+        "A recuperação da deputada tem sido acompanhada de perto pela comunidade política local, num momento de reflexão sobre a segurança dos representantes públicos."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/mundo/noticia/deputada-australiana-perde-duas-pernas-apos-atropelamento-deliberado-2192065"
+      },
+      "lang": "pt"
+    },
+    {
+      "id": "pt-adriana-calcanhotto-regressa-a-portugal-com-digr",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "musica",
+        "coimbra"
+      ],
+      "title": "Adriana Calcanhotto regressa a Portugal com digressão em voz e violão",
+      "snippet": "Cantora brasileira inicia ciclo de concertos em Coimbra nas vésperas de eleições presidenciais no Brasil.",
+      "body": [
+        "A cantora e compositora Adriana Calcanhotto está de volta a Portugal para uma série de quatro concertos intimistas em formato de voz e violão.",
+        "A digressão arranca em Coimbra, cidade com a qual a artista mantém uma relação afetiva e cultural profunda ao longo dos últimos anos.",
+        "As apresentações decorrem num período marcado pela atenção redobrada aos acontecimentos políticos no Brasil, tema que acompanha a compositora em viagem."
+      ],
+      "more": [
+        "O percurso da artista em território português tem sido pontuado por colaborações artísticas diversas e atuações esgotadas em várias salas do país.",
+        "O formato intimista permite revisitar temas essenciais do repertório da compositora, privilegiando a proximidade com o público e a pureza dos arranjos acústicos.",
+        "Os espetáculos seguintes decorrerão noutras cidades portuguesas, reforçando os laços duradouros entre a creadora brasileira e os espectadores locais."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/culturaipsilon/noticia/adriana-calcanhotto-volta-voz-violao-coimbra-salve-novo-2191725"
+      },
+      "lang": "pt"
+    },
+    {
+      "id": "pt-a-trajetoria-de-superacao-da-chef-mila-araujo-a",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "gastronomia",
+        "porto"
+      ],
+      "title": "A trajetória de superação da chef Mila Araújo à frente de três negócios no Porto",
+      "snippet": "Empresária encontrou na culinária o caminho para ultrapassar as dificuldades da infância.",
+      "body": [
+        "Mila Araújo gere atualmente três espaços de sucesso na cidade do Porto — a Say Cheesecake & Co, a Mila e o Catiço —, consolidando o seu percurso na restauração.",
+        "Numa entrevista recente, a cozinheira partilhou como a superação das dificuldades alimentares e financeiras vividas na infância moldou a sua determinação profissional.",
+        "Os estabelecimentos sob a sua alçada tornaram-se referências gastronómicas locais, destacando-se pela diversidade de propostas culinárias."
+      ],
+      "more": [
+        "A história da empresária ilustra o papel transformador da hospitalidade e da dedicação na integração de novos residentes na dinâmica comercial da Invicta.",
+        "Cada um dos projetos reflete uma faceta distinta da sua identidade gastronómica, combinando influências lusobrasileiras com a valorização dos ingredientes da região norte.",
+        "O reconhecimento obtido pelos espaços reforça a vitalidade do setor da restauração urbana no Porto, impulsionado por trajetórias de resiliência pessoal."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/publico-brasil/noticia/passou-fome-nao-medo-nada-chef-tres-negocios-porto-2192036"
+      },
+      "lang": "pt"
+    }
+  ],
+  "partial": true
+}

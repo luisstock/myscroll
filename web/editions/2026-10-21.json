@@ -396,6 +396,386 @@
       "lang": "pt",
       "minutes": 1,
       "added": "2026-10-21"
+    },
+    {
+      "id": "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "orcamento-do-estado",
+        "economia"
+      ],
+      "title": "Défice da zona euro sobe para 3,3% e Portugal regista o quinto maior excedente",
+      "snippet": "Enquanto o défice orçamental da zona euro aumentou no segundo trimestre, Portugal destacou-se com um excedente de 0,8%.",
+      "body": [
+        "O défice orçamental da zona euro subiu para 3,3% do PIB no segundo trimestre, face aos 3,1% registados no período homólogo. No conjunto da União Europeia, o valor agravou-se para 3,5%.",
+        "Apesar desta tendência de subida geral, Portugal vai na contramão e figura entre os Estados-membros com contas positivas, registando um excedente orçamental de 0,8%.",
+        "Os dados foram divulgados pelo Eurostat, lembrando que as regras comunitárias continuam a estabelecer limites de referência de 3% para o défice e de 60% para a dívida pública."
+      ],
+      "more": [
+        "O relatório trimestral do gabinete de estatísticas da União Europeia revelou um cenário económico misto entre os países do bloco comunitário nos meses de abril a junho.",
+        "Entre os poucos países que deverão apresentar excedentes orçamentais ao lado de Portugal encontram-se Chipre, Dinamarca, Grécia e Irlanda.",
+        "Em sentido inverso, as maiores pressões e os défices mais acentuados continuam concentrados noutras geografias, com destaque para a Roménia, Hungria e Polónia, que registam desequilíbrios bem acima dos limites recomendados por Bruxelas.",
+        "Estes números chegam numa altura em que os governos continuam a tentar equilibrar o apoio às famílias com a disciplina orçamental exigida pelas regras europeias de consolidação das contas públicas."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "http://dinheirovivo.dn.pt/economia/dfice-da-zona-euro-estimado-em-33-no-2-trimestre-e-portugal-tem-5-maior-excedente"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg.jpg",
+        "credit": "dinheirovivo.dn.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "economia"
+      ],
+      "title": "Preços dos combustíveis sobem mais na Europa do que em Portugal",
+      "snippet": "A escalada de preços sentida em setembro foi expressiva, mas a média europeia e da zona euro registou subidas ainda mais agudas.",
+      "body": [
+        "Os preços dos combustíveis registaram subidas expressivas em setembro, tanto em Portugal como no resto da Europa, impulsionados pelo contexto geopolítico internacional.",
+        "Apesar de a economia portuguesa ter sentido um aumento homólogo de 30,3% nos combustíveis e lubrificantes, a média da zona euro fixou-se num patamar superior, atingindo os 31,9%.",
+        "Os dados avançados pelo Eurostat mostram que o encarecimento foi transversal, mas com impactos díspares consoante os mercados nacionais."
+      ],
+      "more": [
+        "A variação de setembro representou o maior aumento verificado ao longo de 2026, intensificado desde o início do conflito que envolve os Estados Unidos, Israel e o Irão.",
+        "Ainda assim, a posição relativa de Portugal face aos parceiros europeus ficou ligeiramente abaixo da média comunitária, onde a União Europeia registou uma subida global de 31,4%.",
+        "Fora dos vinte e sete, países como a Turquia e o Kosovo lideraram as tabelas com subidas bastante mais agressivas, enquanto algumas economias insulares ou específicas, como a Islândia, conseguiram registar recortes nos preços praticados.",
+        "Em termos estritamente mensais, tanto o gasóleo como a gasolina mantiveram uma trajetória ascendente, embora a taxa de variação em território nacional tenha ficado contida comparativamente à média registada pelos vizinhos europeus."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "http://dinheirovivo.dn.pt/economia/combustveis-preos-sobem-mais-na-europa-do-que-em-portugal"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-precos-dos-combustiveis-sobem-mais-na-europa-do.jpg",
+        "credit": "dinheirovivo.dn.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-vasp-vence-concurso-para-garantir-distribuicao-d",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "web"
+      ],
+      "title": "VASP vence concurso para garantir distribuição de jornais em todo o país",
+      "snippet": "O Estado adjudicou por cerca de 2,3 milhões de euros a distribuição de imprensa escrita, alcançando uma poupança significativa face às estimativas.",
+      "body": [
+        "A distribuidora VASP ganhou o concurso público para assegurar a distribuição de imprensa escrita em todos os concelhos de Portugal continental, incluindo os territórios de baixa densidade.",
+        "A adjudicação, integrada no Plano de Ação para a Comunicação Social, prevê um contrato de três anos que garante a existência de pelo menos cinco pontos de venda por município nas zonas do interior.",
+        "Com esta opção por um procedimento concorrencial, o Estado conseguiu uma redução de custos expressiva face aos valores reclamados inicialmente."
+      ],
+      "more": [
+        "O processo, conduzido pela Estrutura de Missão Portugal MediaLab, culminou num contrato global avaliado em cerca de 2,3 milhões de euros para o triénio, o que traduz uma poupança de setenta e oito por cento em relação à despesa pública que tinha sido inicialmente apontada.",
+        "O operador ficou contratualmente obrigado a assegurar a cobertura em postos de venda com um funcionamento mínimo de trezentos dias por ano, combatendo o risco de isolamento informativo em várias regiões do interior.",
+        "Após um período de análise de propostas, audiências prévias e esclarecimentos prestados pelo júri, a proposta melhorada acabou por ser validada e formalizada, garantindo a continuidade do acesso físico aos jornais em todo o território nacional."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "http://dinheirovivo.dn.pt/empresas/vasp-vence-concurso-para-distribuio-de-jornais-em-todos-os-concelhos-por-trs-anos"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-vasp-vence-concurso-para-garantir-distribuicao-d.jpg",
+        "credit": "dinheirovivo.dn.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "seguranca-social"
+      ],
+      "title": "PSP desmobiliza acampadas pela habitação em Lisboa e no Porto",
+      "snippet": "Operação policial coordenada nas duas cidades resultou na retirada de tendas e em várias dezenas de detenções na capital.",
+      "body": [
+        "As manifestações e acampadas organizadas em defesa da habitação foram alvo de uma operação policial coordenada de desmobilização nas praças centrais de Lisboa e do Porto.",
+        "Enquanto no Porto a intervenção decorreu num clima de maior diálogo e cooperação com os manifestantes, na capital registaram-se momentos de maior tensão e resistência ativa.",
+        "A intervenção das autoridades culminou na remoção das estruturas de campismo e na detenção de mais de meia centena de pessoas em Lisboa."
+      ],
+      "more": [
+        "A operação teve início de madrugada, com as forças de segurança a emitirem avisos sucessivos para a desmobilização voluntária dos espaços públicos ocupados.",
+        "No Porto, os manifestantes acabaram por acatar as indicações das autoridades de forma pacífica, permitindo a retirada das tendas sem recurso a medidas coercivas.",
+        "Em contrapartida, no Rossio, em Lisboa, formaram-se cordões humanos em redor das estruturas montadas, gerando confrontos com a unidade especial de polícia e equipas de intervenção rápida.",
+        "A tutela destacou o profissionalismo e a actuação proporcional da força de segurança perante a recusa em abandonar o local, enquanto os manifestantes criticaram o uso de força excessiva durante a dispersão."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/especiais/a-resistencia-em-lisboa-e-o-dialogo-pacifico-no-porto-como-a-psp-desmobilizou-as-acampadas-pela-habitacao/"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb.jpg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "saude"
+      ],
+      "title": "Antiga atleta cria espaço de recuperação física com banhos de gelo e sauna no Porto",
+      "snippet": "Um antigo armazém em Leça do Balio deu lugar a um centro multifacetado focado no bem-estar, treino e recuperação.",
+      "body": [
+        "Inspirado por anos de vivência no desporto de alta competição, um casal decidiu transformar um antigo armazém em Leça do Balio num novo centro dedicado à recuperação física e ao bem-estar.",
+        "O espaço reúne sob o mesmo teto serviços de treino personalizado, fisioterapia, Pilates clínico e valências de spa, incluindo banhos de gelo e sauna.",
+        "O projeto resulta de uma mudança de rumo profissional que uniu a vertente artística e técnica dos fundadores numa nova dinâmica comunitária."
+      ],
+      "more": [
+        "A ideia de criar este centro esteve amadurecida durante vários anos, alimentada pelos hábitos de recuperação que a fundadora adoptou enquanto praticante de alta competição de karaté.",
+        "Após percursos que passaram pela pintura, animação audiovisual e pela prótese dentária, o casal regressou a Portugal para consolidar os seus investimentos e concretizar o conceito.",
+        "O edifício de quinhentos metros quadrados foi totalmente reabilitado para acolher gabinetes clínicos, zonas de treino funcional e uma área de relaxamento com acabamentos inspirados na natureza.",
+        "Além das valências diárias, o centro aposta na vertente comunitária através da realização regular de palestras dedicadas à nutrição, longevidade e saúde preventiva."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/fit/ginasios-e-outdoor/ha-um-novo-espaco-no-grande-porto-onde-pode-treinar-ir-a-sauna-e-tomar-banhos-de-gelo"
+      },
+      "lang": "pt",
+      "explore": true,
+      "image": {
+        "src": "editions/2026-10-21/pt-antiga-atleta-cria-espaco-de-recuperacao-fisica.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-cabine-fotografica-de-inspiracao-disco-instala-s",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "web"
+      ],
+      "title": "Cabine fotográfica de inspiração disco instala-se em livraria icónica",
+      "snippet": "Uma nova photobooth revestida a pequenos espelhos chegou a um conhecido espaço cultural em Lisboa.",
+      "body": [
+        "O projeto responsável por cabines fotográficas criativas em locais improdutivos expandiu a sua presença para uma das livrarias mais emblemáticas de Lisboa.",
+        "Instalada no piso superior do espaço cultural localizado no LX Factory, a nova cabine recupera uma estética retro inspirada nas clássicas bolas de discoteca.",
+        "Além de tirar fotografias impressas na hora, o conceito convida os visitantes a deixarem registos visuais associados às suas leituras favoritas."
+      ],
+      "more": [
+        "A integração da estrutura pretende acrescentar um elemento lúdico e visualmente distinto ao ambiente da livraria, conhecida internacionalmente pela sua arquitetura e curadoria.",
+        "O funcionamento da cabine foi pensado para ser simples e autónomo, permitindo pagamentos por via digital e a emissão de tiras fotográficas personalizadas.",
+        "A iniciativa reforça a tendência de cruzar experiências e comércio local com pontos de atração criativos para quem visita os espaços culturais da cidade."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/fora-de-casa/na-cidade/ha-uma-uma-nova-photobooth-de-inspiracao-disco-para-tirar-fotografias-no-lx-factory"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-cabine-fotografica-de-inspiracao-disco-instala-s.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "web"
+      ],
+      "title": "Colisão entre cerca de dez veículos condiciona trânsito na A8 rumo a Lisboa",
+      "snippet": "Acidente perto de Loures cortou uma via e gerou constrangimentos na circulação rodoviária.",
+      "body": [
+        "Um acidente rodoviário envolvendo cerca de dez veículos provocou condicionamentos na circulação da autoestrada A8 no sentido Norte-Sul.",
+        "A colisão ocorreu perto do quilómetro quinze, nas imediações da zona de serviço de Loures, obrigando ao corte da via da esquerda.",
+        "Apesar da dimensão do aparatoso engavetamento, as autoridades confirmaram que não existem registos de feridos graves."
+      ],
+      "more": [
+        "O trânsito automóvel em direção à entrada de Lisboa sofreu constipações temporárias enquanto decorreram as operações de desobstrução da via.",
+        "Os meios de socorro e as autoridades de trânsito compareceram no local para sinalizar o incidente e repor a normalidade na circulação o mais rapidamente possível.",
+        "Situações deste tipo servem habitualmente para recordar a importância da manutenção de distâncias de segurança adequadas em troços de grande densidade de tráfego."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/21/acidente-com-uma-dezena-de-carros-condiciona-transito-na-a8/"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-21/pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t.jpg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-christina-applegate-partilha-frustracao-com-sint",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "saude"
+      ],
+      "title": "Christina Applegate partilha frustração com sintomas persistentes apesar de afastar diagnóstico",
+      "snippet": "A atriz admitiu sentir-se confusa com a persistência de um quadro clínico complexo.",
+      "body": [
+        "A atriz Christina Applegate revelou publicamente o seu estado de espírito face à evolução dos seus problemas de saúde.",
+        "Apesar de ter sido esclarecido que não sofre de esclerose múltipla, a intérprete continua a lidar com uma sintomatologia intensa e persistente.",
+        "Numa declaração recente, descreveu a situação como um mistério inquietante para o qual ainda procura respostas médicas definitivas."
+      ],
+      "more": [
+        "O percurso de saúde da atriz tem sido acompanhado de perto pelos fãs, sobretudo após ter tornado públicas as dificuldades motoras e os desafios diários com que se depara.",
+        "A ausência de um diagnóstico claro continua a gerar interrogações e perplexidade, dificultando a gestão emocional da própria condição física.",
+        "O testemunho tem gerado reações de solidariedade por parte de outras figuras públicas e de anónimos que enfrentam patologias neurológicas ou sintomas difíceis de catalogar."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/impar/noticia/christina-applegate-nao-esclerose-multipla-continua-sintomas-2192074"
+      },
+      "lang": "pt",
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-uma-comedia-de-enganos-que-brinca-com-a-tradicao",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "web"
+      ],
+      "title": "Uma comédia de enganos que brinca com a tradição teatral francesa",
+      "snippet": "Crítica cultural analisa peça recente que explora a ironia em torno do universo da representação.",
+      "body": [
+        "A aposta em subverter os códigos da tradicional comédia francesa de enganos tem marcado a agenda dos palcos nacionais.",
+        "Uma nova produção teatral coloca em causa a reputação e os excessos da célebre instituição parisiense numa abordagem bem-humorada.",
+        "Os resultados em cena traduzem-se num espetáculo cauteloso que procura equilibrar a sátira com o respeito pelo formato clássico."
+      ],
+      "more": [
+        "O cruzamento entre referências clássicas do teatro europeu e a comédia contemporânea continua a atrair espectadores interessados em propostas dinâmicas.",
+        "A encenação aposta em momentos de boa disposição, embora a crítica aponte para uma certa contenção na forma como aborda os temas mais satíricos.",
+        "Ainda assim, constitui um exercício interessante de metateatro que revisita os tiques e as manias do meio artístico com leveza."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/culturaipsilon/critica/comedia-francesa-peca-torto-2191949"
+      },
+      "lang": "pt",
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "web"
+      ],
+      "title": "Sismo de magnitude 3,2 sentido na ilha de São Miguel, nos Açores",
+      "snippet": "Movimento telúrico foi registado pelas estações sismográficas e sentido pela população local.",
+      "body": [
+        "Um sismo com magnitude 3,2 na escala de Richter foi registado pelas estações do Centro de Informação e Sismovulcânica dos Açores.",
+        "O epicentro localizou-se nas imediações da ilha de São Miguel, onde o abalo acabou por ser sentido por vários habitantes.",
+        "Até ao momento não há registo de danos materiais ou pessoais resultantes deste movimento telúrico."
+      ],
+      "more": [
+        "A atividade sísmica na região autónoma dos Açores é monitorizada de forma constante devido à complexa envolvente tectónica do arquipélago.",
+        "Sismos desta magnitude são relativamente comuns na zona e, regra geral, não provocam estragos significativos, gerando apenas alertas pontuais entre a população residente.",
+        "As autoridades locais continuam a acompanhar a situação e recomendam a consulta regular de informação oficial em caso de novas ocorrências."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/local/noticia/sismo-magnitude-32-escala-richter-sentido-ilha-sao-miguel-2192076"
+      },
+      "lang": "pt",
+      "minutes": 1,
+      "added": "2026-10-21"
+    },
+    {
+      "id": "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "web"
+      ],
+      "title": "O regresso do padrão de bolinhas às tendências de moda da estação",
+      "snippet": "Inspirado por aparições recentes em galas internacionais, o clássico polka dot ganha novas leituras comerciais.",
+      "body": [
+        "O clássico padrão de bolinhas, internacionalmente conhecido como polka dot, voltou a afirmar-se como uma das apostas fortes nas tendências de moda.",
+        "A visibilidade do padrão foi recentemente reforçada em eventos de grande escala nos Estados Unidos, inspirando coleções acessíveis nas principais marcas de retalho.",
+        "Versáteis e intemporais, as peças com este estampado continuam a transitar entre silhuetas retro e cortes contemporâneos."
+      ],
+      "more": [
+        "A adoção do estampado por figuras públicas de destaque em galas de prestígio ajudou a devolver protagonismo a um visual que cruza a elegância clássica com o dinamismo gráfico.",
+        "Para além das propostas de alta costura inacessíveis para o dia a dia, várias marcas comerciais integraram o padrão em vestidos de comprimento midi e outras peças do vestuário corrente.",
+        "A facilidade de combinar estas peças tanto com calçado raso para ambientes descontraídos como com saltos altos para ocasiões mais formais assegura a sua longevidade nos armários."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/compras/lojas-e-marcas/se-a-kylie-tem-asas-a-kendall-tem-bolinhas-o-vestido-polka-dot-para-se-sentir-uma-jenner"
+      },
+      "lang": "pt",
+      "explore": true,
+      "image": {
+        "src": "editions/2026-10-21/pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-21"
     }
   ],
   "partial": true

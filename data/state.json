@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T12:20:00.999Z",
+ "updatedAt": "2026-10-21T12:20:32.989Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -732,7 +732,8 @@
   "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d",
   "pt-taxa-de-juro-nos-novos-contratos-de-cred",
   "pt-estudantes-protestam-contra-a-proposta-d",
-  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p"
+  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -2990,7 +2991,8 @@
   "pt-psicanalista-aponta-impacto-depressivo-das-redes",
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at",
   "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
-  "pt-taxa-de-juro-nos-novos-contratos-de-cred"
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred",
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ"
  ],
  "saved": [
   "pt-1755",
@@ -3723,6 +3725,11 @@
    "at": "2026-10-21T11:44:47.651Z",
    "min": 1,
    "topic": "pt"
+  },
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": {
+   "at": "2026-10-21T12:20:17.986Z",
+   "min": 1,
+   "topic": "ideas"
   }
  },
  "follows": null,
@@ -5249,6 +5256,62 @@
     "lang": "pt",
     "minutes": 1,
     "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "books-steal-like-an-artist": {
+   "at": "2026-10-21T12:20:11.728Z",
+   "item": {
+    "id": "books-steal-like-an-artist",
+    "topic": "books",
+    "sub": "creativity",
+    "kind": "evergreen",
+    "style": "book",
+    "tags": [
+     "creativity",
+     "design",
+     "art",
+     "habits"
+    ],
+    "title": "Nothing is completely original, so embrace influence and start creating.",
+    "snippet": "Creativity is not about inventing from a vacuum, but about collecting, remixing, and transforming the work of those who came before you.",
+    "body": [
+     "Authentic creativity comes from a lineage of influences. Austin Kleon argues that instead of trying to be entirely original, creators should embrace their heroes, study their methods, and remix them into something new. By acknowledging that all creative work builds on what already exists, you free yourself from the pressure of perfection and open the door to daily experimentation.",
+     "This refreshing guide is packed with practical advice for anyone looking to unlock their artistic side. It reframes imitation as a form of flattery and learning, showing how curating your inspirations and side projects ultimately leads to finding your own voice."
+    ],
+    "book": {
+     "title": "Steal Like an Artist",
+     "author": "Austin Kleon",
+     "lessons": [
+      {
+       "title": "Steal from your influences",
+       "text": "Collect ideas, styles, and techniques that resonate with you. Study the work of multiple masters so you can create a unique blend of your own."
+      },
+      {
+       "title": "Do the work first, worry about identity later",
+       "text": "You do not need to know who you are to start making things. Dress for the job you want and start doing the work to naturally become the creator you aim to be."
+      },
+      {
+       "title": "Use your hands",
+       "text": "Digital tools are powerful, but working with physical materials reconnects you with the tactile joy of making. Step away from the screen to sketch, cut, and paste."
+      },
+      {
+       "title": "Embrace side projects",
+       "text": "Your hobbies and side interests are not distractions; they are vital fuel for your main work. Letting your mind wander across different curiosities keeps your creativity alive."
+      }
+     ],
+     "takeaway": "Start a swipe file or digital morgue of work that inspires you, and actively remix three ideas you find there into a small personal project this week.",
+     "forWho": "Anyone feeling blocked by the myth of pure originality who wants a playful, practical push to start making things again."
+    },
+    "source": {
+     "id": "ai-books",
+     "name": "MyScroll · AI summary",
+     "url": "https://openlibrary.org/search?q=Steal%20Like%20an%20Artist%20Austin%20Kleon"
+    },
+    "lang": "en",
+    "minutes": 2,
+    "added": "2026-10-21",
+    "made": 1792585211725,
     "fast": true
    }
   }

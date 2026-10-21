@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:07:16.794Z",
+ "updatedAt": "2026-10-21T11:07:52.470Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -809,7 +809,11 @@
   "pt-cabine-fotografica-de-inspiracao-disco-instala-s": 1,
   "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": 1,
   "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": 1,
-  "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t": 1
+  "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t": 1,
+  "pt-porto-de-leixoes-aposta-em-eletrificacao": 1,
+  "pt-russia-liberta-professor-norte-americano": 1,
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred": 1,
+  "pt-estudantes-protestam-contra-a-proposta-d": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2768,6 +2772,41 @@
    "source:observador",
    "style:news",
    "tag:web"
+  ],
+  "pt-porto-de-leixoes-aposta-em-eletrificacao": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:portugal",
+   "tag:economia",
+   "tag:sustentabilidade"
+  ],
+  "pt-russia-liberta-professor-norte-americano": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:internacional",
+   "tag:diplomacia"
+  ],
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:portugal",
+   "tag:economia",
+   "tag:habitacao"
+  ],
+  "pt-estudantes-protestam-contra-a-proposta-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:portugal",
+   "tag:educacao",
+   "tag:sociedade"
   ]
  },
  "read": [
@@ -2873,7 +2912,8 @@
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1",
   "pt-christina-applegate-partilha-frustracao-com-sint",
   "pt-psicanalista-aponta-impacto-depressivo-das-redes",
-  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at"
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at",
+  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe"
  ],
  "saved": [
   "pt-1755",
@@ -3410,6 +3450,17 @@
     "tag:salarios",
     "tag:funcao-publica",
     "tag:sindicatos"
+   ]
+  },
+  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe": {
+   "at": "2026-10-21T11:07:22.954Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:nit",
+    "style:news",
+    "tag:musica",
+    "tag:concertos"
    ]
   }
  },
@@ -4890,6 +4941,232 @@
     "lang": "en",
     "minutes": 1,
     "added": "2026-10-20",
+    "fast": true
+   }
+  },
+  "pt-estudantes-protestam-contra-a-proposta-d": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-estudantes-protestam-contra-a-proposta-d",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "educacao",
+     "sociedade"
+    ],
+    "title": "Estudantes protestam contra a proposta de descongelamento das propinas",
+    "snippet": "Associações de estudantes manifestaram-se em Lisboa contra a intenção do Governo de atualizar o valor máximo das propinas a partir de 2027/2028.",
+    "body": [
+     "Estudantes do ensino superior juntaram-se em protesto frente à sede do Governo, em Lisboa, para contestar a proposta de Orçamento do Estado que prevê o descongelamento das propinas no ensino superior a partir do ano letivo de 2027/2028.",
+     "A medida estipula que o limite máximo das propinas nas licenciaturas e cursos técnicos seja atualizado com base na taxa de inflação, pondo fim a um período de congelamento que vigorava desde 2020 e fixava o teto nos 697 euros."
+    ],
+    "more": [
+     "Os representantes estudantis criticam o impacto financeiro desta alteração para quem frequenta o ensino superior. A proposta governamental abrange também mestrados profissionalizantes, enquanto outros ciclos de estudos passam a ter propinas alinhadas com o custo real da formação.",
+     "Dados associados às receitas das instituições indicam um aumento substancial nas verbas geradas internamente pelas escolas, refletindo a transição de um modelo com maior suporte público para um financiamento complementar mais dependente das receitas próprias."
+    ],
+    "source": {
+     "id": "publico",
+     "name": "Público",
+     "url": "https://www.publico.pt/2026/10/21/sociedade/noticia/estudantes-manifestamse-proposta-descongelamento-propinas-2192064"
+    },
+    "image": {
+     "src": "https://imagens.publico.pt/imagens.aspx/2124577?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "pt-porto-de-leixoes-aposta-em-eletrificacao": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-porto-de-leixoes-aposta-em-eletrificacao",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "economia",
+     "sustentabilidade"
+    ],
+    "title": "Porto de Leixões aposta em eletrificação para descarbonizar navios",
+    "snippet": "Concurso de 7,2 milhões de euros financia sistemas de energia elétrica em terra para embarcações atracadas.",
+    "body": [
+     "O programa Sustentável 2030 lançou um concurso no valor de 7,2 milhões de euros para instalar sistemas de fornecimento de eletricidade a partir de terra em vários terminais do Porto de Leixões.",
+     "Com este investimento, os navios poderão manter os motores desligados enquanto estão acostados, reduzindo significativamente as emissões de gases poluentes e o ruído na região."
+    ],
+    "more": [
+     "O cofinanciamento público pode atingir até 85% do valor investido pela Administração dos Portos do Douro, Leixões e Viana do Castelo, abrangendo os terminais de contentores e o terminal de passageiros da Doca 1 Norte.",
+     "O executivo sublinha que a medida se enquadra na estratégia de transição energética para o setor marítimo portuário nacional, promovendo o uso de energias limpas nas infraestruturas de transporte."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/porto-de-leixes-recebe-72-milhes-de-euros-para-descarbonizar-navios-atracados"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/2025-05-21/ve4qo8aw/porto-de-leixoes.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "pt-custos-do-siresp-descem-e-transferencias": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-custos-do-siresp-descem-e-transferencias",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "seguranca",
+     "estado"
+    ],
+    "title": "Custos do SIRESP descem e transferências ficam abaixo dos 26 milhões",
+    "snippet": "Presidente da empresa gestora destaca decréscimo drástico nos custos por utilizador desde 2022.",
+    "body": [
+     "O presidente da empresa que gere o SIRESP revelou que as transferências anuais efetuadas pelo Estado para o sistema de comunicações de emergência se mantêm sempre abaixo do teto máximo da indemnização compensatória.",
+     "Segundo o tenente-general Paulo Viegas Nunes, a verba oscila entre 19 e 26 milhões de euros, servindo para assegurar a operação contínua e a manutenção de uma infraestrutura com duas décadas de funcionamento."
+    ],
+    "more": [
+     "O responsável apontou para uma redução expressiva nos custos por utilizador, que passaram de mais de três mil euros para valores na ordem dos 250 euros anuais.",
+     "No sentido de reforçar a transparência, a entidade gestora anunciou a publicação regular dos relatórios de execução orçamental na sua página oficial, permitindo um escrutínio mais direto sobre a gestão da rede."
+    ],
+    "source": {
+     "id": "observador",
+     "name": "Observador",
+     "url": "https://observador.pt/2026/10/21/montante-transferido-por-ano-pelo-estado-para-siresp-fica-sempre-abaixo-dos-26-milhoes-de-euros/"
+    },
+    "image": {
+     "src": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/21060213/47968825.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-taxa-de-juro-nos-novos-contratos-de-cred",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "economia",
+     "habitacao"
+    ],
+    "title": "Taxa de juro nos novos contratos de crédito à habitação sobe em setembro",
+    "snippet": "Dados do INE mostram subida ligeira nas taxas e um novo acréscimo na prestação média mensal.",
+    "body": [
+     "A taxa de juro implícita no conjunto dos contratos de crédito à habitação fixou-se em 3,194% no mês de setembro, traduzindo uma subida face ao período anterior, de acordo com os dados divulgados pelo Instituto Nacional de Estatística.",
+     "Para os contratos celebrados nos últimos três meses, a taxa média avançou para 2,959%, impulsionando igualmente a prestação média paga pelas famílias."
+    ],
+    "more": [
+     "A prestação média por contrato de habitação situou-se nos 423 euros, representando um acréscimo face ao mês precedente e ultrapassando os valores registados no período homólogo do ano passado.",
+     "Estes indicadores continuam a refletir a evolução das condições de financiamento no mercado imobiliário nacional, num contexto económico monitorizado de perto por analistas e decisores políticos."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/taxa-de-juro-nos-novos-contratos-de-crdito-habitao-avana-para-2959-em-setembro"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/import/dncxpgxxypnfpero/czynytcjppmm.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "pt-deputada-australiana-perde-ambas-as-pern": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-deputada-australiana-perde-ambas-as-pern",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "internacional",
+     "sociedade"
+    ],
+    "title": "Deputada australiana perde ambas as pernas após atropelamento",
+    "snippet": "Helen Haines recupera de estado estável depois de um violento atropelamento em Wangaratta.",
+    "body": [
+     "A deputada federal australiana Helen Haines perdeu as duas pernas na sequência de um atropelamento deliberado ocorrido perto do seu gabinete.",
+     "O marido da política confirmou que, apesar da gravidade dos ferimentos e da complexa intervenção cirúrgica, o estado clínico da deputada de 65 anos é agora estável."
+    ],
+    "more": [
+     "As autoridades locais detiveram um homem de 43 anos, imputando-lhe vários crimes graves relacionados com o atropelamento, não descartando acusações adicionais.",
+     "A família tem apelado a donativos para organizações de apoio à infância em vez de flores, enquanto a comunidade local acompanha a recuperação da deputada."
+    ],
+    "source": {
+     "id": "observador",
+     "name": "Observador",
+     "url": "https://observador.pt/2026/10/21/deputada-australiana-perdeu-a-segunda-perna-apos-ser-atropelada-coracao-e-mente-estao-em-bom-estado-diz-marido/"
+    },
+    "image": {
+     "src": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/21091505/47977528.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
+    "fast": true
+   }
+  },
+  "pt-russia-liberta-professor-norte-americano": {
+   "at": "2026-10-21T11:07:18.476Z",
+   "item": {
+    "id": "pt-russia-liberta-professor-norte-americano",
+    "topic": "pt",
+    "sub": "news",
+    "kind": "news",
+    "published": "2026-10-21",
+    "style": "news",
+    "tags": [
+     "internacional",
+     "diplomacia"
+    ],
+    "title": "Rússia liberta professor norte-americano em gestativa diplomática",
+    "snippet": "Vladimir Putin anunciou a libertação de Stephen Hubbard durante encontro com o enviado dos EUA.",
+    "body": [
+     "O presidente russo, Vladimir Putin, anunciou a libertação do professor norte-americano Stephen Hubbard, detido há quatro anos sob acusações de atividades mercenárias.",
+     "O anúncio ocorreu durante uma reunião em São Petersburgo com o enviado especial dos Estados Unidos, Steve Witkoff, tendo o cidadão norte-americano sido encaminhado para regressar ao seu país."
+    ],
+    "more": [
+     "A administração norte-americana assinalou que a libertação ocorreu num contexto de respeito diplomático, sem necessidade de recorrer à habitual troca de prisioneiros.",
+     "As conversações entre as partes também abordaram perspetivas para potenciais negociações de paz e passos futuros relativos ao conflito na Ucrânia."
+    ],
+    "source": {
+     "id": "dn",
+     "name": "Diário de Notícias",
+     "url": "https://www.dn.pt/internacional/putin-anuncia-libertao-de-preso-norte-americano-durante-reunio-com-witkoff"
+    },
+    "image": {
+     "src": "https://media.assettype.com/dn/2026-10-21/d75yuq1a/DOC.20261021.47980220.13319342.jpg"
+    },
+    "lang": "pt",
+    "minutes": 1,
+    "added": "2026-10-21",
     "fast": true
    }
   }

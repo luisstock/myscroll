@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:00:43.675Z",
+ "updatedAt": "2026-10-21T11:01:17.023Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -619,6 +619,19 @@
     "tag:seguranca-social"
    ],
    "via": "swipe"
+  },
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": {
+   "r": 4,
+   "at": "2026-10-21T11:01:00.058Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:web",
+    "style:news",
+    "tag:saude",
+    "tag:orcamento-do-estado"
+   ],
+   "via": "swipe"
   }
  },
  "opened": [
@@ -710,7 +723,9 @@
   "bk-roubaix",
   "pt-idosos-da-classe-media-sem-rede-entre-lares-soci",
   "pt-morte-de-modelo-internacional-volta-a-colocar-o",
-  "pt-psicanalista-aponta-impacto-depressivo-das-redes"
+  "pt-psicanalista-aponta-impacto-depressivo-das-redes",
+  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
+  "pt-vigilia-no-campus-da-justica-e-reacoes-politicas"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -2640,6 +2655,30 @@
    "style:news",
    "tag:redes-sociais",
    "tag:sociedade"
+  ],
+  "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:nit",
+   "style:news",
+   "tag:musica",
+   "tag:concertos"
+  ],
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:web",
+   "style:news",
+   "tag:saude",
+   "tag:orcamento-do-estado"
+  ],
+  "pt-vigilia-no-campus-da-justica-e-reacoes-politicas": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:habitacao",
+   "tag:politica"
   ]
  },
  "read": [
@@ -2740,7 +2779,9 @@
   "pt-deputada-australiana-recupera-apos-atropelamento",
   "pt-ordem-da-cabidela-leva-ciclo-de-jantares-gastron",
   "pt-idosos-da-classe-media-sem-rede-entre-lares-soci",
-  "pt-morte-de-modelo-internacional-volta-a-colocar-o"
+  "pt-morte-de-modelo-internacional-volta-a-colocar-o",
+  "pt-alceu-valenca-celebra-80-anos-com-digressao-euro",
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1"
  ],
  "saved": [
   "pt-1755",
@@ -3254,6 +3295,17 @@
     "tag:gastronomia",
     "tag:acores"
    ]
+  },
+  "pt-alceu-valenca-celebra-80-anos-com-digressao-euro": {
+   "at": "2026-10-21T11:00:56.297Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:musica",
+    "tag:cultura"
+   ]
   }
  },
  "readLog": {
@@ -3417,6 +3469,12 @@
    "at": "2026-10-21T11:00:24.665Z",
    "min": 1,
    "topic": "pt"
+  },
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": {
+   "at": "2026-10-21T11:01:00.065Z",
+   "min": 0,
+   "topic": "pt",
+   "quick": true
   }
  },
  "follows": null,

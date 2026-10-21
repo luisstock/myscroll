@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:06:36.472Z",
+ "updatedAt": "2026-10-21T11:07:16.794Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -808,7 +808,8 @@
   "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi": 1,
   "pt-cabine-fotografica-de-inspiracao-disco-instala-s": 1,
   "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": 1,
-  "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": 1
+  "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": 1,
+  "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2760,6 +2761,13 @@
    "source:nit",
    "style:story",
    "tag:web"
+  ],
+  "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:web"
   ]
  },
  "read": [
@@ -2864,7 +2872,8 @@
   "pt-alceu-valenca-celebra-80-anos-com-digressao-euro",
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1",
   "pt-christina-applegate-partilha-frustracao-com-sint",
-  "pt-psicanalista-aponta-impacto-depressivo-das-redes"
+  "pt-psicanalista-aponta-impacto-depressivo-das-redes",
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at"
  ],
  "saved": [
   "pt-1755",
@@ -3388,6 +3397,19 @@
     "style:news",
     "tag:musica",
     "tag:cultura"
+   ]
+  },
+  "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": {
+   "at": "2026-10-21T11:07:01.790Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:economia",
+    "tag:salarios",
+    "tag:funcao-publica",
+    "tag:sindicatos"
    ]
   }
  },

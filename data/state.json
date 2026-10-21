@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:07:52.470Z",
+ "updatedAt": "2026-10-21T11:13:34.977Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -728,7 +728,9 @@
   "pt-vigilia-no-campus-da-justica-e-reacoes-politicas",
   "pt-vasp-vence-concurso-para-garantir-distribuicao-d",
   "pt-christina-applegate-partilha-frustracao-com-sint",
-  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do"
+  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
+  "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d",
+  "pt-taxa-de-juro-nos-novos-contratos-de-cred"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -813,7 +815,8 @@
   "pt-porto-de-leixoes-aposta-em-eletrificacao": 1,
   "pt-russia-liberta-professor-norte-americano": 1,
   "pt-taxa-de-juro-nos-novos-contratos-de-cred": 1,
-  "pt-estudantes-protestam-contra-a-proposta-d": 1
+  "pt-estudantes-protestam-contra-a-proposta-d": 1,
+  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2807,6 +2810,26 @@
    "tag:portugal",
    "tag:educacao",
    "tag:sociedade"
+  ],
+  "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:web",
+   "style:news",
+   "tag:habitacao",
+   "tag:politica",
+   "tag:economia",
+   "tag:investimento"
+  ],
+  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:ambiente",
+   "tag:sustentabilidade",
+   "tag:residuos",
+   "tag:uniao-europeia"
   ]
  },
  "read": [

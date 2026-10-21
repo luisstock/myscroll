@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T10:58:33.999Z",
+ "updatedAt": "2026-10-21T10:59:15.653Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -95,6 +95,10 @@
      {
       "id": "history",
       "label": "History"
+     },
+     {
+      "id": "trends",
+      "label": "Trends"
      }
     ]
    },

@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-21T07:54:27.014Z",
+ "updatedAt": "2026-10-21T10:58:33.999Z",
  "device": "app",
  "settings": {
-  "theme": "night",
+  "theme": "dark",
   "layout": "cards",
   "navBy": "groups",
   "dailyTarget": 40,

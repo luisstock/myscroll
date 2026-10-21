@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:01:17.023Z",
+ "updatedAt": "2026-10-21T11:06:36.472Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -725,7 +725,10 @@
   "pt-morte-de-modelo-internacional-volta-a-colocar-o",
   "pt-psicanalista-aponta-impacto-depressivo-das-redes",
   "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
-  "pt-vigilia-no-campus-da-justica-e-reacoes-politicas"
+  "pt-vigilia-no-campus-da-justica-e-reacoes-politicas",
+  "pt-vasp-vence-concurso-para-garantir-distribuicao-d",
+  "pt-christina-applegate-partilha-frustracao-com-sint",
+  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -798,7 +801,14 @@
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
   "design-is-a-high-production-movie-trailer-the-n": 1,
   "design-finding-accidental-beauty-in-awkward-fac": 1,
-  "design-building-believable-fantasy-worlds-throu": 1
+  "design-building-believable-fantasy-worlds-throu": 1,
+  "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": 1,
+  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": 1,
+  "pt-uma-comedia-de-enganos-que-brinca-com-a-tradicao": 1,
+  "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi": 1,
+  "pt-cabine-fotografica-de-inspiracao-disco-instala-s": 1,
+  "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": 1,
+  "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2679,6 +2689,77 @@
    "style:news",
    "tag:habitacao",
    "tag:politica"
+  ],
+  "pt-vasp-vence-concurso-para-garantir-distribuicao-d": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:web"
+  ],
+  "pt-christina-applegate-partilha-frustracao-com-sint": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:publico",
+   "style:story",
+   "tag:saude"
+  ],
+  "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:orcamento-do-estado",
+   "tag:economia"
+  ],
+  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:saude"
+  ],
+  "pt-uma-comedia-de-enganos-que-brinca-com-a-tradicao": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:publico",
+   "style:story",
+   "tag:web"
+  ],
+  "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:web"
+  ],
+  "pt-cabine-fotografica-de-inspiracao-disco-instala-s": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:web"
+  ],
+  "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:seguranca-social"
+  ],
+  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:economia"
+  ],
+  "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:web"
   ]
  },
  "read": [
@@ -2781,7 +2862,9 @@
   "pt-idosos-da-classe-media-sem-rede-entre-lares-soci",
   "pt-morte-de-modelo-internacional-volta-a-colocar-o",
   "pt-alceu-valenca-celebra-80-anos-com-digressao-euro",
-  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1"
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1",
+  "pt-christina-applegate-partilha-frustracao-com-sint",
+  "pt-psicanalista-aponta-impacto-depressivo-das-redes"
  ],
  "saved": [
   "pt-1755",
@@ -3475,6 +3558,16 @@
    "min": 0,
    "topic": "pt",
    "quick": true
+  },
+  "pt-christina-applegate-partilha-frustracao-com-sint": {
+   "at": "2026-10-21T11:05:51.450Z",
+   "min": 1,
+   "topic": "pt"
+  },
+  "pt-psicanalista-aponta-impacto-depressivo-das-redes": {
+   "at": "2026-10-21T11:06:03.698Z",
+   "min": 1,
+   "topic": "pt"
   }
  },
  "follows": null,

@@ -684,6 +684,178 @@
       "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1712767&ts=20261021111027",
       "lang": "pt",
       "explore": true
+    },
+    {
+      "id": "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "sociedade",
+        "imigracao",
+        "habitacao",
+        "economia"
+      ],
+      "title": "Pedidos de nacionalidade pendentes sobem para 690 mil",
+      "snippet": "O Instituto dos Registos e do Notariado acumula centenas de milhares de processos enquanto a habitação e a riqueza continuam no centro do debate.",
+      "body": [
+        "O Instituto dos Registos e do Notariado (IRN) regista mais de 690 mil pedidos de nacionalidade pendentes, o que representa um aumento homólogo de 38%. Do total, apenas um quarto corresponde a residentes no país e cerca de 23% prende-se com descendentes de judeus sefarditas.",
+        "Ao mesmo tempo, temas como a riqueza e a habitação dominam as atenções. Os dados recentes indicam que a riqueza das famílias portuguesas subiu 73% na última década à boleia da valorização imobiliária, enquanto os protestos pelo acesso a casas continuam a gerar movimentações e vigilância policial em Lisboa e no Porto.",
+        "A juntar ao quadro económico, a União Europeia deixou por utilizar quase 100 mil milhões de euros nos fundos do Plano de Recuperação e Resiliência (PRR), num contexto de forte corrida às metas finais por parte dos Estados-membros."
+      ],
+      "more": [
+        "A acumulação nos balcões do IRN reflete uma forte pressão sobre os serviços públicos portugueses, com milhares de processos a aguardar despacho e a levantar debates sobre capacidade de resposta e regras de acesso à cidadania.",
+        "Em paralelo, os indicadores económicos mostram um fosso acentuado no património privado. Segundo os dados avançados na imprensa, as famílias portuguesas somam hoje mais 514 mil milhões de euros de património líquido face a há dez anos, tendo os imóveis representado mais de metade dessa valorização global.",
+        "Na saúde e no setor farmacêutico, surge também uma nova obrigação legal: através de portaria, os laboratórios passam formalmente a ser obrigados a assegurar os tratamentos a doentes no final dos ensaios clínicos, salvaguardando o acompanhamento clínico continuado.",
+        "No setor financeiro, a petrolífera estatal angolana Sonangol viu-se na contingência de alienar posições no BCP para não ultrapassar a fasquia dos 20% durante um programa de recompra de ações do banco, o que exigiria aval direto do Banco Central Europeu."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/media-geral/revista-de-imprensa-690-mil-pedidos-de-nacionalidade-pendentes-e-radicais-das-acampadas-na-mira-das-autoridades"
+      },
+      "imageUrl": "https://media.assettype.com/dn/2025-08-21/og2uic8l/Revista-de-imprensa-3",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-19",
+      "style": "news",
+      "tags": [
+        "habitacao",
+        "politica",
+        "economia",
+        "investimento"
+      ],
+      "title": "Vistos Gold e regime para estrangeiros acendem debate político",
+      "snippet": "Perante a crise habitacional e protestos nas ruas, os partidos dividem-se entre o corte de incentivos fiscais e o receio de afastar capital produtivo.",
+      "body": [
+        "A contestação social em torno da subida dos preços das casas colocou os incentivos a cidadãos e investidores estrangeiros no centro da disputa partidária em Portugal. O Partido Socialista propôs o fim de incentivos de residência associados a investimento e do regime de Residentes Não Habituais, enquanto o Chega avançou com pacotes de emergência que reveem benefícios a compradores de elevado património.",
+        "A oposição e analistas debatem os impactos destas opções. Enquanto defensores das restrições exigem foco total na resposta aos residentes locais, associações e fundos de investimento alertam que mudanças bruscas de regras prejudicam a previsibilidade jurídica de longo prazo.",
+        "Embora o modelo de Vistos Gold tenha sido alterado em 2023 para excluir compras imobiliárias diretas, o tema continua politicamente sensível devido à contínua escalada nos preços de compra e arrendamento."
+      ],
+      "more": [
+        "Historicamente, o regime de vistos por investimento atraiu mais de 6,4 mil milhões de euros documentados entre 2012 e 2023, repartidos por cerca de 12.700 autorizações de residência. Contudo, as novas concessões focam-se em áreas como fundos de investimento mobiliário, investigação e criação de postos de trabalho.",
+        "Já o antigo regime para Residentes Não Habituais (RNH) foi substancialmente reconfigurado para a nova versão IFICI, que canaliza uma taxa fixa de IRS de 20% apenas para funções qualificadas, investigação científica e inovação durante uma década.",
+        "O setor imobiliário e financeiro sustenta que associar diretamente a escassez de habitação às regras em vigor é um erro de análise, alertando que a constante incerteza legislativa empurra capitais e profissionais para outros países europeus com programas equivalentes.",
+        "O Banco de Portugal registou 8,5 mil milhões de euros em transações de investimento direto estrangeiro em 2025. O desafio do Parlamento passa agora por definir uma fronteira entre a contenção da crise habitacional e a atração de capital estável sem alterações imprevisíveis de ciclo para ciclo."
+      ],
+      "source": {
+        "id": "web",
+        "name": "Essential Business",
+        "url": "https://www.essential-business.pt/2026/10/19/portugals-golden-visa-debate-reignites-over-foreign-investment/"
+      },
+      "imageUrl": "https://www.essential-business.pt/wp-content/uploads/2026/10/galleon-clash-beneath-belem-tower.png",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-portugal-falha-meta-europeia-de-lixo-eletronico",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "ambiente",
+        "sustentabilidade",
+        "residuos",
+        "uniao-europeia"
+      ],
+      "title": "Portugal falha meta europeia de lixo eletrónico em 2025",
+      "snippet": "A recolha de equipamentos elétricos ficou-se pelas 70 mil toneladas, com o mercado paralelo a travar as metas do país.",
+      "body": [
+        "Portugal não conseguiu atingir as metas comunitárias de recolha de resíduos de equipamentos elétricos e eletrónicos respeitantes a 2025. Ao longo do ano, foram recolhidas apenas cerca de 70 mil toneladas deste tipo de resíduos em todo o território nacional.",
+        "O valor ficou largamente aquém das obrigações vinculativas impostas pela legislação da União Europeia. O resultado continua a ser prejudicado pela fuga de materiais para canais e mercados paralelos informais.",
+        "A evasão desses circuitos compromete a reciclagem controlada de componentes valiosos e de substâncias poluentes, expondo as fragilidades da rede nacional de gestão e fiscalização de resíduos."
+      ],
+      "more": [
+        "As diretivas comunitárias estabelecem percentagens rigorosas de recolha com base no peso médio de equipamentos colocados no mercado nos anos anteriores, com o objetivo de assegurar que metais raros e componentes plásticos sejam reintroduzidos na cadeia produtiva.",
+        "A retenção e o desvio para operadores ilegais, sucatas não licenciadas ou exportações sem controlo impedem a contabilização oficial e a descontaminação segura dos aparelhos no circuito licenciado.",
+        "Para recuperar o atraso, Portugal terá de reforçar as campanhas de sensibilização junto dos consumidores, apertar o controlo sobre redes de abate ilegal e otimizar os pontos de entrega em centros urbanos e grandes superfícies comerciais.",
+        "O incumprimento de objetivos ambientais comunitários pode expor o Estado a processos de infração e penalizações financeiras impostas pela Comissão Europeia caso os indicadores não mostrem correções estruturais."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/azul/noticia/portugal-falhou-metas-recolha-residuos-eletricos-eletronicos-2025-2192081"
+      },
+      "wiki": "Lixo_eletr%C3%B3nico",
+      "lang": "pt",
+      "explore": true
+    },
+    {
+      "id": "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "transportes",
+        "aeroportos",
+        "lisboa",
+        "ruido"
+      ],
+      "title": "Aeroporto de Lisboa altera rotas de descolagem para mitigar ruído",
+      "snippet": "Ajuste operacional até ao final do ano pretende aliviar o impacto sonoro sobre mais de 200 mil pessoas nos concelhos vizinhos.",
+      "body": [
+        "As rotas de saída e descolagem dos aviões a partir do Aeroporto Humberto Delgado vão sofrer alterações até ao final do ano. O objetivo principal da medida é reduzir o impacto do ruído provocado pelo tráfego aéreo sobre as populações limítrofes.",
+        "O problema afeta diretamente mais de 200 mil habitantes, concentrados sobretudo nas zonas residenciais dos concelhos de Lisboa, Loures e Vila Franca de Xira que se encontram sob as trajetórias de subida para norte.",
+        "Com a operação da infraestrutura aeroportuária sob forte pressão e níveis recorde de movimentos de aeronaves, a gestão do espaço aéreo procura trajetórias que contornem densidades populacionais elevadas sem comprometer a capacidade operacional."
+      ],
+      "more": [
+        "O crescimento contínuo do tráfego aéreo na capital tem acentuado o mal-estar entre moradores e autarquias vizinhas, que denunciam frequentemente perturbações no sono, efeitos na saúde pública e níveis sonoros acima dos tetos legais recomendados.",
+        "As partidas com rumo norte têm sido a principal fonte de reclamações nas zonas limítrofes, uma vez que a subida com impulso total de motores coincide com passagens a baixa altitude sobre zonas urbanas consolidadas.",
+        "A reconfiguração das trajetórias de descolagem exige coordenação técnica entre a navegação aérea, a autoridade de aviação civil e as transportadoras para desenhar perfis de subida contínua mais verticais e viragens imediatas para corredores de menor ocupação de solo.",
+        "Embora estas medidas aliviem parcialmente o impacto sonoro, várias entidades locais continuam a argumentar que apenas a transferência de tráfego para um novo aeroporto fora da malha urbana resolverá em definitivo as sobrecargas ambientais em Lisboa."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/10/21/local/noticia/rotas-descolagem-lisboa-mudam-final-ano-reduzir-impactos-ruido-2192018"
+      },
+      "wiki": "Aeroporto_de_Lisboa",
+      "lang": "pt",
+      "explore": true
+    },
+    {
+      "id": "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "news",
+      "tags": [
+        "habitacao",
+        "politica",
+        "arrendamento",
+        "parlamento"
+      ],
+      "title": "Pinto Luz defende reforma do arrendamento e refuta críticas da oposição",
+      "snippet": "Ministro da Habitação assegura proteção aos idosos e rejeita responsabilidades do atual Executivo na subida das rendas.",
+      "body": [
+        "Em resposta às acusações do secretário-geral do PS, que classificou a proposta de lei do arrendamento do Governo como 'desumana e injusta', o ministro das Infraestruturas e Habitação, Miguel Pinto Luz, devolveu as críticas, afirmando que a legislação anterior socialista é que conduziu aos preços atuais.",
+        "O governante salientou que as novas medidas de arrendamento ainda se encontram em fase de discussão na Assembleia da República e que o Governo tem demonstrado disponibilidade para dialogar na especialidade com todos os partidos.",
+        "Pinto Luz garantiu ainda que os inquilinos com mais de 65 anos permanecem plenamente salvaguardados e rejeitou a ideia de que a remoção de limites aos novos contratos vá transformar o mercado de forma desregulada."
+      ],
+      "more": [
+        "Durante as suas declarações, o governante realçou os apoios já em curso, indicando que cerca de 130 mil jovens adquiriram habitação nos últimos dois anos e perto de 40 mil beneficiaram da garantia pública para crédito à habitação.",
+        "O Executivo sublinha igualmente que o valor afeto aos apoios ao pagamento de renda se multiplicou face a mandatos anteriores e que a dotação de investimento público inscrita em sede de Orçamento do Estado é significativamente maior.",
+        "A discussão parlamentar adivinha-se complexa: além da oposição frontal do PS, o Chega ameaçou romper o entendimento inicial alcançado na generalidade caso o texto final na especialidade não incorpore as suas exigências.",
+        "Pinto Luz recusou fixar 'linhas vermelhas' prévias nas conversações e mencionou iniciativas conjuntas anteriores, como a revisão do Fundo de Emergência Habitacional proposta originalmente pelo Livre, como exemplo de abertura para consensos pluripartidários no setor."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/21/desumana-e-a-lei-atual-diz-pinto-luz-em-resposta-a-carneiro-foi-a-lei-do-ps-que-nos-trouxe-ate-a-forte-subida-nas-rendas/"
+      },
+      "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2298:nowe:0:265/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/08/06030805/ilacerda-60-anos-ponte-25-de-abril-9-1-scaled.jpg",
+      "lang": "pt"
     }
   ],
   "partial": true

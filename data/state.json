@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T11:45:10.022Z",
+ "updatedAt": "2026-10-21T12:19:25.244Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -731,7 +731,8 @@
   "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
   "pt-vistos-gold-e-regime-para-estrangeiros-acendem-d",
   "pt-taxa-de-juro-nos-novos-contratos-de-cred",
-  "pt-estudantes-protestam-contra-a-proposta-d"
+  "pt-estudantes-protestam-contra-a-proposta-d",
+  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -818,7 +819,9 @@
   "pt-taxa-de-juro-nos-novos-contratos-de-cred": 1,
   "pt-estudantes-protestam-contra-a-proposta-d": 1,
   "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 1,
-  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": 1
+  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": 1,
+  "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu": 1,
+  "pt-deputada-australiana-perde-ambas-as-pern": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2842,6 +2845,34 @@
    "tag:imigracao",
    "tag:habitacao",
    "tag:economia"
+  ],
+  "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:habitacao",
+   "tag:politica",
+   "tag:arrendamento",
+   "tag:parlamento"
+  ],
+  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:publico",
+   "style:news",
+   "tag:transportes",
+   "tag:aeroportos",
+   "tag:lisboa",
+   "tag:ruido"
+  ],
+  "pt-deputada-australiana-perde-ambas-as-pern": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:internacional",
+   "tag:sociedade"
   ]
  },
  "read": [

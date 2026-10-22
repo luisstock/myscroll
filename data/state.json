@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T07:58:46.840Z",
+ "updatedAt": "2026-10-22T08:00:06.288Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -733,7 +733,8 @@
   "pt-taxa-de-juro-nos-novos-contratos-de-cred",
   "pt-estudantes-protestam-contra-a-proposta-d",
   "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ"
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ",
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -742,9 +743,9 @@
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
-  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 3,
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 4,
   "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
-  "motion-animating-ui-promos-outside-after-effects-using": 3,
+  "motion-animating-ui-promos-outside-after-effects-using": 4,
   "motion-the-continuous-thread-from-cosmic-chaos-to-human": 3,
   "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 3,
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
@@ -760,12 +761,12 @@
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
   "books-the-traps-of-free-will-and-fate-across-time": 3,
   "books-the-deep-roots-of-jewish-dissent": 3,
-  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 2,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 3,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 4,
-  "ideas-beauty-is-an-act-of-unselfing": 2,
+  "ideas-beauty-is-an-act-of-unselfing": 3,
   "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
-  "motion-exploring-retro-animation-styles-in-afte": 4,
+  "motion-exploring-retro-animation-styles-in-afte": 5,
   "pt-cortica": 2,
   "pt-treinador-portugues-e-golo-portista-dao-a-franca": 3,
   "pt-alianca-luso-britanica": 2,
@@ -778,7 +779,7 @@
   "tr-repair": 3,
   "science-the-optical-trick-of-an-anticrepuscular-rainbow": 3,
   "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 2,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 2,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
@@ -792,38 +793,39 @@
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
   "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
-  "ai-llamacpp": 4,
-  "ai-quant": 3,
+  "ai-llamacpp": 5,
+  "ai-quant": 4,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
-  "design-fifty-shades-of-hay-wicker-parodies-bodi": 3,
-  "design-the-creepy-beautiful-digital-art-behind": 3,
-  "design-an-existential-spiral-over-video-call-ap": 3,
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": 4,
+  "design-the-creepy-beautiful-digital-art-behind": 4,
+  "design-an-existential-spiral-over-video-call-ap": 4,
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "til-what-colonial-williamsburg-ate-before-pa": 1,
   "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
-  "design-is-a-high-production-movie-trailer-the-n": 2,
-  "design-finding-accidental-beauty-in-awkward-fac": 1,
-  "design-building-believable-fantasy-worlds-throu": 2,
-  "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": 2,
+  "design-is-a-high-production-movie-trailer-the-n": 3,
+  "design-finding-accidental-beauty-in-awkward-fac": 2,
+  "design-building-believable-fantasy-worlds-throu": 3,
+  "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": 3,
   "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": 1,
   "pt-uma-comedia-de-enganos-que-brinca-com-a-tradicao": 1,
-  "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi": 2,
+  "pt-sismo-de-magnitude-3-2-sentido-na-ilha-de-sao-mi": 3,
   "pt-cabine-fotografica-de-inspiracao-disco-instala-s": 1,
   "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": 1,
   "pt-o-regresso-do-padrao-de-bolinhas-as-tendencias-d": 1,
   "pt-colisao-entre-cerca-de-dez-veiculos-condiciona-t": 1,
   "pt-porto-de-leixoes-aposta-em-eletrificacao": 1,
-  "pt-russia-liberta-professor-norte-americano": 2,
+  "pt-russia-liberta-professor-norte-americano": 3,
   "pt-taxa-de-juro-nos-novos-contratos-de-cred": 1,
   "pt-estudantes-protestam-contra-a-proposta-d": 1,
-  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 2,
+  "pt-portugal-falha-meta-europeia-de-lixo-eletronico": 3,
   "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": 1,
   "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu": 1,
   "pt-deputada-australiana-perde-ambas-as-pern": 1,
-  "design-can-a-security-style-hologram-keep-your": 2
+  "design-can-a-security-style-hologram-keep-your": 3,
+  "design-in-clubland-documenting-35-years-of-rave": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2884,6 +2886,14 @@
    "tag:ai",
    "tag:identity",
    "tag:ethics"
+  ],
+  "design-in-clubland-documenting-35-years-of-rave": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:photography",
+   "tag:rave-culture",
+   "tag:books"
   ]
  },
  "read": [
@@ -2992,7 +3002,15 @@
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at",
   "pt-fontaines-d-c-iniciam-em-lisboa-digressao-europe",
   "pt-taxa-de-juro-nos-novos-contratos-de-cred",
-  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ"
+  "ideas-you-don-t-have-fully-formed-ideas-until-you-writ",
+  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
+  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69",
+  "pt-estudantes-protestam-contra-a-proposta-d",
+  "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb",
+  "pt-porto-de-leixoes-aposta-em-eletrificacao",
+  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque",
+  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica"
  ],
  "saved": [
   "pt-1755",
@@ -3540,6 +3558,99 @@
     "style:news",
     "tag:musica",
     "tag:concertos"
+   ]
+  },
+  "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p": {
+   "at": "2026-10-22T07:59:07.651Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:publico",
+    "style:news",
+    "tag:transportes",
+    "tag:aeroportos",
+    "tag:lisboa",
+    "tag:ruido"
+   ]
+  },
+  "pt-pedidos-de-nacionalidade-pendentes-sobem-para-69": {
+   "at": "2026-10-22T07:59:12.206Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:sociedade",
+    "tag:imigracao",
+    "tag:habitacao",
+    "tag:economia"
+   ]
+  },
+  "pt-estudantes-protestam-contra-a-proposta-d": {
+   "at": "2026-10-22T07:59:17.353Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:publico",
+    "style:news",
+    "tag:portugal",
+    "tag:educacao",
+    "tag:sociedade"
+   ]
+  },
+  "pt-psp-desmobiliza-acampadas-pela-habitacao-em-lisb": {
+   "at": "2026-10-22T07:59:29.431Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:observador",
+    "style:news",
+    "tag:seguranca-social"
+   ]
+  },
+  "pt-porto-de-leixoes-aposta-em-eletrificacao": {
+   "at": "2026-10-22T07:59:34.255Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:portugal",
+    "tag:economia",
+    "tag:sustentabilidade"
+   ]
+  },
+  "pt-precos-dos-combustiveis-sobem-mais-na-europa-do": {
+   "at": "2026-10-22T07:59:38.233Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/news",
+    "source:dn",
+    "style:news",
+    "tag:economia"
+   ]
+  },
+  "motion-chris-ullens-animates-tiny-artisans-for-diptyque": {
+   "at": "2026-10-22T07:59:39.561Z",
+   "f": [
+    "topic:motion",
+    "sub:motion/inspiration",
+    "source:motionographer",
+    "style:news",
+    "tag:stop-motion",
+    "tag:animation",
+    "tag:direction",
+    "tag:craft"
+   ]
+  },
+  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": {
+   "at": "2026-10-22T07:59:43.919Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:story",
+    "tag:saude"
    ]
   }
  },

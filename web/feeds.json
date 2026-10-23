@@ -73,5 +73,26 @@
  },
  "https://www.dn.pt/": {
   "feed": "https://www.dn.pt/feed"
+ },
+ "https://www.damninteresting.com/": {
+  "feed": "https://www.damninteresting.com/feeds/everything/"
+ },
+ "https://www.futilitycloset.com/": {
+  "feed": "http://feeds.feedburner.com/FutilityCloset"
+ },
+ "https://www.wired.com/": {
+  "feed": "https://www.wired.com/feed/rss"
+ },
+ "https://www.youtube.com/@chainbear": {
+  "channelId": "UC8aJWhQTYB6PURmsXXA2Wvw"
+ },
+ "https://www.youtube.com/@Driver61": {
+  "channelId": "UCtbLA0YM6EpwUQhFUyPQU9Q"
+ },
+ "https://www.youtube.com/@hubermanlab": {
+  "channelId": "UC2D2CMWXMOVWx7giW1n3LIg"
+ },
+ "https://www.youtube.com/@RenaissancePeriodization": {
+  "channelId": "UCfQgsKhHjSyRLOp9mnffqVg"
  }
 }

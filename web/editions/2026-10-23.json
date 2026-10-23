@@ -1,0 +1,1311 @@
+{
+  "date": "2026-10-23",
+  "number": 6,
+  "items": [
+    {
+      "id": "til-three-very-real-disasters-that-happened-on-hallo",
+      "topic": "til",
+      "sub": "cracked",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "list",
+      "tags": [
+        "history",
+        "halloween",
+        "disasters",
+        "curiosities"
+      ],
+      "title": "Three Very Real Disasters That Happened on Halloween",
+      "snippet": "Beyond costumes and candy, October 31 has hosted lethal toxic fog, Martian panic, and the sudden demise of history's greatest escapologist.",
+      "body": [
+        "Halloween lore usually sticks to manufactured thrills, but a stroll through the calendar turns up plenty of bizarre, genuine history that took place on October 31. Not every event involves goblins; some are quiet milestones, like the completion of Mount Rushmore on that date in 1941.",
+        "Other occurrences were downright chilling. Exactly a century ago on Halloween 1926, the world’s preeminent escape artist Harry Houdini took his final bow after succumbing to a ruptured appendix. His sudden death kicked off an enduring tradition among fans of holding annual October 31 séances to test if he could escape the afterlife.",
+        "From mass broadcast hysteria to industrial poison trapped in a valley, historical events have occasionally outmatched Hollywood for genuine holiday terror."
+      ],
+      "more": [
+        "Twelve years after Houdini's death, Halloween eve in 1938 provided one of radio's most notorious chapters. Orson Welles broadcast his infamous dramatic adaptation of H.G. Wells's 'War of the Worlds.' Formatted as authentic breaking news bulletins interrupting regular music programming, the simulated Martian invasion caused legitimate pandemonium among listeners convinced alien tripods had laid waste to New Jersey.",
+        "A decade later, Halloween brought a literal cloud of death to the small industrial borough of Donora, Pennsylvania. Beginning on October 27, 1948, a severe weather inversion trapped heavy emissions from local zinc and steel plants in the river valley.",
+        "A dense, yellow wall of smog containing toxic levels of hydrogen fluoride and sulfur dioxide hung motionless over the town for five days. By the time Halloween weekend concluded, 20 residents had died of asphyxiation and thousands fell severely ill.",
+        "The Donora Death Fog remains one of the worst environmental air-pollution disasters in United States history, eventually triggering early federal clean-air legislation.",
+        "Together, these episodes show that late October has a knack for producing surreal drama—no haunted houses or rubber masks required."
+      ],
+      "source": {
+        "id": "mental-floss",
+        "name": "Mental Floss",
+        "url": "https://www.mentalfloss.com/quizzes/do-you-know-halloween-history?utm_source=RSS"
+      },
+      "wiki": "1948_Donora_smog",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/til-three-very-real-disasters-that-happened-on-hallo.jpg",
+        "credit": "www.mentalfloss.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "reddit",
+      "tags": [
+        "medicine",
+        "biology",
+        "human-body",
+        "oddities"
+      ],
+      "title": "How a Stuck Popcorn Kernel Led to Open-Heart Surgery",
+      "snippet": "When a piece of cinema snack refused to budge, an English firefighter reached for whatever sharp metal was nearby. The resulting infection nearly killed him.",
+      "body": [
+        "Adam Martin, a 41-year-old firefighter and father from Cornwall, England, spent three days trying to dislodge a stubborn piece of popcorn from a back tooth. Instead of visiting a dentist or grabbing dental floss, he improvised with an escalating toolkit: a pen lid, a toothpick, a piece of wire, and eventually a metal nail, tearing up his surrounding gum along the way.",
+        "A week later came night sweats, fatigue, and headaches. Martin initially brushed off the symptoms as a lingering flu, but he had actually contracted endocarditis—a life-threatening infection of the inner heart lining that occurs when oral bacteria seep straight into the bloodstream through torn tissue.",
+        "By the time Martin was admitted to the hospital, chest scans revealed severe internal damage. Surgeons had to perform a seven-hour open-heart operation to repair his mitral valve and replace his destroyed aortic valve, leaving Martin with a profound new respect for basic dental hygiene."
+      ],
+      "more": [
+        "Endocarditis strikes when microbes enter circulation and colonize vulnerable surfaces inside the heart chambers or along the valve flaps. In Martin's case, lacerating his gums with rusty or unsterilized objects created an open portal. Bacteria easily hitchhiked from his mouth into his vascular system, slowly chewing away at his heart valves over the course of a month.",
+        "Martin's initial visit to a general practitioner resulted only in a diagnosis of a mild heart murmur. Feeling increasingly exhausted with aches shooting down his legs, he checked into Royal Cornwall Hospital, realizing something was severely amiss. 'My heart was essentially wrecked,' he later noted. 'The infection had eaten the valves away.'",
+        "His wife Helen pointed out that if caught early, such bacterial invasions can often be stamped out with standard courses of antibiotics before irreparable structural damage occurs. Her warning was straightforward: 'Your gums are a bacterial highway to your heart.'",
+        "Online reactions predictably fixated on the alarming leap from a mundane cinema snack annoyance to intensive cardiovascular repair. In the Reddit discussion, users debated why a kernel can drive someone so thoroughly mad in the first place. One commenter highlighted that our tongues carry an unusually dense concentration of nerve endings mapped to significant brain space—an evolutionary safeguard designed to scrutinize what we ingest, but one that also turns a tiny stuck hull into an unbearable tactile obsession.",
+        "Another commenter quipped that Martin seemed willing to try every sharp implement in the workshop except dental floss. For Martin himself, the takeaway was absolute: he swore off popcorn entirely."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xcuys4/til_a_man_was_diagnosed_with_endocarditis_and/"
+      },
+      "wiki": "Endocarditis",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur.jpg",
+        "credit": "File:Blood_culture_negative_endocarditis.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "fun-a-grand-former-theater-in-buenos-aires-found-a-s",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "reddit",
+      "tags": [
+        "architecture",
+        "books",
+        "buenos-aires",
+        "travel"
+      ],
+      "title": "A grand former theater in Buenos Aires found a second life as a bookstore",
+      "snippet": "El Ateneo Grand Splendid kept its ornate balconies, gilded carvings, and stage—trading opera seats for rows of literature.",
+      "body": [
+        "A historic theater in Buenos Aires has traded performances for paperbacks. Known as El Ateneo Grand Splendid, the former grand venue has been converted into a cavernous bookstore, retaining its original balconies, ornate architecture, and sweeping stage.",
+        "Instead of watching plays from the stalls, visitors browse bookshelves under frescoed ceilings. You can even walk right up onto the historic stage, where a cafe operates alongside regular live piano performances and book launches."
+      ],
+      "more": [
+        "The spectacle of browsing literature in a preserved theater prompted users on Reddit to compare its scale against the world's most famous book emporiums. One commenter took to Google Maps to measure building footprints, estimating El Ateneo's base at roughly 650 square meters—edging out London's Waterstones Piccadilly branch at under 430 square meters.",
+        "Others chimed in with even larger destinations, noting New York City's The Strand at around 870 square meters across three packed stories, and Zubal Books in Cleveland, Ohio, which occupies roughly 1,000 square meters inside a former Hostess bakery where Twinkies were once made. Portland's Powell's City of Books raised the bar further still, boasting a footprint of 3,700 square meters and roughly 6,300 square meters of retail floor space across multiple levels.",
+        "Despite its architectural charm, locals noted the reality on the ground has its drawbacks. Thanks to social media, El Ateneo has evolved into a bustling tourist magnet where weekends are packed with selfie-takers navigating the narrow aisles.",
+        "Visitors also point out that the prices lean distinctly commercial, and several warned that while sitting on the historic stage is an incredible visual experience, the cafe's coffee often leaves something to be desired."
+      ],
+      "source": {
+        "id": "r-mildlyinteresting",
+        "name": "r/mildlyinteresting",
+        "url": "https://www.reddit.com/r/mildlyinteresting/comments/1xcp41k/a_former_grand_theater_in_buenos_aires_is_now_a/"
+      },
+      "wiki": "El_Ateneo_Grand_Splendid",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/fun-a-grand-former-theater-in-buenos-aires-found-a-s.jpg",
+        "credit": "File:Yenny_Ateneo_Grand_Splendid.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "motion-beyond-standard-loops-adaptive-mograph-assets-in",
+      "topic": "motion",
+      "sub": "techniques",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "explainer",
+      "tags": [
+        "after-effects",
+        "mograph",
+        "animation-loops",
+        "responsive-design"
+      ],
+      "title": "Beyond Standard Loops: Adaptive MoGraph Assets in After Effects",
+      "snippet": "Exploring non-traditional seamless looping animation techniques and responsive motion design assets.",
+      "body": [
+        "Seamless looping animation remains one of the most requested deliverables for motion graphics artists, but traditional frame-matching loops are only part of the story. Motion designers are increasingly experimenting with adaptive and responsive Motion Graphics assets to build dynamic systems.",
+        "By combining expression-driven rigs with autonomous asset logic, creators can build looping compositions that adjust smoothly to changing aspect ratios, durations, and dynamic content requirements."
+      ],
+      "more": [
+        "In modern commercial workflows, clients frequently demand seamless looping animations that work across wildly different screen layouts—from vertical mobile formats to ultra-wide billboards.",
+        "Building these assets requires shifting from rigid, keyframe-heavy timelines toward flexible rigs. By utilizing native After Effects responsive design tools and custom expression controls, motion designers can create assets that loop seamlessly regardless of layer stretching or duration changes.",
+        "These 'autonomous design assets' reduce the need to manually re-render and re-keyframe loops for every client deliverable, bridging the gap between bespoke visual design and automated graphic delivery."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xciyqv/not_your_typical_seamless_looping_animation/"
+      },
+      "wiki": "Motion_graphics",
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "motion-sekondo-integrates-chatgpt-and-claude-straight-i",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "news",
+      "tags": [
+        "after-effects",
+        "premiere-pro",
+        "ai",
+        "sekondo",
+        "plugins"
+      ],
+      "title": "Sekondo Integrates ChatGPT and Claude Straight Into After Effects",
+      "snippet": "A new plugin by Spanish designer Jose Manuel Fernández connects LLMs directly to Adobe Creative Cloud, letting you animate and edit through conversational prompts.",
+      "body": [
+        "Córdoba-based graphic designer Jose Manuel Fernández has created Sekondo, a plugin that brings Claude and ChatGPT directly into After Effects, Premiere Pro, and four other Adobe Creative Cloud apps. Instead of generating flat video files or synthetic images, Sekondo interacts directly with your project file, editing timeline keyframes, layers, and compositions while leaving every element fully editable.",
+        "The tool aims to eliminate tedious production tasks like adapting assets to dozens of aspect ratios or rebuilding recurring lower thirds. Motion designers can prompt the extension via voice or text to execute precise instructions, suggest creative approaches, or assemble initial cuts directly from source footage."
+      ],
+      "more": [
+        " Sekondo addresses one of the primary frustrations motion designers have with current generative AI tools: the lack of control over project files. Generative video models spit out flattened mp4 files, which are difficult to adjust or tweak. Sekondo takes a procedural approach by interpreting natural language instructions and translating them into standard After Effects and Premiere Pro commands inside your active comp.",
+        "Created to handle high-volume studio chores, the extension lets artists offload versioning and mechanical workflow setups without surrendering creative decisions. Designers can instruct the AI to build entire lower thirds, adjust timing across timeline layers, or reformat compositions, while keeping the output entirely non-destructive.",
+        "A major advantage for studio environments is local security: source files never leave the user's computer. The integration runs alongside desktop apps on both macOS and Windows systems.",
+        "Sekondo has officially passed Adobe's review process and is available via Adobe Exchange, serving After Effects, Premiere Pro, Photoshop, Illustrator, InDesign, and Lightroom Classic."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/sekondo-puts-chatgpt-and-claude-inside-after-effects-and-premiere-pro/"
+      },
+      "wiki": "Adobe_After_Effects",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/motion-sekondo-integrates-chatgpt-and-claude-straight-i.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "motion-a-look-at-blackstar-lullaby-an-indie-animated-pi",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "story",
+      "tags": [
+        "after-effects",
+        "animation",
+        "indie-animation",
+        "blackstar-lullaby"
+      ],
+      "title": "A Look at Blackstar Lullaby, an Indie Animated Pilot",
+      "snippet": "After years of development, motion designer shares a fresh minute of footage from their personal animated pilot project.",
+      "body": [
+        "After years of quiet development, motion designer and animator shared a new minute of combined footage from 'Blackstar Lullaby', an independent animated pilot project built inside After Effects.",
+        "The montage offers a glimpse into the pilot's world, featuring stylized environments, character sequences, and a newly completed train scene. The creator released the reel to show progress after receiving positive responses to earlier shot previews."
+      ],
+      "more": [
+        "Personal passion projects often take a backseat to client deadlines in the motion design world, making extended independent efforts like Blackstar Lullaby stand out. The creator noted that after putting the concept off for years, the pilot is finally taking shape and matching their original visual vision.",
+        "The new minute-long sequence stitches together disparate shots without a fixed narrative order, showcasing the progress made on background styling, atmospheric lighting, and character motion.",
+        "Among the newly revealed material is an intricate train shot, which represents the project's most recent technical milestone inside After Effects.",
+        "While much of the production and release strategy remains open, the creator continues to refine individual shots and share progress updates within the community."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xci45g/a_longer_look_at_the_animated_pilot_ive_been/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ai-fixing-minimax-video-smear-with-latent-upscaling",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "reddit",
+      "tags": [
+        "comfyui",
+        "minimax",
+        "generative-video",
+        "workflow"
+      ],
+      "title": "Fixing Minimax Video Smear with Latent Upscaling in ComfyUI",
+      "snippet": "A community workflow pairs low-resolution initial passes with latent upscaling nodes to clean up motion blur on consumer hardware.",
+      "body": [
+        "Video diffusion models frequently struggle with smearing and degraded coherence during rapid camera motion. A workflow shared on r/StableDiffusion demonstrates how running an initial low-resolution video pass through a dedicated latent upscaler significantly cleans up Minimax H3 Ref2V outputs.",
+        "The approach relies on a Minimax latent upscaler model paired with custom ComfyUI nodes and a Turbo LoRA to maintain reasonable rendering times, allowing clean results to be generated on consumer-grade hardware like an RTX 3060 with 64 GB of system RAM."
+      ],
+      "more": [
+        "Directly rendering high-resolution generative video frames across multi-second sequences rapidly exceeds the memory headroom of midrange GPUs. By splitting the generation into a two-stage process—first establishing structural movement in a lower latent space, then running a dedicated latent upscaler—the pipeline bypasses temporal smearing without blowing out VRAM.",
+        "The workflow takes advantage of the Minimax H3 latent upscaler alongside the Minimax-h3-Turbo LoRA, which slashes required sampling steps while retaining character consistency.",
+        "Community workflows like this highlight how local and open tooling continues to adapt high-end generative architectures for accessible desktop workstations, turning heavy base models into practical pipelines for experimental animation and video generation."
+      ],
+      "source": {
+        "id": "r-stablediffusion",
+        "name": "r/StableDiffusion",
+        "url": "https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/"
+      },
+      "wiki": "ComfyUI",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ai-fixing-minimax-video-smear-with-latent-upscaling.png"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
+      "topic": "ai",
+      "sub": "innovation",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "explainer",
+      "tags": [
+        "ai-agents",
+        "sandboxing",
+        "linux-kernel",
+        "developer-tools"
+      ],
+      "title": "Nvidia OpenShell: Kernel-Level Sandboxes for Autonomous AI Agents",
+      "snippet": "Autonomous agents are only useful if they can execute code, but giving them raw credentials is terrifying. OpenShell tries to fix that.",
+      "body": [
+        "Nvidia has released OpenShell, an open-source runtime designed to let autonomous coding and task agents execute shell commands, read files, and call network APIs without handing them keys to the kingdom. Available under an Apache 2.0 license, it isolates agent processes inside tightly regulated sandboxes.",
+        "Rather than trusting an LLM to police its own tool use, OpenShell enforces constraints at the OS kernel level. File modifications, system calls, and egress network attempts are filtered at runtime, while credentials are kept completely hidden from the agent and injected only when calls reach pre-cleared external endpoints."
+      ],
+      "more": [
+        "Giving an autonomous agent free rein in a developer shell usually poses a binary dilemma: lock it down so hard it cannot install packages or test code, or give it broad privileges and risk destructive mistakes, prompt injection attacks, or credential leaks. OpenShell targets that middle ground by combining Linux kernel primitives with declared, verifiable policies.",
+        "The runtime uses formal verification to inspect policy changes before they take effect. If a proposed script or tool attempt requests unexpected network hosts or seeks access to unapproved system methods, the runtime flags the transition for explicit human review instead of silently granting permissions.",
+        "OpenShell operates via a local or containerized gateway, deploying sandboxes across Linux, Apple Silicon macOS, and WSL 2. Developers integrate it either via dedicated SDKs in Python, TypeScript, Go, and Rust, or by importing public agent skills that instruct coding assistants how to interface with the platform directly.",
+        "The project also includes telemetry collection covering runtime categories and operational counts—though Nvidia notes that sensitive data like prompts, hostnames, and credentials are never captured, and the reporting flags can be compiled out entirely."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://github.com/NVIDIA/OpenShell"
+      },
+      "wiki": "Operating-system-level_virtualization",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ai-nvidia-openshell-kernel-level-sandboxes-for-auto.jpg",
+        "credit": "github.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ai-rivian-acquired-a-3d-world-model-startup-to-trai",
+      "topic": "ai",
+      "sub": "innovation",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "world-models",
+        "autonomous-vehicles",
+        "simulation",
+        "computer-vision"
+      ],
+      "title": "Rivian Acquired a 3D World Model Startup to Train Its Autonomous Fleet",
+      "snippet": "EV maker Rivian has bought Third Dimension, a 15-person UK startup turning real-world footage into editable, simulated 3D environments.",
+      "body": [
+        "Rivian has acquired Third Dimension, a small UK startup founded by gaming and autonomous vehicle veterans that uses artificial intelligence to convert standard images and video sequences into photorealistic 3D worlds. Terms of the transaction were not disclosed, and the 15-person team will integrate into Rivian's autonomy unit in London.",
+        "Instead of building synthetic virtual environments from scratch in conventional game engines, Rivian plans to feed real fleet footage directly into Third Dimension's system. The resulting worlds can then be adjusted on demand—altering camera angles, weather, lighting, and vehicle paths to stress-test driving systems against edge cases."
+      ],
+      "more": [
+        "Autonomous driving simulation has historically suffered from the 'sim-to-real gap.' Standard rendering pipelines look increasingly lifelike, but physics, sensor artifacts, and environmental nuances often drift far enough from reality that neural networks trained on synthetic runs fail in practical road tests. Third Dimension's approach bypasses purely procedural modeling by anchoring directly onto recorded sensory data.",
+        "Rivian is positioned to supply substantial fodder for this pipeline. The automaker collects over 400,000 driving sequences daily from customer vehicles that have opted into external camera sharing across its R1T pickups, R1S SUVs, commercial delivery vans, and R2 platforms.",
+        "The primary prize is high-confidence validation. Rather than waiting months for specific, hazardous corner cases to naturally occur across millions of road miles, engineers can take a single recorded scenario and branch it into dozens of variations to verify system behavior.",
+        "The acquisition also supports a concrete roadmap. Rivian currently deploys hands-free highway driving and plans to introduce full surface-street assisted driving, while targeting fully driverless R2 robotaxis on Uber's network by 2028."
+      ],
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch · AI",
+        "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/"
+      },
+      "wiki": "Rivian",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ai-rivian-acquired-a-3d-world-model-startup-to-trai.jpg",
+        "credit": "techcrunch.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "bike-32-inch-gravel-wheels-gain-steam-with-new-tires",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-20",
+      "style": "explainer",
+      "tags": [
+        "gravel-racing",
+        "tires"
+      ],
+      "title": "32-Inch Gravel Wheels Gain Steam With New Tires",
+      "snippet": "Continental and Rene Herse are rolling out 32-inch gravel tires ahead of anticipated new bike releases.",
+      "body": [
+        "Rumors that major bike manufacturers are preparing to launch 32-inch gravel bikes next year are gathering serious momentum. Two major tire makers, Continental and Rene Herse, have announced they will release dedicated 32-inch gravel tires to support the emerging standard.",
+        "Continental unveiled its new 32-inch Dubnital tire, bringing its popular cross-country tread into a 50mm width for the larger wheel size. Meanwhile, Rene Herse announced the Indiana Pass, a 55mm semi-slick option designed to meet athlete demand.",
+        "The move by Rene Herse is particularly notable because CEO Jan Heine has previously been a vocal skeptic of the bigger wheel size. The brand changed course after professional riders like Tour Divide winner Meaghan Hackinen requested tires to support the new hardware they will ride next year."
+      ],
+      "more": [
+        "The sudden rush to develop 32-inch gravel tires highlights how quickly industry standards can shift based on pro athlete feedback and product development cycles. While mountain bike brands have been experimenting with 32-inch setups for a while, gravel-specific R&D started later.",
+        "Continental chose to adapt its Dubnital tread because of its similarities to mountain bike tires the German brand had already been engineering. The result is a 50mm tire built with a race-rapid compound designed to give riders immediate access to flagship tech on the new framesets.",
+        "For Rene Herse, the introduction of the Indiana Pass—named after the highest point of the Tour Divide—bridges the gap for taller riders like Ted King and Brennan Wertz. These athletes wanted to test the larger wheels without giving up the speed and compliance of a supple semi-slick tread.",
+        "Neither tire is on shelves yet. Both Continental and Rene Herse plan to officially roll out their new 32-inch offerings in April, just as the first wave of large-wheel gravel bikes is expected to hit the market."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/new-32-inch-tires-continental-rene-herse/"
+      },
+      "wiki": "Bicycle_tire",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/bike-32-inch-gravel-wheels-gain-steam-with-new-tires.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "gravel-racing",
+        "bikepacking"
+      ],
+      "title": "Bikepacking with a 17-Foot Canoe and an E-Gravel Bike",
+      "snippet": "Two brave adventurers devised a DIY trailer to tow a massive canoe up gravel climbs with an e-gravel bike.",
+      "body": [
+        "Two adventurers in Washington state decided to try a hybrid trip: bikepacking and canoepacking all in one. The goal was to haul a 17-foot canoe to a remote lake using only bicycles, then paddle down a river to the ocean without doubling back in cars.",
+        "With no commercial way to attach a massive canoe to a bicycle, they had to fabricate their own trailer using repurposed and salvaged gear. To haul the heavy load up steep gravel climbs, they relied on a Velduro Phantom e-gravel bike equipped with a punchy motor.",
+        "The three-day trip involved plenty of curious stares, a snorkel interlude in a mountain lake, and some challenging amphibious moments. It is a wonderfully eccentric reminder of the strange adventures you can cook up with a gravel bike and a lot of imagination."
+      ],
+      "more": [
+        "The expedition was dreamed up by Logan Patrick Nelson and Andrew Ford, who set their sights on a funky lake about 40 miles outside Bellingham, Washington. Neither of them had ever attempted canoe-bikepacking before, turning the logistics into an adventure of its own.",
+        "The backbone of their mechanical setup was the Velduro Phantom X e-gravel bike. Packing a 250-watt Avinox motor delivering 120Nm of torque, the bike provided the muscle needed to drag a 17-foot watercraft up loose gravel grades. Logan heavily leaned on the bike's turbo mode to keep the rig moving forward on the steepest ascents.",
+        "For luggage, the pair utilized Aeroe bikepacking bags and mounts. Waterproof dry bags proved essential when the journey transitioned from dirt roads to rushing river rapids that threatened to swamp the canoe.",
+        "While the trip successfully blended two entirely different outdoor sports, it highlights the increasing versatility of modern e-gravel tech. With powerful torque and smart mounting points, riders are pushing the boundaries of what a bicycle can haul into the backcountry."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/velduro-phantom-gravel-bike-canoe-adventure/"
+      },
+      "wiki": "Bikepacking",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "news-cross-border-ebola-inquiry-centres-on-airport-ov",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-10-23",
+      "style": "news",
+      "tags": [
+        "public-health",
+        "ebola",
+        "africa",
+        "epidemiology"
+      ],
+      "title": "Cross-Border Ebola Inquiry Centres on Airport Overlap Between Kenya and Nigeria",
+      "snippet": "Health authorities are investigating whether isolated Ebola patients in Nairobi and Abuja crossed paths during transit through Uganda’s main hub.",
+      "body": [
+        "Public health investigators across East and West Africa are working to determine whether two separate Ebola cases in Kenya and Nigeria share a single source of exposure. Both patients travelled through Uganda's Entebbe International Airport on 3 October before arriving in their respective home countries.",
+        "The inquiry comes as Nigeria manages its first confirmed case in more than a decade—a 42-year-old woman currently stabilised in an Abuja isolation ward—while Kenya has recorded nine linked infections and one fatality stemming from a traveller arriving from the Democratic Republic of Congo.",
+        "The Africa CDC and World Health Organization emphasize that an airport encounter remains only one potential theory, with teams using contact tracing and genomic sequencing to pinpoint where and how the transmission occurred."
+      ],
+      "more": [
+        "The travel history behind the two cases illustrates the logistical friction of containing outbreaks along porous transit corridors. The Nigerian patient returned to Abuja via a short layover in Addis Ababa after several weeks in Uganda. She sought care at two private clinics before testing positive on 20 October. Her husband, a Swiss diplomat who travelled with her, remains in isolation without symptoms.",
+        "Meanwhile, Kenyan authorities report that all nine of their confirmed infections originate from a single male patient who travelled from DR Congo through Uganda to Nairobi, where he subsequently died. Kenyan officials noted that the remaining eight patients are responding well in isolation, with the initial group of monitored contacts being released after completing a 21-day incubation window without showing symptoms.",
+        "Pinpointing the point of infection has proved challenging. Ugandan authorities have stated there are no confirmed active cases within the country and caution that passing through Entebbe does not confirm transmission on Ugandan soil. Similarly, unverified initial reports that the patient in Abuja had visited eastern DR Congo have not been confirmed by the WHO or Nigerian health authorities.",
+        "Because Ebola requires direct physical contact with infectious bodily fluids and does not transmit through airborne routes, accidental transmission in a major transit terminal like Entebbe would be unusual. Genomic sequencing now under way at the Nigeria Centre for Disease Control will establish whether the virus matches the specific strain active in eastern Congo, clarifying the exact chain of transmission."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Ebola",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/news-cross-border-ebola-inquiry-centres-on-airport-ov.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "news-australia-s-economic-crosscurrents-highlight-the",
+      "topic": "news",
+      "sub": "economy",
+      "kind": "news",
+      "published": "2026-10-23",
+      "style": "news",
+      "tags": [
+        "macroeconomics",
+        "inflation",
+        "energy",
+        "interest-rates"
+      ],
+      "title": "Australia’s Economic Crosscurrents Highlight the Global Squeeze of Energy and Tech Woes",
+      "snippet": "Slowing growth, climbing oil benchmarks, and high borrowing costs leave central banks and treasuries facing conflicting pressures with no easy exits.",
+      "body": [
+        "Australian Treasury officials have begun downgrading their growth outlook and raising unemployment forecasts ahead of the government's December budget update. The revisions reflect a wider macroeconomic squeeze, as elevated inflation collides with softening employment and stalling productivity.",
+        "The immediate pressure point is energy. International benchmark crude has surged toward $113 per barrel amid escalating tensions in the Middle East, quickly filtering into household fuel expenses and compounding the likelihood of further central bank rate rises.",
+        "With productivity flat and capital markets rattled by heavy debt loads in artificial intelligence infrastructure, policymakers find themselves trapped: interventions that shield consumers risk fueling inflation, while austerity measures threaten to push fragile growth into contraction."
+      ],
+      "more": [
+        "The pressures outlined by Australian Treasurer Jim Chalmers reflect challenges common to many open economies navigating imported cost shocks. Rising energy costs, driven by geopolitical instability in Eastern Europe and the Middle East, have reignited fears that headline inflation will remain stubborn even as labour markets cool.",
+        "Domestically, fuel prices have surged by 60 cents per litre compared to pre-escalation levels, imposing significant discretionary spending cuts on households. Financial institutions like Westpac have cautioned that sustained conflict could push oil toward $150 per barrel, scenario modeling that would almost certainly prompt further monetary tightening by central banks already wary of unanchored inflation expectations.",
+        "At the same time, private-sector drivers that previously insulated global sentiment are encountering turbulence. The intense capital expenditure cycle around artificial intelligence has triggered investor skittishness on Wall Street, where debt-fueled infrastructure build-outs and growing local resistance to massive data centre construction have damped market momentum.",
+        "For fiscal authorities, traditional economic tools offer few clean answers. Measures such as cutting fuel excise taxes inject immediate relief into household budgets but simultaneously risk prolonging inflation, directly conflicting with central bank targets. Conversely, aggressive expenditure reductions would ease monetary tension only at the cost of worsening domestic unemployment."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/business/2026/oct/23/jim-chalmers-hard-choices-economy-inflation-unemployment"
+      },
+      "wiki": "Stagflation",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/news-australia-s-economic-crosscurrents-highlight-the.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "news-a-student-led-movement-mounts-serbia-s-biggest-c",
+      "topic": "news",
+      "sub": "europe",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "serbia",
+        "elections",
+        "balkans",
+        "european-politics"
+      ],
+      "title": "A Student-Led Movement Mounts Serbia’s Biggest Challenge in Twelve Years",
+      "snippet": "Two years after a deadly station collapse in Novi Sad sparked nationwide protests, a grassroots list of doctors, professors, and actors is taking on Aleksandar Vučić.",
+      "body": [
+        "Voters in Serbia are heading to the polls in a snap parliamentary election that poses the most serious test yet to President Aleksandar Vučić’s twelve-year hold on power. Vučić, who cannot seek a third presidential term and is now attempting to return as prime minister, faces an unusual primary challenger: the 'Student List-Students Win' coalition.",
+        "The political movement grew out of weekly protests following the November 2024 collapse of a concrete station canopy in Novi Sad, which killed 16 people. The tragedy became a symbol of systemic corruption and regulatory negligence, igniting public outrage that unified students, farmers, judges, and prominent professionals who sidestepped mainstream opposition parties entirely.",
+        "The ballot will determine 250 parliamentary seats in a single proportional constituency, though international observers and independent watchdogs warn that deep media bias, surveillance, and institutional interference remain heavy obstacles for the challenger slate."
+      ],
+      "more": [
+        "The momentum behind the Student List represents a major shift from previous elections, where Vučić’s ruling Serbian Progressive Party (SNS) easily saw off fragmented, pro-EU opposition alliances. Rather than career politicians, the student movement’s list features no students among its candidates; instead, it is headlined by cardiology professor Ilija Srdanović, alongside figures such as former central bank governor Dejan Šoškić, actor Tihomir Stanić, and former basketball star Dejan Bodiroga.",
+        "Their platform centres on an 11-point plan focused almost exclusively on accountability. Key proposals include creating a specialised anti-corruption police unit, purging officials tied to organised crime or crackdowns on protests, freeing public broadcasting from executive influence, and dismantling the practice of appointing party loyalists to run state enterprises.",
+        "Vučić has countered by characterising his opponents as proxies for foreign powers attempting to destabilise the country, while promising to end what he terms the politicisation of universities. His administration has maintained a delicate balancing act on the international stage, pursuing formal European Union membership while refusing to apply sanctions against Russia.",
+        "Independent monitors like CRTA note that the playing field remains severely tilted, with state media allocating roughly three-quarters of television coverage to the governing party alongside reports of surveillance and electoral engineering. Sunday’s turnout and the movement’s ability to clear the 3% threshold nationwide will reveal whether assembly-style grassroots protest can formally dismantle Balkan party patronage."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Aleksandar_Vučić",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/news-a-student-led-movement-mounts-serbia-s-biggest-c.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "tech-rising-ram-and-silicon-prices-triggered-a-21-dro",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "hardware",
+        "pc-building",
+        "memory",
+        "tech-industry"
+      ],
+      "title": "Rising RAM and silicon prices triggered a 21% drop in PC shipments",
+      "snippet": "Hardware component costs have climbed so high that PC shipments plunged over 20 percent, pushing manufacturers back to DDR4.",
+      "body": [
+        "Global shipments of personal computers fell by 21 percent year-over-year in the third quarter of 2026, according to data from Counterpoint Research, mirroring similar steep drops tracked by IDC and Omdia. The sharp reversal puts an abrupt end to two consecutive years of steady hardware growth.",
+        "Analysts point directly to inflating component costs. Over recent months, prices for system memory, solid-state storage, and processor silicon from Intel, AMD, and Qualcomm have climbed across the board. The price pressure has inflated everything from budget maker boards like Raspberry Pis to high-end laptops.",
+        "In response, hardware makers have increasingly shifted away from entry-level budgets, focusing production on premium tiers capable of absorbing higher parts costs. Some vendors have even taken to reviving older tech, such as DDR4 memory and 4GB graphic cards, to salvage lower price points."
+      ],
+      "more": [
+        "The hardware pinch comes right after an artificial bubble. Shipments in late 2025 were inflated by a flurry of office upgrades ahead of the Windows 10 end-of-support deadline, alongside early inventory hoarding by companies attempting to skirt incoming tariffs. Once that artificial demand cleared, standard consumer demand buckled under higher shelf prices.",
+        "Smartphones suffered an identical squeeze over the same window, with mobile shipments dropping to a 14-year low.",
+        "Market analysts do not foresee a quick rebound. Counterpoint projects shipments could fall as much as 27 percent in Q4 before flattening out into 2027, warning that any approaching stabilization in market volume should not be mistaken for a genuine recovery."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram"
+      },
+      "wiki": "Personal_computer",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/tech-rising-ram-and-silicon-prices-triggered-a-21-dro.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "tech-canva-craft-plans-its-layouts-before-generating",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "canva",
+        "generative-ai",
+        "graphic-design",
+        "machine-learning"
+      ],
+      "title": "Canva Craft plans its layouts before generating the pixels",
+      "snippet": "Canva has introduced Craft, an in-house image model that outlines a design's structure first to place text and elements cleanly.",
+      "body": [
+        "Canva is stepping directly onto the playing field dominated by OpenAI and Google with its own generative model, dubbed Canva Craft. Rather than generating an entire composition in one blind swoop, the model relies on a two-stage architecture that plans the layout before generating the final image.",
+        "The aim of the two-step design is to dramatically cut down on the jumbled gibberish and misplaced elements typical of AI graphics. By figuring out where things belong first, Craft can render legible typography and place graphic elements deliberately across more than 30 aspect ratios and resolutions reaching 2K.",
+        "According to Canva, the model was trained on millions of human-made templates from its own library, spanning presentations, menus, and marketing collateral. It is accessible globally right now through the Dream Lab option in Canva's sidebar."
+      ],
+      "more": [
+        "Craft sits inside Canva alongside the prompt-based editing features introduced earlier this year, which brought layered control to AI outputs. That layering lets users tweak specific isolated segments of a graphic while leaving the surrounding illustration untouched.",
+        "On Design Arena’s crowdsourced benchmark for design-focused generation, Canva Craft currently ranks fourth globally, trailing behind OpenAI’s suite of GPT-Image models.",
+        "Canva says the model includes standard input and output content moderation, and the company intends to expose Craft to automated workflows via the open Model Context Protocol. Lighter, snappier versions named Craft-fast and Craft-ultrafast are slated to follow."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+      },
+      "wiki": "Canva",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/tech-canva-craft-plans-its-layouts-before-generating.png",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "spotify",
+        "streaming",
+        "music-tech",
+        "drm"
+      ],
+      "title": "Spotify is rolling out rotating QR codes to police Family Plans",
+      "snippet": "To stop friends from sharing Family accounts across towns, Spotify is making account members scan the manager's phone in person.",
+      "body": [
+        "If you are using a friend's Spotify Family Plan while living three neighborhoods away, your days might be numbered. Spotify has implemented a new physical verification step that requires secondary members to scan a rapidly refreshing QR code displayed directly on the primary plan manager's phone.",
+        "On an earnings call, Spotify co-CEO Alex Norström brushed off talk of a dramatic crackdown, labeling the system a 'routine improvement' to address loopholes in a plan setup that has existed for well over a decade. But the rules carry real teeth: the QR code updates every few seconds, giving users a seven-day window to complete the scan before they are booted.",
+        "Miss that verification window and the consequences are steep. Spotify locks displaced users out of joining any other Family or Duo plan for a full twelve months."
+      ],
+      "more": [
+        "Family Plans have been a cornerstone of Spotify's subscription growth for twelve years, making up a significant slice of its recurring user base. The platform's terms have always officially restricted these tiers to people residing at a single physical address, though enforcement historically relied on loose honor systems or occasional postal address prompts.",
+        "The fast-expiring QR code is deliberately engineered to stop members from simply pinging a screenshot across chat apps. With codes refreshing in seconds, household members must either be standing together in the same room or coordinate elaborate live-screen sharing tricks to beat the clock.",
+        "Norström noted that tightening account verification is an ongoing cat-and-mouse process without a fixed end date. As users invent new workarounds to bypass geographic checks, the company expects to continuously refine the friction points."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes"
+      },
+      "wiki": "Spotify",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/tech-spotify-is-rolling-out-rotating-qr-codes-to-poli.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "science-hubble-captures-gravitational-lens-to-prep-for-t",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "explainer",
+      "tags": [
+        "space",
+        "astronomy",
+        "science"
+      ],
+      "title": "Hubble captures gravitational lens to prep for the Roman telescope",
+      "snippet": "A distant background galaxy is magnified by a closer one, offering a preview of how Hubble and the upcoming Roman Space Telescope will team up.",
+      "body": [
+        "A recent image from the NASA/ESA Hubble Space Telescope highlights a gravitational lens where a foreground elliptical galaxy magnifies and distorts a background galaxy located eight billion light-years away.",
+        "Gravitational lensing occurs when a massive foreground object warps spacetime, bending light much like a giant lens in space. This phenomenon allows astronomers to calculate the mass of the foreground object and study elusive dark matter."
+      ],
+      "more": [
+        "The image features a foreground elliptical galaxy roughly 4.5 billion light-years away acting on a background galaxy nearly twice as far. The background source appears as a distinct arc-counterarc pair around the massive lens.",
+        "Because visible matter alone cannot account for the heavy distortion observed, researchers use these gravitational configurations to measure the unseen mass of dark matter in the universe.",
+        "This observation serves as a rehearsal for the upcoming Nancy Grace Roman Space Telescope. While Hubble provides high-resolution views of individual objects, Roman is designed with a much larger field of view to capture panoramas of the sky.",
+        "By using Hubble's sharp imagery to build computer models, astronomers are preparing tools to process the vast amounts of data expected from Roman when it begins charting the cosmos."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/"
+      },
+      "wiki": "Gravitational_lens",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/science-hubble-captures-gravitational-lens-to-prep-for-t.jpeg",
+        "credit": "science.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "science-a-spiral-galaxy-s-edge-captured-by-hubble",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "explainer",
+      "tags": [
+        "space",
+        "astronomy",
+        "science"
+      ],
+      "title": "A spiral galaxy's edge captured by Hubble",
+      "snippet": "The Hubble Space Telescope photographs NGC 1827 to test cosmological models on small scales.",
+      "body": [
+        "A new Hubble image features the edge-on intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba.",
+        "The snapshot is part of a broader survey investigating 260 satellite galaxies around Milky Way-like host galaxies, helping scientists test theoretical models of the universe on small scales."
+      ],
+      "more": [
+        "Low-mass satellite galaxies provide a rigorous testing ground for cosmological predictions. Standard models often struggle to match observations at this smaller scale, making surveys of nearby galaxies vital for refinement.",
+        "Captured with high-resolution clarity, galaxies like NGC 1827 help astronomers understand the structural dynamics of systems similar to our own Milky Way.",
+        "The data contributes to a growing catalog of galactic neighbors, offering a clearer picture of how stellar systems form and evolve within local cosmic neighborhoods."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://www.nasa.gov/image-article/spirals-edge/"
+      },
+      "wiki": "Galaxy",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/science-a-spiral-galaxy-s-edge-captured-by-hubble.jpg",
+        "credit": "www.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "science-could-a-heavy-neutrino-explain-why-the-universe",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "explainer",
+      "tags": [
+        "physics",
+        "science"
+      ],
+      "title": "Could a heavy neutrino explain why the universe has matter?",
+      "snippet": "Physicists propose that a sluggish, overlooked particle might have altered the early universe's expansion and helped matter survive the Big Bang.",
+      "body": [
+        "Why the universe contains matter instead of pure energy is an enduring puzzle, since the Big Bang should have produced equal parts matter and antimatter.",
+        "A new theoretical study suggests that a heavy right-handed neutrino—long dismissed as background noise—could have lived long enough after the Big Bang to trigger a temporary matter-dominated period in the cosmos."
+      ],
+      "more": [
+        "Researchers Rishav Roshan and Sudipta Show found that this heavy neutrino decays incredibly slowly. As the universe cooled, the particle briefly took over the energy density of the cosmos, shifting its expansion history.",
+        "This altered expansion changed the temperature at which certain interactions involving charged leptons reached equilibrium. These interactions are crucial for leptogenesis, the process that generates an imbalance between particles and antiparticles.",
+        "The adjusted conditions could allow a lighter heavy neutrino to produce a matter-antimatter asymmetry that matches what we observe today.",
+        "While entirely theoretical, the researchers note that this scenario could eventually be tested through upcoming neutrino experiments and the detection of primordial gravitational waves."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/physics/heavy-right-handed-neutrino-15144.html"
+      },
+      "wiki": "Baryogenesis",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/science-could-a-heavy-neutrino-explain-why-the-universe.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "design-foto-foto-automates-editorial-typography-to-brin",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "editorial-design",
+        "typography",
+        "print-design"
+      ],
+      "title": "Foto Foto automates editorial typography to bring back the hardcover album",
+      "snippet": "An Amsterdam studio is pairing digital image metadata with automated page layouts to rescue camera roll photos from screen oblivion.",
+      "body": [
+        "The ritual of pulling a weighty, dust-jacketed photo album off a shelf to walk through a past trip has largely been replaced by quick, distracted swiping on small screens. Amsterdam-based startup Foto Foto wants to revive print collections by using structured layouts and automated typesetting to lower the production barrier.",
+        "Starting at €30, the service ingests an uploaded gallery and uses image metadata—chronology, timestamps, and locations—to assemble an editorial photo sequence. Instead of leaving users with blank spreads or fiddly drag-and-drop grids, the platform systematically formats body copy and captions according to balanced typographic rules.",
+        "While the platform handles the structural heavy lifting automatically, creators can manually override image sequences, tweak editorial layouts, and choose bespoke tactile specifications, including layflat binding and distinct paper finishes."
+      ],
+      "more": [
+        "Photo albums have historically required hours of manual composition in desktop publishing software or clunky browser editors, leading most casual shooters to abandon the task altogether. Foto Foto’s software approaches album assembly from an art-direction perspective, parsing sequencing logic so images breathe naturally across double-page spreads.",
+        "The automated typography system handles hierarchy without forcing creators to align text boxes manually. Adjusting or re-sequencing copy triggers typographic reflows that adhere to pre-defined layout principles, mimicking the structural rhythm of modern art publications rather than consumer scrapbooks.",
+        "To test the system beyond personal family records, Foto Foto has produced monograph runs with working photographers and creative directors. Early publications include David Van Dartel’s *Bluets*, an edit exploring blue tones, and Guido De Bruin’s *Sin El Sol No Hay Nada*, a sunlit documentary project shot in Spain.",
+        "By merging automated composition with high-spec physical production options, the platform aims to occupy a middle ground between disposable print-on-demand books and premium studio publishing, giving small practices and studios an efficient way to manufacture physical portfolio touchpoints."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/foto-foto-photography-publication-sponsored-content-221026"
+      },
+      "wiki": "Photo_album",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/design-foto-foto-automates-editorial-typography-to-brin.jpg",
+        "credit": "www.itsnicethat.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "design-thirty-years-of-identity-design-and-not-a-single",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "book-design"
+      ],
+      "title": "Thirty years of identity design, and not a single logo redesigned",
+      "snippet": "London design studio SEA turns 30, celebrating three decades of resilient brand marks and independent practice with a limited-run monograph.",
+      "body": [
+        "In 1996, the year Wannabe took over the charts and Manchester United lifted the Premier League trophy, Bryan Edmondson founded SEA in Bermondsey. Three decades later, the London studio is marking the milestone with SEA 30, a 304-page, silver-edged hardback produced in a limited run of 300 numbered copies.",
+        "While design agencies frequently expand, get acquired, or drift through trends, SEA has kept a steady roster of 12 to 15 people for the last 20 years. More remarkably, Edmondson points out that not a single mark designed by the studio has ever been redesigned by a client, with partnerships like outerwear brand Regatta spanning over a quarter of a century.",
+        "The studio's secret to longevity is largely down to resisting specialization. By refusing to tie its fortunes to a single sector—a lesson learned when 9/11 abruptly derailed work for major client Virgin Atlantic—the small team has managed to outlast decades of economic whiplash."
+      ],
+      "more": [
+        "The anniversary volume itself was designed and edited internally, printed by TEAM, and case-bound by Diamond using stock from G.F. Smith. It continues a decennial ritual for the practice, which published similar reviews at years ten and twenty to take stock of its evolving visual identity work.",
+        "To celebrate, the studio gathered peers and former collaborators at The Crypt in Clerkenwell. The gathering included long-standing friends like photographer Rankin—who treated Edmondson to a characteristically brutal roasting—and Alan Dye, co-founder of NB Studio, who first met Edmondson at Roundel Design Group during the UK recession of 1992.",
+        "Keeping the team small has occasionally meant turning down briefs that require massive production teams, but Edmondson views their compact footprint as a direct competitive advantage. During one major pitch, an executive asked if the small group in the room would actually execute the work; Edmondson replied that there was simply no one else behind him, securing the account on the spot.",
+        "Even as design approaches 50-year shifts in technology, Edmondson remains on the tools every day, sketching and directing. Rather than planning an exit, he admits he still feels like starting a studio from scratch today with modern capabilities, driven by an itch that three decades of work haven't managed to scratch."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/insight/sea-turns-30/"
+      },
+      "wiki": "Graphic_design",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/design-thirty-years-of-identity-design-and-not-a-single.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "design-how-a-five-year-old-creative-agency-built-a-bran",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "story",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "typography"
+      ],
+      "title": "How a five-year-old creative agency built a brand around human imperfection",
+      "snippet": "Illustration agency AHA turned to Belgian graphic designer Davy Denduyver for an intentionally imperfect, hand-stamped visual rebrand.",
+      "body": [
+        "When Ryan Claydon founded illustration agency A Human Agency (AHA) in 2020 during a redundancy process, the moniker was a nod to human connection at a time when industry agency felt dangerously low. Fast forward five years, and that name has taken on an entirely new urgency as creative fields grapple with generative AI slop.",
+        "To mark its fifth anniversary, Claydon commissioned Belgian independent designer Davy Denduyver to rebuild the agency’s identity from scratch. Claydon had spotted Denduyver's tactile identity for Barcelona restaurant Mina via an Instagram feature highlighting accounts with under 10,000 followers, sparking an immediate collaborative match.",
+        "The resulting rebrand deliberately steers clear of illustration so as not to compete with the 14 illustrators on the agency's roster. Instead, it relies on hand-drawn serif typography, tilting forms, and rubber-stamp aesthetics that celebrate the unpredictable texture of human hands."
+      ],
+      "more": [
+        "Denduyver approached the brand identity as an exhibition pedestal rather than the main attraction. By stripping the core palette back to soft cream and black, the visual framework behaves like a museum space, designed to anchor client work rather than hijack it.",
+        "The identity centres on an intentionally imperfect hand-crafted wordmark and emblem, accompanied by the brand motto, 'For Humans. By Humans.' The assets translate straight into tangible collateral, deployed across business cards, tote bags, branded caps, garments, and custom packing tape.",
+        "For Denduyver, who celebrates ten years of independent practice next year, the project reaffirmed that consistent personal work still attracts the right clients without needing to transform into a full-time content creator. He works entirely without AI, insisting that friction, dialogue, and manual imperfections are precisely what give graphic communication its value.",
+        "Claydon, who spent 15 years as an agent navigating difficult brief cycles, intentionally kept his own feedback to a minimum, requesting only two minor revisions across the timeline. With the identity locked in, AHA plans to lean into charitable illustration projects and creative mentoring over the coming five years."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/work/davy-denduyver/"
+      },
+      "wiki": "Logo",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/design-how-a-five-year-old-creative-agency-built-a-bran.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-23",
+      "style": "news",
+      "tags": [
+        "habitacao",
+        "banco-de-portugal",
+        "desigualdade",
+        "rendas"
+      ],
+      "title": "A crise imobiliária e o fosso crescente da riqueza em Portugal",
+      "snippet": "Um estudo do Banco de Portugal revela que a valorização das casas nos últimos 15 anos aprofundou expressivamente a desigualdade social.",
+      "body": [
+        "Uma análise divulgada pelo Banco de Portugal sobre a evolução da riqueza das famílias entre 2010 e 2025 mostra um país cada vez mais desigual. O património imobiliário surge fortemente concentrado: cerca de 40% do valor dos imóveis pertence aos 10% mais ricos, enquanto a metade mais desfavorecida da população detém menos de 15%.",
+        "Ao longo deste período, a valorização contínua das habitações agravou a barreira socioeconómica e geracional. Dados do Eurostat colocaram Portugal com o maior aumento de preços da habitação na União Europeia no segundo trimestre, com uma subida homóloga de 16,5%."
+      ],
+      "more": [
+        "A evolução recente dos números ilustra a dimensão do problema. Entre 2015 e 2025, os preços das casas a nível nacional subiram 180%, ao passo que em Lisboa o aumento atingiu os 200%. Apenas no decorrer de 2025, os valores praticados na capital registaram um avanço de 18,2%.",
+        "Este desfasamento reflete-se diretamente no esforço exigido às famílias. Um trabalhador com o salário médio praticado em Lisboa precisa atualmente de aplicar cerca de 54% do seu rendimento líquido para conseguir arrendar um T1, sendo necessários dois ordenados completos caso a opção recaia sobre um T2.",
+        "Paralelamente, a associação Vizinhos em Lisboa estima que mais de 20% das habitações na cidade se encontrem fora do mercado residencial, servindo como investimento financeiro ou destinos turísticos. Fundos imobiliários e investidores internacionais adquirem imóveis que por vezes permanecem desocupados à espera de transações vantajosas.",
+        "A resposta pública ao fenómeno tem sido alvo de escrutínio. Entre as críticas apontadas contam-se a alienação de património público sem salvaguarda de quotas para habitação acessível, o licenciamento de projetos hoteleiros e de luxo pela autarquia e o aumento do limiar de rendas elegíveis para benefícios fiscais até aos 2300 euros mensais.",
+        "No plano legislativo, perspetivam-se alterações à Lei do Arrendamento resultantes de entendimentos entre PSD e Chega, prevendo medidas como o fim do limite às cauções exigíveis e a eliminação do travão de 2% no valor das rendas para novos contratos."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/opiniao-dn/menos-habitao-mais-desigualdade"
+      },
+      "wiki": "Banco_de_Portugal",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-23/pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique.avif",
+        "credit": "www.dn.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "pt-os-protestos-e-atos-de-desobediencia-que-moldara",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-23",
+      "style": "list",
+      "tags": [
+        "historia",
+        "protestos",
+        "direitos-sociais"
+      ],
+      "title": "Os protestos e atos de desobediência que moldaram a história",
+      "snippet": "De 1383 à queda do Muro de Berlim, recordamos como manifestações ilegais e greves redefiniram direitos e fronteiras.",
+      "body": [
+        "Ao longo dos séculos, diversas conquistas políticas, laborais e sociais resultaram de manifestações e mobilizações que, à época da sua ocorrência, desafiaram as normas e a legalidade instituídas.",
+        "A história demonstra que momentos charneira — como a resistência de Álvaro Pais em 1383, a Revolução Liberal de 1820 ou a contestação estudantil e operária internacional — ditaram ruturas profundas nas ordens sociais vigentes."
+      ],
+      "more": [
+        "Em Portugal, a mobilização popular convocada por Álvaro Pais em Lisboa no ano de 1383 desempenhou um papel determinante para garantir a aclamação de D. João I e salvaguardar a independência nacional. Séculos mais tarde, foram as movimentações associadas à Revolução Liberal de 1820, no Porto e em Lisboa, que abriram caminho à monarquia constitucional.",
+        "No plano laboral internacional, as greves e confrontos de Chicago em 1886 estabeleceram as bases para a conquista da jornada de trabalho de 8 horas, enquanto as paralisações operárias em França, em 1936, asseguraram conquistas pioneiras como duas semanas de férias pagas e a semana de 40 horas.",
+        "Mesmo sob regimes autoritários, a ação coletiva fez-se sentir. Em 1962, os trabalhadores agrícolas do Alentejo e Ribatejo impuseram a jornada de oito horas no campo através de greves ilegais. Anos mais tarde, em abril de 1974, concentrações populares junto aos estabelecimentos prisionais aceleraram a libertação dos presos políticos da ditadura.",
+        "O impacto dos protestos estende-se igualmente aos direitos civis e liberdades individuais: o ativismo das sufragistas garantiu o voto feminino, a revolta de Stonewall em 1969 impulsionou a igualdade de direitos para homossexuais e as marchas lideradas por Martin Luther King em 1963 abalaram a segregação racial nos Estados Unidos.",
+        "O registo histórico de mobilizações contra imposições do poder remonta inclusivamente à Antiguidade, como atesta a greve de 1159 a.C. efetuada pelos trabalhadores da necrópole de Deir el-Medina, no Antigo Egito sob o reinado de Ramsés III, desencadeada pelo atraso na entrega de rações alimentares."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/opiniao-dn/o-que-seria-de-ns-sem-manifestaes-populares"
+      },
+      "wiki": "Deir_el-Medina",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-23/pt-os-protestos-e-atos-de-desobediencia-que-moldara.webp",
+        "credit": "www.dn.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "books-stripping-away-identity-to-see-how-fragile-human",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-10-22",
+      "style": "book",
+      "tags": [
+        "satire",
+        "audiobooks",
+        "fiction",
+        "human-nature"
+      ],
+      "title": "Stripping Away Identity to See How Fragile Human Connection Really Is",
+      "snippet": "An unemployed actor takes a gig sitting inside an opaque black sack during university seminars, unlocking a biting exploration of absurdity and belonging.",
+      "body": [
+        "Shortlisted for the Booker Prize, Luke Kennard's campus comedy follows a broke London actor who takes an eccentric psychological research gig: sit silently inside a zipped black leather bag with just eye and foot holes during academic classes.",
+        "Riffing on genuine 1960s social psychology experiments and avant-garde art stunts, the book transforms an absurd premise into a smart, mortifyingly funny look at how people form attachments and navigate modern isolation."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/22/black-bag-by-luke-kennard-audiobook-review-brilliant-booker-shortlisted-campus-comedy"
+      },
+      "wiki": "Luke_Kennard",
+      "lang": "en",
+      "book": {
+        "title": "Black Bag",
+        "author": "Luke Kennard",
+        "lessons": [
+          {
+            "title": "Presence doesn't require performance",
+            "text": "Even completely hidden inside an opaque bag, an individual commands attention and alters the social dynamic of a room. Being present often communicates far more than talking or projecting an image."
+          },
+          {
+            "title": "Ridiculous constraints expose daily absurdity",
+            "text": "Navigating mundane routines—like squeezing through revolving doors or tapping a payment card strapped inside a sack—highlights how rigid and comedic ordinary life's rituals really are."
+          },
+          {
+            "title": "Attachment grows in unexpected conditions",
+            "text": "Echoing historical behavioral experiments, human beings instinctively build emotional bonds with silent, unfamiliar presences over time, proving how deeply wired we are for connection."
+          }
+        ],
+        "takeaway": "Try observing your next meeting or group setting in deliberate silence for ten minutes without speaking or nodding performatively, noticing how your quiet presence alone shifts the room.",
+        "forWho": "Fans of dry British wit, satirical campus fiction, and offbeat psychological premises."
+      },
+      "image": {
+        "src": "editions/2026-10-23/books-stripping-away-identity-to-see-how-fragile-human.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "books-we-are-the-living-consciousness-that-gives-the-u",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-22",
+      "style": "book",
+      "tags": [
+        "ursula-k-le-guin",
+        "philosophy",
+        "essays",
+        "meaning-of-life"
+      ],
+      "title": "We Are the Living Consciousness that Gives the Universe Meaning",
+      "snippet": "Meaning isn't a passive treasure waiting to be discovered in textbooks or code—it is an intimate act of attention we bestow upon the cosmos.",
+      "body": [
+        "In her landmark 1975 essay 'Science Fiction and Mrs. Brown', featured in this classic collection, Ursula K. Le Guin reframes our existential quest. Rather than treating humanity as the grand center of creation, she sees us as conscious observers whose task is simply to notice.",
+        "Le Guin argues that nature is a vast object until consciousness turns it into a subject. Meaning is not handed down like charity from an indifferent universe; it is crafted through human perception, standing more like a living poem than a rigid scientific postulate."
+      ],
+      "source": {
+        "id": "marginalian",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/22/le-guin-life/"
+      },
+      "wiki": "The_Language_of_the_Night",
+      "lang": "en",
+      "book": {
+        "title": "The Language of the Night: Essays on Writing, Science Fiction, and Fantasy",
+        "author": "Ursula K. Le Guin",
+        "lessons": [
+          {
+            "title": "Meaning is made, not found",
+            "text": "Purpose is not a prepackaged formula waiting inside elite universities or software prompts. It is an active, intimate creation as subjective as love itself, requiring our direct involvement."
+          },
+          {
+            "title": "We transform the universe into a subject",
+            "text": "Galaxies, rocks, and trees remain inert objects without an observer. Through our awareness, nature gains an interior life and becomes bone of our bone and flesh of our flesh."
+          },
+          {
+            "title": "Poetry implicates where science explicates",
+            "text": "While science seeks to dismantle and explain mechanisms, art and poetry bind us into the fabric of the world. Recognizing that we are completely implicated in reality settles the restless question of meaning."
+          }
+        ],
+        "takeaway": "Next time you feel disconnected on an evening ride or walk, spend five quiet minutes observing one detail in nature—a branch, the sky, the dirt—and consciously treat it as an active subject rather than background decor.",
+        "forWho": "Anyone seeking an grounded, poetic philosophy of living that bypasses sterile productivity hacks and algorithmic certainty."
+      },
+      "image": {
+        "src": "editions/2026-10-23/books-we-are-the-living-consciousness-that-gives-the-u.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "books-we-inherit-secrets-but-we-still-choose-what-we-b",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-22",
+      "style": "book",
+      "tags": [
+        "family",
+        "identity",
+        "secrets",
+        "fiction"
+      ],
+      "title": "We Inherit Secrets, but We Still Choose What We Become",
+      "snippet": "When an Iranian-American mother discovers disturbing proof of her late mother's past in the revolution, she must untangle inherited trauma from her own future.",
+      "body": [
+        "Laleh Khadivi's novel tracks Heti, an accountant in Los Angeles trying to mourn her mother while parenting her own daughters. Everything shatters when photos arrive revealing her mother was once an armed enforcer during the Iranian Islamic Revolution.",
+        "Moving between mundane suburban chores and cosmic chapter titles, the book examines the secret lives of parents, the shocking affinity we sometimes share with their darker impulses, and how generational anger gets recycled or remade."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/22/female-life-on-planet-earth-by-laleh-khadivi-review-a-mothers-secret-past-in-the-iranian-revolution"
+      },
+      "wiki": "Laleh_Khadivi",
+      "lang": "en",
+      "book": {
+        "title": "Female Life on Planet Earth",
+        "author": "Laleh Khadivi",
+        "lessons": [
+          {
+            "title": "Parents remain strangers",
+            "text": "We often remember elders as we wish them to be rather than who they actually were. Accepting that parents possessed hidden, complicated, or even ruthless sides is a core part of mature grief."
+          },
+          {
+            "title": "The shock of shared darkness",
+            "text": "Discovering a parent's harsh past often forces an uncomfortable realization: recognizing that you share their hunger for agency and control, even when channeled in vastly different directions."
+          },
+          {
+            "title": "Radicalism echoes across generations",
+            "text": "Generations mirror each other's extremes in unexpected ways, whether through religious revolutions or modern climate activism. What matters most is deciding whether to repeat the legacy or redirect its energy."
+          }
+        ],
+        "takeaway": "Write down one trait or unspoken habit you feel you inherited from your family, and decide on one conscious way you will actively reshape it this week.",
+        "forWho": "Readers drawn to nuanced family dramas, immigrant identity, and the complicated mysteries hidden within family history."
+      },
+      "image": {
+        "src": "editions/2026-10-23/books-we-inherit-secrets-but-we-still-choose-what-we-b.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ideas-creative-momentum-begins-by-lowering-the-barrier",
+      "topic": "ideas",
+      "kind": "evergreen",
+      "published": "2026-10-09",
+      "style": "idea",
+      "tags": [
+        "creativity",
+        "habits",
+        "psychology",
+        "craft"
+      ],
+      "title": "Creative momentum begins by lowering the barrier to entry",
+      "snippet": "The hardest friction in making anything is overcoming perfectionism and initial inertia before your hands start moving.",
+      "body": [
+        "Maintaining a regular creative practice in music, drawing, or writing reliably boosts subjective wellbeing. Australian artist Campbell Walker (known as Struthless) emphasizes that making physical or digital artifacts is also one of the most effective ways to break free from passive screen consumption.",
+        "The primary barrier to making art is rarely a lack of talent; it is the psychological weight of fatigue, overwhelm, and early perfectionism. To defeat that initial freeze, Walker advises using low-stakes prompts, such as intentionally turning an immediate error into a piece of art or playfully responding to well-known questions."
+      ],
+      "more": [
+        "In an environment saturated with endless feeds and algorithmically generated streams, consuming content requires near-zero friction while starting a creative project carries significant cognitive resistance. This friction easily pulls people into default loops of doomscrolling, even when they desire to build something of their own.",
+        "Psychologically, creative resistance often disguises itself as exhaustion or an inability to find the 'right' idea. In reality, the brain is usually trying to protect itself from the discomfort of making something flawed. When the expectation is to produce a masterpiece right away, the task becomes intimidating enough to avoid entirely.",
+        "Walker’s approach centers on designing small, playful side doors into the work. Prompts like transforming an accidental slip of the pen into an intentional drawing or answering famous philosophical questions act as cognitive ramps. They strip away the terrifying blank canvas and convert the act of creation into a simple game with predetermined constraints.",
+        "By focusing purely on the mechanics of getting started rather than the final quality of the output, you sidestep overthinking. Once the hands are active and the initial friction is cleared, creative momentum naturally takes over, restoring personal agency and mental focus."
+      ],
+      "source": {
+        "id": "psyche",
+        "name": "Psyche",
+        "url": "https://psyche.co/videos/ten-crafty-ideas-to-escape-the-doom-scroll-and-start-making-things"
+      },
+      "wiki": "Creativity",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ideas-creative-momentum-begins-by-lowering-the-barrier.jpg",
+        "credit": "psyche.co"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ideas-science-split-mind-from-matter-to-move-fast-but",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-21",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "artificial-intelligence",
+        "mind-body",
+        "science"
+      ],
+      "title": "Science split mind from matter to move fast, but left behind a deeper wound",
+      "snippet": "René Descartes solved an early scientific crisis by cleaving the soul away from physics, creating a mechanical model of nature that still haunts modern thinking about intelligence.",
+      "body": [
+        "In the 17th century, early modern thinkers faced a deep puzzle: if mechanical science could explain the physical universe, how could mere matter experience feelings, agency, or life? Polymath René Descartes cut through the tension with mechanical philosophy, cleanly separating physical bodies from immaterial souls.",
+        "To make nature fully measurable, Descartes discarded Aristotle's idea that plants and animals held organic souls, reframing biology as clockwork machinery. By walling off the mind, Descartes allowed empirical science to flourish free of spiritual baggage. Today, as artificial intelligence blurs the line between mechanism and mind, we are forced to confront the Cartesian divide once again."
+      ],
+      "more": [
+        "Before modern disciplines separated into tidy silos, science, mathematics, and religion were thoroughly entangled under philosophy. As cognitive scientist David Chalmers points out, philosophy has historically acted as an incubator: whenever thinkers hit upon an exact method to tackle an open question, that inquiry spun off into an independent empirical field.",
+        "In the early modern period, this patchwork created acute pressure. Natural philosophy excelled at calculating planetary orbits and physical collisions, but hit an impasse when trying to account for conscious experience and living agency. If everything consisted of inert matter hitting other matter, feeling and intent seemed miraculous.",
+        "Descartes solved this by striking a conceptual bargain. He removed soulhood entirely from plants and animals, treating their bodies as mere automated systems governed strictly by clockwork physics. The conscious soul was reserved exclusively for human minds, quarantined in its own immaterial realm so that empirical physics could measure the rest of the world without theological interference.",
+        "While this mechanical model enabled centuries of rapid scientific breakthroughs, it left what can be described as a metaphysical tear in reality. Modern computational advances and intelligent machines are now pressing directly against that boundary, forcing us to reconsider whether agency and thought can arise purely from physical systems."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/philosophy/healing-the-cartesian-wound/"
+      },
+      "wiki": "Cartesian_dualism",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ideas-science-split-mind-from-matter-to-move-fast-but.jpg",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "ideas-civilizations-are-built-on-connective-tissue-not",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "idea",
+      "tags": [
+        "history",
+        "infrastructure",
+        "data-mapping",
+        "networks"
+      ],
+      "title": "Civilizations are built on connective tissue, not grand highways",
+      "snippet": "We judge ancient empires by their famous trade routes, but the vast majority of real-world infrastructure exists in the overlooked local links.",
+      "body": [
+        "Historians long traced Rome's dominance through celebrated trunk routes like the Via Appia. But the Itiner-e project published a digital atlas in Nature's Scientific Data revealing Rome's road network was 59% larger than previous estimates, totaling nearly 186,000 miles (300,000 km) across Europe, North Africa, and the Middle East.",
+        "This revision did not come from discovering buried imperial superhighways. Instead, researchers simply started accounting for the first- and last-mile paths that joined farms to towns and soldiers to frontiers. Real power and resilience live in mundane connective tissue, not just marquee monuments."
+      ],
+      "more": [
+        "For decades, the standard catalog for classical logistics was the Digital Atlas of Roman and Medieval Civilizations (DARMC), which mapped roughly 117,100 miles (188,500 km) of Roman routes. Because historians historically privileged documented arteries like the Via Appia in Italy or the Via Egnatia running toward Byzantium, our picture of ancient transit skewed heavily toward imperial spectacle.",
+        "The team behind the Itiner-e project shifted the focus from central state architecture to local functionality. By gathering fine-grained data on everyday secondary connections, they pushed the mapped extent of Roman roads to nearly 300,000 kilometers, reaching from Hadrian’s Wall in northern Britain all the way to the Persian Gulf during the Empire's peak in the 2nd century AD.",
+        "These minor, uncelebrated roads were the actual engine of economic and administrative integration. They were the precise conduits that allowed local produce to reach central markets, villagers to trade in regional towns, tax collectors to reach households, and frontier garrisons to stay supplied.",
+        "Physical pathways also carried cultural artifacts far beyond their origins. A finer mesh of roads explains how subtle ideological currents moved through the ancient world, exemplified by the discovery of an altar dedicated to the Persian god Mithras unearthed in northern Scotland. It is a reminder that any network's true reach is determined by its smallest capillary branches."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/strange-maps/roman-road-networks/"
+      },
+      "wiki": "Roman_roads",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/ideas-civilizations-are-built-on-connective-tissue-not.png",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "f1-what-we-learned-heading-into-the-2026-us-grand-p",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-23",
+      "style": "explainer",
+      "tags": [
+        "formula-1",
+        "mercedes-f1",
+        "lewis-hamilton",
+        "honda-f1",
+        "usgp"
+      ],
+      "title": "What we learned heading into the 2026 US Grand Prix",
+      "snippet": "Engine upgrade delays, lingering Singapore drama, and driver pit-lane rebellions surfaced as the F1 paddock settled into Austin.",
+      "body": [
+        "As Formula 1 gathered at the Circuit of the Americas for the US Grand Prix, several lingering storylines from Singapore were finally laid to rest alongside updates on technical package delays across the grid.",
+        "Mercedes has postponed the introduction of its upgraded ADUO power unit for at least two more races, aiming for Brazil at the earliest as it works through lingering chassis aero issues. Meanwhile, Honda confirmed its analysis of Fernando Alonso's erratic engine behavior in Singapore revealed a gap between dyno expectations and real-world turbo lag management under heavy energy harvesting."
+      ],
+      "more": [
+        "In team dynamics, Esteban Ocon revealed that no drivers on the grid except Lance Stroll reached out to him after Haas chose not to renew his contract for 2027, though he remains firm in his belief that his F1 career is far from over.",
+        "Internal team tension was also smoothed over at McLaren. Lando Norris acknowledged his misjudgement during his Singapore sprint race clash with teammate Oscar Piastri, leading team principal Andrea Stella to close the matter without further disciplinary action.",
+        "Lewis Hamilton finally clarified why he ignored Ferrari's late call to pit in Singapore, which ultimately cost him a podium place. Hamilton explained it was a split-second decision made while approaching the pit entry, defending his habit of challenging team calls while acknowledging that this particular risk backfired.",
+        "Driver safety and calendar concerns re-emerged as GPDA director Carlos Sainz questioned the upcoming late-season races in Qatar and Abu Dhabi amid regional volatility, though Williams later issued a clarification affirming full trust in F1 and the FIA."
+      ],
+      "source": {
+        "id": "f1-the-race",
+        "name": "The Race",
+        "url": "https://www.the-race.com/formula-1/everything-we-learned-on-day-one-of-f1s-2026-us-gp/"
+      },
+      "wiki": "United_States_Grand_Prix",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/f1-what-we-learned-heading-into-the-2026-us-grand-p.jpg",
+        "credit": "www.the-race.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "formula-1",
+        "george-russell",
+        "max-verstappen",
+        "cota",
+        "usgp"
+      ],
+      "title": "Bumpy roads at COTA prompt driver calls for F1 track repaving",
+      "snippet": "Max Verstappen joked about needing a new spine, leading George Russell to suggest F1 circuits should be resurfaced every few years.",
+      "body": [
+        "Ahead of the United States Grand Prix at the Circuit of the Americas, Max Verstappen voiced strong frustration over the track's severity, noting after watching WEC footage that the bumps were severe enough to leave him needing 'a new spine.'",
+        "Mercedes driver George Russell backed up the complaint, arguing that Formula 1 tracks should ideally be repaved every couple of years. According to Russell, low ride heights and low-profile 18-inch tyres make modern ground-effect F1 cars brutally sensitive to degrading asphalt."
+      ],
+      "more": [
+        "Russell explained that modern F1 cars run extremely close to the asphalt—often just 10mm off the ground at the end of straights. When combined with the transition to 18-inch wheel rims, cars lost a significant amount of the sidewall flex that previously acted as natural dampening.",
+        "Aging tarmac has created problems beyond discomfort across the calendar. Damaged asphalt at Turn 19 in Monaco previously contributed to crashes for Charles Leclerc and Lance Stroll, forcing red flags while track inspections were carried out.",
+        "While Russell acknowledges that track repaving isn't an easy fix across 24 races, both Mercedes drivers enter the Austin weekend evaluating a fresh upgrade package that will require larger setup adjustments than originally expected."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/george-russell-calls-for-f1-track-changes-after-max-verstappens-cota-complaints/10867193/"
+      },
+      "wiki": "Circuit_of_the_Americas",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-23/f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t.jpg",
+        "credit": "www.motorsport.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-23"
+    }
+  ]
+}

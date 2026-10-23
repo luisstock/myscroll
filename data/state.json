@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T08:02:18.976Z",
+ "updatedAt": "2026-10-23T08:03:35.466Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -754,7 +754,7 @@
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
   "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 5,
   "f1-christian-horner-building-red-bull-s-f1-engine-w": 2,
-  "motion-animating-ui-promos-outside-after-effects-using": 4,
+  "motion-animating-ui-promos-outside-after-effects-using": 5,
   "motion-the-continuous-thread-from-cosmic-chaos-to-human": 3,
   "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 3,
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
@@ -772,8 +772,8 @@
   "books-the-deep-roots-of-jewish-dissent": 4,
   "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 4,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 4,
-  "ideas-beauty-is-an-act-of-unselfing": 3,
-  "ideas-emotions-are-not-universal-biology-but-culturall": 2,
+  "ideas-beauty-is-an-act-of-unselfing": 4,
+  "ideas-emotions-are-not-universal-biology-but-culturall": 3,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
   "motion-exploring-retro-animation-styles-in-afte": 6,
   "pt-cortica": 2,
@@ -784,24 +784,24 @@
   "pt-porto-cidade-acolhedora": 1,
   "tech-apple-schedules-surprise-late-october-event-for": 1,
   "tech-a-russian-military-satellite-shadowed-an-earth-i": 4,
-  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 3,
+  "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 4,
   "tr-repair": 4,
-  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 3,
-  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 2,
+  "science-the-optical-trick-of-an-anticrepuscular-rainbow": 4,
+  "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 3,
   "science-webb-tracks-real-time-water-clouds-on-the-coldes": 4,
-  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
+  "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 2,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
   "science-perseverance-rover-takes-the-crown-for-off-world": 1,
   "news-a-look-beneath-the-hood-of-the-us-economy": 1,
   "news-how-el-nino-split-the-pacific-and-atlantic-hurri": 1,
-  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 3,
-  "news-nsw-introduces-special-bill-to-bypass-high-court": 3,
+  "news-thawing-permafrost-leaches-heavy-metals-into-sva": 4,
+  "news-nsw-introduces-special-bill-to-bypass-high-court": 4,
   "news-outcry-in-australia-after-incarcerated-mother-sh": 2,
-  "news-brazil-s-amazon-deforestation-drops-to-six-year": 1,
+  "news-brazil-s-amazon-deforestation-drops-to-six-year": 2,
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
-  "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
+  "ai-anthropic-and-nscale-in-talks-for-anothe": 2,
   "ai-llamacpp": 6,
   "ai-quant": 4,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
@@ -3366,7 +3366,9 @@
   "design-the-creepy-beautiful-digital-art-behind",
   "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
   "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
-  "f1-christian-horner-reveals-true-stance-on-liam-law"
+  "f1-christian-horner-reveals-true-stance-on-liam-law",
+  "motion-exploring-retro-animation-styles-in-afte",
+  "ai-spotify-expands-paid-podcast-memberships"
  ],
  "saved": [
   "pt-1755",
@@ -4122,6 +4124,28 @@
     "tag:f1",
     "tag:red-bull",
     "tag:liam-lawson"
+   ]
+  },
+  "motion-exploring-retro-animation-styles-in-afte": {
+   "at": "2026-10-23T08:03:12.172Z",
+   "f": [
+    "topic:motion",
+    "sub:motion/techniques",
+    "source:r-aftereffects",
+    "style:video",
+    "tag:motion",
+    "tag:after-effects",
+    "tag:animation"
+   ]
+  },
+  "ai-spotify-expands-paid-podcast-memberships": {
+   "at": "2026-10-23T08:03:31.017Z",
+   "f": [
+    "topic:ai",
+    "source:techcrunch-ai",
+    "style:news",
+    "tag:tech",
+    "tag:curiosities"
    ]
   }
  },

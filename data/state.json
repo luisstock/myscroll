@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T08:00:15.914Z",
+ "updatedAt": "2026-10-23T08:02:18.976Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -742,7 +742,8 @@
   "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
   "f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t",
   "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
-  "design-how-a-five-year-old-creative-agency-built-a-bran"
+  "design-how-a-five-year-old-creative-agency-built-a-bran",
+  "bike-32-inch-gravel-wheels-gain-steam-with-new-tires"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -751,8 +752,8 @@
   "pt-intervencao-da-psp-poe-fim-a-acampamento": 1,
   "pt-quando-o-sporting-processou-o-publico-nu": 1,
   "pt-diogo-moreira-na-equipa-oficial-honda-de": 1,
-  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 4,
-  "f1-christian-horner-building-red-bull-s-f1-engine-w": 1,
+  "f1-when-daniel-ricciardo-rolled-up-to-austin-on-a-h": 5,
+  "f1-christian-horner-building-red-bull-s-f1-engine-w": 2,
   "motion-animating-ui-promos-outside-after-effects-using": 4,
   "motion-the-continuous-thread-from-cosmic-chaos-to-human": 3,
   "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 3,
@@ -769,7 +770,7 @@
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
   "books-the-traps-of-free-will-and-fate-across-time": 3,
   "books-the-deep-roots-of-jewish-dissent": 4,
-  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 3,
+  "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 4,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 4,
   "ideas-beauty-is-an-act-of-unselfing": 3,
   "ideas-emotions-are-not-universal-biology-but-culturall": 2,
@@ -782,12 +783,12 @@
   "pt-funcao-publica-governo-e-sindicatos-negoceiam-at": 5,
   "pt-porto-cidade-acolhedora": 1,
   "tech-apple-schedules-surprise-late-october-event-for": 1,
-  "tech-a-russian-military-satellite-shadowed-an-earth-i": 3,
+  "tech-a-russian-military-satellite-shadowed-an-earth-i": 4,
   "tech-bugged-meeting-rooms-and-royal-texts-inside-the": 3,
-  "tr-repair": 3,
+  "tr-repair": 4,
   "science-the-optical-trick-of-an-anticrepuscular-rainbow": 3,
   "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 2,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 3,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 4,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 1,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
@@ -814,7 +815,7 @@
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 2,
   "design-is-a-high-production-movie-trailer-the-n": 4,
-  "design-finding-accidental-beauty-in-awkward-fac": 3,
+  "design-finding-accidental-beauty-in-awkward-fac": 4,
   "design-building-believable-fantasy-worlds-throu": 4,
   "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": 3,
   "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": 1,
@@ -851,7 +852,18 @@
   "science-a-spiral-galaxy-s-edge-captured-by-hubble": 1,
   "design-thirty-years-of-identity-design-and-not-a-single": 1,
   "fun-a-grand-former-theater-in-buenos-aires-found-a-s": 1,
-  "science-could-a-heavy-neutrino-explain-why-the-universe": 1
+  "science-could-a-heavy-neutrino-explain-why-the-universe": 1,
+  "motion-beyond-standard-loops-adaptive-mograph-assets-in": 1,
+  "books-stripping-away-identity-to-see-how-fragile-human": 1,
+  "til-three-very-real-disasters-that-happened-on-hallo": 1,
+  "motion-sekondo-integrates-chatgpt-and-claude-straight-i": 1,
+  "books-we-are-the-living-consciousness-that-gives-the-u": 1,
+  "pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique": 1,
+  "motion-a-look-at-blackstar-lullaby-an-indie-animated-pi": 1,
+  "books-we-inherit-secrets-but-we-still-choose-what-we-b": 1,
+  "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur": 1,
+  "pt-os-protestos-e-atos-de-desobediencia-que-moldara": 1,
+  "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3110,6 +3122,122 @@
    "style:explainer",
    "tag:physics",
    "tag:science"
+  ],
+  "motion-beyond-standard-loops-adaptive-mograph-assets-in": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-aftereffects",
+   "style:explainer",
+   "tag:after-effects",
+   "tag:mograph",
+   "tag:animation-loops",
+   "tag:responsive-design"
+  ],
+  "books-stripping-away-identity-to-see-how-fragile-human": [
+   "topic:books",
+   "sub:books/creativity",
+   "source:guardian-books",
+   "style:book",
+   "tag:satire",
+   "tag:audiobooks",
+   "tag:fiction",
+   "tag:human-nature"
+  ],
+  "til-three-very-real-disasters-that-happened-on-hallo": [
+   "topic:til",
+   "sub:til/cracked",
+   "source:mental-floss",
+   "style:list",
+   "tag:history",
+   "tag:halloween",
+   "tag:disasters",
+   "tag:curiosities"
+  ],
+  "motion-sekondo-integrates-chatgpt-and-claude-straight-i": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:motionographer",
+   "style:news",
+   "tag:after-effects",
+   "tag:premiere-pro",
+   "tag:ai",
+   "tag:sekondo",
+   "tag:plugins"
+  ],
+  "books-we-are-the-living-consciousness-that-gives-the-u": [
+   "topic:books",
+   "sub:books/life",
+   "source:marginalian",
+   "style:book",
+   "tag:ursula-k-le-guin",
+   "tag:philosophy",
+   "tag:essays",
+   "tag:meaning-of-life"
+  ],
+  "pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:habitacao",
+   "tag:banco-de-portugal",
+   "tag:desigualdade",
+   "tag:rendas"
+  ],
+  "motion-a-look-at-blackstar-lullaby-an-indie-animated-pi": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:r-aftereffects",
+   "style:story",
+   "tag:after-effects",
+   "tag:animation",
+   "tag:indie-animation",
+   "tag:blackstar-lullaby"
+  ],
+  "books-we-inherit-secrets-but-we-still-choose-what-we-b": [
+   "topic:books",
+   "sub:books/life",
+   "source:guardian-books",
+   "style:book",
+   "tag:family",
+   "tag:identity",
+   "tag:secrets",
+   "tag:fiction"
+  ],
+  "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur": [
+   "topic:til",
+   "sub:til/til",
+   "source:r-todayilearned",
+   "style:reddit",
+   "tag:medicine",
+   "tag:biology",
+   "tag:human-body",
+   "tag:oddities"
+  ],
+  "bike-32-inch-gravel-wheels-gain-steam-with-new-tires": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-racing",
+   "tag:tires"
+  ],
+  "pt-os-protestos-e-atos-de-desobediencia-que-moldara": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:dn",
+   "style:list",
+   "tag:historia",
+   "tag:protestos",
+   "tag:direitos-sociais"
+  ],
+  "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:story",
+   "tag:gravel-racing",
+   "tag:bikepacking"
   ]
  },
  "read": [
@@ -3237,7 +3365,8 @@
   "til-what-colonial-williamsburg-ate-before-pa",
   "design-the-creepy-beautiful-digital-art-behind",
   "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
-  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto"
+  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
+  "f1-christian-horner-reveals-true-stance-on-liam-law"
  ],
  "saved": [
   "pt-1755",
@@ -3982,6 +4111,17 @@
     "tag:design",
     "tag:illustration",
     "tag:visual-culture"
+   ]
+  },
+  "f1-christian-horner-reveals-true-stance-on-liam-law": {
+   "at": "2026-10-23T08:01:52.690Z",
+   "f": [
+    "topic:f1",
+    "source:web",
+    "style:news",
+    "tag:f1",
+    "tag:red-bull",
+    "tag:liam-lawson"
    ]
   }
  },

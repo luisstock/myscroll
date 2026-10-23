@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T08:00:06.288Z",
+ "updatedAt": "2026-10-23T07:55:59.094Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -734,7 +734,8 @@
   "pt-estudantes-protestam-contra-a-proposta-d",
   "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ",
-  "ai-microsoft-warns-ai-agents-are-insider-threats-as"
+  "ai-microsoft-warns-ai-agents-are-insider-threats-as",
+  "design-can-a-security-style-hologram-keep-your"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -750,23 +751,23 @@
   "motion-rove-rebrands-to-reflect-its-evolution-into-a-mo": 3,
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque": 2,
   "motion-crafting-18th-century-scotland-magic-dust-s-brea": 2,
-  "mo-fischinger": 2,
+  "mo-fischinger": 3,
   "ai-openmoss-lands-in-comfyui-with-structured-layout": 2,
   "ai-microsoft-warns-ai-agents-are-insider-threats-as": 2,
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
-  "fun-project-pigeon": 2,
+  "fun-project-pigeon": 3,
   "fun-boring-and-dull": 2,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
   "books-the-traps-of-free-will-and-fate-across-time": 3,
-  "books-the-deep-roots-of-jewish-dissent": 3,
+  "books-the-deep-roots-of-jewish-dissent": 4,
   "ideas-the-fear-of-change-in-love-dissolves-when-we-see": 3,
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ": 4,
   "ideas-beauty-is-an-act-of-unselfing": 3,
   "ideas-emotions-are-not-universal-biology-but-culturall": 2,
   "ideas-no-formal-logical-system-can-ever-prove-every-tr": 1,
-  "motion-exploring-retro-animation-styles-in-afte": 5,
+  "motion-exploring-retro-animation-styles-in-afte": 6,
   "pt-cortica": 2,
   "pt-treinador-portugues-e-golo-portista-dao-a-franca": 3,
   "pt-alianca-luso-britanica": 2,
@@ -793,21 +794,21 @@
   "news-canada-moves-its-last-captive-whales-as-sanctuar": 1,
   "ideas-motivation-is-not-fuel-in-a-tank-but-a-real-time": 1,
   "ai-anthropic-and-nscale-in-talks-for-anothe": 1,
-  "ai-llamacpp": 5,
+  "ai-llamacpp": 6,
   "ai-quant": 4,
   "ai-hybrid-reasoning-agents-thinking-in-latent-space": 1,
   "ai-krea-3-arrives-in-comfyui-with-numbered-multi-re": 1,
-  "design-fifty-shades-of-hay-wicker-parodies-bodi": 4,
+  "design-fifty-shades-of-hay-wicker-parodies-bodi": 5,
   "design-the-creepy-beautiful-digital-art-behind": 4,
-  "design-an-existential-spiral-over-video-call-ap": 4,
+  "design-an-existential-spiral-over-video-call-ap": 5,
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "til-what-colonial-williamsburg-ate-before-pa": 1,
-  "til-sweden-s-giant-concrete-tribute-to-vineg": 1,
+  "til-sweden-s-giant-concrete-tribute-to-vineg": 2,
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
-  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 1,
-  "design-is-a-high-production-movie-trailer-the-n": 3,
-  "design-finding-accidental-beauty-in-awkward-fac": 2,
-  "design-building-believable-fantasy-worlds-throu": 3,
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 2,
+  "design-is-a-high-production-movie-trailer-the-n": 4,
+  "design-finding-accidental-beauty-in-awkward-fac": 3,
+  "design-building-believable-fantasy-worlds-throu": 4,
   "pt-defice-da-zona-euro-sobe-para-3-3-e-portugal-reg": 3,
   "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica": 1,
   "pt-uma-comedia-de-enganos-que-brinca-com-a-tradicao": 1,
@@ -825,7 +826,8 @@
   "pt-pinto-luz-defende-reforma-do-arrendamento-e-refu": 1,
   "pt-deputada-australiana-perde-ambas-as-pern": 1,
   "design-can-a-security-style-hologram-keep-your": 3,
-  "design-in-clubland-documenting-35-years-of-rave": 1
+  "design-in-clubland-documenting-35-years-of-rave": 1,
+  "tr-lofi": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3010,7 +3012,16 @@
   "pt-porto-de-leixoes-aposta-em-eletrificacao",
   "pt-precos-dos-combustiveis-sobem-mais-na-europa-do",
   "motion-chris-ullens-animates-tiny-artisans-for-diptyque",
-  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica"
+  "pt-antiga-atleta-cria-espaco-de-recuperacao-fisica",
+  "ai-comfy",
+  "bk-drais",
+  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto",
+  "ai-quant",
+  "design-in-clubland-documenting-35-years-of-rave",
+  "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec",
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi",
+  "til-what-colonial-williamsburg-ate-before-pa",
+  "design-the-creepy-beautiful-digital-art-behind"
  ],
  "saved": [
   "pt-1755",
@@ -3651,6 +3662,110 @@
     "source:nit",
     "style:story",
     "tag:saude"
+   ]
+  },
+  "ai-comfy": {
+   "at": "2026-10-23T00:21:54.477Z",
+   "f": [
+    "topic:ai",
+    "sub:ai/image-video",
+    "source:github",
+    "style:explainer",
+    "tag:comfyui",
+    "tag:nodes",
+    "tag:image-gen"
+   ]
+  },
+  "bk-drais": {
+   "at": "2026-10-23T00:22:13.547Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/history",
+    "source:wikipedia",
+    "style:til",
+    "tag:bicycle-history",
+    "tag:inventions"
+   ]
+  },
+  "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": {
+   "at": "2026-10-23T00:22:21.449Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/gravel",
+    "source:velo-gravel",
+    "style:story",
+    "tag:gravel-racing",
+    "tag:uci-worlds"
+   ]
+  },
+  "ai-quant": {
+   "at": "2026-10-23T00:22:22.709Z",
+   "f": [
+    "topic:ai",
+    "sub:ai/local-llm",
+    "source:huggingface",
+    "style:explainer",
+    "tag:quantization",
+    "tag:vram",
+    "tag:llm"
+   ]
+  },
+  "design-in-clubland-documenting-35-years-of-rave": {
+   "at": "2026-10-23T00:22:25.556Z",
+   "f": [
+    "topic:design",
+    "source:creative-boom",
+    "style:story",
+    "tag:photography",
+    "tag:rave-culture",
+    "tag:books"
+   ]
+  },
+  "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec": {
+   "at": "2026-10-23T00:22:31.604Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/gravel",
+    "source:velo-gravel",
+    "style:story",
+    "tag:gravel-racing",
+    "tag:uci",
+    "tag:uci-gravel-worlds"
+   ]
+  },
+  "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": {
+   "at": "2026-10-23T00:22:38.402Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/gear",
+    "source:velo-gravel",
+    "style:explainer",
+    "tag:gravel-gear",
+    "tag:bike-geometry",
+    "tag:colnago"
+   ]
+  },
+  "til-what-colonial-williamsburg-ate-before-pa": {
+   "at": "2026-10-23T00:22:46.373Z",
+   "f": [
+    "topic:til",
+    "sub:til/til",
+    "source:mental-floss",
+    "style:explainer",
+    "tag:food",
+    "tag:history",
+    "tag:curiosities"
+   ]
+  },
+  "design-the-creepy-beautiful-digital-art-behind": {
+   "at": "2026-10-23T00:22:47.535Z",
+   "f": [
+    "topic:design",
+    "source:creative-bloq",
+    "style:story",
+    "tag:design",
+    "tag:illustration",
+    "tag:visual-culture"
    ]
   }
  },

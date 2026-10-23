@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T07:55:59.094Z",
+ "updatedAt": "2026-10-23T07:57:42.960Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -418,6 +418,9 @@
    "futility-closet": {
     "enabled": true,
     "deleted": false
+   },
+   "creative-boom": {
+    "weight": 2
    }
   },
   "customSources": [
@@ -735,7 +738,8 @@
   "pt-aeroporto-de-lisboa-altera-rotas-de-descolagem-p",
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ",
   "ai-microsoft-warns-ai-agents-are-insider-threats-as",
-  "design-can-a-security-style-hologram-keep-your"
+  "design-can-a-security-style-hologram-keep-your",
+  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -827,7 +831,13 @@
   "pt-deputada-australiana-perde-ambas-as-pern": 1,
   "design-can-a-security-style-hologram-keep-your": 3,
   "design-in-clubland-documenting-35-years-of-rave": 1,
-  "tr-lofi": 1
+  "tr-lofi": 1,
+  "tech-rising-ram-and-silicon-prices-triggered-a-21-dro": 1,
+  "ideas-creative-momentum-begins-by-lowering-the-barrier": 1,
+  "news-cross-border-ebola-inquiry-centres-on-airport-ov": 1,
+  "tech-canva-craft-plans-its-layouts-before-generating": 1,
+  "ideas-science-split-mind-from-matter-to-move-fast-but": 1,
+  "news-australia-s-economic-crosscurrents-highlight-the": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2896,6 +2906,71 @@
    "tag:photography",
    "tag:rave-culture",
    "tag:books"
+  ],
+  "tech-rising-ram-and-silicon-prices-triggered-a-21-dro": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:hardware",
+   "tag:pc-building",
+   "tag:memory",
+   "tag:tech-industry"
+  ],
+  "ideas-creative-momentum-begins-by-lowering-the-barrier": [
+   "topic:ideas",
+   "source:psyche",
+   "style:idea",
+   "tag:creativity",
+   "tag:habits",
+   "tag:psychology",
+   "tag:craft"
+  ],
+  "news-cross-border-ebola-inquiry-centres-on-airport-ov": [
+   "topic:news",
+   "sub:news/world",
+   "source:bbc-world",
+   "style:news",
+   "tag:public-health",
+   "tag:ebola",
+   "tag:africa",
+   "tag:epidemiology"
+  ],
+  "tech-canva-craft-plans-its-layouts-before-generating": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:canva",
+   "tag:generative-ai",
+   "tag:graphic-design",
+   "tag:machine-learning"
+  ],
+  "ideas-science-split-mind-from-matter-to-move-fast-but": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:philosophy",
+   "tag:artificial-intelligence",
+   "tag:mind-body",
+   "tag:science"
+  ],
+  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:spotify",
+   "tag:streaming",
+   "tag:music-tech",
+   "tag:drm"
+  ],
+  "news-australia-s-economic-crosscurrents-highlight-the": [
+   "topic:news",
+   "sub:news/economy",
+   "source:guardian-world",
+   "style:news",
+   "tag:macroeconomics",
+   "tag:inflation",
+   "tag:energy",
+   "tag:interest-rates"
   ]
  },
  "read": [

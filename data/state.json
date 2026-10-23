@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T07:57:42.960Z",
+ "updatedAt": "2026-10-23T08:00:15.914Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -739,7 +739,10 @@
   "ideas-you-don-t-have-fully-formed-ideas-until-you-writ",
   "ai-microsoft-warns-ai-agents-are-insider-threats-as",
   "design-can-a-security-style-hologram-keep-your",
-  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli"
+  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
+  "f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t",
+  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
+  "design-how-a-five-year-old-creative-agency-built-a-bran"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -837,7 +840,18 @@
   "news-cross-border-ebola-inquiry-centres-on-airport-ov": 1,
   "tech-canva-craft-plans-its-layouts-before-generating": 1,
   "ideas-science-split-mind-from-matter-to-move-fast-but": 1,
-  "news-australia-s-economic-crosscurrents-highlight-the": 1
+  "news-australia-s-economic-crosscurrents-highlight-the": 1,
+  "f1-what-we-learned-heading-into-the-2026-us-grand-p": 1,
+  "news-a-student-led-movement-mounts-serbia-s-biggest-c": 1,
+  "ai-fixing-minimax-video-smear-with-latent-upscaling": 1,
+  "ideas-civilizations-are-built-on-connective-tissue-not": 1,
+  "ai-rivian-acquired-a-3d-world-model-startup-to-trai": 1,
+  "science-hubble-captures-gravitational-lens-to-prep-for-t": 1,
+  "design-foto-foto-automates-editorial-typography-to-brin": 1,
+  "science-a-spiral-galaxy-s-edge-captured-by-hubble": 1,
+  "design-thirty-years-of-identity-design-and-not-a-single": 1,
+  "fun-a-grand-former-theater-in-buenos-aires-found-a-s": 1,
+  "science-could-a-heavy-neutrino-explain-why-the-universe": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -2971,6 +2985,131 @@
    "tag:inflation",
    "tag:energy",
    "tag:interest-rates"
+  ],
+  "f1-what-we-learned-heading-into-the-2026-us-grand-p": [
+   "topic:f1",
+   "source:f1-the-race",
+   "style:explainer",
+   "tag:formula-1",
+   "tag:mercedes-f1",
+   "tag:lewis-hamilton",
+   "tag:honda-f1",
+   "tag:usgp"
+  ],
+  "news-a-student-led-movement-mounts-serbia-s-biggest-c": [
+   "topic:news",
+   "sub:news/europe",
+   "source:bbc-world",
+   "style:news",
+   "tag:serbia",
+   "tag:elections",
+   "tag:balkans",
+   "tag:european-politics"
+  ],
+  "f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t": [
+   "topic:f1",
+   "source:f1-motorsport-com",
+   "style:news",
+   "tag:formula-1",
+   "tag:george-russell",
+   "tag:max-verstappen",
+   "tag:cota",
+   "tag:usgp"
+  ],
+  "ai-fixing-minimax-video-smear-with-latent-upscaling": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-stablediffusion",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:minimax",
+   "tag:generative-video",
+   "tag:workflow"
+  ],
+  "ideas-civilizations-are-built-on-connective-tissue-not": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:history",
+   "tag:infrastructure",
+   "tag:data-mapping",
+   "tag:networks"
+  ],
+  "ai-rivian-acquired-a-3d-world-model-startup-to-trai": [
+   "topic:ai",
+   "sub:ai/innovation",
+   "source:techcrunch-ai",
+   "style:news",
+   "tag:world-models",
+   "tag:autonomous-vehicles",
+   "tag:simulation",
+   "tag:computer-vision"
+  ],
+  "science-hubble-captures-gravitational-lens-to-prep-for-t": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:space",
+   "tag:astronomy",
+   "tag:science"
+  ],
+  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto": [
+   "topic:ai",
+   "sub:ai/innovation",
+   "source:hacker-news",
+   "style:explainer",
+   "tag:ai-agents",
+   "tag:sandboxing",
+   "tag:linux-kernel",
+   "tag:developer-tools"
+  ],
+  "design-foto-foto-automates-editorial-typography-to-brin": [
+   "topic:design",
+   "source:its-nice-that",
+   "style:news",
+   "tag:editorial-design",
+   "tag:typography",
+   "tag:print-design"
+  ],
+  "science-a-spiral-galaxy-s-edge-captured-by-hubble": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:space",
+   "tag:astronomy",
+   "tag:science"
+  ],
+  "design-thirty-years-of-identity-design-and-not-a-single": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:branding",
+   "tag:graphic-design",
+   "tag:book-design"
+  ],
+  "fun-a-grand-former-theater-in-buenos-aires-found-a-s": [
+   "topic:fun",
+   "source:r-mildlyinteresting",
+   "style:reddit",
+   "tag:architecture",
+   "tag:books",
+   "tag:buenos-aires",
+   "tag:travel"
+  ],
+  "design-how-a-five-year-old-creative-agency-built-a-bran": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:branding",
+   "tag:graphic-design",
+   "tag:typography"
+  ],
+  "science-could-a-heavy-neutrino-explain-why-the-universe": [
+   "topic:science",
+   "source:sci-news",
+   "style:explainer",
+   "tag:physics",
+   "tag:science"
   ]
  },
  "read": [
@@ -3096,7 +3235,9 @@
   "bike-bumped-to-elite-48-hours-out-the-uci-s-retrospec",
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi",
   "til-what-colonial-williamsburg-ate-before-pa",
-  "design-the-creepy-beautiful-digital-art-behind"
+  "design-the-creepy-beautiful-digital-art-behind",
+  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli",
+  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto"
  ],
  "saved": [
   "pt-1755",
@@ -4031,6 +4172,16 @@
    "at": "2026-10-21T12:20:17.986Z",
    "min": 1,
    "topic": "ideas"
+  },
+  "tech-spotify-is-rolling-out-rotating-qr-codes-to-poli": {
+   "at": "2026-10-23T07:58:26.544Z",
+   "min": 1,
+   "topic": "tech"
+  },
+  "ai-nvidia-openshell-kernel-level-sandboxes-for-auto": {
+   "at": "2026-10-23T07:59:41.530Z",
+   "min": 1,
+   "topic": "ai"
   }
  },
  "follows": null,

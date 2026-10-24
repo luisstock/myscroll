@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T15:21:52.556Z",
+ "updatedAt": "2026-10-24T15:22:31.665Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -542,7 +542,7 @@
   "unmuted": [],
   "orderByReading": true,
   "feedOrder": "mixed",
-  "activeMood": null,
+  "activeMood": "relax",
   "moods": [
    {
     "id": "relax",
@@ -813,7 +813,7 @@
   "til-what-colonial-williamsburg-ate-before-pa": 1,
   "til-sweden-s-giant-concrete-tribute-to-vineg": 2,
   "til-the-mystery-of-the-oldest-surviving-amer": 1,
-  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 2,
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 3,
   "design-is-a-high-production-movie-trailer-the-n": 4,
   "design-finding-accidental-beauty-in-awkward-fac": 4,
   "design-building-believable-fantasy-worlds-throu": 4,
@@ -863,7 +863,8 @@
   "books-we-inherit-secrets-but-we-still-choose-what-we-b": 1,
   "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur": 1,
   "pt-os-protestos-e-atos-de-desobediencia-que-moldara": 1,
-  "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": 1
+  "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": 1,
+  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3238,6 +3239,15 @@
    "style:story",
    "tag:gravel-racing",
    "tag:bikepacking"
+  ],
+  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:news",
+   "tag:gravel-tech",
+   "tag:bike-testing",
+   "tag:gravel-bikes"
   ]
  },
  "read": [

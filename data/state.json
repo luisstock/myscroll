@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T15:22:31.665Z",
+ "updatedAt": "2026-10-24T16:05:34.583Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -743,7 +743,8 @@
   "f1-bumpy-roads-at-cota-prompt-driver-calls-for-f1-t",
   "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
   "design-how-a-five-year-old-creative-agency-built-a-bran",
-  "bike-32-inch-gravel-wheels-gain-steam-with-new-tires"
+  "bike-32-inch-gravel-wheels-gain-steam-with-new-tires",
+  "search-milhares-enchem-o-rossio-em-protesto-pel"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -864,7 +865,8 @@
   "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur": 1,
   "pt-os-protestos-e-atos-de-desobediencia-que-moldara": 1,
   "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": 1,
-  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 1
+  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 1,
+  "search-protesto-de-acampados-regressa-a-lisboa": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3248,6 +3250,22 @@
    "tag:gravel-tech",
    "tag:bike-testing",
    "tag:gravel-bikes"
+  ],
+  "search-milhares-enchem-o-rossio-em-protesto-pel": [
+   "topic:search",
+   "source:reddit-search",
+   "style:news",
+   "tag:lisboa",
+   "tag:habitacao",
+   "tag:protestos"
+  ],
+  "search-protesto-de-acampados-regressa-a-lisboa": [
+   "topic:search",
+   "source:reddit-search",
+   "style:news",
+   "tag:lisboa",
+   "tag:porto",
+   "tag:habitacao"
   ]
  },
  "read": [
@@ -5939,6 +5957,230 @@
     "added": "2026-10-21",
     "made": 1792585211725,
     "fast": true
+   }
+  },
+  "search-tribunal-admite-intimacao-para-proteger": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-tribunal-admite-intimacao-para-proteger",
+    "topic": "search",
+    "kind": "news",
+    "published": "2026-10-22",
+    "style": "news",
+    "tags": [
+     "lisboa",
+     "habitacao",
+     "protesto"
+    ],
+    "title": "Tribunal admite intimação para proteger protesto da Acampada de Lisboa",
+    "snippet": "O tribunal deu 48 horas ao Estado e à Câmara Municipal de Lisboa para se pronunciarem sobre a intimação apresentada por uma manifestante.",
+    "body": [
+     "O Tribunal Administrativo de Lisboa admitiu uma intimação apresentada por uma manifestante da Acampada de Lisboa para a proteção de direitos, liberdades e garantias do protesto.",
+     "Foi concedido ao Ministério da Administração Interna e à autarquia o prazo de 48 horas para se pronunciarem por escrito sobre a providência.",
+     "A iniciativa jurídica surgiu após o início da concentração pelo direito à habitação na Praça D. Pedro IV."
+    ],
+    "more": [
+     "A acampada tem mobilizado centenas de pessoas contra a especulação imobiliária e em defesa do direito à habitação na capital.",
+     "A ação judicial pretende salvaguardar os moldes em que a concentração decorre no Rossio."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/porto",
+     "url": "https://www.reddit.com/r/porto/comments/1xcwqaj/tribunal_admite_intimação_para_proteção_de/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/y_jlsrV2gjHy9msL7yrYyGdqgsePnNNXuSaaRl_m_0w.jpeg?width=640&crop=smart&auto=webp&s=80bf7a26126d22a81fa32207917a5c9452fa6b45"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-acampada-de-lisboa-apela-a-participacao": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-acampada-de-lisboa-apela-a-participacao",
+    "topic": "search",
+    "kind": "news",
+    "published": "2026-10-23",
+    "style": "news",
+    "tags": [
+     "lisboa",
+     "manifestacao",
+     "habitacao"
+    ],
+    "title": "Acampada de Lisboa apela à participação em nova manifestação",
+    "snippet": "O movimento convocou uma marcha com partida no Marquês de Pombal e destino ao Rossio.",
+    "body": [
+     "A Acampada de Lisboa apelou à participação pública numa manifestação marcada para este sábado.",
+     "A concentração tem ponto de partida previsto no Marquês de Pombal, seguindo depois em direção à Praça do Rossio."
+    ],
+    "more": [
+     "Estes protestos inserem-se num ciclo de mobilizações pelo direito à habitação e contra o custo de vida nas grandes cidades portuguesas."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/lisboa",
+     "url": "https://www.reddit.com/r/lisboa/comments/1xdfijt/acampada_de_lisboa_apela_à_participação_na/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/-hm2xH7fu1a1ufXxvMd5V1TxUO11JOyfsgaW5AIJD9I.jpeg?width=640&crop=smart&auto=webp&s=2053355312b986c11c600c14a792cb3b384bbcbb"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-protestos-contra-o-custo-de-vida-saem-a": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-protestos-contra-o-custo-de-vida-saem-a",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-17",
+    "style": "news",
+    "tags": [
+     "lisboa",
+     "cgtp",
+     "protesto"
+    ],
+    "title": "Protestos contra o custo de vida saem à rua em várias cidades",
+    "snippet": "A CGTP organizou uma manifestação em Lisboa com início no Cais do Sodré e termo no Rossio.",
+    "body": [
+     "Várias cidades portuguesas, incluindo Lisboa, acolheram protestos contra o aumento do custo de vida e o preço da habitação.",
+     "Na capital, a CGTP convocou uma manifestação que começou no Cais do Sodré e terminou na praça do Rossio.",
+     "Sob o mote de melhores salários e serviços públicos, os manifestantes marcharam contra a subida dos combustíveis e dos bens essenciais."
+    ],
+    "more": [
+     "A mobilização juntou trabalhadores de vários setores e comitivas sindicais vindas de diferentes pontos do país para reivindicar um novo rumo económico."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/lisboa",
+     "url": "https://www.reddit.com/r/lisboa/comments/1x89kle/protestos_contra_aumento_do_custo_de_vida/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/PxqXAYAj3JI0piyB5j0ZDjmXyTX-XgLnEuUtP5lHRh4.jpeg?width=640&crop=smart&auto=webp&s=ab565eea160b5f95f36a366ebaebcc4c76ecbd7e"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-milhares-enchem-o-rossio-em-protesto-pel": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-milhares-enchem-o-rossio-em-protesto-pel",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-17",
+    "style": "news",
+    "tags": [
+     "lisboa",
+     "habitacao",
+     "protestos"
+    ],
+    "title": "Milhares enchem o Rossio em protesto pela habitação",
+    "snippet": "Após a marcha sindical, manifestantes montaram tendas no Rossio sob o mote Não dá mais? Então monta a tua tenda!.",
+    "body": [
+     "Milhares de pessoas juntaram-se em Lisboa numa marcha que ligou o Cais do Sodré ao Rossio, reivindicando melhores condições de vida e habitação acessível.",
+     "A desculpa da distância de um quilómetro transformou-se numa longa caminhada lenta devido à dimensão da multidão intergeracional presente.",
+     "No final da marcha, foram montadas as primeiras tendas no Rossio, dando início a um acampamento de protesto."
+    ],
+    "more": [
+     "Vários sindicatos e movimentos sociais marcaram presença na iniciativa, colorindo a praça com bandeiras e reivindicações variadas."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/lisboa",
+     "url": "https://www.reddit.com/r/lisboa/comments/1x8fssn/montadas_as_primeiras_tendas_em_lisboa_milhares/"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-protesto-de-acampados-regressa-a-lisboa": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-protesto-de-acampados-regressa-a-lisboa",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-17",
+    "style": "news",
+    "tags": [
+     "lisboa",
+     "porto",
+     "habitacao"
+    ],
+    "title": "Protesto de acampados regressa a Lisboa com mais tendas",
+    "snippet": "Com a adesão a crescer para milhares de pessoas, o Movimento Pela Habitação prometeu continuar a luta.",
+    "body": [
+     "O protesto de acampados pela habitação regressou ao Rossio, em Lisboa, com uma adesão crescente que passou de poucas dezenas para milhares de participantes.",
+     "Depois de noites anteriores marcadas por tensão policial, os manifestantes voltaram a erguer tendas para exigir soluções habitacionais.",
+     "O movimento tem procurado demarcar-se de incidentes e infiltrações de grupos radicais ocorridos durante as jornadas de protesto."
+    ],
+    "more": [
+     "A contestação tem-se alargado a outras cidades, como o Porto, mostrando a centralidade do tema da habitação no debate público atual."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/lisboa",
+     "url": "https://www.reddit.com/r/lisboa/comments/1x8614d/lisboa_e_porto_protesto_de_acampados_regressa_com/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/sg9atmE5uNvMDbdn9oUsUK4gdIOKj2LkRBYd7jjuTsY.jpeg?width=640&crop=smart&auto=webp&s=493a9ded4b7d030c191863550ab280b35da7e742"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-greve-geral-em-portugal-mobiliza-milhare": {
+   "at": "2026-10-24T16:05:13.528Z",
+   "item": {
+    "id": "search-greve-geral-em-portugal-mobiliza-milhare",
+    "topic": "search",
+    "kind": "evergreen",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "greve",
+     "lisboa"
+    ],
+    "title": "Greve geral em Portugal mobiliza milhares contra políticas laborais",
+    "snippet": "A maior greve geral desde 2013 paralisou serviços e terminou com confrontos junto à Assembleia da República.",
+    "body": [
+     "A greve geral convocada pela CGTP e pela UGT paralisou transportes e serviços públicos em todo o país contra o pacote laboral do governo.",
+     "Esta foi considerada a paralisação mais importante em Portugal desde o período da crise financeira de 2013.",
+     "Em Lisboa, o protesto culminou em frente à Assembleia da República, onde se registaram confrontos e intervenção policial."
+    ],
+    "more": [
+     "A jornada de contestação refletiu o profundo descontentamento sindical face às medidas propostas para a legislação laboral."
+    ],
+    "source": {
+     "id": "wikipedia-search",
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2025_Portuguese_general_strike"
+    },
+    "image": {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Manifesta%C3%A7%C3%A3o_Greve_Geral%2C_Lisboa%2C_Dez._2025_%2854977121422%29.jpg/1280px-Manifesta%C3%A7%C3%A3o_Greve_Geral%2C_Lisboa%2C_Dez._2025_%2854977121422%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
    }
   }
  }

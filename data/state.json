@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T16:40:08.894Z",
+ "updatedAt": "2026-10-25T16:40:55.902Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -765,7 +765,7 @@
   "ai-microsoft-warns-ai-agents-are-insider-threats-as": 2,
   "fun-wilhelm-scream": 1,
   "fun-boaty": 1,
-  "fun-project-pigeon": 3,
+  "fun-project-pigeon": 4,
   "fun-boring-and-dull": 2,
   "fun-byron": 1,
   "bike-colnago-g5-x-stretched-out-dropped-low-and-cappi": 3,
@@ -813,8 +813,8 @@
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "til-what-colonial-williamsburg-ate-before-pa": 1,
   "til-sweden-s-giant-concrete-tribute-to-vineg": 2,
-  "til-the-mystery-of-the-oldest-surviving-amer": 1,
-  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 3,
+  "til-the-mystery-of-the-oldest-surviving-amer": 2,
+  "fun-a-christian-dad-takes-on-a-14-foot-hallo": 4,
   "design-is-a-high-production-movie-trailer-the-n": 4,
   "design-finding-accidental-beauty-in-awkward-fac": 4,
   "design-building-believable-fantasy-worlds-throu": 4,
@@ -865,9 +865,10 @@
   "til-how-a-stuck-popcorn-kernel-led-to-open-heart-sur": 1,
   "pt-os-protestos-e-atos-de-desobediencia-que-moldara": 1,
   "bike-bikepacking-with-a-17-foot-canoe-and-an-e-gravel": 1,
-  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 1,
+  "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 2,
   "search-protesto-de-acampados-regressa-a-lisboa": 1,
-  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1
+  "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1,
+  "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3267,6 +3268,16 @@
    "tag:lisboa",
    "tag:porto",
    "tag:habitacao"
+  ],
+  "bike-uci-gravel-worlds-skips-the-us-heartland-through": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:velo-gravel",
+   "style:news",
+   "tag:uci-gravel",
+   "tag:gravel-racing",
+   "tag:cycling-news",
+   "tag:world-championships"
   ]
  },
  "read": [
@@ -3397,7 +3408,8 @@
   "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
   "f1-christian-horner-reveals-true-stance-on-liam-law",
   "motion-exploring-retro-animation-styles-in-afte",
-  "ai-spotify-expands-paid-podcast-memberships"
+  "ai-spotify-expands-paid-podcast-memberships",
+  "bike-marianne-vos-claims-her-15th-world-title-on-aust"
  ],
  "saved": [
   "pt-1755",
@@ -4175,6 +4187,18 @@
     "style:news",
     "tag:tech",
     "tag:curiosities"
+   ]
+  },
+  "bike-marianne-vos-claims-her-15th-world-title-on-aust": {
+   "at": "2026-10-25T16:40:27.023Z",
+   "f": [
+    "topic:bike",
+    "sub:bike/gravel",
+    "source:velo-gravel",
+    "style:news",
+    "tag:gravel-racing",
+    "tag:marianne-vos",
+    "tag:uci-gravel-worlds"
    ]
   }
  },

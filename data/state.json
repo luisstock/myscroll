@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T16:40:55.902Z",
+ "updatedAt": "2026-10-25T16:42:02.820Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -542,7 +542,7 @@
   "unmuted": [],
   "orderByReading": true,
   "feedOrder": "mixed",
-  "activeMood": "relax",
+  "activeMood": null,
   "moods": [
    {
     "id": "relax",
@@ -744,7 +744,8 @@
   "ai-nvidia-openshell-kernel-level-sandboxes-for-auto",
   "design-how-a-five-year-old-creative-agency-built-a-bran",
   "bike-32-inch-gravel-wheels-gain-steam-with-new-tires",
-  "search-milhares-enchem-o-rossio-em-protesto-pel"
+  "search-milhares-enchem-o-rossio-em-protesto-pel",
+  "design-how-two-typed-dots-gave-pictoplasma-an-identity"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -855,10 +856,10 @@
   "fun-a-grand-former-theater-in-buenos-aires-found-a-s": 1,
   "science-could-a-heavy-neutrino-explain-why-the-universe": 1,
   "motion-beyond-standard-loops-adaptive-mograph-assets-in": 1,
-  "books-stripping-away-identity-to-see-how-fragile-human": 1,
+  "books-stripping-away-identity-to-see-how-fragile-human": 2,
   "til-three-very-real-disasters-that-happened-on-hallo": 1,
   "motion-sekondo-integrates-chatgpt-and-claude-straight-i": 1,
-  "books-we-are-the-living-consciousness-that-gives-the-u": 1,
+  "books-we-are-the-living-consciousness-that-gives-the-u": 2,
   "pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique": 1,
   "motion-a-look-at-blackstar-lullaby-an-indie-animated-pi": 1,
   "books-we-inherit-secrets-but-we-still-choose-what-we-b": 1,
@@ -868,7 +869,13 @@
   "bike-aero-32-inch-wheels-or-dropped-bars-on-an-mtb-wh": 2,
   "search-protesto-de-acampados-regressa-a-lisboa": 1,
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1,
-  "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1
+  "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1,
+  "books-uncovering-the-intimacies-behind-great-literatur": 1,
+  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 1,
+  "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": 1,
+  "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 1,
+  "ideas-to-study-the-invisible-track-how-visible-matter": 1,
+  "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3278,6 +3285,71 @@
    "tag:gravel-racing",
    "tag:cycling-news",
    "tag:world-championships"
+  ],
+  "books-uncovering-the-intimacies-behind-great-literatur": [
+   "topic:books",
+   "sub:books/creativity",
+   "source:guardian-books",
+   "style:book",
+   "tag:creative-process",
+   "tag:biography",
+   "tag:writing",
+   "tag:james-baldwin"
+  ],
+  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": [
+   "topic:ideas",
+   "source:paul-graham",
+   "style:idea",
+   "tag:critical-thinking",
+   "tag:innovation",
+   "tag:science",
+   "tag:epistemology"
+  ],
+  "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:macbook-pro",
+   "tag:oled",
+   "tag:hardware"
+  ],
+  "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": [
+   "topic:news",
+   "sub:news/economy",
+   "source:bbc-world",
+   "style:news",
+   "tag:trade-policy",
+   "tag:us-politics",
+   "tag:canada",
+   "tag:tariffs"
+  ],
+  "ideas-to-study-the-invisible-track-how-visible-matter": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:astrophysics",
+   "tag:dark-matter",
+   "tag:astronomy",
+   "tag:scientific-method"
+  ],
+  "design-how-two-typed-dots-gave-pictoplasma-an-identity": [
+   "topic:design",
+   "source:creative-boom",
+   "style:explainer",
+   "tag:branding",
+   "tag:typography",
+   "tag:motion-design",
+   "tag:identity-design"
+  ],
+  "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:macbook-pro",
+   "tag:laptops",
+   "tag:stylus",
+   "tag:touchscreen"
   ]
  },
  "read": [
@@ -6204,6 +6276,233 @@
     "lang": "en",
     "minutes": 1,
     "added": "2026-10-23",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-movimento-casa-para-viver-condemns-polic": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-movimento-casa-para-viver-condemns-polic",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-25",
+    "style": "reddit",
+    "tags": [
+     "lisboa",
+     "protest",
+     "housing",
+     "portugal"
+    ],
+    "title": "Movimento Casa Para Viver Condemns Police Violence and Calls for Protest",
+    "snippet": "The Casa Para Viver movement condemned police actions during housing rights encampments in Lisbon and Porto, calling for a demonstration at Parliament.",
+    "body": [
+     "Following clashes during housing protests in Lisbon and Porto, the Casa Para Viver movement has strongly condemned what it describes as police violence against peaceful demonstrators. The platform reported numerous injuries and detentions after security forces intervened during early morning hours.",
+     "The movement accuses the government of choosing to repress citizens highlighting the housing crisis rather than addressing the core issues, especially as funding for housing faces proposed cuts in the state budget."
+    ],
+    "more": [
+     "Protesters argue that exercising constitutional rights to assemble and advocate for housing should not be met with such force. The upcoming demonstration aims to channel public frustration directly toward political leaders at the Parliament.",
+     "As housing costs continue to push families out, tensions between activist groups and authorities remain high, pointing to a deeply polarized debate over urban living conditions and government accountability."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/porto",
+     "url": "https://www.reddit.com/r/porto/comments/1xf12rs/movimento_casa_para_viver_condena_violência/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/CBpBa1Z6_RGriyXvdu548ukpjgze3HlzbAQiPEnetk4.jpeg?width=640&crop=smart&auto=webp&s=e62225613a652a0666654975c8db3e422f82dbc1"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-a-demonstrator-s-account-of-detention-in": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-a-demonstrator-s-account-of-detention-in",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-25",
+    "style": "reddit",
+    "tags": [
+     "lisboa",
+     "protest",
+     "police",
+     "reddit"
+    ],
+    "title": "A Demonstrator's Account of Detention in Lisbon",
+    "snippet": "A participant shares their firsthand experience of being detained during a recent demonstration in Lisbon.",
+    "body": [
+     "A Reddit user shared their personal experience of being detained during a protest in Lisbon. According to the account, the detention occurred despite efforts to disperse when instructed.",
+     "The participant suggested that recording events with a video camera may have drawn unwanted attention from authorities during the ongoing demonstration."
+    ],
+    "more": [
+     "Firsthand reports like this highlight the tense interactions between individuals exercising their right to public assembly and law enforcement personnel on the ground. Such personal narratives provide a grassroots perspective on the broader sociopolitical conflicts unfolding in the capital."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/lisboa",
+     "url": "https://www.reddit.com/r/lisboa/comments/1xf2xdu/momento_em_que_fui_detido_ontem/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/cTF0NjNxNDljbXhoMRkJBAwKRKMGH-Z5n_KJoIyewOj4kiCzSbdErS-pqhBJ.jpeg?width=640&crop=smart&auto=webp&s=138cc7ef088991f2541f0339871b206a8f56118c"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-housing-protest-returns-to-lisbon-and-po": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-housing-protest-returns-to-lisbon-and-po",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-17",
+    "style": "reddit",
+    "tags": [
+     "lisboa",
+     "protest",
+     "housing",
+     "tents"
+    ],
+    "title": "Housing Protest Returns to Lisbon and Porto With More Tents",
+    "snippet": "Despite previous clashes, housing activists continue their demonstrations by setting up tents in Lisbon and Porto.",
+    "body": [
+     "The Movimento Pela Habitação has pressed forward with its demonstrations, expanding encampments in major public squares. The protests have drawn thousands of participants calling for urgent housing solutions.",
+     "Previous nights saw significant unrest and police interventions, but the movement has vowed to maintain its presence and demand government action against the escalating housing crisis."
+    ],
+    "more": [
+     "The persistence of the encampments underscores a growing frustration among urban residents regarding affordability and cost of living pressures. Activists continue to coordinate large-scale actions across multiple cities to maintain pressure on policymakers."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/porto",
+     "url": "https://www.reddit.com/r/porto/comments/1x85uas/protesto_de_acampados_regressa_com_mais_tendas/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/sg9atmE5uNvMDbdn9oUsUK4gdIOKj2LkRBYd7jjuTsY.jpeg?width=640&crop=smart&auto=webp&s=493a9ded4b7d030c191863550ab280b35da7e742"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-housing-encampments-spread-across-portug": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-housing-encampments-spread-across-portug",
+    "topic": "search",
+    "kind": "evergreen",
+    "published": "2026-10-17",
+    "style": "reddit",
+    "tags": [
+     "lisboa",
+     "porto",
+     "housing",
+     "protest"
+    ],
+    "title": "Housing Encampments Spread Across Portuguese Cities",
+    "snippet": "Protests for the right to housing expanded from Porto to Lisbon, Coimbra, and Faro.",
+    "body": [
+     "A national day of action brought thousands into the streets, leading to new encampments in several cities. In Lisbon, dozens of tents appeared in the Rossio square as part of the coordinated demonstrations.",
+     "The widespread participation highlights a nationwide concern over housing accessibility, uniting activists across different urban centers under a shared banner."
+    ],
+    "more": [
+     "The mobilization reflects a growing solidarity network among urban movements in Portugal. By taking their grievances to iconic public squares, protesters aim to force housing reform onto the national legislative agenda."
+    ],
+    "source": {
+     "id": "reddit-search",
+     "name": "r/porto",
+     "url": "https://www.reddit.com/r/porto/comments/1x8jxcr/praça_d_joão_i_volta_a_ser_palco_para_a_acampada/"
+    },
+    "image": {
+     "src": "https://external-preview.redd.it/mftovfbveAqyCVWbLy9HNhKQJTyVZ8ZF6GnDrUNiiYY.jpeg?width=640&crop=smart&auto=webp&s=eb0dea3bb2420390705ce0dc07ac4915e90da717"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-controversies-surrounding-jair-bolsonaro": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-controversies-surrounding-jair-bolsonaro",
+    "topic": "search",
+    "kind": "evergreen",
+    "style": "news",
+    "tags": [
+     "politics",
+     "controversy",
+     "brazil",
+     "history"
+    ],
+    "title": "Controversies Surrounding Jair Bolsonaro",
+    "snippet": "An overview of major controversies, statements, and political positions associated with Jair Bolsonaro.",
+    "body": [
+     "Jair Bolsonaro's political career has been marked by numerous controversies, ranging from his right-wing populist stance to contentious remarks regarding human rights, minority groups, and historical military regimes.",
+     "Critics and international organizations have frequently raised concerns over his rhetoric and policies, while his supporters have embraced his anti-establishment posture."
+    ],
+    "more": [
+     "His statements on sensitive historical events, public health during the pandemic, and institutional norms have continued to draw extensive debate and legal scrutiny throughout his career."
+    ],
+    "source": {
+     "id": "wikipedia-search",
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Controversies_surrounding_Jair_Bolsonaro"
+    },
+    "image": {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cartaz_Ele_N%C3%A3o_2018.jpg/1280px-Cartaz_Ele_N%C3%A3o_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
+    "fast": true,
+    "query": "manifestação lisboa"
+   }
+  },
+  "search-political-profile-of-andre-ventura": {
+   "at": "2026-10-25T16:41:00.588Z",
+   "item": {
+    "id": "search-political-profile-of-andre-ventura",
+    "topic": "search",
+    "kind": "evergreen",
+    "style": "news",
+    "tags": [
+     "portugal",
+     "politics",
+     "chega",
+     "biography"
+    ],
+    "title": "Political Profile of André Ventura",
+    "snippet": "A biographical overview of Portuguese politician André Ventura and the rise of the Chega party.",
+    "body": [
+     "André Ventura has emerged as a prominent figure in Portuguese politics as the founder and leader of the right-wing party Chega. Rising rapidly from local politics to parliamentary leadership, his party has secured significant electoral gains.",
+     "Before entering politics full-time, Ventura pursued legal studies, completed a PhD, and worked in academia, publishing various works and commentary on public law."
+    ],
+    "more": [
+     "His political trajectory has reshaped the traditional landscape of Portugal's National Assembly, making Chega a major force in the country's legislative elections and parliamentary opposition."
+    ],
+    "source": {
+     "id": "wikipedia-search",
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/André_Ventura"
+    },
+    "image": {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Andr%C3%A9_Ventura_Cumbre_de_Madrid_8_de_Febrero_%283x4_cropped%29.jpg/960px-Andr%C3%A9_Ventura_Cumbre_de_Madrid_8_de_Febrero_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "lang": "en",
+    "minutes": 1,
+    "added": "2026-10-25",
     "fast": true,
     "query": "manifestação lisboa"
    }

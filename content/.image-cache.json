@@ -376,5 +376,21 @@
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Yenny_Ateneo_Grand_Splendid.jpg/1280px-Yenny_Ateneo_Grand_Splendid.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Yenny_Ateneo_Grand_Splendid.jpg"
   },
-  "v2:en:Motion_graphics": null
+  "v2:en:Motion_graphics": null,
+  "v2:en:Plaza_Mayor,_Madrid": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Madrid_Plaza_Mayor_%2848733706273%29.jpg/1280px-Madrid_Plaza_Mayor_%2848733706273%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Madrid_Plaza_Mayor_(48733706273).jpg"
+  },
+  "v2:en:Stanford_University": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Statue_of_Stanford_Family.jpg/1280px-Statue_of_Stanford_Family.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Statue_of_Stanford_Family.jpg"
+  },
+  "v2:en:Hugging_Face": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Thomas_Wolf_at_Slush_2024.jpg/500px-Thomas_Wolf_at_Slush_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Thomas_Wolf_at_Slush_2024.jpg"
+  },
+  "v2:en:Paradigm_shift": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Duck-Rabbit_illusion.jpg/500px-Duck-Rabbit_illusion.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Duck-Rabbit_illusion.jpg"
+  }
 }

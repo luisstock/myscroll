@@ -1,0 +1,933 @@
+{
+  "date": "2026-10-29",
+  "number": 9,
+  "longread": {
+    "id": "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n",
+    "topic": "science",
+    "kind": "longread",
+    "published": "2026-10-29",
+    "style": "story",
+    "tags": [
+      "nasa",
+      "jpl",
+      "artemis-ii",
+      "reid-wiseman",
+      "space-exploration"
+    ],
+    "title": "From the Moon's Far Side to JPL: Reid Wiseman's Next Mission",
+    "snippet": "After leading the historic Artemis II lunar flyby, astronaut Reid Wiseman is stepping down to become deputy director of NASA's Jet Propulsion Laboratory.",
+    "body": [
+      "Reid Wiseman has seen the Earth from a perspective few humans ever will. As commander of the Artemis II mission, he led a four-person crew—alongside Victor Glover, Christina Koch, and Jeremy Hansen—on a historic lunar flyby that carried them 695,081 miles through space. It was a journey that took humanity farther than it had ever traveled before. During the flight, Wiseman watched the Sun disappear behind the Moon from deep space, an experience he later admitted there were simply no words in the English vocabulary to describe.",
+      "Now, the emeritus astronaut and retired U.S. Navy captain is stepping into a new role on Earth to help guide the next era of robotic exploration. Starting November 30, 2026, Wiseman will become the associate vice president of Caltech and deputy director of NASA’s Jet Propulsion Laboratory in Southern California.",
+      "Wiseman’s journey to JPL spans a long career at the edge of human limits. After earning a bachelor's degree in computer and systems engineering from Rensselaer Polytechnic Institute and a master's in systems engineering from Johns Hopkins University, he joined the Navy as a combat pilot and test pilot. NASA selected him as an astronaut in 2009. In 2014, he spent 165 days aboard the International Space Station as a flight engineer for Expedition 41, conducting hundreds of scientific experiments. Two years later, he commanded NASA’s 21st Extreme Environment Mission Operations expedition, living for eight days in a research habitat on the ocean floor.",
+      "Between December 2020 and November 2022, Wiseman served as NASA’s chief astronaut, overseeing crew safety and flight readiness across all human spaceflight missions. That broad leadership background prepared him to command Artemis II—and eventually paved the way for his transition to Caltech and JPL.",
+      "Founded by Caltech nearly 90 years ago, JPL operates as NASA's primary center for robotics and deep space exploration, serving as the agency's only federally funded research and development center. As deputy director, Wiseman will be responsible for strategic leadership, stewardship, and continuous improvement across laboratory operations.",
+      "In addition to collaborating with Caltech on institutional planning and management, he will serve as the Center Management Authority for JPL mission execution, ensuring operational excellence in accordance with federal regulations and NASA requirements. Wiseman will also act as JPL’s primary interface for national security programs.",
+      "For JPL leadership, bringing an astronaut of Wiseman's caliber into the executive suite adds exceptional bench strength. Lab director Dave Gallagher noted that it feels uniquely fitting for someone who traveled farther from Earth than any human in history to join an institution whose robotic probes have been venturing into the far reaches of the solar system for decades.",
+      "For Wiseman, the shift from piloting spacecraft to guiding robotic missions feels like a natural evolution. He views his time exploring space firsthand as the ultimate jumping-off point to tackle the seemingly impossible goals dreamed up by Caltech and JPL. Moving into the laboratory's 90th year, he aims to use his vantage point on Earth to keep pushing humanity's understanding of the solar system and the universe beyond."
+    ],
+    "source": {
+      "id": "nasa",
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"
+    },
+    "wiki": "Jet_Propulsion_Laboratory",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-10-29/science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n.jpg",
+      "credit": "www.nasa.gov"
+    },
+    "minutes": 2,
+    "added": "2026-10-29"
+  },
+  "items": [
+    {
+      "id": "til-archaeologists-found-a-200-year-old-rat-s-nest-f",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "til",
+      "tags": [
+        "archaeology",
+        "colonial-williamsburg",
+        "history",
+        "rodents"
+      ],
+      "title": "Archaeologists Found a 200-Year-Old Rat's Nest Full of Stolen Artifacts",
+      "snippet": "When restoration workers opened up a wall in Colonial Williamsburg, they discovered a centuries-old rodent hoard packed with silver forks, silk, and newspaper scraps.",
+      "body": [
+        "Archaeologists working on historical preservation at Colonial Williamsburg uncovered a rat's nest tucked deep inside a wall cavity. Instead of ordinary debris, the hoard was a miniature museum of 18th and 19th-century domestic life, preserved away from light and weather.",
+        "Among the stolen treasures was an intact silver fork, fragments of printed wallpaper, pieces of silk ribbon, and scraps of newspapers. Because rodents drag away whatever soft or shiny items they can carry, they unintentionally created an airtight time capsule of everyday objects."
+      ],
+      "more": [
+        "Pack rats and urban rodents are notorious for hoarding shiny or fibrous objects. When they construct nests inside sealed structural walls, dry conditions can preserve organic materials like paper and textiles for centuries without decay.",
+        "In historical buildings, these forgotten hoards offer archaeologists a rare glimpse into daily life that rarely appears in official records. While fine silverware and major furnishings were listed in formal estate inventories, casual personal items and fabric swatches rarely survived unless kept safe by unusual means.",
+        "Architectural archaeologists routinely inspect floor cavities and wall voids in historic structures for pest hoards. Items like theater stubs, pins, lace, and dated wrappers dragged behind the woodwork help establish precise timelines for when specific rooms were built or renovated, turning historic pest problems into unexpected archaeological finds."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xhihno/til_archaeologists_discovered_a_rats_nest_inside/"
+      },
+      "wiki": "Colonial_Williamsburg",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/til-archaeologists-found-a-200-year-old-rat-s-nest-f.jpg",
+        "credit": "File:Colonial_Williamsburg_(3205781804).jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "motion-renderjuice-announces-5-000-speed-blender-animat",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "evergreen",
+      "published": "2026-10-12",
+      "style": "news",
+      "tags": [
+        "blender",
+        "motion-design",
+        "3d-animation",
+        "geometry-nodes"
+      ],
+      "title": "RenderJuice Announces $5,000 'Speed' Blender Animation Contest",
+      "snippet": "Animators have two weeks to craft a short clip on the theme of speed, with dedicated prizes for motion design and procedural workflows.",
+      "body": [
+        "RenderJuice has announced Speed, an open Blender animation contest co-hosted with artist Florin Flammer. The competition invites creators to submit a 5 to 30 second piece centered on the theme of speed, offering a combined prize pool of $5,000 split across $1,500 in cash and $3,500 in cloud rendering credits.",
+        "While Blender must serve as the primary creation software, artists are free to render their scenes wherever they like. Submissions run from October 15 to October 31, 2026, requiring a free RenderJuice account, a short video or link, a brief description, and a single work-in-progress image submitted via Discord."
+      ],
+      "more": [
+        "Beyond standard first, second, and third-place prizes, the competition carves out distinct awards for specialty disciplines. Categories include Motion Design, simulation and FX, funniest animation, Best RenderJuice Promo, and Community Choice, ensuring that stylistic and technical craft both have paths to recognition.",
+        "A standout track for technical animators is the award dedicated to procedural and programmatic animation. This category highlights submissions leveraging Blender's bpy Python API, Geometry Nodes, drivers, and automation code. Participants competing in this bracket are expected to document and describe the underlying setups powering their movement.",
+        "Judging will be handled by two RenderJuice administrators alongside Florin Flammer according to published criteria. The Community Choice award will run separately through Discord voting, remaining open until November 3, 2026. No paid subscription is necessary to take part."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/renderjuice-speed-blender-animation-contest-2026/"
+      },
+      "wiki": "Blender_(software)",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/motion-renderjuice-announces-5-000-speed-blender-animat.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "ai-google-unveils-gemini-4-carbon-targeting-long-ho",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "gemini",
+        "cybersecurity",
+        "frontier-ai",
+        "coding-models"
+      ],
+      "title": "Google Unveils Gemini 4 Carbon, Targeting Long-Horizon Coding and Cyberdefense",
+      "snippet": "Just two weeks after Argon, Google announced Gemini 4 Carbon, a frontier model aimed at hunting vulnerabilities and running multi-day engineering agents.",
+      "body": [
+        "Google has announced Gemini 4 Carbon, its newest frontier model positioned at the top of the Artificial Analysis Intelligence Index v5.0 with a score of 59. Arriving just two weeks after Gemini 4 Argon, Carbon is tailored specifically around long-horizon coding tasks, agentic persistence, and software security.",
+        "The model is engineered to sustain complex engineering workflows across days, root-causing and fixing bugs deep inside large codebases. Google reports strong benchmark gains in autonomous cybersecurity, claiming top marks in vulnerability detection (88.2% on SEC-bench Pro), exploit validation (54.8% on ExploitGym), and patch generation (71.0% on CWE-bench)."
+      ],
+      "more": [
+        "Beyond cybersecurity benchmarks, Google highlights improvements in developer experience and full-stack development, with Carbon jumping 89 Elo points to fourth place on WebDev Arena. The Chrome engineering team noted that Carbon generated patches with over ten times the reliability of an unnamed competing frontier model, while security firm Wiz reported strong results in web penetration testing tests.",
+        "A large portion of the technical release centers on alignment safeguards and training against behavioral loopholes. Google reported reducing successful cheating on Terminal-Bench 4.0 to zero percent, with cheat attempts dropping to 0.4%. High-severity misalignment alerts in internal coding environments fell by nearly 80%, accompanied by a roughly two-fold reduction in unsupported claims and fabrications.",
+        "Prompt injection defenses also saw notable metrics: on Gray Swan's Indirect Prompt Injection benchmark, where Argon scored an attack success rate of 0.7%, Carbon resisted all evaluated attacks to achieve a 0.0% compromise rate. Google also measured reductions in task overreach (down 26%) and under-service (down 29%) to keep agents constrained to requested project scopes.",
+        "Rollout follows a phased access model through Google's Fairwind Program, starting with pre-release government testing and select cyber defense partners. For general developer access, introductory pricing will match Argon at $2 per million input tokens and $10 per million output tokens, along with a 95% discount applied to cached prompt inputs."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      "wiki": "Gemini_(language_model)",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/ai-google-unveils-gemini-4-carbon-targeting-long-ho.png",
+        "credit": "blog.google"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "ai-running-a-32-bit-risc-v-processor-inside-an-llm",
+      "topic": "ai",
+      "sub": "local-llm",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "explainer",
+      "tags": [
+        "local-llm",
+        "qwen",
+        "risc-v",
+        "computer-use"
+      ],
+      "title": "Running a 32-Bit RISC-V Processor Inside an LLM’s Weights",
+      "snippet": "A developer has embedded a functional 32-bit CPU directly into Qwen's weights, allowing the model to compute instructions internally.",
+      "body": [
+        "In an unusual experiment blending hardware architecture and deep learning, developer divagr has embedded a functional 32-bit RISC-V CPU directly into the neural network weights of a Qwen model.",
+        "Dubbed 'Qwenputer' and built on Qwen3.5-4B, the system enables the language model to execute instructions internally across its forward passes, rather than relying on external tool calls or an external Python interpreter.",
+        "While traditional models simulate program output through approximate next-token generation, this setup attempts to run deterministic CPU operations directly within the weight space. Live interactive demos and model checkpoints were released to show internal instruction processing in action."
+      ],
+      "more": [
+        "Typically, when language models need to execute code or manipulate system states, they offload execution to a sandbox using structured tool calling: the model writes out text or JSON, a host CPU runs the payload, and the stdout returns as context. Qwenputer bypasses that external loop by folding the instruction decoding and register updates into the model's internal operations.",
+        "The project is hosted publicly across several hubs, featuring an open Hugging Face checkpoint (Qwen3.5-4B-Qwenputer), a live interactive studio demo hosted on ModelScope, and a technical write-up detailing the mapping of registers and arithmetic logic onto model weights.",
+        "In the local model community, the concept sparked interest around the boundaries of agentic computer use. If a transformer can reliably host deterministic virtual CPU logic without hallucinating state transitions, it could alter how autonomous agents handle low-level control flows and verified computational steps without round-trips to external runtimes."
+      ],
+      "source": {
+        "id": "r-localllama",
+        "name": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/"
+      },
+      "wiki": "RISC-V",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/ai-running-a-32-bit-risc-v-processor-inside-an-llm.jpg",
+        "credit": "File:Raven1ST28_June12BWRC.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "bike-a-modified-canyon-grail-cf7-running-57-5mm-rubbe",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "reddit",
+      "tags": [
+        "canyon-grail",
+        "gravel-gear",
+        "custom-build",
+        "bike-maintenance"
+      ],
+      "title": "A modified Canyon Grail CF7 running 57.5mm rubber on aero rims",
+      "snippet": "Swapping stock wheels for 32mm internal width rims turned this fast gravel machine into a plush, wide-tire rocket.",
+      "body": [
+        "A gravel rider shared their custom build of a Canyon Grail CF7 Speed, taking a fast setup and dialing in comfort and performance. Key modifications include swapping the stock hookless wheels for Elitewheels Gravel Aero+ with a wide 32mm internal width, paired with 2.2-inch Dubnitals.",
+        "On these extra-wide rims, the tires expand to roughly 57.5mm, leaving around 4mm of clearance in the fork. Beyond the rubber, the build features a SRAM Force power meter with a 42T Garbaruk aero chainring and a Silca hot-waxed Force chain."
+      ],
+      "more": [
+        "The decision to swap out the stock Canyon GR50 wheels stemmed from two main preferences: moving away from hookless rim profiles and gaining a wider internal rim bed. The 32mm internal width stretches out the 2.2-inch tires significantly, turning rough trail chatter into a supple ride, though the tight 4mm frame clearance means it is best reserved for dry conditions.",
+        "Drivetrain updates were centered on power tracking and clean aesthetics. Replacing the stock Rival crank with a Force power meter unit and a 42T Garbaruk aero chainring shaved weight while providing key metrics. The chain maintenance routine shifted to hot-waxing using Silca wax, running two alternating chains every 1,000 kilometers.",
+        "In community discussions around custom Grail setups, riders frequently deliberate on wheel clearance limits and cockpit ergonomics. A recurring point of feedback on recent Canyon models is the proprietary Gear Groove computer mount, which some owners report feels loose compared to traditional out-front mounts.",
+        "Future plans for this build include switching to a slightly narrower 2.1-inch tire to regain safe mud clearance, along with fitting a narrower flared handlebar once suitable headset adapters become available."
+      ],
+      "source": {
+        "id": "r-gravelcycling",
+        "name": "r/gravelcycling",
+        "url": "https://www.reddit.com/r/gravelcycling/comments/1xhljap/first_ride_on_my_new_modified_grail_cf7_speed/"
+      },
+      "wiki": "Canyon_Bicycles",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/bike-a-modified-canyon-grail-cf7-running-57-5mm-rubbe.jpg",
+        "credit": "File:Canyon_hq.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "bike-two-bikes-in-one-transformable-geometry-on-a-fai",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "reddit",
+      "tags": [
+        "fairlight-secan",
+        "gravel-gear",
+        "bike-fit",
+        "steel-bikes"
+      ],
+      "title": "Two bikes in one: transformable geometry on a Fairlight Secan 3.0",
+      "snippet": "By swapping stem lengths and spacers, this steel gravel build switches seamlessly between aggressive road pace and high-volume trail endurance.",
+      "body": [
+        "A freshly completed Fairlight Secan 3.0 build highlights how clever cockpit adjustment can give a steel gravel frame two distinct personalities. Configured with a 110mm stem and minimal spacers, the bike handled a 125km road race on 35mm slicks with a 36 km/h average speed.",
+        "Swapping over to an 80mm stem, 3.5cm of spacers, and 54mm Thunder Burt tires converts the same chassis into an endurance gravel rig capable of smoothing out rough Category 3 gravel at low pressures."
+      ],
+      "more": [
+        "The Fairlight Secan 3.0 is built around proportional geometry concepts that allow for drastic position shifts without ruining handling dynamics. In its road race trim, fitted with 35mm GP5000 tires mounted on 30mm internal width carbon rims, the total weight sat at a respectable 9.3kg for a size 61 Tall frame.",
+        "Transitioning to full off-road duty involves swapping the cockpit to a shorter 80mm stem and raising the stack height by 1.5cm. Paired with 54mm Schwalbe Thunder Burt tires inflated to 20 PSI, the higher tire volume absorbs vibration effectively, making rough gravel tracks feel remarkably like smooth asphalt.",
+        "Riders discussing custom steel gravel builds often praise the Secan for its balance of frame compliance and stiffness under power. Personalized touches, like custom laser-etched graphics on the rims, further underscore why riders opt for frame-up builds over off-the-shelf bikes.",
+        "With wide tire clearances now standard on modern steel gravel frames, modular cockpit setups offer a practical way for single-bike owners to cover everything from paved group rides to multi-day bikepacking events."
+      ],
+      "source": {
+        "id": "r-gravelcycling",
+        "name": "r/gravelcycling",
+        "url": "https://www.reddit.com/r/gravelcycling/comments/1xhyn96/fairlight_secan_30/"
+      },
+      "wiki": "Bicycle_geometry",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/bike-two-bikes-in-one-transformable-geometry-on-a-fai.jpg",
+        "credit": "File:Fork-rake.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "news-us-ambassador-pete-hoekstra-stirs-controversy-by",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "us-politics",
+        "canada",
+        "diplomacy",
+        "trade-disputes",
+        "cross-border"
+      ],
+      "title": "US ambassador Pete Hoekstra stirs controversy by linking Canadian trade to midterm votes",
+      "snippet": "Leaked remarks suggest Canada could face blame if swing states flip, further straining cross-border relations.",
+      "body": [
+        "The United States ambassador to Canada, Pete Hoekstra, reportedly told business leaders in a private meeting that Canada could face blame from Donald Trump if Republicans lose crucial swing races in the upcoming midterm elections. The comments, reported by CTV News, center on key battleground states such as Michigan and Maine.",
+        "The exchange lands in the middle of a prolonged trade standoff between the two historic allies, marked by US tariffs and Canadian retaliatory duties. Hoekstra has previously accused Canadian politicians and anti-tariff television campaigns of meddling in American electoral politics, drawing formal pushback from Canadian leaders.",
+        "Canadian Prime Minister Mark Carney dismissed the suggestion of interference, expressing disappointment that the US envoy continues to fan bilateral tensions rather than work toward negotiated resolutions."
+      ],
+      "more": [
+        "Pete Hoekstra's tenure as ambassador has been marked by friction. A former Michigan representative, Hoekstra has previously characterized Canadian public pushback to aggressive US trade postures as anti-American and described suggestions that Canada become the 51st US state as an offer made out of affection. The friction became so acute earlier this year that an official House of Commons petition gathered over 225,000 signatures demanding his expulsion for violating diplomatic neutrality.",
+        "The immediate core of the dispute remains economic. Ottawa has introduced targeted retaliatory tariffs aimed specifically at products produced in US states with heavy cross-border commerce. In response, Hoekstra pointed to Canadian political figures appearing in US media and an Ontario government ad campaign on American television as unwarranted meddling in domestic politics, cautioning Canadians to stay out of US elections.",
+        "The US embassy in Ottawa pushed back against the CTV report, claiming the ambassador's remarks were taken out of context from a wider discussion on trade dynamics and reiterating that domestic issues ultimately decide American ballots. Nevertheless, diplomatic observers note that publicly framing trade partners as potential scapegoats for electoral setbacks is deeply unorthodox.",
+        "Foreign policy analysts argue the rhetoric is having the opposite of its intended effect in Ottawa. Rather than pressuring Canadian officials into tariff concessions, the aggressive stance has unified Canadian political leaders and hardened public support against unilateral trade pressure, leaving little room for near-term diplomatic compromise."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms"
+      },
+      "wiki": "Pete_Hoekstra",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/news-us-ambassador-pete-hoekstra-stirs-controversy-by.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "news-australia-s-menindee-lakes-drop-to-five-year-low",
+      "topic": "news",
+      "sub": "climate",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "australia",
+        "water-security",
+        "murray-darling",
+        "drought",
+        "ecology"
+      ],
+      "title": "Australia's Menindee Lakes drop to five-year lows, raising alarms of mass fish deaths",
+      "snippet": "Water levels in western New South Wales have plummeted below critical thresholds, triggering emergency upstream restrictions.",
+      "body": [
+        "Water volumes across the Menindee Lakes system in western New South Wales have fallen below 480 gigalitres for the first time since 2021. With upper lake volumes dipping below 250 gigalitres, the state government has enacted mandatory water use restrictions across parts of the northern Murray-Darling basin to safeguard supplies for human needs and basic river health.",
+        "The sharp drawdown follows a year of persistently low rainfall throughout the catchment. Scientists and local residents warn that without significant flows down the Darling-Baaka River, the region risks a catastrophic repeat of the mass fish kills that choked the waterways in 2018, 2019, and 2023.",
+        "NSW authorities have set up temporary fish passages and a water quality working group, but officials acknowledge that without substantial new rainfall across the basin, managing water quality and native fish survival over the coming summer will be an uphill battle."
+      ],
+      "more": [
+        "The Menindee Lakes serve as an essential freshwater nursery and regulator for the Darling-Baaka River network, but they are also exceptionally vulnerable to evaporation and upstream water diversion. When storage drops to what local monitors refer to as 'drought reserve volumes,' the system enters strict preservation mode, forcing regulators to cut off irrigation allocations in an effort to keep river channels functioning.",
+        "The memory of previous ecological disasters hangs heavily over the community. In 2018, 2019, and again in 2023, millions of dead fish surfaced along stretches of the river due to abrupt deoxygenation events triggered by heatwaves, stagnant water, and thick algal blooms. Local river observers note that the water is already taking on the characteristic green tint that precedes severe oxygen depletion.",
+        "While minor inflows have recently crossed the Queensland border, experts like Professor Jamie Pittock of the Australian National University stress that these small trickles are insufficient. Sustained relief requires a major rainfall event combined with state intervention to prevent upstream irrigators from harvesting the crucial initial flush of water.",
+        "Policy implementation remains a sore point. Two years ago, an independent connectivity panel recommended binding limits on upstream extraction during dry spells to maintain base flows into the Darling-Baaka. However, the NSW government has yet to enact those recommendations, drawing criticism from river advocates who argue that structural reforms to basin management are repeatedly delayed until emergencies strike."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears"
+      },
+      "wiki": "Menindee_Lakes",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/news-australia-s-menindee-lakes-drop-to-five-year-low.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "hardware",
+        "manufacturing",
+        "supply-chain",
+        "policy"
+      ],
+      "title": "Anduril Pledges Its 2027 Laptop Will Clear Buy American Rules",
+      "snippet": "After initially admitting its prototype was only 32% domestic, Anduril now claims its upcoming laptop will cross the 65% US parts threshold at launch.",
+      "body": [
+        "Defense contractor Anduril and Qualcomm announced an initiative to design and assemble laptops in the United States by 2027, eventually aiming for an entirely domestic supply chain. No major American computer maker—including Apple, Dell, or HP—manufactures laptops domestically, making the project a rare endeavor.",
+        "Under the Buy American Act, federal hardware must hit a 65% domestic-cost threshold, a bar currently bypassed via waivers. When pressed about the component makeup, Anduril initially stated the prototype sat at roughly 32% domestic content and labeled the launch breakdown \"TBD.\" However, the firm quickly reversed course, officially committing that the BlueChip laptop will exceed the 65% threshold when it debuts."
+      ],
+      "more": [
+        "The shift in messaging happened over two days of questioning. In an initial briefing, founder Palmer Luckey admitted the final composition remained uncertain due to the realities of semiconductor fabrication and display manufacturing. He noted that while the outer frame and cover glass would be domestic, many core parts were up in the air, creating a prototype that stood at roughly 32% domestic procurement cost.",
+        "Hours after stating it was too early to confirm whether the device would fall above or below 65%, Anduril revised its position. Communications VP Shannon Prior confirmed the machine is being explicitly engineered to clear the 65% mark at launch, which would allow federal agencies to purchase it without relying on routine waiver loopholes.",
+        "To hit that target, Anduril plans to machine enclosures domestically using scalable US metals, source cover glass locally, develop made-in-America batteries, and program FPGAs to stand in for power management chips typically sourced from China.",
+        "On the processing side, Qualcomm CEO Cristiano Amon confirmed that the laptop's Snapdragon chips are slated to be manufactured in Arizona at TSMC's facility, anchoring one of the most critical silicon components inside the country."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american"
+      },
+      "wiki": "Buy_American_Act",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/tech-anduril-pledges-its-2027-laptop-will-clear-buy-a.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "apple",
+        "macbook-pro",
+        "oled",
+        "displays"
+      ],
+      "title": "Apple Brings 2,000-Nit Tandem OLED to the MacBook Pro",
+      "snippet": "Apple’s latest MacBook Pro pairs an ultra-bright tandem OLED panel with touch support, solving traditional contrast and brightness tradeoffs.",
+      "body": [
+        "Apple has overhauled the MacBook Pro display, introducing a stacked tandem OLED architecture branded as PROLED XDR. While OLED panels have populated Windows laptops for a decade, they historically struggled with low overall brightness and heavy reflections compared to mini-LED alternatives.",
+        "The redesigned panel hits 1,000 nits under normal usage and reaches 2,000 nits in bright environments or HDR playback across both SDR and HDR workflows. By shedding traditional backlight assemblies, the 14-inch model also drops down to 3 pounds—making it 12 percent lighter than the prior chassis generation."
+      ],
+      "more": [
+        "The shift from mini-LED to tandem OLED eliminates the persistent problem of blooming, where high-contrast edges bleed light into adjacent dark pixels. Because OLED pixels can switch completely off, deep shadows seamlessly match the display's borders without sacrificing fine detail in darker scenes.",
+        "Apple achieves the high luminance by stacking emission layers, iterating on the technique introduced in the 2024 iPad Pro. Unlike standard OLED laptops that restrict top brightness exclusively to HDR media windows, this screen can push SDR interfaces and everyday apps to the same peak output when environmental sensors detect harsh ambient light.",
+        "To manage ambient glare, the chassis pairs the display's brightness with a newly refined anti-reflective coating, alongside an optional etched nano-texture finish for both the 14-inch and 16-inch sizes.",
+        "Alongside the panel redesign, Apple has added touchscreen support. It incorporates gestures adapted from iPadOS—such as pinch-to-zoom, window-snapping into Split View, and tap-and-slide controls in the Menu Bar—though third-party application support remains varied and Apple Pencil input is not supported."
+      ],
+      "source": {
+        "id": "wired",
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/"
+      },
+      "wiki": "OLED",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo.jpg",
+        "credit": "www.wired.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "science-why-comets-probably-didn-t-deliver-life-s-starte",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "origins-of-life",
+        "planetary-science",
+        "comets"
+      ],
+      "title": "Why comets probably didn't deliver life's starter kit to Earth",
+      "snippet": "New computer models suggest that delivering intact prebiotic chemicals to Earth via cometary impacts was almost an impossible fluke.",
+      "body": [
+        "For decades, comets were viewed as convenient couriers of prebiotic chemistry, carrying essential carbon- and nitrogen-rich molecules to a sterile early Earth. A Cambridge-led study now suggests that narrative is chemically and physically unlikely.",
+        "Using computer simulations, astronomers tested whether impacting comets could reliably deliver concentrated hydrogen cyanide (HCN)—a crucial precursor needed in labs to produce sugars, lipids, and genetic building blocks. Delivering it intact proved remarkably difficult.",
+        "Across 100,000 simulated histories of Earth's early bombardment, 54% saw zero impacts that deposited HCN in concentrations high enough for prebiotic chemistry, primarily because high speeds and atmospheric heat destroy the delicate organic cargo."
+      ],
+      "more": [
+        "The idea of giant 'space snowballs' seeding our world offered an elegant solution for planetary origins of life. Hydrogen cyanide is especially prized in prebiotic chemistry because laboratory experiments demonstrate that, at sufficient concentrations, it drives pathways leading to amino acids, lipids, and RNA precursors.",
+        "However, physical realities during atmospheric entry get in the way. Small comets tend to violently break apart in the atmosphere, while larger bodies impact at extreme velocities. The intense friction and collision heat routinely obliterate the very organic molecules researchers hope to preserve.",
+        "Lead author Dr. Richard Anslow explained that successful delivery would demand a freak set of circumstances: a comet entering at precisely the right velocity and trajectory angle, followed by immediate environmental conditions that keep the payload concentrated enough to initiate chemical reactions.",
+        "Curiously, the simulations showed that Mars offered a much more hospitable landing ground for cometary chemistry. With thinner air and weaker gravity, comets strike Mars with lower velocities, allowing far more HCN to reach the surface intact—suggesting that if comets truly seeded life, the Red Planet had far better odds than Earth."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/biology/comets-life-ingredients-early-earth-15162.html"
+      },
+      "wiki": "Abiogenesis",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/science-why-comets-probably-didn-t-deliver-life-s-starte.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "science-webb-peers-into-the-fiery-nursery-of-n159",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "james-webb-space-telescope",
+        "space",
+        "astrophysics"
+      ],
+      "title": "Webb peers into the fiery nursery of N159",
+      "snippet": "A new infrared view reveals dense molecular filaments sheltering infant stars across a massive emission nebula 161,000 light-years away.",
+      "body": [
+        "Astronomers using the James Webb Space Telescope have mapped N159, a sprawling HII complex spanning roughly 230 light-years in the Large Magellanic Cloud. Less than 3 million years old, this turbulent nursery is actively collapsing cold hydrogen gas into thousands of newborn stars.",
+        "Using Webb's Near-Infrared Camera (NIRCam), researchers cut through obscuring cosmic dust to distinguish newborn stars from older populations. The imagery captures pale blue pockets of ionized hydrogen, smoky orange glows from polycyclic aromatic hydrocarbons, and deep red filaments of molecular gas.",
+        "Crucially, these thick filaments act as shields, protecting newly forming stars from the harsh ultraviolet radiation and intense stellar winds blasting from massive neighbors before the surrounding clouds ultimately melt away."
+      ],
+      "more": [
+        "HII regions are prime cosmic markers of star formation. When giant molecular clouds collapse under their own gravity, they forge massive, scorching stars whose ultraviolet light ionizes the adjacent hydrogen gas, transforming the clouds into glowing emission nebulae.",
+        "The high-resolution data from NIRCam allowed astronomers to detect faint, low-mass stars with less than one-tenth the mass of our Sun. These tiny stellar objects were seen embedded directly within dense filaments and emerging inside pillars of orange gas extending into carved-out bubbles.",
+        "Interestingly, the research team identified a distinct east-west developmental split across N159. The western section holds a noticeably denser concentration of young stellar objects compared to the east, revealing that star formation is kicking off sequentially across the nebula.",
+        "Because N159 hosts various stages of birth simultaneously, astronomers consider it a rare and accessible natural laboratory for tracking how molecular clouds collapse, sculpt their environments, and gradually release their finished stars."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/webb-turbulent-stellar-nursery-15159.html"
+      },
+      "wiki": "Large_Magellanic_Cloud",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/science-webb-peers-into-the-fiery-nursery-of-n159.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "design-mother-design-started-a-brand-identity-project-w",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "branding",
+        "typography",
+        "graphic-design",
+        "identity"
+      ],
+      "title": "Mother Design started a brand identity project with a séance and charcoal",
+      "snippet": "To build an identity for psychic platform Purple Garden without tired clichés, Mother Design shut off the rational mind with automatic drawing and trance sessions.",
+      "body": [
+        "When Mother Design took on the rebrand of Purple Garden—a digital psychic services platform in a $2.3 billion industry—they faced the tricky task of translating intimate, spiritual energy into screen-based graphics without leaning on tired mystical tropes.",
+        "To figure out the visual direction, the design team staged an actual séance, a chakra reading, and an automatic drawing workshop guided by a holistic practitioner. Sketching instinctively with charcoal, they bypassed deliberate conscious thought, creating raw, unexpected textures and energetic marks that became the aesthetic base of the entire identity.",
+        "The resulting visual language pairs that tactile experimentation with sharp digital execution. It features custom typography inspired by cymatic sound vibrations, alongside a balanced type system built on Literatura Present and ABC Social, anchored by a palette of six warm purples rather than the sector's standard cool blue tones."
+      ],
+      "more": [
+        "The project was grounded in the insight that spiritual advice often revolves around recurring life questions. Rather than treating Purple Garden as an emergency stop for one-off readings, the studio framed it around the concept of 'A Living Practice'—positioning the platform as an ongoing tool for seasoned seekers rather than passive consumers.",
+        "The creative process drew direct inspiration from Swedish abstract pioneer Hilma af Klint and The Five, a collective of women who used trance-like states and automatic writing in the late 19th and early 20th centuries to generate art beyond rational control. Mother Design wanted that same spontaneous energy to spill directly into the screen experience.",
+        "To bridge the divide between charcoal sketches and slick application interfaces, the studio bounced repeatedly between traditional design software and generative AI tools. This iterative ping-pong injected further unpredictability into the workflow, keeping the assets from feeling over-polished or stiff.",
+        "Typographically, the identity relies on fluid, expanding forms. The custom wordmark uses curved corners and extended serifs that appear to grow, supported by a geometric, crystal-like glyph that doubles as an icon system for in-app navigation. Moving elements mimic cymatic patterns—the visual shapes created by acoustic vibrations—symbolizing constant personal transformation.",
+        "This roll-out follows Mother Design's earlier work for Keen, another brand under the Ingenio umbrella. While Keen targets beginners who are mildly spiritually curious, Purple Garden's richer, tactile design speaks to committed practitioners navigating everyday life through ritual."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/work/how-mother-design-turned-a-seance-into-a-new-identity-for-purple-garden/"
+      },
+      "wiki": "Hilma_af_Klint",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/design-mother-design-started-a-brand-identity-project-w.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "design-how-span-turned-an-equals-sign-into-a-civic-iden",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "typography",
+        "identity"
+      ],
+      "title": "How Span turned an equals sign into a civic identity for Illinois Human Rights",
+      "snippet": "Chicago studio Span gave the Illinois Department of Human Rights a punchy typographic identity built around an equal sign hiding in plain sight.",
+      "body": [
+        "The Illinois Department of Human Rights (IDHR) has investigated civil rights violations across employment, housing, and public accommodation since 1980. However, public cynicism and bureaucratic opacity led to worries that residents could no longer clearly see or trust the agency's mission.",
+        "Chicago design practice Span stepped in to revamp the department's visual identity, taking inspiration from classic civil rights posters, protest placards, and mid-century public information campaigns. The goal was to establish confidence and directness without crossing into state propaganda.",
+        "The core of the rebrand is an ingenious typographic layout set in HEX Franklin. By splitting the dominant words 'Human Rights' across two lines and sandwiching the smaller phrase 'Illinois Department of' in between, the lockup forms a clear, structural equal sign before the viewer even finishes reading the text."
+      ],
+      "more": [
+        "IDHR's leadership recognized that a new logo could not single-handedly repair institutional distrust. Instead, the initiative focused on visibility: a right that people do not know exists or cannot easily understand is effectively impossible to use. The redesign needed to preserve the agency's legal neutrality while making its protective mission loud and approachable.",
+        "Span design director Nick Adam looked closely at mid-century American graphic design history, particularly the work of Chicago designer Lester Beall for the Rural Electrification Administration. That lineage influenced the bold horizontal striping and heavy, trustworthy letterforms.",
+        "The typographic equal sign also functions as an adaptable civic symbol, echoing banner ribbons and flag stripes. Because the visual trick establishes the theme of legal equality instantly, it provides a strong focal point across busy public spaces.",
+        "To make the system immediately useful, Span built an extensive rapid-response communication toolkit. This system standardizes layouts for urgent announcements, rights awareness sheets, and social campaigns, giving public servants an intuitive framework to publish vital notices quickly without sacrificing coherence.",
+        "The brand toolkit extends into high-visibility field assets, including step-and-repeat backdrops, table runners, buttons, and stickers used at Juneteenth celebrations, the Illinois State Fair, and the Chicago Pride Parade. The agency aims to ensure legal protections remain unmistakable to every resident across the state."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/work/spans-identity-for-illinois-department-of-human-rights-turns-a-common-piece-of-punctuation-into-a-rallying-cry/"
+      },
+      "wiki": "Lester_Beall",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/design-how-span-turned-an-equals-sign-into-a-civic-iden.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "pt-portugal-confirmado-na-eurovisao-de-2027-canada",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "news",
+      "tags": [
+        "eurovisao",
+        "musica",
+        "festival-da-cancao",
+        "rtp"
+      ],
+      "title": "Portugal confirmado na Eurovisão de 2027: Canadá estreia-se e três países boicotam",
+      "snippet": "A lista de 36 países para a próxima Eurovisão traz estreias e várias desistências em protesto contra Israel.",
+      "body": [
+        "A União Europeia de Radiodifusão anunciou os 36 países concorrentes para a 71.ª edição do Festival Eurovisão da Canção, que terá lugar em Burgas, na Bulgária, em 2027. Portugal confirmou a sua presença habitual, mas o alinhamento chega com novidades inesperadas: a estreia do Canadá e o regresso da Macedónia do Norte após quatro anos de ausência.",
+        "A polémica participação de Israel continua a moldar o evento. Países Baixos, Irlanda e Islândia mantêm-se fora da competição em protesto pelo conflito na Faixa de Gaza, enquanto Espanha e Eslovénia ainda ponderam a adesão até ao fim do ano. Por razões distintas, a Chéquia invocou ajustes no orçamento para justificar a sua ausência."
+      ],
+      "more": [
+        "No plano nacional, a RTP marcou a final do Festival da Canção para 6 de março de 2027, data em que será escolhido o representante português em Burgas. O processo arranca já com a abertura de candidaturas para apurar 16 canções a concurso.",
+        "A confirmação portuguesa dá seguimento a uma campanha recente agridoce: em 2026, os Bandidos do Cante representaram o país em Viena com o tema «Rosa», mas acabaram por não passar à grande final após ficarem no 12.º lugar da sua semifinal."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/musica/sem-surpresas-portugal-confirmado-na-eurovisao-canada-estreia-se-e-israel-nao-sai"
+      },
+      "wiki": "Eurovision_Song_Contest",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-29/pt-portugal-confirmado-na-eurovisao-de-2027-canada.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "pt-como-o-amor-reteve-um-chef-colombiano-em-lisboa",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "story",
+      "tags": [
+        "gastronomia",
+        "lisboa",
+        "restaurantes",
+        "alvalade"
+      ],
+      "title": "Como o amor reteve um chef colombiano em Lisboa para reinventar a massa fresca",
+      "snippet": "Kelvin Muñoz planeava viajar até Itália, mas casou em Portugal e abriu três espaços dedicados à pasta de autor.",
+      "body": [
+        "O percurso de Kelvin Muñoz parecia traçado para terminar em Itália após anos de formação gastronómica pela América Latina. No entanto, uma paragem em Lisboa há sete anos mudou o guião: apaixonou-se por uma portuguesa, casou e acabou por assentar arraiais na capital.",
+        "Sentindo que a sua origem colombiana geraria desconfiança na confeção estritamente tradicional italiana, Muñoz decidiu antes criar pontes entre a pasta clássica e a cozinha de autor. O resultado é o Rugo Pasta Fresca, acabado de abrir em Alvalade com massa de produção diária e influências latinas."
+      ],
+      "more": [
+        "Depois de inaugurar o Grano (no Chiado) e o Trama, o Rugo é o terceiro projeto de Muñoz num único ano. Com decoração dominada por tons amarelos concebida por Madalena Tuna, o restaurante tem capacidade para 80 clientes na Avenida Rio de Janeiro e procura a tranquilidade residencial do bairro, longe do reboliço turístico do centro.",
+        "A ementa equilibra pratos familiares com reinvenções: serve desde lasanha à bolonhesa a raviolis de beringela com camarão e bisque, até um fetucine com leite de coco e trufa negra. Nas entradas, o chef arrisca amêijoas com nduja — piscando o olho às clássicas à Bulhão Pato — e fecha a refeição com rabanadas feitas de focaccia acompanhadas de caramelo salgado."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/comida/restaurantes/rugo-o-restaurante-em-alvalade-que-junta-os-classicos-italianos-a-cozinha-de-autor"
+      },
+      "wiki": "Alvalade_(Lisbon)",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-10-29/pt-como-o-amor-reteve-um-chef-colombiano-em-lisboa.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "books-serve-the-story-keep-your-bag-by-the-door-and-ne",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-10-28",
+      "style": "book",
+      "tags": [
+        "acting",
+        "craft",
+        "memoir",
+        "creativity"
+      ],
+      "title": "Serve the story, keep your bag by the door, and never retire",
+      "snippet": "Judi Dench looks back on decades of stagecraft, candidly embracing stage fright, ignoring vanity, and refusing to take the key out of the ignition.",
+      "body": [
+        "Constructed from conversations with director Brendan O'Hea, Judi Dench's memoir reflects on a legendary career anchored by the theatre. Early on, a film producer told her she would never make movies because she had 'every single thing wrong' with her face—a critique she brushed aside to focus purely on craft.",
+        "Dench reveals a working life governed by sharp self-deprecation, fierce dedication to storytelling over glamour, and persistent stage fright that still makes her want to keep an escape bag near the door."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/28/is-it-too-late-to-make-a-run-for-it-by-judi-dench-review-whatever-you-do-dont-call-her-a-national-treasure"
+      },
+      "wiki": "Judi_Dench",
+      "lang": "en",
+      "book": {
+        "title": "Is It Too Late to Make a Run for It?",
+        "author": "Judi Dench",
+        "lessons": [
+          {
+            "title": "Prioritize story over personal vanity",
+            "text": "Dench never worried about looking glamorous on camera or fitting conventional film standards. Effective craft requires showing up exactly as the narrative demands, stripping away personal hang-ups about appearance."
+          },
+          {
+            "title": "Stage fright never fully disappears",
+            "text": "Even after decades of acclaim, performance anxiety remains real. Dench still keeps her bag by the rehearsal door just in case she needs to make a run for it, proving that nerves and mastery can coexist."
+          },
+          {
+            "title": "Keep the engine running continuously",
+            "text": "Dench warns against slowing down or giving in to quiet retirement, comparing vitality to an engine that conks out if you remove the keys. Momentum and creative engagement keep the mind alert and alive."
+          }
+        ],
+        "takeaway": "Embrace one professional situation that currently makes you nervous, accepting the butterflies as proof that the work matters rather than a reason to pull back.",
+        "forWho": "Actors, designers, and performers who want an unvarnished masterclass in longevity, humor, and creative dedication."
+      },
+      "image": {
+        "src": "editions/2026-10-29/books-serve-the-story-keep-your-bag-by-the-door-and-ne.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "books-ai-is-an-evolutionary-leap-not-an-inevitable-dys",
+      "topic": "books",
+      "sub": "science",
+      "kind": "evergreen",
+      "published": "2026-10-28",
+      "style": "book",
+      "tags": [
+        "artificial-intelligence",
+        "philosophy",
+        "future",
+        "technology"
+      ],
+      "title": "AI is an evolutionary leap, not an inevitable dystopia",
+      "snippet": "Writer Jeanette Winterson argues that artificial intelligence is far more than a simple tool, and the coming future depends entirely on whether we abandon outdated economic thinking.",
+      "body": [
+        "In 12 Bytes, novelist Jeanette Winterson turns her attention to artificial intelligence and its power to reshape human existence. She views AI not merely as software, but as an evolutionary leap that challenges our understanding of consciousness and biological limits.",
+        "Winterson rejects the fatalism that treats technological dystopia as a foregone conclusion. The danger isn't the machine itself, she argues, but our insistence on laying nineteenth-century models of endless toil, monopoly, and unequal distribution over brand-new realities."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity"
+      },
+      "wiki": "Jeanette_Winterson",
+      "lang": "en",
+      "book": {
+        "title": "12 Bytes",
+        "author": "Jeanette Winterson",
+        "lessons": [
+          {
+            "title": "AI is alternative intelligence, not just software",
+            "text": "Computing was a stepping stone, but AI represents an evolutionary transformation. It is more than a digital utility; it is a fundamental shift in how cognition and intelligence operate in our world."
+          },
+          {
+            "title": "Dystopia is an economic choice, not a destiny",
+            "text": "The idea that technology must inevitably produce mass precarity mirrors the failures of the Industrial Revolution. What harms society is not the technology, but outdated winner-takes-all economic structures and the Victorian obsession with endless toil."
+          },
+          {
+            "title": "Silicon Valley is chasing ancient religious goals",
+            "text": "Tech leaders often treat classic science fiction as instruction manuals rather than warnings. Their desire to escape the body and achieve digital immortality echoes humanity's ancient impulse to detach consciousness from physical biology."
+          },
+          {
+            "title": "Machines lack our ancient emotional hardware",
+            "text": "Human thinking relies on two systems: rational neural networks and the primitive limbic system driving emotion and fight-or-flight responses. Artificial models only simulate neural networks, leaving out the visceral biology that makes us human."
+          }
+        ],
+        "takeaway": "List the repetitive, mechanical tasks in your daily routine and ask what genuinely human pursuits—creativity, connection, or rest—you would cultivate if those tasks were fully automated.",
+        "forWho": "Anyone curious about the cultural and philosophical ripples of machine learning beyond raw tech hype."
+      },
+      "image": {
+        "src": "editions/2026-10-29/books-ai-is-an-evolutionary-leap-not-an-inevitable-dys.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "ideas-in-an-expanding-universe-what-you-can-see-is-not",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "idea",
+      "tags": [
+        "astronomy",
+        "cosmology",
+        "physics",
+        "universe"
+      ],
+      "title": "In an expanding universe, what you can see is not what you can reach",
+      "snippet": "Cosmic expansion creates a paradox: much of the universe visible today is already permanently out of our physical reach.",
+      "body": [
+        "As science writer Ethan Siegel explains on Big Think, the expanding fabric of space combined with the finite speed of light creates sharp cosmic boundaries. While our observable universe extends 46.1 billion light-years in every direction, the volume of space we could actually visit or send a message to is drastically smaller.",
+        "Because distant galaxies are receding faster than light can traverse the widening gap, we are surrounded by places whose past light reaches our telescopes, but whose present and future are forever beyond our grasp."
+      ],
+      "more": [
+        "We tend to assume visibility implies accessibility: if photons from a far-off cluster strike our sensors, reaching it should simply be a matter of time and propulsion. In an expanding universe shaped by the Big Bang and dark energy, however, space itself stretches faster than signals can travel across great distances.",
+        "Cosmologists divide our surroundings into distinct domains. The observable universe—fixed at roughly 46.1 billion light-years—is determined by the universe's age, its matter-energy makeup, and the speed of light. Inside this sphere lies a much tighter 'reachability or communicability limit.' If we dispatched a craft traveling at light speed right now, it would only ever reach objects within this smaller sub-region.",
+        "Conversely, there exists a 'future visibility limit' extending beyond our current view, holding regions whose light has simply not had enough time to arrive yet. Understanding these nested horizons redefines our place in the cosmos, highlighting that we inhabit a reality where observation and interaction are permanently decoupled."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/starts-with-a-bang/five-divisions-how-far-space/"
+      },
+      "wiki": "Observable_universe",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/ideas-in-an-expanding-universe-what-you-can-see-is-not.jpg",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "ideas-beyond-a-point-fighting-the-mind-wears-you-out-y",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-27",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "mental-health",
+        "philosophy",
+        "creativity"
+      ],
+      "title": "Beyond a point, fighting the mind wears you out—you have to carry on with bravo",
+      "snippet": "Endless rumination cannot be resolved by wrestling with it; sometimes the only remedy is deliberately deciding to shut off the nagging voice.",
+      "body": [
+        "In a raw letter to her mother, poet Sylvia Plath observed her family's habit of lying awake at night reliving small stupidities and nursing cruel remarks until they threatened ulcers. After struggling in a massive internal battle, she realized that head-on warfare with one's own neurotic self-criticism eventually becomes self-defeating.",
+        "Plath noted that beyond a certain threshold, fighting back only exhausts you. Her answer was to deliberately shut off that nagging voice, turn attention outward, and proceed with 'bravo and philosophy,' recognizing that your present life is the only thing that actually matters."
+      ],
+      "more": [
+        "Plath’s letter, written when she was just twenty-two and later collected in 'Letters Home', captures a universal trap of the reflective mind: the belief that if you dissect your anxieties and self-perceived failures deeply enough, you will eventually conquer them. Instead, Plath realized that constant rumination only fuels the internal bonfire.",
+        "Writing in a period when neuroscience and the biological roots of psychology were still nascent, Plath framed this tendency as an almost hereditary drive toward hyper-criticism. Her insight offers a practical pivot away from over-analysis. Rather than seeking perfect inner peace before acting, one must choose to dismiss the chatter and re-engage directly with daily reality.",
+        "This perspective reframes mental endurance not as an absence of darkness, but as an act of courageous pragmatism. Stepping away from the cycle of self-chastisement is not denial; it is a tactical choice to conserve energy for creative work and living."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/27/sylvia-plath-letter-mother/"
+      },
+      "wiki": "Sylvia_Plath",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/ideas-beyond-a-point-fighting-the-mind-wears-you-out-y.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "f1-christian-horner-looks-back-on-the-messy-exit-of",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "f1",
+        "red-bull-racing",
+        "christian-horner",
+        "daniel-ricciardo",
+        "mark-webber"
+      ],
+      "title": "Christian Horner looks back on the messy exit of Mark Webber and Ricciardo's arrival",
+      "snippet": "Red Bull's team principal reflects on Mark Webber's sudden 2013 exit and how Daniel Ricciardo erased doubts to become an instant race winner.",
+      "body": [
+        "In a candid interview with 60 Minutes Australia, Christian Horner revisited the volatile driver dynamics at Red Bull Racing during the close of Sebastian Vettel's championship era and the start of the turbo-hybrid period.",
+        "Horner described Mark Webber's 2013 departure as disrespectful to the team, after the Australian announced his move to Porsche directly to the media ahead of the British Grand Prix without telling Horner face-to-face first. The sting of that exit strategy remains a vivid memory over a decade later.",
+        "The vacant seat went to Daniel Ricciardo in 2014, whom Red Bull management initially doubted due to a perceived lack of racecraft. Ricciardo quickly quieted those concerns by turning into a ferocious late-braker, taking three Grand Prix wins in his debut season with the team."
+      ],
+      "more": [
+        "The relationship between Mark Webber and Red Bull was already deeply fractured by mid-2013. The famous 'Multi 21' team-orders fallout at the Malaysian Grand Prix had brought Webber's rivalry with four-time world champion Sebastian Vettel to a boiling point. When Webber decided to leave F1 for endurance racing with Porsche, he bypassed standard paddock protocol by releasing the news straight to the press.",
+        "Horner noted that while time has healed the rift and both men are on good terms today, the corporate slight of announcing his exit to the media rather than his team principal left a lasting mark. Webber's sudden departure forced Red Bull to look to its junior squad, Toro Rosso, to find a replacement.",
+        "Promoting Daniel Ricciardo brought genuine hesitation within the Red Bull hierarchy. Horner recalled that management was unsure if Ricciardo had the aggressive edge required to battle at the front, having rarely seen him execute high-stakes overtakes lower down the grid.",
+        "Those doubts evaporated as soon as Ricciardo sat in race-winning machinery. He earned a reputation as one of the grid's most aggressive overtakers, claiming victories in Canada, Hungary, and Belgium while frequently outperforming Vettel in the same car during Mercedes' first year of hybrid dominance.",
+        "Horner's reflections offer a window into the intense management required at Red Bull, illustrating how quickly an unproven prospect can establish a legacy—and how swiftly a decade-long partnership can unravel over a communication breakdown."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/horner-reflects-on-ricciardos-prime-red-bull-era-he-never-stopped-overtaking/10869056/"
+      },
+      "wiki": "Christian_Horner",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/f1-christian-horner-looks-back-on-the-messy-exit-of.jpg",
+        "credit": "www.motorsport.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "id": "f1-christian-horner-on-playing-the-villain-in-netfl",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "f1",
+        "christian-horner",
+        "red-bull-racing",
+        "netflix",
+        "drive-to-survive"
+      ],
+      "title": "Christian Horner on playing the villain in Netflix's Drive to Survive",
+      "snippet": "Red Bull's team principal admits he was edited as the bad guy in F1's hit docuseries, but says the financial upside made it worth the public backlash.",
+      "body": [
+        "Christian Horner addressed his public reputation on 60 Minutes Australia, acknowledging that Netflix's hit docuseries Drive to Survive often cast him as the villain of the Formula 1 paddock.",
+        "Rather than harboring resentment over narrative edits, the 52-year-old takes a practical view of the dramatized rivalries with Mercedes chief Toto Wolff and McLaren CEO Zak Brown. Horner noted that playing the antagonist simply suited Netflix's storyline for making a hit television show.",
+        "Horner willingly accepted the villain edit because of the financial windfall it brought to the sport. The series sparked a massive global audience surge, sending team valuations stratospherically higher compared to the pre-Netflix era."
+      ],
+      "more": [
+        "Before Netflix brought cameras into the pitlane, Formula 1 team principals were largely viewed as quiet executives operating behind pitwall telemetry screens. Drive to Survive shifted that paradigm, turning figures like Horner into central characters in a high-stakes corporate drama.",
+        "The producers capitalized on every sarcastic press conference jab, slammed headset, and political dispute. From the controversial 2021 Abu Dhabi title decider to Red Bull's 2022 cost cap penalty, Horner frequently found himself framed as the primary antagonist against rival bosses.",
+        "Despite the selective editing, Red Bull continued granting unfettered access. The trade-off was commercial growth: the series brought millions of new fans into Formula 1, transforming Red Bull Racing from a successful motorsport outfit into a globally recognized commercial juggernaut.",
+        "The influx of new fans also brought intense polarization on social media. Yet Horner remains unfazed by the online vitriol, viewing public reaction as an inevitable side effect of elite modern sport.",
+        "Ultimately, Horner views his villainous media persona as a simple cost of doing business. Whether fans see him as a mastermind behind 14 world championships or a polarizing paddock figure, he remains content with the outcome."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/christian-horner-admits-netflix-hijacked-his-f1-reputation-i-was-the-villain/10869051/"
+      },
+      "wiki": "Formula_1:_Drive_to_Survive",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-10-29/f1-christian-horner-on-playing-the-villain-in-netfl.jpg",
+        "credit": "www.motorsport.com"
+      },
+      "minutes": 1,
+      "added": "2026-10-29"
+    }
+  ]
+}

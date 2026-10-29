@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T16:42:02.820Z",
+ "updatedAt": "2026-10-29T09:04:07.732Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -745,7 +745,8 @@
   "design-how-a-five-year-old-creative-agency-built-a-bran",
   "bike-32-inch-gravel-wheels-gain-steam-with-new-tires",
   "search-milhares-enchem-o-rossio-em-protesto-pel",
-  "design-how-two-typed-dots-gave-pictoplasma-an-identity"
+  "design-how-two-typed-dots-gave-pictoplasma-an-identity",
+  "ideas-beyond-a-point-fighting-the-mind-wears-you-out-y"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -875,7 +876,16 @@
   "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": 1,
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 1,
   "ideas-to-study-the-invisible-track-how-visible-matter": 1,
-  "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 1
+  "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 1,
+  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 1,
+  "design-builders-after-all-how-daft-punk-and-lego-met-in": 1,
+  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 1,
+  "ideas-in-an-expanding-universe-what-you-can-see-is-not": 1,
+  "design-mother-design-started-a-brand-identity-project-w": 1,
+  "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": 1,
+  "science-why-comets-probably-didn-t-deliver-life-s-starte": 1,
+  "design-how-span-turned-an-equals-sign-into-a-civic-iden": 1,
+  "ai-google-unveils-gemini-4-carbon-targeting-long-ho": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3350,6 +3360,99 @@
    "tag:laptops",
    "tag:stylus",
    "tag:touchscreen"
+  ],
+  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": [
+   "topic:science",
+   "source:nasa",
+   "style:story",
+   "tag:nasa",
+   "tag:jpl",
+   "tag:artemis-ii",
+   "tag:reid-wiseman",
+   "tag:space-exploration"
+  ],
+  "design-builders-after-all-how-daft-punk-and-lego-met-in": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:lego",
+   "tag:daft-punk",
+   "tag:design",
+   "tag:motion-design",
+   "tag:branding"
+  ],
+  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:hardware",
+   "tag:manufacturing",
+   "tag:supply-chain",
+   "tag:policy"
+  ],
+  "ideas-in-an-expanding-universe-what-you-can-see-is-not": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:astronomy",
+   "tag:cosmology",
+   "tag:physics",
+   "tag:universe"
+  ],
+  "design-mother-design-started-a-brand-identity-project-w": [
+   "topic:design",
+   "source:creative-boom",
+   "style:news",
+   "tag:branding",
+   "tag:typography",
+   "tag:graphic-design",
+   "tag:identity"
+  ],
+  "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": [
+   "topic:tech",
+   "source:wired",
+   "style:news",
+   "tag:apple",
+   "tag:macbook-pro",
+   "tag:oled",
+   "tag:displays"
+  ],
+  "science-why-comets-probably-didn-t-deliver-life-s-starte": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:astronomy",
+   "tag:origins-of-life",
+   "tag:planetary-science",
+   "tag:comets"
+  ],
+  "design-how-span-turned-an-equals-sign-into-a-civic-iden": [
+   "topic:design",
+   "source:creative-boom",
+   "style:news",
+   "tag:branding",
+   "tag:graphic-design",
+   "tag:typography",
+   "tag:identity"
+  ],
+  "ideas-beyond-a-point-fighting-the-mind-wears-you-out-y": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:psychology",
+   "tag:mental-health",
+   "tag:philosophy",
+   "tag:creativity"
+  ],
+  "ai-google-unveils-gemini-4-carbon-targeting-long-ho": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:hacker-news",
+   "style:news",
+   "tag:gemini",
+   "tag:cybersecurity",
+   "tag:frontier-ai",
+   "tag:coding-models"
   ]
  },
  "read": [
@@ -4499,10 +4602,6 @@
      "Enquanto no Porto a saída dos manifestantes ocorreu de forma voluntária e sem incidentes após negociação com as autoridades, em Lisboa registaram-se momentos de tensão e empurrões. A direcção nacional da PSP defendeu que a atuação foi adequada, calma e proporcional.",
      "Vogais e especialistas em direito constitucional apontam para a delicada linha entre a garantia da liberdade de reunião e a manutenção da ordem pública em democracias liberais, num momento em que a crise da habitação continua a mobilizar a sociedade."
     ],
-    "more": [
-     "A polémica gerada em torno da desocupação levou vários partidos e figuras públicas a debaterem a proporção da força policial utilizada. O porta-voz da PSP rejeitou qualquer tipo de carga policial ou uso de bastões, sublinhando que a avaliação de risco foi feita de forma contínua antes de avançar para a praça.",
-     "Por sua vez, movimentos cívicos e associações de defesa da habitação criticaram duramente a actuação das autoridades, lembrando que o protesto pacífico é um pilar fundamental da participação cívica. Parte dos detidos deverá ser libertada ao longo do dia, enquanto continuam marcadas novas formas de contestação para os próximos tempos."
-    ],
     "source": {
      "id": "observador",
      "name": "Observador",
@@ -4538,10 +4637,6 @@
      "Em Fevereiro de 2001, o jornal PÚBLICO publicou artigos sobre dívidas fiscais de vários clubes portugueses, incluindo uma referência a valores em falta por parte do Sporting Clube de Portugal. O clube liderado na altura não tardou a reagir judicialmente.",
      "Considerando que a honra da instituição tinha sido manchada, o clube avançou com um processo contra o jornal e três dos seus jornalistas, exigindo uma indemnização de 2,5 milhões de euros por danos morais.",
      "O lituano desfecho nos tribunais só viria a acontecer anos mais tarde, em Abril de 2005, marcando um dos capítulos mais mediáticos na relação entre a imprensa escrita e as altas instâncias do futebol nacional."
-    ],
-    "more": [
-     "O caso faz parte de uma série de episódios jurídicos e políticos marcantes revisitados pela imprensa para analisar os limites entre o jornalismo de investigação, o segredo de justiça e a litigância de má-fé por parte de entidades influentes.",
-     "A análise destes processos históricos sublinha a importância da protecção legal da atividade jornalística num ecossistema democrático onde o escrutínio das contas de clubes com relevância pública continua a ser um tema sensível."
     ],
     "source": {
      "id": "publico",
@@ -4579,10 +4674,6 @@
      "Após dois anos e meio de negociações infrutíferas para um novo Acordo de Empresa, o sindicato avançou para a greve para contestar a falta de respostas às reivindicações de atualização salarial e melhores condições de organização do trabalho.",
      "A empresa já veio classificar a greve como desproporcional, assegurando que mantém a disponibilidade para negociar, mas foram salvaguardados apenas alguns serviços mínimos essenciais nas horas de ponta."
     ],
-    "more": [
-     "Com o trânsito rodoviário sob forte pressão adicional e alternativas de transporte reduzidas, aconselha-se aos passageiros que planeiem com antecedência as suas deslocações diárias para Lisboa.",
-     "A paralisação junta-se a um mês de outubro particularmente agitado no setor dos transportes na região de Lisboa, refletindo o descontentamento laboral generalizado em várias frentes de mobilidade urbana."
-    ],
     "source": {
      "id": "nit",
      "name": "NiT",
@@ -4616,10 +4707,6 @@
     "body": [
      "Os utilizadores da Revolut enfrentam dificuldades no acesso a fundos devido a uma falha técnica que deixou a aplicação bancária inoperacional em Portugal e noutros mercados.",
      "A interrupção comprometeu transações essenciais, incluindo pagamentos com cartões, levantamentos em caixas automáticas e transferências bancárias, gerando alertas de erro aos clientes."
-    ],
-    "more": [
-     "A empresa britânica confirmou a indisponibilidade parcial das suas funcionalidades centrais, assegurando contudo que os saldos e as informações pessoais dos clientes permanecem totalmente seguros e protegidos.",
-     "Embora a plataforma tenha registado perturbações significativas, a equipa técnica trabalhou para restabelecer a normalidade e mitigar o impacto nos milhares de utilizadores afetados pela falha."
     ],
     "source": {
      "id": "dn",
@@ -4655,10 +4742,6 @@
      "O presidente da CIP, Armindo Monteiro, criticou a minoria ruidosa responsável pelos protestos pela habitação, defendendo que a rua não resolve nem aproxima as soluções necessárias.",
      "Numa declaração em Lisboa, o líder patronal sustentou que a resposta ao aumento do custo de vida passa pelo crescimento económico e pelo aumento da riqueza do país."
     ],
-    "more": [
-     "Monteiro opôs uma maioria silenciosa, que trabalha diariamente, às formas de contestação mais visíveis, alertando para o risco de confrontos.",
-     "Apesar de demonstrar respeito por quem participa nos acampamentos, o responsável insistiu que o caminho ideal reside na cooperação institucional e na concertação social."
-    ],
     "source": {
      "id": "dn",
      "name": "Diário de Notícias",
@@ -4692,10 +4775,6 @@
     "body": [
      "O brasileiro Diogo Moreira vai juntar-se a Fabio Quartararo na equipa oficial Honda no Mundial de MotoGP em 2027, num contrato plurianual anunciado pelo construtor japonês.",
      "A promoção à estrutura principal acontece após a sua estreia na categoria rainha pela LCR Honda, onde se destacou ao conquistar um pódio numa corrida sprint no Japão."
-    ],
-    "more": [
-     "O jovem piloto de 22 anos, campeão mundial de Moto2 em 2025, afirmou realizar um sonho de infância ao integrar a Honda HRC Castrol.",
-     "Esta mudança insere-se na preparação para a entrada em vigor dos novos regulamentos técnicos previstos para 2027, com o objetivo de devolver a marca japonesa aos triunfos."
     ],
     "source": {
      "id": "observador",
@@ -4731,10 +4810,6 @@
      "A PSP procedeu à retirada das tendas montadas por manifestantes nas acampadas da Praça D. João I, no Porto, e no Rossio, em Lisboa, numa operação realizada durante a madrugada.",
      "Enquanto no Porto a ordem foi cumprida sem grande oposição, em Lisboa registaram-se detenções durante a intervenção policial que desmantelou os acampamentos."
     ],
-    "more": [
-     "A ação das autoridades gerou forte repercussão pública no âmbito dos protestos contra a crise na habitação que têm marcado a atualidade nacional.",
-     "Os movimentos organizadores convocaram novas concentrações e manifestações para o final do mesmo dia em ambas as cidades."
-    ],
     "source": {
      "id": "publico",
      "name": "Público",
@@ -4768,10 +4843,6 @@
     "body": [
      "As autoridades policiais portuguesas já apreenderam 42 toneladas de cocaína, um valor que representa um aumento de 68% em comparação com o total registado no ano passado.",
      "O anúncio foi feito pelo diretor nacional da Polícia Judiciária, Carlos Cabreiro, durante as celebrações do aniversário da instituição, destacando o esforço conjunto das forças de segurança."
-    ],
-    "more": [
-     "Cabreiro sublinhou a cooperação entre diferentes entidades e as Forças Armadas no combate ao tráfico internacional de estupefacientes.",
-     "Durante o evento, o responsável abordou também os desafios colocados pela inteligência artificial e reafirmou a solidez da estrutura da Polícia Judiciária."
     ],
     "source": {
      "id": "dn",
@@ -4807,10 +4878,6 @@
      "O secretário-geral do Partido Socialista, José Luís Carneiro, classificou a nova lei das rendas como desumana e injusta, apelando ao Governo para reconsiderar a proposta.",
      "Durante uma visita a projetos de habitação no Algarve, o líder socialista criticou a facilitação de despejos e defendeu limites claros para os encargos familiares."
     ],
-    "more": [
-     "O PS propôs como alternativa a criação de uma garantia pública para proteger inquilinos vulneráveis e jovens, assegurando também maior segurança aos senhorios.",
-     "Carneiro reforçou a necessidade de expandir a oferta pública de habitação e criticou os valores de referência considerados moderados pelo Executivo."
-    ],
     "source": {
      "id": "dn",
      "name": "Diário de Notícias",
@@ -4845,10 +4912,6 @@
      "Anthropic and infrastructure provider Nscale are reportedly in talks for another massive $45 billion compute deal, according to Bloomberg sources. This potential agreement follows closely on the heels of a similarly sized partnership announced just over a month ago.",
      "The staggering sums being injected into AI infrastructure continue to unnerve some investors who question whether the massive spending will yield proportional profits. Despite these concerns, Anthropic is pressing forward as both companies work toward upcoming IPO plans."
     ],
-    "more": [
-     "The relentless expansion of compute capacity underscores the intense resource race among frontier AI labs. While critics worry about a potential bubble fueled by exorbitant hardware costs, companies like Anthropic maintain that massive scaling is essential for future model capabilities.",
-     "Meanwhile, Nscale has encountered some investor pushback regarding its targeted $30 billion valuation ahead of its public debut, highlighting the shifting financial climate for infrastructure providers in the current AI boom."
-    ],
     "source": {
      "id": "techcrunch-ai",
      "name": "TechCrunch · AI",
@@ -4881,10 +4944,6 @@
     "body": [
      "The upcoming DC film featuring Matt Hagen's Clayface is leaning heavily into body horror, and its promotional campaign is matching that energy. A new poster created by illustrator Estevan Silveira has been turning heads with its intricate and unsettling visual details.",
      "The artwork depicts the hunched, melting form of Clayface clutching his head, set against grungy red backgrounds with retro creature-feature vibes. Fans online have praised the piece for offering a refreshing alternative to standard floating-head movie posters."
-    ],
-    "more": [
-     "The striking interplay of sickly yellow-and-green tones against deep reds gives the poster a distinct retro horror aesthetic that has resonated deeply with comic and movie fans alike.",
-     "In an era where blockbuster marketing often relies on generic digital composites, this detailed illustrative approach highlights the enduring power of strong, character-driven concept art in modern film branding."
     ],
     "source": {
      "id": "creative-bloq",
@@ -4919,10 +4978,6 @@
      "The upcoming film Wicker has leaned into its eccentric premise with a new poster that parodies classic, raunchy romance novel covers. Featuring lead actress Olivia Colman embraced by Alexander Skarsgård in sentient wicker form, the design hits all the right nostalgic notes.",
      "Framed by rich jewel tones and elegant gold script typography, the artwork mimics vintage mass-market paperbacks while maintaining a surprisingly sophisticated visual standard. Fans quickly dubbed the clever pastiche 'Fifty Shades of Hay'."
     ],
-    "more": [
-     "By subverting the visual tropes of 80s and 90s bodice-rippers, the marketing team turned what could have been a standard comedic poster into a piece of clever visual culture commentary.",
-     "The intricate typography and classical portrait composition elevate the joke, proving that genre parodies can still achieve genuine aesthetic merit when executed with a careful eye for historical design details."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -4956,10 +5011,6 @@
      "Logging into a work meeting while battling a cold, one writer was met with a prompt familiar to many remote workers: 'Touch up your appearance?' What followed was an unexpected dive into video platform beauty filters and the subtle ways digital alterations have infiltrated professional spaces.",
      "While social media filters have long been recognized for warping self-image and contributing to body dysmorphia, seeing them applied to everyday work calls blurs the line between reality and digital performance even further."
     ],
-    "more": [
-     "The experience raises quiet questions about workplace pressures and the implicit expectation to look permanently polished, even when dealing with ordinary human illnesses.",
-     "Moreover, the observation that these automated touch-up tools lean heavily toward traditional makeup aesthetics—often without equivalent options for masculine-leaning users—reveals how software defaults quietly encode societal assumptions about appearance."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -4991,10 +5042,6 @@
     "body": [
      "Spotify is rolling out paid podcast memberships to 34 markets globally, giving creators a new way to monetize their core audiences beyond traditional ad revenue. Eligible podcasters can now offer tiered perks including bonus episodes, early access, and reduced ads.",
      "The feature arrives as Spotify continues to invest heavily in its platform ecosystem, offering creators control over pricing and packaging while taking a ten percent cut of membership revenue."
-    ],
-    "more": [
-     "To qualify for the program, creators must meet specific engagement thresholds and host their shows on designated platforms like Spotify for Creators or Megaphone.",
-     "By shifting exclusive purchases to the web rather than in-app ecosystems, Spotify is attempting to build a sustainable alternative revenue model that directly rivals other major media hosting networks."
     ],
     "source": {
      "id": "techcrunch-ai",
@@ -5029,10 +5076,6 @@
     "body": [
      "An independent motion designer has offered a glimpse into an ongoing personal project titled 'The Modern World,' showcasing a distinct retro animation aesthetic built inside After Effects.",
      "The short showcase highlights playful character styling and classic frame-by-frame texturing techniques that bring a warm, hand-crafted feel to digital motion work."
-    ],
-    "more": [
-     "Projects like this often rely on a mix of shape layers, custom expression setups, and vintage color grading to achieve an authentic mid-century or retro look without leaving the timeline.",
-     "Sharing work-in-progress clips within community spaces continues to be a great way for motion designers to trade workflow tips, experiment with niche styles, and gather feedback from peers."
     ],
     "source": {
      "id": "r-aftereffects",
@@ -5122,10 +5165,6 @@
      "Halloween brings out all kinds of seasonal decor, but a 14-foot demon holding a bloody axe proved to be a bridge too far for one father of two. In a viral LinkedIn post, Colin Stroud vented about the spooky setup disrupting his family's neighborhood walks and keeping his four-year-old daughter awake at night.",
      "Rather than just asking the neighbor to tone it down, the dad offered an unexpected silver lining. He claimed the terrifying ordeal served as a powerful 'faith activation' that brought his young children closer to God."
     ],
-    "more": [
-     "Naturally, social media users had a field day with the logic, offering up endless sarcastic reactions to the idea that giant lawn demons are a legitimate parenting tool.",
-     "While some parents sympathized with the difficulty of explaining neighborhood spooks to sensitive toddlers, the dramatic framing turned the local dispute into pure internet comedy."
-    ],
     "source": {
      "id": "bored-panda",
      "name": "Bored Panda",
@@ -5159,10 +5198,6 @@
     "body": [
      "In a small historic town just outside Boston sits the Bedford Flag, recognized as the oldest complete surviving flag in the United States. Featuring an ornate crimson silk damask background adorned with grapes and pomegranates, the banner depicts an armored hand grasping a sword from a cloud beneath the motto Vince Aut Morire, or Conquer or Die.",
      "Though experts place its creation in the early 1700s based on its unique pigments and design, the exact maker remains a mystery. Records suggest minuteman Nathaniel Page may have carried it straight into the Battles of Lexington and Concord in 1775."
-    ],
-    "more": [
-     "For generations, the flag remained in the Page family before being handed over to the town in 1885. Today, visitors can still view the delicate relic by requesting the key to the town's dedicated Flag Room.",
-     "The striking design lives on locally, appearing on police and fire department uniforms, town seals, and reenactor parades every Patriots' Day."
     ],
     "source": {
      "id": "atlas-obscura",
@@ -5198,10 +5233,6 @@
      "Tucked off a Rhode Island highway sits the Paine House Museum, a living snapshot of early American domestic life. Originally built in the late 1600s by Samuel Bennett to support his local sawmill, the building slowly evolved over the centuries as successive owners added their own architectural touches.",
      "Last lived in during the 1940s, the house now serves as a modest museum where visitors can step back in time for a nominal fee and observe how much living standards have shifted."
     ],
-    "more": [
-     "Visiting requires a bit of local navigation, including finding street parking carefully away from the nearby fire station and residential bottlenecks.",
-     "During warmer months, the grounds occasionally host a local farmer's market, blending community charm with a tangible connection to early colonial craftsmanship."
-    ],
     "source": {
      "id": "atlas-obscura",
      "name": "Atlas Obscura",
@@ -5235,10 +5266,6 @@
     "body": [
      "Today, Williamsburg is famously packed with pancake houses and breakfast festivals, but mornings 250 years ago looked drastically different. For working-class settlers and enslaved laborers in colonial Virginia, breakfast was an absolute necessity rather than a leisurely culinary event.",
      "Because wheat flour was an expensive luxury reserved for the elite, common tables relied heavily on corn. Cooks prepared simple hoecakes by mixing coarse cornmeal with water, salt, and lard, often cooking them over an open hearth using whatever metal tool was close at hand."
-    ],
-    "more": [
-     "When time allowed, breakfast often doubled as a practical way to clear out yesterday's menu, pairing fresh hoecakes with whatever survived the previous night's dinner.",
-     "Meanwhile, wealthy aristocrats enjoyed a much slower, refined morning routine featuring boiled milk and leisurely pacing, proving that historical breakfast divides ran deep."
     ],
     "source": {
      "id": "mental-floss",
@@ -5274,10 +5301,6 @@
      "Before leading the Heartbreakers and rocking alongside Bob Dylan, Tom Petty's entire life trajectory was altered by a single afternoon in 1962. While visiting his uncle on the Florida set of an Elvis Presley film, young Petty joined the crowds peering through a chain-link fence.",
      "After slipping into a backstage area, he caught a glimpse of the King of Rock and Roll, who briefly stopped to say hello. That fleeting encounter sparked an obsessive love for music that instantly changed his priorities."
     ],
-    "more": [
-     "Upon returning home, Petty promptly traded his prized aluminum slingshot for a box of vinyl 45s and began obsessively playing records.",
-     "He later reflected on how difficult it was to source music history back then, eventually mailing away to England just to secure a copy of The Elvis Presley Handbook."
-    ],
     "source": {
      "id": "mental-floss",
      "name": "Mental Floss",
@@ -5312,10 +5335,6 @@
      "In the small Swedish town of Perstorp, local acetic acid production has roots stretching back to 1881, when factories began utilizing raw materials from surrounding beech forests. To honor that heritage, the town unveiled a massive 16-foot concrete replica of its iconic glass vinegar bottle complete with a bright red cap.",
      "Positioned right beside a main road near the train station, the oversized landmark serves as an unmistakable local symbol and a playful nod to everyday kitchen staples."
     ],
-    "more": [
-     "Unveiled in 1994 by a prominent television chef, the monument even doubles as a practical guide for visitors.",
-     "Laminated panels mounted directly on the giant bottle offer traditional cucumber-pickling tips alongside handy travel recommendations for the local municipality."
-    ],
     "source": {
      "id": "atlas-obscura",
      "name": "Atlas Obscura",
@@ -5348,10 +5367,6 @@
     "body": [
      "October's biggest creative industry movers and shakes reveal a clear trend toward restructuring and a renewed focus on strategy. Agencies like Landor, Small World, and Dalziel & Pow have all recently appointed top-level strategy leads.",
      "Interestingly, none of the recent press releases mentioned 'AI specialists.' Instead, the industry is leaning heavily into human-led craft, responsible AI use, and detailed campaign measurement to prove their value to clients."
-    ],
-    "more": [
-     "The shift also includes significant agency consolidation, such as The Chase acquiring Squad in Manchester and York's Say Yes and Verse merging into COMMON.",
-     "Meanwhile, studios like ustwo are appointing former creative technologists as engineering leads, highlighting a growing industry consensus that creativity remains a crucial soft skill for technical leadership."
     ],
     "source": {
      "id": "creative-boom",
@@ -5386,10 +5401,6 @@
      "In an era where traditional portfolios and social media feeds struggle to stand out against AI-generated content, visual designer Darshita Patankar took a radically different approach to finding work.",
      "Instead of a standard website, she teamed up with her brother to produce a sleek, four-minute cinematic film titled 'Design is Dead,' showcasing her early roots in MS Paint, her design philosophy, and her custom typefaces."
     ],
-    "more": [
-     "The ambitious project has ignited discussions across the design community regarding whether high-production video marketing is becoming a necessary tool for freelancers.",
-     "Beyond the flashy format, the video's core message argues that design should remain a fundamental core of brand decision-making rather than just a superficial output."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -5422,10 +5433,6 @@
     "body": [
      "Known as an industry standard for Hollywood color-grading and timeline editing, DaVinci Resolve Studio rarely sees price cuts due to its already reasonable one-off purchase model.",
      "Blackmagic Design has temporarily reduced the full studio package from $295 to $236, offering a rare entry point for creators looking to escape subscription software models."
-    ],
-    "more": [
-     "Alongside robust video tools, the software now features a dedicated Photo Page, bringing node-based color grading and raw image editing capabilities to still photography as an alternative to Lightroom.",
-     "With annual updates that include new AI tools and audio editing via Fairlight, it remains one of the most comprehensive multimedia suites on the market."
     ],
     "source": {
      "id": "creative-bloq",
@@ -5460,10 +5467,6 @@
      "Cricut is best known for precision cutters, but their new StickerPix Print + Cut aims to solve the cumbersome multi-step process of making stickers at home.",
      "The compact box integrates printing, laminating, and precision cutting into a single workflow that outputs crisp, colour-accurate sheets in under a minute."
     ],
-    "more": [
-     "Available in different tiers, the beginner model restricts users to pre-made templates, while the higher-end version allows full custom shape cutting.",
-     "Despite its user-friendly design and quick output, locked-in proprietary materials and ongoing ink costs mean users will need to weigh convenience against long-term expenses."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -5497,10 +5500,6 @@
      "Liverpool photographer Mark McNulty has spent decades documenting the evolution of UK club culture, capturing moments from the early days of acid house through the superclub boom.",
      "His upcoming book, In Clubland: 35 Summers of Love, compiles over 550 photographs across 240 pages, offering an unfiltered look at the energy of youth and nightlife."
     ],
-    "more": [
-     "Published by Modern Sky, the book coincides with McNulty's exhibition at Tate Britain as part of the British Culture Archive's showcase on 90s art and fashion.",
-     "Before finding his calling behind the lens, McNulty briefly played in a local band alongside future members of Pulp and The Stone Roses before realizing his fifteen minutes on stage were better spent documenting the scene."
-    ],
     "source": {
      "id": "creative-boom",
      "name": "Creative Boom",
@@ -5533,10 +5532,6 @@
     "body": [
      "Square Enix continues to experiment with its distinctive HD-2D graphic style, which pairs pixelated 2D characters with lush, dimensional 3D environments rendered in bold color palettes.",
      "While previous iterations graced titles like Octopath Traveler, Final Fantasy Resonance adapts the aesthetic to a new turn-based adventure with dynamic camera movements."
-    ],
-    "more": [
-     "The game moves beyond traditional isometric perspectives, occasionally shifting the camera closer to ground level during town exploration to use depth-of-field effects.",
-     "Built on Unreal Engine 5, the release opens up exciting visual possibilities for how the studio might revisit its vast retro back catalogue in the future."
     ],
     "source": {
      "id": "creative-bloq",
@@ -5572,9 +5567,6 @@
      "The new Studio Display XDR sits at the very top of Apple's monitor range, bringing a 5K resolution, massive mini-LED brightness, and a smooth 120Hz refresh rate to professional desks. It packs a surprising amount of internal hardware, including six speakers, three microphones, and a Center Stage camera.",
      "While the build quality and color coverage are exceptional, the steep price tag and strict compatibility with Apple's latest Macs mean it will likely remain a rare sight in most standard studios."
     ],
-    "more": [
-     "Retaining the sleek aluminum profile of its predecessor, the XDR version adds two powered Thunderbolt 5 ports and a height-adjustable stand as standard. For creative professionals relying on color accuracy, the expansive color gamut and deep contrast make it a powerful tool, even if the investment requires careful consideration."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -5608,9 +5600,6 @@
     "body": [
      "As generative AI makes mimicking voices and likenesses terrifyingly easy, a consent registry called Twinnin has undergone a complete rebrand to make human verification feel tangible. Brighton agency UnitedUs crafted an identity built around a clear choice: license your likeness or defend it.",
      "The resulting logo borrows technical coordinates from facial recognition software and renders them as shimmering, three-dimensional badges reminiscent of security holograms on software packaging."
-    ],
-    "more": [
-     "The design relies on immediate psychological association, using familiar security cues to make data ownership transparent. By boiling the complex legalities of digital consent down to straightforward trust markers, the branding gives individuals a distinct way to signal their boundaries in an automated world."
     ],
     "source": {
      "id": "creative-boom",
@@ -5646,9 +5635,6 @@
      "Built in Unreal Engine 5, the art direction of Stupid Never Dies is an aggressive, fizzy mash-up of anime, manga, punk rock, and scrapbooking aesthetics. It feels akin to throwing Spider-Man: Into the Spider-Verse and Persona 5 into a blender with a stack of nineties zines.",
      "Despite its striking visual personality and zippy combat transformations, the game's repetitive loops and awkward targeting can occasionally overshadow its brilliant style."
     ],
-    "more": [
-     "The visual world-building leans heavily into chaotic textures and maximalist color palettes, proving once again that unique stylistic execution can carry a project's atmosphere even when underlying mechanics feel overly familiar."
-    ],
     "source": {
      "id": "creative-bloq",
      "name": "Creative Bloq",
@@ -5682,9 +5668,6 @@
     "body": [
      "Google's latest attempt at a desktop operating system fuses Chrome's DNA with Android, letting users run mobile apps in resizable windows with full mouse support. Built on premium hardware with OLED screens and robust processors, it aims to carve out space alongside traditional laptops.",
      "For creative workflows, running mobile versions of editing tools offers a glimpse of the future, though full desktop-tier video editing remains a notable limitation of the current software ecosystem."
-    ],
-    "more": [
-     "Hardware-wise, devices like Acer's iteration lean into understated industrial design, complete with subtle glowing indicator bars. While first-generation growing pains are apparent, future updates could position these hybrid machines as serious contenders for creative professionals on the move."
     ],
     "source": {
      "id": "creative-bloq",
@@ -5720,9 +5703,6 @@
      "Hours of scrolling through second-hand listings often reveal a surreal gallery of awkward crops, domestic lighting, and accidental reflections. When designer Casey Roarty moved house, he began cataloging these strange, unintentionally poetic digital artifacts for a personal project titled Is This Still Available?",
      "In an era where hyper-polished, AI-generated imagery is frictionless to produce, these raw, human-shot photos offer a refreshing counter-narrative steeped in genuine imperfection."
     ],
-    "more": [
-     "The project highlights the soft, painterly qualities introduced by heavy image compression and hastily snapped photos of vintage toys or warped fancy dress costumes. By extracting these forgotten snapshots from their practical e-commerce context, Roarty celebrates the unscripted visual culture of the internet."
-    ],
     "source": {
      "id": "creative-boom",
      "name": "Creative Boom",
@@ -5756,9 +5736,6 @@
     "body": [
      "When designing fictional environments, every architectural detail should reflect the underlying rules of the setting. In a recent world-building project centered around a town powered by star sand condensed from starlight, the local architecture and glowing chimneys were explicitly tailored to merge technology with faith.",
      "Using 3D tools like Daz Studio and Blender for initial composition and lighting helps establish spatial consistency before diving into detailed digital painting."
-    ],
-    "more": [
-     "By leaning on 3D asset libraries for base structures, artists can focus their energy on atmospheric effects, textures, and small props that make a scene feel truly lived-in. Grounding fantasy elements in logical systems ensures the final concept art feels cohesive and believable to the viewer."
     ],
     "source": {
      "id": "creative-bloq",
@@ -5794,10 +5771,6 @@
      "Estudantes do ensino superior juntaram-se em protesto frente à sede do Governo, em Lisboa, para contestar a proposta de Orçamento do Estado que prevê o descongelamento das propinas no ensino superior a partir do ano letivo de 2027/2028.",
      "A medida estipula que o limite máximo das propinas nas licenciaturas e cursos técnicos seja atualizado com base na taxa de inflação, pondo fim a um período de congelamento que vigorava desde 2020 e fixava o teto nos 697 euros."
     ],
-    "more": [
-     "Os representantes estudantis criticam o impacto financeiro desta alteração para quem frequenta o ensino superior. A proposta governamental abrange também mestrados profissionalizantes, enquanto outros ciclos de estudos passam a ter propinas alinhadas com o custo real da formação.",
-     "Dados associados às receitas das instituições indicam um aumento substancial nas verbas geradas internamente pelas escolas, refletindo a transição de um modelo com maior suporte público para um financiamento complementar mais dependente das receitas próprias."
-    ],
     "source": {
      "id": "publico",
      "name": "Público",
@@ -5831,10 +5804,6 @@
     "body": [
      "O programa Sustentável 2030 lançou um concurso no valor de 7,2 milhões de euros para instalar sistemas de fornecimento de eletricidade a partir de terra em vários terminais do Porto de Leixões.",
      "Com este investimento, os navios poderão manter os motores desligados enquanto estão acostados, reduzindo significativamente as emissões de gases poluentes e o ruído na região."
-    ],
-    "more": [
-     "O cofinanciamento público pode atingir até 85% do valor investido pela Administração dos Portos do Douro, Leixões e Viana do Castelo, abrangendo os terminais de contentores e o terminal de passageiros da Doca 1 Norte.",
-     "O executivo sublinha que a medida se enquadra na estratégia de transição energética para o setor marítimo portuário nacional, promovendo o uso de energias limpas nas infraestruturas de transporte."
     ],
     "source": {
      "id": "dn",
@@ -5870,10 +5839,6 @@
      "O presidente da empresa que gere o SIRESP revelou que as transferências anuais efetuadas pelo Estado para o sistema de comunicações de emergência se mantêm sempre abaixo do teto máximo da indemnização compensatória.",
      "Segundo o tenente-general Paulo Viegas Nunes, a verba oscila entre 19 e 26 milhões de euros, servindo para assegurar a operação contínua e a manutenção de uma infraestrutura com duas décadas de funcionamento."
     ],
-    "more": [
-     "O responsável apontou para uma redução expressiva nos custos por utilizador, que passaram de mais de três mil euros para valores na ordem dos 250 euros anuais.",
-     "No sentido de reforçar a transparência, a entidade gestora anunciou a publicação regular dos relatórios de execução orçamental na sua página oficial, permitindo um escrutínio mais direto sobre a gestão da rede."
-    ],
     "source": {
      "id": "observador",
      "name": "Observador",
@@ -5908,10 +5873,6 @@
      "A taxa de juro implícita no conjunto dos contratos de crédito à habitação fixou-se em 3,194% no mês de setembro, traduzindo uma subida face ao período anterior, de acordo com os dados divulgados pelo Instituto Nacional de Estatística.",
      "Para os contratos celebrados nos últimos três meses, a taxa média avançou para 2,959%, impulsionando igualmente a prestação média paga pelas famílias."
     ],
-    "more": [
-     "A prestação média por contrato de habitação situou-se nos 423 euros, representando um acréscimo face ao mês precedente e ultrapassando os valores registados no período homólogo do ano passado.",
-     "Estes indicadores continuam a refletir a evolução das condições de financiamento no mercado imobiliário nacional, num contexto económico monitorizado de perto por analistas e decisores políticos."
-    ],
     "source": {
      "id": "dn",
      "name": "Diário de Notícias",
@@ -5945,10 +5906,6 @@
      "A deputada federal australiana Helen Haines perdeu as duas pernas na sequência de um atropelamento deliberado ocorrido perto do seu gabinete.",
      "O marido da política confirmou que, apesar da gravidade dos ferimentos e da complexa intervenção cirúrgica, o estado clínico da deputada de 65 anos é agora estável."
     ],
-    "more": [
-     "As autoridades locais detiveram um homem de 43 anos, imputando-lhe vários crimes graves relacionados com o atropelamento, não descartando acusações adicionais.",
-     "A família tem apelado a donativos para organizações de apoio à infância em vez de flores, enquanto a comunidade local acompanha a recuperação da deputada."
-    ],
     "source": {
      "id": "observador",
      "name": "Observador",
@@ -5981,10 +5938,6 @@
     "body": [
      "O presidente russo, Vladimir Putin, anunciou a libertação do professor norte-americano Stephen Hubbard, detido há quatro anos sob acusações de atividades mercenárias.",
      "O anúncio ocorreu durante uma reunião em São Petersburgo com o enviado especial dos Estados Unidos, Steve Witkoff, tendo o cidadão norte-americano sido encaminhado para regressar ao seu país."
-    ],
-    "more": [
-     "A administração norte-americana assinalou que a libertação ocorreu num contexto de respeito diplomático, sem necessidade de recorrer à habitual troca de prisioneiros.",
-     "As conversações entre as partes também abordaram perspetivas para potenciais negociações de paz e passos futuros relativos ao conflito na Ucrânia."
     ],
     "source": {
      "id": "dn",

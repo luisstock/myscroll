@@ -1,0 +1,723 @@
+{
+  "date": "2026-10-30",
+  "number": 10,
+  "items": [
+    {
+      "id": "til-why-hessian-soldiers-were-baffled-by-the-america",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "til",
+      "tags": [
+        "american-revolution",
+        "hessians",
+        "military-history",
+        "curiosities"
+      ],
+      "title": "Why Hessian soldiers were baffled by the American Revolution",
+      "snippet": "German auxiliary troops arriving in America were surprised to find ordinary colonists living like wealthy European country gentlemen.",
+      "body": [
+        "When German Hessian soldiers arrived to fight for the British Crown during the American War of Independence, they expected to suppress an impoverished, downtrodden population rebelling out of desperation. Instead, they encountered an astonishing degree of everyday prosperity.",
+        "The standard of living in the colonies was remarkably high compared to 18th-century Europe. As one bewildered German soldier noted, an ordinary colonist living on Staten Island lived as comfortably as a German country gentleman back home, leaving many of the troops genuinely confused about what the colonists were actually complaining about."
+      ],
+      "more": [
+        "To the average European conscript or mercenary, rebellion was typically linked to famine, unbearable feudal obligations, or absolute destitution. Coming from principalities where land was scarce and tenant farmers faced rigid social hierarchies and heavy dues, the sheer abundance of land and food in North America was jarring.",
+        "European observers often wrote home marveling at colonial diets rich in meat and white bread, spacious timber homes, and the lack of traditional peasant poverty. Seeing ordinary farmers and landowners enjoy comforts reserved exclusively for the landed gentry in Europe made the American rhetoric of being 'enslaved' by British taxation sound bizarre to foreign soldiers.",
+        "This stark contrast in wealth even played a role in desertion rates among the German contingents. Many Hessian troops realized that the prosperity they were seeing was accessible, choosing to slip away, settle down, and build lives in America rather than return to service in Europe after the conflict concluded."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xiw6ey/til_that_the_hessians_were_confused_by_the/"
+      },
+      "wiki": "Hessian_(soldier)",
+      "lang": "en"
+    },
+    {
+      "id": "fun-the-dune-movie-popcorn-bucket-that-broke-the-int",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "reddit",
+      "tags": [
+        "dune",
+        "pop-culture",
+        "merchandise",
+        "design"
+      ],
+      "title": "The Dune movie popcorn bucket that broke the internet's composure",
+      "snippet": "Movie theaters thought a sandworm snack tub was cool sci-fi merchandise. The internet immediately saw something else entirely.",
+      "body": [
+        "Cinema merchandise reached peak absurdity with the release of a custom promotional popcorn bucket molded to resemble the iconic sandworm from the Dune franchise.",
+        "Rather than marveling at Arrakis lore, online onlookers immediately zeroed in on its suggestive shape and ridged opening. Between the rubbery tendrils and tight aperture, the vessel instantly triggered an avalanche of eyebrow-raising comparisons."
+      ],
+      "more": [
+        "Commenters quickly dubbed the creation an accidental adult toy, with user OgreTheMighty questioning consumer priorities: 'Like gas is $5 a gallon and you're going to spend money on a Sand Worm Fleshlight??' Others pointed out that brand devotion often outpaces practical economics.",
+        "Beyond the provocative form factor, commenters noted genuine design flaws in its intended purpose as a snack container. As user BestTastingFish pointed out, reaching past the rubbery worm mouth to grab a handful means anyone who enjoys movie theater butter will end up coating their entire forearm just to retrieve a kernel.",
+        "While movie studios increasingly rely on wild promotional containers to drive theatrical attendance and viral buzz, this particular sculpt proved that testing an aperture design in the real world is vital—unless internet notoriety was the entire marketing strategy all along."
+      ],
+      "source": {
+        "id": "r-interestingasfuck",
+        "name": "r/interestingasfuck",
+        "url": "https://www.reddit.com/r/interestingasfuck/comments/1xiqc0s/this_popcorn_bucket_for_the_new_dune_movie/"
+      },
+      "wiki": "Dune_(franchise)",
+      "lang": "en"
+    },
+    {
+      "id": "motion-lorem-ipsum-rap-turning-placeholder-text-into-an",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "evergreen",
+      "published": "2026-10-22",
+      "style": "news",
+      "tags": [
+        "motion-design",
+        "generative-ai",
+        "midjourney",
+        "animation"
+      ],
+      "title": "Lorem Ipsum Rap: Turning Placeholder Text into an Animated Music Video",
+      "snippet": "François Chatelain built an entire hip-hop track and animated video around graphic design's most famous placeholder words.",
+      "body": [
+        "Every designer knows \"Lorem Ipsum / Dolor Sit Amet\" as meaningless filler, but François Chatelain, working under the moniker F&C ai Lab, turned the dummy copy into the central hook of a hip-hop music video called Lorem Ipsum Rap.",
+        "The project leans heavily into an emphatic graphic visual language: saturated tones of yellow, orange, and pink, graffiti-style marks, oversized type, and stylized performers. Rather than simply overlaying subtitles, typography directly shapes the imagery—wrapping across lips, forming gold rings on rappers' fingers, and integrating cleanly into the illustrated frames.",
+        "Created entirely solo, the video demonstrates how far an end-to-end AI pipeline can be pushed when directed by a single creator with a focused typographic and design sensibility."
+      ],
+      "more": [
+        "To build Lorem Ipsum Rap, Chatelain relied on a diverse stack of specialized AI tools across every stage of the production. The audio was handled by Suno, which generated the underlying hip-hop track around the Latin placeholder hook. Meanwhile, ChatGPT assisted with ideation, refining the concept, crafting prompts, and shaping the creative direction.",
+        "For visual generation, Chatelain turned to Midjourney to establish the illustrative style, character designs, and typography-rich environments. The resulting static artwork was then animated using Seedance to generate the animated sequences before Chatelain brought all the elements together himself for the final edit.",
+        "The aesthetic treats layout artifacts as core narrative subjects. The Latin filler text breaks out of background mockups and becomes wearable jewelry, bold street art, and kinetic lyricism. Throughout the project, the frames deliberately lean into an explicit AI look while maintaining tight compositional discipline.",
+        "As tools like Suno, Midjourney, and Seedance continue to integrate into design workflows, experiments like Chatelain's highlight how designers are adopting multi-tool pipelines to realize complete audiovisual ideas without needing an entire production studio behind them."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/quickie/lorem-ipsum-rap-fc-ai-lab/"
+      },
+      "wiki": "Lorem_ipsum",
+      "imageUrl": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/10/Lorem_Ipsum_02-ezgif.com-overlay.jpg?fit=700%2C394&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "ai-mistral-drops-the-weights-for-mistral-large-4-it",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "mistral-ai",
+        "open-weights",
+        "llm",
+        "coding"
+      ],
+      "title": "Mistral Drops the Weights for Mistral Large 4, Its 1-Trillion Parameter Model",
+      "snippet": "Codenamed 'Le Chonk', Mistral's massive multimodal model is now fully open-weight, touting leading coding agent scores and built-in reasoning modes.",
+      "body": [
+        "Following a brief preview window, French AI lab Mistral has officially released the open weights for Mistral Large 4, an enormous 1-trillion-parameter multimodal model codenamed 'Le Chonk'. Trained entirely on European infrastructure as part of their sovereign AI push, the model is built for customizable, self-hosted enterprise and developer deployment.",
+        "Mistral focused heavily on agentic coding and reasoning efficiency through accelerated reinforcement learning. In benchmark tests like Cognition's FrontierCode 2.0, which grades whether repository maintainers would accept an agent's pull request, Mistral Large 4 led the field with a 19.7% score. On the Artificial Analysis Coding Agent Index, it tied top performer GLM-5.3 at 48% while consuming 47% fewer tokens per task.",
+        "The model also introduces three native reasoning modes—Low, Medium, and High—allowing developers to calibrate the trade-off between thoroughness and inference cost depending on whether they are handling simple tasks or precision coding."
+      ],
+      "more": [
+        "Mistral's post-preview tuning emphasized RL gains in terminal workflows and defensive cybersecurity. On Terminal-Bench 4.0, the model jumped 13 percentage points over its preview to reach 41%, taking the lead among open-weight architectures while trimming output tokens by 30%. In human blind evaluations conducted by Surge Code, evaluators preferred Mistral Large 4's outputs over rival open models including Kimi K3, GLM-5.3, and DeepSeek V4.1 Flash, ranking behind only Claude Opus 5.5.",
+        "Cybersecurity defense is another flagship focus. The model scored 51% on the Artificial Analysis Cyber Index, assessing its ability to reproduce vulnerabilities in sandboxed code and patch them without breaking baseline features. Mistral noted it designed the guardrails to distinguish between defensive work and malicious requests, hitting a 96.6% refusal rate on attacks sourced from benchmarks like StrongREJECT and AgentHarm.",
+        "Broad enterprise capabilities also saw noticeable bumps. BrowseComp scores reached 84.5%, up from a 75% supervised fine-tuning checkpoint, while the B3 Agent Security Benchmark rated the model at 97.1% attack resistance, helping shield autonomous agents from prompt exfiltration.",
+        "To commercialize the release, Mistral is pairing the open weights with Mistral Forge for fine-tuning on internal data. They are also piloting specialized red-teaming variants with security partners like Orange Cyberdefense, while enterprise clients such as La Banque Postale are adopting the system under Europe's push for strategic digital sovereignty."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/"
+      },
+      "wiki": "Mistral_AI",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "lang": "en"
+    },
+    {
+      "id": "ai-sam-altman-argues-local-ai-inference-is-a-terrib",
+      "topic": "ai",
+      "sub": "local-llm",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "reddit",
+      "tags": [
+        "local-ai",
+        "sam-altman",
+        "openai",
+        "hardware"
+      ],
+      "title": "Sam Altman Argues Local AI Inference Is a 'Terrible Allocation' of Memory",
+      "snippet": "OpenAI's CEO claims hoarding DRAM for local hardware is globally inefficient compared to cloud data centers. LocalLLaMA users disagree.",
+      "body": [
+        "OpenAI CEO Sam Altman made waves across local AI communities after arguing that running inference on personal hardware is an inefficient use of scarce silicon. Speaking on global hardware supply constraints, Altman questioned the growing developer push to run weights offline.",
+        "Altman pointed to global DRAM allocation as the core issue, stating that having the world's limited memory sitting inside consumer computers and utilized roughly five percent of the time makes little economic sense. From his perspective, dealing with acute supply limits requires maximizing utilization around the clock inside cloud data centers.",
+        "Unsurprisingly, the r/LocalLLaMA community met the remarks with heavy skepticism. Many pointed out that cloud providers naturally disfavor self-hosting because their primary business model depends on charging recurring API fees rather than letting users run open models on their own hardware."
+      ],
+      "more": [
+        "The debate cuts right to the heart of local computing versus centralized infrastructure. Altman framed the rise of open-source models as creating a false sense of security, where developers assume consumer hardware will easily bypass the need for massive data center infrastructure.",
+        "In his view, high-bandwidth memory and fast RAM are rare global commodities that should be pooled where they can run at near 100% capacity serving millions of distributed requests.",
+        "On Reddit, the reaction was swift and cynical. Commenters highlighted the obvious conflict of interest, summarizing Altman's stance as an executive insisting that owning hardware is foolish when you could simply rent compute by the token from him.",
+        "Others defended local inference on functional rather than raw economic grounds. For developers running local models, low memory utilization during idle hours is an acceptable trade-off for zero latency variation, unmetered experimentation, strict data privacy, and immunity from network outages or corporate model deprecation.",
+        "While data center density remains essential for training trillion-parameter frontier architectures, the friction between centralized cloud models and distributed local setups continues to widen as consumer hardware grows more capable."
+      ],
+      "source": {
+        "id": "r-localllama",
+        "name": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/"
+      },
+      "wiki": "Sam_Altman",
+      "lang": "en"
+    },
+    {
+      "id": "bike-trading-a-20-year-old-cyclocross-bike-for-modern",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "reddit",
+      "tags": [
+        "gravel-bikes",
+        "bike-setup",
+        "cycling-gear"
+      ],
+      "title": "Trading a 20-Year-Old Cyclocross Bike for Modern Gravel",
+      "snippet": "Jumping two decades of bike geometry and tire clearance brings an immediate, noticeable speed upgrade.",
+      "body": [
+        "Upgrading decades-old bikes often feels like a modest shift until modern tire volume and geometry enter the picture. One rider recently traded a 20-year-old cyclocross machine for a modern Merida Silex 400 and found the change night and day.",
+        "Running a Shimano GRX400 2x10 drivetrain and jumping from traditional 37 mm cyclocross rubber to 45 mm Maxxis Ramblers, the rider estimated the modern setup felt roughly 30% faster, noticeably lighter, and far more stable across mixed trails.",
+        "The swap highlights how much tire clearance and dedicated gravel frames have reshaped ride comfort on rough surfaces, turning terrain that previously felt harsh into something swift and effortless."
+      ],
+      "more": [
+        "Older cyclocross bikes were fundamentally narrow, aggressive racing tools designed for flat grass tracks and hour-long sprints, usually constrained by tight clearances built around 33 mm to 37 mm tires. Transitioning to a dedicated gravel frame like the Merida Silex shows just how much endurance-oriented geometry and wider contact patches smooth out trail chatter.",
+        "Beyond the frame swap, the rider is dialing in a practical commuter and adventure cockpit. Planned additions include an out-front phone mount paired with an integrated front light, weighing options like the Ravemen 800 and Knog Blinder 900.",
+        "The transition to modern dirt riding also brings familiar minor gear headaches. A noisy bottle cage that chatters over bumpy gravel is top on the list of immediate fixes, showing that frame quietness quickly exposes rattling accessories.",
+        "Clipless pedals will have to wait, however. Choosing to stick with hybrid pedals and regular shoes for the time being, the rider plans to postpone the leap into SPD shoes until the spring to avoid the learning curve through unpredictable winter conditions."
+      ],
+      "source": {
+        "id": "r-gravelcycling",
+        "name": "r/gravelcycling",
+        "url": "https://www.reddit.com/r/gravelcycling/comments/1xies9n/first_ride_on_merida_silex/"
+      },
+      "wiki": "Gravel_bicycle",
+      "lang": "en"
+    },
+    {
+      "id": "bike-unbound-and-life-time-introduce-a-pro-number-req",
+      "topic": "bike",
+      "sub": "gravel",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "gravel-bikes",
+        "unbound-gravel",
+        "life-time-grand-prix"
+      ],
+      "title": "Unbound and Life Time Introduce a 'Pro Number' Requirement",
+      "snippet": "To line up in the elite field at major gravel races like the Unbound 200, riders will now have to earn a formal credential.",
+      "body": [
+        "The days of anyone simply buying a ticket to race with the front of the gravel peloton are tightening up. Life Time has established a new qualification tier known as the 'LT Pro Number,' which will be mandatory for anyone looking to compete in the professional category across its premier off-road events.",
+        "The mandate spans the entire calendar, kicking off from the Sea Otter Qualifier in April and extending straight through individual headline races in the Life Time Grand Prix series, most notably the Unbound Gravel 200.",
+        "To keep established contenders in place, many athletes will get automatic approval based on past showings in Life Time pro events, previous Grand Prix rankings, or high finishes at national and world championships in mountain biking or gravel."
+      ],
+      "more": [
+        "Gravel racing built much of its ethos on open mass starts, where weekend warriors and top-tier pros gathered along the exact same dirt roads. But as the sport's professional wing has gotten faster, more lucrative, and far more competitive, organizers have faced growing logistical and safety pressures around managing the sharp end of the race.",
+        "The introduction of the LT Pro Number formalizes the separation between the competitive elite and the mass participation field. Riders aiming for podiums and prize purses at events like Unbound 200 will now need clear credentials to secure their spot at the front of the tape.",
+        "Automatic qualification paths will shield the most prominent riders who already consistently finish well in Life Time series events or hold distinguished records in UCI World Championships and national off-road disciplines. This guarantees established names bypass early season bureaucratic hurdles.",
+        "For emerging privateers and crossover road pros without existing off-road credentials, the path to a pro start now flows through explicit qualification gateways, beginning early in the season at events like the Sea Otter Classic. This structure brings a clearer ladder to professional gravel racing while continuing the discipline's shift toward formalization."
+      ],
+      "source": {
+        "id": "cyclingnews-gravel",
+        "name": "Cyclingnews · Gravel",
+        "url": "https://www.cyclingnews.com/pro-cycling/racing/who-can-compete-as-a-gravel-pro-in-unbound-organisers-of-life-time-grand-prix-establish-new-pro-number-qualification-process/"
+      },
+      "wiki": "Unbound_Gravel",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/xJYJgrDksWF5dzmxy93aYJ-1920-80.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-beijing-s-empty-chairs-record-purges-shake-china",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "china",
+        "geopolitics",
+        "xi-jinping",
+        "world-news"
+      ],
+      "title": "Beijing's Empty Chairs: Record Purges Shake China's Central Committee",
+      "snippet": "Attendance at China's annual plenum just hit a historic low under Xi Jinping as 33 members were expelled in an unprecedented disciplinary sweep.",
+      "body": [
+        "At the conclusion of a four-day closed-door political gathering in Beijing, China's Communist Party announced the expulsion of a record 33 Central Committee members. For the first time in Xi Jinping's 14-year tenure, attendance at the plenum dropped below 300, with only 279 members present compared to over 370 when the committee's term began in 2022.",
+        "The move highlights how internal party discipline and loyalty vetting have taken precedence over standard discussions around economic and social reform. Nearly half of those expelled come directly from the military's senior ranks, raising significant questions among defence analysts about command cohesion and institutional readiness.",
+        "With a crucial leadership reshuffle approaching at the 2027 Party Congress, the sweep allows Xi to thoroughly clear opposition and consolidate absolute control over future appointments, laying the ground for an unprecedented fourth term at the helm."
+      ],
+      "more": [
+        "The fifth plenum's communique confirmed the removal of high-profile figures on broad grounds of 'serious disciplinary and legal violations', phrasing that typically serves as shorthand for corruption or political disloyalty. Notably absent from the ranks are former Xinjiang party chief Ma Xingrui and top military generals Zhang Youxia and Liu Zhenli. Former prominent diplomat Liu Jianchao was also officially listed among the purged after vanishing from public view last year.",
+        "The culling of the military top brass has dramatically reshaped the Central Military Commission. The commission, which directs the armed forces, has effectively been shrunk from seven members down to just two: Xi Jinping as chairman and Zhang Shengmin as vice-chairman. The top-tier 24-member Politburo had previously dipped to 21 before Zhang Shengmin was elevated during the gathering to bring the count to 22.",
+        "According to disciplinary officials, more than two million individuals have been reprimanded since Xi took power in 2012, with 680,000 disciplined across the party apparatus in the first nine months of this year alone. In total, 51 Central Committee members have been removed during Xi's third term, far exceeding the five expulsions seen across his second term.",
+        "Scholars and regional analysts note that Xi has shown little hesitation in purging cadres he originally elevated himself. The relentless drive to enforce political self-governance signals an effort to weed out so-called 'two-faced cadres' ahead of the 21st Party Congress. While the intense consolidation cements Xi's immediate authority, observers caution that such extreme centralisation risks creating severe succession bottlenecks as the leadership ages."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Central_Committee_of_the_Chinese_Communist_Party",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3573/live/24bff950-d388-11f1-b5f4-fd541fd21001.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "tech-why-apple-is-rewriting-a-century-old-color-stand",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "explainer",
+      "tags": [
+        "displays",
+        "color-science",
+        "macbook-pro",
+        "apple"
+      ],
+      "title": "Why Apple is rewriting a century-old color standard",
+      "snippet": "The new MacBook Pro brings Apple CMF 2026 to laptops, aiming to fix how modern screens trick different human eyes.",
+      "body": [
+        "While OLED panels and touchscreens grab the headlines on the new MacBook Pro, the most interesting technical upgrade is under the hood of color management. It is the first laptop to support Apple CMF 2026, a new color-matching function designed to ensure displays look uniform across different screen technologies.",
+        "For nearly a century, the display industry has relied on CIE 1931 to calculate color perception. That model worked well enough for decades, but modern narrow-spectrum panels like OLEDs and quantum-dot LEDs have exposed its limits. Two screens calibrated to the exact same white point can look noticeably different to different observers because CIE 1931 was derived from just 17 human test subjects and fails to account for biological variations in our eyes.",
+        "By introducing Apple CMF 2026 to portable hardware, Apple is attempting to solve observer metamerism for working creatives. If the industry adopts this shift, what you see on an OLED laptop might finally match what a colleague sees on an external monitor."
+      ],
+      "more": [
+        "Color-matching functions mathematically model how the human eye's cones interpret light wavelengths into color. When CIE established the 1931 standard, displays did not use ultra-narrow band spectra like modern KSF phosphors, quantum dots, or OLED emitters. In those narrow spectra, slight variations in eye anatomy—such as cone sensitivity shifts that naturally occur as people age—cause people to perceive identical spectral outputs differently.",
+        "Apple first introduced the CMF 2026 system on the Studio Display XDR earlier this year. Bringing it to the MacBook Pro with its PROLED XDR Display extends the tool to a much wider audience, as standalone reference monitors remain prohibitively expensive for most professionals.",
+        "The MacBook Pro features two dedicated Apple CMF 2026 reference modes: one tuned for standard P3 color primaries and another covering both P3 and Adobe RGB. The screen reaches peak brightness of 2,000 nits across both SDR and HDR content. True Tone automatically adjusts white point, brightness, and HDR tone mapping to ambient light, though it can still be toggled off inside display preferences.",
+        "Crucially, the laptop does not force the new math onto existing workflows. It retains 14 legacy reference modes based on traditional CIE 1931, including specialized presets like DICOM for medical imaging. Calibration can be handled via the Apple Pro Display Calibrator utility, which supports full hardware calibrations, measurement fine-tuning, and visual adjustments.",
+        "Apple is currently working with a CIE technical committee to push the updated color-matching function as an international standard. If successful, it could phase out the century-old baseline and create a truly consistent benchmark across panels from every manufacturer."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf"
+      },
+      "wiki": "CIE_1931_color_space",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_MacBook_Pro_touchscreen_OLED_handson_ADiBenedetto_0039.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "tech-reddit-plans-to-close-its-doors-to-logged-out-re",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "reddit",
+        "web-culture",
+        "tech-news"
+      ],
+      "title": "Reddit plans to close its doors to logged-out readers",
+      "snippet": "The era of casually browsing Reddit threads without an account is coming to an end as the platform moves to wall off its content.",
+      "body": [
+        "Reddit has announced plans to require users to log in before browsing the site, signaling the end of an open-access model that has lasted more than two decades. The change directly targets automated scrapers and unauthorized data harvesting that have plagued the platform amid the AI boom.",
+        "CEO Steve Huffman framed the decision as a necessary step to protect Reddit's data assets and expand its advertising business. The test will roll out first in select international markets before potentially expanding worldwide, though Reddit has not yet finalized how locked-down pages will appear to logged-out users.",
+        "For millions who use Google searches appended with 'reddit' to escape AI-generated web sludge, the shift marks another significant fracture in the architecture of the open web."
+      ],
+      "more": [
+        "During its Q3 2026 earnings release, Reddit revealed that search traffic has dropped meaningfully, losing over 1 million referrals per week on average during October. Web traffic and logged-out visitors bore the brunt of that decline. Huffman acknowledged that the vast majority of unauthorized data scraping happens via logged-out web sessions.",
+        "The company has aggressively defended its proprietary text in recent years. After signing multi-million-dollar licensing agreements with Google and OpenAI in 2024 to supply training data for AI models, Reddit filed lawsuits against unauthorized scrapers and clamped down on legacy interfaces like Old Reddit.",
+        "Under the upcoming policy, Reddit insists it does not care about personal identity—only that a visitor is verified through an active account. Registered visitors generate over 80 percent of Reddit's monetization through targeted advertising, giving the company strong financial motivation to corral lurkers into registered accounts.",
+        "Alongside the announcement, Reddit confirmed it is rebuilding and rereleasing the official app's incognito mode. However, questions remain regarding how external link sharing will function once the wall is erected, particularly when users send thread links to non-members.",
+        "The move follows a broader industry trend where user-generated forums and social platforms wall off content behind authentication barriers, trading general web discoverability for closed ecosystems and commercial AI licensing control."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings"
+      },
+      "wiki": "Reddit",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK115_Reddit_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "science-a-4-1-billion-year-old-rock-found-in-mali-just-o",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "mars",
+        "geology",
+        "meteorites",
+        "planetary-science",
+        "space"
+      ],
+      "title": "A 4.1-Billion-Year-Old Rock Found in Mali Just Opened Mars' Earliest Water Cycle",
+      "snippet": "Discovered in the Sahara, the rose-colored meteorite Teghaza 001 preserves an intact snapshot of the Red Planet's ancient crust and its lost water.",
+      "body": [
+        "In 2022, a curious 800-gram, rose-tinted meteorite was uncovered on a salt plain in Mali. Scientists at NASA and partner institutions have now confirmed that the rock, dubbed Teghaza 001, is one of the oldest pieces of Mars ever identified on Earth, dating back more than 4.1 billion years.",
+        "While roughly 435 Martian meteorites have been cataloged, almost all are far younger or made of single minerals. Teghaza 001 contains a complex mixture of igneous minerals that matches the chemistry seen in Mars' southern highlands by orbiting spacecraft, preserving direct physical evidence of how cooling magma first reacted with subsurface water."
+      ],
+      "more": [
+        "Planetary geologist Yang Liu of NASA's Jet Propulsion Laboratory initially came close to passing on the specimen. Oxygen isotope measurements conducted at the University of New Mexico had already tagged it as Martian, identifying it broadly as a shergottite—the most common class of Red Planet rocks that reaches Earth.",
+        "Looking closer, Liu spotted unexpected mineral textures alongside embedded zircon crystals, which act as pristine time capsules for dating geological activity. To date them without obliterating rare material, the team brought in Francois Tissot at Caltech, whose lab developed an in-situ rubidium-strontium dating technique. Instead of dissolving the rock entirely, the method analyzes individual mineral grains on a fragment smaller than a fingernail.",
+        "The resulting timeline proved extraordinary: the rock formed from magma and underwent hydrothermal alteration by Martian water roughly 4.1 billion years ago, implying its parent volcanic material crystallized even earlier. This places it alongside famous specimens like ALH84001, but with far richer mineral diversity.",
+        "Co-author Lee Saper noted that this marks humanity's first direct sample of Martian crust from this specific highland territory. The mineral chemistry provides an uncorrupted geochemical record of water-rock interactions and hints at how the Martian atmosphere behaved as the planet began losing its liquid reservoir."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+      },
+      "wiki": "Martian_meteorite",
+      "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-webb-spots-clouds-of-heavy-elements-lingering-ar",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-26",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "james-webb",
+        "black-holes",
+        "astrophysics"
+      ],
+      "title": "Webb Spots Clouds of Heavy Elements Lingering Around Our Quiet Supermassive Black Hole",
+      "snippet": "Infrared observations show Sagittarius A* is encircled by metal-rich gas leftover from exploding stars, offering clues as to why it eats so slowly.",
+      "body": [
+        "Sagittarius A*, the supermassive black hole at the center of the Milky Way, is remarkably quiet compared to counterparts in other galaxies. It consumes surrounding matter at an unusually sluggish pace, and astronomers have long sought to understand what regulates its appetite.",
+        "Using new high-resolution infrared data from the James Webb Space Telescope, researchers at McGill University mapped the composition and temperatures of gas clouds orbiting near the galactic core. They found these gas reservoirs are heavily enriched with metals—astronomical shorthand for elements heavier than helium—forged across generations of stellar explosions."
+      ],
+      "more": [
+        "To evaluate why Sagittarius A* feeds so slowly, researchers needed a detailed census of its available fuel. Led by Nicole Ford, the team took advantage of Webb's high spectral and spatial resolution to split the infrared light around the galactic center, distinguishing individual heat signatures and tracing chemical abundance across discrete clouds in the central minispiral.",
+        "The measurements revealed an abundance of elements like carbon, oxygen, and iron. These heavy materials reflect a long history of nearby star formation and subsequent supernovae, leaving behind gas far more chemically evolved than the primordial material found in outer galactic regions.",
+        "In an accompanying study, astronomer Mayura Balakrishnan tested whether this surrounding gas preserved physical evidence of past explosive outbursts from the black hole itself. Instead, the analysis revealed that harsh, localized environmental conditions—such as nearby supernova remnants—dominate the gas emissions so completely that the black hole's historical footprint is masked.",
+        "Because the gas cannot function as an untangled historical record of past flaring, researchers plan to feed the precise chemical compositions obtained by Webb into long-term hydrodynamic simulations to map how this dense material actually drifts inward over time."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/milky-ways-central-black-hole-metal-rich-gas-15151.html"
+      },
+      "wiki": "Sagittarius_A*",
+      "imageUrl": "https://cdn.sci.news/images/2021/05/image_9707f-Milky-Way-Center.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "design-a-catalan-wine-label-designed-like-a-view-from-a",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "graphic-design",
+        "packaging-design",
+        "branding",
+        "typography"
+      ],
+      "title": "A Catalan wine label designed like a view from a speeding train",
+      "snippet": "Barcelona studio Atipus turned the literal meaning of 'Vinya Llarga' into a blurred panoramic landscape that wraps around the entire bottle.",
+      "body": [
+        "When Barcelona-based studio Atipus was tasked with branding Vinya Llarga, they bypassed obscure references and went straight for the literal translation. In Catalan, the name means 'long vineyard'—and the design embraces that length with a motion-blurred panorama running continuously across the bottle.",
+        "The project marks the first still wine from Maria Rigol Ordi, a producer from Sant Sadurní d'Anoia in Penedès typically renowned for cava. The central visual element resembles a landscape photograph snapped from a high-speed train window, blending streaks of yellow, green, and blue before snapping into focus on the reverse side."
+      ],
+      "more": [
+        "The studio's core concept hinges on deliberate restraint surrounding the central colorful ribbon. While the vivid spectrum commands attention, the supporting typography remains understated. The product name sits quietly in condensed capital letters along the top of a textured white background, paired with Maria Rigol Ordi's name running neatly along the lower rim.",
+        "Secondary technical details—including fermentation specs, grape variety, and run sizing—are treated as clean editorial information in small type. These quiet typographic touches ground the bottle in winemaking heritage, nodding directly to the producer's roots going back to 1897.",
+        "As Atipus designer Fabiola Ureña highlights, the design had to signal a distinct departure into still wine without discarding the producer's craft foundation. A wax-sealed capsule caps the bottle, introducing a tactile, traditional element that balances the fluid, modern energy of the label's horizontal streak.",
+        "Around the back, the smeared landscape softens and resolves into distinct leafy greenery, as if the speeding vantage point finally came to a complete halt. By leaning into a literal interpretation of length, Atipus managed to deliver visual rhythm and distinct character without over-complicating the narrative."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/work/why-studio-atipus-designed-a-wine-label-to-look-like-its-been-shot-from-a-speeding-train/"
+      },
+      "wiki": "Penedès_(DO)",
+      "imageUrl": "https://media.creativeboom.com/4017c142-52f5-4812-8caa-8768f33cac49/conversions/5308b9851eda773963425bb6a7a033b8a32f3527-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "design-rio-s-estudio-cru-prefers-asking-questions-to-gi",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "explainer",
+      "tags": [
+        "graphic-design",
+        "branding",
+        "typography",
+        "visual-culture"
+      ],
+      "title": "Rio's Estudio Cru prefers asking questions to giving answers",
+      "snippet": "Operating from Rio de Janeiro, Estudio Cru approaches branding as a critical dialogue rather than an endless race on the treadmill of commerce.",
+      "body": [
+        "Based in Rio de Janeiro, graphic design agency Estudio Cru approaches commercial visual design with a healthy dose of philosophical skepticism. Co-founders Bernardo Winitskowski and Maria Alice Leal operate on the belief that when the finished output is the only metric that matters, creatives are simply running on a capitalist treadmill.",
+        "Instead of treating branding as a set of polished certainties, the studio approaches visual identities as opportunities to pose questions and spark curiosity. Their conceptual work spans books, exhibitions, and brand identities ranging from Japanese bakeries to playful festival visuals."
+      ],
+      "more": [
+        "Estudio Cru’s philosophy rejects the idea that cultural artifacts should exist merely to reinforce status-quo systems. As Bernardo Winitskowski explains, the studio relies on the expressive potential of inquiry rather than presenting slick, definitive answers, treating every commercial brief as a direct communicative pipeline with the public.",
+        "Despite their deeply reflective conceptual starting points, the studio avoids pretension or dense academic baggage. The resulting design work maintains an approachable clarity, steering clear of superfluous flourishes in favor of sharp typographic structure and aesthetic responsiveness.",
+        "Whether developing the identity for a Japanese bakery, an experimental festival anchored in play, or a fitness equipment line, the studio tailors each visual voice to the specific context. The result is work that balances refined execution with a critical, questioning attitude toward design's broader role in culture."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/estudio-cru-graphic-design-discover-281026"
+      },
+      "wiki": "Graphic_design",
+      "imageUrl": "https://m.itsnicethat.com/original_images/estudio-cru-graphic-design-discover-itsnicethat-9.png?class=w1440",
+      "lang": "en"
+    },
+    {
+      "id": "pt-a-onda-de-contestacao-jovem-que-atravessa-o-cont",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "europa",
+        "juventude",
+        "politica",
+        "sociedade"
+      ],
+      "title": "A onda de contestação jovem que atravessa o continente europeu",
+      "snippet": "Da precariedade laboral à crise da habitação e à corrupção, movimentos juvenis multiplicam protestos por vários países europeus.",
+      "body": [
+        "Jovens de múltiplos países europeus, incluindo Portugal, França, Espanha, Bélgica, Itália, Sérvia e Albânia, têm saído à rua em ações de contestação. Os protestos refletem um sentimento generalizado de ausência de perspetivas face a salários degradados, custo de vida elevado e carências nos sistemas de ensino.",
+        "Enquanto na Europa ocidental as queixas se concentram sobretudo no acesso difícil à habitação e ao trabalho digno, nos Balcãs o foco tem sido o combate direto à corrupção governamental, gerando resultados políticos inéditos."
+      ],
+      "more": [
+        "Na Albânia, por exemplo, dezenas de milhares de jovens manifestaram-se na capital, Tirana, exigindo a saída do primeiro-ministro Edi Rama devido a planos para ceder zonas costeiras protegidas a investimentos turísticos de luxo.",
+        "Já na Sérvia, a contestação estudantil transformou-se numa reviravolta eleitoral: uma lista independente de jovens conquistou 140 lugares no Parlamento sérvio com mais de 2 milhões de votos. O movimento ganhou ímpeto após a tragédia da estação de Novi Sad, onde a queda de uma cobertura provocou 16 mortos devido a falhas de materiais associadas a esquemas de corrupção.",
+        "Em Portugal e noutros parceiros comunitários, os apelos prendem-se com a barreira ao ensino superior, o bloqueio do mercado imobiliário e a cedência de património público e costeiro a interesses exclusivos, evidenciando uma fratura geracional que teima em não abrandar."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/opiniao-dn/a-idade-da-inocncia-e-o-grito-pelo-futuro"
+      },
+      "imageUrl": "https://media.assettype.com/dn%2F2026-02-20%2Fveaw265e%2FAntonioCapinha.avif?rect=0%2C0%2C1000%2C525&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-abastecimento-de-combustiveis-garantido-para-o-i",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "combustiveis",
+        "energia",
+        "economia",
+        "portugal"
+      ],
+      "title": "Abastecimento de combustíveis garantido para o inverno em Portugal",
+      "snippet": "A Epcol afasta o cenário de rutura no fornecimento de combustíveis no país, apesar da instabilidade geopolítica internacional.",
+      "body": [
+        "A Associação das Empresas Portuguesas de Combustíveis e Lubrificantes (Epcol) garantiu não existirem riscos iminentes de quebra no abastecimento de combustíveis em Portugal para o próximo inverno. A combinação entre capacidade de refinação nacional, redes logísticas, importações e reservas estratégicas assegura a estabilidade do mercado.",
+        "Apesar da segurança física de fornecimento, a evolução dos preços continua sob pressão devido à tensão geopolítica no Médio Oriente. A Entidade Nacional para o Setor Energético (ENSE) mantém um nível de risco amarelo, indicando que a probabilidade de falhas graves é baixa, mas exige acompanhamento rigoroso."
+      ],
+      "more": [
+        "A nível comunitário, a Comissão Europeia partilha a leitura de que não há escassez física iminente de gasóleo nem de combustível para aviação. Contudo, após reuniões com refinarias e com a Agência Internacional de Energia (AIE), o comissário europeu da Energia, Dan Jørgensen, alertou que os mercados continuam sobrecarregados e pediu um aumento na produção interna para travar a escalada dos preços.",
+        "Em Portugal, todo o processo de refinação reside na unidade da Galp em Sines, na sequência do encerramento da refinaria de Matosinhos em 2021. De acordo com a Epcol, Sines dispõe de margem para reforçar a produção, embora essa flexibilidade dependa da disponibilidade de ramas de petróleo adequadas, das oscilações da procura e das condições económicas gerais.",
+        "A AIE prevê ainda que a pressão sobre o mercado global de gasóleo se prolongue até 2027, mantendo o foco europeu na rentabilização das infraestruturas industriais existentes."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/10/30/epcol-nao-ve-risco-iminente-de-rutura-no-abastecimento-de-combustiveis-no-inverno-em-portugal/"
+      },
+      "wiki": "Sines_Refinery",
+      "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1244:696:nowe:644:137/q:70/plain/https://s3.observador.pt/wp-content/uploads/2019/08/13103008/26831526.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "books-when-public-systems-fail-vigilantes-fill-the-sil",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-28",
+      "style": "book",
+      "tags": [
+        "psychology",
+        "society",
+        "justice",
+        "non-fiction"
+      ],
+      "title": "When public systems fail, vigilantes fill the silence",
+      "snippet": "A deep dive into the tragic subway death of Jordan Neely reveals what happens when citizens on both sides feel entirely abandoned by institutional care.",
+      "body": [
+        "In May 2023, Jordan Neely, an unhoused man experiencing an acute mental health crisis, was killed in a New York subway car by fellow passenger Daniel Penny. The encounter ignited nationwide controversy, reducing complex lives into viral ideological caricatures.",
+        "Journalist Anand Giridharadas spent two years investigating beyond the viral footage. His book examines the deeper breakdown of public institutions, arguing that both Neely and Penny were shaped by an overwhelming sense of systemic abandonment."
+      ],
+      "source": {
+        "id": "npr-books",
+        "name": "NPR · Books",
+        "url": "https://www.npr.org/2026/10/28/nx-s1-6019370/jordan-neely-daniel-penny-anand-giridharadas-man-in-the-mirror"
+      },
+      "wiki": "Anand_Giridharadas",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3373+0+627/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2F38%2F5489b3204723b7e11736f3b738da%2Fgettyimages-1492948802.jpg",
+      "lang": "en",
+      "book": {
+        "title": "Man in the Mirror: Hope, Struggle, and Belonging in an American City",
+        "author": "Anand Giridharadas",
+        "lessons": [
+          {
+            "title": "Institutional absence breeds DIY justice",
+            "text": "When care, mental health support, and public safety systems fail to intervene, citizens start believing no help is coming. That persistent sense of abandonment nudges ordinary people toward disastrous vigilantism."
+          },
+          {
+            "title": "Fragmented safety nets let vulnerable people slip away",
+            "text": "Neely had entered restorative diversion programs and had repeated contacts with outreach workers and police. Yet disjointed communication meant nobody connected the dots before his fatal crisis."
+          },
+          {
+            "title": "Public trauma gets captured by political opportunism",
+            "text": "Rather than fostering reflection on civic duty and care, tragedies quickly turn individuals into ideological avatars, fueling cultural division and commercial posturing."
+          }
+        ],
+        "takeaway": "Pay close attention when you feel the impulse to 'take matters into your own hands' in a frustrating situation, and look first for collective or mediating resources rather than reacting alone.",
+        "forWho": "Readers interested in criminal justice, urban sociology, and the psychological fallout of decaying public infrastructure."
+      }
+    },
+    {
+      "id": "ideas-the-self-is-not-hidden-deep-down-waiting-to-be-f",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "psychology",
+        "identity",
+        "self-improvement"
+      ],
+      "title": "The self is not hidden deep down waiting to be found, but constructed",
+      "snippet": "Treating identity as an archaeological dig misses the reality that identity requires deliberate creative attention.",
+      "body": [
+        "Philosopher Joe Folley challenges the modern obsession with 'finding yourself.' Instead of searching for an innate, buried core waiting to be uncovered, Folley argues that personhood is built over time through conscious attention and lived experience.",
+        "To put this into practice, stop treating personal identity as an excavation project. Focus instead on what you actively construct through your choices, habits, and what you choose to pay attention to each day."
+      ],
+      "more": [
+        "Folley, who studied philosophy at Cambridge and runs the channel *Unsolicited Advice*, suggests that the popular narrative of self-discovery misleads people into passive rumination. Searching for a pre-existing authentic self treats personal character as a static artifact rather than an evolving craft.",
+        "A key issue Folley raises in conversation with Jonny Thomson is how modern environments warp this construction process. The sustained attention required to build an identity has been systematically fragmented. Rather than directing attention toward deliberate growth, it has been commodified into a resource meant to be spent, optimized, and traded.",
+        "This dynamic extends into how philosophical ideas are consumed today. Folley points out that many readers engage with philosophical texts—such as the works of Albert Camus—only partially, seizing on popular catchphrases while bypassing the deeper, unfinished nuance of the original arguments.",
+        "Shifting perspective from discovery to construction reframes personal responsibility. Rather than asking who you were secretly born to be, the practical question becomes what kind of character you are assembling through the daily allocation of your focus."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/series/conversations/joe-folley-stop-trying-to-find-yourself/"
+      },
+      "imageUrl": "https://bigthink.com/wp-content/uploads/2026/10/MPP3_Joe_Folley1-for_BT_Website.png?quality=80&#038;w=640",
+      "lang": "en"
+    },
+    {
+      "id": "ideas-your-parents-run-beneath-your-daily-self-even-if",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "relationships",
+        "family",
+        "grief"
+      ],
+      "title": "Your parents run beneath your daily self, even if the bond is broken",
+      "snippet": "Being present when a parent dies confronts the parts of your identity you cannot fully articulate or undo.",
+      "body": [
+        "In James L. Harmon's anthology *Take My Advice*, author Mary Gaitskill offers a difficult rule: when your parents are dying, spend as much time with them as you possibly can. This holds true even if the relationship was painful or abusive.",
+        "Gaitskill argues that parents pass along an essence beneath character or personality. You might transform that raw matter into something entirely different, but facing their mortality ultimately reveals the limits of your own self-knowledge."
+      ],
+      "more": [
+        "Gaitskill notes that confronting parental loss is uniquely discomposing because your parents served as the initial arbiters of your existence. Even when parents fail dreadfully at unconditional love, their influence remains stitched into your psychological fabric. Being with them at the end is an acknowledgment that your role as their child, a pillar of how you understand your reality, is vanishing.",
+        "Being close to death exposes how small our daily mental containers are. Gaitskill writes that witnessing a parent break down physically and mentally forces us to glimpse aspects of them that do not easily translate into ordinary human terms. That encounter can unleash volatile, contradictory emotions, making it difficult to discern which reaction is the most genuine.",
+        "Because of this turbulence, Gaitskill advises paying close attention to yourself rather than fleeing the impulse to leave. Wanting to walk away is natural, but she warns against letting sudden frustration drown out a deeper awareness: once a parent dies, the finality is absolute in ways impossible to grasp beforehand.",
+        "While popular wisdom often claims that we enter and exit life entirely alone, Gaitskill points out that we never actually arrive alone. Whether their presence was loving or fractured, someone was there at your beginning; showing up for their end honors that shared arrival."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill/"
+      },
+      "wiki": "Mary_Gaitskill",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2021/11/Lily_by_MariaPopova0.jpg?fit=1200%2C630&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "f1-a-blue-ferrari-499p-is-joining-the-asian-le-mans",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "wec",
+        "hypercar",
+        "ferrari-499p",
+        "asian-lms"
+      ],
+      "title": "A Blue Ferrari 499P Is Joining the Asian Le Mans Series",
+      "snippet": "Cetilar Racing unveiled a metallic blue Ferrari 499P hypercar for an Asian Le Mans Series season that will run entirely in Europe.",
+      "body": [
+        "Cetilar Racing has revealed its Ferrari 499P hypercar for the 2026-27 Asian Le Mans Series. Decked out in metallic blue with green accents around the canopy, the car will be shared by team owner Roberto Lacorte, his son Nicola Lacorte, and Ferrari factory driver Antonio Fuoco.",
+        "The category is making its debut in the championship, but in an unusual setting. Due to the ongoing Iran crisis, cost issues, and scheduling clashes in Southeast Asia, the entire winter series is being held on European tracks, with stops planned at Le Castellet, Jerez, and Portimão.",
+        "Hypercar participation is unexpectedly thin: Cetilar's entry will face just one rival in the premier class, a sister 499P fielded by AF Corse."
+      ],
+      "more": [
+        "The Asian Le Mans Series intended the 2026-27 season to mark a major expansion by introducing Le Mans Hypercars. Throughout early 2026, paddock chatter pointed toward an ambitious grid that could have included up to four Porsche 963s, three 2022-spec Peugeot 9X8s, and potential entries from Acura, Lamborghini, Glickenhaus, Vanwall, and Isotta Fraschini.",
+        "None of those ambitious plans came together. The biggest roadblock proved to be a structural requirement of the series: each hypercar lineup must include a mandatory Bronze-rated amateur driver. With amateur talent stretched thin and budgets redirected, teams faced a severe bottleneck in securing eligible Bronze pilots.",
+        "Moving the series completely out of Asia dealt another blow. When Southeast Asian fixtures were abandoned—owing partly to venue clashes with MotoGP at Buriram—several well-funded Asian gentleman drivers chose to withdraw their support entirely.",
+        "What remains is a two-car Ferrari duel serving as an experimental trial to test whether top-tier hypercars can operate viably outside the WEC and IMSA umbrellas. Lacorte remains enthusiastic about sharing the machine with his son and Fuoco, with the six-race campaign kicking off with two four-hour rounds at Le Castellet."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/aslms/news/cetilar-blue-ferrari-499p-hypercar-asian-le-mans/10869499/"
+      },
+      "wiki": "Ferrari_499P",
+      "imageUrl": "https://cdn-4.motorsport.com/images/amp/901DOg56/s6/cetilar-enthuellt-blauen-ferrari-499p-fuer-hypercar-debuet-26102801.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "f1-jorge-martin-cleared-to-race-at-sepang-despite-a",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "motogp",
+        "jorge-martin",
+        "aprilia",
+        "sepang"
+      ],
+      "title": "Jorge Martin Cleared to Race at Sepang Despite a Broken Wrist",
+      "snippet": "Aprilia's title contender passed his post-practice medical check in Malaysia, keeping his championship fight alive against Marc Marquez.",
+      "body": [
+        "Jorge Martin has received the official green light from MotoGP medical staff to contest the remainder of the Malaysian Grand Prix at Sepang, despite riding with a fractured right wrist.",
+        "The Aprilia rider sustained the injury in a sprint crash at Phillip Island just six days prior. After an initial conditional approval on Thursday, official doctor Angel Charte evaluated Martin right inside the Aprilia garage after Friday morning's FP1 and signed off on his participation.",
+        "Keeping his championship hopes alive will be an uphill struggle. Martin finished the opening practice session in 20th place, 1.8 seconds adrift of standings leader Marc Marquez, who holds a 10-point advantage."
+      ],
+      "more": [
+        "Martin completed 12 laps across several runs during the first practice session before heading out for practice start drills. While his lap times left him well down the order, the consistent track mileage was enough to demonstrate sufficient bike control to medical officials.",
+        "The physical toll at Sepang is notoriously harsh, and Martin's title rival Marc Marquez wasted no time setting the benchmark, leading the session on his factory Ducati ahead of Marco Bezzecchi and Pedro Acosta.",
+        "Aprilia’s garage experienced mixed fortunes during the morning. While Martin earned clearance to ride through the discomfort, Trackhouse Aprilia rider Raul Fernandez was forced to withdraw from the event entirely. Fernandez had managed only two laps in FP1 before pulling into the pits in agony from an existing finger injury sustained in Indonesia.",
+        "Fernandez had attempted to soldier on after missing the cancelled race in Australia, but Trackhouse confirmed he will return to Spain for treatment. Martin now heads into qualifying and the weekend races as Aprilia's sole title hopeful trying to stem Marquez's momentum."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/motogp/news/jorge-martin-declared-fit-to-race-in-malaysian-gp-after-fp1/10869519/"
+      },
+      "wiki": "Jorge_Martín",
+      "imageUrl": "https://cdn-1.motorsport.com/images/amp/YBVj4kBY/s6/jorge-martin-aprilia-racing-te.jpg",
+      "lang": "en"
+    }
+  ]
+}

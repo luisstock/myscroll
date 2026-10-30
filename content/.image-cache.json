@@ -420,5 +420,21 @@
   "v2:en:Bicycle_geometry": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Fork-rake.jpg/330px-Fork-rake.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Fork-rake.jpg"
+  },
+  "v2:en:Hessian_(soldier)": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/73/Johann_Koch.png/500px-Johann_Koch.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Johann_Koch.png"
+  },
+  "v2:en:Dune_(franchise)": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dune-CardGameCover.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:Dune-CardGameCover.jpg"
+  },
+  "v2:en:Sam_Altman": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg/330px-Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg"
+  },
+  "v2:en:Gravel_bicycle": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Look_765_Gravel_Bicycle.jpg/1280px-Look_765_Gravel_Bicycle.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Look_765_Gravel_Bicycle.jpg"
   }
 }

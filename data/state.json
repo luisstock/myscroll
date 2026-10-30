@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:21:11.228Z",
+ "updatedAt": "2026-10-30T17:23:35.111Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -754,7 +754,11 @@
   "tech-reddit-plans-to-close-its-doors-to-logged-out-re",
   "design-a-catalan-wine-label-designed-like-a-view-from-a",
   "ai-sam-altman-argues-local-ai-inference-is-a-terrib",
-  "bike-trading-a-20-year-old-cyclocross-bike-for-modern"
+  "bike-trading-a-20-year-old-cyclocross-bike-for-modern",
+  "motion-lorem-ipsum-rap-turning-placeholder-text-into-an",
+  "pt-abastecimento-de-combustiveis-garantido-para-o-i",
+  "ideas-creative-momentum-begins-by-lowering-the-barrier",
+  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -799,7 +803,7 @@
   "tr-repair": 5,
   "science-the-optical-trick-of-an-anticrepuscular-rainbow": 4,
   "science-nasa-s-simulated-mars-crew-marks-one-full-year-l": 3,
-  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 5,
+  "science-webb-tracks-real-time-water-clouds-on-the-coldes": 6,
   "science-hubble-images-ngc-1827-to-help-solve-a-cosmologi": 2,
   "science-a-99-million-year-old-lizard-tail-shedding-caugh": 1,
   "science-white-dwarfs-aren-t-just-white-astronomers-find": 1,
@@ -880,17 +884,17 @@
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1,
   "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1,
   "books-uncovering-the-intimacies-behind-great-literatur": 2,
-  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 2,
+  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 3,
   "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": 2,
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 2,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
   "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 2,
   "design-builders-after-all-how-daft-punk-and-lego-met-in": 2,
-  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 1,
-  "ideas-in-an-expanding-universe-what-you-can-see-is-not": 1,
+  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 2,
+  "ideas-in-an-expanding-universe-what-you-can-see-is-not": 2,
   "design-mother-design-started-a-brand-identity-project-w": 1,
-  "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": 1,
+  "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": 2,
   "science-why-comets-probably-didn-t-deliver-life-s-starte": 1,
   "design-how-span-turned-an-equals-sign-into-a-civic-iden": 1,
   "ai-google-unveils-gemini-4-carbon-targeting-long-ho": 1,
@@ -908,12 +912,12 @@
   "til-archaeologists-found-a-200-year-old-rat-s-nest-f": 1,
   "bike-two-bikes-in-one-transformable-geometry-on-a-fai": 1,
   "pt-como-o-amor-reteve-um-chef-colombiano-em-lisboa": 1,
-  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be": 1,
+  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be": 2,
   "tech-why-the-iphone-duo-s-hinge-might-be-cracking-its": 1,
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui": 1,
   "tech-how-google-s-ai-search-upended-online-publishing": 1,
   "tech-lg-s-brilliant-c6-oled-tv-gets-an-early-black-fr": 1,
-  "design-subverting-retail-discount-stickers-to-expose-th": 1,
+  "design-subverting-retail-discount-stickers-to-expose-th": 2,
   "ideas-your-brain-doesn-t-generate-consciousness-it-mer": 1,
   "ideas-separate-physical-forces-may-just-be-cold-fragme": 1,
   "design-white-case-drops-legal-navy-blue-for-high-voltag": 1,
@@ -941,7 +945,12 @@
   "f1-jorge-martin-cleared-to-race-at-sepang-despite-a": 1,
   "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": 1,
   "fun-the-dune-movie-popcorn-bucket-that-broke-the-int": 1,
-  "design-rio-s-estudio-cru-prefers-asking-questions-to-gi": 1
+  "design-rio-s-estudio-cru-prefers-asking-questions-to-gi": 1,
+  "books-when-public-systems-fail-vigilantes-fill-the-sil": 1,
+  "science-webb-spots-clouds-of-heavy-elements-lingering-ar": 1,
+  "bike-unbound-and-life-time-introduce-a-pro-number-req": 1,
+  "pt-a-onda-de-contestacao-jovem-que-atravessa-o-cont": 1,
+  "til-why-hessian-soldiers-were-baffled-by-the-america": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4027,6 +4036,74 @@
    "tag:branding",
    "tag:typography",
    "tag:visual-culture"
+  ],
+  "books-when-public-systems-fail-vigilantes-fill-the-sil": [
+   "topic:books",
+   "sub:books/life",
+   "source:npr-books",
+   "style:book",
+   "tag:psychology",
+   "tag:society",
+   "tag:justice",
+   "tag:non-fiction"
+  ],
+  "science-webb-spots-clouds-of-heavy-elements-lingering-ar": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:astronomy",
+   "tag:james-webb",
+   "tag:black-holes",
+   "tag:astrophysics"
+  ],
+  "motion-lorem-ipsum-rap-turning-placeholder-text-into-an": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:motionographer",
+   "style:news",
+   "tag:motion-design",
+   "tag:generative-ai",
+   "tag:midjourney",
+   "tag:animation"
+  ],
+  "bike-unbound-and-life-time-introduce-a-pro-number-req": [
+   "topic:bike",
+   "sub:bike/gravel",
+   "source:cyclingnews-gravel",
+   "style:news",
+   "tag:gravel-bikes",
+   "tag:unbound-gravel",
+   "tag:life-time-grand-prix"
+  ],
+  "pt-a-onda-de-contestacao-jovem-que-atravessa-o-cont": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:dn",
+   "style:news",
+   "tag:europa",
+   "tag:juventude",
+   "tag:politica",
+   "tag:sociedade"
+  ],
+  "til-why-hessian-soldiers-were-baffled-by-the-america": [
+   "topic:til",
+   "sub:til/til",
+   "source:r-todayilearned",
+   "style:til",
+   "tag:american-revolution",
+   "tag:hessians",
+   "tag:military-history",
+   "tag:curiosities"
+  ],
+  "pt-abastecimento-de-combustiveis-garantido-para-o-i": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:combustiveis",
+   "tag:energia",
+   "tag:economia",
+   "tag:portugal"
   ]
  },
  "read": [
@@ -4163,7 +4240,8 @@
  "saved": [
   "pt-1755",
   "motion-balancing-speed-and-readability-in-vertical-kine",
-  "books-the-design-of-everyday-things"
+  "books-the-design-of-everyday-things",
+  "motion-lorem-ipsum-rap-turning-placeholder-text-into-an"
  ],
  "later": null,
  "hidden": {

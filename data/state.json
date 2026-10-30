@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:18:58.746Z",
+ "updatedAt": "2026-10-30T17:20:24.734Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -750,7 +750,10 @@
   "tech-the-super-mouse-puts-a-720p-touchscreen-right-un",
   "health-the-post-hype-era-of-ketosis",
   "f1-the-british-f1-curse-no-champion-has-defended-th",
-  "tech-why-apple-is-rewriting-a-century-old-color-stand"
+  "tech-why-apple-is-rewriting-a-century-old-color-stand",
+  "tech-reddit-plans-to-close-its-doors-to-logged-out-re",
+  "design-a-catalan-wine-label-designed-like-a-view-from-a",
+  "ai-sam-altman-argues-local-ai-inference-is-a-terrib"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -928,7 +931,14 @@
   "news-record-turnout-in-serbia-as-student-led-movement": 1,
   "ai-ai-creators-urge-model-makers-to-back-up-weights": 1,
   "motion-animating-a-medieval-loop-under-a-90-minute-time": 1,
-  "news-inside-cape-town-s-college-of-magic-a-real-world": 1
+  "news-inside-cape-town-s-college-of-magic-a-real-world": 1,
+  "ideas-the-self-is-not-hidden-deep-down-waiting-to-be-f": 1,
+  "news-beijing-s-empty-chairs-record-purges-shake-china": 1,
+  "ideas-your-parents-run-beneath-your-daily-self-even-if": 1,
+  "f1-a-blue-ferrari-499p-is-joining-the-asian-le-mans": 1,
+  "ai-mistral-drops-the-weights-for-mistral-large-4-it": 1,
+  "f1-jorge-martin-cleared-to-race-at-sepang-despite-a": 1,
+  "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3894,6 +3904,99 @@
    "tag:color-science",
    "tag:macbook-pro",
    "tag:apple"
+  ],
+  "ideas-the-self-is-not-hidden-deep-down-waiting-to-be-f": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:philosophy",
+   "tag:psychology",
+   "tag:identity",
+   "tag:self-improvement"
+  ],
+  "tech-reddit-plans-to-close-its-doors-to-logged-out-re": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:reddit",
+   "tag:web-culture",
+   "tag:tech-news"
+  ],
+  "news-beijing-s-empty-chairs-record-purges-shake-china": [
+   "topic:news",
+   "sub:news/world",
+   "source:bbc-world",
+   "style:news",
+   "tag:china",
+   "tag:geopolitics",
+   "tag:xi-jinping",
+   "tag:world-news"
+  ],
+  "ideas-your-parents-run-beneath-your-daily-self-even-if": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:philosophy",
+   "tag:relationships",
+   "tag:family",
+   "tag:grief"
+  ],
+  "design-a-catalan-wine-label-designed-like-a-view-from-a": [
+   "topic:design",
+   "source:creative-boom",
+   "style:news",
+   "tag:graphic-design",
+   "tag:packaging-design",
+   "tag:branding",
+   "tag:typography"
+  ],
+  "f1-a-blue-ferrari-499p-is-joining-the-asian-le-mans": [
+   "topic:f1",
+   "source:f1-motorsport-com",
+   "style:news",
+   "tag:wec",
+   "tag:hypercar",
+   "tag:ferrari-499p",
+   "tag:asian-lms"
+  ],
+  "ai-mistral-drops-the-weights-for-mistral-large-4-it": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:hacker-news",
+   "style:news",
+   "tag:mistral-ai",
+   "tag:open-weights",
+   "tag:llm",
+   "tag:coding"
+  ],
+  "f1-jorge-martin-cleared-to-race-at-sepang-despite-a": [
+   "topic:f1",
+   "source:f1-motorsport-com",
+   "style:news",
+   "tag:motogp",
+   "tag:jorge-martin",
+   "tag:aprilia",
+   "tag:sepang"
+  ],
+  "ai-sam-altman-argues-local-ai-inference-is-a-terrib": [
+   "topic:ai",
+   "sub:ai/local-llm",
+   "source:r-localllama",
+   "style:reddit",
+   "tag:local-ai",
+   "tag:sam-altman",
+   "tag:openai",
+   "tag:hardware"
+  ],
+  "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": [
+   "topic:science",
+   "source:nasa",
+   "style:news",
+   "tag:mars",
+   "tag:geology",
+   "tag:meteorites",
+   "tag:planetary-science",
+   "tag:space"
   ]
  },
  "read": [

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T09:41:24.485Z",
+ "updatedAt": "2026-10-30T17:18:24.962Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -860,10 +860,10 @@
   "fun-a-grand-former-theater-in-buenos-aires-found-a-s": 1,
   "science-could-a-heavy-neutrino-explain-why-the-universe": 1,
   "motion-beyond-standard-loops-adaptive-mograph-assets-in": 1,
-  "books-stripping-away-identity-to-see-how-fragile-human": 2,
+  "books-stripping-away-identity-to-see-how-fragile-human": 3,
   "til-three-very-real-disasters-that-happened-on-hallo": 1,
   "motion-sekondo-integrates-chatgpt-and-claude-straight-i": 1,
-  "books-we-are-the-living-consciousness-that-gives-the-u": 2,
+  "books-we-are-the-living-consciousness-that-gives-the-u": 3,
   "pt-a-crise-imobiliaria-e-o-fosso-crescente-da-rique": 1,
   "motion-a-look-at-blackstar-lullaby-an-indie-animated-pi": 1,
   "books-we-inherit-secrets-but-we-still-choose-what-we-b": 1,
@@ -920,7 +920,14 @@
   "tech-what-testers-actually-recommend-in-laptops-right": 1,
   "f1-the-british-f1-curse-no-champion-has-defended-th": 1,
   "science-a-scorching-lava-world-that-somehow-kept-its-atm": 1,
-  "science-webb-spots-strange-dusty-ice-in-an-interstellar": 1
+  "science-webb-spots-strange-dusty-ice-in-an-interstellar": 1,
+  "ideas-do-not-wait-for-certainty-to-act-design-solution": 1,
+  "news-security-heightened-across-european-cities-as-th": 1,
+  "motion-a-curated-showcase-of-the-best-motion-design-and": 1,
+  "news-record-turnout-in-serbia-as-student-led-movement": 1,
+  "ai-ai-creators-urge-model-makers-to-back-up-weights": 1,
+  "motion-animating-a-medieval-loop-under-a-90-minute-time": 1,
+  "news-inside-cape-town-s-college-of-magic-a-real-world": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3809,6 +3816,74 @@
    "tag:comets",
    "tag:astronomy",
    "tag:james-webb"
+  ],
+  "ideas-do-not-wait-for-certainty-to-act-design-solution": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:decision-making",
+   "tag:public-health",
+   "tag:crisis-response",
+   "tag:uncertainty"
+  ],
+  "news-security-heightened-across-european-cities-as-th": [
+   "topic:news",
+   "sub:news/europe",
+   "source:npr-world",
+   "style:news",
+   "tag:europe",
+   "tag:protests",
+   "tag:italy"
+  ],
+  "motion-a-curated-showcase-of-the-best-motion-design-and": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:ben-marriott-yt",
+   "style:video",
+   "tag:motion-design",
+   "tag:inspiration",
+   "tag:2d-animation",
+   "tag:3d-animation",
+   "tag:ben-marriott"
+  ],
+  "news-record-turnout-in-serbia-as-student-led-movement": [
+   "topic:news",
+   "sub:news/world",
+   "source:bbc-world",
+   "style:news",
+   "tag:serbia",
+   "tag:elections",
+   "tag:protests"
+  ],
+  "ai-ai-creators-urge-model-makers-to-back-up-weights": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-stablediffusion",
+   "style:reddit",
+   "tag:open-source",
+   "tag:huggingface",
+   "tag:stable-diffusion",
+   "tag:lora"
+  ],
+  "motion-animating-a-medieval-loop-under-a-90-minute-time": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:ben-marriott-yt",
+   "style:video",
+   "tag:after-effects",
+   "tag:photoshop",
+   "tag:ben-marriott",
+   "tag:2d-animation",
+   "tag:workflow"
+  ],
+  "news-inside-cape-town-s-college-of-magic-a-real-world": [
+   "topic:news",
+   "sub:news/world",
+   "source:npr-world",
+   "style:explainer",
+   "tag:south-africa",
+   "tag:education",
+   "tag:creativity"
   ]
  },
  "read": [
@@ -6385,10 +6460,6 @@
      "Foi concedido ao Ministério da Administração Interna e à autarquia o prazo de 48 horas para se pronunciarem por escrito sobre a providência.",
      "A iniciativa jurídica surgiu após o início da concentração pelo direito à habitação na Praça D. Pedro IV."
     ],
-    "more": [
-     "A acampada tem mobilizado centenas de pessoas contra a especulação imobiliária e em defesa do direito à habitação na capital.",
-     "A ação judicial pretende salvaguardar os moldes em que a concentração decorre no Rossio."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/porto",
@@ -6422,9 +6493,6 @@
     "body": [
      "A Acampada de Lisboa apelou à participação pública numa manifestação marcada para este sábado.",
      "A concentração tem ponto de partida previsto no Marquês de Pombal, seguindo depois em direção à Praça do Rossio."
-    ],
-    "more": [
-     "Estes protestos inserem-se num ciclo de mobilizações pelo direito à habitação e contra o custo de vida nas grandes cidades portuguesas."
     ],
     "source": {
      "id": "reddit-search",
@@ -6461,9 +6529,6 @@
      "Na capital, a CGTP convocou uma manifestação que começou no Cais do Sodré e terminou na praça do Rossio.",
      "Sob o mote de melhores salários e serviços públicos, os manifestantes marcharam contra a subida dos combustíveis e dos bens essenciais."
     ],
-    "more": [
-     "A mobilização juntou trabalhadores de vários setores e comitivas sindicais vindas de diferentes pontos do país para reivindicar um novo rumo económico."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/lisboa",
@@ -6499,9 +6564,6 @@
      "A desculpa da distância de um quilómetro transformou-se numa longa caminhada lenta devido à dimensão da multidão intergeracional presente.",
      "No final da marcha, foram montadas as primeiras tendas no Rossio, dando início a um acampamento de protesto."
     ],
-    "more": [
-     "Vários sindicatos e movimentos sociais marcaram presença na iniciativa, colorindo a praça com bandeiras e reivindicações variadas."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/lisboa",
@@ -6533,9 +6595,6 @@
      "O protesto de acampados pela habitação regressou ao Rossio, em Lisboa, com uma adesão crescente que passou de poucas dezenas para milhares de participantes.",
      "Depois de noites anteriores marcadas por tensão policial, os manifestantes voltaram a erguer tendas para exigir soluções habitacionais.",
      "O movimento tem procurado demarcar-se de incidentes e infiltrações de grupos radicais ocorridos durante as jornadas de protesto."
-    ],
-    "more": [
-     "A contestação tem-se alargado a outras cidades, como o Porto, mostrando a centralidade do tema da habitação no debate público atual."
     ],
     "source": {
      "id": "reddit-search",
@@ -6570,9 +6629,6 @@
      "A greve geral convocada pela CGTP e pela UGT paralisou transportes e serviços públicos em todo o país contra o pacote laboral do governo.",
      "Esta foi considerada a paralisação mais importante em Portugal desde o período da crise financeira de 2013.",
      "Em Lisboa, o protesto culminou em frente à Assembleia da República, onde se registaram confrontos e intervenção policial."
-    ],
-    "more": [
-     "A jornada de contestação refletiu o profundo descontentamento sindical face às medidas propostas para a legislação laboral."
     ],
     "source": {
      "id": "wikipedia-search",

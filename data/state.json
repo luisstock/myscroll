@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:18:24.962Z",
+ "updatedAt": "2026-10-30T17:18:58.746Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -749,7 +749,8 @@
   "ideas-beyond-a-point-fighting-the-mind-wears-you-out-y",
   "tech-the-super-mouse-puts-a-720p-touchscreen-right-un",
   "health-the-post-hype-era-of-ketosis",
-  "f1-the-british-f1-curse-no-champion-has-defended-th"
+  "f1-the-british-f1-curse-no-champion-has-defended-th",
+  "tech-why-apple-is-rewriting-a-century-old-color-stand"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -880,8 +881,8 @@
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 2,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
-  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 1,
-  "design-builders-after-all-how-daft-punk-and-lego-met-in": 1,
+  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 2,
+  "design-builders-after-all-how-daft-punk-and-lego-met-in": 2,
   "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 1,
   "ideas-in-an-expanding-universe-what-you-can-see-is-not": 1,
   "design-mother-design-started-a-brand-identity-project-w": 1,
@@ -3884,6 +3885,15 @@
    "tag:south-africa",
    "tag:education",
    "tag:creativity"
+  ],
+  "tech-why-apple-is-rewriting-a-century-old-color-stand": [
+   "topic:tech",
+   "source:the-verge",
+   "style:explainer",
+   "tag:displays",
+   "tag:color-science",
+   "tag:macbook-pro",
+   "tag:apple"
   ]
  },
  "read": [

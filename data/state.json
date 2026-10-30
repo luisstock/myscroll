@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:20:24.734Z",
+ "updatedAt": "2026-10-30T17:21:11.228Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -753,7 +753,8 @@
   "tech-why-apple-is-rewriting-a-century-old-color-stand",
   "tech-reddit-plans-to-close-its-doors-to-logged-out-re",
   "design-a-catalan-wine-label-designed-like-a-view-from-a",
-  "ai-sam-altman-argues-local-ai-inference-is-a-terrib"
+  "ai-sam-altman-argues-local-ai-inference-is-a-terrib",
+  "bike-trading-a-20-year-old-cyclocross-bike-for-modern"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -938,7 +939,9 @@
   "f1-a-blue-ferrari-499p-is-joining-the-asian-le-mans": 1,
   "ai-mistral-drops-the-weights-for-mistral-large-4-it": 1,
   "f1-jorge-martin-cleared-to-race-at-sepang-despite-a": 1,
-  "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": 1
+  "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": 1,
+  "fun-the-dune-movie-popcorn-bucket-that-broke-the-int": 1,
+  "design-rio-s-estudio-cru-prefers-asking-questions-to-gi": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -3997,6 +4000,33 @@
    "tag:meteorites",
    "tag:planetary-science",
    "tag:space"
+  ],
+  "fun-the-dune-movie-popcorn-bucket-that-broke-the-int": [
+   "topic:fun",
+   "source:r-interestingasfuck",
+   "style:reddit",
+   "tag:dune",
+   "tag:pop-culture",
+   "tag:merchandise",
+   "tag:design"
+  ],
+  "bike-trading-a-20-year-old-cyclocross-bike-for-modern": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:r-gravelcycling",
+   "style:reddit",
+   "tag:gravel-bikes",
+   "tag:bike-setup",
+   "tag:cycling-gear"
+  ],
+  "design-rio-s-estudio-cru-prefers-asking-questions-to-gi": [
+   "topic:design",
+   "source:its-nice-that",
+   "style:explainer",
+   "tag:graphic-design",
+   "tag:branding",
+   "tag:typography",
+   "tag:visual-culture"
   ]
  },
  "read": [

@@ -436,5 +436,14 @@
   "v2:en:Gravel_bicycle": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Look_765_Gravel_Bicycle.jpg/1280px-Look_765_Gravel_Bicycle.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Look_765_Gravel_Bicycle.jpg"
+  },
+  "v2:en:Joel_Best": null,
+  "v2:en:Giant_squid": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_squid_Ranheim.jpg/500px-Giant_squid_Ranheim.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Giant_squid_Ranheim.jpg"
+  },
+  "v2:en:Game_Boy_Color": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nintendo-Game-Boy-Color-FL.png/1280px-Nintendo-Game-Boy-Color-FL.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Nintendo-Game-Boy-Color-FL.png"
   }
 }

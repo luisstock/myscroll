@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:23:35.111Z",
+ "updatedAt": "2026-10-31T19:14:07.552Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -913,7 +913,7 @@
   "bike-two-bikes-in-one-transformable-geometry-on-a-fai": 1,
   "pt-como-o-amor-reteve-um-chef-colombiano-em-lisboa": 1,
   "health-why-you-need-the-right-gut-bugs-to-unlock-the-be": 2,
-  "tech-why-the-iphone-duo-s-hinge-might-be-cracking-its": 1,
+  "tech-why-the-iphone-duo-s-hinge-might-be-cracking-its": 2,
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui": 1,
   "tech-how-google-s-ai-search-upended-online-publishing": 1,
   "tech-lg-s-brilliant-c6-oled-tv-gets-an-early-black-fr": 1,
@@ -4241,7 +4241,8 @@
   "pt-1755",
   "motion-balancing-speed-and-readability-in-vertical-kine",
   "books-the-design-of-everyday-things",
-  "motion-lorem-ipsum-rap-turning-placeholder-text-into-an"
+  "motion-lorem-ipsum-rap-turning-placeholder-text-into-an",
+  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui"
  ],
  "later": null,
  "hidden": {

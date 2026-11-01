@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T20:48:33.901Z",
+ "updatedAt": "2026-11-01T20:49:40.323Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -762,7 +762,8 @@
   "motion-a-curated-showcase-of-the-best-motion-design-and",
   "fun-the-dune-movie-popcorn-bucket-that-broke-the-int",
   "motion-learning-the-graph-editor-by-rebuilding-apple-fr",
-  "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel"
+  "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel",
+  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -965,7 +966,7 @@
   "ai-fine-tuning-prompt-fidelity-and-samplers-for-mos": 1,
   "ai-a-working-nintendo-nes-compiled-directly-into-qw": 2,
   "science-mapping-the-invisible-what-dark-matter-looks-lik": 1,
-  "tech-akai-teases-the-mpc-sample-key-with-open-source": 1,
+  "tech-akai-teases-the-mpc-sample-key-with-open-source": 2,
   "ideas-endless-research-is-just-procrastination-wearing": 1,
   "f1-aero-wars-on-two-wheels-ducati-copies-aprilia-s": 1,
   "tech-apple-intelligence-is-expanding-to-china-via-loc": 1,
@@ -1001,7 +1002,9 @@
   "design-nostalgia-as-a-double-edged-sword-reviving-the-d": 1,
   "books-leaving-the-kitchen-window-behind-what-happens-w": 1,
   "science-voyager-1-reaches-a-distance-of-one-light-day-fr": 1,
-  "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1
+  "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1,
+  "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": 1,
+  "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4602,6 +4605,24 @@
    "tag:branding",
    "tag:graphic-design",
    "tag:visual-culture"
+  ],
+  "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:explainer",
+   "tag:portugal",
+   "tag:habitacao",
+   "tag:economia"
+  ],
+  "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": [
+   "topic:pt",
+   "sub:pt/curiosidades",
+   "source:nit",
+   "style:story",
+   "tag:portugal",
+   "tag:televisao",
+   "tag:gastronomia"
   ]
  },
  "read": [

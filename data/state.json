@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T20:47:36.618Z",
+ "updatedAt": "2026-11-01T20:48:33.901Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -761,7 +761,8 @@
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui",
   "motion-a-curated-showcase-of-the-best-motion-design-and",
   "fun-the-dune-movie-popcorn-bucket-that-broke-the-int",
-  "motion-learning-the-graph-editor-by-rebuilding-apple-fr"
+  "motion-learning-the-graph-editor-by-rebuilding-apple-fr",
+  "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -981,13 +982,26 @@
   "til-inside-spain-s-giant-squid-museum": 1,
   "bike-when-gravel-merges-fully-into-mtb-testing-pivot": 1,
   "pt-sns-e-privados-em-debate-no-parlamento-enquanto": 1,
-  "til-when-a-jet-engine-literally-drops-out-of-the-sky": 1,
-  "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks": 1,
-  "ai-anthropic-blocks-users-over-alleged-training-of": 1,
-  "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t": 1,
-  "tech-an-ai-agent-just-performed-brain-surgery-on-a-li": 1,
-  "ai-running-pika-h3-flex-and-nvidia-regenerate-2k-lo": 1,
-  "ideas-accepting-absurdity-should-spark-productive-revo": 1
+  "til-when-a-jet-engine-literally-drops-out-of-the-sky": 2,
+  "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks": 2,
+  "ai-anthropic-blocks-users-over-alleged-training-of": 2,
+  "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t": 2,
+  "tech-an-ai-agent-just-performed-brain-surgery-on-a-li": 2,
+  "ai-running-pika-h3-flex-and-nvidia-regenerate-2k-lo": 2,
+  "ideas-accepting-absurdity-should-spark-productive-revo": 2,
+  "fun-the-halloween-neighbor-handing-out-fresh-spun-co": 1,
+  "health-how-smells-subconsciously-guide-our-hormones-and": 1,
+  "news-australia-s-worst-kept-spy-secret-faces-a-rare-p": 1,
+  "ideas-we-interpret-adult-relationships-through-childho": 1,
+  "motion-deconstructing-a-2-500-layer-bond-style-lyric-vi": 1,
+  "books-sticking-it-out-on-the-icelandic-moor-independen": 1,
+  "news-lula-s-comeback-and-the-playbook-for-protecting": 1,
+  "motion-using-after-effects-as-a-static-graphic-design-t": 1,
+  "science-rinconraptor-pipoae-a-new-apex-predator-unearthe": 1,
+  "design-nostalgia-as-a-double-edged-sword-reviving-the-d": 1,
+  "books-leaving-the-kitchen-window-behind-what-happens-w": 1,
+  "science-voyager-1-reaches-a-distance-of-one-light-day-fr": 1,
+  "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4463,6 +4477,131 @@
    "tag:albert-camus",
    "tag:existentialism",
    "tag:meaning"
+  ],
+  "fun-the-halloween-neighbor-handing-out-fresh-spun-co": [
+   "topic:fun",
+   "source:r-mildlyinteresting",
+   "style:reddit",
+   "tag:halloween",
+   "tag:neighbors",
+   "tag:community",
+   "tag:festive"
+  ],
+  "health-how-smells-subconsciously-guide-our-hormones-and": [
+   "topic:health",
+   "source:health-huberman-lab",
+   "style:video",
+   "tag:neuroscience",
+   "tag:biology",
+   "tag:health",
+   "tag:olfaction"
+  ],
+  "news-australia-s-worst-kept-spy-secret-faces-a-rare-p": [
+   "topic:news",
+   "sub:news/world",
+   "source:guardian-world",
+   "style:news",
+   "tag:espionage",
+   "tag:australia",
+   "tag:politics"
+  ],
+  "ideas-we-interpret-adult-relationships-through-childho": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:psychology",
+   "tag:philosophy",
+   "tag:relationships",
+   "tag:self-improvement"
+  ],
+  "motion-deconstructing-a-2-500-layer-bond-style-lyric-vi": [
+   "topic:motion",
+   "sub:motion/inspiration",
+   "source:r-aftereffects",
+   "style:reddit",
+   "tag:after-effects",
+   "tag:motion-design",
+   "tag:lyric-video",
+   "tag:character-rigging"
+  ],
+  "books-sticking-it-out-on-the-icelandic-moor-independen": [
+   "topic:books",
+   "sub:books/creativity",
+   "source:guardian-books",
+   "style:book",
+   "tag:translation",
+   "tag:fiction",
+   "tag:literature"
+  ],
+  "news-lula-s-comeback-and-the-playbook-for-protecting": [
+   "topic:news",
+   "sub:news/world",
+   "source:guardian-world",
+   "style:news",
+   "tag:brazil",
+   "tag:climate",
+   "tag:politics"
+  ],
+  "motion-using-after-effects-as-a-static-graphic-design-t": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-aftereffects",
+   "style:reddit",
+   "tag:after-effects",
+   "tag:graphic-design",
+   "tag:workflow"
+  ],
+  "science-rinconraptor-pipoae-a-new-apex-predator-unearthe": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:paleontology",
+   "tag:dinosaurs",
+   "tag:fossils",
+   "tag:patagonia"
+  ],
+  "design-nostalgia-as-a-double-edged-sword-reviving-the-d": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:story",
+   "tag:branding",
+   "tag:graphic-design",
+   "tag:advertising"
+  ],
+  "books-leaving-the-kitchen-window-behind-what-happens-w": [
+   "topic:books",
+   "sub:books/life",
+   "source:guardian-books",
+   "style:book",
+   "tag:fiction",
+   "tag:road-trip",
+   "tag:change"
+  ],
+  "science-voyager-1-reaches-a-distance-of-one-light-day-fr": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:space-exploration",
+   "tag:voyager",
+   "tag:astronomy",
+   "tag:deep-space-network"
+  ],
+  "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-tech",
+   "tag:bike-gear",
+   "tag:gravel-tires"
+  ],
+  "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:story",
+   "tag:branding",
+   "tag:graphic-design",
+   "tag:visual-culture"
   ]
  },
  "read": [

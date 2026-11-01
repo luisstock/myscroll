@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T00:37:23.444Z",
+ "updatedAt": "2026-11-01T00:37:54.683Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -587,7 +587,7 @@
    }
   ],
   "bedtime": {
-   "enabled": true,
+   "enabled": false,
    "from": "22:30",
    "to": "06:00",
    "minutes": 20
@@ -759,7 +759,8 @@
   "pt-abastecimento-de-combustiveis-garantido-para-o-i",
   "ideas-creative-momentum-begins-by-lowering-the-barrier",
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui",
-  "motion-a-curated-showcase-of-the-best-motion-design-and"
+  "motion-a-curated-showcase-of-the-best-motion-design-and",
+  "fun-the-dune-movie-popcorn-bucket-that-broke-the-int"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -890,7 +891,7 @@
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 3,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
-  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 3,
+  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 4,
   "design-builders-after-all-how-daft-punk-and-lego-met-in": 4,
   "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 2,
   "ideas-in-an-expanding-universe-what-you-can-see-is-not": 3,
@@ -934,7 +935,7 @@
   "ideas-do-not-wait-for-certainty-to-act-design-solution": 1,
   "news-security-heightened-across-european-cities-as-th": 1,
   "motion-a-curated-showcase-of-the-best-motion-design-and": 1,
-  "news-record-turnout-in-serbia-as-student-led-movement": 1,
+  "news-record-turnout-in-serbia-as-student-led-movement": 2,
   "ai-ai-creators-urge-model-makers-to-back-up-weights": 1,
   "motion-animating-a-medieval-loop-under-a-90-minute-time": 1,
   "news-inside-cape-town-s-college-of-magic-a-real-world": 1,
@@ -960,7 +961,8 @@
   "fun-when-toy-packaging-swaps-plastic-twist-ties-for": 1,
   "design-a-north-carolina-library-ditches-its-14-year-old": 1,
   "ai-fine-tuning-prompt-fidelity-and-samplers-for-mos": 1,
-  "ai-a-working-nintendo-nes-compiled-directly-into-qw": 1
+  "ai-a-working-nintendo-nes-compiled-directly-into-qw": 1,
+  "science-mapping-the-invisible-what-dark-matter-looks-lik": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4197,6 +4199,14 @@
    "tag:llm",
    "tag:retro-tech",
    "tag:open-weights"
+  ],
+  "science-mapping-the-invisible-what-dark-matter-looks-lik": [
+   "topic:science",
+   "source:nasa",
+   "style:explainer",
+   "tag:space",
+   "tag:astronomy",
+   "tag:physics"
   ]
  },
  "read": [
@@ -4331,7 +4341,8 @@
   "bike-marianne-vos-claims-her-15th-world-title-on-aust",
   "bike-abus-hyp-e-helmet-sliding-vents-built-in-turn-si",
   "ai-sam-altman-argues-local-ai-inference-is-a-terrib",
-  "pt-da-danca-as-especiarias-a-caminhada-de-ana-sanch"
+  "pt-da-danca-as-especiarias-a-caminhada-de-ana-sanch",
+  "science-inside-max-power-nasa-s-weekend-of-supersonic-je"
  ],
  "saved": [
   "pt-1755",
@@ -5162,6 +5173,19 @@
     "tag:gastronomia",
     "tag:televisao",
     "tag:rtp"
+   ]
+  },
+  "science-inside-max-power-nasa-s-weekend-of-supersonic-je": {
+   "at": "2026-11-01T00:37:32.442Z",
+   "f": [
+    "topic:science",
+    "source:nasa",
+    "style:story",
+    "tag:nasa",
+    "tag:x-59",
+    "tag:artemis-iii",
+    "tag:moon-base",
+    "tag:kennedy-space-center"
    ]
   }
  },

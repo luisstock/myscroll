@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T00:38:50.517Z",
+ "updatedAt": "2026-11-01T20:30:52.537Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -887,14 +887,14 @@
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1,
   "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1,
   "books-uncovering-the-intimacies-behind-great-literatur": 2,
-  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 4,
+  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 5,
   "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": 2,
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 3,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
   "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 5,
   "design-builders-after-all-how-daft-punk-and-lego-met-in": 5,
-  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 2,
+  "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 3,
   "ideas-in-an-expanding-universe-what-you-can-see-is-not": 3,
   "design-mother-design-started-a-brand-identity-project-w": 2,
   "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": 2,
@@ -915,7 +915,7 @@
   "til-archaeologists-found-a-200-year-old-rat-s-nest-f": 1,
   "bike-two-bikes-in-one-transformable-geometry-on-a-fai": 2,
   "pt-como-o-amor-reteve-um-chef-colombiano-em-lisboa": 1,
-  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be": 2,
+  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be": 3,
   "tech-why-the-iphone-duo-s-hinge-might-be-cracking-its": 2,
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui": 1,
   "tech-how-google-s-ai-search-upended-online-publishing": 1,
@@ -940,7 +940,7 @@
   "ai-ai-creators-urge-model-makers-to-back-up-weights": 1,
   "motion-animating-a-medieval-loop-under-a-90-minute-time": 1,
   "news-inside-cape-town-s-college-of-magic-a-real-world": 1,
-  "ideas-the-self-is-not-hidden-deep-down-waiting-to-be-f": 2,
+  "ideas-the-self-is-not-hidden-deep-down-waiting-to-be-f": 3,
   "news-beijing-s-empty-chairs-record-purges-shake-china": 1,
   "ideas-your-parents-run-beneath-your-daily-self-even-if": 1,
   "f1-a-blue-ferrari-499p-is-joining-the-asian-le-mans": 1,
@@ -972,7 +972,15 @@
   "news-russia-s-novaya-gazeta-faces-final-eviction-afte": 1,
   "news-could-weakening-copyright-for-ai-violate-austral": 1,
   "fun-playing-both-sides-the-gift-shop-selling-flags-f": 1,
-  "science-a-saharan-meteorite-turns-out-to-be-mars-oldest": 1
+  "science-a-saharan-meteorite-turns-out-to-be-mars-oldest": 1,
+  "design-when-miniatures-look-too-real-the-tangible-craft": 1,
+  "ai-running-a-diffusion-ai-model-on-a-1998-game-boy": 1,
+  "science-nasa-asks-commercial-space-to-boost-hubble-befor": 1,
+  "bike-exposure-updates-its-night-riding-flagships-with": 1,
+  "pt-o-impasse-do-tripartidarismo-e-o-receio-de-uma-n": 1,
+  "til-inside-spain-s-giant-squid-museum": 1,
+  "bike-when-gravel-merges-fully-into-mtb-testing-pivot": 1,
+  "pt-sns-e-privados-em-debate-no-parlamento-enquanto": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4307,6 +4315,82 @@
    "tag:meteorites",
    "tag:geology",
    "tag:space-science"
+  ],
+  "design-when-miniatures-look-too-real-the-tangible-craft": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:explainer",
+   "tag:production-design",
+   "tag:practical-effects",
+   "tag:filmmaking",
+   "tag:set-design"
+  ],
+  "ai-running-a-diffusion-ai-model-on-a-1998-game-boy": [
+   "topic:ai",
+   "sub:ai/local-llm",
+   "source:r-stablediffusion",
+   "style:explainer",
+   "tag:ai",
+   "tag:diffusion",
+   "tag:retro-tech"
+  ],
+  "science-nasa-asks-commercial-space-to-boost-hubble-befor": [
+   "topic:science",
+   "source:nasa",
+   "style:news",
+   "tag:hubble",
+   "tag:spaceflight",
+   "tag:nasa",
+   "tag:astronomy"
+  ],
+  "bike-exposure-updates-its-night-riding-flagships-with": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:cyclingnews-gravel",
+   "style:explainer",
+   "tag:bike-lights",
+   "tag:gear",
+   "tag:bikepacking",
+   "tag:night-riding"
+  ],
+  "pt-o-impasse-do-tripartidarismo-e-o-receio-de-uma-n": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:orcamento-do-estado",
+   "tag:politica",
+   "tag:parlamento",
+   "tag:governo"
+  ],
+  "til-inside-spain-s-giant-squid-museum": [
+   "topic:til",
+   "sub:til/til",
+   "source:atlas-obscura",
+   "style:explainer",
+   "tag:science",
+   "tag:design"
+  ],
+  "bike-when-gravel-merges-fully-into-mtb-testing-pivot": [
+   "topic:bike",
+   "sub:bike/gear",
+   "source:velo-gravel",
+   "style:explainer",
+   "tag:gravel-gear",
+   "tag:mountain-bike",
+   "tag:gravel-bikes",
+   "tag:bike-tech"
+  ],
+  "pt-sns-e-privados-em-debate-no-parlamento-enquanto": [
+   "topic:pt",
+   "sub:pt/news",
+   "source:observador",
+   "style:news",
+   "tag:orcamento-do-estado",
+   "tag:saude",
+   "tag:sns",
+   "tag:habitacao",
+   "tag:politica"
   ]
  },
  "read": [
@@ -7146,10 +7230,6 @@
      "Following clashes during housing protests in Lisbon and Porto, the Casa Para Viver movement has strongly condemned what it describes as police violence against peaceful demonstrators. The platform reported numerous injuries and detentions after security forces intervened during early morning hours.",
      "The movement accuses the government of choosing to repress citizens highlighting the housing crisis rather than addressing the core issues, especially as funding for housing faces proposed cuts in the state budget."
     ],
-    "more": [
-     "Protesters argue that exercising constitutional rights to assemble and advocate for housing should not be met with such force. The upcoming demonstration aims to channel public frustration directly toward political leaders at the Parliament.",
-     "As housing costs continue to push families out, tensions between activist groups and authorities remain high, pointing to a deeply polarized debate over urban living conditions and government accountability."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/porto",
@@ -7184,9 +7264,6 @@
     "body": [
      "A Reddit user shared their personal experience of being detained during a protest in Lisbon. According to the account, the detention occurred despite efforts to disperse when instructed.",
      "The participant suggested that recording events with a video camera may have drawn unwanted attention from authorities during the ongoing demonstration."
-    ],
-    "more": [
-     "Firsthand reports like this highlight the tense interactions between individuals exercising their right to public assembly and law enforcement personnel on the ground. Such personal narratives provide a grassroots perspective on the broader sociopolitical conflicts unfolding in the capital."
     ],
     "source": {
      "id": "reddit-search",
@@ -7223,9 +7300,6 @@
      "The Movimento Pela Habitação has pressed forward with its demonstrations, expanding encampments in major public squares. The protests have drawn thousands of participants calling for urgent housing solutions.",
      "Previous nights saw significant unrest and police interventions, but the movement has vowed to maintain its presence and demand government action against the escalating housing crisis."
     ],
-    "more": [
-     "The persistence of the encampments underscores a growing frustration among urban residents regarding affordability and cost of living pressures. Activists continue to coordinate large-scale actions across multiple cities to maintain pressure on policymakers."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/porto",
@@ -7261,9 +7335,6 @@
      "A national day of action brought thousands into the streets, leading to new encampments in several cities. In Lisbon, dozens of tents appeared in the Rossio square as part of the coordinated demonstrations.",
      "The widespread participation highlights a nationwide concern over housing accessibility, uniting activists across different urban centers under a shared banner."
     ],
-    "more": [
-     "The mobilization reflects a growing solidarity network among urban movements in Portugal. By taking their grievances to iconic public squares, protesters aim to force housing reform onto the national legislative agenda."
-    ],
     "source": {
      "id": "reddit-search",
      "name": "r/porto",
@@ -7298,9 +7369,6 @@
      "Jair Bolsonaro's political career has been marked by numerous controversies, ranging from his right-wing populist stance to contentious remarks regarding human rights, minority groups, and historical military regimes.",
      "Critics and international organizations have frequently raised concerns over his rhetoric and policies, while his supporters have embraced his anti-establishment posture."
     ],
-    "more": [
-     "His statements on sensitive historical events, public health during the pandemic, and institutional norms have continued to draw extensive debate and legal scrutiny throughout his career."
-    ],
     "source": {
      "id": "wikipedia-search",
      "name": "Wikipedia",
@@ -7334,9 +7402,6 @@
     "body": [
      "André Ventura has emerged as a prominent figure in Portuguese politics as the founder and leader of the right-wing party Chega. Rising rapidly from local politics to parliamentary leadership, his party has secured significant electoral gains.",
      "Before entering politics full-time, Ventura pursued legal studies, completed a PhD, and worked in academia, publishing various works and commentary on public law."
-    ],
-    "more": [
-     "His political trajectory has reshaped the traditional landscape of Portugal's National Assembly, making Chega a major force in the country's legislative elections and parliamentary opposition."
     ],
     "source": {
      "id": "wikipedia-search",

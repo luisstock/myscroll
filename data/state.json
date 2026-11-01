@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T00:37:54.683Z",
+ "updatedAt": "2026-11-01T00:38:50.517Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -760,7 +760,8 @@
   "ideas-creative-momentum-begins-by-lowering-the-barrier",
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui",
   "motion-a-curated-showcase-of-the-best-motion-design-and",
-  "fun-the-dune-movie-popcorn-bucket-that-broke-the-int"
+  "fun-the-dune-movie-popcorn-bucket-that-broke-the-int",
+  "motion-learning-the-graph-editor-by-rebuilding-apple-fr"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -891,8 +892,8 @@
   "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 3,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
-  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 4,
-  "design-builders-after-all-how-daft-punk-and-lego-met-in": 4,
+  "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 5,
+  "design-builders-after-all-how-daft-punk-and-lego-met-in": 5,
   "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 2,
   "ideas-in-an-expanding-universe-what-you-can-see-is-not": 3,
   "design-mother-design-started-a-brand-identity-project-w": 2,
@@ -956,13 +957,22 @@
   "science-inside-max-power-nasa-s-weekend-of-supersonic-je": 2,
   "science-a-2-5-million-light-year-treble-clef-radio-struc": 1,
   "bike-where-gravel-design-goes-next-6-radically-differ": 1,
-  "motion-a-tricky-runtimeinstaller-dll-crash-haunting-aft": 1,
-  "til-decades-of-data-show-poisoned-halloween-candy-is": 1,
+  "motion-a-tricky-runtimeinstaller-dll-crash-haunting-aft": 2,
+  "til-decades-of-data-show-poisoned-halloween-candy-is": 2,
   "fun-when-toy-packaging-swaps-plastic-twist-ties-for": 1,
   "design-a-north-carolina-library-ditches-its-14-year-old": 1,
   "ai-fine-tuning-prompt-fidelity-and-samplers-for-mos": 1,
-  "ai-a-working-nintendo-nes-compiled-directly-into-qw": 1,
-  "science-mapping-the-invisible-what-dark-matter-looks-lik": 1
+  "ai-a-working-nintendo-nes-compiled-directly-into-qw": 2,
+  "science-mapping-the-invisible-what-dark-matter-looks-lik": 1,
+  "tech-akai-teases-the-mpc-sample-key-with-open-source": 1,
+  "ideas-endless-research-is-just-procrastination-wearing": 1,
+  "f1-aero-wars-on-two-wheels-ducati-copies-aprilia-s": 1,
+  "tech-apple-intelligence-is-expanding-to-china-via-loc": 1,
+  "ideas-the-dilettante-is-the-anti-hero-of-our-over-opti": 1,
+  "news-russia-s-novaya-gazeta-faces-final-eviction-afte": 1,
+  "news-could-weakening-copyright-for-ai-violate-austral": 1,
+  "fun-playing-both-sides-the-gift-shop-selling-flags-f": 1,
+  "science-a-saharan-meteorite-turns-out-to-be-mars-oldest": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4207,6 +4217,96 @@
    "tag:space",
    "tag:astronomy",
    "tag:physics"
+  ],
+  "tech-akai-teases-the-mpc-sample-key-with-open-source": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:akai",
+   "tag:music-tech",
+   "tag:synthesizers",
+   "tag:gadgets"
+  ],
+  "ideas-endless-research-is-just-procrastination-wearing": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:productivity",
+   "tag:psychology",
+   "tag:focus"
+  ],
+  "f1-aero-wars-on-two-wheels-ducati-copies-aprilia-s": [
+   "topic:f1",
+   "source:f1-motorsport-com",
+   "style:explainer",
+   "tag:motogp",
+   "tag:aerodynamics",
+   "tag:ducati",
+   "tag:aprilia",
+   "tag:motorsport"
+  ],
+  "tech-apple-intelligence-is-expanding-to-china-via-loc": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:ios",
+   "tag:artificial-intelligence",
+   "tag:china"
+  ],
+  "ideas-the-dilettante-is-the-anti-hero-of-our-over-opti": [
+   "topic:ideas",
+   "source:aeon",
+   "style:idea",
+   "tag:philosophy",
+   "tag:creativity",
+   "tag:culture"
+  ],
+  "news-russia-s-novaya-gazeta-faces-final-eviction-afte": [
+   "topic:news",
+   "sub:news/world",
+   "source:bbc-world",
+   "style:news",
+   "tag:russia",
+   "tag:press-freedom",
+   "tag:novaya-gazeta",
+   "tag:journalism"
+  ],
+  "news-could-weakening-copyright-for-ai-violate-austral": [
+   "topic:news",
+   "sub:news/economy",
+   "source:guardian-world",
+   "style:news",
+   "tag:artificial-intelligence",
+   "tag:copyright",
+   "tag:intellectual-property",
+   "tag:australia"
+  ],
+  "fun-playing-both-sides-the-gift-shop-selling-flags-f": [
+   "topic:fun",
+   "source:r-mildlyinteresting",
+   "style:reddit",
+   "tag:humor",
+   "tag:culture",
+   "tag:street-vendors"
+  ],
+  "motion-learning-the-graph-editor-by-rebuilding-apple-fr": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:r-aftereffects",
+   "style:reddit",
+   "tag:after-effects",
+   "tag:motion-design",
+   "tag:vector-animation"
+  ],
+  "science-a-saharan-meteorite-turns-out-to-be-mars-oldest": [
+   "topic:science",
+   "source:sci-news",
+   "style:news",
+   "tag:mars",
+   "tag:meteorites",
+   "tag:geology",
+   "tag:space-science"
   ]
  },
  "read": [

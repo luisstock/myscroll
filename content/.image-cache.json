@@ -445,5 +445,13 @@
   "v2:en:Game_Boy_Color": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nintendo-Game-Boy-Color-FL.png/1280px-Nintendo-Game-Boy-Color-FL.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Nintendo-Game-Boy-Color-FL.png"
+  },
+  "v2:en:Cotton_candy": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG/1280px-Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Cotton_candy_Μαλλί_της_γριάς.JPG"
+  },
+  "v2:en:Boeing_727": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/B-727_Iberia_%28cropped%29.jpg/1280px-B-727_Iberia_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:B-727_Iberia_(cropped).jpg"
   }
 }

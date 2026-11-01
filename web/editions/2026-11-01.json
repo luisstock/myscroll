@@ -1,0 +1,915 @@
+{
+  "date": "2026-11-01",
+  "number": 12,
+  "longread": {
+    "id": "til-when-a-jet-engine-literally-drops-out-of-the-sky",
+    "topic": "til",
+    "sub": "story",
+    "kind": "longread",
+    "published": "2026-10-31",
+    "style": "story",
+    "tags": [
+      "aviation",
+      "boeing-727",
+      "engineering",
+      "air-safety"
+    ],
+    "title": "When a Jet Engine Literally Drops Out of the Sky",
+    "snippet": "In 1990, a Boeing 727 landed safely after losing an engine—not just power, but the physical turbofan itself.",
+    "body": [
+      "On the clear morning of January 4, 1990, Northwest Airlines Flight 5 departed Miami International Airport, bound for Minneapolis-Saint Paul. The aircraft was a 14-year-old Boeing 727-200, carrying 139 passengers and six crew members. Climbing through 35,000 feet over Madison, Florida, just shy of an hour into the flight, the flight crew heard a sharp, loud bang echoing from the rear of the cabin. Instruments instantly indicated that the starboard engine on the right side of the tail had lost all power.",
+      "Flying on multi-engine commercial jets comes with built-in redundancy, and the trijet handled the power drop smoothly. Cruising on its remaining two turbofans, the crew evaluated their situation and elected to divert south to Tampa, Florida, out of an abundance of caution. After nearly fifty peaceful minutes on two engines, the airliner touched down safely at 09:58 local time without a single scratch or injury to anyone on board.",
+      "The ground crew walked out to inspect the right pylon and discovered something startling: the starboard engine was not merely malfunctioning—it had vanished entirely. The powerplant had sheared completely off the aircraft at cruising altitude and plummeted into the Florida landscape, where searchers recovered it near Madison the following day.",
+      "The physical separation was not an unforeseen structural failure, but a deliberate mechanical safeguard. Boeing engineers designed the turbofans on the trijet to shear off cleanly under extreme, catastrophic forces. By engineering the mountings to sacrifice themselves, the airframe protected its own fuselage and fuel systems from tearing open or suffering uncontained, airframe-destroying torque.",
+      "Investigators quickly traced the failure to an improperly fitted lavatory seal located forward of the engine. The leaking lavatory fluids froze in the high-altitude air and broke off as solid chunks of ice, which were then ingested directly by the right turbofan. The violent impact shattered the spinning blades, triggering severe engine destruction that activated the sacrificial mounts.",
+      "Remarkably, this was not the first time a Boeing 727 had politely shed a ruined engine. Back in April 1985, an American Airlines 727 cruising over New Mexico suffered an engine seizure. Experiencing only minor handling issues, the pilots pressed on to their destination in San Diego, only realizing the turbofan had detached once they were parked at the gate.",
+      "Because the sacrificial shear pins did their job and produced a clean break without ripping through the airframe, the Northwest jet was fully repaired and returned to regular service. The aircraft flew with Northwest until late 1995, later serving with TransMeridian Airlines and Aeropostal Alas de Venezuela before finally retiring in 1998 after 23 years aloft."
+    ],
+    "source": {
+      "id": "r-todayilearned",
+      "name": "r/todayilearned",
+      "url": "https://www.reddit.com/r/todayilearned/comments/1xkn8rr/today_i_learned_that_aircraft_engines_are/"
+    },
+    "wiki": "Boeing_727",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-11-01/til-when-a-jet-engine-literally-drops-out-of-the-sky.jpg",
+      "credit": "File:B-727_Iberia_(cropped).jpg"
+    },
+    "minutes": 2,
+    "added": "2026-11-01"
+  },
+  "items": [
+    {
+      "id": "fun-the-halloween-neighbor-handing-out-fresh-spun-co",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "reddit",
+      "tags": [
+        "halloween",
+        "neighbors",
+        "community",
+        "festive"
+      ],
+      "title": "The Halloween Neighbor Handing Out Fresh Spun Cotton Candy",
+      "snippet": "While most houses hand out fun-sized candy bars, one neighbor went all out by setting up a fresh cotton candy station right on his front lawn.",
+      "body": [
+        "Trick-or-treating usually involves a pillowcase full of pre-packaged chocolate and gummies, but one neighbor decided to elevate the Halloween experience entirely. Set up right on the front lawn, he was spinning fresh cotton candy on demand for anyone stopping by.",
+        "Complete with a jolly disposition, a lawn couch full of supportive friends, and a wife dressed as cotton candy herself, the setup turned a simple stroll through the neighborhood into a full holiday event."
+      ],
+      "more": [
+        "The scene was shared on Reddit, where commenters immediately fell in love with the neighbor's infectious festive energy. According to the original poster, the host spent the evening cracking jokes, singing songs, and keeping the crowd entertained while working the cotton candy machine.",
+        "His wife added to the spectacle from the background, complete with a fluffy costume and coordinated dances alongside friends lounging on lawn furniture.",
+        "The post sparked a wave of wholesome inspiration across the community. Readers began brainstorming their own live-action treat stations for future years, proposing ideas ranging from fresh popcorn machines to serving warm brown sugar and cinnamon oatmeal out of a Halloween cauldron on chilly autumn nights."
+      ],
+      "source": {
+        "id": "r-mildlyinteresting",
+        "name": "r/mildlyinteresting",
+        "url": "https://www.reddit.com/r/mildlyinteresting/comments/1xkpiwo/my_neighbor_was_giving_out_fresh_spun_cotton/"
+      },
+      "wiki": "Cotton_candy",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/fun-the-halloween-neighbor-handing-out-fresh-spun-co.jpg",
+        "credit": "File:Cotton_candy_Μαλλί_της_γριάς.JPG"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "motion-deconstructing-a-2-500-layer-bond-style-lyric-vi",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "reddit",
+      "tags": [
+        "after-effects",
+        "motion-design",
+        "lyric-video",
+        "character-rigging"
+      ],
+      "title": "Deconstructing a 2,500-layer Bond-style lyric video in AE",
+      "snippet": "A 70-second animation course project packs 2.5D cameras, expression controls, and rigged elements entirely inside After Effects.",
+      "body": [
+        "A student shared a 70-second Bond-inspired lyric video for Adele's 'Skyfall,' built completely in After Effects over a two-week span from storyboard to final render.",
+        "The project consists of 13 shots split into dedicated Design and Effects comps, comprising over 2,500 layers—mostly shape vectors—and rendered in a wide 2.39:1 aspect ratio.",
+        "Beyond standard keyframing, the piece incorporates expression-driven loops, slider-based wiggles with posterizeTime, 2.5D camera setups, and a character-rigged bird using Joysticks 'n Sliders."
+      ],
+      "more": [
+        "To manage the scale of a 2,500-layer project, each of the 13 main shots was divided into two core compositions: a clean Design comp containing vector elements, topography, and typography (set in IvyPresto), and an Effects comp handling depth of field, optical phenomena, and lighting.",
+        "The technical setup relied heavily on mathematical expressions rather than keyframing every frame by hand. Slider controls drove custom wiggles restricted by posterizeTime for cinematic frame-rate stepping, while seedRandom functions maintained consistent procedural variations across repeated elements.",
+        "For character animation, a bird asset was rigged using Joysticks 'n Sliders, blending five distinct key poses across a 2D control surface. Third-party plugins rounded out the composition, including Deep Glow, Trapcode Particular, Saber, Optical Flares, and Fast Bokeh to establish atmospheric depth."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xka00b/skyfall_adele_lyric_video_my_animation_course/"
+      },
+      "wiki": "Adobe_After_Effects",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/motion-deconstructing-a-2-500-layer-bond-style-lyric-vi.png"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "motion-using-after-effects-as-a-static-graphic-design-t",
+      "topic": "motion",
+      "sub": "techniques",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "reddit",
+      "tags": [
+        "after-effects",
+        "graphic-design",
+        "workflow"
+      ],
+      "title": "Using After Effects as a static graphic design tool",
+      "snippet": "Why frame-scrubbing for motion blur and stacking effect chains inside AE might feel more intuitive than Photoshop.",
+      "body": [
+        "A motion designer on Reddit shared an unconventional workflow: using After Effects as a primary tool for static graphic design instead of Photoshop or Illustrator, exporting single-frame PNG sequences.",
+        "The logic comes down to flexibility. By using AE's effect chains, blending modes, dynamic keyframing, and motion blur, the designer captures hyper-specific aesthetic moments—like scrubbing a timeline to find the exact frame where text motion blur looks right, then freezing that frame into a static layout.",
+        "While non-standard, it highlights how layer stack control and procedural effects in AE can feel less restrictive for visual experimentation than traditional design tools."
+      ],
+      "more": [
+        "For many visual creators, traditional vector and bitmap tools like Illustrator and Photoshop can feel rigid when applying multi-layered procedural blurs, intricate matte interactions, or complex distortion. Using a timeline interface for static artwork flips that dynamic: keyframing parameters over time provides a continuous spectrum of visual variations to scrub through.",
+        "In this setup, a designer moves text across the screen, toggles native motion blur, and scrubs through keyframe steps until reaching an precise, aesthetic frame. That single frame is then precomposed, frozen, or rendered directly out as a high-resolution PNG.",
+        "While industry pipeline standards advocate using dedicated vector and layout software for print and static branding, the post sparked discussions around working inside tools that fit individual creative intuition rather than dogmatic rules."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xki2s4/anyone_else_use_after_effects_for_an_unintended/"
+      },
+      "wiki": "Adobe_After_Effects",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/motion-using-after-effects-as-a-static-graphic-design-t.png"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ai-anthropic-blocks-users-over-alleged-training-of",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "reddit",
+      "tags": [
+        "frontier-models",
+        "ai-research",
+        "open-weight"
+      ],
+      "title": "Anthropic blocks users over alleged training of larger models",
+      "snippet": "Researchers complain that safety flags are catching routine workflow automation and shutting down accounts.",
+      "body": [
+        "A recent controversy on Hacker News highlights growing friction between AI labs and independent researchers. Developer Jiahao Shao reported being blocked by Anthropic after using Claude to help submit jobs and run data analysis for research automation.",
+        "According to the user, the system flagged the activity as attempting to train a competitor model, resulting in downgraded access and killed sessions. Critics argue that penalizing routine research assistance alienates paying customers who rely on these models for scientific exploration."
+      ],
+      "more": [
+        "The incident sparked wider discussions about the opaque nature of automated safety and usage monitoring. Many commenters pointed out the irony of frontier labs training their own foundational models on public data while heavily restricting how paying users analyze or distill model outputs for research. As restrictions tighten around reinforcement learning and fine-tuning pipelines, independent researchers find themselves walking a fine line.",
+        "Reactions across developer forums underscored a broader frustration with sudden account suspensions and lack of transparent appeal processes. While labs must protect their intellectual property and prevent unauthorized model distillation, the current automated guardrails often catch legitimate scientific workflows in the crossfire, leaving developers looking for more permissive alternatives."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
+      },
+      "wiki": "Anthropic",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/ai-anthropic-blocks-users-over-alleged-training-of.jpg",
+        "credit": "twitter.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ai-running-pika-h3-flex-and-nvidia-regenerate-2k-lo",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "reddit",
+      "tags": [
+        "local-llm",
+        "image-video",
+        "open-weight"
+      ],
+      "title": "Running Pika H3 Flex and NVIDIA Regenerate-2K locally on Mac",
+      "snippet": "A clever workflow combines distilled video generation with latent upscaling for high-resolution local output on an M5 Ultra.",
+      "body": [
+        "A recent community breakthrough showcases how to chain local AI video tools for impressive results. By pairing a distilled MiniMax model with latent upscaling techniques, users can generate and refine video entirely on consumer hardware.",
+        "The setup uses Pika H3 Flex to drop generation down to just six steps, followed by NVIDIA Open-H3-Regenerate-2K for detail enhancement. Instead of traditional pixel-space upscaling, it uses latent refinement to polish the final frames."
+      ],
+      "more": [
+        "The complete local pipeline handles a fifteen-second video starting at 768p and pushes it to a crisp 1920 by 1088 resolution. Running through the Valtz interface on an M5 Ultra, the entire generation and regeneration process takes a little over twelve minutes.",
+        "Community members noted that this kind of local flexibility is changing how motion artists and developers experiment with AI video. While commercial APIs still dominate for sheer speed, the ability to run distilled models locally without relying on cloud servers opens up entirely new creative workflows. The technique highlights a growing trend of optimizing heavy models into snappy, usable tools for local machines."
+      ],
+      "source": {
+        "id": "r-stablediffusion",
+        "name": "r/StableDiffusion",
+        "url": "https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/"
+      },
+      "wiki": "Video_generation_model",
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "explainer",
+      "tags": [
+        "gravel-tech",
+        "bike-gear",
+        "gravel-tires"
+      ],
+      "title": "Why 45mm gravel tires are dead and 32-inch wheels are coming",
+      "snippet": "A look back at 2026 gravel tech shows that narrow tires are fading fast, suspension forks lost momentum, and huge wheel standards are on the horizon.",
+      "body": [
+        "The 2026 gravel racing season wrapped up, bringing a clear shift in how brands and racers approach setups. The debate over tire width appears settled: 45mm tires are rapidly disappearing from pro rosters in favor of 50mm and 55mm options, driven by improvements in tire tech that offer better rolling speed alongside extra comfort.",
+        "Meanwhile, gravel suspension forks lost ground this season. After gaining traction in 2025, most pros reverted to rigid frames paired with high-volume tires to save weight at major races like Unbound and The Traka.",
+        "Frame geometry remains fiercely divided between long-and-stable trail designs versus aggressive road-like handling. However, the biggest shift on the horizon is 32-inch wheels, which major manufacturers are preparing to release next year."
+      ],
+      "more": [
+        "The shift to wider rubber has been the most immediate tech evolution in 2026. Aside from a few outliers like Cobe Freeburn running 45s to a national title, most racers have standardized on 50mm to 55mm volume. Because modern high-volume tire casings have dramatically reduced rolling resistance, the traditional penalty of running wider rubber has vanished, making bigger tires faster over rough terrain.",
+        "Gravel suspension, which looked poised for widespread adoption last year, saw its momentum stall. While forks still saw use at technical events like BWR Arizona, the extra weight led most of the peloton to choose wide tires on rigid bikes instead. Suspension is increasingly relegated to a specific niche for riders seeking to blur the line between gravel and XC mountain bikes.",
+        "Geometry remains in flux. Frame builders are split into two camps: those stretching wheelbases to accommodate 2.2-inch tires with stability, and those trying to maintain tight, aggressive road geometry around massive rubber. The result is a wide spread in ride characteristics across brand lineups.",
+        "The next battleground is wheel size. Prototypes like the 32-inch Scott Addict Gravel generated significant buzz this season. Industry insiders indicate that major players including Trek, Scott, and Specialized are preparing 32-inch gravel platforms for 2027, signaling the biggest structural shift in gravel hardware in years."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/how-gravel-tech-changed-2026/"
+      },
+      "wiki": "Gravel_bicycle",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "news-australia-s-worst-kept-spy-secret-faces-a-rare-p",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "news",
+      "tags": [
+        "espionage",
+        "australia",
+        "politics"
+      ],
+      "title": "Australia's worst-kept spy secret faces a rare public airing",
+      "snippet": "A transparency advocate has won a legal battle to force unclassified parts of a top-secret 2004 espionage hearing into the open.",
+      "body": [
+        "Former Australian senator Rex Patrick has secured a minor legal victory forcing parts of an administrative tribunal hearing into public view. The case revolves around a 2004 top-secret operation where Australian spies allegedly bugged Timor-Leste's government offices to gain an upper hand in lucrative oil and gas negotiations.",
+        "While the government has steadfastly maintained a policy to neither confirm nor deny the operation's existence, critics call the affair an open secret. The negotiations ultimately secured a favorable split of the Greater Sunrise gasfields, valued at over $50 billion.",
+        "The upcoming November hearings will feature testimonies from high-ranking intelligence and foreign affairs officials, offering a rare public look at historical state espionage mechanics."
+      ],
+      "more": [
+        "The recent ruling by the administrative review tribunal marks the latest chapter in a decades-long international saga. Rex Patrick’s bid began with a request for cabinet documents from 2004 held by the National Archives of Australia. The government's defense, backed by the Australian Secret Intelligence Service (Asis), argued that even acknowledging the existence of these records could undermine national security and diplomatic standing.",
+        "The historical backdrop dates back to the early 2000s, just as Timor-Leste was gaining formal independence from Indonesia. Negotiations over the maritime boundary and access to the multi-billion-dollar Greater Sunrise gasfields were critical for the newly formed, impoverished nation. In 2004, Asis operatives reportedly planted listening devices in key Timor-Leste government offices to uncover their negotiating bottom line. By 2006, Australia secured a 50/50 revenue split, which proved a major boon for multinational energy ventures.",
+        "The operation only became public years later, in 2013, when a former Asis officer known as Witness K approached lawyer Bernard Collaery with knowledge of the bugging. The pair attempted to assist Timor-Leste in challenging the maritime boundary agreement at the Permanent Court of Arbitration in The Hague, leading to controversial domestic raids on Collaery's office and seized passports. Although Timor-Leste eventually withdrew its espionage claims in 2017 as a confidence-building measure, paving the way for a new border in 2018, the fallout lingered.",
+        "During the recent tribunal preliminary hearings, government lawyers argued that the matter remained so sensitive that even open sessions should be shielded behind closed doors to prevent accidental disclosures. They contended that intelligence officials might inadvertently slip up under questioning. However, deputy president Peter Britten-Jones ruled against the commonwealth, noting that the officials are experienced enough to navigate an open forum safely.",
+        "Asis deputy director general Ewan McMillan and Department of Foreign Affairs and Trade deputy secretary Michelle Chan are scheduled to offer their testimonies when the case is heard in full. While government lawyers maintained that the unclassified details might simply be interesting rather than truly in the public interest, transparency advocates argue that bringing sunlight to past overreaches is essential for accountability."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/31/timor-leste-australia-bugging-rex-patrick-ntwnfb"
+      },
+      "wiki": "Australian_Secret_Intelligence_Service",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/news-australia-s-worst-kept-spy-secret-faces-a-rare-p.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "news-lula-s-comeback-and-the-playbook-for-protecting",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "brazil",
+        "climate",
+        "politics"
+      ],
+      "title": "Lula’s comeback and the playbook for protecting the Amazon",
+      "snippet": "Brazil's recent presidential runoff offers unexpected lessons on how to defeat the far right and defend the rainforest.",
+      "body": [
+        "Luiz Inácio Lula da Silva secured an astonishing comeback victory in Brazil's presidential runoff, defeating his extreme-right challenger. The win brings a wave of relief for conservationists, coming just after a record drop in Amazon deforestation.",
+        "Beyond environmental gains, political analysts highlight how the campaign mobilized a massive digital army and addressed urgent economic needs like wage growth and poverty relief, effectively combining social justice with climate action.",
+        "However, big battles remain ahead, with a hostile congress dominated by agribusiness and mining interests, alongside rising global temperatures threatening the Amazon's fragile ecosystem."
+      ],
+      "more": [
+        "The presidential runoff victory has been hailed by environmentalists and social justice campaigners as a crucial blueprint for global movements. Coming at a time when nature and democratic norms face severe pressures globally, Brazil's voters showed that the far right can be successfully challenged while simultaneously strengthening environmental protections. The administration's prior success in reducing Amazon and Cerrado destruction points toward a potential path of achieving zero deforestation by 2030.",
+        "Despite the electoral triumph, significant domestic obstacles loom. Far-right politicians have captured key state governorships and municipal mayorships, and Brazil's congress remains heavily influenced by agribusiness and mining sectors. These groups are expected to push hard for expanded extractivist industries on indigenous lands, road-building projects, and a weakening of environmental safeguards. Furthermore, Lula faces external pressures from Washington regarding the allocation of critical natural resources.",
+        "Commentators have broken down seven key lessons from the successful campaign. First, politics matter deeply; defeating the far right is presented as a prerequisite for preventing the erosion of democratic protections. Second, perseverance proved vital, as Lula overcame first-round deficits through an immense surge of grassroots energy. Third, the campaign transformed its digital strategy by launching a massive WhatsApp network of volunteers that countered right-wing disinformation with rapid responses and memes.",
+        "Fourth, the campaign took a direct approach against foreign tech giants, demanding accountability and regulation regarding algorithmic favoritism and digital interference. Fifth, the movement successfully reclaimed national symbols, utilizing the green and yellow flag and the Brazilian football strip to counter nationalist appropriation by the opposition. Sixth, the campaign emphasized tangible social spending, boosting poverty relief payments, wage growth, and employment rates to directly connect economic security with environmental goals.",
+        "Finally, the victory underscores the importance of defending sovereignty, democracy, and sustainability as interlinked global priorities. As environmental boundaries continue to shift worldwide, Brazil's experience demonstrates that hope can be galvanized through organized action, offering an inspiring precedent for upcoming elections across the globe."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win"
+      },
+      "wiki": "Luiz_Inácio_Lula_da_Silva",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/news-lula-s-comeback-and-the-playbook-for-protecting.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "news",
+      "tags": [
+        "apple",
+        "macbook-pro",
+        "hardware",
+        "macos"
+      ],
+      "title": "The touchscreen MacBook Pro brings subtle tweaks and a classic glowing logo",
+      "snippet": "Apple’s new touch-enabled Pro models pack Tandem OLED displays and an illuminated lid, but the overall update feels incremental.",
+      "body": [
+        "Retail preorders are open for Apple's new touch-enabled MacBook Pro featuring the PROLED XDR screen, available in 14- and 16-inch configurations with chips scaling up to the M6 generation. Alongside the new display technology, the updated machines are slightly thinner and lighter, and they revive a retro flourish: the glowing Apple logo on the rear cover.",
+        "First impressions note stunning brightness and contrast from the Tandem OLED panel, but the hardware revisions beyond the screen feel relatively minor. On the software side, macOS introduces micro-interactions to accommodate fingers, such as magnifying the three window management buttons when your hand approaches the screen."
+      ],
+      "more": [
+        "The introduction of touchscreens to Apple’s flagship laptops marks a subtle shift in the macOS interface without completely rebuilding it for fingers. Early hands-on testing suggests the operating system remains cursor-centric, relying on proximity adaptations like dynamic icon magnification rather than chunky touch-first menus.",
+        "The PROLED XDR display relies on tandem OLED engineering to reach higher peak brightness and deeper black levels without sacrificing the color accuracy demanded by professional workflows. However, beyond display quality, the internal chassis design largely mirrors recent generations.",
+        "Retailer promotions have rolled out alongside the launch, with Best Buy bundling a $100 gift card on preorders that begin at $2,899 for base configurations.",
+        "For creative pros, the hardware refresh represents an evolutionary upgrade rather than a radical overhaul. Touch support provides an alternative input method for quick UI adjustments, but standard keyboard and trackpad workflows remain central to the machine."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale"
+      },
+      "wiki": "MacBook_Pro",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/tech-the-touchscreen-macbook-pro-brings-subtle-tweaks.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "tech-an-ai-agent-just-performed-brain-surgery-on-a-li",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "news",
+      "tags": [
+        "frontier-ai",
+        "robotics",
+        "biotech",
+        "ai-agents"
+      ],
+      "title": "An AI agent just performed brain surgery on a living mouse",
+      "snippet": "Researchers hooked Claude up to a robotic surgical rig, and it guided an injection needle directly into a mouse brain.",
+      "body": [
+        "Biotech founder Gabriel Ocana Santero connected an AI agent to a custom surgical rig equipped with robotic arms, a camera, and an injector to see what happens when models get direct control of lab hardware. After a human surgeon performed a craniotomy on an epileptic mouse, the AI chose a therapy from a spreadsheet, calculated coordinates, and guided the needle into the mouse’s brain to deliver the compound.",
+        "The test revealed strange model behavior under high stakes. Anthropic's Claude Opus 5.5 was tested first, but it refused to insert the needle, outputting that something told it not to proceed. The team switched to Claude Sonnet 5, which agreed to perform the injection, though human oversight remained active via an emergency shutoff switch."
+      ],
+      "more": [
+        "Santero, cofounder of San Francisco-based Exin Therapeutics, believes direct lab integration is the next frontier for scientific AI. Standard models train on published literature, which omits messy real-world research variables like failed attempts, real-time course corrections, and tactile experimental nuances. Putting agents directly on the hardware helps build much more reliable models.",
+        "The operation was not entirely smooth sailing. The rig experienced a coordinate system glitch mid-procedure. The AI correctly identified that the coordinates were wrong, but because guardrails prohibited it from modifying the underlying equipment code, it refused to patch the issue itself.",
+        "To bypass the deadlock without breaking safeguards, researchers brought in a separate AI agent powered by Opus 5 to adjust the code. Notably, the team didn't tell this second agent that an active surgery was happening. The back-and-forth pushed the operation from a standard 45 minutes to just over an hour.",
+        "The mouse is recovering well while researchers monitor whether the gene therapy curbs its seizures. Exin Therapeutics plans to test other models, including Grok, and is exploring agent-guided craniotomies, though human oversight remains strictly mandatory."
+      ],
+      "source": {
+        "id": "wired",
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+      },
+      "wiki": "Brain_surgery",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/tech-an-ai-agent-just-performed-brain-surgery-on-a-li.jpg",
+        "credit": "www.wired.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "science-rinconraptor-pipoae-a-new-apex-predator-unearthe",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "news",
+      "tags": [
+        "paleontology",
+        "dinosaurs",
+        "fossils",
+        "patagonia"
+      ],
+      "title": "Rinconraptor pipoae: A new apex predator unearthed in Patagonia",
+      "snippet": "Paleontologists in northern Argentina have identified a 23-foot megaraptorid that shared hunting grounds with horned carnivores 83 million years ago.",
+      "body": [
+        "Paleontologists working in northern Patagonia, Argentina, have discovered a new genus and species of predatory dinosaur called Rinconraptor pipoae. The predator lived during the Late Cretaceous epoch, around 83 million years ago, in an environment shaped by ancient rivers and windblown sands.",
+        "The creature belongs to the Megaraptoridae family, a group of medium- to large-sized theropods recognized about a decade ago. Unlike tyrannosaurs, which relied heavily on bone-crushing jaws, megaraptorids were characterized by slender legs, curved teeth with an eight-shaped outline, and disproportionately large, sharp hand claws.",
+        "Based on tail vertebrae and limb fragments recovered from an outcrop in the Bajo de la Carpa Formation, researchers estimate Rinconraptor reached about 7 meters (23 feet) in length, sporting an elongated tail of more than 40 to 45 segments."
+      ],
+      "more": [
+        "The primary skeleton of Rinconraptor pipoae was found at Cerro Overo, roughly 50 kilometers southwest of the city of Rincón de los Sauces. The discovery was relatively compact: while the right shinbone was still embedded in rock, the rest—including ten tail vertebrae and an arm bone fragment—lay scattered over an area of just four square meters.",
+        "Megaraptorid fossils are rare and fragmented, though traces of the group have been recovered across Argentina, Brazil, Australia, Thailand, and Japan. Because intact specimens are hard to find, their evolutionary relationships have sparked ongoing debate among paleontologists.",
+        "The site also yielded fossils from other megaraptorid individuals ranging from 6 to 8.5 meters, along with abelisaurids—the stout-skulled carnivores famous for their short arms. The coexistence of two distinct types of large apex predators in the same ecosystem suggests they partitioned their ecological niches, targeting different prey to avoid direct clashes.",
+        "That rich Late Cretaceous habitat also supported long-necked titanosaur sauropods and ornithopod herbivores, confirming that northern Patagonia was once a bustling ecological hotspot teeming with diverse megafauna."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/paleontology/rinconraptor-pipoae-15164.html"
+      },
+      "wiki": "Megaraptoridae",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/science-rinconraptor-pipoae-a-new-apex-predator-unearthe.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "science-voyager-1-reaches-a-distance-of-one-light-day-fr",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-30",
+      "style": "explainer",
+      "tags": [
+        "space-exploration",
+        "voyager",
+        "astronomy",
+        "deep-space-network"
+      ],
+      "title": "Voyager 1 reaches a distance of one light-day from the Sun",
+      "snippet": "Forty-nine years after leaving Earth, humanity's most distant messenger is about to mark a staggering milestone: being a full light-day away.",
+      "body": [
+        "In 1977, NASA took advantage of a rare planetary alignment that occurs only once every 175 years. That celestial geometry allowed Voyager 1 and Voyager 2 to embark on a Grand Tour of Jupiter, Saturn, Uranus, and Neptune using six gravity assists between them.",
+        "Decades after its planetary tour wrapped up, Voyager 1 is still hurtling outward. On November 18, 2026, the spacecraft will cross a symbolic threshold: reaching one light-day from the Sun, or roughly 16.1 billion miles (over 25.8 billion kilometers).",
+        "At that distance, a radio signal traveling at the speed of light takes an entire 24 hours just to make a one-way trip from the probe back to Earth."
+      ],
+      "more": [
+        "Voyager 1 and its twin made history in August 2012 and November 2018, respectively, by crossing the heliopause—the outer boundary where the stream of charged solar particles gives way to the interstellar medium. Since then, Earth has continued to track and exchange data with the distant travelers via the giant radio dishes of NASA's Deep Space Network, including the Canberra tracking station in Australia.",
+        "Both probes carry the famous Golden Record: a 12-inch gold-plated copper phonograph disc featuring greetings in 55 languages, 27 pieces of music, and 116 images. To help any distant finder locate its origin, the aluminum cover is etched with instructions and a map locating our Sun relative to 14 distinct pulsars.",
+        "The record cover also features an ultra-pure electroplated sample of uranium-238. With a half-life of 4.468 billion years, the radioactive decay of the isotope serves as a natural cosmic clock, allowing any extraterrestrial civilization that intercepts it to calculate exactly when the craft was launched.",
+        "The idea of a light-day emphasizes the true, mind-bending scale of our cosmic neighborhood. While we often hear about light-years in the context of distant stars, measuring distances within the solar system's extended fringes in light-minutes and light-days gives a visceral sense of the void our probes are navigating."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/"
+      },
+      "wiki": "Voyager_1",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/science-voyager-1-reaches-a-distance-of-one-light-day-fr.jpeg",
+        "credit": "science.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "design-nostalgia-as-a-double-edged-sword-reviving-the-d",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "story",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "advertising"
+      ],
+      "title": "Nostalgia as a double-edged sword: reviving the Dolmio puppet family",
+      "snippet": "After a ten-year hiatus, Dolmio has brought back its iconic handmade puppet family, balancing fond memories with modern craft.",
+      "body": [
+        "To celebrate its 40th anniversary, pasta sauce brand Dolmio has reintroduced its beloved puppet family after a decade away. Originally appearing in commercials in the 2000s, Papa, Mama, and the kids became the living personality of the brand.",
+        "Redesigned by Elmwood London, the characters have been rebuilt digitally with meticulous attention to detail, from skin texture and hair to micro-expressions, ensuring they fit seamlessly into modern multi-platform campaigns.",
+        "The revival highlights a growing appetite for tactile, human-led design in an advertising landscape increasingly crowded with generic digital output."
+      ],
+      "more": [
+        "Nostalgia is a powerful distinctive asset because it is earned over decades, but it remains a double-edged sword. Change too little and a brand risks running a stale tribute act; change too much and the emotional bond with the audience snaps.",
+        "Elmwood addressed this challenge by analyzing what made each puppet unmistakable and amplifying those traits. Rather than living solely in a 30-second TV spot, the updated characters are integrated into Dolmio's broader graphic system, including the signature red dot, allowing them to appear across social media, digital content, and retail shelves.",
+        "The team utilized modern tools like Unreal Engine and motion capture, but held every frame to the standard of the handmade originals. According to ECD Kyle Whybrow, technology is brilliant when it serves the idea, but creative slop happens when the tool itself becomes the concept.",
+        "By bridging generations—allowing parents who grew up with the ads to share a smile while introducing kids to the characters anew—the campaign proves that freshness does not always require starting from scratch."
+      ],
+      "source": {
+        "id": "creative-bloq",
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com/features/nostalgia-is-a-double-edged-sword-how-dolmio-revived-its-beloved-puppet-family-for-a-new-generation"
+      },
+      "wiki": "Puppet",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/design-nostalgia-as-a-double-edged-sword-reviving-the-d.png",
+        "credit": "www.creativebloq.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "design-how-a-seance-and-automatic-drawing-shaped-a-psyc",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "story",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "visual-culture"
+      ],
+      "title": "How a séance and automatic drawing shaped a psychic platform rebrand",
+      "snippet": "To capture the intangible essence of spirituality, Mother Design skipped traditional metrics and turned to séances and automatic drawing for inspiration.",
+      "body": [
+        "When psychic services platform Purple Garden needed a fresh brand identity, Mother Design took an unconventional approach. Instead of a standard brief, the team enlisted a holistic practitioner for a workshop involving chakra readings and automatic drawing.",
+        "Inspired by abstract pioneer Hilma af Klint, the designers aimed to bypass conscious thought to mirror the feelings of seasoned spiritual seekers. The resulting brand pairs a sprouting wordmark with digital-first crystal glyphs and an earthy palette.",
+        "The project proves that stepping outside conventional corporate design methods can yield deeply authentic, resonant results for niche audiences."
+      ],
+      "more": [
+        "The challenge of branding a spiritual platform lies in avoiding tired clichés while remaining recognizable to devoted users. Mother Design sought to escape the usual flashy tropes of urgency—such as 'book fast'—and instead built a voice around active contemplation and grounded guidance.",
+        "During the initial workshop, designers experimented with charcoal and paper without immediate commercial goals. This period of open experimentation, protected by the agency's 'wild card' initiative, allowed the team to build trust and vulnerability into their creative process.",
+        "The resulting visual identity features a custom wordmark with curved, growing junctures and a digital-first crystal glyph. To represent services like dream analysis, they photographed charged objects using solarised glows and flame-like ripples, capturing the energy exchange between practitioner and client.",
+        "The color scheme leans into rich purples associated with higher consciousness, rounded out by seven earthier hues to stand out against flatter competitor designs. Typography pairings like Literatura Present and ABC Social successfully balance whimsy with practical legibility."
+      ],
+      "source": {
+        "id": "creative-bloq",
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com/features/how-a-seance-shaped-this-beautiful-psychic-app-rebrand"
+      },
+      "wiki": "Hilma_af_Klint",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/design-how-a-seance-and-automatic-drawing-shaped-a-psyc.png",
+        "credit": "www.creativebloq.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "explainer",
+      "tags": [
+        "portugal",
+        "habitacao",
+        "economia"
+      ],
+      "title": "A crise da habitação e o desafio de redesenhar o território português",
+      "snippet": "Com os preços a subir em todas as sub-regiões, o problema já não é apenas imobiliário, mas um bloqueio económico que exige repensar o interior e as cidades médias.",
+      "body": [
+        "As manifestações recentes junto ao Parlamento vieram sublinhar uma evidência sentida por milhares de portugueses: ter um emprego já não garante o acesso a uma habitação perto do local de trabalho. No segundo trimestre de 2026, o preço mediano da habitação atingiu 2445 euros por metro quadrado.",
+        "Esta dinâmica revela um desequilíbrio estrutural no país. Enquanto as áreas metropolitanas concentram emprego, serviços e uma procura desenfreada, os territórios de menor densidade acumulavam, segundo os Censos, centenas de milhares de alojamentos vagos.",
+        "A solução não passa por empurrar as famílias para o interior sem condições, mas sim por criar centros regionais fortes, combinando habitação acessível, transportes e emprego qualificado."
+      ],
+      "more": [
+        "O paradoxo habitacional português caracteriza-se pela escassez de casas precisamente onde existem oportunidades profissionais, e pela abundância de imóveis vazios em zonas que perdem população ativa. Tentar resolver a crise apenas com medidas nas grandes cidades trata a consequência e ignora a causa profunda.",
+        "Uma estratégia coerente exige olhar para a coesão territorial para além de um mero exercício geográfico. Deslocar famílias para o interior sem emprego ou acesso a saúde e educação transforma-se numa despesa incomativa em termos de tempo e isolamento. Por isso, a habitação tem de caminhar lado a lado com a instalação de politécnicos, hospitais, centros tecnológicos e incentivos a empresas focadas em salários qualificados.",
+        "O principal obstáculo histórico em Portugal não tem sido a falta de planos para o interior, mas sim o excesso de medidas fragmentadas e a lentidão na execução. Para ultrapassar este bloqueio, defende-se uma cadeia curta de decisão com estruturas leves e orçamentos plurianuais por território prioritário, medindo o sucesso através do emprego criado e da fixação efetiva de jovens.",
+        "Enquanto as respostas estruturais demoram a surtir efeito, a urgência das zonas de alta pressão continua a exigir medidas imediatas no mercado de arrendamento e na construção. Contudo, o futuro do país depende de conseguir distribuir as razões para viver por todo o território, evitando que a oportunidade económica continue a caber em meia dúzia de códigos postais."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/opiniao/a-crise-da-habitacao-pode-redesenhar-portugal/"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-01/pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o.jpeg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "story",
+      "tags": [
+        "portugal",
+        "televisao",
+        "gastronomia"
+      ],
+      "title": "De Condeixa aos livros de cozinha: Marli Silva regressa ao MasterChef Portugal",
+      "snippet": "A atriz que ficou em segundo lugar na edição anterior volta a entrar na cozinha da RTP1, agora com planos para juntar a representação à gastronomia.",
+      "body": [
+        "Quando Marli Silva se inscreveu no \"MasterChef Portugal\" em 2025, pensava que a aventura não daria em nada. Acabou no segundo lugar, descobriu uma paixão profunda pela gastronomia e passou por formações intensivas, incluindo no Basque Culinary Center em Espanha.",
+        "Aos 34 anos, a atriz de Condeixa regressa agora à décima edição do programa num formato dedicado a antigos concorrentes. O objetivo já não é apenas a vitória, mas viver o programa com mais controlo e confiança.",
+        "Fora do ecrã, Marli quer cruzar os dois mundos: criar um ateliê gastronómico onde as refeições se mistureem com o teatro, promovendo jantares interpretados e experiências imersivas."
+      ],
+      "more": [
+        "O impacto do concurso na vida de Marli foi profundo, redefinindo as suas prioridades profissionais e pessoais. Antes de vestir o avental, a sua vida estava inteiramente ligada à cultura e ao teatro, tendo sido uma das fundadoras da Oficina de Teatro de Condeixa em 2017. A cozinha era apenas um refúgio pessoal cultivado desde os nove anos.",
+        "Após o segundo lugar, a necessidade de aprofundar os conhecimentos levou-a a ler mais sobre culinária do que sobre teatro em toda a sua vida. Passou por centros de formação profissional e frequentou um curso de aperfeiçoamento de técnicas culinárias em San Sebastián, trocando o prémio de pastelaria a que tinha direito por uma formação mais alinhada com os seus novos objetivos.",
+        "O regresso ao \"MasterChef\" traz novos desafios, nomeadamente a relação com o painel de jurados que já conhece bem: Rui Paula, Marlene Vieira e Diogo Rocha. Embora exista carinho mútuo, Marli reconhece que a exigência de imparcialidade por parte dos chefs pode tornar a competição ainda mais complexa.",
+        "Em paralelo com os showcookings e o desenvolvimento do futuro ateliê gastronómico, Marli planeia avançar com o processo de maternidade a solo. Tendo enfrentado um cancro da mama em 2019 e recorrido à preservação de óvulos, apoia-se agora numa forte rede de amigos e familiares a quem chama carinhosamente de \"aldeia\" para construir uma vida equilibrada entre a cozinha, a cultura e a futura maternidade."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/televisao/tenho-uma-aldeia-a-minha-volta-marli-volta-ao-masterchef-portugal-para-ganhar"
+      },
+      "wiki": "MasterChef_Portugal",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-01/pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "books-sticking-it-out-on-the-icelandic-moor-independen",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-10-31",
+      "style": "book",
+      "tags": [
+        "translation",
+        "fiction",
+        "literature"
+      ],
+      "title": "Sticking it out on the Icelandic moor: independence at all costs",
+      "snippet": "A 500-page epic about a stubborn Icelandic farmer who insists on fending entirely for himself against the harsh elements.",
+      "body": [
+        "Over the course of about twenty years in the early 20th century, Halldór Laxness’s novel follows the hardships and privations of Bjartur, a stubborn farmer who insists he fend for himself to maintain independence on his own land.",
+        "While parts of the book are grim and marked by an almost chilling indifference to death, it is also laced with cynical humour and deeply atmospheric prose that captures the dramatic, seasonal shifts of the Icelandic landscape."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/31/what-were-reading-ian-rankin-louise-kennedy-and-guardian-readers-on-the-books-they-enjoyed-in-october"
+      },
+      "wiki": "Halldór_Laxness",
+      "lang": "en",
+      "book": {
+        "title": "Independent People",
+        "author": "Halldór Laxness",
+        "lessons": [
+          {
+            "title": "The Heavy Cost of Autonomy",
+            "text": "The protagonist's insistence on absolute self-reliance pushes his family to the brink of survival, illustrating how a fierce refusal to accept help can curdle into isolation."
+          },
+          {
+            "title": "Atmosphere as a Character",
+            "text": "Laxness uses the changing seasons and the unforgiving terrain of the farm not just as a backdrop, but as an active force shaping the psychology of the people who live there."
+          },
+          {
+            "title": "Cynicism and Survival",
+            "text": "Amidst extreme hardship, the characters deploy a pitch-black, cynical humour toward one another as a coping mechanism against relentless misery."
+          }
+        ],
+        "takeaway": "Embrace a piece of world literature outside the usual Anglosphere comfort zone to stretch your reading habits.",
+        "forWho": "Readers looking for an immersive, atmospheric epic about stubbornness, survival, and the harsh beauty of Iceland."
+      },
+      "image": {
+        "src": "editions/2026-11-01/books-sticking-it-out-on-the-icelandic-moor-independen.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "books-leaving-the-kitchen-window-behind-what-happens-w",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-10-30",
+      "style": "book",
+      "tags": [
+        "fiction",
+        "road-trip",
+        "change"
+      ],
+      "title": "Leaving the kitchen window behind: what happens when you just drive away",
+      "snippet": "At 48, Hafni leaves her husband behind for a road trip through Denmark, seeking freedom from a lifetime of quiet obligations.",
+      "body": [
+        "Helle Helle’s subtle, affecting novel follows 48-year-old Hafni as she breaks away from her marriage by taking an unplanned road trip through Denmark. Along the way, she washes her pants in sinks, opens beer bottles with a metal comb, and reflects on the liberation of shedding old rules.",
+        "As she meets strangers—including a dying woman determined to keep everyone cheerful—Hafni wobbles between hope and fear, asking what happens when a stuck person finally decides to change."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/oct/30/the-best-recent-translated-fiction-review-roundup"
+      },
+      "wiki": "Helle_Helle",
+      "lang": "en",
+      "book": {
+        "title": "Hafni Says",
+        "author": "Helle Helle",
+        "lessons": [
+          {
+            "title": "Shedding Obligation",
+            "text": "Stepping away from domestic routines allows Hafni to untangle herself from decades of polite expectations and internalised rules."
+          },
+          {
+            "title": "The Grace of Strangers",
+            "text": "Encounters on the road offer strange mirrors and unexpected moments of humanity, helping her navigate the space between fear and hope."
+          },
+          {
+            "title": "The Desire to Transform",
+            "text": "The core of the journey is a quiet, radical admission: a rejection of one's current self in search of a different path forward."
+          }
+        ],
+        "takeaway": "Identify one minor obligation you carry purely out of habit and consciously drop it for a week.",
+        "forWho": "Anyone who appreciates quiet, character-driven European fiction about mid-life pivots and quiet revolutions."
+      },
+      "image": {
+        "src": "editions/2026-11-01/books-leaving-the-kitchen-window-behind-what-happens-w.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ideas-accepting-absurdity-should-spark-productive-revo",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "albert-camus",
+        "existentialism",
+        "meaning"
+      ],
+      "title": "Accepting absurdity should spark productive revolt, not despair",
+      "snippet": "Recognizing the senselessness of existence is a starting point for action rather than a reason to give up.",
+      "body": [
+        "In his philosophical work, Albert Camus argued that life's inherent absurdity does not justify nihilism. Instead, accepting that the universe lacks inherent meaning yields three core consequences: revolt, freedom, and passion.",
+        "For Camus, recognizing absurdity is a necessary first step, but it must not become a dead end. In a 1945 interview, he explained that accepting absurdity arouses a spirit of revolt. This revolt can be channeled into discovering ideas that restore relative, lived meaning to human existence.",
+        "To apply this, view moments of overwhelming uncertainty or senselessness as invitations to act with greater sincerity and freedom. Meaning is not found waiting to be discovered; it is constructed through your own conscious rebellion against despair."
+      ],
+      "more": [
+        "Camus formulated much of his perspective against the backdrop of World War II, a period where human existence felt profoundly uncontrollable and brutal. Despite these conditions, he resisted the idea that an absurd world required people to surrender to despair.",
+        "In his 1942 essay 'The Myth of Sisyphus,' Camus established that the realization of the absurd can empower individuals. Rather than seeking absolute answers from an indifferent universe, one can live fully by embracing immediate experience, personal freedom, and active engagement.",
+        "In his later interviews, Camus stressed that overcoming absurd despair requires human solidarity. He outlined essential conditions for meaningful existence: frankness without falsehood, individual freedom, and a shared sense of justice.",
+        "Ultimately, Camus viewed meaning as fragile and always in danger, yet worth maintaining. By choosing honest communication and connection over isolation, individuals actively forge purpose within an indifferent world."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/"
+      },
+      "wiki": "Albert_Camus",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/ideas-accepting-absurdity-should-spark-productive-revo.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ideas-we-interpret-adult-relationships-through-childho",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "philosophy",
+        "relationships",
+        "self-improvement"
+      ],
+      "title": "We interpret adult relationships through childhood lenses",
+      "snippet": "Our baseline for what feels 'normal' in adult connections is deeply rooted in early childhood experiences and transferrable patterns.",
+      "body": [
+        "Psychologists John Bowlby and Mary Ainsworth developed attachment theory to explain how early interactions with caregivers shape our worldview. Freud similarly argued that we process adult relationships through the lens of early life, a concept expanded by psychologist Susan M. Andersen as 'social-cognitive transference.'",
+        "When you encounter someone whose traits, speech, or behavior resemble a figure from your past, your brain automatically reproduces old emotional reactions. We are often unconsciously drawn to partners who mirror early caregivers or react strongly against people who trigger memories of childhood bullies.",
+        "To use this insight, audit your definition of a 'normal' or 'healthy' friendship. By examining whether an emotional reaction belongs to the present moment or is a transferred childhood memory, you can break automatic relational habits."
+      ],
+      "more": [
+        "Much of our everyday vocabulary around emotional life relies on assumptions established by 20th-century psychology. We take for granted that an 'unconscious self' drives our decisions and that childhood environments imprint long-lasting neuroses. Recognizing these patterns allows us to scrutinize their origin rather than treating them as unchangeable facts.",
+        "Social-cognitive transference operates quickly and sub-consciously. When meeting a new acquaintance, the mind scans past relational templates for matches. If a match is detected, you inherit the feelings, expectations, and defensive mechanisms tied to the original person.",
+        "Philosophy combined with psychology gives us a toolkit to reexamine our personal baselines. Instead of accepting feelings of comfort or friction at face value, you can dissect why a specific dynamic feels 'broken' or 'safe.'",
+        "By identifying your attachment style and transference triggers, you gain the ability to choose your responses. This shift transforms unconscious repetition into intentional relationship building."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/mini-philosophy/3-ways-to-find-and-nurture-better-friendships/"
+      },
+      "wiki": "Attachment_theory",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/ideas-we-interpret-adult-relationships-through-childho.png",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "news",
+      "tags": [
+        "f1",
+        "formula-1",
+        "ferrari",
+        "lewis-hamilton",
+        "qualifying"
+      ],
+      "title": "How Lewis Hamilton Solved Ferrari's Qualifying Tyre Riddle in Mexico",
+      "snippet": "Hamilton snatched his first Ferrari pole position not through car upgrades, but by reviving out-lap tricks he hadn't used in 13 years.",
+      "body": [
+        "Lewis Hamilton claimed his first pole position for Ferrari in Mexico, ending a long drought where the Scuderia repeatedly failed to turn promising outright pace into Saturday results. The breakthrough didn't stem from aerodynamic upgrades or circuit characteristics, but rather what happened before the timed laps even started.",
+        "Ferrari's SF-26 car is notoriously gentle on rubber, which preserves tyres across a race distance but makes firing them up for a single flying lap exceptionally difficult. Managing axle temperature balance has been a persistent headache: get the fronts hot enough for Turn 1, and the rears risk overheating by the final sector.",
+        "Hamilton managed to thread that needle on his final run by radically altering his out-lap routine, giving away time early in the lap to ensure his tyres stayed in their operating window through the technical final stadium complex."
+      ],
+      "more": [
+        "Hamilton described finding the balance across both axles as like searching for a needle in a haystack. On his first Q3 flying attempt, his tyres were not ready early on, costing him time through Turns 2, 4–6, and 11. For his decisive second run, he adapted by applying significantly more throttle down the straights on the out-lap while nursing the car through the stadium section before crossing the start line.",
+        "Though Hamilton trailed his earlier sector benchmark by roughly 0.150 seconds out of Turn 3, the disciplined tyre warm-up paid massive dividends in the latter stages of the circuit. Better acceleration out of Turn 4 leveled the deficit, and the tyres remained fully alive across the rear axle through the twisty stadium finale to put him on pole.",
+        "After qualifying, Hamilton admitted he had to dig deep into his experience, revealing he utilized a couple of tools inside the car that he had not touched in roughly 13 years to make the prep lap work.",
+        "His teammate Charles Leclerc experienced the painful flip side of the strategy. Leclerc took a much more aggressive approach on his final out-lap, charging into Turn 1 at over 270 km/h. While Leclerc was quickly 0.150 seconds up through the opening corners, his rear tyres overheated between Turns 6 and 7, triggering a slide through Turns 9 to 11 that ruined his traction in the stadium and left him third.",
+        "Meanwhile, Mercedes driver George Russell took second by a razor-thin 0.009 seconds. Russell abandoned a double-preparation out-lap strategy on his final run to attack immediately, but rued carrying surplus fuel originally intended for that extra warm-up lap—a tiny detail that likely cost him the top spot."
+      ],
+      "source": {
+        "id": "f1-the-race",
+        "name": "The Race",
+        "url": "https://www.the-race.com/formula-1/what-decided-mexico-pole-fight-before-final-laps-even-started/"
+      },
+      "wiki": "Lewis_Hamilton",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t.jpg",
+        "credit": "www.the-race.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    },
+    {
+      "id": "health-how-smells-subconsciously-guide-our-hormones-and",
+      "topic": "health",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "video",
+      "tags": [
+        "neuroscience",
+        "biology",
+        "health",
+        "olfaction"
+      ],
+      "title": "How Smells Subconsciously Guide Our Hormones and Health",
+      "snippet": "Neurobiologist Dr. Noam Sobel explores the biology of olfaction and how invisible chemical signals shape social bonds, aggression, and future medical diagnostics.",
+      "body": [
+        "In a discussion on human olfaction with Andrew Huberman, Dr. Noam Sobel, professor of neurobiology at the Weizmann Institute of Science, breaks down how our sense of smell exerts a quiet but powerful grip on daily biology. From social interactions like handshakes to our subconscious choice of friends, human chemosignals continuously transmit subtle information without our conscious awareness.",
+        "Beyond basic social dynamics, Sobel's research shows that odors directly modulate endocrine responses and behavioral states, including emotional contagion, fear, and aggression. The conversation also highlights cutting-edge efforts to digitize scents and build diagnostic tools that detect systemic diseases straight from human body odors."
+      ],
+      "more": [
+        "The biology of human olfaction goes far deeper than simply enjoying pleasant aromas or noticing bad food. Sobel’s work demonstrates that humans actively sample and interpret chemical cues from one another during ordinary daily rituals. Even common greetings, such as handshakes, frequently trigger subconscious self-sniffing behaviors that help us evaluate others.",
+        "These chemical signals, known as chemosignals, carry tangible physiological weight. Sobel investigates how scents communicate fear and modulate emotional contagion between individuals. His lab has examined distinct chemosensory reactions across sexes and developmental stages, studying how specific signals—such as those present in tears—can alter hormone levels like testosterone and regulate aggressive behavior.",
+        "Looking toward practical health technology, Sobel’s lab at the Weizmann Institute is pioneering methods for digitizing smells. By mapping and synthesizing odors electronically, researchers aim to create consistent digital odor profiles.",
+        "The ultimate medical horizon for this technology lies in noninvasive health tracking. Because illness alters metabolic pathways and distinct chemical signatures in sweat, breath, and skin, developing reliable digital olfactory sensors could open the door to early disease detection long before conventional symptoms arise."
+      ],
+      "source": {
+        "id": "health-huberman-lab",
+        "name": "Huberman Lab",
+        "url": "https://www.youtube.com/watch?v=arMMF0ISRRM"
+      },
+      "video": {
+        "provider": "youtube",
+        "id": "arMMF0ISRRM",
+        "title": "Essentials: How Smells Influence Our Hormones, Health & Behavior | Dr. Noam Sobel"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-01/health-how-smells-subconsciously-guide-our-hormones-and.jpg",
+        "credit": "YouTube"
+      },
+      "minutes": 1,
+      "added": "2026-11-01"
+    }
+  ]
+}

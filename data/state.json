@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T20:30:52.537Z",
+ "updatedAt": "2026-11-01T20:47:36.618Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -980,7 +980,14 @@
   "pt-o-impasse-do-tripartidarismo-e-o-receio-de-uma-n": 1,
   "til-inside-spain-s-giant-squid-museum": 1,
   "bike-when-gravel-merges-fully-into-mtb-testing-pivot": 1,
-  "pt-sns-e-privados-em-debate-no-parlamento-enquanto": 1
+  "pt-sns-e-privados-em-debate-no-parlamento-enquanto": 1,
+  "til-when-a-jet-engine-literally-drops-out-of-the-sky": 1,
+  "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks": 1,
+  "ai-anthropic-blocks-users-over-alleged-training-of": 1,
+  "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t": 1,
+  "tech-an-ai-agent-just-performed-brain-surgery-on-a-li": 1,
+  "ai-running-pika-h3-flex-and-nvidia-regenerate-2k-lo": 1,
+  "ideas-accepting-absurdity-should-spark-productive-revo": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4391,6 +4398,71 @@
    "tag:sns",
    "tag:habitacao",
    "tag:politica"
+  ],
+  "til-when-a-jet-engine-literally-drops-out-of-the-sky": [
+   "topic:til",
+   "sub:til/story",
+   "source:r-todayilearned",
+   "style:story",
+   "tag:aviation",
+   "tag:boeing-727",
+   "tag:engineering",
+   "tag:air-safety"
+  ],
+  "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:macbook-pro",
+   "tag:hardware",
+   "tag:macos"
+  ],
+  "ai-anthropic-blocks-users-over-alleged-training-of": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:hacker-news",
+   "style:reddit",
+   "tag:frontier-models",
+   "tag:ai-research",
+   "tag:open-weight"
+  ],
+  "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t": [
+   "topic:f1",
+   "source:f1-the-race",
+   "style:news",
+   "tag:f1",
+   "tag:formula-1",
+   "tag:ferrari",
+   "tag:lewis-hamilton",
+   "tag:qualifying"
+  ],
+  "tech-an-ai-agent-just-performed-brain-surgery-on-a-li": [
+   "topic:tech",
+   "source:wired",
+   "style:news",
+   "tag:frontier-ai",
+   "tag:robotics",
+   "tag:biotech",
+   "tag:ai-agents"
+  ],
+  "ai-running-pika-h3-flex-and-nvidia-regenerate-2k-lo": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-stablediffusion",
+   "style:reddit",
+   "tag:local-llm",
+   "tag:image-video",
+   "tag:open-weight"
+  ],
+  "ideas-accepting-absurdity-should-spark-productive-revo": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:philosophy",
+   "tag:albert-camus",
+   "tag:existentialism",
+   "tag:meaning"
   ]
  },
  "read": [

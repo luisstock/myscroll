@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T19:15:12.400Z",
+ "updatedAt": "2026-11-01T00:36:58.188Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -9,7 +9,7 @@
   "newsExpireDays": 7,
   "skipRule": {
    "enabled": true,
-   "limit": 20
+   "limit": 5
   },
   "topicWeights": {},
   "topics": [
@@ -758,7 +758,8 @@
   "motion-lorem-ipsum-rap-turning-placeholder-text-into-an",
   "pt-abastecimento-de-combustiveis-garantido-para-o-i",
   "ideas-creative-momentum-begins-by-lowering-the-barrier",
-  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui"
+  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui",
+  "motion-a-curated-showcase-of-the-best-motion-design-and"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -826,7 +827,7 @@
   "design-an-existential-spiral-over-video-call-ap": 5,
   "bike-danish-outsider-magnus-bak-klaris-shocks-worldto": 1,
   "til-what-colonial-williamsburg-ate-before-pa": 1,
-  "til-sweden-s-giant-concrete-tribute-to-vineg": 2,
+  "til-sweden-s-giant-concrete-tribute-to-vineg": 3,
   "til-the-mystery-of-the-oldest-surviving-amer": 2,
   "fun-a-christian-dad-takes-on-a-14-foot-hallo": 4,
   "design-is-a-high-production-movie-trailer-the-n": 5,
@@ -884,15 +885,15 @@
   "pt-liga-portuguesa-contra-o-cancro-propoe-baixa-a-1": 1,
   "bike-uci-gravel-worlds-skips-the-us-heartland-through": 1,
   "books-uncovering-the-intimacies-behind-great-literatur": 2,
-  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 3,
+  "ideas-never-dismiss-a-preposterous-idea-proposed-by-a": 4,
   "tech-apple-sets-its-pro-and-tell-stage-for-touchscree": 2,
-  "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 2,
+  "news-us-cuts-certain-canadian-tariffs-amid-domestic-e": 3,
   "ideas-to-study-the-invisible-track-how-visible-matter": 2,
   "tech-what-apple-could-learn-from-lenovo-s-stylus-trac": 2,
   "science-from-the-moon-s-far-side-to-jpl-reid-wiseman-s-n": 3,
   "design-builders-after-all-how-daft-punk-and-lego-met-in": 3,
   "tech-anduril-pledges-its-2027-laptop-will-clear-buy-a": 2,
-  "ideas-in-an-expanding-universe-what-you-can-see-is-not": 2,
+  "ideas-in-an-expanding-universe-what-you-can-see-is-not": 3,
   "design-mother-design-started-a-brand-identity-project-w": 2,
   "tech-apple-brings-2-000-nit-tandem-oled-to-the-macboo": 2,
   "science-why-comets-probably-didn-t-deliver-life-s-starte": 1,
@@ -904,7 +905,7 @@
   "news-us-ambassador-pete-hoekstra-stirs-controversy-by": 1,
   "f1-christian-horner-on-playing-the-villain-in-netfl": 2,
   "books-ai-is-an-evolutionary-leap-not-an-inevitable-dys": 1,
-  "news-australia-s-menindee-lakes-drop-to-five-year-low": 1,
+  "news-australia-s-menindee-lakes-drop-to-five-year-low": 2,
   "motion-renderjuice-announces-5-000-speed-blender-animat": 1,
   "ai-running-a-32-bit-risc-v-processor-inside-an-llm": 1,
   "bike-a-modified-canyon-grail-cf7-running-57-5mm-rubbe": 1,
@@ -920,7 +921,7 @@
   "design-subverting-retail-discount-stickers-to-expose-th": 2,
   "ideas-your-brain-doesn-t-generate-consciousness-it-mer": 1,
   "ideas-separate-physical-forces-may-just-be-cold-fragme": 1,
-  "design-white-case-drops-legal-navy-blue-for-high-voltag": 1,
+  "design-white-case-drops-legal-navy-blue-for-high-voltag": 2,
   "design-preserving-the-diy-flyer-design-of-perth-s-under": 1,
   "news-egypt-court-fines-lina-attalah-and-orders-closur": 1,
   "tech-the-m5-max-macbook-pro-drops-to-its-lowest-price": 1,
@@ -946,16 +947,20 @@
   "science-a-4-1-billion-year-old-rock-found-in-mali-just-o": 1,
   "fun-the-dune-movie-popcorn-bucket-that-broke-the-int": 1,
   "design-rio-s-estudio-cru-prefers-asking-questions-to-gi": 1,
-  "books-when-public-systems-fail-vigilantes-fill-the-sil": 1,
+  "books-when-public-systems-fail-vigilantes-fill-the-sil": 2,
   "science-webb-spots-clouds-of-heavy-elements-lingering-ar": 1,
-  "bike-unbound-and-life-time-introduce-a-pro-number-req": 1,
+  "bike-unbound-and-life-time-introduce-a-pro-number-req": 2,
   "pt-a-onda-de-contestacao-jovem-que-atravessa-o-cont": 1,
   "til-why-hessian-soldiers-were-baffled-by-the-america": 1,
   "science-inside-max-power-nasa-s-weekend-of-supersonic-je": 1,
   "science-a-2-5-million-light-year-treble-clef-radio-struc": 1,
   "bike-where-gravel-design-goes-next-6-radically-differ": 1,
   "motion-a-tricky-runtimeinstaller-dll-crash-haunting-aft": 1,
-  "til-decades-of-data-show-poisoned-halloween-candy-is": 1
+  "til-decades-of-data-show-poisoned-halloween-candy-is": 1,
+  "fun-when-toy-packaging-swaps-plastic-twist-ties-for": 1,
+  "design-a-north-carolina-library-ditches-its-14-year-old": 1,
+  "ai-fine-tuning-prompt-fidelity-and-samplers-for-mos": 1,
+  "ai-a-working-nintendo-nes-compiled-directly-into-qw": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4154,6 +4159,44 @@
    "style:reddit",
    "tag:sociology",
    "tag:reddit"
+  ],
+  "fun-when-toy-packaging-swaps-plastic-twist-ties-for": [
+   "topic:fun",
+   "source:r-mildlyinteresting",
+   "style:reddit",
+   "tag:packaging",
+   "tag:toys",
+   "tag:design",
+   "tag:reddit"
+  ],
+  "design-a-north-carolina-library-ditches-its-14-year-old": [
+   "topic:design",
+   "source:creative-bloq",
+   "style:news",
+   "tag:logo-design",
+   "tag:branding",
+   "tag:censorship",
+   "tag:graphic-design"
+  ],
+  "ai-fine-tuning-prompt-fidelity-and-samplers-for-mos": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-stablediffusion",
+   "style:explainer",
+   "tag:stable-diffusion",
+   "tag:comfyui",
+   "tag:image-generation",
+   "tag:ai-tips"
+  ],
+  "ai-a-working-nintendo-nes-compiled-directly-into-qw": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:hacker-news",
+   "style:explainer",
+   "tag:ai",
+   "tag:llm",
+   "tag:retro-tech",
+   "tag:open-weights"
   ]
  },
  "read": [
@@ -4286,14 +4329,17 @@
   "motion-exploring-retro-animation-styles-in-afte",
   "ai-spotify-expands-paid-podcast-memberships",
   "bike-marianne-vos-claims-her-15th-world-title-on-aust",
-  "bike-abus-hyp-e-helmet-sliding-vents-built-in-turn-si"
+  "bike-abus-hyp-e-helmet-sliding-vents-built-in-turn-si",
+  "ai-sam-altman-argues-local-ai-inference-is-a-terrib",
+  "pt-da-danca-as-especiarias-a-caminhada-de-ana-sanch"
  ],
  "saved": [
   "pt-1755",
   "motion-balancing-speed-and-readability-in-vertical-kine",
   "books-the-design-of-everyday-things",
   "motion-lorem-ipsum-rap-turning-placeholder-text-into-an",
-  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui"
+  "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui",
+  "motion-a-curated-showcase-of-the-best-motion-design-and"
  ],
  "later": null,
  "hidden": {
@@ -5090,6 +5136,32 @@
     "tag:bike-helmets",
     "tag:commuter-gear",
     "tag:bike-tech"
+   ]
+  },
+  "ai-sam-altman-argues-local-ai-inference-is-a-terrib": {
+   "at": "2026-10-31T19:15:26.592Z",
+   "f": [
+    "topic:ai",
+    "sub:ai/local-llm",
+    "source:r-localllama",
+    "style:reddit",
+    "tag:local-ai",
+    "tag:sam-altman",
+    "tag:openai",
+    "tag:hardware"
+   ]
+  },
+  "pt-da-danca-as-especiarias-a-caminhada-de-ana-sanch": {
+   "at": "2026-10-31T19:15:34.119Z",
+   "f": [
+    "topic:pt",
+    "sub:pt/curiosidades",
+    "source:nit",
+    "style:explainer",
+    "tag:masterchef",
+    "tag:gastronomia",
+    "tag:televisao",
+    "tag:rtp"
    ]
   }
  },

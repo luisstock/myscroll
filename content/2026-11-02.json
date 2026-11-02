@@ -1,0 +1,680 @@
+{
+  "date": "2026-11-02",
+  "number": 13,
+  "items": [
+    {
+      "id": "til-15-words-you-didn-t-realize-were-actually-1970s",
+      "topic": "til",
+      "sub": "cracked",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "list",
+      "tags": [
+        "etymology",
+        "language",
+        "history",
+        "pop-culture"
+      ],
+      "title": "15 words you didn't realize were actually 1970s slang",
+      "snippet": "From 'first world problem' to 'uncanny valley', many everyday modern terms were born in the decade of disco.",
+      "body": [
+        "Slang is usually ephemeral, burning brightly among teenagers before disappearing into outdated cringeness. But the 1970s birthed a surprising number of informal terms that stuck around so well we now treat them as standard English.",
+        "While some words simply shifted meaning during the decade, others were coined by roboticists, comedians, or college pranksters before becoming permanent fixtures of our daily vocabulary."
+      ],
+      "more": [
+        "Take 'first world problem', a phrase that feels like a product of the smartphone era. It was actually coined in 1979 to describe minor inconveniences felt by affluent people. Similarly, 'off-grid' originated in 1970s engineering charts before expanding to describe remote living and digital disconnections.",
+        "Some terms evolved from literal objects into abstract metaphors. A 'page-turner' originally referred to a mechanical device or human hired in the 1950s to flip sheet music for musicians, but by 1972, it meant a thrilling book. 'Hurt locker', popularized by the 2008 war film, was 1972 slang for claustrophobic distress.",
+        "The origins of physical comedy terms also surprise. While spraying a drink in shock was performed by mid-century comedians, the term 'spit-take' wasn't printed until 1971. Meanwhile, 'gotcha' morphed during the '70s from 1950s college prank slang—shouted during trousers-dropping pranks—into its current meaning of catching someone in a public blunder.",
+        "Science contributed as well. In 1970, Japanese roboticist Masahiro Mori coined 'uncanny valley' to describe the sudden drop in human comfort when a robot looks almost, but not quite, completely human. Five decades later, as CGI and artificial intelligence advance, his 1970 graph label is more relevant than ever."
+      ],
+      "source": {
+        "id": "mental-floss",
+        "name": "Mental Floss",
+        "url": "https://www.mentalfloss.com/language/slang/words-1970s-still-use-today?utm_source=RSS"
+      },
+      "wiki": "Slang",
+      "imageUrl": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1720,h_967,x_98,y_38/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01m64n0kcr78sxzx4dt2.png",
+      "lang": "en"
+    },
+    {
+      "id": "til-why-sailors-used-to-dump-oil-into-raging-ocean-s",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "til",
+      "tags": [
+        "physics",
+        "history",
+        "maritime",
+        "oceanography"
+      ],
+      "title": "Why sailors used to dump oil into raging ocean storms",
+      "snippet": "For centuries, ships carried 'storm oil' not to burn, but to pour over the side during heavy seas. A tiny drop actually calms waves.",
+      "body": [
+        "Until late into the 20th century, vessels across the world—including British merchant ships and US lifeboats—were legally required to carry special containers of 'storm oil'. When violent weather hit, sailors would pour vegetable, fish, or animal oil directly into the sea.",
+        "It sounds like a myth, but the physics is completely sound. As oil spreads into an extraordinarily thin layer—just one or two molecules thick—it dramatically alters the water's surface tension and dampens the friction between wind and ocean."
+      ],
+      "more": [
+        "The phenomenon was observed by Aristotle and Pliny the Elder, while whaling ships were known to hang pieces of blubber over their hulls in rough seas. In 1757, Benjamin Franklin investigated the effect after witnessing a ship's wake stay smooth when grease was tossed overboard. He later conducted controlled experiments on English ponds, demonstrating how a single teaspoon of olive oil could instantly smooth out ripples over a large area.",
+        "The secret lies in surface tension and fluid dynamics, specifically a mechanism known as the Marangoni effect. Because vegetable and fish oils do not mix with water, they spread rapidly to form an ultra-thin film. This film prevents the wind from getting a physical grip on the water surface, stopping whitecaps, choppy spray, and cresting waves from forming and spilling over small vessels.",
+        "It won't stop massive deep-water swells, which carry energy deep below the surface, but it successfully prevents the jagged surface waves that capsize lifeboats or flood decks. In the late 19th century, self-taught German chemist Agnes Pockels used her kitchen sink to measure these oil monolayers down to 1.3 nanometers, laying the groundwork for modern surface science.",
+        "Reddit commenters were quick to clarify the distinction between organic oils and petroleum: mineral and crude oils behave very differently on water and do not produce the same wave-damping effect. As one user helpfully summarized the fluid dynamics: 'The oil makes the surface of the water too slippery so the wind can't grab it.'"
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xljwi3/til_that_sailors_used_to_pour_oil_into_the_ocean/"
+      },
+      "wiki": "Storm_oil",
+      "lang": "en"
+    },
+    {
+      "id": "motion-generative-lexicon-press-turns-written-text-into",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "reddit",
+      "tags": [
+        "touchdesigner",
+        "generative-typography",
+        "ollama",
+        "motion-design"
+      ],
+      "title": "Generative Lexicon Press turns written text into audio-reactive typography",
+      "snippet": "A TouchDesigner setup turns text passages into responsive layouts where bass kicks advance pages and local AI crafts the prose.",
+      "body": [
+        "A designer has released Generative Lexicon Press, a generative typography system built inside TouchDesigner that transforms written passages into kinetic visual compositions across 25 dynamic layouts. Individual words and letterforms mutate into structures, patterns, and synchronized motion sequences driven live by sound.",
+        "The project maps specific audio frequencies directly to typographic behavior out of the box: bass hits trigger page turns and layout transitions, mid frequencies drive colored highlights and scrolling, and treble accents punctuate the lettering. Creators can feed live audio or static sound files into the network and immediately tweak the responses.",
+        "In an intriguing nod to local AI pipelines, the tool includes an optional 'Writing Partner' module that connects to Ollama, generating real-time passages based on user concepts, specific modes, and languages."
+      ],
+      "more": [
+        "The creator cites generative artist Ksawery Komputery—specifically the acclaimed project Symphony in Acid—as the primary inspiration for the tool. Where traditional kinetic typography often demands meticulous keyframing and tracking in After Effects, this TouchDesigner environment treats text as a flexible data array that responds organically to incoming audio data.",
+        "The tool handles text layout across 25 distinct visual modes. Within these templates, words transform into structural grids, selective erasures, and flowing animated blocks. Because the response logic is already patched together, users only need to drop an audio source into the node tree, hit play, and swap in custom copy.",
+        "Beyond manual copywriting, the local LLM integration via Ollama brings a procedural storytelling angle to motion work. Users can define a thematic concept, select a tone or writing style, and let the model stream continuous text directly into the visual engine without needing external API keys or cloud dependencies.",
+        "The project files have been made available via Patreon and the creator's studio, accompanied by a 4K walkthrough on YouTube demonstrating how the audio frequency splitting and sequence sequencing are arranged."
+      ],
+      "source": {
+        "id": "r-motiondesign",
+        "name": "r/MotionDesign",
+        "url": "https://www.reddit.com/r/MotionDesign/comments/1xla7ki/release_generative_lexicon_press/"
+      },
+      "wiki": "Kinetic_typography",
+      "lang": "en"
+    },
+    {
+      "id": "motion-revisiting-student-motion-work-seven-years-later",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "reddit",
+      "tags": [
+        "title-design",
+        "portfolio",
+        "motion-design",
+        "tv-titles"
+      ],
+      "title": "Revisiting student motion work seven years later",
+      "snippet": "An art director dusting off their motion reel returns to a design school title card concept for the crime drama Claws.",
+      "body": [
+        "Polishing a portfolio often means confronting old work with fresh eyes. An art director getting ready to re-enter the job market decided to revisit a student motion design project from seven years ago: title cards designed for the 2017 television crime series Claws.",
+        "Set around a crew of Miami manicurists entangled in organized crime, the show's aesthetic is unapologetically loud, tacky, and garish. While the original student concept aimed to channel that manic energy, time constraints and student-level execution left the vision underbaked.",
+        "Returning to the sequence years later with seasoned art direction skills, the creator rebuilt the animation to finally achieve the polish and punch the original idea deserved, seeking feedback from working motion designers."
+      ],
+      "more": [
+        "Rebuilding an old student concept is a classic benchmark for creative growth. The original assignment tackled TNT's Claws, which followed Niecy Nash's character Desna Simms and her salon staff as they laundered money through a Florida nail salon. The show’s signature look leaned heavily into gaudy nail art, sun-bleached neon, and Southern Florida excess.",
+        "During school, executing intricate motion concepts often crashes into tight deadlines and software learning curves. The creator noted that while the initial art direction and thematic concept felt strong, the technical polish and fluid animation needed to make it professional simply were not there at the time.",
+        "Now looking to emphasize motion design in their art direction book, the designer put the revamped cards up for critique in the motion community. Re-animating the sequence allowed them to demonstrate how years of professional visual experience can elevate an old narrative concept without starting completely from scratch.",
+        "The exercise highlights an effective portfolio strategy: instead of waiting for a client to hand over an ideal motion brief, dusting off an old concept with established visual identity lets designers showcase how far their technical animation and composition skills have matured."
+      ],
+      "source": {
+        "id": "r-motiondesign",
+        "name": "r/MotionDesign",
+        "url": "https://www.reddit.com/r/MotionDesign/comments/1xledqa/title_cards_for_niecy_nashs_claws_open_for/"
+      },
+      "wiki": "Claws_(TV_series)",
+      "lang": "en"
+    },
+    {
+      "id": "ai-taming-a-32gb-video-model-low-vram-workflows-for",
+      "topic": "ai",
+      "sub": "motion-ai",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "reddit",
+      "tags": [
+        "minimax",
+        "comfyui",
+        "generative-video",
+        "optimization"
+      ],
+      "title": "Taming a 32GB video model: Low-VRAM workflows for MiniMax H3 Singularity V2",
+      "snippet": "Community fine-tunes for high-action video are getting sharper, but running a 32GB model locally requires clever memory gymnastics.",
+      "body": [
+        "MiniMax H3 Singularity V2 is a community fine-tune designed specifically for tough video generation scenarios: fast action sequences, motion handling, distant character silhouettes, and close-up facial detail. It also improves audio reference handling and overall prompt fidelity.",
+        "The catch is weight: the model sits at roughly 32GB, putting it out of reach for many standard local setups. To make it usable, community builders have introduced customized low-VRAM ComfyUI pipelines that dramatically compress the required hardware footprint."
+      ],
+      "more": [
+        "Fast motion has historically caused video generation models to degrade into smeared artifacts or warped limbs. Singularity V2 aims directly at these failure modes, stabilizing rapid movements and keeping faces coherent even when characters move far away from the lens.",
+        "To run the 32GB model without running out of memory, the shared workflow stacks several optimizations: INT8 quantization of the base weights, Turbo LoRA modules to reduce step counts, and specialized custom attention nodes to streamline GPU caching.",
+        "These workflow adjustments allow creators to generate challenging action scenes without sacrificing the subtle prompt adherence improvements introduced in V2.",
+        "The complete workflow files and testing benchmarks have been released across Civitai and Google Drive for creators testing fast action and character-heavy generation locally."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xl097d/new_minimax_h3_singularity_v2_faster_actions/"
+      },
+      "lang": "en"
+    },
+    {
+      "id": "ai-fresh-tools-in-the-minimax-h3-ecosystem-3d-motio",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "list",
+      "tags": [
+        "minimax",
+        "comfyui",
+        "video-generation",
+        "motion-design"
+      ],
+      "title": "Fresh tools in the Minimax H3 ecosystem: 3D motion, recasting, and vintage grade",
+      "snippet": "A new wave of community tooling for MiniMax H3 tackles everything from full-body 3D motion extraction to Technicolor emulation.",
+      "body": [
+        "The open-weight video ecosystem around MiniMax H3 continues to expand with specialized community tools. A recent roundup showcases workflows addressing some of the hardest problems in generative video: consistent actor swapping, physical interpenetration, and camera rigging.",
+        "Highlights include MotionBridge, which extracts a 77-joint SOMA skeleton file from video inputs to retarget onto humanoid 3D rigs, and Stage, an environment designed to build precise camera paths around 3D mannequins to drive video generation with synchronized motion prompts."
+      ],
+      "more": [
+        "Character consistency and physical logic get a targeted fix with Minimax-H3-VBVR, an adaptation designed to reduce glitches like object duplication, clipping, and unnatural interpenetration during complex character interactions.",
+        "For narrative experimentation, H3 Recast allows creators to swap up to three people in a video clip in a single pass while preserving background motion, lighting, and native audio. A companion tool, RecastRoom Studio, focuses on straightforward lead-actor replacements.",
+        "On the stylistic side, the Technicolor Dreams LoRA attempts to unify lighting, dialogue, and texture to match mid-century American and British film stock, while MiniMax-H3-LoRA-LineartAnime uses DiffSynth-Studio to colorize clean line art.",
+        "Even compositional nodes are evolving: ComfyUI-H3UpperOutpaint provides vertical 'uppainting' tailored specifically for phone screens, letting creators extend footage upward to leave clean negative space for mobile UI overlays and titles."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xl5evm/a_quick_minimax_h3_news_roundup_1st_november_2026/"
+      },
+      "lang": "en"
+    },
+    {
+      "id": "bike-factor-sarana-review-comfort-and-clearance-over",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-10-28",
+      "style": "explainer",
+      "tags": [
+        "gravel-bike",
+        "factor-bikes",
+        "cycling-gear"
+      ],
+      "title": "Factor Sarana Review: Comfort and Clearance Over Gram-Counting",
+      "snippet": "Factor's new ultra-endurance gravel chassis trades low weight for clever carbon leaf-spring comfort and 57mm tire clearance.",
+      "body": [
+        "Factor designed the Sarana as an ultra-endurance gravel race bike, tailoring it to events like the Tour Divide. Rather than aiming for extreme weight savings, the frame focuses on handling predictability, deep 57mm tire clearance, and rider fatigue reduction.",
+        "The standout feature is its carbon leaf-spring rear triangle. By dropping and curving the chainstays with deliberate flat flex points—paired with dropped seatstays and a shaped seat tube—Factor built vertical absorption directly into the carbon structure without needing mechanical pivots or complex linkages."
+      ],
+      "more": [
+        "The compliance system is designed to provide around 10mm of rear travel and an 18% reduction in vibration amplitude. Combined with wide tires, it gives the bike exceptional control and comfort over long, rough miles without the bobbing or maintenance penalties of conventional rear shocks.",
+        "However, that built-in capability comes with a noticeable weight tax. Tested with a front suspension fork and SRAM Force XPLR drivetrain, the complete bike hit 9.58 kg (21.1 lbs). Even swapped to a rigid fork, the frame alone weighs roughly 1,200g, placing it closer to heavy-duty adventure rigs than lightweight gravel racers.",
+        "Living with the Sarana fits modern integrated standards: complete internal cable routing through a one-piece Black Inc barstem, integrated downtube storage, custom top-tube bag mounts, a threaded T47 bottom bracket, and dropper-post compatibility.",
+        "Ultimately, the Sarana targets riders prioritizing vertical compliance and high-speed stability on multi-day efforts. While the steep price tag for a heavier chassis might give weight-conscious racers pause, its clever carbon engineering offers a practical blueprint for the future of endurance gravel design."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/factor-sarana-gravel-bike-review/"
+      },
+      "wiki": "Gravel_bicycle",
+      "imageUrl": "https://velo-cdn.outsideonline.com/wp-content/uploads/2026/09/DSC01055-scaled.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-western-australia-scans-1-3-million-faces-in-pol",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "facial-recognition",
+        "surveillance",
+        "privacy",
+        "australia"
+      ],
+      "title": "Western Australia scans 1.3 million faces in police surveillance trial",
+      "snippet": "A five-month real-time facial recognition trial resulted in 122 arrests and nine mistaken identity stops, sparking sharp debate over public privacy.",
+      "body": [
+        "Police in Western Australia have concluded a five-month trial of real-time facial recognition technology that scanned more than 1.38 million faces in public spaces. Carried out across 100 deployments in metropolitan and regional areas, the program led to 122 arrests, 146 interactions with registered sex offenders, and 10 welfare checks.",
+        "The operation highlights the expanding integration of automated surveillance into everyday public policing. While authorities argued the system achieved an extremely low error rate of 0.00065% with nine false alerts, civil liberties advocates argued that running bulk scans on public crowds treats innocent bystanders as suspects without reasonable suspicion.",
+        "The mobile surveillance vans have now been pulled from public deployment while the police department carries out an internal review to assess accuracy, safeguards, and the wider community impact."
+      ],
+      "more": [
+        "The operational footprint of the trial was extensive, involving 43 separate locations. At the Perth Royal Show alone, van-mounted cameras captured and analyzed 223,749 faces, producing 15 alert matches, three arrests, and seven engagements with registered sex offenders.",
+        "Under the trial's operating rules, police cameras matched crowd footage against targeted databases. Authorities stated that unflagged faces were automatically pixelated in real time and erased immediately without long-term storage. However, all nine false alerts resulted in officers stopping and questioning uninvolved members of the public.",
+        "Civil liberties organizations strongly disputed the official metrics. Bill Rowlings, chief executive of Civil Liberties Australia, criticized the police framing of the error rate, noting that real-world accuracy can only be determined once the 122 arrested individuals face court proceedings. If a significant portion of arrests fail to yield convictions, the effective error rate would be substantially higher.",
+        "Concerns were also raised by privacy regulators and algorithmic bias specialists. The state's independent privacy watchdog, the Office of the Information Commissioner WA, had previously warned about broad collective privacy harms after not being involved in setting up the pilot. Meanwhile, researchers continue to emphasize that matching algorithms carry documented risks of misidentification, particularly across marginalized groups."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial"
+      },
+      "wiki": "Facial_recognition_system",
+      "imageUrl": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4a0fc4b5b00e1dadb20dbeadb455f101",
+      "lang": "en"
+    },
+    {
+      "id": "tech-homepod-mini-2-faster-quieter-and-still-struggli",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "news",
+      "tags": [
+        "apple",
+        "smart-home",
+        "audio",
+        "hardware"
+      ],
+      "title": "HomePod Mini 2: Faster, Quieter, and Still Struggling With the Mac",
+      "snippet": "Six years later, Apple updated the HomePod Mini with faster silicon, a gorgeous new green coat, and a promise of persistent Mac audio that isn't quite working yet.",
+      "body": [
+        "Six years after launching its original entry-level orb, Apple introduced the $149 HomePod Mini 2. While the outward design remains largely untouched, the internal jump to an S10 chip and Wi-Fi 6E makes the speaker noticeably snappier at triggering music and handling smart home accessories.",
+        "Instead of enduring the old ten-second pauses and chatty confirmations, the new model executes commands like closing shades or toggling lights in under three seconds, mostly without unnecessary voice chatter. There is also a welcome quality-of-life fix: a software toggle to finally disable the top touch controls.",
+        "However, the headline feature—using the speaker as a persistent, low-latency Mac audio output over direct AirPlay—seems to have stumbled right out of the gate."
+      ],
+      "more": [
+        "Under the hood, the upgrade replaces the aging S5 chip with the S10 processor alongside Wi-Fi 6E support. This hardware foundation cuts response latency down to roughly two to three seconds for voice requests. Siri AI has been promised for a future software update, meaning complex web queries still punt users back to their iPhones, but basic domestic automation feels substantially less sluggish.",
+        "Aesthetically, Apple introduced an understated, deep green finish alongside an embossed base logo and a color-matched woven cable. Software updates also add Sound Glow, subtly illuminating the upper LED interface with colors sampled from active album art in Apple Music and Podcasts. Even better for clumsy nightstand taps, the Home app now allows users to completely lock the touch surface.",
+        "The major letdown in early testing is Apple’s promised 'responsive and persistent AirPlay connection' designed to make the HomePod Mini a default wireless Mac speaker. Despite meeting every technical requirement—including macOS 27.2 on an M4 Mac Mini with Wi-Fi 6E—testers found the Mac Sound settings failed to surface the speaker as a default system output.",
+        "Instead, the hardware defaulted to ordinary AirPlay, carrying the usual audio artifacts, occasional dropouts, and notification latency. While the price has increased by $50 over the original $99 debut, the Mini 2 remains Apple’s most affordable Home hub with Matter and Thread support, pending fixes to its Mac audio integration."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker"
+      },
+      "wiki": "HomePod_Mini",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268839_HomePod_mini_2_JTuohy_0009.jpg?quality=90&strip=all&crop=0%2C19.336604742637%2C80.59453125%2C63.294399383614&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "tech-googlebooks-emerge-as-chrome-os-begins-its-andro",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "explainer",
+      "tags": [
+        "laptops",
+        "google",
+        "chrome-os",
+        "hardware"
+      ],
+      "title": "Googlebooks Emerge as Chrome OS Begins Its Android Evolution",
+      "snippet": "Google is introducing 'Googlebooks'—premium laptops running an Android-based operating system with native mobile apps and separate browser updates.",
+      "body": [
+        "Google is quietly transitioning its laptop ecosystem away from traditional Chrome OS toward 'Googlebooks,' a hardware tier powered by a tailored, desktop-oriented version of Android.",
+        "Unlike legacy Chromebooks, these machines update the full Chrome browser independently from the core OS and run Google Play Android apps natively, making mobile tools significantly more responsive on large displays.",
+        "Five debut models showcase this transition, pairing premium hardware such as Snapdragon X Elite chips and OLED panels with uniform baselines of 16 GB of RAM and 512 GB of storage."
+      ],
+      "more": [
+        "The shift from Chrome OS to Googlebook OS addresses long-standing limitations in Google's laptop strategy. Because browser updates are severed from underlying system images, browser maintenance avoids system-wide update hurdles. Running Android natively also cuts down virtualization overhead, making mobile productivity apps launch and run much closer to phone speeds.",
+        "For Android users, platform synergy is the core attraction. Googlebook OS allows seamless phone control, native messaging, and integrated contextual menus powered by Gemini. Hardware partners are stepping away from budget builds: standard configurations feature 16 GB of RAM and 512 GB of internal storage, aligning the devices with mid-range MacBooks and Windows PCs.",
+        "Picks among the first generation highlight disparate approaches. The Acer Googlebook 14 leads on value with a vibrant 120Hz 2.8K OLED screen, while Dell’s XPS Googlebook adapts the compact 13-inch chassis of its flagship PC line. Both employ Qualcomm’s Snapdragon X Elite, contrasting with Intel variants from HP and Asus.",
+        "Yet early adoption comes with clear friction. Despite Snapdragon efficiency, battery life lags behind Windows counterparts and Apple’s silicon. Android apps frequently lack proper trackpad and keyboard optimization, and some third-party Chrome extensions fail to launch on Intel-based variants. While standard Chromebooks remain on shelves, selected late-model units are slated for future OS upgrades."
+      ],
+      "source": {
+        "id": "wired",
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/best-chromebooks/"
+      },
+      "wiki": "Chromebook",
+      "imageUrl": "https://media.wired.com/photos/6ae4f7cdc47e8737f5c92342/master/pass/Update%20Best%20Chromebooks%20102026%20top%20art%20SOURCE%20Amazon-Best%20Buy.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-the-mysterious-1-500-kilometer-cloud-that-appear",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "mars",
+        "astronomy",
+        "planetary-science",
+        "nasa"
+      ],
+      "title": "The Mysterious 1,500-Kilometer Cloud That Appears Over Mars",
+      "snippet": "Every spring and summer morning, a massive cloud of water-ice stretches over 1,500 kilometers across the Martian landscape, baffling atmospheric scientists.",
+      "body": [
+        "First observed by NASA's Viking Orbiter 2 back in 1977, the Arsia Mons Elongated Cloud (AMEC) is one of Mars's stranger weather phenomena. It forms exclusively during the planet's spring and summer mornings, stretching outward into a tail over 1,500 kilometers long.",
+        "What makes AMEC weird is its composition. It's made of water-ice, but the Martian atmosphere high above the surface is too thin and lacks the dust particles normally required for ice crystals to condense. Scientists believe dust isn't involved at all in its formation, suggesting a unique mechanism is at play near the volcano Arsia Mons.",
+        "Understanding how this giant cloud takes shape without dust could help atmospheric scientists build better, more complete models of cloud formation back home on Earth."
+      ],
+      "more": [
+        "The Arsia Mons Elongated Cloud forms right near the flank of Arsia Mons, a massive extinct volcano on Mars. As morning winds blow past the mountain, they push gas and moisture downstream, creating a thin, brilliant streak of water-ice crystals that reaches far across the hemisphere.",
+        "Detailed images captured in 2018 by ESA’s Mars Express spacecraft have given researchers a closer look at the cloud's fine structure. Standard meteorological models struggle to explain it because cloud formation usually relies on microscopic dust particles acting as cloud condensation nuclei. High up in the thin Martian air, dust is scarce, yet AMEC forms reliably every year.",
+        "Because the cloud rises and dissipates within a few hours each morning, catching it in high resolution requires precise orbital timing. Planetary scientists are continuing to monitor these seasonal displays to map out local wind patterns and water-vapor transport across Mars.",
+        "Studying extreme atmospheric behaviors on other planets frequently reveals hidden dynamics in Earth's own atmosphere. Insights gained from watching AMEC's daily cycle could refine how meteorologists model high-altitude ice cloud formation and aerosol interactions in our own upper atmosphere."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/"
+      },
+      "wiki": "Arsia_Mons",
+      "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/MonsCloud_MarsExpress_1920.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "lang": "en"
+    },
+    {
+      "id": "science-ultraviolet-light-reveals-hidden-natural-varnish",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-10-29",
+      "style": "news",
+      "tags": [
+        "archaeology",
+        "spectroscopy",
+        "cave-art",
+        "france"
+      ],
+      "title": "Ultraviolet Light Reveals Hidden Natural Varnish on 37,000-Year-Old Cave Art",
+      "snippet": "Using non-invasive UV spectroscopy from meters away, researchers discovered an invisible layer of calcite protecting the ancient drawings of Chauvet Cave.",
+      "body": [
+        "The 37,000-year-old animal drawings inside France's Chauvet Cave are among humanity's oldest surviving artworks. To protect the fragile site, researchers must keep their distance, making detailed physical analysis of the charcoal drawings extremely difficult.",
+        "Using a custom ultraviolet spectroscopy tool mounted on a long pole, scientists from Sorbonne University shone UV light onto the walls from up to 2.5 meters away. The non-contact technique revealed a micro-thin layer of translucent calcite covering the drawings, acting as an invisible, natural protective varnish.",
+        "The team also detected unexpected orange glowing signals beneath some charcoal marks. Laboratory tests revealed this spectral fingerprint only appears when limestone is exposed to high heat, suggesting prehistoric artists drew with hot or burning charcoal."
+      ],
+      "more": [
+        "Chauvet Cave's rock art has stayed remarkably preserved since the Upper Paleolithic era, largely because natural rock collapses sealed off its entrance thousands of years ago. Today, scientists can only walk along narrow raised tracks to protect preserved human footprints and animal tracks on the floor, keeping them several meters away from the painted walls.",
+        "To inspect the art without touching it, researchers built a specialized portable instrument equipped with a 365-nanometer ultraviolet LED and a long fiber-optic bundle. By shining UV light onto the limestone walls and analyzing the faint fluorescence coming back, they could distinguish the chemical differences between bedrock and surface deposits.",
+        "Because limestone bedrock and calcite crusts contain different organic impurities trapped within their structures, they glow at distinct spectral wavelengths. The black charcoal used by Paleolithic artists absorbs UV light completely. When inspecting the iconic Horses Panel, the emitted signal matched calcite rather than raw bedrock, proving an ultra-thin layer of mineral had crystallized directly over the pigment.",
+        "In the Alcove of the Lions, the team noticed that charcoal lines seemed to stop water-flow mineral deposits from spreading, suggesting the charcoal pigment influenced how calcite crystals grew over time. Furthermore, the discovery of heat-altered limestone underneath certain marks suggests artists pressed burning sticks directly against the stone walls.",
+        "The researchers published their findings in the journal ACS Omega. Beyond paleolithic art preservation, they note that distant UV spectroscopy can be applied to other delicate environments, including detecting biological films aboard the International Space Station."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/archaeology/chauvet-cave-art-15163.html"
+      },
+      "wiki": "Chauvet_Cave",
+      "imageUrl": "https://cdn.sci.news/images/2026/10/image_15163f-Chauvet-Cave.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "design-nostalgia-ebenezer-scrooge-and-hand-drawn-animat",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "news",
+      "tags": [
+        "advertising",
+        "branding",
+        "graphic-design",
+        "uk"
+      ],
+      "title": "Nostalgia, Ebenezer Scrooge, and hand-drawn animation lead 2026 holiday ads",
+      "snippet": "The initial wave of 2026 Christmas advertising leans heavily into classic storytelling, traditional animation, and star-studded pop culture callbacks.",
+      "body": [
+        "November marks the annual rollout of high-budget festive ad campaigns across the UK and US, with agency heavyweights deploying nostalgia and classic literary tropes. This season sees a noticeable concentration on Charles Dickens’ Ebenezer Scrooge alongside hand-crafted animation.",
+        "Highlights include Argos tapping Richard Ayoade and its catalog legacy, Walmart teaming up with Disney's Muppets and Walton Goggins, and Prada commissioning traditional 2D Disney animator John Pomeroy to blend hand-drawn creatures with live-action product shots.",
+        "Tesco, meanwhile, has taken a narrative route with two distinct short films by BBH—focusing on long-distance friendships and community retail workers rather than grand spectacle."
+      ],
+      "more": [
+        "Retailer campaigns this year show a distinct split between star-driven comedy and character-focused short films. Argos worked with creative agency T&P and director Declan Lowney to send comedian Richard Ayoade on a journey through his childhood memory of browsing the classic Argos catalog—the 'Book of Dreams'—directed by the brand's mascot duo.",
+        "Walmart’s campaign, produced by a collective of Publicis agencies alongside Disney and The Muppets Studio, remakes the iconic opening musical number of The Muppets Christmas Carol. Walton Goggins steps in as Scrooge alongside Gonzo and Rizzo, leaning into self-referential humor about modern commercial remakes.",
+        "For visual craft enthusiasts, Prada’s campaign stands out by highlighting classic hand-drawn animation. Animated by veteran Disney animator John Pomeroy and photographed by Glen Luchford, the campaign features hand-illustrated animals interacting directly with physical high-fashion items and actors.",
+        "Sainsbury's brought back Roald Dahl's Big Friendly Giant for a third consecutive year, featuring stop-motion and VFX work by Electric Theatre Collective, while Debenhams doubled down on 1990s aesthetic tropes with an in-house produced romantic comedy narrative."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/news/christmas-adverts-of-2026/"
+      },
+      "wiki": "Christmas_advertisement",
+      "imageUrl": "https://media.creativeboom.com/c6c856c5-3e6d-4de2-8420-a7d2805be1fd/conversions/64222c89cd10caef5cff977a183fa68083e004fa-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "design-use-their-tools-against-them-production-designer",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "explainer",
+      "tags": [
+        "production-design",
+        "film",
+        "ai",
+        "vfx"
+      ],
+      "title": "Use their tools against them: production designer Christopher Glass on AI",
+      "snippet": "Award-winning production designer Christopher Glass breaks down why generative tools can take care of technical grunt work without replacing human taste and physical sets.",
+      "body": [
+        "In an industry wrestling with automated workflows and shrinking turnarounds, ADG and Cannes Lion winner Christopher Glass offers a pragmatic take on the role of AI in film production design. Having built visual worlds for projects ranging from Marvel series to commercial campaigns, Glass believes tactile set design and human memory remain indispensable.",
+        "While he acknowledges that AI will streamline visual reference generation and eliminate tedious VFX processes like rig removal and green screens, he cautions against surrendering creative control to software.",
+        "For younger artists entering the field, Glass advises adopting new technology without letting it dictate artistic choices, while doubling down on human history, collaborative skills, and real-world reference."
+      ],
+      "more": [
+        "Glass points out a core contradiction in how the film industry currently treats emerging tech: designers often feel forced into adopting AI purely out of economic pressure. Yet, he sees a clear distinction between administrative automation and genuine visual invention.",
+        "On the technical side, Glass predicts that green screens and costly LED volumes will quickly be rendered obsolete as real-time set extensions and automated matte cleanup become instantaneous. Using AI to compile fast mood boards or communicate early visual intent to directors can speed up pre-production significantly.",
+        "However, Glass argues that generative models are inherently limited because they rely on existing data scraped from the web. Human designers bring personal experiences, unrecorded memories, and emotional nuance to world-building that algorithms simply cannot replicate. Furthermore, physical props and real sets elicit far better performances from actors than empty digital environments ever could.",
+        "His practical advice for upcoming designers isn't to fight the tools, but to master them while cultivating traditional creative foundations: studying art history, visiting museums, learning film budgeting, and collaborating with like-minded crews."
+      ],
+      "source": {
+        "id": "creative-bloq",
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com/features/use-their-tools-against-them-why-ai-isnt-the-death-of-production-design"
+      },
+      "wiki": "Production_designer",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/oSstUTgKcoxPcxayTEJRrf-1920-80.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "pt-o-peso-do-jogo-em-portugal-mais-de-quatro-mil-mi",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "sociedade",
+        "saude-publica",
+        "economia",
+        "politica"
+      ],
+      "title": "O peso do jogo em Portugal: mais de quatro mil milhões gastos num ano",
+      "snippet": "Entre raspadinhas e apostas online no telemóvel, o jogo a dinheiro disparou no país e reacendeu o debate sobre limites à publicidade.",
+      "body": [
+        "Em Portugal, a presença do jogo a dinheiro tornou-se constante: vai da raspadinha matinal no café do bairro até às apostas desportivas e casinos online acessíveis pelo telemóvel a qualquer hora. Só em 2025, os portugueses gastaram mais de 3 mil milhões de euros nos Jogos Santa Casa — cerca de 350 euros por adulto, com 1,8 mil milhões destinados exclusivamente a raspadinhas — somando-se a outros 1,2 mil milhões em apostas pela internet.",
+        "O impacto ultrapassa a dimensão financeira. Reconhecido pela Organização Mundial de Saúde como um transtorno aditivo com efeitos neurológicos severos, o jogo cresce entre os mais jovens: 18,2% dos estudantes entre os 13 e os 18 anos admitiram ter jogado a dinheiro nos últimos 12 meses, face a 12,9% em 2019.",
+        "Com o Estado a arrecadar mais de 350 milhões de euros em impostos sobre o setor num só ano, começam a surgir exigências para que o tema deixe de ser tratado apenas como uma questão regulatória e fiscal, passando a ser encarado como um problema urgente de saúde pública."
+      ],
+      "more": [
+        "A normalização do jogo em Portugal é alimentada por uma forte presença publicitária em vários meios de comunicação social. É habitual encontrar programas de rádio patrocinados por operadores digitais, anúncios televisivos que apresentam o jogo como solução económica e patrocínios dominantes no futebol profissional. Essa exposição sistemática tem colocado em evidência um complexo conflito de interesses, que une operadoras, clubes desportivos, órgãos de comunicação dependentes de receitas de publicidade e o próprio Estado, que recolhe montantes expressivos em tributação.",
+        "A resposta pública tem-se concentrado predominantemente no combate a plataformas não licenciadas e ilegais. Contudo, defende-se agora que certificar a legalidade dos operadores e cobrar impostos não resolve os danos sociais e a dependência gerada nas camadas mais vulneráveis da população.",
+        "Noutros pontos da Europa, a regulação avançou com medidas mais duras. A vizinha Espanha impôs restrições a horários e ao uso de figuras públicas em campanhas a partir de 2020, enquanto a Itália proibiu por completo a publicidade ao setor em 2018. Já no Reino Unido, os clubes da Premier League decidiram remover patrocínios de casas de apostas da frente das camisolas, acompanhados por um agravamento fiscal promovido pelo executivo britânico.",
+        "No plano político português, o assunto ganhou força no Parlamento em setembro de 2026, com um pacote de oito propostas apresentadas pelo Livre. O conjunto inclui normas restritas para influenciadores digitais e figuras públicas que promovem o setor, além do fim de patrocínios a torneios e eventos desportivos, embora o calendário para a concretização dessas mudanças continue sem data definida."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/opiniao/portugal-esta-em-jogo/"
+      },
+      "wiki": "Gambling",
+      "imageUrl": "https://wm.observador.pt/wm-op/wide-circle/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A303%3A303%2Fc%3A540%3A540%3Anowe%3A0%3A0%2Fq%3A100%2Ff%3Apng%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F10%2F30165634%2FPicture1.jpg",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-seis-tentativas-depois-amelia-conquistou-o-palco",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "story",
+      "tags": [
+        "televisao",
+        "musica",
+        "cultura"
+      ],
+      "title": "Seis tentativas depois: Amélia conquistou o palco do The Voice Portugal",
+      "snippet": "Amélia Pinto insistiu durante anos até cantar Ray Charles no concurso da RTP1 e virar três cadeiras de uma só vez.",
+      "body": [
+        "Amélia Pinto sempre quis saber a sensação de ver uma cadeira virar-se no «The Voice Portugal». Depois de ter tentado a sorte pelo menos seis vezes, a jovem de 26 anos conseguiu finalmente subir ao palco da RTP1 na emissão deste domingo.",
+        "A aposta num clássico da soul — «I Believe to My Soul», de Ray Charles — convenceu os jurados e garantiu a aprovação quase unânime, virando as cadeiras de Sónia Tavares, Cláudia Pascoal e Sara Correia. Apenas Fernando Daniel não carregou no botão.",
+        "Para lá do marco artístico, a atuação foi marcada por uma promessa pessoal: uma homenagem a uma amiga de infância que faleceu em fevereiro, após oito anos a lutar contra o cancro, e que sempre a incentivou a perseguir a música."
+      ],
+      "more": [
+        "Nascida na Suíça, filha de mãe francesa e pai com raízes no Norte de Portugal, a ligação de Amélia ao canto começou por volta dos cinco anos, nas reuniões familiares de Natal. Ao longo do crescimento, influenciou-se por grandes vozes como Aretha Franklin, Etta James e a cantora pop-soul Anastacia, além dos discos de Bob Marley e James Brown que o pai tocava nas viagens de regresso a Portugal.",
+        "Antes de se mudar para o território nacional, Amélia frequentou formação pedagógica e musical na Suíça, teve aulas privadas de piano e canto, estudou bateria e atuou em peças amadoras e como corista em diversos concertos.",
+        "Em 2020, mudou-se para Santa Bárbara de Nexe, no concelho de Faro, aproveitando uma casa construída pela família no Algarve. Atualmente empregada numa unidade de turismo rural da região, mantém intacto o sonho de infância de viver em exclusivo da arte musical.",
+        "Na prova cega, a intérprete admitiu ter sentido receio sobre como a abordagem à música soul seria acolhida pelos mentores. A receção acabou por ser entusiástica, com Cláudia Pascoal a identificar semelhanças com o seu próprio início no formato e Sónia Tavares a ser a mais rápida a premir o botão.",
+        "A concorrente optou por integrar a equipa da vocalista dos The Gift, sublinhando não apenas a rapidez da reação, mas sobretudo a sua admiração pela proximidade, frontalidade e humanidade da mentora."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/televisao/amelia-tentou-entrar-no-the-voice-seis-vezes-ray-charles-ajudou-a-a-virar-3-cadeiras"
+      },
+      "wiki": "The_Voice_Portugal",
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1718103&ts=20261101221120",
+      "lang": "pt"
+    },
+    {
+      "id": "ideas-loneliness-does-not-begin-in-solitude-it-begins",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-01",
+      "style": "idea",
+      "tags": [
+        "solitude",
+        "philosophy",
+        "creativity",
+        "mindset"
+      ],
+      "title": "Loneliness does not begin in solitude; it begins when we meet another",
+      "snippet": "We rarely feel our deepest separateness when we are by ourselves—we discover it only in the space between two people.",
+      "body": [
+        "We often treat solitude as the cause of loneliness, but poet May Sarton flipped that assumption upside down. Writing at twenty-six, she argued that solitary life is inherently whole and adventurous: a calm, grounded condition where the spirit meets only itself in certainty.",
+        "Instead, acute isolation arrives when we draw near someone else. As Sarton wrote, it is only when two come together 'bone against bone' that real aloneness opens up. Looking at a partner asleep, you suddenly grasp their absolute, unbridgeable separateness.",
+        "To make peace with being alone, you have to stop viewing solitude as deprivation. Real connection does not erase another person's quiet orbit; it requires you to respect the profound space they occupy on their own."
+      ],
+      "more": [
+        "In her 1938 poem originally titled 'Considerations' (later published as 'Canticle 6' in her collection 'Inner Landscape'), May Sarton examined the knife-edge boundary separating fertile solitude from painful disconnection. She opened with a counterintuitive thesis: 'Alone one is never lonely: the spirit adventures, waking in a quiet garden, in a cool house, abiding single there.' In this natural baseline, self-containment brings peace rather than longing.",
+        "The ache of loneliness only enters when intimacy reveals its limits. Sarton captures the unsettling revelation of watching a lover sleeping beside you: even in mutual devotion, the partner remains 'set apart like a star forever.' Rather than offering complete fusion, closeness exposes an infinite distance. It is in silence, rather than physical passion, that one realizes love endures as an independent act, burning quietly between two separate souls.",
+        "This poetic insight mirrors a broader psychological reality noted by thinkers like Wendell Berry: true, fertile solitude is where internal voices clarify and make thoughtful connection possible. Embracing aloneness prevents us from asking companionship to perform an impossible task—erasing our individual existential boundaries."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/01/may-sarton-canticle-6-considerations/"
+      },
+      "wiki": "May_Sarton",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2017/11/maysarton3.jpg?fit=600%2C315&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "ideas-music-exists-to-remind-us-how-short-a-time-we-ha",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-10-31",
+      "style": "idea",
+      "tags": [
+        "music",
+        "perception",
+        "philosophy",
+        "time"
+      ],
+      "title": "Music exists to remind us how short a time we have a body",
+      "snippet": "Because song depends completely on the passing of time, it anchors us instantly to our physical mortality.",
+      "body": [
+        "Novelist Richard Powers offered an extraordinary formulation for why melody hits so deep: 'The use of music is to remind us how short a time we have a body.' In his novel 'The Time of Our Singing', sound becomes the ultimate vehicle of temporal awareness.",
+        "Music cannot exist outside change. Because it relies on intervals, rhythm, and progression, it forces the listener to experience the arrow of time directly through breath, blood, and pulse.",
+        "When feeling detached, turn to music not as an escape from reality, but as a bodily anchor. Listening deeply grounds you squarely into physical presence and the fleeting instant you inhabit."
+      ],
+      "more": [
+        "In 'The Time of Our Singing', Richard Powers frames song not merely as decorative art, but as a profound laboratory of human consciousness. Music is inseparable from the arrow of time: without our capacity to register one vanishing second from the next, rhythm and melody collapse into meaningless noise. It requires an audience to track passing fractions of time in unison.",
+        "Powers illustrates this somatic grip through the young narrator's first encounter with medieval polyphony at The Cloisters. Hearing distinct vocal lines split, diverge, and recombine, the boy perceives sound not as abstract theory, but as something moving his ribs, lungs, and blood. The intricate interplay of voices creates an architecture made entirely of vanishing air, demonstrating that music's emotional power stems from its strict reliance on physical sensation.",
+        "Unlike written prose or painting, which stand still, a musical phrase exists solely while it dissolves. By demanding our sensory attention in real time, song sharpens our awareness of our embodied, mortal state—reminding us that our physical existence is as brief and irreplaceable as a resonant chord."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/10/31/richard-powers-music/"
+      },
+      "wiki": "Richard_Powers",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2012/12/sing.jpg?fit=600%2C315&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "health-why-health-insurers-don-t-promote-disease-revers",
+      "topic": "health",
+      "kind": "evergreen",
+      "published": "2026-10-06",
+      "style": "explainer",
+      "tags": [
+        "health-insurance",
+        "nutrition",
+        "preventive-care",
+        "public-health"
+      ],
+      "title": "Why Health Insurers Don't Promote Disease-Reversing Diets",
+      "snippet": "Despite evidence that whole-food plant-based diets can treat and reverse chronic conditions, health insurers show little interest in promoting them.",
+      "body": [
+        "Many of the chronic diseases that drain health care budgets—including heart disease, type 2 diabetes, and high blood pressure—can be prevented or even reversed through nutrition. Yet the insurance industry largely refrains from promoting plant-based eating to lower claims and reduce payout costs.",
+        "One reason is the business model itself: rising medical costs allow insurers to charge higher premiums to employers and individuals, taking a fixed percentage as profit. A larger overall expenditure increases their bottom line, disincentivizing aggressive cost-reduction strategies based on lifestyle changes."
+      ],
+      "more": [
+        "Beyond financial incentives, a primary barrier is the widespread clinical belief that chronic conditions can only be managed rather than reversed. The idea that a whole-food, plant-based diet offers a low-cost, safe alternative to eliminate symptoms or reverse conditions without pharmaceutical intervention remains outside mainstream medical protocols.",
+        "Unlike the pharmaceutical industry, which spends heavily on marketing new drugs to consumers and physicians, there is no centralized profit engine to fund mass campaigns for whole foods.",
+        "Some organizations have begun shifting. Kaiser Permanente published evidence in its journal suggesting physicians consider recommending plant-based diets to patients with hypertension, diabetes, or cardiovascular disease, accompanying the recommendation with educational guides for doctors and patients.",
+        "Advocates argue that shifting healthcare focus from payment mechanisms to effective lifestyle interventions could dramatically lower total national medical spending compared to standard drug or procedural approaches."
+      ],
+      "source": {
+        "id": "health-dr-greger-s-nutritionfacts-org",
+        "name": "Dr. Greger's NutritionFacts.org",
+        "url": "https://nutritionfacts.org/blog/why-dont-health-insurers-promote-a-healthier-diet/"
+      },
+      "wiki": "Plant-based_diet",
+      "imageUrl": "https://assets.nutritionfacts.org/2026/10/2-why-dont-health-insurers-promote-a-healthier-diet-960x540.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "health-calculating-longevity-costs-in-microlives",
+      "topic": "health",
+      "kind": "evergreen",
+      "published": "2026-09-22",
+      "style": "explainer",
+      "tags": [
+        "longevity",
+        "nutrition",
+        "health-tracking",
+        "risk-assessment"
+      ],
+      "title": "Calculating Longevity Costs in 'Microlives'",
+      "snippet": "Researchers use the concept of a 'microlife'—30 minutes of life expectancy—to compare the long-term impact of daily health habits.",
+      "body": [
+        "To help people compare long-term chronic risks like poor diet, lack of exercise, or smoking, researchers use a metric called a 'microlife.' A single microlife represents 30 minutes of remaining life expectancy, based on the roughly one million half-hours a young adult has left.",
+        "Using this unit, health risks and benefits become directly comparable. For instance, smoking two cigarettes, drinking two pints of strong beer, or living 11 pounds overweight every day each cost roughly one microlife per day."
+      ],
+      "more": [
+        "The metric can also be applied to specific food items and behaviors. Analyses of red and processed meat data show that eating a single burger is associated with the loss of about one microlife (30 minutes), making its statistical impact on longevity roughly equivalent to smoking two cigarettes.",
+        "Processed meats show even steeper associations: consuming 50 grams of processed meat daily (such as a sausage or a few strips of bacon) is linked to losing roughly two years of total life expectancy, effectively adding two years to a person's risk profile.",
+        "On the positive side, lifestyle habits return positive microlives. Exercising for 20 minutes a day adds an estimated hour (two microlives) back to life expectancy, offering a strong return on time invested. Similarly, eating at least five daily servings of fruits and vegetables can add an average of three to four years to overall lifespan.",
+        "Researchers suggest using these simplified risk units allows individuals to view everyday health decisions, from diet to physical activity, through a clear quantitative framework."
+      ],
+      "source": {
+        "id": "health-dr-greger-s-nutritionfacts-org",
+        "name": "Dr. Greger's NutritionFacts.org",
+        "url": "https://nutritionfacts.org/blog/how-many-minutes-of-life-does-a-burger-cost/"
+      },
+      "wiki": "Microlife",
+      "imageUrl": "https://assets.nutritionfacts.org/2026/09/7-how-many-minutes-of-life-does-a-burger-cost-960x540.jpg",
+      "lang": "en"
+    }
+  ]
+}

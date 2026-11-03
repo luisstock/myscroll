@@ -461,5 +461,22 @@
   "v2:en:Claws_(TV_series)": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Westweg_Louisiana_September_2017_30.jpg/1280px-Westweg_Louisiana_September_2017_30.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Westweg_Louisiana_September_2017_30.jpg"
-  }
+  },
+  "v2:en:Mozilla_Firefox": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Firefox_157.0.1_opening_English_Wikipedia_article_on_openSUSE_Linux_screenshot.webp/500px-Firefox_157.0.1_opening_English_Wikipedia_article_on_openSUSE_Linux_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Firefox_157.0.1_opening_English_Wikipedia_article_on_openSUSE_Linux_screenshot.webp"
+  },
+  "v2:en:Leadenhall_Market": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Leadenhall_Market_In_London_-_Feb_2006_rotated.jpg/1280px-Leadenhall_Market_In_London_-_Feb_2006_rotated.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Leadenhall_Market_In_London_-_Feb_2006_rotated.jpg"
+  },
+  "v2:en:French_fries": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/French_Fries.JPG/500px-French_Fries.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:French_Fries.JPG"
+  },
+  "v2:en:After_Effects": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/45/Adobe_After_Effects_screenshot.png/500px-Adobe_After_Effects_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Adobe_After_Effects_screenshot.png"
+  },
+  "v2:en:Physics_engine": null
 }

@@ -1,0 +1,959 @@
+{
+  "date": "2026-11-03",
+  "number": 14,
+  "longread": {
+    "id": "science-sixty-five-years-of-mission-control-and-moon-dus",
+    "topic": "science",
+    "kind": "longread",
+    "published": "2026-11-02",
+    "style": "story",
+    "tags": [
+      "nasa",
+      "johnson-space-center",
+      "apollo",
+      "space-exploration",
+      "mission-control"
+    ],
+    "title": "Sixty-Five Years of Mission Control and Moon Dust in Houston",
+    "snippet": "In late 1961, NASA set out to build a dedicated hub for human spaceflight on Texas swamp grass. Over the next six decades, Johnson Space Center became the beating heart of America’s journey to the stars.",
+    "body": [
+      "On May 25, 1961, President John F. Kennedy addressed a joint session of Congress and set a staggering target: landing a human on the Moon and returning him safely to Earth before the decade was out. At the time, NASA’s Space Task Group was operating out of the Langley Research Center in Virginia, already working flat-out on Project Mercury. Realizing that preparing for a lunar expedition would vastly outstrip their existing facilities, NASA evaluated locations across the nation before announcing on September 19, 1961, that a brand-new Manned Spacecraft Center would be built near Houston, Texas.",
+      "The center was officially established on November 1, 1961, but before its permanent home was finished, its pioneers worked out of 13 leased commercial buildings in southeast Houston. Blueprints were drawn up in six months, and construction on the main site took a fast-paced 18 months. In late 1963, employees began moving to the modern campus at Clear Lake. Construction of the nine-story central headquarters—known initially as Building 2 before later swapping numbers to become Building 1—began in late 1962. Robert Gilruth, the center's first director, moved into his top-floor office in March 1964.",
+      "Engineers quickly set to work erecting facilities tailored to every conceivable hazard of space travel. Building 30, the Mission Control Center, completed construction in late 1964. Technicians wired real-time computer systems into its walls, creating twin control rooms designed to guide Gemini and Apollo crews. In January 1965, the facility monitored Gemini 2 in a flight-following capacity. Then, in June 1965, Houston assumed full operational control for Gemini IV. From that historic flight onward, the facility—later renamed the Christopher C. Kraft, Jr. Mission Control Center—has monitored every single NASA human spaceflight mission continuously around the clock.",
+      "Preparing human bodies for zero gravity required equally inventive engineering on Earth. Starting with Gemini XII in 1966, NASA adopted neutral buoyancy pools for spacewalk training. Workers installed a round, above-ground tank called the Water Immersion Facility in 1967. As space hardware grew, so did the pools: the Weightless Environment Training Facility took over in 1980 to mirror the Space Shuttle’s broad payload bay, followed in 1997 by the massive Neutral Buoyancy Laboratory inside the Sonny Carter Training Center.",
+      "Simulators evolved at an astonishing pace inside Building 5, the Mission Simulation and Training Facility. Completed in April 1965, it opened just in time to prepare astronauts for Gemini IV’s docking procedures. Over the following decade, the building absorbed Command Module and Lunar Module simulators, full-scale Skylab mockups, motion-base Shuttle trainers, and eventually high-fidelity simulators for the International Space Station, Orion, and Starliner spacecraft.",
+      "Meanwhile, Building 9 served as the physical staging ground where crews practiced moving around realistic spacecraft. Originally housing technical services, workers converted a section of it in 1969 into a mock lunar surface complete with a full-scale Lunar Module replica. The facility expanded repeatedly to accommodate Space Shuttle hardware and full-size modules for Space Station Freedom and the ISS, becoming known as the Space Vehicle Mockup Facility. Today, it hosts full-scale models of NASA’s Orion alongside advanced gravity-offload systems like ARGOS.",
+      "There was also the vital question of biological safety. To protect against potential unseen pathogens carried back from extraterrestrial soil, NASA broke ground on Building 37 in August 1966 to house the Lunar Receiving Laboratory. When Apollo 11, 12, and 14 returned from the lunar surface, their astronaut crews spent their mandatory three-week postflight quarantines inside its sealed quarters while scientists analyzed pristine soil samples nearby. Decades later, after the division moved to new quarters, the original structure was demolished and replaced in 2026 by the Lunar Receiving Park to mark its historic legacy.",
+      "Renamed the Lyndon B. Johnson Space Center in 1973 to honor the late president’s unwavering support for the space program, the facility now spans 65 years of continuous operational history. From the early Mercury suborbital leaps through the Apollo landings, Shuttle shuttle runs, and ongoing Space Station operations, Johnson Space Center continues to direct America's presence in orbit, currently preparing the Orion craft and Moon Base teams for humanity's return to the lunar surface."
+    ],
+    "source": {
+      "id": "nasa",
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
+    },
+    "wiki": "Johnson_Space_Center",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-11-03/science-sixty-five-years-of-mission-control-and-moon-dus.jpg",
+      "credit": "www.nasa.gov"
+    },
+    "minutes": 3,
+    "added": "2026-11-03"
+  },
+  "items": [
+    {
+      "id": "til-google-pays-firefox-hundreds-of-millions-to-stay",
+      "topic": "til",
+      "sub": "reddit",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "reddit",
+      "tags": [
+        "tech",
+        "science"
+      ],
+      "title": "Google pays Firefox hundreds of millions to stay alive, but antitrust laws might change that",
+      "snippet": "Mozilla's chief financial officer testified that losing Google's default search engine payments could put Firefox out of business.",
+      "body": [
+        "Firefox could face existential threat if a court implements Justice Department proposals to restrict Google's search monopoly. Mozilla CFO Eric Muhlheim testified that about 85 percent of Firefox's revenue comes from its deal with Google to be the browser's default search engine.",
+        "Losing these payments would force significant cuts and could trigger a downward spiral for the independent browser engine Gecko, which is maintained by a nonprofit organization rather than Big Tech.",
+        "While the DOJ hopes to foster a more competitive search ecosystem, Mozilla warns that waiting on a hypothetical future without Google's funding would leave the browser struggling to survive."
+      ],
+      "more": [
+        "The delicate financial symbiosis between Google and Mozilla has long been a subject of curiosity in tech circles. On one hand, Google faces accusations of maintaining an illegal monopoly through exclusionary default deals. On the other hand, those very deals keep afloat one of the few independent alternatives to Chromium and WebKit.",
+        "Reddit commenters quickly drew parallels to historical antitrust maneuvers, noting similarities to Microsoft's famous financial bailout of Apple in 1997. Some users suggested that keeping a viable competitor around helps shield tech giants from more aggressive breakup attempts by regulators.",
+        "Replacing the revenue is no simple task. Previous experiments by Mozilla—such as switching default search to Yahoo between 2014 and 2017—led to user dissatisfaction and churn. Trials with Bing similarly showed lower monetization efficiency.",
+        "If the court's final ruling disrupts the status quo, Mozilla may need to radically rethink its funding model. For now, the organization remains caught between the fallout of antitrust enforcement and its reliance on its biggest competitor."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xmhsrv/til_google_pays_mozilla_roughly_400_500_million/"
+      },
+      "wiki": "Mozilla_Firefox",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/til-google-pays-firefox-hundreds-of-millions-to-stay.webp",
+        "credit": "File:Firefox_157.0.1_opening_English_Wikipedia_article_on_openSUSE_Linux_screenshot.webp"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "til-a-hidden-miniature-cabinet-of-curiosities-tucked",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "design"
+      ],
+      "title": "A hidden miniature cabinet of curiosities tucked inside a historic London market",
+      "snippet": "Leadenhall Market houses a tiny whimsical installation featuring miniature storefronts, historical nods, and a Florentine wine window.",
+      "body": [
+        "Tucked inside a tiny space at No. 27¼ at London's Leadenhall Market, a whimsical installation revives the tradition of the Wunderkammer, or 'room of wonder.' Inspired by historic cabinets of curiosities, the miniature world invites passersby to peer through tiny windows.",
+        "The installation features three miniature storefronts: Lilliput Cards, selling tiny postcards; Tronage Yarns, referencing medieval wool taxes; and the Leadenhall Film Library, nodding to local cinematic appearances like Harry Potter.",
+        "Above the micro-shops, visitors can use a serving hatch inspired by the wine windows of Florence to grab coffee, wine, and sweets."
+      ],
+      "more": [
+        "Leadenhall Market itself is an architectural masterpiece of grand Victorian design, known for its ornate painted roof structures and cobbled passages. Yet this micro-installation encourages visitors to look past the grand scale and appreciate intricate, hidden details.",
+        "The concept draws on Victorian miniature theatres and Renaissance cabinets of curiosities—collections where owners would gather strange and beautiful objects to spark conversation and delight. By compressing local history and pop culture into a diorama scale, the creators offer a playful counterpoint to the bustling commercial market outside.",
+        "It also cleverly integrates modern and medieval local lore. The wool tronage reference honors the 15th-century merchants who once weighed their goods nearby, while the film references celebrate the market's modern identity as a backdrop for notable television and movie productions.",
+        "It is a charming reminder of how quirky artistic interventions can transform overlooked urban nooks into places of discovery."
+      ],
+      "source": {
+        "id": "atlas-obscura",
+        "name": "Atlas Obscura",
+        "url": "https://www.atlasobscura.com/places/leadenhall-wunderkammer"
+      },
+      "wiki": "Leadenhall_Market",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/til-a-hidden-miniature-cabinet-of-curiosities-tucked.jpg",
+        "credit": "File:Leadenhall_Market_In_London_-_Feb_2006_rotated.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "fun-when-french-fries-serve-you-an-entire-potato-in",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "reddit",
+      "tags": [
+        "food",
+        "potatoes",
+        "absurd",
+        "reddit"
+      ],
+      "title": "When French Fries Serve You an Entire Potato in One Go",
+      "snippet": "A fast-food order delivered an unexpectedly massive, perfectly curly spiral of potato instead of standard fries.",
+      "body": [
+        "Someone ordered a regular batch of french fries and unboxed a single, fully intact, spiralized whole potato instead.",
+        "Instead of sliced strips, the continuous cut created a giant potato coil that looked less like a side dish and more like a whole spud in architectural form."
+      ],
+      "more": [
+        "The internet had predictable reactions to the giant potato coil. Commenters immediately debated how best to consume it, with one user suggesting they would eat it whole like an apple, leading another to coin the term 'potapple.'",
+        "Others noted that the French phrase for potato, *pomme de terre* (literally 'apple of the earth'), suddenly felt surprisingly accurate.",
+        "While fast-food mix-ups are usually disappointing, the consensus was clear: receiving an entire spiralized potato instead of a few loose fries is an absolute win. A few commentators even suggested that selling full-spud coils could be a solid business opportunity."
+      ],
+      "source": {
+        "id": "r-mildlyinteresting",
+        "name": "r/mildlyinteresting",
+        "url": "https://www.reddit.com/r/mildlyinteresting/comments/1xmdoeo/ordered_french_fries_and_got_a_curly_potato/"
+      },
+      "wiki": "French_fries",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/fun-when-french-fries-serve-you-an-entire-potato-in.jpg",
+        "credit": "File:French_Fries.JPG"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "motion-universal-audio-2-solves-after-effects-longest-r",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "reddit",
+      "tags": [
+        "after-effects",
+        "workflow",
+        "plugins",
+        "motion-design"
+      ],
+      "title": "Universal Audio 2 Solves After Effects' Longest-Running Precomp Headache",
+      "snippet": "Syncing motion to audio across nested precomps has always been a chore in AE. Universal Audio 2 fixes it without cluttering your project file.",
+      "body": [
+        "Matching keyframes to audio inside a precomp is one of After Effects' most annoying friction points. Nearly ten years after releasing the original plugin, developer aescripts toolmaker has launched Universal Audio 2 to fix audio reference across nested comps completely seamlessly.",
+        "The updated tool gives you a live, scrubbable audio waveform in your active timeline that stays perfectly synchronized with the root composition, regardless of how deep in a precomp hierarchy you are."
+      ],
+      "more": [
+        "In native After Effects, animating inside a precomp to a track sitting in your main timeline usually means round-tripping: copying audio layers down, turning off audio switches, or guessing timing until you jump back to the parent comp.",
+        "Universal Audio 2 removes the setup completely. Unlike version 1, it requires zero structural changes to your project. The panel automatically updates its visual reference depending on whichever composition is active in your workflow.",
+        "Beyond waveform scrubbing, the tool lets you drag an eye icon to preview your root comp’s visual state at the current time indicator, or drop a temporary guide layer into your current precomp with a single click.",
+        "The plugin is available as a lifetime license for $29.99 on aescripts, backed by the same continuous support model that carried the original script over the last nine years."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xm5vp5/after_nearly_10_years_since_version_1_ive_now/"
+      },
+      "wiki": "After_Effects",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/motion-universal-audio-2-solves-after-effects-longest-r.png",
+        "credit": "File:Adobe_After_Effects_screenshot.png"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "motion-tumble-motion-brings-browser-based-2d-physics-to",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "reddit",
+      "tags": [
+        "after-effects",
+        "physics",
+        "2d-animation",
+        "tools"
+      ],
+      "title": "Tumble Motion Brings Browser-Based 2D Physics to After Effects",
+      "snippet": "If heavy dynamic tools feel overkill for quick collisions and bounces, Tumble Motion offers a lightweight web simulator that exports straight to AE.",
+      "body": [
+        "Simulating basic 2D physics inside After Effects often requires heavy-duty, expensive third-party plugins like Motion Boutique's Newton. Tumble Motion approaches the problem differently by hosting a lightweight 2D physics engine right in the browser.",
+        "You can import asset layers, configure physics parameters like mass, friction, gravity, magnets, and elastic constraints, run the simulation live, and export the resulting motion path directly into your After Effects project."
+      ],
+      "more": [
+        "The workflow uses browser performance to process physics without bogging down AE's timeline engine. Supported nodes include static elements, wind, repulsors, hinges, pins, and custom spring constraints.",
+        "While the web tool operates on PNG image assets during simulation, the exported script lets you easily swap keyframed paths back to native vector layers inside After Effects once imported.",
+        "A free demo mode is available to test custom assets directly in the browser editor, with full licenses available for £9.99 including documentation and demo templates."
+      ],
+      "source": {
+        "id": "r-aftereffects",
+        "name": "r/AfterEffects",
+        "url": "https://www.reddit.com/r/AfterEffects/comments/1xly2wk/tumble_motion_an_animation_tool_for_ae/"
+      },
+      "wiki": "Physics_engine",
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "ai-frontier-models-can-read-and-write-raw-neural-ne",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "frontier-models",
+        "llms",
+        "neural-networks",
+        "ai-optimization"
+      ],
+      "title": "Frontier models can read and write raw neural network weights",
+      "snippet": "Researchers discovered that advanced LLMs can natively interpret and edit raw neural network weights without gradient descent, a technique called Weight-Space Programming.",
+      "body": [
+        "A new study reveals that frontier language models are surprisingly adept at directly reading and writing the raw numerical weights of neural networks. Without running standard training loops or using traditional gradient descent, models like GPT-6 Astra can analyze a network's weights and deduce its exact training history or behavior.",
+        "In one striking experiment, Astra identified the specific games small policies were trained to play just by looking at their weight matrices. More impressively, the model diagnosed a reasoning loop in a small language model and edited a tiny fraction of its weights to dramatically boost its math and instruction-following scores.",
+        "This approach, dubbed Weight-Space Programming, suggests a shift away from simplistic symbolic optimizers toward reasoning-driven optimization, where models deliberately comprehend and refine the continuous weight space in natural language."
+      ],
+      "more": [
+        "For decades, deep learning has relied on tiny symbolic optimizers like Adam or gradient-based algorithms to update differentiable neural networks, while humans focused on optimizing text prompts and high-level code. Weight-Space Programming bridges this divide by allowing general-purpose LLMs to reason about what specific parts of a neural network compute, or should compute, and alter the weights accordingly around natural-language specifications.",
+        "The implications span across model optimization, interpretability, and automated engineering. In experiments testing whether LLMs can understand model behaviors purely from weights, Astra successfully distinguished between diffusion models trained on different geometric shapes without ever executing a forward pass or utilizing external tools. By inspecting intermediate and final layers, the model mapped out how weights concentrate to form specific outputs.",
+        "Perhaps the most practical breakthrough involves fixing ailing models. When asked to improve a small language model's math performance without gradients, Astra identified a structural issue causing reasoning loops. By natively editing just 0.016% of the weights in a Python kernel, it raised the model's MATH-500 score from a meager 7.9% to 48.1%, while simultaneously tripling its instruction-following accuracy out of the box.",
+        "Furthermore, Astra demonstrated the ability to write small game-playing networks from scratch that outperformed networks trained with reinforcement learning for millions of steps. While these results are still early and tested mostly on smaller architectures, they point to a future where our neural networks are natively optimized by frontier models that understand their inner workings at the level of individual parameters."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/ai-frontier-models-can-read-and-write-raw-neural-ne.png",
+        "credit": "rikiyat.github.io"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "ai-texturing-an-entire-3d-street-in-blender-using-l",
+      "topic": "ai",
+      "sub": "motion-ai",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "story",
+      "tags": [
+        "blender",
+        "stable-diffusion",
+        "ai-for-motion",
+        "3d-texturing"
+      ],
+      "title": "Texturing an entire 3D street in Blender using local AI models",
+      "snippet": "A motion creator used local image models and a custom Blender add-on to generate and project complex textures across an entire 3D street corner.",
+      "body": [
+        "An open-source developer has showcased a complete workflow for texturing an entire 3D street scene in Blender entirely using local AI models. Built around a free add-on called StableGen, the project transforms simple blocky geometry into detailed cyberpunk, anime, or papercraft environments.",
+        "The pipeline combines several frontier open tools. The 3D assets—including a car, figures, and street furniture—were generated as meshes via text prompts using TRELLIS.2. Meanwhile, the background buildings and roads were textured simultaneously using Qwen Image 2.1 mapped across multiple virtual cameras.",
+        "By rendering depth and geometry passes for specific camera angles, the system projects and blends textures seamlessly onto the geometry without bleeding details onto surfaces outside the camera's view."
+      ],
+      "more": [
+        "The technical execution relies heavily on precise camera-based control to prevent common AI artifacting issues in 3D space. Each virtual camera used in the texturing process was assigned a specific prompt listing only the objects visible to it, stopping the model from painting details onto hidden or irrelevant surfaces. Separate texturing runs handled distinct characters, such as texturing a 3D figure with its own dedicated camera setup.",
+        "For fine-tuning, the workflow incorporates a masked edit feature. Creators can paint a specific region on an asset, describe the desired change, and regenerate only that masked area through the relevant camera views. This technique was used to cleanly apply logos and fix localized imperfections before baking the final PBR maps.",
+        "The resulting looks—ranging from gritty photorealism using Marigold V2 PBR maps to stylized anime and papercraft aesthetics—were baked, lit, and rendered directly inside Blender using Cycles. Running locally on hardware like an RTX 4080 alongside rented cloud GPUs, the project highlights how open-weights generative models are increasingly integrating into traditional 3D pipelines for rapid look-development and asset texturing."
+      ],
+      "source": {
+        "id": "r-stablediffusion",
+        "name": "r/StableDiffusion",
+        "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "bike-german-steel-meets-american-bling-in-the-custom",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "sour-bicycles",
+        "gravel-gear",
+        "bikepacking",
+        "steel-frames"
+      ],
+      "title": "German Steel Meets American Bling in the Custom Sour Purple Haze",
+      "snippet": "Handmade in Saxony, the Sour Bicycles Purple Haze combines a versatile chromoly steel frame with polished American components and wide tire clearance.",
+      "body": [
+        "In southeast Germany, near the Czech border, local manufacturing has found new life in bicycle craft. Sour Bicycles—a play on the German word for sweet, süße—welds its frames by hand in Saxony using custom-drawn, multi-butted chromoly steel. At the Bespoked show in Osaka, their showcase build of the Purple Haze model turned heads at the Silca booth.",
+        "The frame weighs 2,195 grams in a size medium and comes equipped for modern rough-terrain riding. It features clearance for up to 55mm tires on 700c wheels, a threaded T47 bottom bracket, UDH compatibility, and an in-house carbon 'Business Fork' complete with internal dynamo routing and triple cargo eyelets on each leg."
+      ],
+      "more": [
+        "Beyond its core steel geometry, this custom show build highlights a deep metallic purple paint job that covers both the frame and a matching Silca Impero frame pump mounted under the top tube.",
+        "To contrast the rich purple, Sour chose a polished silver component selection focused heavily on American manufacturers. A stem and seatpost from Paul Component pair with a White Industries headset, matching the polished finish of SRAM RED brakes and a silver 1x XPLR chainring from Raketa. Silca titanium cages and a compact ALLYGN front rack add extra metallic detail.",
+        "The wheelset pairs Astral Luna carbon rims with a SON dynamo front hub and a White Industries rear hub, wrapped in 55mm SILCA Protocol RCG-3 tires. The front dynamo setup powers a Supernova MY99 headlight and an ALLYGN Edelmü rear light.",
+        "For long-distance practicality, the frame maintains sensible standards: a classic 27.2mm seatpost, internal brake hose routing paired with external mechanical cables along the downtube, fender and rack mounts, and three water bottle mounts."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/sour-bicycles-purple-haze-gravel-bike-check/"
+      },
+      "wiki": "Gravel_bicycle",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/bike-german-steel-meets-american-bling-in-the-custom.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "bike-thule-acquires-new-zealand-bikepacking-specialis",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "thule",
+        "aeroe",
+        "bikepacking",
+        "gravel-gear"
+      ],
+      "title": "Thule Acquires New Zealand Bikepacking Specialist Aeroe",
+      "snippet": "Thule has bought Aeroe, the New Zealand brand famous for universal rack systems that clamp directly to seat stays.",
+      "body": [
+        "Swedish outdoor gear giant Thule has acquired Aeroe, a New Zealand-based bikepacking brand founded by the Maguire brothers. The acquisition brings Aeroe's full product lineup, including its signature Spider rack system, into the Thule ecosystem by mid-2027.",
+        "Aeroe gained attention by creating rack systems that clamp directly to bike seat stays without requiring traditional eyelets, making rear racks practical for full-suspension mountain bikes and modern gravel frames."
+      ],
+      "more": [
+        "The deal actually represents a reunion for the founders and Thule. Back in 2010, the Maguire brothers designed a universal stay-clamping rack and sold the original design to Thule in 2012, where it evolved into the familiar Thule Tour Rack.",
+        "Now, Thule has bought the entire Aeroe business, integrating its updated Spider rack lineup alongside existing products like the Tour Rack and phone mount maker Quad Lock, which Thule also acquired recently.",
+        "This move reflects a growing trend of major sporting goods conglomerates expanding into adventure cycling and bikepacking. It comes shortly after MVC Group—parent company of Castelli and Sportful—acquired UK-based bikepacking rack manufacturer Tailfin."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/thule-acquires-aeroe-bikepacking/"
+      },
+      "wiki": "Bikepacking",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/bike-thule-acquires-new-zealand-bikepacking-specialis.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "news-reserve-bank-of-australia-hikes-cash-rate-to-4-8",
+      "topic": "news",
+      "sub": "economy",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "australia",
+        "economy",
+        "inflation"
+      ],
+      "title": "Reserve Bank of Australia hikes cash rate to 4.85% amid ongoing inflation",
+      "snippet": "The Reserve Bank of Australia raised interest rates for the fifth time this year, bringing the cash rate to its highest point in 18 years.",
+      "body": [
+        "The Reserve Bank of Australia has raised its cash interest rate by 25 basis points to 4.85%, marking the fifth rate hike this year. Governor Michele Bullock acknowledged the decision would be difficult for mortgage holders but stated it was necessary to combat persistent inflation.",
+        "The decision followed a split board vote, with six members voting to raise rates and three preferring to hold due to rising unemployment and housing concerns. Economists remain divided on whether further hikes will follow, though some interpret the central bank's accompanying statement as dovish.",
+        "Treasurer Jim Chalmers pointed to ongoing pressures from the Middle East conflict affecting global oil prices and driving up local inflation. Major financial institutions, including Macquarie Bank, have announced they will pass the rate rise on to customers."
+      ],
+      "more": [
+        "The rate hike puts the cash rate at its highest level in 18 years, putting further squeeze on households already dealing with higher prices for essentials like groceries, electricity, and insurance. RBA Governor Michele Bullock defended the central bank's independence during a press conference following the decision, emphasizing that monetary policy decisions are made independently of government fiscal spending.",
+        "Despite the tighter financial conditions, Bullock pushed back against suggestions that the country is heading into a recession, forecasting instead that economic growth will slow markedly. She warned that persistent high oil prices risk creating a self-fulfilling loop of rising inflation expectations if businesses continue to preemptively lift prices.",
+        "Financial markets reacted swiftly to the announcement, with the Australian dollar dropping against its US counterpart. Currency traders and economists are largely interpreting the move as a potential peak in the current tightening cycle, provided inflation data cools in the coming months. Meanwhile, major commercial banks like Macquarie have confirmed they will pass the full 0.25% increase onto variable home loan customers while offering matching rate increases for savers."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/live/2026/nov/03/rba-interest-rates-meeting-today-latest-news-australia-reserve-bank-cash-rate-announcement-decision-live-updates"
+      },
+      "wiki": "Reserve_Bank_of_Australia",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/news-reserve-bank-of-australia-hikes-cash-rate-to-4-8.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "news-australia-s-social-media-ban-for-children-faces",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "australia",
+        "social-media",
+        "law"
+      ],
+      "title": "Australia's social media ban for children faces High Court challenge",
+      "snippet": "Australia's landmark social media ban for under-16s faces its first major constitutional test in the High Court.",
+      "body": [
+        "Hearings have begun in Australia's High Court regarding a legal challenge against the country's social media ban for children under 16. Brought by a digital rights group and supported by a joint challenge from Reddit, the lawsuit argues the policy infringes on free communication and privacy rights.",
+        "Introduced last December, the legislation requires ten major platforms, including TikTok, YouTube, and Meta's services, to take reasonable steps to block underage users or face fines of up to A$99 million. The government maintains the policy is a vital shield against online harm and predators.",
+        "While initial teenage plaintiffs have withdrawn, the case proceeds as a critical legal test of government regulation over digital platforms. The Australian government has vowed to stand firm against legal challenges from big tech."
+      ],
+      "more": [
+        "The constitutional challenge was filed by the Digital Freedom Project, led by New South Wales parliamentarian John Ruddick, shortly before the legislation took effect in December. Critics of the sweeping ban argue it relies on blunt enforcement tools rather than addressing root issues of platform safety and predator prevention.",
+        "Reddit joined the legal proceedings, asserting that while it shares the goal of protecting young people online, a blanket ban carries severe implications for privacy and political rights. Despite the ongoing litigation, platform representatives have confirmed they are complying with the law while advocating for alternative safety measures.",
+        "Communications Minister Anika Wells dismissed the legal threats from big tech, stating that the government would not be intimidated on behalf of Australian parents. Although the legislation carries substantial penalties for repeated breaches, no company has been fined since the ban went into effect."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Censorship_in_Australia",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/news-australia-s-social-media-ban-for-children-faces.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "tech-a-manufacturing-partner-turned-1-3-million-set-t",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "android",
+        "security",
+        "iot"
+      ],
+      "title": "A manufacturing partner turned 1.3 million set-top boxes into a botnet",
+      "snippet": "Google cut ties with an Android hardware partner after discovering a secret backdoor built into millions of devices.",
+      "body": [
+        "Google has dismantled a massive botnet after discovering that one of its Android manufacturing partners secretly baked a backdoor into 1.3 million devices. The affected hardware primarily consisted of Android TV set-top boxes, alongside other IoT gadgets like karaoke machines and telehealth terminals.",
+        "The compromised devices were quietly exploited for malicious tasks such as ad fraud, data exfiltration, and routing unauthorized network traffic. Google has officially cut ties with the supplier, Shenzhen-based Videostrong Technology Co., banning them from building certified Android devices."
+      ],
+      "more": [
+        "According to Google, the backdoor and botnet were intentionally developed and operated for financial gain. Videostrong allegedly monetized the backdoor by selling access to criminal affiliates who loaded secondary malware modules onto the hardware. These modules silently enrolled infected hardware into residential proxy networks and conducted widespread ad fraud without owners ever knowing.",
+        "The malware relied on sophisticated obfuscation techniques, executing only after users booted up their newly purchased hardware for the first time. The infection spread across multiple device models and brands over several years of manufacturing.",
+        "As part of the fallout, Google took direct action to disrupt the command-and-control domains operating the affiliate modules. Because those criminal networks distributed malware through other channels as well, taking down the infrastructure effectively severed access to at least 10 million additional compromised devices globally. Google says it has since tightened its review process for third-party device manufacturers to prevent similar breaches."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+      },
+      "wiki": "Android_TV",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/tech-a-manufacturing-partner-turned-1-3-million-set-t.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "tech-apple-hits-record-iphone-sales-despite-skipping",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "apple",
+        "iphone",
+        "tech"
+      ],
+      "title": "Apple hits record iPhone sales despite skipping a standard model",
+      "snippet": "Apple's latest quarter brought in massive revenue, led entirely by its pricier Pro models.",
+      "body": [
+        "Apple just wrapped up a record-breaking quarter for iPhone sales, bringing in $57.58 billion in revenue—a 17 percent jump from last year. What makes the milestone unusual is that it happened without the release of a traditional standard iPhone during the autumn lineup refresh.",
+        "Instead, the surge was driven entirely by the higher-end iPhone 18 Pro and Pro Max models, alongside price bumps across older devices in the catalog. Apple's overall quarterly revenue ballooned to $114.5 billion, with notable growth in its Mac and services divisions."
+      ],
+      "more": [
+        "The shift toward Pro-only dominance highlights how hardware makers are navigating persistent supply chain constraints and climbing memory costs. Apple CEO John Ternus noted during an earnings call that rising memory expenses were partially offset by carrying existing inventory and trimming costs on non-memory components.",
+        "Alongside the earnings news, Apple has been aggressively reshaping its product ecosystem. The company made a notable push into the smart home space with its first dedicated display, alongside a suite of security cameras and doorbells built in partnership with LG and Schneider Electric. Meanwhile, after years of executive resistance, Apple also recently introduced a MacBook Pro featuring a touchscreen.",
+        "While iPhone and Mac sales soared, other areas showed mixed results. iPad revenue saw a 10 percent year-over-year decline down to $6.23 billion, while the services division—encompassing App Store commissions and subscriptions like Apple TV and Music—climbed to $31.57 billion. Apple also offered a glimpse of its hardware future by showing off its first folding phone, the iPhone Duo, though early supply constraints mean widespread availability will stretch into the new year."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings"
+      },
+      "wiki": "Apple_Inc.",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/tech-apple-hits-record-iphone-sales-despite-skipping.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "science-hubble-census-shows-nearby-dwarf-galaxies-lose-m",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "hubble",
+        "galaxies",
+        "astrophysics"
+      ],
+      "title": "Hubble Census Shows Nearby Dwarf Galaxies Lose Most of Their Oxygen",
+      "snippet": "A new survey of 37 nearby dwarf galaxies reveals they retain only about 11% of the oxygen their stars produce.",
+      "body": [
+        "Using data from the Hubble Space Telescope, astronomers analyzed 37 gas-rich dwarf galaxies within 19.5 million light-years of Earth. By reconstructing each galaxy's star formation history and comparing it with the actual oxygen present, researchers found that these small systems hold onto only a fraction of the heavy elements they generate.",
+        "On average, the galaxies retained roughly 11% of their produced oxygen, mostly held in interstellar gas rather than in stars or dust. The rest appears to have been ejected into intergalactic space by powerful supernova explosions and stellar winds."
+      ],
+      "more": [
+        "The study, part of the Galaxies Losing Oxygen via Winds (GLOW) project, examined dwarf galaxies with stellar masses ranging from 3 million to 3 billion times that of the Sun. Astronomers used Hubble observations of individual stars to build a baseline model of how much oxygen each system ought to have manufactured over time.",
+        "Location seems to play a notable role in oxygen retention. Galaxies situated more than 3.3 million light-years from a massive neighbor consistently kept less than 15% of their oxygen. Meanwhile, galaxies located in denser galactic environments showed much wider scatter and higher retention levels, suggesting they might be recycling lost gas or accreting material previously enriched by neighboring systems.",
+        "Where did all that missing material end up? Previous ultraviolet observations of highly ionized oxygen account for roughly 1% to 7% of the total in galaxy halos. After accounting for other ionization states, researchers estimate the extended gas halo—the circumgalactic medium—could hold 5% to 35%, leaving a major share that may have escaped the galaxies' gravitational pull altogether.",
+        "When comparing these physical findings to three leading cosmological simulations, astronomers found a discrepancy. While the simulations accurately replicate the general mass-metallicity relation, they predict that dwarf galaxies hold onto far more of their heavy elements than they actually do in practice. To match the real-world data, models must assume that outflows carry away significantly more mass from smaller galaxies and that gas accretion onto these systems is suppressed by roughly 40%."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/nearby-dwarf-galaxies-oxygen-hubble-15168.html"
+      },
+      "wiki": "NGC_4449",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/science-hubble-census-shows-nearby-dwarf-galaxies-lose-m.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "science-november-skywatching-meteor-showers-planets-and",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "skywatching",
+        "astronomy",
+        "voyager-1",
+        "meteors"
+      ],
+      "title": "November Skywatching: Meteor Showers, Planets, and Voyager's Light-Day",
+      "snippet": "November brings three meteor showers, a tight planetary pairing, a supermoon, and a major distance milestone for Voyager 1.",
+      "body": [
+        "November offers several compelling targets for naked-eye astronomy, starting with multiple meteor shower peaks throughout the month. The Southern Taurids peak around November 5, followed by the Northern Taurids around November 12—both known for delivering occasional bright fireballs despite low rates—and the Leonids around November 17-18.",
+        "Mid-month also features a close visual alignment between Mars and Jupiter before sunrise on November 15 and 16. The two planets will appear roughly 1.2 degrees apart in the southeastern sky, separated by little more than two full Moon widths."
+      ],
+      "more": [
+        "For deep-space enthusiasts, November marks a distinct engineering milestone: NASA's Voyager 1 probe reaches a distance of one light-day from Earth. At this distance, a radio signal traveling at the speed of light takes 24 hours to reach the spacecraft, and an additional 24 hours for scientists to receive a response.",
+        "Observers looking to visualize Voyager 1's trajectory can look toward the constellation Ophiuchus, the Serpent Bearer, where the distant craft is currently traveling into interstellar space.",
+        "Closing out the month, November 24 features a full supermoon as the Moon reaches a point closer to Earth in its elliptical orbit, making it appear slightly larger and brighter than usual. This event marks the first in a sequence of three consecutive monthly supermoons running through January."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+      },
+      "wiki": "Voyager_1",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/science-november-skywatching-meteor-showers-planets-and.jpg",
+        "credit": "science.nasa.gov"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "design-swiss-post-sans-the-subtle-craft-of-an-invisible",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "typography",
+        "branding",
+        "graphic-design",
+        "swiss-design"
+      ],
+      "title": "Swiss Post Sans: The subtle craft of an invisible national typeface",
+      "snippet": "When Swiss Post commissioned Swiss Typefaces for a new brand font, the primary directive was simple: make something nobody notices.",
+      "body": [
+        "When designing a custom typeface for a high-profile client, the natural temptation is often to build something bold and distinctive that immediately catches the eye. However, when Swiss Typefaces took on a three-year project to design a new font family for Swiss Post, their brief was quite the opposite: craft a typeface so clear and seamlessly integrated that no one would notice the change.",
+        "The resulting family, Swiss Post Sans, replaces the national institution's previous type system across millions of touchpoints—from stamps and mailboxes to trains, trucks, websites, and signage. The design team softened the corporate tone by introducing subtle humanist characteristics and replacing the former square i-dots with round ones, making the brand feel warmer while maintaining absolute legibility."
+      ],
+      "more": [
+        "Developing the upright styles required meeting strict structural constraints. The new font files had to swap in directly over the old ones without altering any existing visual layouts, meaning the typographic volume had to remain identical. Furthermore, because Swiss Post operates across all four official languages of Switzerland—German, French, Italian, and Romansh—every accent and non-standard glyph had to be meticulously tested under real-world conditions.",
+        "The typeface also had to solve specific functional demands. Because public communications heavily involve schedules and pricing, numerals were built to be tabular by default, ensuring aligned columns across tables and timetables. Early beta files were deployed and stress-tested by a specialized group of experts to guarantee accuracy before full release.",
+        "While the upright styles were guided by strict restraint, the italics allowed the studio significantly more creative freedom. Historically, Swiss Post's logo was set in angled uppercase letters to convey speed. With the modern logo now anchored by a steady, upright mark, the italic fonts were freed to take on a distinct brand identity.",
+        "Instead of simply slanting the upright letterforms, Swiss Typefaces developed a hybrid cursive approach. Characters like 'a', 'b', 'e', and 'g' feature fluid curves combined with sharp, modern terminations. The lowercase 'f' drops below the baseline in a calligraphic style, ending in a crisp, straight cut rather than a traditional loop.",
+        "By using these custom italics at large display and signage sizes, Swiss Post creates a recognizable voice without relying on visual gimmicks. As executive creative director Emmanuel Rey noted, the outcome feels 'Swiss by nature, not only by design.'"
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/work/swiss-typefaces-crafts-a-warmer-friendlier-custom-font-for-swiss-post/"
+      },
+      "wiki": "Swiss_Post",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/design-swiss-post-sans-the-subtle-craft-of-an-invisible.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "design-how-how-rebrands-as-how-how-with-a-responsive-vo",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "visual-identity",
+        "agency"
+      ],
+      "title": "How&How rebrands as HOW+HOW with a responsive volume mark",
+      "snippet": "Six years after launching, design agency HOW+HOW has overhauled its visual identity around a flexible logo inspired by analogue audio equipment.",
+      "body": [
+        "Rebranding a design agency is notoriously tricky, as the studio's own visual identity undergoes intense scrutiny from both peers and potential clients. Six years after opening its doors, the London and LA-based studio How&How has launched a full overhaul of its brand strategy, name, and visual language.",
+        "Dropping its ampersand in favor of a plus sign and moving to uppercase, the studio is now HOW+HOW. Built around the core concept 'Turn up your truth,' the rebrand anchors itself on a dynamic mark modeled after analogue audio controls."
+      ],
+      "more": [
+        "The core mechanism of the new visual identity is a flexible logo that stretches and contracts like a volume dial or mixing desk fader. Rather than remaining locked in a fixed aspect ratio, the H+H mark expands across layouts along a continuous horizontal bar split by a thin vertical stroke, visually reinforcing the concept of cranking up a brand's core traits.",
+        "Alongside the flexible mark, the studio introduced a custom 3D illustration system designed to give visual assets depth on screen. The agency's primary color was shifted into a vivid green-yellow shade dubbed 'Gello', paired with refined set typography in Wagram serif and restrained motion design details.",
+        "Beyond the visual assets, the redesign extends to the agency's verbal tone, emphasizing shorter, more direct copy. The studio's newly rebuilt site was also specifically structured to accommodate artificial intelligence web crawlers alongside traditional search engines, adding dedicated pages built for large language models.",
+        "By taking the advice they give to client brands—finding a single core truth and amplifying it—HOW+HOW has delivered a practical case study in studio self-rebranding."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/news/london-and-la-studio-howhow-launches-a-new-name-visual-identity-and-website/"
+      },
+      "wiki": "Graphic_design",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/design-how-how-rebrands-as-how-how-with-a-responsive-vo.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "pt-virus-do-nilo-ocidental-infecoes-em-portugal-pod",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "saude-publica",
+        "virus-do-nilo",
+        "portugal",
+        "medicina"
+      ],
+      "title": "Vírus do Nilo Ocidental: infeções em Portugal podem estar a passar despercebidas",
+      "snippet": "O Conselho Português para a Saúde e Ambiente alerta para a circulação do vírus e pede maior atenção diagnóstica aos médicos.",
+      "body": [
+        "O Conselho Português para a Saúde e Ambiente (CPSA) alertou para a elevada probabilidade de infeções humanas pelo vírus do Nilo Ocidental estarem a passar despercebidas no país. Embora Portugal não tenha notificado casos em humanos no último relatório europeu, foram registados quatro focos em cavalos e a presença dos mosquitos transmissores do género Culex está amplamente documentada.",
+        "Em toda a Europa, os casos notificados em 2026 ultrapassaram os dois mil, quase o dobro do ano anterior. Como cerca de 80% das pessoas infetadas não apresentam sintomas e as restantes costumam ter queixas febris genéricas, o diagnóstico clínico torna-se difícil sem testes laboratoriais específicos."
+      ],
+      "more": [
+        "A circulação do vírus é alimentada por aves migratórias, que servem de reservatório principal, sendo depois transmitido às pessoas e outros animais através da picada de mosquitos. Em Portugal, a vigilância da Rede REVIVE revelou que a espécie de mosquito responsável representou mais de 45% dos quase dez mil mosquitos adultos capturados pelas equipas de saúde em 2025.",
+        "A grande preocupação das autoridades de saúde reside nos cerca de 5% de infetados que podem desenvolver quadros neurológicos graves, tais como meningites, encefalites ou paralisia flácida aguda. O risco de complicações severas é significativamente superior em idosos e doentes com o sistema imunitário comprometido.",
+        "A proximidade geográfica com surtos ativos reforça o alerta: em Espanha, foram reportados 149 casos este ano, com especial incidência nas regiões da Andaluzia e da Estremadura, junto à fronteira portuguesa. Em julho, vários municípios andaluzes entraram mesmo em estado de alerta devido à deteção de insetos infetados.",
+        "Para contornar o subdiagnóstico, o CPSA recomenda o reforço da formação dos profissionais de saúde e a garantia de testes laboratoriais de RNA em todo o país, nomeadamente através de análises à urina, onde o vírus permanece detetável durante semanas. À população, aconselha-se o uso de repelente ao entardecer e a eliminação de recipientes com água parada."
+      ],
+      "source": {
+        "id": "observador",
+        "name": "Observador",
+        "url": "https://observador.pt/2026/11/03/infecoes-pelo-virus-do-nilo-ocidental-podem-estar-a-passar-despercebidas-diz-ong/"
+      },
+      "wiki": "West_Nile_fever",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-03/pt-virus-do-nilo-ocidental-infecoes-em-portugal-pod.jpg",
+        "credit": "observador.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "pt-jose-pinhal-post-mortem-experience-encerram-dez",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "musica",
+        "jose-pinhal",
+        "cultura-pop",
+        "porto",
+        "concerto"
+      ],
+      "title": "José Pinhal Post-Mortem Experience encerram dez anos de carreira no Coliseu",
+      "snippet": "O que começou como uma homenagem pontual de uma só noite transformou-se num fenómeno de culto que agora se despede do público.",
+      "body": [
+        "Após uma década a resgatar a obra de José Pinhal, figura singular da música popular portuguesa, a banda tributo José Pinhal Post-Mortem Experience prepara-se para dar o último concerto da sua história a 7 de novembro, no Coliseu de Lisboa.",
+        "O projeto nasceu no Porto em 2016, reunindo músicos ligados à cena alternativa e experimental da Favela Discos. O grupo pretendia apenas fazer uma apresentação única, mas a reação entusiasta do público transformou a brincadeira num fenómeno de culto que percorreu festivais e festas populares pelo país fora."
+      ],
+      "more": [
+        "A redescoberta das canções de José Pinhal começou por mero acaso, quando o músico Luís Severo apresentou a discografia do cantor a elementos do meio indie portuense. O charme das canções residia no contraste entre o universo romântico de baile e os arranjos instrumentais crus e rockeiros, que conferiam um caráter único às gravações originais.",
+        "O projeto ganhou tração em 2018, após uma atuação memorável num camião-palco na Praça da Batalha, durante os festejos do São João no Porto. Mais tarde, a banda viveu um dos seus momentos mais marcantes ao tocar em Santa Cruz do Bispo, terra natal do cantor, perante a própria família de José Pinhal.",
+        "A decisão de terminar a carreira não prendeu a nenhum desentendimento, mas sim à vontade de preservar a memória do projeto enquanto este se encontra no auge. Além disso, a exigência das digressões de verão tornava-se cada vez mais difícil de conciliar com os múltiplos projetos paralelos dos sete elementos da banda.",
+        "Apesar do fecho definitivo da banda tributo, os seus membros continuarão ativos na criação musical e no associativismo cultural, com novos discos a solo e projetos de intervenção comunitária no Norte do país. Para trás fica a consagração de um dos tributos mais improváveis e festivos da música portuguesa."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/musica/jose-pinhal-post-mortem-experience-prepara-se-para-o-ultimo-concerto-da-carreira"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-03/pt-jose-pinhal-post-mortem-experience-encerram-dez.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "books-alexander-the-great-as-a-master-storyteller-and",
+      "topic": "books",
+      "kind": "evergreen",
+      "published": "2026-10-31",
+      "style": "book",
+      "tags": [
+        "leadership",
+        "history",
+        "biography"
+      ],
+      "title": "Alexander the Great as a Master Storyteller and Relentless Conquistador",
+      "snippet": "A cinematic, deeply researched biography that explores how Alexander united his men and drove them across the ancient world.",
+      "body": [
+        "Edmund Richardson’s biography of Alexander the Great reads like a gripping sword-and-sandal film, blending original research from a dozen ancient languages with modern technology to recreate vivid historical landscapes.",
+        "The book dives into what motivated a broke young monarch to embark on an unprecedented campaign across unknown lands, offering a fascinating lesson in ancient leadership and ambition."
+      ],
+      "source": {
+        "id": "five-books",
+        "name": "Five Books",
+        "url": "https://fivebooks.com/best-books/best-nonfiction-books-2026-kirsty-lang/"
+      },
+      "wiki": "Alexander_the_Great",
+      "lang": "en",
+      "book": {
+        "title": "Alexander: God, King, and Man",
+        "author": "Edmund Richardson",
+        "lessons": [
+          {
+            "title": "The Power of Storytelling",
+            "text": "Alexander was not just a military tactician but a master storyteller. He successfully persuaded thousands of men to march into unknown lands by giving them a compelling narrative about why they should keep conquering."
+          },
+          {
+            "title": "From Profit to Obsession",
+            "text": "The initial expedition was largely a moneymaking venture to fill empty national coffers through plunder. However, even after everyone was rich enough to go home, Alexander kept pushing forward because he preferred the thrill of battle over the boredom of ruling."
+          }
+        ],
+        "takeaway": "Examine how you frame your own projects: can you use a stronger narrative to inspire your team or collaborators through uncharted territory?",
+        "forWho": "Anyone fascinated by ancient history, leadership dynamics, and epic narrative nonfiction."
+      },
+      "image": {
+        "src": "editions/2026-11-03/books-alexander-the-great-as-a-master-storyteller-and.jpg",
+        "credit": "fivebooks.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "ideas-reality-is-not-a-solo-discovery-but-a-shared-agr",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "neuroscience",
+        "perception",
+        "relational-realism"
+      ],
+      "title": "Reality is not a solo discovery, but a shared agreement built on physical signals",
+      "snippet": "Much of what we experience as objective truth is constructed through relationships, culture, and collective interpretation.",
+      "body": [
+        "According to neuroscientist Lisa Feldman Barrett, many elements of our daily world—from colors like red to political concepts like the presidency—are not purely objective facts waiting in isolation to be discovered. Instead, they depend on human beings collectively assigning shared meaning to physical signals.",
+        "Barrett calls this framework \"relational realism.\" Color, for instance, is not an intrinsic property of an object; it is an emergent property created between light wavelengths, retina responses, and trained brain signals.",
+        "To apply this idea, recognize your \"Perception Box\": the mental framework built by cultural inheritance. Understanding that your reality is shaped by shared agreements allows you to consciously evaluate and update the concepts you inherit."
+      ],
+      "more": [
+        "In relational realism, reality is not something passive that merely hits our senses. It emerges from a continuous dialogue between the external physical world and our internal mental models. A mountain versus a hill, or the authority granted to a political role, exists because human communities collectively agree on where physical measurements end and social meaning begins.",
+        "Barrett highlights the role of \"cultural inheritance\" in this process. Long before an individual learns to navigate the world independently, parents, teachers, and peers use words and actions to wire that individual's brain. They hand down a historical lexicon of patterns and interpretations, shaping the invisible mental container Barrett calls the Perception Box.",
+        "This means our daily interactions carry unexpected weight. What we say, choose to ignore, or actively reinforce helps sustain or alter the shared concepts of the people around us. Reality, in a very practical biological sense, is a collaborative project we continuously construct together."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/perception-box/what-makes-something-real/"
+      },
+      "wiki": "Lisa_Feldman_Barrett",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/ideas-reality-is-not-a-solo-discovery-but-a-shared-agr.png",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "ideas-living-organisms-are-active-participants-in-evol",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "idea",
+      "tags": [
+        "biology",
+        "evolution",
+        "lamarck",
+        "history-of-science"
+      ],
+      "title": "Living organisms are active participants in evolution, not just passive subjects of chance",
+      "snippet": "Long before modern genetics rendered organisms as passive vessels, Jean-Baptiste Lamarck proposed that life actively reshapes itself and its environment.",
+      "body": [
+        "French naturalist Jean-Baptiste Lamarck is often reduced to a footnote about giraffes stretching their necks. However, in his 1809 treatise *Zoological Philosophy*, he put forward a radical vision: organisms are active agents whose habits, behaviors, and responses to their environment actively transform their physical forms and remake the world around them.",
+        "Lamarck argued that life possesses a drive to complexify, responding to external pressures through active behaviors rather than passive waiting.",
+        "To use this perspective, shift from viewing yourself as a static product of external conditions to seeing your actions, habits, and deliberate efforts as active forces that reshape your personal biology and environment."
+      ],
+      "more": [
+        "In 1802, Lamarck coined the term \"biology\" to establish a distinct science dedicated exclusively to living beings. Unlike rocks or minerals, living things possessed what he saw as a unique capacity to self-organize, transform, and build complex structures out of basic elements.",
+        "While 20th-century neo-Darwinism sidelined Lamarck by portraying organisms as passive subjects shaped entirely by random genetic mutations and external selection pressures, Lamarck’s original vision granted living creatures agency. Charles Darwin himself shared Lamarck's intuition that an animal's actions and habits could influence its physical development across generations.",
+        "Modern research in epigenetics and niche construction is prompting a quiet reappraisal of Lamarck's work. Organisms do not merely adapt to static surroundings; by digging burrows, building nests, or altering diets, they modify the selective pressures acting upon themselves and their descendants."
+      ],
+      "source": {
+        "id": "aeon",
+        "name": "Aeon",
+        "url": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck"
+      },
+      "wiki": "Jean-Baptiste_Lamarck",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/ideas-living-organisms-are-active-participants-in-evol.jpg",
+        "credit": "aeon.co"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "f1-deciding-kimi-antonelli-s-definitive-title-winni",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "story",
+      "tags": [
+        "f1",
+        "mercedes",
+        "racing"
+      ],
+      "title": "Deciding Kimi Antonelli's definitive title-winning F1 drive",
+      "snippet": "As Kimi Antonelli becomes the youngest-ever Formula 1 world champion, writers look back at the defining moments of his stellar 2026 campaign.",
+      "body": [
+        "Andrea Kimi Antonelli wrapped up his maiden Formula 1 world championship in Mexico with four rounds to spare, making history as the youngest-ever title holder. Following a turbulent rookie season in 2025, the young Italian returned with a calmer, sharper mindset that immediately paid dividends.",
+        "Autosport's writers have dissected the standout drives that turned Antonelli from an exciting prospect into a clinical champion. From a resilient recovery after a heavy crash in Melbourne to precision driving around the tight barriers of Monaco, his 2026 season was packed with statement performances.",
+        "Whether it was standing toe-to-toe with teammate George Russell in Canada or halting Russell's momentum under pressure at Spa, Antonelli proved he could match raw aggression with measured consistency when it mattered most."
+      ],
+      "more": [
+        "The journey to Antonelli's historic crown began long before the lights went out in Melbourne. After enduring a difficult 2025 campaign alongside George Russell—where he frequently pushed past the limit and struggled with an insecure car—Antonelli entered his sophomore year with a transformed approach. Working with the same engineering group for a second consecutive season provided crucial stability, allowing him to focus on enjoying the process rather than forcing results.",
+        "His mental shift was tested immediately during the Australian season opener. A massive 25G crash in FP3 threatened to derail his weekend entirely, an incident that likely would have compromised his entire performance a year prior. Instead, Antonelli kept his cool while Mercedes pulled off a full rebuild. He bounced back to secure second on the grid and drove a controlled race to finish as runner-up, offering the first glimpse of a matured competitor.",
+        "As the season progressed, the battles grew fiercer. The Canadian Grand Prix provided a true statement of intent as Antonelli went wheel-to-wheel with Russell in changing conditions. Despite a near-miss at the final chicane and a failed divebomb at Turn 1, Antonelli refused to back down, proving he could stand up to his more experienced teammate one-on-one before Russell suffered a mechanical failure.",
+        "Perhaps his most surprising masterclass came in Monaco. Known for a sometimes harum-scarum driving style, Antonelli showcased a completely different facet of his craft on the streets of Monte Carlo. In a weekend where Ferrari was widely expected to dominate, he snatched pole position and drove to victory with unruffled finesse, lapping significantly faster than the competition with the mechanical precision of clockwork.",
+        "Any lingering doubts about whether Russell could claw back his championship deficit were firmly erased in Belgium. Following a couple of difficult race weekends marred by car problems, Antonelli arrived at Spa with Russell gaining momentum. The Italian calmly absorbed the pressure, topped practice, took pole, and surged to victory while Russell tangled on the opening lap. Extending his points lead back out to 50, Antonelli sealed a championship campaign that cemented his place in motorsport history as Italy's first world champion since Alberto Ascari."
+      ],
+      "source": {
+        "id": "f1-autosport",
+        "name": "Autosport",
+        "url": "https://www.autosport.com/f1/news/what-was-antonellis-best-moment-of-his-f1-title-winning-campaign-our-writers-have-their-say/10871078/"
+      },
+      "wiki": "Andrea_Kimi_Antonelli",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/f1-deciding-kimi-antonelli-s-definitive-title-winni.jpg",
+        "credit": "www.autosport.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    },
+    {
+      "id": "health-why-pregnancy-acts-as-an-ultimate-cardiometaboli",
+      "topic": "health",
+      "kind": "evergreen",
+      "published": "2026-10-05",
+      "style": "explainer",
+      "tags": [
+        "pregnancy",
+        "maternal-health",
+        "cardiovascular-health",
+        "metabolism",
+        "longevity"
+      ],
+      "title": "Why Pregnancy Acts as an Ultimate Cardiometabolic Stress Test",
+      "snippet": "Maternal-fetal medicine specialist Dr. Kathryn Gray breaks down how pregnancy places dramatic demands on a woman's cardiovascular and metabolic systems, revealing underlying health risks.",
+      "body": [
+        "During pregnancy, a woman's body undergoes rapid, sweeping physiological adaptations to nurture a developing fetus. Blood volume expands substantially, cardiovascular output increases, and metabolism shifts dramatically to accommodate the growing biological demands.",
+        "Because of these intense demands, maternal-fetal medicine specialist Dr. Kathryn Gray describes pregnancy as a natural cardiovascular and metabolic stress test. Conditions like gestational diabetes or preeclampsia are not just temporary complications; they often expose pre-existing cellular or vascular vulnerabilities, offering crucial early clues about a woman's long-term health trajectory."
+      ],
+      "more": [
+        "Immediately following conception, a woman's body initiates major systemic shifts. Endocrine function adapts quickly, and plasma volume expands to supply the developing placenta. In the second half of pregnancy, natural insulin resistance increases to ensure adequate nutrients reach the fetus. When the body cannot compensate for this metabolic shift, gestational diabetes develops, signaling an underlying predisposition to metabolic dysfunction.",
+        "Similarly, the cardiovascular system is pushed to its limits. The massive increase in circulating blood volume forces the heart and blood vessels to adapt under high demand. When blood pressure regulation fails, preeclampsia can result. Dr. Gray notes that experiencing these adverse complications during pregnancy provides clear clinical signals regarding future risks for type 2 diabetes, chronic hypertension, and cardiovascular disease later in life.",
+        "Understanding these mechanisms shifts how medicine views maternal care. Rather than treating pregnancy complications as isolated, transient events that conclude at delivery, researchers increasingly recognize them as early warning indicators. This perspective opens up opportunities for proactive preventive medicine and targeted long-term tracking long after childbirth.",
+        "Despite these profound physiological shifts, fundamental questions in maternal health remain unanswered, such as the precise molecular triggers for preterm labor or preeclampsia. Dr. Gray emphasizes that expanding research into reproductive genetics and prenatal screening will be essential for improving both immediate outcomes for mothers and their long-term cardiometabolic health."
+      ],
+      "source": {
+        "id": "health-peter-attia-s-the-drive",
+        "name": "Peter Attia's The Drive",
+        "url": "https://peterattiamd.com/kathryngray/"
+      },
+      "wiki": "Gestational_diabetes",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-03/health-why-pregnancy-acts-as-an-ultimate-cardiometaboli.png",
+        "credit": "peterattiamd.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-03"
+    }
+  ]
+}

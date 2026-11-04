@@ -1,0 +1,977 @@
+{
+  "date": "2026-11-04",
+  "number": 15,
+  "items": [
+    {
+      "id": "til-the-5-5-ton-solid-gold-buddha-that-spent-200-yea",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "til",
+      "tags": [
+        "buddhism",
+        "thailand",
+        "history",
+        "art-history"
+      ],
+      "title": "The 5.5-Ton Solid Gold Buddha That Spent 200 Years Disguised in Plaster",
+      "snippet": "For nearly two centuries, a massive statue in Bangkok was assumed to be worthless stucco. Then a crane dropped it during a move in 1955, cracking off the shell to reveal solid gold underneath.",
+      "body": [
+        "In 1955, workers at the Wat Traimit temple in Bangkok were using ropes and a crane to relocate a heavy, unremarkable plaster Buddha statue into a newly constructed hall. During the final attempt to lift it onto its pedestal, the ropes gave way. The heavy statue crashed into the dirt, cracking the exterior stucco.",
+        "When monks inspected the damage, they noticed a bright yellow shine peeking out from beneath the grey plaster. As they carefully chipped away the thick coating, they realized the entire three-meter-tall statue was solid gold. Weighing 5.5 metric tonnes, it is today recognized by Guinness World Records as the largest solid gold sculpture on Earth."
+      ],
+      "more": [
+        "Historians believe the statue was crafted in the 13th or 14th century during Thailand's Sukhothai period. Sometime before the Burmese army invaded and sacked the Kingdom of Ayutthaya in 1767, locals decided to hide the statue's unimaginable value. They covered it entirely in a thick layer of stucco, decorated it with bits of colored glass, and left it among the city's minor temples.",
+        "The disguise worked so well that its true nature was completely forgotten. When King Rama III ordered thousands of Buddha images relocated to Bangkok in the 19th century, the plaster-covered statue was moved to Wat Chotanaram as a routine piece of religious art. In 1935, after that temple fell into disrepair, it was transferred to Wat Traimit—a modest pagoda that didn't even have a building large enough to house it. For 20 years, the priceless masterpiece sat under a plain tin shed, exposed to the elements.",
+        "When the plaster was fully stripped off following the 1955 accident, art conservators discovered another clever design feature: the golden Buddha was cast in nine separate interlocking sections using the traditional lost-wax technique. Hidden inside the plaster base was a special key designed to unlock and disassemble the entire 5.5-ton structure for easier transport.",
+        "The timing of the discovery—occurring right on the eve of the 2,500th anniversary of Gautama Buddha's passing—was hailed by many local Buddhists as a miracle. Today, the statue resides in a dedicated multi-story sanctuary at Wat Traimit, where pieces of the original plaster shell are kept on public display alongside photographs of the moment the gold was exposed."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xn65ja/til_theres_a_golden_statue_of_buddha_in_thailand/"
+      },
+      "wiki": "Golden_Buddha_(statue)",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/til-the-5-5-ton-solid-gold-buddha-that-spent-200-yea.jpg",
+        "credit": "File:วัดไตรมิตรวิทยารามวรวิหาร_เขตสัมพันธวงศ์_กรุงเทพมหานคร_(70).jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "fun-google-tells-schools-embrace-our-ai-tools-or-say",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "google",
+        "artificial-intelligence",
+        "education",
+        "tech-news"
+      ],
+      "title": "Google tells schools: embrace our AI tools or say goodbye to Search",
+      "snippet": "School districts that choose to ban generative AI completely will soon find themselves locked out of Google Search entirely.",
+      "body": [
+        "As part of its 'AI in the Learning Era 2026' rollout, Google is embedding guided AI tools directly into Google Search and Classroom. While K-12 administrators can disable standalone tools like Gemini, generative AI is now deeply integrated into core Search—meaning districts that choose to block AI across the board will lose access to Google Search altogether.",
+        "Students on restricted school accounts who try to search the web will simply be greeted by a message stating that Search is unavailable."
+      ],
+      "more": [
+        "The shift arrives alongside Google's new 'Guided Learning' features, designed to act as a digital coach by prompting students with step-by-step questions rather than providing direct answers. While standalone products like Gemini and Gemini Notebook will be disabled by default starting in early 2027, the underlying generative systems in Search cannot be easily uncoupled.",
+        "According to Chris Phillips, Google’s vice president of education, districts that enforce zero-AI policies cannot run core Search without those AI components. For schools heavily built around Chromebooks and Google Workspace, this leaves administrators with a tough choice: accept AI in the classroom or scramble for alternative search engines.",
+        "On Reddit, commenters seized on the irony of the policy. A top comment pointed out that Google seems to have dropped the 'don't' and 'be' from its famous old motto 'Don't be evil' to appease shareholders, leaving a much cleaner corporate directive.",
+        "Google plans to pilot the AI coaching tools in Search at select U.S. schools later this month before expanding the rollout to additional districts."
+      ],
+      "source": {
+        "id": "r-nottheonion",
+        "name": "r/nottheonion",
+        "url": "https://www.reddit.com/r/nottheonion/comments/1xn0j2t/google_to_cut_search_access_for_schools_that/"
+      },
+      "wiki": "Google_Search",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/fun-google-tells-schools-embrace-our-ai-tools-or-say.png",
+        "credit": "File:Google_Search_screenshot_in_2026_(EN).png"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "motion-exploring-procedural-motion-cavalry-s-untapped-c",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "reddit",
+      "tags": [
+        "cavalry",
+        "motion-graphics",
+        "tutorials",
+        "after-effects"
+      ],
+      "title": "Exploring procedural motion: Cavalry's untapped creative potential",
+      "snippet": "A quick shout-out in the motion design community highlights procedural animation tool Cavalry and the tutorial creators helping animators rethink their workflow.",
+      "body": [
+        "In a recent post shared on r/MotionDesign, a creator reflected on their experience shifting into Cavalry, noting just how deep the procedural motion design software goes compared to traditional layer-based workflows.",
+        "The animator pointed out that every project reveals untapped capabilities, giving credit to community tutorial creators like Kamil at K Motion Tutorials for offering cleaner, more efficient methods to solve complex movement challenges."
+      ],
+      "more": [
+        "Cavalry has gained steady traction among motion designers looking for procedural, node-based alternative workflows to Adobe After Effects. Its strength lies in real-time performance, generative arrays, and rapid iteration, making it popular for complex graphic systems and data-driven motion.",
+        "Community-driven channels and breakdown tutorials remain essential for artists navigating this shift, helping transition familiar keyframe techniques into flexible, procedural setups."
+      ],
+      "source": {
+        "id": "r-motiondesign",
+        "name": "r/MotionDesign",
+        "url": "https://www.reddit.com/r/MotionDesign/comments/1xmnp6m/around_it_goes/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "motion-artful-being-turns-off-pitch-football-careers-in",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "news",
+      "tags": [
+        "motion-design",
+        "collage-animation",
+        "artful-being",
+        "instagram-reels"
+      ],
+      "title": "Artful Being Turns Off-Pitch Football Careers into Tactile Collage Animations",
+      "snippet": "For a BBC Bitesize and Open University initiative, London studio Artful Being crafted eight fast-paced vertical animations using torn newspaper textures and dense, tactile collage design.",
+      "body": [
+        "Artful Being recently completed a series of eight short-form animated Instagram Reels for 'Follow Your Passion', an initiative from The Open University and BBC Bitesize aimed at teenagers aged 14 to 19. Rather than focusing on star players, the campaign highlights off-pitch roles in football—such as data analysts, sports psychologists, and social media producers.",
+        "Designed and animated by Danny Cato under creative director Bill Elliott, the vertical films deliver dense, high-energy visuals reminiscent of animated posters. Cato employed a distinct cut-and-paste aesthetic built from halftone portraits, torn newspaper elements, and oversized brush lettering."
+      ],
+      "more": [
+        "The campaign's visual language uses abrupt scale shifts and layered textures to condense career facts and key skills into sub-one-minute vertical videos tailored specifically for mobile feeds. The outcome turns educational career advice into an engaging visual narrative.",
+        "Beyond the main animation design, the production process itself opened up real-world career opportunities. Artful Being collaborated with Diana Jarvis at the Young Reporter Scheme to cast award-winner Arran Sihota to handle narration. Audio post-production was executed by Fonic Post with dedicated sound design by Chris Swaine, paired with music from Audio Network."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/artful-being-follow-your-passion-open-university-bbc-bitesize/"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/motion-artful-being-turns-off-pitch-football-careers-in.gif",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "ai-a-new-compressed-image-model-brings-minimax-h3-t",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "comfyui",
+        "image-generation",
+        "open-weights"
+      ],
+      "title": "A new compressed image model brings MiniMax H3 to ComfyUI",
+      "snippet": "Pruna's new distilled model shrinks MiniMax H3 down significantly, letting you generate and edit images five times faster in just eight steps.",
+      "body": [
+        "A fresh open-weight image model based on MiniMax H3 has landed on Hugging Face and ComfyUI, promising much faster generation and editing times. Built by Pruna AI, the model is roughly seven times smaller than the original H3 architecture and runs in just eight steps instead of fifty.",
+        "That efficiency means a 4-megapixel image can render in about 2.6 seconds instead of over twelve, all while running comfortably on smaller GPUs. It excels particularly at photorealism, documentary photography, and short quoted text in graphic styles."
+      ],
+      "more": [
+        "The release includes distinct versions for image generation and image editing, with the latter supporting up to eight input images at once. To achieve this speedup without sacrificing quality, the team reworked nearly every component of the underlying H3 architecture, including the prompt upsampler, text encoder, diffusion schedule, transformer, and decoder.",
+        "Paired with a 4-billion parameter text encoder, the model is designed to keep the rich output quality of H3 while becoming a light enough download to run locally. For creators working inside ComfyUI, it provides an agile alternative for rapid iteration on photorealistic stills and editorial visuals without requiring massive hardware clusters."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xmyovx/new_image_model_based_on_minimax_h3_7_smaller_5/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "ai-can-local-llms-read-neural-network-weights-direc",
+      "topic": "ai",
+      "sub": "local-llm",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "local-llm",
+        "frontier-ai",
+        "qwen"
+      ],
+      "title": "Can local LLMs read neural network weights directly?",
+      "snippet": "Recent experiments show that open-weight models running on standard laptops can interpret raw floating-point numbers from neural networks.",
+      "body": [
+        "A fascinating research paper titled 'Sparks of Weight-Space Programming' demonstrated that frontier LLMs can natively read and write the raw weights of machine learning models. Beyond massive proprietary systems, developers have found that powerful open-weight models running locally can pull off similar tricks.",
+        "When fed raw floating-point numbers representing the policy networks of simple Atari games—completely stripped of any code execution tools—models like Qwen 3.8 27B running on a laptop can successfully deduce what game the network was trained to play."
+      ],
+      "more": [
+        "The experiments required feeding the raw weight prompts directly into models with extended reasoning tokens and long context windows. After lengthy reasoning traces involving deep dives into specific input channels and coordinate patterns, the local Qwen instance correctly identified games like Breakout, Pong, and Pac-Man solely by examining the numerical architecture.",
+        "While the broader concept of 'weight-space programming'—where AIs modify their own or other models' weights to fix bugs or enhance reasoning—has sparked debate over methodology and human-like researcher steps, the raw interpretation aspect highlights how much structural understanding these models pack into their parameters. It turns out that looking at a wall of floating-point numbers is enough for a capable model to piece together behavior from the ground up."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      },
+      "wiki": "Qwen",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/ai-can-local-llms-read-neural-network-weights-direc.webp",
+        "credit": "File:Qwen_3_chatbot_example_screenshot.webp"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "bike-the-obed-gvr-embraces-50mm-tires-and-progressive",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "gravel-bikes",
+        "bike-tech",
+        "frame-geometry"
+      ],
+      "title": "The Obed GVR Embraces 50mm Tires and Progressive Geometry",
+      "snippet": "Rather than just accommodating wide rubber, the new Obed GVR is designed explicitly around big clearance and long, stable handling for rough gravel racing.",
+      "body": [
+        "The line separating gravel race bikes from off-road adventure rigs keeps shifting. Obed's new GVR sits right on that edge, leaning heavily into progressive geometry designed around 50mm tires with clearance up to 2.2 inches.",
+        "Tested at $9,075 with SRAM Red XPLR and a DT Swiss suspension fork, the GVR relies on a long 1,056mm wheelbase, a 70.5° headtube angle, and 430mm chainstays. The result is an off-road racer focused entirely on control, stability, and steep-climbing traction rather than all-road compromise."
+      ],
+      "more": [
+        "The core philosophy of the GVR is embracing wide tires instead of squeezing them into traditional endurance geometry. By stretching the reach to 400mm and slackening the front end, the frame retains handling stability at speed on loose descents while preventing toe overlap with high-volume tread.",
+        "On steep uphills, the long rear end keeps the rear wheel planted. When paired with a firm remote lockout on the front suspension, line choice becomes effortless across uneven surfaces. However, that focus on big rubber brings trade-offs: on smooth paved transitions, the bike feels less dynamic than gravel frames with tighter, all-road geometries.",
+        "Drivetrain clearance is another consideration. The frame tested with a 42t single front chainring, and chainstay clearance gets tight above 44t, limiting top-end gear ratios for ultra-fast flat courses.",
+        "From a maintenance and customization standpoint, the GVR uses a standard T47 threaded bottom bracket and Universal Derailleur Hanger (UDH). As a direct-to-consumer build, buyers can spec cockpits, cable routing options, and componentry, though the frame omits rack mounts and internal downtube storage to stay focused on racing."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/obed-gvr-review/"
+      },
+      "wiki": "Gravel_bicycle",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/bike-the-obed-gvr-embraces-50mm-tires-and-progressive.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "bike-single-sided-titanium-pedals-bring-road-contact",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "pedals",
+        "gravel-gear",
+        "titanium"
+      ],
+      "title": "Single-Sided Titanium Pedals Bring Road Contact to Gravel Shoes",
+      "snippet": "Wolf Tooth’s MKO DEL pedals mix a refined titanium build with a single-sided broad platform designed to handle mud and support off-road shoes.",
+      "body": [
+        "Finding dedicated gravel hardware that balances weight and practical performance can be tough. Wolf Tooth’s Mark Zero (MKO) DEL pedals tackle this by paring down to a single-sided clipping mechanism wrapped in a titanium body.",
+        "By shedding the second engagement side, the design opens up clear space to shed mud, snow, and trail debris during hike-a-bike sections, while providing a broad platform that mimics the stability of a road pedal under two-bolt mountain bike soles."
+      ],
+      "more": [
+        "The MKO line refines the geometry Wolf Tooth introduced on its previous pedal series by trimming extra material using a titanium construction. The result is a lightweight unit that provides noticeably wider shoe-to-pedal contact than standard dual-sided SPD alternatives.",
+        "That larger platform reduces hot spots on longer rides by distributing foot pressure across a broader surface area, making soft-soled or walkable gravel shoes feel much stiffer under power.",
+        "The single-sided mechanism does require a brief adjustment period to flip and clip in compared to traditional two-sided off-road pedals. However, the open cavity left by removing the secondary clip makes mud clearing significantly faster when mounting back up in sticky terrain."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/wolf-tooth-mko-del-pedal-discount/"
+      },
+      "wiki": "Bicycle_pedal",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/bike-single-sided-titanium-pedals-bring-road-contact.jpg",
+        "credit": "velo.outsideonline.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "news-us-presses-venezuela-to-release-remaining-politi",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "venezuela",
+        "united-states",
+        "diplomacy",
+        "elections"
+      ],
+      "title": "US presses Venezuela to release remaining political prisoners",
+      "snippet": "Following high-level talks, Washington has urged Caracas to free remaining detainees and lay the groundwork for credible democratic elections.",
+      "body": [
+        "US Secretary of State Marco Rubio has met with Venezuelan counterpart Oliver Blanco to push for the release of all remaining political prisoners still held in the South American nation.",
+        "While over a thousand detainees have been freed since US forces seized former leader Nicolás Maduro in January, human rights groups report that hundreds of individuals arrested after the disputed 2024 election remain behind bars.",
+        "The diplomatic push comes as opposition leaders express frustration over the slow pace of democratic reforms under interim president Delcy Rodríguez."
+      ],
+      "more": [
+        "The meetings in Washington mark another step in the Trump administration's phased roadmap for Venezuela, which prioritizes stabilization, economic recovery, political reconciliation, and a transition to democracy. Following Maduro's dramatic removal and transfer to New York to face drug-trafficking charges, interim president Delcy Rodríguez has faced mounting pressure from domestic opposition groups demanding faster institutional change.",
+        "Opposition leader María Corina Machado, who returned to Venezuela last October after a period in exile, has been a leading voice for immediate reform. Fresh from receiving the 2025 Nobel Peace Prize, Machado has met with the families of those still detained and pressed for an election timeline within the next year, rejecting proposals that would delay democratic votes further. Independent observers and international bodies have repeatedly emphasized that completely overhauling the country's compromised electoral infrastructure is an absolute prerequisite for any legitimate poll.",
+        "While Rodríguez has publicly promised that elections will eventually take place under a renewed electoral authority, she has so far avoided committing to a firm calendar. US officials have reiterated that the necessary technical and political overhauls must proceed rapidly to ensure credibility, leaving the fragile interim administration walking a tightrope between domestic expectations and international demands."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Politics_of_Venezuela",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/news-us-presses-venezuela-to-release-remaining-politi.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "news-aukus-submarine-plan-slammed-as-australia-s-risk",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-04",
+      "style": "news",
+      "tags": [
+        "defence",
+        "submarines",
+        "australia",
+        "geopolitics"
+      ],
+      "title": "Aukus submarine plan slammed as Australia's riskiest defence move",
+      "snippet": "A high-profile public inquiry has urged the immediate termination of the $368bn Aukus nuclear submarine deal, calling it the country's worst defence decision.",
+      "body": [
+        "A public inquiry led by former public figures and defense experts has called for the immediate termination of the $368bn Aukus nuclear submarine agreement, labeling it the most costly and riskiest defense decision in Australia's history.",
+        "The report warns that hosting powerful nuclear submarines and thousands of US personnel risks dragging Australia into military conflict with China while severely undermining national sovereignty and non-proliferation commitments.",
+        "With critics pointing to major cost blowouts and severe delays in US production schedules, the inquiry urges the government to scrap the plan and completely rebuild its national security decision-making processes."
+      ],
+      "more": [
+        "The independent inquiry, titled Surrendering Australia: the Aukus Deception and led by former Labor MP Peter Garrett and former defence chief Adm Chris Barrie, followed more than 1,000 public submissions and widespread hearings. The report argues that the pact, originally signed by the Morrison government and backed by subsequent administrations, has completely lacked parliamentary scrutiny and oversight since its inception five years ago.",
+        "A core concern highlighted by the panel is the planned transformation of the Stirling defence precinct in Perth into what they describe as a de facto US base. Hosting up to 2,000 American personnel would potentially turn nearby residential communities into direct strategic targets. Furthermore, the inquiry estimates that an additional $180bn will be required solely to manage nuclear waste from the fleet, noting that Australia has yet to identify a permanent storage site for highly toxic reactor materials that remain dangerous for millennia.",
+        "Despite the findings, the path forward remains deeply contested. The current Labor government has maintained support for the acquisition of secondhand Virginia-class submarines slated to begin arriving around 2032, followed by the bespoke SSN-Aukus model in 2042. However, skeptics point out that there are no enforceable guarantees or refunds if partner countries fail to deliver, leaving Australia with immense financial liabilities and profound strategic vulnerability as global tensions persist."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry"
+      },
+      "wiki": "AUKUS",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/news-aukus-submarine-plan-slammed-as-australia-s-risk.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "tech-how-hackers-used-fake-job-interviews-and-an-inte",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "cybersecurity",
+        "binance",
+        "cryptocurrency",
+        "malware"
+      ],
+      "title": "How Hackers Used Fake Job Interviews and an Internal AI Tool in a $6.3B Heist",
+      "snippet": "A detailed postmortem reveals how North Korean attackers spent months infiltrating Binance through compromised developer tools, fake job offers, and an internal AI application.",
+      "body": [
+        "In what stands as the largest cryptocurrency theft to date, attackers linked by the FBI to North Korea's 'TraderTraitor' group executed a multi-month operation that netted over $6 billion. Binance released a detailed postmortem outlining how social engineering and targeted malware systematically compromised their development environment.",
+        "The attack began in June with a malicious Google ad that tricked a developer into downloading a tampered installer. Months later, another engineer was targeted with fake job interviews, culminating in an assignment payload that replaced a local pyenv executable with a backdoor. From there, the attackers leveraged an internal AI tool to assume control over employee wallets and execute authorized transfers."
+      ],
+      "more": [
+        "The postmortem details a remarkably patient chain of infiltration. After gaining initial intelligence from the June incident, the attackers established credibility with a second engineer over weeks of remote video calls and social media messaging. The trust built during these fake recruitment rounds led the engineer to execute a project task that silently altered local system binaries without triggering endpoint protection tools.",
+        "Once established within the internal network, the attackers targeted Binance's proprietary AI tool. By querying and utilizing this system, they managed to gain access and escalate control over multiple employee accounts and MPC-protected hot wallets.",
+        "When the unauthorized transfers began, security teams faced an architectural hurdle. Because the hot wallet relied on Multi-Party Computation (MPC), there was no single private key that could instantly revoke the malicious EIP-7702 authorizations, allowing initial transfers to proceed for nearly two hours.",
+        "Binance reported that about $2.85 billion in stolen assets have since been frozen or intercepted, with 98% of impacted tokens already replenished to prevent user loss. However, unanswered questions remain regarding how the internal AI tool was designed and why its permissions allowed such extensive access."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
+      },
+      "wiki": "Binance",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/tech-how-hackers-used-fake-job-interviews-and-an-inte.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "tech-lenovo-s-900-ideapad-slim-5x-brings-qualcomm-s-s",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "laptops",
+        "qualcomm",
+        "lenovo",
+        "hardware"
+      ],
+      "title": "Lenovo's $900 IdeaPad Slim 5x Brings Qualcomm's Snapdragon X2 Plus Down to Earth",
+      "snippet": "Amid rising memory prices and soaring laptop costs, a high-spec configuration featuring Qualcomm's latest silicon offers top-tier CPU performance under $1,000.",
+      "body": [
+        "Rising memory costs across the tech industry have made well-equipped laptops under $1,000 increasingly rare. Lenovo's IdeaPad Slim 5x stands out by combining 16 GB of memory, 512 GB of storage, and a high-resolution OLED screen in a 15.3-inch chassis priced at $900.",
+        "At the core of the machine is Qualcomm's Snapdragon X2 Plus processor. The ARM-based chip delivers CPU performance on par with modern flagship silicon like Apple's M5, though its integrated graphics remain oriented toward productivity rather than heavy 3D rendering or gaming."
+      ],
+      "more": [
+        "Finding an expansive 15-inch workspace without moving into heavy workstation territory or overpaying for ultra-portables like 13-inch models can be tricky. At 0.61 inches thick, the Slim 5x matches the profile of a 14-inch MacBook Pro while providing a significantly larger display area.",
+        "The Snapdragon X2 Plus processor excels at general productivity tasks and heavy multi-tasking across dozens of browser tabs and background applications without sacrificing power efficiency. The laptop also retains practical physical connectivity, including two USB-C ports, two USB-A ports, full-sized HDMI, and a microSD card reader.",
+        "Budget-focused laptops frequently sacrifice peripheral quality, but the machine includes a refined trackpad and keyboard setup. While it relies on a traditional mechanical click rather than haptic feedback, tactile accuracy remains solid for daily desktop-style work."
+      ],
+      "source": {
+        "id": "wired",
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/lenovo-ideapad-slim-5x-deal-11-26/"
+      },
+      "wiki": "Lenovo_IdeaPad",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/tech-lenovo-s-900-ideapad-slim-5x-brings-qualcomm-s-s.jpg",
+        "credit": "www.wired.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "science-stellar-collisions-in-the-early-universe-may-exp",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "astrophysics",
+        "james-webb",
+        "black-holes",
+        "astronomy"
+      ],
+      "title": "Stellar Collisions in the Early Universe May Explain Mysterious Black Holes",
+      "snippet": "A new model suggests stars in dense early clusters merged repeatedly to form cosmic giants, solving the puzzle of high-redshift \"little red dots.\"",
+      "body": [
+        "Astrophysicists at UCLA have proposed a mechanism to explain the origin of massive black holes and mysterious \"little red dots\" observed by the James Webb Space Telescope. By modeling stellar collisions in dense, early-universe star clusters, the team showed that stars can repeatedly merge without destroying each other.",
+        "In clusters lacking a central black hole, low-velocity collisions allow stars to merge into monstrous \"very massive stars.\" In the densest cases, these stellar giants can exceed 100,000 solar masses before collapsing directly into intermediate or supermassive black holes."
+      ],
+      "more": [
+        "The early universe was home to dense environments, including the ancestors of globular clusters and nuclear star clusters. Using cosmological simulations, the UCLA-led team built a model to track how stars behave in these high-redshift environments. They found that in clusters without an existing black hole, dynamical friction causes heavy merger products to sink toward the cluster core, triggering a cascade of gentle collisions.",
+        "This process allows a single star to continuously consume its neighbors, potentially growing to match the mass of the entire surrounding cluster. When such a massive star eventually reaches the end of its life, current physical models indicate it has no alternative but to collapse directly into a massive black hole. Once formed, this black hole creates a setup similar to the center of our own Milky Way galaxy.",
+        "However, the dynamics change dramatically if a massive black hole is already present in the cluster. In that scenario, the black hole's strong gravitational pull accelerates nearby stars to extreme speeds. Instead of merging gently, colliding stars smash into each other destructively, tearing themselves apart and spraying dense gas across the surrounding area.",
+        "The researchers suggest this rapid buildup of dense gas around a central black hole provides a convincing explanation for \"little red dots\"—compact, reddish objects spotted in the early universe that have puzzled astronomers. The team's theoretical findings align closely with observations from the James Webb Space Telescope, shedding light on how the universe's earliest monsters were born."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/colliding-stars-early-universe-15172.html"
+      },
+      "wiki": "Stellar_collision",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/science-stellar-collisions-in-the-early-universe-may-exp.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "science-cern-detects-evidence-of-a-one-in-ten-billion-pa",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "physics",
+        "cern",
+        "particle-physics",
+        "quantum-physics"
+      ],
+      "title": "CERN Detects Evidence of a One-in-Ten-Billion Particle Decay",
+      "snippet": "Physicists at the Large Hadron Collider have observed an ultra-rare process pursued for over 40 years, matching the predictions of the Standard Model.",
+      "body": [
+        "Physicists working with the LHCb experiment at CERN have reported evidence for an extraordinarily rare decay of the B0 meson. The process, in which the particle transforms into a pair of muons, occurs in roughly one out of every ten billion decays.",
+        "First searched for in 1984, the decay was spotted with a statistical significance of 3.2 standard deviations when combining new data with previous observations. The measured decay rate closely matches the predictions set by the Standard Model of particle physics."
+      ],
+      "more": [
+        "The decay involves the B0 meson, a short-lived subatomic particle containing a beauty quark, decaying into two muons—the heavier counterparts of electrons. Because the Standard Model predicts this specific transformation occurs only once per ten billion decays, isolating these rare events requires sifting through billions of background particle collisions generated inside the Large Hadron Collider.",
+        "Physicists at CERN's LHCb collaboration measured the decay's branching fraction at approximately 1.26 in 10 billion in their latest data, bringing the combined historical average to 1.14 in 10 billion. This result sits remarkably close to the theoretical prediction of 1.03 in 10 billion.",
+        "Alongside this milestone, the team refined measurements for a sibling process involving the B0s meson, which decays into two muons slightly more frequently. The new measurement yielded a branching fraction of 3.31 in a billion, offering the most precise determination to date and giving researchers tighter constraints on potential physics beyond the Standard Model.",
+        "By capturing such elusive events, physicists are testing the boundaries of fundamental physical laws. Extreme precision in measuring these rare decays allows researchers to look for subtle deviations that could hint at undiscovered forces or particles lurking in the quantum world."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/physics/cern-ultra-rare-particle-decay-15171.html"
+      },
+      "wiki": "Large_Hadron_Collider",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/science-cern-detects-evidence-of-a-one-in-ten-billion-pa.jpg",
+        "credit": "www.sci.news"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "design-swiss-post-s-new-custom-typeface-had-one-major-r",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-02",
+      "style": "explainer",
+      "tags": [
+        "typography",
+        "graphic-design",
+        "branding"
+      ],
+      "title": "Swiss Post’s new custom typeface had one major rule: do not be noticed",
+      "snippet": "When Swiss Post commissioned a new font family, they didn't want flashy branding. They wanted a design so seamless nobody would notice the file swap.",
+      "body": [
+        "Most brand redesigns look to make a loud impression, but Swiss Typefaces faced a uniquely demanding brief for Swiss Post: create a new typeface that nobody would actively notice. Developed over three years, Swiss Post Sans had to preserve the exact typographical footprint of the previous font, allowing an instant drop-in replacement across thousands of templates without reflowing a single line of text.",
+        "The upright styles demanded quiet restraint, softening cold corporate edges into friendly humanist shapes while remaining strictly legible across German, French, Italian, and Romansh. Yet where the uprights were bound by rigid technical confines, the italics were given full license to show off a sharp, calligraphic character."
+      ],
+      "more": [
+        "Designing for a national institution touching millions of daily routines brings unusual constraints. To avoid breaking millions of existing layouts, the upright styles had to strictly preserve the previous font's typographic volume. A document set in the old typeface needed to look identical in layout simply by swapping the font file.",
+        "On top of that structural restriction, the typeface had to handle all four official languages of Switzerland seamlessly, ensuring less common glyphs and accents played nicely. Because postal communications are dense with timetables, price charts, and shipping tariffs, the numerals had to be tabular by default so figures align naturally into clean columns without manual designer intervention. Swiss Post even tested early beta versions in real-world conditions alongside external experts.",
+        "To update the institutional tone for decades to come, Swiss Typefaces introduced warmer, humanist characteristics, avoiding sterile corporate dryness while steering clear of novelty quirks. One specific client request was rounding the square dots on letters like 'i' and 'j' to convey friendlier service.",
+        "The italics, meanwhile, had no historical metric constraints to match. Swiss Post's former logo relied on slanted uppercase letters to communicate motion and speed. When the identity transitioned to a solid, upright 'P', the italics were free to explore an entirely separate voice within the system.",
+        "Rather than just skewing the upright letterforms into obliques, the foundry crafted true cursive shapes for letters such as 'a', 'b', 'e', and 'g'. The strokes balance flowing curves against razor-sharp terminals—the lowercase 'f' dips below the baseline with the sweep of a calligraphy pen before finishing in a crisp horizontal cut.",
+        "Today, Swiss Post Sans lives on street adverts, packaging, postage stamps, train livery, apps, and XXL architectural signs. Because italics are rare on the web, Swiss Post uses them as large display accents, giving a massive public entity an expressive, human voice built entirely on utilitarian problem-solving."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/inspiration/swiss-typefaces-crafts-a-warmer-friendlier-custom-font-for-swiss-post/"
+      },
+      "wiki": "Swiss_Post",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/design-swiss-post-s-new-custom-typeface-had-one-major-r.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "design-a-200-page-editorial-guide-on-cooking-whole-fish",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "story",
+      "tags": [
+        "graphic-design",
+        "editorial-design",
+        "publishing"
+      ],
+      "title": "A 200-page editorial guide on cooking whole fish bridges science and supermarket kitsch",
+      "snippet": "Design studio Beam turned immigrant culinary traditions and marine ecology into an eclectic publication that tackles sustainable dining head-on.",
+      "body": [
+        "While New England waters are rich in marine life, much of the catch is shipped away because local shoppers default to boneless, skinless fillets. To address that gap, Providence and Cambridge-based studio Beam created 'Eating The Whole Fish', a 200-page hybrid publication combining scientific research, culinary guides, and cultural archives.",
+        "Founded by RISD graduates Zoe Lee and Annie Chen alongside Ryan Lettieri, Beam collaborated with nonprofit Eating with the Ecosystem to make overlooked local seafood accessible. What started as an instructional zine rapidly expanded into an ambitious celebration of diasporic food culture and coastal ecology."
+      ],
+      "more": [
+        "The project began with a straightforward question from Kate Masury of Rhode Island nonprofit Eating with the Ecosystem: how can people be encouraged to eat with their local waters? While New England boasts abundant fish, consumers unfamiliar with whole fish frequently pass over native species in favor of imported fillets.",
+        "For the founders of Beam, the solution was rooted in heritage. Having grown up in immigrant households where serving fish with the head, skin, and bones intact was an everyday reality, they realized that preparing whole catches wasn't an exotic culinary stunt, but basic inherited food knowledge.",
+        "To turn that premise into a dynamic publication, the studio engaged chefs, fishmongers, scientists, and fishermen. The resulting volume blends practical filleting diagrams and recipes with broader discussions of supply chains, Indigenous coastal knowledge, and immigration history.",
+        "Visually, designer Kayla Feng helped assemble an irreverent editorial language that avoids standard New England nautical cliches. The spreads pull together hand-cut collages, technical anatomical charts, a photo essay documenting a Chinese supermarket, and a detailed gatefold illustration tracing the bond between chef and fisherman.",
+        "Graphic motifs borrow heavily from food packaging and domestic craft. Checkerboard tablecloth patterns from classic clam shacks double as modular grids reminiscent of digital pixels, cross-stitch samplers, and structured scientific data fields.",
+        "By merging playful diagrams with rigorous reporting, Beam treats environmental advocacy as an invitation to culinary adventure rather than a lecture, seeking to support local fishermen by demystifying the fish counter."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/beam-eating-the-whole-fish-graphic-design-project-031126"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/design-a-200-page-editorial-guide-on-cooking-whole-fish.png",
+        "credit": "www.itsnicethat.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "pt-a-comedia-gravada-em-lisboa-que-bateu-recordes-d",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "cinema",
+        "netflix",
+        "lisboa",
+        "comedia"
+      ],
+      "title": "A comédia gravada em Lisboa que bateu recordes de bilheteira e chegou à Netflix",
+      "snippet": "\"Minha Melhor Amiga\", rodado entre a capital e Almada, levou mais de seis milhões de espectadores aos cinemas antes de estrear no streaming.",
+      "body": [
+        "O filme \"Minha Melhor Amiga\", realizado por Susana Garcia, chegou ao catálogo da Netflix após um percurso histórico nas salas de cinema brasileiras, onde somou mais de seis milhões de espectadores e ultrapassou a bilheteira de grandes produções premiadas.",
+        "A comédia tem como cenário principal a cidade de Lisboa e conta a história de duas amigas de longa data que viajam para Portugal no encalço das filhas. A rodagem passou por locais emblemáticos como a Praça do Comércio, Mosteiro dos Jerónimos e a praia da Ribeira do Cavalo, em Almada.",
+        "Além dos cenários portugueses, a produção conta com vários atores nacionais no elenco principal, incluindo Albano Jerónimo e Ricardo Pereira."
+      ],
+      "more": [
+        "Inspirado na amizade real entre as comediantes Ingrid Guimarães e Mônica Martelli, o enredo acompanha duas mulheres aos 50 anos que decidem fazer uma viagem surpresa a Portugal quando as respetivas filhas partem juntas num programa de intercâmbio. A visita transforma-se numa jornada inesperada de novos relacionamentos e autodescoberta.",
+        "Com receitas de bilheteira que ultrapassaram os 17,6 milhões de euros no Brasil, a obra tornou-se na produção de maior audiência nos cinemas daquele país desde 2019.",
+        "A presença portuguesa é marcante em frente às câmaras. Albano Jerónimo interpreta um guia turístico que se envolve com uma das protagonistas, enquanto Ricardo Pereira encarna o papel de um médico. O elenco integra ainda nomes como Ângelo Rodrigues, Filipe Vargas e Frederico Amaral.",
+        "Entre os locais de rodagem destacados na Margem Sul está também o restaurante Ponto Final, em Cacilhas, servindo de pano de fundo para as peripécias das personagens na região de Lisboa."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/cultura/cinema/minha-melhor-amiga-chegou-a-netflix-o-filme-gravado-em-lisboa-que-conquistou-o-brasil"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-04/pt-a-comedia-gravada-em-lisboa-que-bateu-recordes-d.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "pt-deixou-um-emprego-estavel-em-paris-para-abrir-um",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-11-04",
+      "style": "story",
+      "tags": [
+        "gastronomia",
+        "margem-sul",
+        "aroeira",
+        "livros"
+      ],
+      "title": "Deixou um emprego estável em Paris para abrir uma creperia na Margem Sul",
+      "snippet": "Cyril Gabriel Martins vendeu o apartamento em França e mudou-se para a Aroeira para fazer crepes tradicionais e ilustrar contos poéticos.",
+      "body": [
+        "Cyril Gabriel Martins era diretor de marketing no setor ferroviário em Paris. Durante a pandemia, decidiu repensar a vida, vendeu o apartamento onde morava e mudou-se para Portugal com o companheiro. O destino escolhido não foram as aldeias de origem da família no interior, mas sim a zona da Aroeira, na Margem Sul do Tejo.",
+        "Sem qualquer experiência em restauração, percebeu que faltavam no país os crepes salgados típicos da Bretanha. Fez uma formação intensiva na região francesa e abriu o Crepúsculo, uma creperia especializada em receitas tradicionais com farinha de trigo sarraceno.",
+        "Paralelamente ao restaurante, Cyril encontrou espaço para a criação artística. Inspirado por passeios em Sintra, escreveu e ilustrou \"A Menina das Cores\", um conto poético publicado em português e francês."
+      ],
+      "more": [
+        "A ligação de Cyril a Portugal vem da infância. Filho de emigrantes portugueses em França, passava férias no país e esforçava-se por falar a língua para comunicar com os avós. Contudo, na hora de escolher a nova morada, optou por ficar perto do aeroporto de Lisboa para facilitar as visitas à família em França.",
+        "Antes de decidir abrir uma creperia, o empresário ponderou outras ideias de negócio, como uma livraria, uma florista ou uma garrafeira. A escolha acabou por cair na gastronomia bretã, terra natal do seu companheiro Sébastien. Para dominar a técnica, Cyril passou uma semana em aprendizagem na creperia La Reine Anne, na Bretanha.",
+        "O Crepúsculo abriu em junho de 2022 com capacidade para 26 pessoas. A carta destaca-se pelos crepes finos salgados de trigo sarraceno sem glúten, com combinações que vão do bacon e queijo emmental a propostas com queijo brie, nozes e mel, acompanhados por cidra artesanal importada da Bretanha.",
+        "O lado artístico de Cyril concretizou-se com o lançamento do livro \"A Menina das Cores\", em agosto. A obra narra a aventura de uma pastorinha cega e do seu beija-flor, abordando temas como a perceção e a contemplação, estando à venda no próprio restaurante e online."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/comida/restaurantes/cyril-deixou-paris-e-um-emprego-estavel-para-abrir-um-creperia-e-fazer-ilustracoes"
+      },
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-04/pt-deixou-um-emprego-estavel-em-paris-para-abrir-um.jpg",
+        "credit": "www.nit.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "books-decoding-the-avant-garde-spy-drama-and-the-playf",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-11-02",
+      "style": "book",
+      "tags": [
+        "experimental-fiction",
+        "writing",
+        "avant-garde"
+      ],
+      "title": "Decoding the avant-garde spy drama and the playful nature of narrative",
+      "snippet": "Tom McCarthy's abstruse spy thriller set within the EU Court of Justice blends trauma, legal philosophy, and literary gamesmanship.",
+      "body": [
+        "Tom McCarthy's novel The Rhyl Poster transports readers deep into the polyglot operations of Luxembourg’s Court of Justice of the European Union. The story follows Stanton, a pill-popping jurist and former military geographer haunted by his past in Iraq, as he navigates a complex privacy lawsuit against a data analytics firm.",
+        "True to McCarthy's experimental style, the book functions as a genre-curious mashup of trauma plot and heist narrative that resists easy closure. It plays with the slippery nature of interpretation, linguistic repetition, and the rules of institutional bureaucracy."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/nov/02/the-rhyl-poster-by-tom-mccarthy-review-is-this-avant-garde-spy-drama-worth-the-riddles"
+      },
+      "wiki": "Tom_McCarthy_(novelist)",
+      "lang": "en",
+      "book": {
+        "title": "The Rhyl Poster",
+        "author": "Tom McCarthy",
+        "lessons": [
+          {
+            "title": "Language Shapes the World",
+            "text": "McCarthy treats law and literature as realms where language actively constructs reality. Interpretation is presented not as a simple deduction of facts, but as a complex, recursive game of meaning."
+          },
+          {
+            "title": "The Obsession with Repetition",
+            "text": "A central theme across McCarthy's work is the fundamental human drive toward self-duplication and repeating past traumas or scenarios, mirroring how legal systems rely on precedent."
+          },
+          {
+            "title": "Embracing the Enigma",
+            "text": "The novel deliberately frustrates traditional expectations of suspense and closure, treating the reading experience itself as an intricate puzzle box rather than a straightforward journey from A to B."
+          }
+        ],
+        "takeaway": "Try approaching a routine task or creative project this week not by seeking a quick conclusion, but by exploring the rules and structures behind it.",
+        "forWho": "Fans of experimental fiction, literary puzzles, and unconventional contemporary novels."
+      },
+      "image": {
+        "src": "editions/2026-11-04/books-decoding-the-avant-garde-spy-drama-and-the-playf.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "books-the-kardashian-phenomenon-and-the-reshaping-of-m",
+      "topic": "books",
+      "sub": "mind",
+      "kind": "evergreen",
+      "published": "2026-11-03",
+      "style": "book",
+      "tags": [
+        "celebrity-culture",
+        "psychology",
+        "media"
+      ],
+      "title": "The Kardashian phenomenon and the reshaping of modern celebrity culture",
+      "snippet": "Jonathan Van Meter profiles Kim Kardashian to explore how reality television and social media completely transformed public identity and fame.",
+      "body": [
+        "In Citizen Kim, veteran magazine writer Jonathan Van Meter offers an in-depth look at Kim Kardashian, tracing her journey from reality TV star to billionaire businesswoman and criminal justice activist. Based on extensive, intimate access, the book examines how Kardashian recognized the power of social media early on and used it to redefine contemporary celebrity culture.",
+        "While the book attempts moments of cultural analysis, it largely unfolds as a traditional, highly personal biography. It reveals fascinating contradictions: a subject who lacks deep introspection yet carefully manages public and private narratives, operating within a world of extreme privilege and unexpected Gothic undercurrents."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/nov/03/citizen-kim-by-jonathan-van-meter-review-kardashian-under-the-microscope"
+      },
+      "wiki": "Kim_Kardashian",
+      "lang": "en",
+      "book": {
+        "title": "Citizen Kim",
+        "author": "Jonathan Van Meter",
+        "lessons": [
+          {
+            "title": "The Architecture of Reality TV",
+            "text": "The Kardashian family mastered the art of serialized reality television by ensuring storylines always reach a resolution. By treating public and private life as one continuous narrative, they created a comforting, predictable script for viewers."
+          },
+          {
+            "title": "Early Adoption of Social Media",
+            "text": "Kardashian recognized the immense potential of digital platforms from their inception. By bypassing traditional gatekeepers, she built a direct pipeline to her audience and translated that attention into massive commercial success like Skims."
+          },
+          {
+            "title": "The Shield of Positivity",
+            "text": "A notable trait of Kardashian's public survival is her aversion to lingering on the negative or engaging in heavy introspection. This relentless forward momentum helps protect her from the turbulence of relentless public scrutiny."
+          }
+        ],
+        "takeaway": "Examine how you consume curated narratives online and try stepping back to evaluate the machinery behind modern digital attention.",
+        "forWho": "Readers fascinated by modern pop culture, media strategy, and the psychological mechanics of fame."
+      },
+      "image": {
+        "src": "editions/2026-11-04/books-the-kardashian-phenomenon-and-the-reshaping-of-m.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "ideas-religious-credence-and-factual-belief-are-distin",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "cognitive-science",
+        "philosophy",
+        "belief"
+      ],
+      "title": "Religious credence and factual belief are distinct cognitive attitudes, not different types of facts",
+      "snippet": "We choose religious credence voluntarily, but factual beliefs are involuntarily forced upon us by evidence.",
+      "body": [
+        "Philosopher Neil Van Leeuwen and legal scholar Jacob Eisler explain that religious belief and factual belief differ fundamentally in how the mind processes them, regardless of their content. Factual beliefs are involuntary and dictated by empirical evidence; you cannot simply decide to factually believe that lions are vegetarians if you know otherwise.",
+        "In contrast, religious credence is voluntary and serves symbolic or identity-driven roles. Recognizing this psychological distinction clarifies why free societies protect religious belief while actively shaping factual education."
+      ],
+      "more": [
+        "Debates over the separation of church and state often get stuck trying to define religion by its content—such as whether a doctrine mentions God or morality. Van Leeuwen and Eisler suggest shifting focus from *what* is believed to *how* the mind holds the idea.",
+        "Factual beliefs are governed by cognitive mechanisms designed to mirror reality accurately. They update automatically when presented with new sensory evidence. If you believe a store is open but arrive to find the lights off and doors locked, your factual belief vanishes instantly without conscious choice.",
+        "Religious credence operates on a different psychological plane. It is voluntary, often declared as a conscious choice of faith or commitment to a community. Because religious credence is not bound to direct empirical verification in the same way, individuals can retain sacred ideas regardless of physical counter-evidence.",
+        "Understanding this cognitive difference reveals why legal systems treat the two attitudes differently. Governments must intervene in factual beliefs—such as public health facts or building codes—to keep society functioning, while leaving voluntary religious credence protected as a matter of personal stance."
+      ],
+      "source": {
+        "id": "aeon",
+        "name": "Aeon",
+        "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
+      },
+      "wiki": "Belief",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/ideas-religious-credence-and-factual-belief-are-distin.jpg",
+        "credit": "aeon.co"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "ideas-consciousness-is-an-embodied-state-born-from-fee",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "idea",
+      "tags": [
+        "neuroscience",
+        "consciousness",
+        "philosophy-of-mind",
+        "antonio-damasio"
+      ],
+      "title": "Consciousness is an embodied state born from feeling, not a purely neural trick of the brain",
+      "snippet": "Our feelings represent the internal state of our bodies, turning raw sensory mapping into the conscious sense of self.",
+      "body": [
+        "Neuroscientist Antonio Damasio argues that consciousness isn't merely an algorithmic byproduct of neural firing inside the brain. Instead, it is an embodied phenomenon arising directly from feelings—the constant neurobiological dialogue between the central nervous system and the rest of the body.",
+        "While simple organisms can sense their environment and map information into mental images, complex consciousness emerges when feelings color those images. By reflecting the body's internal state, feelings generate a sense of ownership over our experiences, turning abstract neural processing into a personal, conscious mind."
+      ],
+      "more": [
+        "Traditional theories of consciousness often divide into two main camps: strict neurological materialism, which treats consciousness entirely as brain activity, and mystical dualism, which places mind outside the physical body. Damasio pushes back against both by re-anchoring the mind in bodily physiology.",
+        "In Damasio’s framework, organisms operate across distinct levels of complexity. At the base level is 'sensing'—the simple biological detection of stimuli shared by all living things. Next comes 'minding,' where organisms with nervous systems map external information into mental images and patterns to navigate the world safely.",
+        "Consciousness proper emerges when 'minding' intersects with 'feeling.' Our external senses (sight, sound, touch) render the world outside into images, while our feelings render our internal landscape. Feelings represent the moment-by-moment physical well-being of the body back to the central nervous system.",
+        "This internal feedback loop creates a continuous stream of affect-laden mental images. By linking these images together in memory and imaginative thought, the organism develops a reference system—a explicit sense of 'me' experiencing the world. Consciousness, then, is the grand biological integration of body and brain."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/03/feeling-knowing-damasio/"
+      },
+      "wiki": "Antonio_Damasio",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/ideas-consciousness-is-an-embodied-state-born-from-fee.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "f1-why-mclaren-got-stuck-in-dirty-air-at-the-mexico",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "news",
+      "tags": [
+        "f1",
+        "mclaren",
+        "mexico-gp",
+        "motorsport"
+      ],
+      "title": "Why McLaren got stuck in dirty air at the Mexico GP",
+      "snippet": "High altitude and qualifying mistakes left McLaren trapped in DRS trains all Sunday in Mexico City. Team boss Andrea Stella explains how track position derailed their podium pace.",
+      "body": [
+        "Having a podium-capable car means little when you spend 71 laps stuck in dirty air. McLaren paid the price for a difficult Saturday qualifying session at the Mexico City Grand Prix, where high altitude makes cooling critical and following rivals aerodynamically brutal.",
+        "Lando Norris spent his race trapped behind rivals, unable to turn raw pace into position, while Oscar Piastri picked up a time penalty following contact with Arvid Lindblad during a recovery drive. Team principal Andrea Stella admitted that Norris spent so long staring at rear wings he could probably draw them with his eyes closed."
+      ],
+      "more": [
+        "Mexico City's thin air compounds aerodynamic drag and overheating issues, making track position paramount. Norris found himself stuck behind George Russell and Charles Leclerc, unable to clear the turbulent wake without torching his tyres.",
+        "The lost points hurt McLaren's tight battle in the Constructors' Championship, where they sit 17 points behind Red Bull Racing in the fight for third place.",
+        "Stella confirmed that McLaren will bring fresh technical upgrades to Interlagos for the Sao Paulo Grand Prix to mount a final push against Red Bull, but warned that clean execution on Saturday is non-negotiable.",
+        "\"We have 17 points to make up, but I believe that with the pace we showed today and the upgrades coming to Brazil next week, we have every chance of achieving at least that target,\" Stella said. \"To do so, however, we'll have to be perfect as a team, in every respect.\""
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/stella-explains-how-a-nightmare-qualifying-destroyed-mclarens-mexico-gp-we-paid-the-price/10871257/"
+      },
+      "wiki": "McLaren",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/f1-why-mclaren-got-stuck-in-dirty-air-at-the-mexico.jpg",
+        "credit": "www.motorsport.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "health-how-to-prioritize-health-interventions-for-the-l",
+      "topic": "health",
+      "kind": "evergreen",
+      "published": "2026-09-26",
+      "style": "explainer",
+      "tags": [
+        "health",
+        "longevity",
+        "exercise",
+        "preventive-medicine",
+        "lifestyle"
+      ],
+      "title": "How to Prioritize Health Interventions for the Long Run",
+      "snippet": "In a marketplace full of health gadgets and novel supplements, long-term health depends on securing the high-impact fundamentals first.",
+      "body": [
+        "When managing health choices over a lifetime, it is easy to get distracted by trendy products and complex optimizations. However, health interventions compete for finite resources like time, attention, and money, making proper prioritization essential.",
+        "The most effective approach starts by assessing the size of an intervention's expected benefit. Foundational habits—such as managing blood pressure and blood lipids, exercising regularly, eating well, and sleeping adequately—deliver the largest returns over a lifetime.",
+        "Lower-priority interventions like specialized gadgets, supplements, or niche therapies only make sense after foundational habits are established. Spending effort on marginal gains while neglecting sleep or exercise is a common trap."
+      ],
+      "more": [
+        "Prioritization requires answering two core questions: how large is the expected benefit for your specific situation, and what do you give up by choosing a particular intervention? For an inactive person, adding a 20-minute daily walk provides a massive benefit, whereas the same walk adds much less incremental gain for someone who is already highly active.",
+        "Misplaced prioritization often occurs when trying to optimize an already good habit to perfection. Beginners frequently spend hours debating ideal exercise routines or optimal diet splits, but the difference between exercising consistently versus inconsistently far outweighs the minor difference between two reasonable workout programs.",
+        "Diminishing returns apply to most health behaviors. Moving from no exercise to regular exercise, or from a poor diet to a broadly nutritious one, delivers the vast majority of potential health gains. Endless fine-tuning of an already solid routine yields progressively smaller improvements.",
+        "Several psychological factors lead people to overvalue lower-impact interventions. Novelty makes unproven trends seem exciting, while easy options like taking a pill are naturally attractive compared to demanding habits like physical training. Highly sophisticated marketing and immediate sensory feedback (such as cold plunges) can also create a false sense of long-term health benefit.",
+        "To build a sustainable health strategy, focus first on high-impact interventions that quiet, long-term dividends accumulate over decades. Speculative or low-yield interventions should only be considered once core sleep, movement, and metabolic baselines are consistently met."
+      ],
+      "source": {
+        "id": "health-peter-attia-s-the-drive",
+        "name": "Peter Attia's The Drive",
+        "url": "https://peterattiamd.com/prioritizing-interventions/"
+      },
+      "wiki": "Preventive_healthcare",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/health-how-to-prioritize-health-interventions-for-the-l.png",
+        "credit": "peterattiamd.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    },
+    {
+      "id": "health-a-simple-protein-swap-for-healthy-aging",
+      "topic": "health",
+      "kind": "news",
+      "published": "2026-11-03",
+      "style": "explainer",
+      "tags": [
+        "nutrition",
+        "plant-based",
+        "healthy-aging",
+        "longevity",
+        "diet"
+      ],
+      "title": "A Simple Protein Swap for Healthy Aging",
+      "snippet": "Replacing just a fraction of animal protein with plant protein can significantly lower mortality risk and help prevent age-related decline.",
+      "body": [
+        "Swapping as little as 1% of animal protein for plant protein is associated with significantly less age-related deficit accumulation. In a large study of over 400,000 people, replacing 3% of total calories from animal protein with plant protein was tied to a 10% reduction in overall mortality risk, effectively adding about a year of life.",
+        "Egg protein—primarily egg whites—showed the strongest association with mortality risk in the data. Replacing 3% of calories from egg protein with plant protein resulted in more than a 20% reduction in overall mortality, outperforming the risk reduction seen when swapping out red meat.",
+        "Beyond lifespan, vegetable protein intake was correlated with better functional ability, reduced disease burden, and less use of health services. These effects persisted even after controlling for dietary saturated fat."
+      ],
+      "more": [
+        "Healthy aging is defined as maintaining functional ability and well-being into older age. Research shows that higher intake of vegetable protein correlates with fewer physical impairments, better mental health, and greater vitality in later years. The benefit appears to stem from both avoiding harmful factors associated with certain animal products and gaining protective compounds found in plants.",
+        "A whole food, plant-based (WFPB) diet differs from a standard vegan diet, as it avoids heavily processed oils, white flour, and added sugars. WFPB diets help maximize cellular antioxidant potential and reduce exposure to gerontotoxins—such as advanced glycation end products (AGEs)—which accumulate in the bloodstream and accelerate tissue aging.",
+        "Dietary choices also play a substantial role in cognitive health. Strict adherence to the MIND diet—which emphasizes greens, berries, beans, whole grains, nuts, and seeds while limiting animal foods and saturated fats—was associated with a 53% reduction in Alzheimer's disease risk. Even moderate adherence cut the risk by roughly a third, yielding cognitive function equivalent to someone 7.5 years younger.",
+        "Cooking methods significantly influence dietary toxin levels. For instance, boiling a chicken breast produces around 1,000 KU of AGEs, whereas broiling that same chicken breast increases AGE levels to 9,000 KU. Broiled, grilled, and fried meats account for most of the highest AGE-contaminated foods tested.",
+        "Ultimately, protective dietary habits reduce chronic inflammation and oxidative stress. Combined with lifestyle factors like regular brisk walking—which alone is linked to a 40% lower risk of Alzheimer's—eating more whole plant foods helps preserve brain tissue and overall cellular health over time."
+      ],
+      "source": {
+        "id": "health-dr-greger-s-nutritionfacts-org",
+        "name": "Dr. Greger's NutritionFacts.org",
+        "url": "https://nutritionfacts.org/blog/a-simple-protein-swap-for-healthy-aging/"
+      },
+      "wiki": "Plant-based_diet",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-04/health-a-simple-protein-swap-for-healthy-aging.jpg",
+        "credit": "nutritionfacts.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-04"
+    }
+  ]
+}

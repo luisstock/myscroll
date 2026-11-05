@@ -490,5 +490,17 @@
   "v2:en:Qwen": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Qwen_3_chatbot_example_screenshot.webp/500px-Qwen_3_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Qwen_3_chatbot_example_screenshot.webp"
+  },
+  "v2:en:Dog_training": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Controlled_training_exercises_130129-F-HX529-104.jpg/1280px-Controlled_training_exercises_130129-F-HX529-104.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Controlled_training_exercises_130129-F-HX529-104.jpg"
+  },
+  "v2:en:Bicycle_tire": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Vittoria_Zaffiro_tire.jpg/1280px-Vittoria_Zaffiro_tire.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Vittoria_Zaffiro_tire.jpg"
+  },
+  "v2:en:Vytautas": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Edict_of_Vytautas_the_Great._Issued_1410-_02-16.jpg/500px-Edict_of_Vytautas_the_Great._Issued_1410-_02-16.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Edict_of_Vytautas_the_Great._Issued_1410-_02-16.jpg"
   }
 }

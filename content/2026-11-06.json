@@ -1,0 +1,769 @@
+{
+  "date": "2026-11-06",
+  "number": 17,
+  "items": [
+    {
+      "id": "til-inside-barryscourt-castle-cork-s-medieval-tower",
+      "topic": "til",
+      "sub": "story",
+      "kind": "news",
+      "published": "2026-11-04",
+      "style": "story",
+      "tags": [
+        "ireland",
+        "castles",
+        "medieval-history",
+        "architecture"
+      ],
+      "title": "Inside Barryscourt Castle: Cork's medieval tower house shaped by rebellion",
+      "snippet": "Built between 1392 and 1420 outside Carrigtwohill, Barryscourt Castle reveals how medieval Irish fortresses evolved from bloody strongholds into comfortable homes.",
+      "body": [
+        "Just outside Carrigtwohill in County Cork sits Barryscourt Castle, one of Ireland's finest surviving examples of a late-medieval tower house. Constructed between 1392 and 1420 under John Ciotach Barry, seventh Lord Barry, the fortress served as the main seat for the powerful Anglo-Norman Barrymore family.",
+        "The site reflects centuries of architectural and political transformation. Surrounding its massive central tower is a defensive bawn, or walled courtyard, which featured corner defensive towers that over time transitioned from purely military strongholds into domestic garden spaces."
+      ],
+      "more": [
+        "The stone walls of Barryscourt bear direct scars from Ireland's tumultuous 16th-century conflicts. During the Desmond Rebellions, when the Barrys found themselves targeted by English military forces under Sir Walter Raleigh, parts of the castle were intentionally damaged by its owners to prevent English troops from capturing and occupying the site.",
+        "Inside the main tower, domestic medieval life remains preserved in stone. The structure housed a Great Hall for grand entertaining, private living chambers, a dedicated chapel, and working kitchens, highlighting the complex balance between everyday household needs and defensive security.",
+        "Archaeological research within the courtyard has illuminated how nobility adapted medieval defenses as warfare evolved. As heavy artillery rendered thick stone walls less effective against siege tactics, defensive courtyards were repurposed into ornamental gardens and utility spaces, reflecting a gradual shift toward early modern manor living.",
+        "Today, managed as a protected heritage location, Barryscourt Castle offers a direct physical record of the Anglo-Norman lineage in Munster, documenting the transition from feudal military strongholds to country residences."
+      ],
+      "source": {
+        "id": "atlas-obscura",
+        "name": "Atlas Obscura",
+        "url": "https://www.atlasobscura.com/places/barryscourt-castle"
+      },
+      "wiki": "Barryscourt_Castle",
+      "lang": "en"
+    },
+    {
+      "id": "til-texidor-s-twinge-that-terrifying-random-sharp-ch",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "til",
+      "tags": [
+        "medicine",
+        "anatomy",
+        "health",
+        "human-body"
+      ],
+      "title": "Texidor's twinge: That terrifying random sharp chest pain when breathing in",
+      "snippet": "If taking a deep breath sometimes feels like getting stabbed by a phantom needle right under your ribs, don't write your will just yet. It's usually just precordial catch syndrome.",
+      "body": [
+        "If you have ever been sitting quietly, taken a deep breath, and felt a sudden, sharp needle-like stab in your chest that makes you immediately stop inhaling, you are not alone. Known medically as Precordial Catch Syndrome (PCS)—or Texidor's twinge—the condition is completely harmless, despite feeling like a sudden heart attack.",
+        "First described by French cardiologist Henri Huchard in 1893 and later named in 1955, the condition causes brief, localized stabbing pains that typically last between 30 seconds and three minutes. It occurs at rest, affects children and young adults most commonly, and is not caused by the heart at all."
+      ],
+      "more": [
+        "While the exact cause of Precordial Catch Syndrome remains unproven, medical consensus suggests it stems from the chest wall—likely a minor irritation of an intercostal nerve or localized muscle spasming near the rib cage. Expanding the chest wall through deep inhalation causes the nerve to pinch or stretch, aggravating the pain.",
+        "Interestingly, the most effective way to clear the twinge is counterintuitive. While taking shallow breaths prevents the initial pain, taking one quick, deep breath to fully expand the rib cage often resolves it. Sufferers report feeling a distinct 'pop' or rubber-band snap, after which the sharp sensation instantly disappears.",
+        "The condition is primarily diagnostic by exclusion: because it lacks secondary symptoms like sweating, radiation of pain, or shortness of breath, doctors generally offer simple reassurance rather than treatment. The pain naturally subsides with age, becoming far less frequent in adulthood.",
+        "On online forums, news of the condition's official medical name usually brings a wave of collective relief. Readers often spend years secretly assuming they survived a minor cardiac event in their youth, only to find out decades later that their body was just experiencing a minor, harmless glitch in the ribs."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xow4oe/til_about_texidors_twinge_precordial_catch/"
+      },
+      "wiki": "Precordial_catch_syndrome",
+      "lang": "en"
+    },
+    {
+      "id": "fun-why-medical-heart-monitor-kits-arrive-with-an-ol",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "reddit",
+      "tags": [
+        "medical-devices",
+        "tech-recycling",
+        "smartphones",
+        "fda"
+      ],
+      "title": "Why medical heart monitor kits arrive with an old Samsung Galaxy S9",
+      "snippet": "Opening a mailed medical kit to find an entire secondhand smartphone inside sounds odd, until medical device engineers explain the regulatory paperwork involved.",
+      "body": [
+        "A Reddit user receiving an at-home ambulatory heart monitoring kit opened the package to discover an unexpected companion: a dedicated, encased Samsung Galaxy S9 provided solely to collect and transmit their cardiac data.",
+        "While shipping an entire dated smartphone to each patient might look like bizarre overkill, insiders from the medical device industry quickly stepped in to explain that it is actually a clever regulatory workaround. Medical regulators like the FDA require the entire digital ecosystem—hardware, firmware, and software—to be validated as a single cohesive unit.",
+        "Rather than navigating the nightmare of supporting every patient's random phone model and operating system, medical device companies find it vastly cheaper and safer to purchase and reuse fleets of older certified handsets."
+      ],
+      "more": [
+        "When an ambulatory heart monitor or mobile cardiac telemetry patch is approved by regulatory bodies like the FDA, the submission covers the complete chain of communication. The approval guarantees that battery management, Bluetooth connectivity, signal processing, and cellular data transmission will behave predictably under life-critical conditions.",
+        "As one former heart-monitor company employee detailed in the thread, companies originally tried manufacturing bespoke transmission hardware. Their company built custom LTE devices featuring only four indicator buttons and LEDs, producing around 300,000 units annually. However, maintaining custom printed circuit board assemblies, handling quality control, and tearing them down for reuse proved immensely labor-intensive.",
+        "Off-the-shelf consumer smartphones solve the manufacturing headache, but create a regulatory freeze. If a company wants to alter the phone model, they face verification and validation testing, which can demand a new 510(k) filing for significant hardware modifications. As a result, systems remain married to specific models like the Galaxy S9 long after those phones disappear from retail shelves.",
+        "The unexpected side effect is a second life for enterprise electronics. Commenters noted that giving older devices an extended, reliable cycle in clinical logistics keeps functional hardware out of e-waste streams, proving that medical standards and secondhand electronics can surprisingly complement each other."
+      ],
+      "source": {
+        "id": "r-mildlyinteresting",
+        "name": "r/mildlyinteresting",
+        "url": "https://www.reddit.com/r/mildlyinteresting/comments/1xosc5b/mailed_heart_monitor_kit_includes_a_smartphone/"
+      },
+      "wiki": "Samsung_Galaxy_S9",
+      "lang": "en"
+    },
+    {
+      "id": "ai-krea-2-turbo-4-step-lora-gets-a-133k-checkpoint",
+      "topic": "ai",
+      "sub": "image-video",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "reddit",
+      "tags": [
+        "comfyui",
+        "image-generation",
+        "lora",
+        "stable-diffusion",
+        "local-ai"
+      ],
+      "title": "Krea 2 Turbo 4-Step LoRA Gets a 133K Checkpoint Upgrade",
+      "snippet": "The fast-generation distilled LoRA for local setups gets an extra 55,000 training steps, delivering cleaner details and fixing large-scale sharpening artifacts.",
+      "body": [
+        "A major update to the Krea 2 Turbo 4-step distilled LoRA (checkpoint 133000) has been released, expanding on the original 78,000-step version. The new training pass adds 55,000 samples evaluated by five critic heads, bringing 4-step generations substantially closer to the fidelity of the full 8-step teacher model.",
+        "Key improvements include cleaner fine textures without high-resolution over-sharpening, better grain consistency in flat areas, and a noticeable reduction in doubled edges across twelve test image sizes. The extra training was run on cloud H200 GPUs combined with a local RTX 3090.",
+        "The updated LoRA safetensors are designed as a drop-in replacement for ComfyUI and standard web UI workflows, offering high-speed image rendering without sacrificing structural sharpness."
+      ],
+      "more": [
+        "Distilled 4-step models have become a staple for local image generation workflows, allowing creators to drop generation times drastically while retaining complex prompt adherence. However, early distilled checkpoints often suffered from subtle artifacts: micro-ghosting along high-contrast lines, grain mismatch in flat backgrounds, and aggressive edge enhancement at higher target resolutions.",
+        "The creator of the Krea 2 Turbo LoRA addressed these issues by extending the training beyond what was initially considered the final checkpoint. Using five critic heads during the additional 55,000 samples helped the model better match the teacher's pixel grid structure and grain profile.",
+        "In benchmark tests against the 8-step teacher across 15 test prompts and 12 render sizes, fine grid patterns dropped from 1.11× distortion down to 0.96–0.98×. At larger sizes like 1440px, texture sharpness measurements cooled down from 1.20× over-sharpened back to a near-identical 1.01–1.04× of the teacher output.",
+        "For artists using ComfyUI, updating requires replacing the existing rank-64 LoRA `.safetensors` file in the models directory. The older 78K checkpoints remain archived on Hugging Face for reproducibility, but the 133K build is now the recommended default for fast local renders."
+      ],
+      "source": {
+        "id": "r-stablediffusion",
+        "name": "r/StableDiffusion",
+        "url": "https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/"
+      },
+      "wiki": "Stable_Diffusion",
+      "lang": "en"
+    },
+    {
+      "id": "ai-closed-ai-models-dominate-the-price-performance",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "explainer",
+      "tags": [
+        "llm",
+        "artificial-intelligence",
+        "benchmarks",
+        "open-source",
+        "distillation"
+      ],
+      "title": "Closed AI Models Dominate the Price-Performance Frontier",
+      "snippet": "New data from Village’s LLM Atlas reveals open-weight models now hold just 3% of optimal budget slots, down from 41% earlier in the year.",
+      "body": [
+        "Data from Village's LLM Atlas shows that proprietary, closed-API models now dominate almost the entire price-performance frontier across 201 evaluated budget tiers. Open-weight models, which previously led value metrics across nearly half of all budget points, have seen their share collapse to just 3%.",
+        "The shift is driven by closed labs rapidly releasing distilled, lower-tier models shortly after their frontier flagships. Releases like Claude Haiku 5.5 and OpenAI's budget tiers have effectively recaptured the mid-range cost brackets that open releases like DeepSeek used to own.",
+        "Open-weight models now hold winning value positions almost exclusively at the absolute cheapest end of the spectrum, led by compact options like Google's Gemma 4 E4B."
+      ],
+      "more": [
+        "Historically, the value balance between open-weight and closed AI models has fluctuated in sharp bursts. Whenever an open lab released a breakthrough flagship—such as DeepSeek-V3.2-Exp in late 2025—it captured up to half of all budget tiers by offering near-frontier capabilities at fraction-of-a-cent API prices.",
+        "However, closed labs have steadily shortened their response cycles. By using internal synthetic data and distilling their own top-tier flagship outputs into smaller architectures, companies like Anthropic and OpenAI can launch lean, highly optimized models within weeks of a flagship launch.",
+        "In contrast, open-model labs face terms of service restrictions that prevent them from distilling closed models directly, forcing them to rely on their own smaller base models or open synthetic pipelines.",
+        "Inference infrastructure scale also plays a massive role. Hyper-scalers operating their own custom silicon can run inference at cost levels smaller open-weight hosters struggle to match, narrowing the hosted cost gap even when software weights are public.",
+        "While self-hosting open models on private hardware remains the ultimate option for privacy and zero-marginal-cost execution, hosted API economics currently heavily favor proprietary tiers for developers looking for maximum intelligence per dollar."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/"
+      },
+      "wiki": "Large_language_model",
+      "imageUrl": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/og-d86847dd67737c6e.png",
+      "lang": "en"
+    },
+    {
+      "id": "bike-giant-revolt-advanced-sl-review-a-stiff-fast-lig",
+      "topic": "bike",
+      "sub": "gear",
+      "kind": "news",
+      "published": "2026-11-04",
+      "style": "explainer",
+      "tags": [
+        "giant-bicycles",
+        "gravel-bikes",
+        "tech-review",
+        "sram"
+      ],
+      "title": "Giant Revolt Advanced SL Review: A Stiff, Fast Lightweight Gravel Racer",
+      "snippet": "Giant updated its flagship gravel rig with increased frame stiffness, bigger tire clearance, and a light total weight of 17.3 lbs.",
+      "body": [
+        "The newly updated Giant Revolt Advanced SL represents a shift in modern gravel race bike design. Clocking in at 17.3 pounds (7.84 kg) equipped with SRAM Red XPLR, it stood out as the lightest frame tested in Velo's recent Field Test. Instead of relying on active suspension or frame flexing tricks, Giant prioritized power transfer and frame stiffness, leaving compliance largely to high-volume tire setups.",
+        "On the road and dirt, the bike counters the trendy shift toward slack front ends and short chainstays. By keeping chainstays above 430mm, the geometry avoids common understeering issues when running 50mm tires, producing a planted, stable ride through fast cornering and steep climbs."
+      ],
+      "more": [
+        "Giant claims a 13.81-watt aerodynamic improvement over the previous frame generation while simultaneously dropping weight. Power transmission is the headline feature: the ultra-stiff BB and cockpit translate pedal effort immediately to forward momentum. However, this stiffness comes with a tradeoff on rough singletrack, where the rigid setup and stiff stock carbon wheels demand lower tire pressures or wider rubber to maintain comfort.",
+        "Key specs include a progressive long-reach layout paired with standard geometry choices, though some choices feel slightly dated—such as spec'ing 172.5mm cranks on medium-large builds. The frame utilizes a proprietary D-shaped setback seatpost designed to damp rear-wheel chatter, though it limits saddle position fine-tuning compared to round posts.",
+        "One notable hurdle for North American riders is current availability. Due to import restrictions regarding its primary GTM manufacturing facility in Taiwan, the Advanced SL tier is presently unavailable in the US market, though available across Europe, Canada, and Australia."
+      ],
+      "source": {
+        "id": "velo-gravel",
+        "name": "Velo · Gravel",
+        "url": "https://velo.outsideonline.com/gravel/gravel-gear/giant-revolt-advanced-sl-review/"
+      },
+      "wiki": "Bicycle",
+      "imageUrl": "https://velo-cdn.outsideonline.com/wp-content/uploads/2026/09/DSC01262-scaled-e1793039635699.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "bike-the-traka-world-series-replaces-gravel-earth-wit",
+      "topic": "bike",
+      "sub": "gravel",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "gravel-racing",
+        "the-traka",
+        "klassmark",
+        "europe"
+      ],
+      "title": "The Traka World Series Replaces Gravel Earth with 7 Events and Live Streaming",
+      "snippet": "Organizers Klassmark have rebranded the global Gravel Earth Series into The Traka World Series, boasting consistent prize purses and full broadcast coverage.",
+      "body": [
+        "After four years of building the Gravel Earth Series, Spanish event organizer Klassmark has announced a major restructuring. Rebranded as The Traka World Series, the new circuit simplifies the global calendar into a streamlined framework of seven premier events.",
+        "The series upgrade introduces unified prize funds totaling €84,000 and guaranteed live streaming across events, addressing two long-standing requests from professional off-road racing teams."
+      ],
+      "more": [
+        "Six of the seven events have been confirmed, with Klassmark directly owning and operating all but one. The core of the series centers in Spain around Catalonia and the Monegros region, kicking off with the Santa Vall stage race in early February before moving to the Gravel Desert event in March.",
+        "The shift from the loose collection of partner events in the former Gravel Earth format to a unified, owned brand model mirrors changes seen across European off-road racing. By standardizing camera coverage and prize money across all seven stops, the series aims to build a more recognizable broadcast product for international fans."
+      ],
+      "source": {
+        "id": "cyclingnews-gravel",
+        "name": "Cyclingnews · Gravel",
+        "url": "https://www.cyclingnews.com/pro-cycling/racing/the-traka-world-series-natural-evolution-of-gravel-earth-series-with-collection-of-seven-races-eur84-000-prize-purse-and-promise-of-live-streaming/"
+      },
+      "wiki": "Gravel_bicycle",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/LanZtV9MW6TnxmguHPrDTX-1920-80.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-us-midterm-shift-echoes-in-australia-as-living-c",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "news",
+      "tags": [
+        "us-politics",
+        "australia",
+        "elections",
+        "economy"
+      ],
+      "title": "US Midterm Shift Echoes in Australia as Living Costs and Tech Infrastructure Bite",
+      "snippet": "Following the US midterms flipping control of Congress to the Democrats, political observers in Australia draw striking parallels to their own domestic economic anxieties.",
+      "body": [
+        "Control of the US Congress flipped to the Democrats during recent midterms, dealing a major political blow to Donald Trump's administration in his final two years. Analysts point to voter fury over rising fuel costs, general inflation, and concerns surrounding local data centre expansion as pivotal factors in the shift.",
+        "The shift presents both geopolitical and domestic ramifications for allies like Australia. While global crude oil prices dropped by 20% following the election results, Australian policymakers are taking notice of how voter anxiety over economic fallout and resource usage for tech infrastructure can reshape political landscape rapidly.",
+        "With a divided Congress in Washington, allies anticipate new legislative hurdles around defence funding like Aukus, alongside shifting power dynamics in key congressional committees ahead of the 2028 presidential race."
+      ],
+      "more": [
+        "The shift in Capitol Hill's power balance alters how the United States will handle major strategic programs. Bruce Wolpe of the United States Studies Centre noted that cost-of-living concerns undercut Donald Trump's ability to mobilize his base, mirroring economic pressures felt across western economies impacted by ongoing international conflicts.",
+        "For Australia, the change creates new touchpoints with Democratic committee leaders who now oversee authorisations and appropriations. Abe Denmark, a former Biden administration architect of the Aukus defence agreement, warned that while Canberra will have more points of contact in Washington, it also introduces complexity as lawmakers negotiate domestic budget priorities against overseas commitments.",
+        "Beyond defense, domestic issues around energy and technology infrastructure featured unexpectedly in voter choices. Datacentre expansion became a flashpoint in several US states, an issue now gaining traction in Australia as local communities push back against the land, water, and power demands of massive compute facilities.",
+        "In response to the changed political climate in Washington, Australian officials plan to broaden their engagement with both parties, navigating shifting tariff policies, defense allocations, and regional security approaches through the remainder of the presidential term."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/06/us-midterms-warning-for-australia-cost-of-living-fuel-prices"
+      },
+      "wiki": "United_States_Congress",
+      "imageUrl": "https://i.guim.co.uk/img/media/434b676957bcf76df3c92156dfeab6b9a4205f75/228_0_1875_1500/master/1875.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6610724e035ce8a2218ba33362315980",
+      "lang": "en"
+    },
+    {
+      "id": "tech-t-mobile-s-parent-company-calculates-the-200-bil",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "spacex",
+        "starlink",
+        "telecom",
+        "t-mobile",
+        "elon-musk"
+      ],
+      "title": "T-Mobile’s Parent Company Calculates the $200 Billion Cost of Starlink Mobile",
+      "snippet": "SpaceX wants to turn Starlink into a major wireless carrier, but Deutsche Telekom’s CEO points out that building a real network takes a lot more than just satellites.",
+      "body": [
+        "SpaceX recently outlined plans to build out Starlink Mobile into a full US wireless carrier using direct-to-cell satellites, spectrum acquisitions, and terrestrial infrastructure. But Deutsche Telekom CEO Tim Höttges, whose company owns T-Mobile, isn't panicking just yet.",
+        "Speaking on an earnings call, Höttges broke down the daunting math facing Elon Musk. Between spectrum acquisition, renting tens of thousands of cell towers, and deploying hardware, Höttges estimates SpaceX will need to burn through at least $200 billion to play in the traditional cellular arena."
+      ],
+      "more": [
+        "While SpaceX has acquired 76 MHz of spectrum, Höttges pointed out that T-Mobile operates on 400 MHz. To match that scale prospectively, SpaceX would need triple-digit billions just to secure equivalent spectrum position. Even with tower rentals estimated at an extra $20 billion to $30 billion, constructing a nationwide terrestrial presence is a massive, capital-intensive grind.",
+        "That said, telecom executives aren't writing SpaceX off. Höttges noted that Musk isn't just trying to copy legacy telcos—he is combining chipsets, data centers, AI models, and satellite networks to offer an entirely different kind of integrated communication service.",
+        "SpaceX is already moving quickly to pull the pieces together. The company is in talks to tap up to 80,000 existing cellular towers across the US, has explored acquiring Boost Mobile, and recently announced a deal with Qualcomm to utilize its cellular infrastructure technology for Starlink Mobile’s network buildout."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile"
+      },
+      "wiki": "Starlink",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2259379374.jpg?quality=90&strip=all&crop=0%2C8.4168746032444%2C100%2C83.166250793511&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "tech-perplexity-rolls-out-teammates-to-run-parallel-a",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "perplexity",
+        "ai-agents",
+        "artificial-intelligence",
+        "productivity"
+      ],
+      "title": "Perplexity Rolls Out 'Teammates' to Run Parallel AI Workflows",
+      "snippet": "Perplexity is launching always-on AI agents that can manage multi-step tasks across your devices, aimed straight at enterprise workflows.",
+      "body": [
+        "Perplexity is escalating its push into workplace automation with \"Teammates,\" a new set of always-on AI agents designed to handle ongoing, large-scale projects alongside human workers.",
+        "Built on top of the startup's Perplexity Computer execution layer, Teammates can be assigned specialized roles within a shared workspace, executing multiple complex tasks at the same time while drawing on project memory and existing user tools."
+      ],
+      "more": [
+        "Unlike standard conversational search bots, Teammates are built to operate autonomously over longer stretches of time. Users can monitor progress through individual thread feeds inside the Perplexity app or interact directly with the agents within Slack channels.",
+        "The feature lands as direct competition to agentic offerings like OpenAI's Dots and Anthropic's Claude Duet. However, access won't come cheap: Perplexity is gating Teammates behind its top-tier $200 per month Max plan.",
+        "Despite the hefty price tag, CEO Aravind Srinivas pitched the vision as a fundamental shift in how organizations operate, predicting a future where every single employee works alongside dozens or even hundreds of dedicated AI agents."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+      },
+      "wiki": "Perplexity_AI",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "science-a-salt-loving-microbe-can-grow-in-mars-like-cond",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "explainer",
+      "tags": [
+        "astrobiology",
+        "mars",
+        "microbiology",
+        "space-exploration"
+      ],
+      "title": "A Salt-Loving Microbe Can Grow in Mars-Like Conditions",
+      "snippet": "Researchers put a tough Earth microbe into a simulated Martian subsurface brine, low atmospheric pressure included. It did not just survive—it grew.",
+      "body": [
+        "Present-day Mars is an inhospitable desert of thin atmosphere, intense radiation, and freezing cold. But shallow subsurface regions with salty mineral deposits might still hold liquid brines capable of supporting microbial life.",
+        "To test this theory, researchers at the University of Florida placed Haloferax volcanii—a salt-loving organism known as an archaeon—into a chamber mimicking Martian fluid pockets. At just 2% of Earth's atmospheric pressure and with no oxygen available, the microbes managed to grow over a 160-day experiment by breathing nitrate and perchlorate instead."
+      ],
+      "more": [
+        "The experiment simulated conditions about 20 centimeters below the Martian surface inside sealed mineral fluid pockets. The team sealed the cultures in a vacuum chamber at 24 millibars of pressure, filled the atmosphere with carbon dioxide, and kept the temperature at 21 degrees Celsius.",
+        "Instead of oxygen, the microbes relied on nitrate or perchlorate—chemicals found on Mars—to fuel their metabolism. Optical measurements showed that the cultures grew cloudier over time, while nitrate and perchlorate concentrations dropped significantly, indicating active consumption by the microbes.",
+        "Electron microscopy revealed that the organisms formed dense biofilm structures under low pressure, a protective trait not seen in control cultures without active growth. Crucially, liquid loss remained below 4% over the 160 days, showing that hypersaline brines can resist rapid evaporation even under low atmospheric pressure.",
+        "The study does not claim that life exists on Mars, as the simulation did not include Martian radiation, freeze-thaw cycles, or the planet's exact chemical environment. However, it offers concrete proof that terrestrial extremophiles can metabolize and reproduce in environments previously thought too severe."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astrobiology-2/salt-loving-microbe-mars-like-conditions-15180.html"
+      },
+      "wiki": "Haloferax_volcanii",
+      "imageUrl": "https://cdn.sci.news/images/2026/11/image_15180f-Haloferax-volcanii.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-nasa-unveils-the-x-70-fractal-experimental-aircr",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "nasa",
+        "aeronautics",
+        "experimental-aircraft",
+        "aviation"
+      ],
+      "title": "NASA Unveils the X-70 Fractal Experimental Aircraft",
+      "snippet": "NASA's newest X-plane is designed to act as a rapidly modular testbed for flight control systems and next-generation aviation tech.",
+      "body": [
+        "NASA revealed its newest experimental aircraft, the X-70 Fractal, at the Kennedy Space Center. The crewed high-performance plane is designed as a flying laboratory to test advanced flight-control systems and flight maneuverability.",
+        "With a maximum takeoff weight of 10,000 pounds, the X-70 is built to cruise at Mach 0.75, reach altitudes of 45,000 feet, and cover a range of about 1,500 nautical miles. NASA expects its first flight under the agency's banner within the next two years."
+      ],
+      "more": [
+        "The defining feature of the X-70 Fractal is its modularity. The airframe can carry up to 2,000 pounds of experimental payloads in both internal bays and external locations, enabling researchers to quickly swap out hardware between flight tests.",
+        "This adaptable setup allows NASA engineers to evaluate rapidly reconfigurable flight-control technology in actual crewed flight conditions, bridging the gap between computer simulations and practical aviation.",
+        "The X-70 joins a long lineage of experimental NASA aircraft dating back to the Bell X-1, which broke the sound barrier in 1947, and the hypersonic X-15. By providing a flexible, high-altitude research platform, NASA aims to accelerate the development cycle of modern aeronautical technologies."
+      ],
+      "source": {
+        "id": "nasa",
+        "name": "NASA News",
+        "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+      },
+      "wiki": "List_of_X-planes",
+      "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-x-70-image.png",
+      "lang": "en"
+    },
+    {
+      "id": "design-why-type-specimens-lie-and-what-true-type-system",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "explainer",
+      "tags": [
+        "typography",
+        "graphic-design",
+        "type-design",
+        "branding"
+      ],
+      "title": "Why Type Specimens Lie and What True Type Systems Actually Do",
+      "snippet": "Typographic mockups act like fast-food photography: all the good ingredients are shoved to the front. Prague type designer Tomáš Brousil breaks down how to choose typefaces that survive real-world chaos.",
+      "body": [
+        "Type specimens and promotional mockups are designed to show off a font family under pristine conditions. But as Tomáš Brousil, founder of Prague's Suitcase Type Foundry, points out, that’s just visual eye candy. A typeface might look stunning in a headline mockup, but fall apart completely when shoved into a tiny UI caption or printed on cheap paper.",
+        "To select typefaces that hold up in production, Brousil argues that designers need to stop evaluating families by sheer weight counts and start looking for true, cohesive systems with clear functional roles."
+      ],
+      "more": [
+        "According to Brousil, a true type system isn't simply a large font family with dozens of weights; it is a suite of tools where each component serves a distinct role across the entire typographic hierarchy—from display headlines down to navigation and footnotes.",
+        "One key element to look for is optical sizing. In his Tabac superfamily, for instance, Brousil built optical grades that adjust the contrast of secondary strokes to suit different paper stock or screen sizes without altering character widths or line breaks. Display variants like Tabac Big use extreme contrast and compact terminals for impact, while Tabac Micro uses ink traps, open spacing, and larger x-heights to keep footnotes readable.",
+        "Brousil also advises caution around the temptation to jump straight into custom type. While Suitcase creates custom work for brands like Electronic Arts and Morgan Stanley, he stresses that retail typefaces are often the most sensible, tested choice. Even when custom work is required—such as Suitcase's identity work for Prague food network KRO—the best systems evolve out of practical adaptations, like turning custom neon lettering into a full stencil typeface for physical signage.",
+        "Ultimately, the biggest mistake designers make is picking type based purely on visual style while ignoring technical features like alternate characters, tabular figures, and proper optical sizes."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/insight/tomas-brousil-on-what-separates-a-true-type-system-from-a-merely-large-font-family/"
+      },
+      "wiki": "Typography",
+      "imageUrl": "https://media.creativeboom.com/23d49d81-ecc2-4b0f-ad8e-45a7f1a9f102/conversions/7ce6c2e87f22eb31593768d1817df95dad2de4e7-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "design-finding-design-inspiration-in-vernacular-signage",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "story",
+      "tags": [
+        "graphic-design",
+        "typography",
+        "visual-identity",
+        "art-direction"
+      ],
+      "title": "Finding Design Inspiration in Vernacular Signage and Italian Folklore",
+      "snippet": "Milan-based designer Tatiana Egoshina blends projection mapping on Italian cliffs with rules-based visual identities built on accidental, everyday aesthetics.",
+      "body": [
+        "After drinking coffee with grappa in a tiny Italian mountain village and collecting oral histories from a hundred-year-old resident, designer Tatiana Egoshina helped transform local folklore into 'Ceneri di Pietra'—a projection-mapping piece cast directly onto the cliffs of the Dolomiti Lucane.",
+        "Her eclectic body of work spans from high-contrast Strelka Institute posters to fluid branding systems. Grounded in a love for Italian shop windows, handwritten notes, and 'bad typography', Egoshina focuses on creating flexible visual identities built around sincerity and human accident."
+      ],
+      "more": [
+        "Egoshina’s route to visual communications began in Moscow, studying under Anna Kulachek before training at the Strelka Institute. There she developed a stark, disciplined style—often constrained to black, white, and a single bright color—before building web design tools at Readymag and art directing for client rosters including Material Bank and Condé Nast.",
+        "Moving to Milan reshaped her visual language. Inspired by Susan Sontag’s *Notes on \"Camp\"*, she began collecting vernacular signage, commercial packaging, and shop window displays crafted with more passion than technical accuracy. This appreciation for the accidentally beautiful directly influences her brand identities.",
+        "When designing the identity for Italian agency Fortune Cookie, Egoshina developed folded ribbons of color with candid messages such as \"Do not panic\" and \"You are loved\". To prevent the system from degrading as the client's internal team created new graphics, she vibe-coded an online tool allowing them to generate on-brand assets within predefined parameters.",
+        "For Egoshina, design works best when it draws from poetry, forensic psychology, or street culture rather than incestuous design moodboards. By combining structured systems with humor and playfulness, she creates brand identities built to adapt long after the designer steps away."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/inspiration/tatiana-egoshina-finds-beauty-in-bad-typography-italian-folklore-and-happy-accidents/"
+      },
+      "wiki": "Graphic_design",
+      "imageUrl": "https://media.creativeboom.com/790b7a56-b4b4-4b6b-959d-864e11d383a4/conversions/6a2a6858fff78b045857e83b525677813aef5a4d-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "pt-da-contestacao-social-as-decisoes-para-o-orcamen",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "news",
+      "tags": [
+        "portugal",
+        "habitacao",
+        "politica",
+        "orcamento-do-estado"
+      ],
+      "title": "Da contestação social às decisões para o Orçamento do Estado",
+      "snippet": "Com a crise da habitação a dominar a agenda pública, a pressão popular força o debate político a focar-se em medidas fiscais no próximo Orçamento.",
+      "body": [
+        "A crise no acesso à habitação deixou de ser um problema exclusivo das famílias com rendimentos mais baixos, afetando de forma crescente os jovens e a classe média em Portugal. Os protestos e acampamentos das últimas semanas nas principais cidades refletem a urgência em encontrar respostas para a falta de oferta e o aumento acelerado dos custos.",
+        "A pressão exercida nas ruas impulsionou a abertura de negociações entre o Governo e os partidos da oposição. O debate foca-se agora no impacto fiscal do próximo Orçamento do Estado, onde se procura transformar o descontentamento em decisões concretas para aliviar os encargos das famílias."
+      ],
+      "more": [
+        "A escassez de oferta imobiliária e a dificuldade em suportar prestações bancárias ou rendas tornaram o acesso à habitação um obstáculo central para quem procura estabilidade. Para muitos jovens, a saída da casa dos pais continua a ser um plano sucessivamente adiado devido ao desfasamento entre salários e o custo das casas.",
+        "Perante a vaga de protestos, a discussão orçamental surge como a oportunidade principal para aprovar medidas imediatas. Entre as propostas em análise está o regresso da dedução em IRS dos juros do crédito à habitação, com limites ponderados até 1200 euros, além do ajustamento dos tetos de dedução relativos às rendas.",
+        "Além da vertente fiscal, o setor exige intervenções no mercado imobiliário: a desburocratização e simplificação dos processos de licenciamento, a mobilização de imóveis devolutos e a garantia de que os verbas orçamentadas são efetivamente executadas em novas habitações.",
+        "O sucesso das negociações políticas não dependerá dos anúncios públicos ou das propostas apresentadas, mas sim da rapidez com que as medidas se traduzirem em respostas reais para os cidadãos que enfrentam a crise habitacional."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/opiniao-dn/do-protesto-responsabilidade-de-decidir"
+      },
+      "wiki": "Housing_in_Portugal",
+      "imageUrl": "https://media.assettype.com/dn%2F2026-02-20%2Flpus19on%2Fdn20250605mhzcfvxyeduardoteixeira.avif?rect=0%2C80%2C480%2C252&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-a-resistencia-social-e-os-recuos-inesperados-da",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "news",
+      "tags": [
+        "portugal",
+        "politica",
+        "extrema-direita",
+        "habitacao"
+      ],
+      "title": "A resistência social e os recuos inesperados da extrema-direita",
+      "snippet": "Movimentos de protesto e dinâmicas eleitorais em vários países estão a alterar o cenário político que muitos consideravam inevitável.",
+      "body": [
+        "Após um período em que a ascensão da extrema-direita parecia imparável, novos desenvolvimentos políticos e sociais estão a contrariar essa tendência. Em Portugal, a contestação laboral e os protestos sobre a habitação acabaram por alterar dinâmicas parlamentares e forçar o poder político a rever posições.",
+        "Este fenómeno reflete-se também noutros pontos do globo, onde grandes mobilizações populares e resultados eleitorais recentes mostram que a reorganização da oposição em torno de causas sociais concretas consegue alterar equilíbrios de poder."
+      ],
+      "more": [
+        "Em Portugal, a rejeição do pacote laboral na Assembleia da República contou com a votação desfavorável do Chega, motivada pela contestação social e pelas greves convocadas pelos sindicatos. Mais recentemente, os acampamentos pelo direito à habitação forçaram a abertura de canais de diálogo por parte do Governo.",
+        "A nível internacional, verificam-se momentos semelhantes de viragem. No Brasil, Lula da Silva venceu a segunda volta das presidenciais contra Flávio Bolsonaro com 51,79% dos votos, impulsionado pela mobilização de jovens e redes sociais. Nos Estados Unidos, as eleições intercalares deram o controlo do Congresso aos democratas e elegeram figuras focadas em serviços públicos universais.",
+        "Em Berlim, o partido Die Linke alcançou 25,7% dos votos após focar a sua campanha no combate ao aumento das rendas e na especulação imobiliária, demonstrando o impacto eleitoral direto das preocupações com a habitação.",
+        "Ainda que a extrema-direita mantenha forte influência mediática e financeira, a capacidade de organização da sociedade civil em torno de temas como salários, habitação e saúde continua a moldar o rumo das decisões políticas internacionais."
+      ],
+      "source": {
+        "id": "dn",
+        "name": "Diário de Notícias",
+        "url": "https://www.dn.pt/opiniao-dn/a-extrema-direita-est-perplexa"
+      },
+      "wiki": "Politics_of_Portugal",
+      "imageUrl": "https://media.assettype.com/dn%2F2026-06-12%2F64pj0lly%2FPedro-Tadeu2.webp?rect=0%2C213%2C1576%2C827&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "lang": "pt"
+    },
+    {
+      "id": "books-unread-books-are-more-valuable-than-read-ones",
+      "topic": "books",
+      "sub": "mind",
+      "kind": "evergreen",
+      "published": "2026-11-05",
+      "style": "book",
+      "tags": [
+        "books",
+        "learning",
+        "nassim-nicholas-taleb",
+        "philosophy"
+      ],
+      "title": "Unread Books Are More Valuable Than Read Ones",
+      "snippet": "Your personal library shouldn't be a trophy case for what you know, but a standing reminder of everything you have yet to learn.",
+      "body": [
+        "In a famous passage from The Black Swan, Nassim Nicholas Taleb highlights author Umberto Eco's massive collection of 30,000 books. Most visitors assumed Eco had read them all, but a select few understood the true purpose of a personal library: it is not an ego-boosting collection of achievements, but a research tool.",
+        "Taleb calls this collection of unread volumes an 'antilibrary.' The more your knowledge grows, the larger your rows of unread books become, serving as a constant reminder of how much remains unknown."
+      ],
+      "source": {
+        "id": "marginalian",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/"
+      },
+      "wiki": "The_Black_Swan:_The_Impact_of_the_Highly_Improbable",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2015/03/umbertoeco1.jpg?fit=600%2C315&ssl=1",
+      "lang": "en",
+      "book": {
+        "title": "The Black Swan: The Impact of the Highly Improbable",
+        "author": "Nassim Nicholas Taleb",
+        "lessons": [
+          {
+            "title": "Build an antilibrary",
+            "text": "Treat unread books as essential tools rather than unfulfilled chores. Fill your shelves with topics and perspectives you have yet to master to maintain humility and curiosity."
+          },
+          {
+            "title": "Avoid knowledge as an ornament",
+            "text": "People tend to treat what they know as personal property to be defended and displayed. True learning requires shedding the impulse to use information purely to boost self-esteem or status."
+          },
+          {
+            "title": "Become an antischolar",
+            "text": "Cultivate the mindset of a skeptical empiricist who actively focuses on what remains unread and unstudied, resisting the trap of overestimating current knowledge."
+          }
+        ],
+        "takeaway": "Audit your bookshelves or digital reading list today and intentionally keep items you haven't read in plain sight as reminders of open questions.",
+        "forWho": "Anyone looking to rethink their relationship with learning, reading, and intellectual humility."
+      }
+    },
+    {
+      "id": "books-collective-action-over-individual-empowerment",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-11-05",
+      "style": "book",
+      "tags": [
+        "books",
+        "feminism",
+        "activism",
+        "society"
+      ],
+      "title": "Collective Action Over Individual Empowerment",
+      "snippet": "Faced with escalating climate crises and societal backlash, meaningful progress depends on grassroots community initiatives rather than individual success stories.",
+      "body": [
+        "In Feminism for a World on Fire, activist and scholar Natasha Walter examines the modern pressures facing women, from rising misogynistic violence to the disproportionate impact of environmental extreme weather events.",
+        "Instead of relying on self-focused individual empowerment, Walter argues that the path forward requires shifting focus toward collective action. Across local communities, women are coming together through grassroots initiatives to tackle hardship and inequality head-on."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/nov/05/feminism-for-a-world-on-fire-by-natasha-walter-audiobook-review-an-urgent-call-for-collective-action"
+      },
+      "wiki": "Natasha_Walter",
+      "imageUrl": "https://i.guim.co.uk/img/media/405b66c5dcabc78c1cc60f11ce307094af88d43c/560_1149_6455_5164/master/6455.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7df90116500a074b3e20f1fe3437f666",
+      "lang": "en",
+      "book": {
+        "title": "Feminism for a World on Fire",
+        "author": "Natasha Walter",
+        "lessons": [
+          {
+            "title": "Shift from individual to collective",
+            "text": "True systemic change comes from people organizing together locally, not just seeking personal achievement within existing structures."
+          },
+          {
+            "title": "Recognize compound crises",
+            "text": "Modern challenges like environmental breakdown and social inequality intersect directly, with extreme weather events disproportionately impacting those carrying heavy caregiving burdens."
+          },
+          {
+            "title": "Step into action",
+            "text": "Even when broader progress feels stalled or reversed, recognizing the urgency of current challenges and taking concrete local steps creates momentum for larger transformations."
+          }
+        ],
+        "takeaway": "Look for a local community initiative or neighborhood group this week where you can contribute to collective action.",
+        "forWho": "Readers interested in activism, community building, and contemporary social issues."
+      }
+    },
+    {
+      "id": "ideas-ai-is-an-artificial-mimic-because-machines-do-no",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-06",
+      "style": "idea",
+      "tags": [
+        "artificial-intelligence",
+        "biology",
+        "physics",
+        "philosophy-of-mind"
+      ],
+      "title": "AI is an artificial mimic because machines do not decide what matters",
+      "snippet": "Calling current AI intelligent relies on a flawed machine metaphor that overlooks what fundamentally defines living systems.",
+      "body": [
+        "Astrophysicist and astrobiologist Adam Frank argues that viewing minds as computational machines fundamentally misunderstands life. Rooted in Cartesian ideas that reduced living organisms to automated parts, this metaphor persists in how we conceptualize artificial intelligence today.",
+        "For Frank, life is unique because living entities are self-repairing, self-creating systems that actively determine their own needs and values. Because modern AI lacks this autonomous drive to determine what matters, it remains an artificial mimic rather than true intelligence."
+      ],
+      "more": [
+        "The life-as-machine metaphor traces back centuries. Descartes went so far as to dissect living dogs while dismissing their howls as nothing more than the mechanical screeching of gears. Frank contends that today's computer science inherited this framework, treating cognitive life merely as complex information processing running on hardware.",
+        "However, physical organisms differ radically from human-made devices. A machine relies on outside intervention for design, power, and maintenance, and it carries no intrinsic stakes in its own survival. Living things construct and maintain themselves, generating internal meaning and relevance out of necessity.",
+        "By treating AI as an authentic intellect, we overlook the physical principles that make living cognition unique. Until a system generates its own goals, self-repairs, and evaluates its world autonomously, it operates as an elaborate imitator of human expression rather than an actual thinker."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/series/full-interview/life-machine-frank/"
+      },
+      "wiki": "Philosophy_of_artificial_intelligence",
+      "imageUrl": "https://bigthink.com/wp-content/uploads/2026/11/Screenshot-2026-11-04-at-1.32.03-PM.png?quality=80&#038;w=640",
+      "lang": "en"
+    },
+    {
+      "id": "ideas-to-be-interesting-you-must-be-selfish-without-be",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "idea",
+      "tags": [
+        "creativity",
+        "philosophy",
+        "c-s-lewis",
+        "attention"
+      ],
+      "title": "To be interesting, you must be selfish without being self-centred",
+      "snippet": "True creative breakthroughs and compelling presence come from forgetting yourself entirely and fixing your attention on the world.",
+      "body": [
+        "In his memoir Surprised by Joy, writer C.S. Lewis makes a vital distinction between being selfish and being self-centred. A creative life, Lewis argues, can look entirely selfish because it greedily absorbs the world. Yet it remains the opposite of self-centred: the mind is aimed toward thousands of things, none of which are the self.",
+        "Consider two types of companions: one sacrifices constantly but burdens everyone with their grievances, while the other takes freely yet speaks passionately about external wonders. Lewis prefers the latter. Real generosity begins by shutting your mouth, opening your senses, and letting external fascination pull you away from self-concern."
+      ],
+      "more": [
+        "Lewis notes that our most potent breakthroughs and creative 'thrills' require self-forgetfulness. You cannot manufacture genuine insight while obsessively calculating how you are perceived or keeping score of your sacrifices. Only when attention is utterly locked onto an external object—whether a distant mountain or an ancient myth—does genuine revelation take hold.",
+        "Maria Popova connects this to Annie Dillard's reminder that creative energy must be given away freely to avoid turning to ash. But to give anything of substance, you must first possess the capacity to receive. That requires taking time to rest and absorbing the strangeness of the world with hungry curiosity.",
+        " Lewis warns that a life dominated by self-pity and self-regard poisons both the individual and those around them, turning kindness into a demand for admiration. The antidote is outward absorption: shifting from introspective anxiety to intense observation of reality."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/05/interesting/"
+      },
+      "wiki": "C._S._Lewis",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2026/09/CSLewis_TheMarginalian1.jpg?fit=1200%2C630&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "f1-hamilton-calls-for-new-rules-of-engagement-after",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "f1",
+        "ferrari",
+        "lewis-hamilton",
+        "charles-leclerc"
+      ],
+      "title": "Hamilton Calls for New Rules of Engagement After Ferrari Mexico Clash",
+      "snippet": "A first-lap scrap in Mexico cost Ferrari a potential 1-2 finish, leaving Lewis Hamilton arguing that Charles Leclerc races him differently than others.",
+      "body": [
+        "Ferrari's internal dynamic reached boiling point at the Mexico City Grand Prix after Lewis Hamilton and Charles Leclerc tangled on the opening lap at Turn 4. Both cars ran off the track, opening the door for Max Verstappen to steal the race victory while the Ferraris salvaged second and fourth.",
+        "Hamilton was vocal about Leclerc's aggressive positioning, noting that his team-mate cut Turn 4 to stay ahead and was handed a lenient five-second penalty instead of the standard ten. The 41-year-old seven-time champion warned of 'big problems' ahead unless Ferrari clarifies clear rules of engagement for its drivers.",
+        "Hamilton also backed outside observations that Leclerc fights him far more aggressively than drivers from rival outfits, pointing to past incidents as well as Leclerc's history against former team-mates Sebastian Vettel and Carlos Sainz."
+      ],
+      "more": [
+        "The tension in Mexico contrasted sharply with recent rounds. Hamilton pointed to the Singapore Grand Prix, where Leclerc held the inside line against polesitter Max Verstappen at Turn 1 but backed out, whereas in Mexico he refused to yield an inch to his team-mate. When asked directly if he felt Leclerc raced him harder than others, Hamilton agreed: 'Yes. I see what you see... It was definitely different.'",
+        "The dropped points hit hard because Ferrari had arrived with high hopes. Hamilton praised the team's factory personnel for delivering strong car upgrades that had made Ferrari the highest-scoring constructor over the previous three to four rounds. Throwing away a potential 1-2 finish prompted team principal Fred Vasseur to hold separate post-race talks, reportedly viewing the clash as a lapse in respect toward the team's 2,000 employees.",
+        "Hamilton also faced paddock scrutiny for publicly lobbying during the race for Leclerc to receive a stiffer penalty, given the difficulty of overtaking around the Autódromo Hermanos Rodríguez. Hamilton brushed off the criticism, asserting that he would not filter his thoughts while driving at 200 mph with his heart rate at 170 bpm.",
+        "With Vasseur returning briefly to Europe and Leclerc spending time with his family following the birth of his daughter, formal three-way discussions were deferred to the São Paulo Grand Prix weekend, where Ferrari hopes to defuse tensions before on-track squabbles derail the end of their campaign."
+      ],
+      "source": {
+        "id": "f1-autosport",
+        "name": "Autosport",
+        "url": "https://www.autosport.com/f1/news/lewis-hamilton-backs-claims-charles-leclerc-races-him-harder-than-f1-rivals/10871859/"
+      },
+      "wiki": "Scuderia_Ferrari",
+      "imageUrl": "https://cdn-4.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "f1-why-kimi-antonelli-risked-his-title-with-a-late",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-05",
+      "style": "news",
+      "tags": [
+        "f1",
+        "mercedes-amg",
+        "kimi-antonelli",
+        "motorsport"
+      ],
+      "title": "Why Kimi Antonelli Risked His Title With a Late Dive on Leclerc",
+      "snippet": "All Kimi Antonelli had to do to win the world championship was finish ninth. Instead, he threw his Mercedes down the inside of Turn 1.",
+      "body": [
+        "Needing only a ninth-place finish at the Mexico City Grand Prix to secure the 2026 Formula 1 World Championship, Mercedes driver Kimi Antonelli opted against cruising home. Instead, the 20-year-old pulled off a bold, late-braking move on Ferrari's Charles Leclerc into Turn 1 to snatch third place, leaving his own pit wall holding their breath.",
+        "Speaking on the Nu Silver Arrows Radio Show, Antonelli admitted that team members questioned his decision afterward. But the Italian insisted he refused to simply fulfill the bare minimum to take the crown, wanting instead to seal his championship from the podium behind Max Verstappen and Lewis Hamilton.",
+        "The gamble was even closer to disaster than it appeared from the outside: Mercedes later revealed that Antonelli's car was battling an oil leak over the final laps of the race."
+      ],
+      "more": [
+        "Heading into the second half of the Grand Prix, Antonelli had been running an offset tyre strategy in his opening stint. He felt the car had the pace to contest the victory on fresher rubber before a mid-race red flag neutralized the field. When the restart wiped away his tyre advantage, leaving him in fourth place with everyone on fresh rubber, he treated Turn 1 as his best remaining opportunity to climb onto the podium.",
+        "Former racer and radio show host Anthony Davidson described the late move as 'necessary but not necessary at the same time.' Antonelli laughed off the tension, stating: 'Some of them, they were like, \"Couldn't you have just stayed behind?\" But of course, I wanted to finish on the podium. I wanted to clinch the title with a good race.'",
+        "The calculated aggression marks a major step forward from Antonelli's turbulent rookie season in 2025. Thrown straight into a front-running Mercedes seat under heavy scrutiny, he endured severe dips in form—including a painful outing at his home race in Monza—which led him to repeatedly question his own abilities.",
+        "Antonelli credited those struggles with accelerating his development, allowing him to mature quickly enough to wrap up the drivers' championship with four races to spare over his team-mate George Russell. Rather than settling into conservative points-racing, he preferred to cap his title run with an exclamation point."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/kimi-antonelli-reveals-the-dark-2025-slump-that-built-a-champion-i-questioned-myself-over-and-over/10871786/"
+      },
+      "wiki": "Andrea_Kimi_Antonelli",
+      "imageUrl": "https://cdn-6.motorsport.com/images/amp/YP74lEG2/s6/motorsport-com-graphics-79-3.jpg",
+      "lang": "en"
+    }
+  ]
+}

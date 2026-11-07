@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T20:50:22.727Z",
+ "updatedAt": "2026-11-07T09:13:20.457Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -983,7 +983,7 @@
   "til-inside-spain-s-giant-squid-museum": 1,
   "bike-when-gravel-merges-fully-into-mtb-testing-pivot": 1,
   "pt-sns-e-privados-em-debate-no-parlamento-enquanto": 1,
-  "til-when-a-jet-engine-literally-drops-out-of-the-sky": 3,
+  "til-when-a-jet-engine-literally-drops-out-of-the-sky": 4,
   "tech-the-touchscreen-macbook-pro-brings-subtle-tweaks": 3,
   "ai-anthropic-blocks-users-over-alleged-training-of": 3,
   "f1-how-lewis-hamilton-solved-ferrari-s-qualifying-t": 3,
@@ -1004,7 +1004,19 @@
   "science-voyager-1-reaches-a-distance-of-one-light-day-fr": 1,
   "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1,
   "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": 1,
-  "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1
+  "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1,
+  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 1,
+  "science-sixty-five-years-of-mission-control-and-moon-dus": 1,
+  "tech-t-mobile-s-parent-company-calculates-the-200-bil": 1,
+  "design-why-type-specimens-lie-and-what-true-type-system": 1,
+  "ideas-ai-is-an-artificial-mimic-because-machines-do-no": 1,
+  "tech-perplexity-rolls-out-teammates-to-run-parallel-a": 1,
+  "ai-krea-2-turbo-4-step-lora-gets-a-133k-checkpoint": 1,
+  "design-finding-design-inspiration-in-vernacular-signage": 1,
+  "ideas-to-be-interesting-you-must-be-selfish-without-be": 1,
+  "ai-closed-ai-models-dominate-the-price-performance": 1,
+  "books-unread-books-are-more-valuable-than-read-ones": 1,
+  "f1-hamilton-calls-for-new-rules-of-engagement-after": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4623,6 +4635,123 @@
    "tag:portugal",
    "tag:televisao",
    "tag:gastronomia"
+  ],
+  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": [
+   "topic:til",
+   "sub:til/story",
+   "source:r-askhistorians",
+   "style:story",
+   "tag:lithuania",
+   "tag:poland",
+   "tag:medieval-history",
+   "tag:askhistorians",
+   "tag:vytautas"
+  ],
+  "science-sixty-five-years-of-mission-control-and-moon-dus": [
+   "topic:science",
+   "source:nasa",
+   "style:story",
+   "tag:nasa",
+   "tag:johnson-space-center",
+   "tag:apollo",
+   "tag:space-exploration",
+   "tag:mission-control"
+  ],
+  "tech-t-mobile-s-parent-company-calculates-the-200-bil": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:spacex",
+   "tag:starlink",
+   "tag:telecom",
+   "tag:t-mobile",
+   "tag:elon-musk"
+  ],
+  "design-why-type-specimens-lie-and-what-true-type-system": [
+   "topic:design",
+   "source:creative-boom",
+   "style:explainer",
+   "tag:typography",
+   "tag:graphic-design",
+   "tag:type-design",
+   "tag:branding"
+  ],
+  "ideas-ai-is-an-artificial-mimic-because-machines-do-no": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:artificial-intelligence",
+   "tag:biology",
+   "tag:physics",
+   "tag:philosophy-of-mind"
+  ],
+  "tech-perplexity-rolls-out-teammates-to-run-parallel-a": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:perplexity",
+   "tag:ai-agents",
+   "tag:artificial-intelligence",
+   "tag:productivity"
+  ],
+  "ai-krea-2-turbo-4-step-lora-gets-a-133k-checkpoint": [
+   "topic:ai",
+   "sub:ai/image-video",
+   "source:r-stablediffusion",
+   "style:reddit",
+   "tag:comfyui",
+   "tag:image-generation",
+   "tag:lora",
+   "tag:stable-diffusion",
+   "tag:local-ai"
+  ],
+  "design-finding-design-inspiration-in-vernacular-signage": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:graphic-design",
+   "tag:typography",
+   "tag:visual-identity",
+   "tag:art-direction"
+  ],
+  "ideas-to-be-interesting-you-must-be-selfish-without-be": [
+   "topic:ideas",
+   "source:marginalian@ideas",
+   "style:idea",
+   "tag:creativity",
+   "tag:philosophy",
+   "tag:c-s-lewis",
+   "tag:attention"
+  ],
+  "ai-closed-ai-models-dominate-the-price-performance": [
+   "topic:ai",
+   "sub:ai/frontier",
+   "source:hacker-news",
+   "style:explainer",
+   "tag:llm",
+   "tag:artificial-intelligence",
+   "tag:benchmarks",
+   "tag:open-source",
+   "tag:distillation"
+  ],
+  "books-unread-books-are-more-valuable-than-read-ones": [
+   "topic:books",
+   "sub:books/mind",
+   "source:marginalian",
+   "style:book",
+   "tag:books",
+   "tag:learning",
+   "tag:nassim-nicholas-taleb",
+   "tag:philosophy"
+  ],
+  "f1-hamilton-calls-for-new-rules-of-engagement-after": [
+   "topic:f1",
+   "source:f1-autosport",
+   "style:news",
+   "tag:f1",
+   "tag:ferrari",
+   "tag:lewis-hamilton",
+   "tag:charles-leclerc"
   ]
  },
  "read": [

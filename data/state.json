@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T09:13:20.457Z",
+ "updatedAt": "2026-11-07T09:13:39.498Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -763,7 +763,8 @@
   "fun-the-dune-movie-popcorn-bucket-that-broke-the-int",
   "motion-learning-the-graph-editor-by-rebuilding-apple-fr",
   "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel",
-  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be"
+  "health-why-you-need-the-right-gut-bugs-to-unlock-the-be",
+  "fun-why-medical-heart-monitor-kits-arrive-with-an-ol"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -1016,7 +1017,8 @@
   "ideas-to-be-interesting-you-must-be-selfish-without-be": 1,
   "ai-closed-ai-models-dominate-the-price-performance": 1,
   "books-unread-books-are-more-valuable-than-read-ones": 1,
-  "f1-hamilton-calls-for-new-rules-of-engagement-after": 1
+  "f1-hamilton-calls-for-new-rules-of-engagement-after": 1,
+  "news-us-midterm-shift-echoes-in-australia-as-living-c": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -4752,6 +4754,25 @@
    "tag:ferrari",
    "tag:lewis-hamilton",
    "tag:charles-leclerc"
+  ],
+  "news-us-midterm-shift-echoes-in-australia-as-living-c": [
+   "topic:news",
+   "sub:news/world",
+   "source:guardian-world",
+   "style:news",
+   "tag:us-politics",
+   "tag:australia",
+   "tag:elections",
+   "tag:economy"
+  ],
+  "fun-why-medical-heart-monitor-kits-arrive-with-an-ol": [
+   "topic:fun",
+   "source:r-mildlyinteresting",
+   "style:reddit",
+   "tag:medical-devices",
+   "tag:tech-recycling",
+   "tag:smartphones",
+   "tag:fda"
   ]
  },
  "read": [

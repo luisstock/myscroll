@@ -530,5 +530,26 @@
   "v2:en:WeChat": {
     "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Screenshot_of_WeChat_chat_page%2C_April_30%2C_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "credit": "File:Screenshot_of_WeChat_chat_page,_April_30,_2026.jpg"
+  },
+  "v2:en:Whoopi_Goldberg": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/WhoopiGoldberg-byPhilipRomano2.jpg/1280px-WhoopiGoldberg-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:WhoopiGoldberg-byPhilipRomano2.jpg"
+  },
+  "v2:en:Bash_(Unix_shell)": null,
+  "v2:en:Apple_Motion": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/MotionACS2026.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:MotionACS2026.png"
+  },
+  "v2:en:Storyboard": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Storyboard_for_The_Radio_Adventures_of_Dr._Floyd.jpg/1280px-Storyboard_for_The_Radio_Adventures_of_Dr._Floyd.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Storyboard_for_The_Radio_Adventures_of_Dr._Floyd.jpg"
+  },
+  "v2:en:Max_Verstappen": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg/1280px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:2024-08-25_Motorsport,_Formel_1,_Großer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(medium_crop).jpg"
+  },
+  "v2:en:Lando_Norris": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:2024-08-25_Motorsport,_Formel_1,_Großer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_(cropped2).jpg"
   }
 }

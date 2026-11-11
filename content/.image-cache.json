@@ -551,5 +551,14 @@
   "v2:en:Lando_Norris": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:2024-08-25_Motorsport,_Formel_1,_Großer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_(cropped2).jpg"
-  }
+  },
+  "v2:en:The_Wreck_of_the_Edmund_Fitzgerald": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/WreckEdmundFitzgerald.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "credit": "File:WreckEdmundFitzgerald.jpg"
+  },
+  "v2:en:Pennant-winged_nightjar": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_American_Museum_journal_%28c1900-%281918%29%29_%2817974546639%29.jpg/1280px-The_American_Museum_journal_%28c1900-%281918%29%29_%2817974546639%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:The_American_Museum_journal_(c1900-(1918))_(17974546639).jpg"
+  },
+  "v2:en:Fine-tuning_(machine_learning)": null
 }

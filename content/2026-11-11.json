@@ -1,0 +1,1120 @@
+{
+  "date": "2026-11-11",
+  "number": 20,
+  "items": [
+    {
+      "id": "til-why-gordon-lightfoot-fact-checked-his-own-hit-ba",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "til",
+      "tags": [
+        "music-history",
+        "edmund-fitzgerald",
+        "gordon-lightfoot",
+        "shipwrecks"
+      ],
+      "title": "Why Gordon Lightfoot Fact-Checked His Own Hit Ballad on Stage",
+      "snippet": "Gordon Lightfoot wrote 'The Wreck of the Edmund Fitzgerald' shortly after the tragedy. As divers uncovered what actually occurred, he quietly updated the lyrics in concert.",
+      "body": [
+        "In November 1975, the bulk carrier SS Edmund Fitzgerald foundered in Lake Superior, taking all 29 crewmen down with her. Canadian singer-songwriter Gordon Lightfoot composed his haunting folk ballad soon after, leaning on contemporary Newsweek reporting and his own experience sailing the Great Lakes.",
+        "Because the wreckage had not yet been formally examined, Lightfoot agonized over technical details until his guitarist advised him to take Mark Twain's approach: simply tell a story. He took a few narrative liberties, such as specifying that a hatchway gave in during the fatal moments.",
+        "Decades later, after modern investigations revealed new evidence about how the ship sank, Lightfoot didn't want to leave incorrect impressions. While he chose not to alter the copyrighted master recording, he updated lines during live performances to match the verified findings."
+      ],
+      "more": [
+        "Lightfoot's dedication to accuracy surfaced prominently in March 2010. Proponents of a History Channel documentary approached him for permission to use the track, sharing fresh analysis that discounted the premise of a collapsed hatch. Hearing this, Lightfoot modified the live verse from 'At 7 p.m. a main hatchway caved in; he said...' to 'At 7 p.m. it grew dark, it was then he said....'",
+        "That wasn't his only real-world revision. Originally, the lyric referred to Detroit's Mariners' Church as a 'musty old hall.' Following a complaint from a parishioner who took offense at the description, Lightfoot shifted the wording in concert to 'rustic old hall' out of respect.",
+        "Musically, the song was built around a surprisingly simple structure. In 6/8 time, it utilizes open shapes in A major (capoed to sound in B) and foregoes typical pop architecture entirely: there are no choruses, bridges, key changes, or formal instrumental bookends. When asked about similarities between the melody and Bobby Sands's song 'Back Home in Derry,' Lightfoot brushed it off warmly, noting he likely lifted the melody from an old Irish dirge himself, stating it was all folk music meant for everyone.",
+        "The studio take that became the iconic radio single was astonishingly captured on tape during the band's very first unrehearsed run-through at Eastern Sound in Toronto. The group spent two weeks attempting to polish and rerecord it, but they found it impossible to match the atmospheric urgency of that initial take, so the test run was sent out to the world.",
+        "The track remains deeply tied to the community it honors. During the annual November memorial service at the Great Lakes Maritime Academy, a commemorative bell rings 29 times for the souls lost in the 1975 gale—and following Lightfoot's death in 2023, the ceremony added another chime in honor of the songwriter who ensured they wouldn't be forgotten."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xsxhxh/til_that_gordon_lightfoot_wrote_the_wreck_of_the/"
+      },
+      "wiki": "The_Wreck_of_the_Edmund_Fitzgerald",
+      "lang": "en"
+    },
+    {
+      "id": "fun-meet-the-pennant-winged-nightjar-extreme-camoufl",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "reddit",
+      "tags": [
+        "wildlife",
+        "birds",
+        "south-africa"
+      ],
+      "title": "Meet the Pennant-Winged Nightjar: Extreme Camouflage and Puns in South Africa",
+      "snippet": "Footage captured after dark by a South African guide introduced Reddit to an elusive nightjar—and naturally sparked an avalanche of tree jokes.",
+      "body": [
+        "South African tour guide Curteis Roberts managed to capture rare night footage of an elusive pennant-winged nightjar, shining a light on one of the stranger feathered creatures navigating the dark.",
+        "When daytime photos were shared to show what the bird looks like in regular sunlight, viewers were treated to an astonishing masterclass in extreme sexual dimorphism and natural mimicry.",
+        "The female blends so seamlessly into tree bark that Reddit commenters quickly abandoned serious ornithological discussion to crown her the undisputed 'branch manager.'"
+      ],
+      "more": [
+        "Curteis Roberts, who shares his wildlife encounters under the handle curt_is_wild, granted permission for the nighttime encounter to be discussed on the platform, where naturalists pointed out the species' dramatic physical contrast.",
+        "While males boast extravagant trailing ribbons during breeding displays, the females are shaped and colored almost identically to lichen-crusted bark, allowing them to vanish entirely against daylight tree trunks.",
+        "The disguise was so uncanny that it immediately triggered a parade of moss-based wordplay, with users joking that she was quite literally 'lichen that branch.'",
+        "Finding one at night remains a treat for safari spotters, given that nightjars spend daylight hours sitting frozen and indistinguishable from broken wood."
+      ],
+      "source": {
+        "id": "r-interestingasfuck",
+        "name": "r/interestingasfuck",
+        "url": "https://www.reddit.com/r/interestingasfuck/comments/1xsnr4k/south_african_tour_guide_curteis_roberts_captures/"
+      },
+      "wiki": "Pennant-winged_nightjar",
+      "lang": "en"
+    },
+    {
+      "id": "fun-the-mechanics-of-a-good-meme-why-the-gap-between",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "explainer",
+      "tags": [
+        "internet-culture",
+        "psychology",
+        "memes"
+      ],
+      "title": "The Mechanics of a Good Meme: Why the Gap Between Image and Text Makes Us Laugh",
+      "snippet": "Researchers who study humor found that the best memes rely on a sharp mismatch between picture and caption—turning tiny everyday failures into shared inside jokes.",
+      "body": [
+        "A meme is rarely funny because of the image alone or the words alone. The comedy lives almost entirely in the friction between the two. Pairing a solemn historical painting with an everyday complaint about printer jams forces the brain into an instant double-take.",
+        "Computer scientists studying this dynamic even analyzed funniness ratings across 7,500 memes to train models on what triggers a laugh. When the visual says something grand and the caption says something petty, your brain fills the gap.",
+        "Beyond the contrast, the most enduring formats hinge on universal human failings: walking into a room only to forget why, snoozing an alarm five times, or repeatedly checking the fridge hoping new snacks have magically materialized."
+      ],
+      "more": [
+        "Online culture archivist Know Your Meme notes that virtually every viral image borrows its structural bones from an earlier iteration. Great memes essentially operate as open-source templates, handing millions of strangers the exact same visual frame and daring them to project their own minor grievances onto it.",
+        "This copy-and-alter mechanism mirrors the formal study of memetics, which views cultural ideas as living units that replicate, mutate, and survive solely based on how enthusiastically humans pass them along.",
+        "Speed of comprehension is another decisive factor. Psychological research indicates that jokes land hardest when they are instantly digestible. If an audience must stop to unpack a convoluted layout or decipher miniature text, the sudden surprise of the punchline dissolves into plain confusion.",
+        "Finally, niche community humor inverts typical broad appeal. Whether built for bakers, teachers, or obscure fandoms, insular jokes thrive because they signal belonging, transforming hyper-specific workplace misery into a private collective shrug."
+      ],
+      "source": {
+        "id": "bored-panda",
+        "name": "Bored Panda",
+        "url": "https://www.boredpanda.com/funny-memes-imagests/"
+      },
+      "wiki": "Internet_meme",
+      "imageUrl": "https://static.boredpanda.com/blog/wp-content/uploads/2026/11/funny-memes-imagests-cover_720.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "motion-haymaker-vfx-acquires-swedish-powerhouse-swiss",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "vfx",
+        "industry",
+        "advertising",
+        "studios"
+      ],
+      "title": "Haymaker VFX Acquires Swedish Powerhouse SWISS",
+      "snippet": "Following three years of rapid growth, Haymaker absorbs the studio behind Volvo's iconic Epic Split.",
+      "body": [
+        "Independent studio Haymaker VFX has acquired Stockholm-based SWISS, combining two established names in Scandinavian high-end post-production. The SWISS brand will remain intact, along with its two decades of creative heritage.",
+        "Haymaker, founded by Alex Hansson, has seen revenue jump roughly 57% between 2024 and 2025, buoyed by major high-profile projects like Fallout Season 2 and The Wizard of Oz at the Sphere in Las Vegas.",
+        "The move significantly expands Haymaker’s physical presence in Stockholm alongside its Gothenburg and Los Angeles hubs, absorbing the talent behind legendary commercial visual effects like Volvo Trucks’ 'The Epic Split'."
+      ],
+      "more": [
+        "Founded in 2002, SWISS built a reputation primarily within premium commercial advertising. Its portfolio reached a global benchmark with the double Cannes Lions Grand Prix-winning stunt spot 'The Epic Split', which showcased precise, photoreal tracking and technical execution.",
+        "Haymaker plans to preserve the SWISS banner while folding its veteran artists directly into its international delivery network. Company leadership emphasizes that the addition expands capacity without abandoning the tight, boutique collaborative model agencies expect.",
+        "The acquisition highlights a broader trend among mid-size VFX houses looking to scale international footprints across North America and Europe while updating internal pipelines. Haymaker has focused heavy internal investment on integrating emerging production tools, including AI, into standard commercial and entertainment workflows.",
+        "With active operations spanning Gothenburg, Stockholm, and Los Angeles under North American president Leslie Sorrentino, the combined studio aims to service larger longform streaming work alongside complex bespoke advertising campaigns."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/haymaker-vfx-acquires-swiss/"
+      },
+      "wiki": "Visual_effects",
+      "imageUrl": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/11/haymaker-wizard-of-oz-sphere.jpg?fit=700%2C394&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "motion-flora-macleod-joins-electric-theatre-collective",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "news",
+      "published": "2026-11-09",
+      "style": "news",
+      "tags": [
+        "3d-design",
+        "art-direction",
+        "cgi",
+        "motion-design"
+      ],
+      "title": "Flora MacLeod Joins Electric Theatre Collective",
+      "snippet": "The tactile CG specialist moves to ETC’s expanding 3D design team following major brand work and immersive installations.",
+      "body": [
+        "Art director Flora MacLeod has officially joined Electric Theatre Collective, teaming up with 3D design leads Will Denning and James Britton across tech, fashion, and beauty projects.",
+        "MacLeod arrives from Optical Arts, where she contributed to Channel 4’s 2023 idents and crafted product animation for clients including Dyson, Bowers & Wilkins, and Aveda. Her previous work also includes 'Hidden Life', an immersive four-story plankton world projected at Outernet London.",
+        "Her signing brings an organic, material-heavy visual approach directly into ETC's integrated pipeline, connecting boutique CG design directly with their larger visual effects and color grading departments."
+      ],
+      "more": [
+        "MacLeod's design portfolio sits at the intersection of tactile material studies and scientific observation. Her work on Channel 4’s idents, developed in collaboration with artists such as Fabrice Le Nezet and Dan Tobin Smith, showcased a blend of deliberate physical simulation and clean broadcast styling.",
+        "Her Outernet London installation, 'Hidden Life', pushed micro-scale natural biology onto massive multi-surface architectural displays, stretching microscopic ocean life across five separate video walls.",
+        "At Electric Theatre Collective, MacLeod is embedded within a dedicated 3D design unit structured to bridge the gap between abstract design thinking and technical visual effects pipelines. Strategy director James Britton noted her tactile sensibility will shape the unit’s ongoing aesthetic direction across commercial beauty and consumer electronics."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/flora-macleod-electric-theatre-collective/"
+      },
+      "imageUrl": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/11/flora-macleod-electric-theatre-collective-scaled.jpeg?fit=700%2C467&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "motion-speaking-without-words-how-singing-stones-built",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "game-art",
+        "sound-design",
+        "brutalism",
+        "art-direction"
+      ],
+      "title": "Speaking Without Words: How Singing Stones Built a Silent Game",
+      "snippet": "At Tribeca, a wordless game built around brutalist monoliths and musical lithophones asks how we communicate across deep time.",
+      "body": [
+        "Unrelated Studio's game LOFSÖNG arrived at the Tribeca Games Gallery without text, maps, or dialogue. Directed by Alessandro Durando, it drops the player into a dusty expanse guided only by grain, an origami companion that folds into transport, and colossal concrete monoliths waiting to be triggered by sound.",
+        "The project started with Finland’s Onkalo spent nuclear fuel repository and its core dilemma: how do you signal danger to civilizations 100,000 years away when spoken languages will have vanished? Durando looked toward architecture parlante and the late Sardinian sculptor Pinuccio Sciola, who carved basalt into singing lithophones.",
+        "The result is an aesthetic where sound is not an afterthought, but the literal grammar of the world. You vocalize to read radiation decay and play architecture like immense orchestral instruments to uncover what seven vanished human species left behind."
+      ],
+      "more": [
+        "LOFSÖNG's narrative foundation posits eight successive human species, with sapiens being merely the first. The player embodies the final surviving humanity, wandering a radiation-soaked landscape to compose an elegy by unlocking acoustic monuments raised by preceding civilizations.",
+        "To solve the challenge of wordless communication, Durando initially considered architecture parlante—structures that express their function purely through physical shape. Yet, realizing concrete alone cannot convey why something was built or what it cost, he integrated sound as a universal mathematical language inspired by Sciola’s resonant stone incisions.",
+        "In gameplay, these structures function as tactile acoustic puzzles. Certain monuments vibrate like lithophones, others echo like gigantic pipes, and the protagonist’s vocal pitch operates similarly to a Geiger counter, mapping invisible radioactive decay through resonance.",
+        "Visually, the project leans on high-contrast brutalist forms overlaid with heavy grain. The grain serves two narrative functions: communicating the raw, tactile texture of concrete, while mimicking the visual decay of photographic film ruined by atmospheric radiation."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/2026/11/10/lofsong-and-the-language-that-outlives-us/"
+      },
+      "wiki": "Brutalist_architecture",
+      "imageUrl": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/11/trimLofsong-BergmalWorldPremiereTrailergamescomOpeningNightLive2026-ezgif.com-optimize.gif?fit=600%2C337&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "ai-tracking-anthropic-s-bug-scanner-thousands-of-cl",
+      "topic": "ai",
+      "sub": "innovation",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "anthropic",
+        "cybersecurity",
+        "open-source",
+        "software-security"
+      ],
+      "title": "Tracking Anthropic's Bug Scanner: Thousands of Claims, Piles of Discards",
+      "snippet": "Seven months into Project Glasswing, independent audits show automated AI vulnerability hunting creates a mountain of false positives for maintainers.",
+      "body": [
+        "Seven months after Anthropic launched Project Glasswing with claims of uncovering thousands of high- and critical-severity bugs, security analytics firm VulnCheck audited the initiative's real-world impact. The data shows a growing gulf between AI findings and actual remedies.",
+        "Out of nearly 38,000 reported findings, only 217 have been marked as fixed on Anthropic's public ledger. Meanwhile, 1,654 findings have been marked as duplicates and 419 withdrawn entirely, casting doubt on the project's claimed 94.2% true positive rate.",
+        "With Anthropic bottlenecked on human review, its self-service scanner is now passing untriaged automated reports straight to open-source maintainers, frequently shifting the burden of filtering noise onto volunteer developers."
+      ],
+      "more": [
+        "When Glasswing debuted, Anthropic heralded a new era of AI-driven vulnerability discovery. Yet tracking by VulnCheck reveals only 442 CVEs attributable to Anthropic over seven months—roughly 0.5% of all CVEs published this year. Crucially, only two of those CVEs have ever been identified as exploited in the wild.",
+        "The triage bottleneck has become glaring. Anthropic admitted that while it logged over 29,000 candidate bugs, internal staff could only manually review roughly 6,000 before reaching capacity. To manage the backlog, it introduced an OSS Scanner that lets maintainers request raw, unreviewed model outputs directly.",
+        "A clear view of the consequences landed in the curl project. When Anthropic sent 45 vulnerability reports, maintainer Daniel Stenberg had to stage them carefully to avoid overwhelming his team. Of the first 34 published reports, curl rejected 19 as non-vulnerabilities, confirmed 6 as merely low severity, and left 9 pending assessment—resulting in a 55.9% false positive rate.",
+        "Beyond noisy alerts, the longer findings sit unresolved, the more likely independent developers discover or patch them organically, causing duplicate numbers to balloon from single digits to over 1,600. While AI undeniably assists code analysis, shifting raw, unverified reports onto open-source maintainers threatens to create more cleanup overhead than security benefit."
+      ],
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      },
+      "wiki": "Software_vulnerability",
+      "imageUrl": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+      "lang": "en"
+    },
+    {
+      "id": "ai-an-ai-solved-an-18-year-old-quantum-problem-spar",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "anthropic",
+        "quantum-computing",
+        "frontier-ai",
+        "scientific-research"
+      ],
+      "title": "An AI Solved an 18-Year-Old Quantum Problem, Sparking an Academic Reckoning",
+      "snippet": "Using Anthropic’s unreleased model, researchers resolved the Aaronson-Ambainis conjecture—leaving the author of the problem awestruck and fatigued.",
+      "body": [
+        "David Turturean, a recent MIT graduate working at startup Physical Superintelligence (PSI), used early access to Anthropic’s Fable 5.2 model to solve the Aaronson-Ambainis conjecture, an 18-year-old open question in quantum query complexity.",
+        "The problem relates to the extent of quantum speedups over classical algorithms. Scott Aaronson, who originally posed the problem, admitted he didn't fully grasp the AI-generated proof at first glance, but accepted it after it was autoformalized in the Lean theorem-proving language and verified by fellow experts.",
+        "The breakthrough highlights the rapid rise of AI scaffolding and theorem verification in pure math, while underscoring an uneasy transition for human researchers confronting machine-led discovery."
+      ],
+      "more": [
+        "The proof provides a negative result regarding how quantum systems might solve certain classes of difficult computational problems at high speed, successfully ruling out an entire theoretical branch. Aaronson described feeling a mixture of satisfaction, fatigue, and awe, noting that full query complexity proofs of this caliber were among the last major open milestones in his field.",
+        "PSI’s approach relies not on a single prompt to a raw model, but on structured harnesses, external tooling, memory stores, and simulation infrastructure. According to CEO Matt Pines, solving difficult technical queries requires broad search over alternative paths paired with formal validation loops like Lean code generation.",
+        "While mathematical proofs can be mechanically validated through code, bridging the gap to physical disciplines remains messy. Real-world physics involves experiment and noise where simulation is rarely enough, prompting PSI to focus both on data center physics optimization and translating theoretical principles into physical hardware.",
+        "The speed of these model-derived breakthroughs is triggering deep cultural questions among scientists. With MIT hosting summits to evaluate emerging standards for AI-assisted research, academics are grappling with how to properly credit, publish, and translate machine findings so human researchers can actually understand the underlying insights."
+      ],
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch · AI",
+        "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+      },
+      "wiki": "Quantum_query_complexity",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
+      "lang": "en"
+    },
+    {
+      "id": "ai-deleting-less-than-0-05-of-weights-matches-full",
+      "topic": "ai",
+      "sub": "local-llm",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "llm",
+        "fine-tuning",
+        "open-source-ai",
+        "machine-learning"
+      ],
+      "title": "Deleting Less Than 0.05% of Weights Matches Full LLM Fine-Tuning",
+      "snippet": "Researchers discovered that zeroing out a tiny fraction of attention weights teaches a model new tricks without triggering catastrophic forgetting.",
+      "body": [
+        "Fine-tuning large language models usually demands massive compute or hefty adapter checkpoints. A new research paper introduces Deletion Tuning, showing that simply zeroing out fewer than 0.05% of a pretrained model's weights—with no other structural changes—can match the performance of full fine-tuning at scale.",
+        "The technique learns a binary mask applied strictly across the gate projections of transformer blocks. Tested across reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation, the approach produces checkpoints that are hundreds to thousands of times smaller than full fine-tuning outputs.",
+        "Crucially, it also sidesteps catastrophic forgetting: models retain their prior-task accuracy near baseline levels, whereas methods like LoRA and full fine-tuning lose up to 5.4 points."
+      ],
+      "more": [
+        "In continual learning, teaching an existing model new skills typically degrades what it learned during pretraining. Standard full fine-tuning modifies every parameter, and parameter-efficient methods like LoRA inject low-rank update matrices. Both approaches often suffer noticeable regressions on baseline tasks under reinforcement learning.",
+        "Deletion Tuning attacks the problem from the opposite direction: subtraction. Instead of adding new values, it trains a sparse binary mask that turns select weights to zero. By isolating changes solely to the gate projection within transformer blocks, the model adapts its behavior by pruning specific paths rather than rewriting connection values.",
+        "To unpack why deletion alone works so well, the authors studied the underlying geometry of weight adjustments under reinforcement learning. Analyzing stable rank, spectrum drift, and principal-weight overlap revealed that Deletion Tuning closely mimics the structural geometry of full fine-tuning, tracking it far more tightly than LoRA or random sparse fine-tuning.",
+        "For practitioners running models locally, this promises significant operational benefits. A trained mask is trivial to store, share, and toggle at inference compared to multi-gigabyte weight deltas, without paying the accuracy penalty usually associated with aggressive pruning."
+      ],
+      "source": {
+        "id": "r-localllama",
+        "name": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/"
+      },
+      "wiki": "Fine-tuning_(machine_learning)",
+      "lang": "en"
+    },
+    {
+      "id": "bike-the-traka-world-series-overhauls-its-pro-points",
+      "topic": "bike",
+      "sub": "gravel",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "traka-world-series",
+        "gravel-earth-series",
+        "race-regulations"
+      ],
+      "title": "The Traka World Series Overhauls Its Pro Points and Qualification Rules",
+      "snippet": "The series formerly known as the Gravel Earth Series is revamping qualification for 2027, balancing points and tightening who gets into the pro pen.",
+      "body": [
+        "Organizers behind The Traka World Series (formerly known as the Gravel Earth Series) have unveiled major structural changes to their ranking procedures for the 2027 season. The headline update: points will now be weighted evenly across all seven events, eliminating previous scoring bonuses awarded at marquee races like The Traka 360 and the series finale, formerly dubbed The River.",
+        "Under the revised system, the top 25 riders in the pro categories will earn standardized points at every stop, from Traka Girona through to the newly named finale, The Last Dance. Entry into the pro field itself will also transition to a formal system defined by past competitive results and wildcard invitations."
+      ],
+      "more": [
+        "In previous seasons, series scoring heavily rewarded specific flagship challenges. By flattening the curve so Traka Girona and The Last Dance award identical points to the other five stops, organizers are emphasizing consistency across the entire seven-race calendar over solitary peak performances.",
+        "The shift to a defined qualification criteria marks gravel racing's continuing transition from purely open-entry mass starts toward tiered elite fields. Riders will have to earn their spots on the pro start line via previous race resumes or discretionary wildcard berths, tightening the front-pack dynamics across the series.",
+        "The news follows a dominant run in the 2026 Gravel Earth Series by Mads Würtz Schmidt, who claimed victory in all five events he contested. Alongside the qualification restructuring, affiliated gravel events are also adjusting access, including The Rift maintaining a dedicated block of entries reserved specifically for women."
+      ],
+      "source": {
+        "id": "cyclingnews-gravel",
+        "name": "Cyclingnews · Gravel",
+        "url": "https://www.cyclingnews.com/pro-cycling/racing/past-results-and-wildcard-invitations-now-define-pro-categories-at-the-traka-world-series-events-the-rift-keeps-a-limited-number-of-entries-open-for-women-gravel-bits/"
+      },
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uEWTsVdxNMAAiJNT9s6aWW-1920-80.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "bike-young-underdogs-topple-past-champions-in-sprint",
+      "topic": "bike",
+      "sub": "gravel",
+      "kind": "news",
+      "published": "2026-11-09",
+      "style": "news",
+      "tags": [
+        "iceman-cometh",
+        "gravel-racing",
+        "sprint-finish"
+      ],
+      "title": "Young Underdogs Topple Past Champions in Sprint Thrillers at Iceman Cometh",
+      "snippet": "Twenty-something up-and-comers Samanth Johnson and Kyan Olshove held off former race winners in dramatic, wire-to-wire finishes.",
+      "body": [
+        "The annual Iceman Cometh Challenge delivered a pair of stunning upsets this weekend, as 22-year-old Samanth Johnson and 24-year-old Kyan Olshove captured the elite titles. Both racers managed to fend off decorated past champions in high-speed sprint finishes at the end of the 31-mile course.",
+        "For Olshove, a Traverse City native racing on home turf, victory arrived on his sixth attempt at the event. He stopped the clock at 1:32:57, edging out Michigan rival and established gravel veteran Alexey Vermeulen by a razor-thin single second."
+      ],
+      "more": [
+        "Iceman Cometh remains one of the most storied point-to-point off-road showdowns in the American Midwest, where tight woods, fast tracks, and late-season weather regularly set up tactical group finishes. Taking the win often demands both high aerobic capacity and sharp positioning in the final meters.",
+        "Holding off seasoned names like Alexey Vermeulen and former champion Deanna Mayles underlines the rapid emergence of a younger generation across off-road racing. The one-second margin in the men's race showcases how narrow the margins remain when an elite sprint decides 31 miles of flat-out dirt racing.",
+        "For Olshove, sealing a win in front of a hometown crowd after six tries marked a personal pinnacle, describing the breakthrough victory as a lifelong dream fulfilled."
+      ],
+      "source": {
+        "id": "cyclingnews-gravel",
+        "name": "Cyclingnews · Gravel",
+        "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/my-life-long-dream-has-come-true-rising-gravel-stars-carve-close-victories-at-iceman-cometh-against-former-winners-alexey-vermeulen-deanna-mayles/"
+      },
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/QETUTtYBLKHURjYZXDcv3N-1920-80.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-australia-s-oldest-department-store-chain-to-clo",
+      "topic": "news",
+      "sub": "economy",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "news",
+      "tags": [
+        "retail",
+        "business",
+        "economy",
+        "australia"
+      ],
+      "title": "Australia's oldest department store chain to close half its network",
+      "snippet": "David Jones will shutter 19 of its 38 department stores across Australia and New Zealand under an urgent restructuring by receivers.",
+      "body": [
+        "Receivers overseeing David Jones have announced plans to shut 19 of its 38 stores across Australia and New Zealand, triggering widespread job cuts across the 188-year-old retailer.",
+        "The collapse into voluntary administration follows years of mounting losses, high lease obligations, and increasing pressure from online retail and specialist upmarket competitors. David Jones currently employs more than 6,000 staff members.",
+        "Receivers from FTI Consulting plan to keep the identified stores trading through the end of the year while primary lenders run liquidation sales and administrators seek a buyer for a slimmed-down business."
+      ],
+      "more": [
+        "Under the current receivership structure, FTI Consulting has assumed control of operational decisions, while administrators McGrathNicol are tasked with finding a buyer or recapitalisation plan. The store closures impact locations in New South Wales, Victoria, Western Australia, Queensland, South Australia, the Australian Capital Territory, and Auckland, New Zealand.",
+        "Chief executive Erica Berchtold told suppliers that the chain's retail footprint had become unsustainable. Primary secured lender Hilco Global has deployed representatives directly inside closing locations to oversee aggressive clearance sales and inventory management ahead of expected year-end closures.",
+        "Records indicate that administrators had been reviewing the private equity-owned chain's accounts months before the public collapse. Some smaller suppliers are still owed money on deliveries dating back to April, long before missed commercial rent triggered formal insolvency proceedings.",
+        "Anchorage Capital, the private equity firm that owns David Jones, is expected to submit a bid to repurchase a restructured version of the chain, stripped of underperforming leases. The flagship Melbourne CBD location and remaining central stores are expected to anchor whatever version of the business survives."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/business/2026/nov/11/david-jones-store-closures-administration-restructure"
+      },
+      "wiki": "David_Jones_(department_store)",
+      "imageUrl": "https://i.guim.co.uk/img/media/0a2db8d77868f5135bedecc8258c52c399a9d09d/139_0_4074_3261/master/4074.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0f08523ea75d197a604d1c574975f964",
+      "lang": "en"
+    },
+    {
+      "id": "news-russia-and-ukraine-hold-first-u-s-mediated-peace",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "diplomacy",
+        "russia-ukraine-war",
+        "geopolitics"
+      ],
+      "title": "Russia and Ukraine hold first U.S.-mediated peace talks in nine months",
+      "snippet": "Delegations from Moscow and Kyiv sat down in Abu Dhabi for direct, mediated discussions on humanitarian swaps and broader security terms.",
+      "body": [
+        "Delegations from Russia and Ukraine have gathered in Abu Dhabi for nearly four hours of trilateral talks mediated by the United States. It marks the first direct, formal meeting between the two sides on ending the war in nine months.",
+        "The sessions were described by Ukrainian President Volodymyr Zelenskyy as substantive, focusing primarily on large-scale prisoner exchanges, the return of detained civilians and displaced children, and prospective security guarantees. U.S. representatives Jared Kushner and Steve Witkoff attended alongside NATO commander Gen. Alexus Grynkewich.",
+        "While both sides remain far apart on core territorial demands and ceasefires, the renewal of formal dialogue represents an opening as broader talks on European security architecture begin to take shape."
+      ],
+      "more": [
+        "The meeting in the United Arab Emirates was attended by experienced negotiators. Moscow’s delegation was led by presidential aide Vladimir Medinsky, who has directed Russia's talks since early 2022, alongside deputy foreign ministers Sergei Ryabkov and Mikhail Galuzin. Kyiv’s contingent was led by foreign intelligence chief Rustem Umerov and included presidential chief of staff Kyrylo Budanov.",
+        "Prior to sitting down with the Russian delegation, Ukrainian representatives met with Western partners, including officials from France, Germany, the United Kingdom, Italy, NATO, and the European Commission. Russia objected to European envoys directly participating in the trilateral sessions but indicated openness to EU involvement down the road.",
+        "Substantive divides remain deep. Moscow insists that Kyiv withdraw forces from four annexed southeastern territories, abandon its bid to join NATO, and accept legal caps on its armed forces before an armistice can occur. Kyiv adamantly rejects ceding land or accepting restrictions on its defence arrangements, maintaining that an immediate ceasefire is required before broader borders can be resolved.",
+        "U.S. negotiators signaled they are aiming for a wider, long-term security architecture rather than just an isolated deal. Jared Kushner noted that a lasting settlement will require direct engagement between European partners and Russia. Further discussions on prisoner release logistics and security frameworks are scheduled to continue across the week."
+      ],
+      "source": {
+        "id": "npr-world",
+        "name": "NPR · World",
+        "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+      },
+      "wiki": "Peace_negotiations_in_the_Russian_invasion_of_Ukraine",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7854x4416+0+596/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F13%2F515f28d34b1593e39648a6756395%2Fap26314378728116.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-directors-of-collapsed-indigenous-funeral-fund-b",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "news",
+      "tags": [
+        "australia",
+        "indigenous-rights",
+        "corporate-governance",
+        "law"
+      ],
+      "title": "Directors of collapsed Indigenous funeral fund banned and fined in Australia",
+      "snippet": "Federal courts have disqualified former executives of Youpla Group, whose aggressive junk policies left 13,000 Aboriginal families without funeral cover.",
+      "body": [
+        "Three former directors of Youpla Group, a defunct Australian funeral insurance fund that targeted First Nations communities, have been disqualified from corporate management for between five and ten years and ordered to pay financial penalties.",
+        "The fund collapsed in March 2022, stranding more than 13,000 Indigenous members—many of whom were elderly or in palliative care—and forcing grieving relatives to crowdfund burial costs. Australia's Federal Court ruled that the executives failed in their duties of care, neglected conflicts of interest, and caused severe financial detriment to members.",
+        "The ruling closes another chapter in a long regulatory fallout, following a federal government aid package launched to compensate low-income families harmed by the fund's practices."
+      ],
+      "more": [
+        "Federal Court Justice Geoffrey Kennett ordered former director Jonathan Law to pay $50,000 with a six-year ban, Michael Wilson to pay $20,000 alongside a 10-year ban, and Geoffrey Clayton to pay $20,000 with a five-year ban. The rulings follow an earlier judgment that barred founder Ron Pattenden for 15 years and imposed a $250,000 settlement after an action by corporate regulator ASIC.",
+        "Previously operating under the name Aboriginal Community Benefit Fund, the business systematically sold poor-value policies across Australia for decades. Sales representatives used targeted marketing that incorporated Aboriginal flag colours into children's toys and colouring books, while employing door-to-door sales tactics in communities where English was often not the primary language.",
+        "Investigators found that the fund had routed insurance arrangements through Crown Insurance, an entity based in Vanuatu that was owned and controlled by company insiders, failing to act in the best interests of policyholders. Furthermore, customers were told policies offered guaranteed lump-sum payouts, whereas the company only reimbursed proven, qualified expenses.",
+        "The company's licence to sell new policies was pulled after hearings at the 2018 banking royal commission, leading to complete insolvency by 2022. To mitigate the harm, the Australian government established a $97 million redress scheme, offering policyholders either funeral bonds or cash payments to recover lost funds."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/11/youpla-directors-disqualified-over-collapsed-funeral-fund-that-targeted-aboriginal-families-ntwnfb"
+      },
+      "wiki": "Australian_Securities_and_Investments_Commission",
+      "imageUrl": "https://i.guim.co.uk/img/media/d054e5852d5b7424d0f483585eb7f5bed9714ee5/310_0_1213_970/master/1213.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f3ca2fca8ee3220490f18f2af2da9e8b",
+      "lang": "en"
+    },
+    {
+      "id": "tech-microsoft-s-auto-sr-upscaler-untethers-from-the",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "news",
+      "tags": [
+        "gaming",
+        "handhelds",
+        "microsoft",
+        "graphics"
+      ],
+      "title": "Microsoft's Auto SR upscaler untethers from the dock on handhelds",
+      "snippet": "The DLSS competitor now runs on battery power and reaches up to 120fps on the Xbox Ally X.",
+      "body": [
+        "Microsoft is widening the release of Automatic Super Resolution (Auto SR), its AI-driven upscaling technology designed to boost frame rates much like Nvidia's DLSS. The feature is rolling out to the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs.",
+        "When Microsoft first started testing Auto SR in April, it came with a major compromise: it only functioned while the handheld was docked to a wall outlet. With this official rollout, the technology finally works untethered while playing in handheld mode on battery power."
+      ],
+      "more": [
+        "In addition to untethering from the dock, the update introduces support for 1080p target resolutions on handhelds. Microsoft notes that pushing 1080p on battery power might yield performance that is less optimal than lower base configurations, but promises visible fidelity improvements, particularly in older titles.",
+        "Frame rate caps are also being lifted. Previously, Auto SR topped out around 60 to 75fps. A newly introduced Auto SR Performance mode now lets compatible hardware push up to 120fps.",
+        "The Performance mode and companion compatibility with Auto HDR will be distributed via standard Windows updates, giving portable PC gaming another native tool to balance battery draw against visual fidelity."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+      },
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0073.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "tech-starlink-mini-2-packs-a-hot-swappable-battery-in",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "hardware",
+        "spacex",
+        "starlink",
+        "satellite-internet"
+      ],
+      "title": "Starlink Mini 2 packs a hot-swappable battery into a thinner frame",
+      "snippet": "SpaceX's portable dish drops 40% of its thickness while squeezing in an internal battery that runs for 4.5 hours off-grid.",
+      "body": [
+        "SpaceX has unveiled the Starlink Mini 2, an updated take on its portable satellite terminal that combines the dish, Wi-Fi router, and now a battery into an all-in-one package about the size of a laptop. The new design addresses the main friction point of off-grid connectivity: needing a separate external power bank or wall plug just to establish a connection.",
+        "Remarkably, the dish has actually shed bulk. It measures 23.1mm thick compared to the original Mini's 38.5mm, though the integrated battery nudges total weight up to around 3.5 pounds. SpaceX claims the internal cell lasts up to 4.5 hours on a full charge, can be hot-swapped with spare batteries sold separately, or powered continuously via a standard 60W USB-C source."
+      ],
+      "more": [
+        "The hardware retains its outdoor-ready IP67 dust- and waterproof rating, making it practical for remote work setups, van lifers, and field deployments where weather resistance is non-negotiable.",
+        "According to user invitations shared online, the terminal is launching at $999. That package includes a full year of Starlink's Roam Unlimited service, which SpaceX typically values at $2,100, effectively discounting the steep hardware buy-in for early adopters.",
+        "For now, orders are limited. Preorders are open by invitation to select customers in the United States, with a wider rollout to additional users and international markets planned in the future."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery"
+      },
+      "wiki": "Starlink",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/starlinkmini2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "lang": "en"
+    },
+    {
+      "id": "tech-why-the-fight-for-right-to-repair-has-evolved-in",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "right-to-repair",
+        "tech-policy",
+        "hardware",
+        "consumer-rights"
+      ],
+      "title": "Why the fight for right to repair has evolved into a fight for ownership",
+      "snippet": "Beyond hard-to-swap phone batteries, advocate Louis Rossmann argues the real threat is devices that stop working the moment cloud servers turn off.",
+      "body": [
+        "What started as an effort to let people swap out cracked screens and dead phone batteries has quietly transformed into a broader battle over personal property. In an interview with WIRED, consumer rights advocate and repair shop veteran Louis Rossmann outlined how modern hardware restrictions have made genuine product ownership an endangered concept.",
+        "Rossmann points out that the problem stretches far beyond consumer gadgets like iPhones. Today, software locks, pairing restrictions, and post-sale firmware updates plague everything from gaming consoles and smart home gear to agricultural tractors, giving manufacturers the power to disable features or demand subscription fees long after a customer paid full price."
+      ],
+      "more": [
+        "A central focus of Rossmann's advocacy is Section 1201 of the Digital Millennium Copyright Act (DMCA), which strictly bars users from circumventing digital locks and firmware hurdles set up by manufacturers. To draw attention to the rule, Rossmann organized the 'Own Your Shit' tour across the US, arguing that copyright statutes were never intended to stop someone from repairing their own property.",
+        "Rossmann notes that his perspective broadened back in 2017 during a legislative hearing in Nebraska. Expecting to discuss electronics, he found himself in a room packed with farmers battling tractor manufacturer John Deere for the exact same reasons: proprietary software prevented them from diagnosing and fixing their own heavy machinery.",
+        "According to Rossmann, some of the most egregious examples occur when companies realize they need ongoing revenue. He cites connected thermostat companies that pushed mandatory post-bankruptcy firmware updates requiring a $117 annual fee to restore features that were free at launch.",
+        "While companies like Apple and Samsung have launched self-repair programs to counter public criticism, Rossmann views them largely as surface-level concessions. Apple's process often requires renting roughly 80 pounds of specialized machinery, while replacement parts remain artificially expensive or locked by serialized software checks that disable features if unverified third-party hardware is detected."
+      ],
+      "source": {
+        "id": "wired",
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/the-big-interview-podcast-louis-rossmann-right-to-repair/"
+      },
+      "wiki": "Right_to_repair",
+      "imageUrl": "https://media.wired.com/photos/6af229e287f3b30dbcfb8e9b/master/pass/Big-Interview-UV-Solo-Louis-Rossman.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-a-century-later-south-africa-s-taung-child-gets",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "paleontology",
+        "anthropology",
+        "fossils",
+        "evolution"
+      ],
+      "title": "A Century Later, South Africa's Taung Child Gets a New Timeline",
+      "snippet": "New dating places the famous hominin fossil at 3 million years old, suggesting our family tree was a messy, climate-driven bush.",
+      "body": [
+        "A century after its discovery transformed the search for human origins, the Taung child skull has been dated to roughly 3 million years ago. Found in 1924 in a South African limestone quarry, the young hominin fossil remains the undisputed reference specimen for Australopithecus africanus.",
+        "Because quarry blasting destroyed the skull's original geological layer, past age estimates swung widely between 942,000 and 3.03 million years. Using uranium-lead dating on flowstone overlying the fossil deposit alongside magnetic data, a team led by Professor Gabriele Macho pinned its age to between 2.96 and 3.03 million years.",
+        "Detailed scans of the child's teeth and skull development reveal a surprising blend of traits, suggesting early hominins in South Africa experienced significant hybridization spurred on by erratic climate shifts."
+      ],
+      "more": [
+        "Described in 1925 by Raymond Dart, the Taung skull established Australopithecus africanus and anchored Africa as the cradle of early human ancestors. For decades, researchers assumed Taung was simply representative of a single, uniform species that lived across the region. However, modern comparative analyses of the child's dental growth tell a more complicated story.",
+        "The pattern of tooth formation suggests the child's developmental pace slowed down after its first molars emerged—a pacing characteristic of modern humans that hints at the evolutionary emergence of an extended childhood. Furthermore, the junction between enamel and dentine in Taung's teeth sits midway between typical Australopithecus africanus and the heavier-jawed Paranthropus robustus.",
+        "Growth models of the brain also showed that Taung would have matured to resemble some adult fossils found at the nearby Sterkfontein caves, but not others. This anatomical split implies that several distinct hominin populations or species were coexisting and intermingling in southern Africa at the time.",
+        "The driving engine behind this evolutionary mosaic appears to have been climate. Deep-sea sediment cores show southeastern Africa endured dramatic climatic swings between 4 and 2.5 million years ago. Fossil pollen samples near the site show that what is now dry savanna was once a wet, lush woodland populated by trees like Podocarpus, which now grow hundreds of kilometers away. As habitats shifted across rivers like the Limpopo, wandering hominin groups likely underwent repeated rounds of isolation, genetic drift, and interbreeding."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/othersciences/anthropology/taung-child-15185.html"
+      },
+      "wiki": "Taung_Child",
+      "imageUrl": "https://cdn.sci.news/images/2015/01/image_2428-Australopithecus-africanus.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-smart-capsules-reveal-how-coffee-alters-the-huma",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "biology",
+        "gut-microbiome",
+        "coffee",
+        "health"
+      ],
+      "title": "Smart Capsules Reveal How Coffee Alters the Human Gut",
+      "snippet": "Swallowed sensor pills and stool samples show coffee drinking alters colon contractions, acidity, and bacterial richness.",
+      "body": [
+        "Habitual coffee drinkers harbor a noticeably richer community of gut bacteria alongside measurable changes in digestive mechanics, according to a study led by researchers at the University of Copenhagen. While coffee has long been credited with metabolic and cardiovascular benefits, measuring its precise physical impact inside the living human gut has proven tricky.",
+        "To investigate, scientists tracked 61 healthy adults for nine days, analyzing their urine for caffeine metabolites and collecting stool samples. Fifty participants also swallowed a wireless sensor capsule that logged gut motility, acidity, and pressure as it moved through their digestive tract.",
+        "Those who drank coffee on more than three of eight monitored days possessed higher microbial diversity in their stool, including elevated levels of bacterial groups like Lawsonibacter and Slackia, while showing distinct differences in intestinal acidity and movement."
+      ],
+      "more": [
+        "Coffee is far more chemically complex than just caffeine: it packs more than 1,000 bioactive compounds, including phenolic acids, diterpenes, and complex fibers like galactomannans and arabinogalactans. Many of these compounds make it through the stomach and small intestine intact, where they function as prebiotic substrates that gut microbes feed on.",
+        "The swallowed wireless capsules revealed that the physiological effects extend beyond bacterial populations. Participants with higher caffeine breakdown products in their urine experienced more frequent contractions in the colon. Meanwhile, regular coffee drinkers maintained a less acidic environment in the small intestine compared to those who rarely touched the beverage.",
+        "These measurements help bridge the gap between anecdotal reports and hard biology. People frequently report that their morning cup quickly kick-starts bowel movements, and past laboratory work has demonstrated that coffee stimulates acid production in the stomach. The new capsule data shows these mechanical and chemical changes echoing further down the digestive pipe.",
+        "The abundance of Lawsonibacter is particularly compelling, as it reinforces earlier population-level studies linking the genus specifically to regular coffee consumption. Rather than acting merely as a stimulant, daily coffee appears to serve as an active modulator of host-microbe interactions and intestinal dynamics."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/medicine/coffee-drinker-gut-15187.html"
+      },
+      "wiki": "Gut_microbiota",
+      "imageUrl": "https://cdn.sci.news/images/2024/04/image_12861f-Coffee.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "science-a-hot-jupiter-vanishes-from-view-for-the-first-t",
+      "topic": "science",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "astronomy",
+        "exoplanets",
+        "nasa",
+        "space"
+      ],
+      "title": "A Hot Jupiter Vanishes from View for the First Time",
+      "snippet": "Astronomers watched exoplanet TOI-2535b steadily drift out of alignment until its transits vanished entirely.",
+      "body": [
+        "For the first time, astronomers have directly watched an exoplanet orbiting a single star stop crossing in front of its host. The hot Jupiter TOI-2535b, located about 1,000 light-years away in the constellation Corvus, whips around its star every 8.25 days. When NASA's TESS telescope first spotted it in 2019, it traversed neatly across the middle of the star's disk.",
+        "Over the next seven years, its transit path drifted steadily toward the outer rim until it became a grazing transit and finally disappeared from our line of sight in early 2026. This orbital shift of 0.16 per year in impact parameter is the fastest ever recorded for a planet orbiting a single star.",
+        "The team behind the discovery, led by Samuel Yee at UCLA, found that an unseen, massive companion planet is likely tugging on TOI-2535b, wobbling its orbital plane like a spinning top."
+      ],
+      "more": [
+        "Transiting planets are found because their orbits happen to line up precisely between their star and Earth, creating periodic dips in starlight. If that plane tilts even slightly, the planet can slip above or below the stellar disk, effectively vanishing from transit surveys. While orbital shifts have been theorized, directly witnessing an exoplanet migrate out of view over less than a decade is unprecedented.",
+        "The disappearance was accompanied by severe irregularities in the planet's schedule. TOI-2535b's transit timing wandered by as much as six hours away from its expected clockwork. Such transit timing variations are among the largest ever recorded for a hot Jupiter and pointed strongly to gravitational interference from another body.",
+        "To figure out what was pushing TOI-2535b around, researchers combined TESS data with radial-velocity measurements from the NEID spectrograph on the WIYN 3.5-meter telescope at Kitt Peak. Their models suggest an unseen planet at least roughly the mass of Saturn is locked in orbital resonance with the hot Jupiter. The orbits of the two worlds appear mutually inclined by at least 5 degrees, causing them to precess over decades-long cycles.",
+        "This dynamic tilt provides a rare clue about how hot Jupiters evolve. Most isolated hot Jupiters are thought to form through violent interactions that fling them into erratic orbits before settling close to their suns. Having a nearby giant sibling hints that TOI-2535b instead spiraled gently inward through the gas disk during the planetary system's infancy, revealing a rare and quiet formation pathway."
+      ],
+      "source": {
+        "id": "sci-news",
+        "name": "Sci.News",
+        "url": "https://www.sci.news/astronomy/vanishing-transits-toi-2535b-15188.html"
+      },
+      "wiki": "Hot_Jupiter",
+      "imageUrl": "https://cdn.sci.news/images/2020/12/image_9200f-HAT-P-68b.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "design-julien-gobled-s-rulebook-breaking-visual-worlds",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "story",
+      "tags": [
+        "graphic-design",
+        "typography",
+        "branding",
+        "print-design"
+      ],
+      "title": "Julien Gobled’s Rulebook-Breaking Visual Worlds",
+      "snippet": "From Le Havre, Julien Gobled blends warped type, photocopier textures, and archival wormholes into art direction that embraces happy accidents.",
+      "body": [
+        "French designer and artist Julien Gobled has stepped away from conventional agency rules, cultivating a dense visual style marked by airbrushed squiggles, freaky baby heads, and warped typography that doubles as optical illusions.",
+        "Working independently from Le Havre, Gobled treats design as a playground for visual research. By stepping back from micro-managing every asset, he leans heavily into digital manipulation, archival foraging, and process-driven discovery."
+      ],
+      "more": [
+        "Gobled’s path began in fine art before pivoting into commercial design, splitting his early years between design agencies and freelance projects. Over time, visual research took priority over rigid layout execution. Today, he maintains a strict 9-to-6 studio routine regardless of whether he has active commissions, dedicating open hours to diving into internet archives and treating found imagery as raw clay.",
+        "His process hinges on intuition and digital distortion: cropping, running assets through endless digital cycles that mimic degraded photocopies, and tracking down the exact moment an image triggers an emotional resonance. He cites an increasing fascination with displaced memories and fragments returning in unfamiliar ways.",
+        "This experimental philosophy anchors several notable recent collaborations. For the dense publication Derrière le soleil, co-published by Fidèle Éditions and Éditions Biceps, Gobled teamed up with Jean-Philippe Bretin, who laid out Gobled's intense three-month burst of image-making into a unified editorial object.",
+        "On Tranquilizer, the latest album from experimental icon Oneohtrix Point Never (Daniel Lopatin), Gobled collaborated with Elliott Elder of studio Uncanny. Together they layered custom typography and distorted illustrations around a cover screen print by Abner Hershberger.",
+        "Similarly, for Brooklyn concept store and wine bar Million Goods, Gobled joined forces with Gabriel Finotti of Sometimes Always studio. Tasked with handling Bauhaus, Brutalist, and Modernist prompts for a new location, the duo avoided polite pastiche, extracting core modern principles and reinterpreting them through contemporary print and poster artwork."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/inspiration/with-freaky-faces-warped-type-and-happy-accidents-julien-gobled-is-tearing-up-the-graphic-design-rulebook/"
+      },
+      "imageUrl": "https://media.creativeboom.com/5e5f3e84-cbfd-4099-885a-8b70ab608d6f/conversions/d1a11bb5fa24bbc225de6772fbd22d820133b907-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "design-decoding-bon-iver-s-22-a-million-a-decade-later",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "album-art",
+        "typography",
+        "after-effects",
+        "graphic-design"
+      ],
+      "title": "Decoding Bon Iver’s 22, A Million a Decade Later",
+      "snippet": "Eric Timothy Carlson revisits how he merged arcane ink symbols and raw desktop screencaps to build Bon Iver’s most enigmatic era.",
+      "body": [
+        "A decade ago, Bon Iver pivoted from acoustic cabin folk into a jittery, auto-tuned digital thicket with 22, A Million. The aesthetic that held it together came from Minnesotan designer Eric Timothy Carlson, who translated Justin Vernon’s brief of duality and communal synchronicity into an intricate universe of esoterica.",
+        "To mark the record's tenth anniversary, Carlson returned to invert the original cover art and assemble a seamless supercut of its karaoke-like lyric videos. It is a striking masterclass in mixing hand-drawn tattoo flash intuition with early desktop-publishing glitches."
+      ],
+      "more": [
+        "Carlson first met Vernon when the musician showed off a tattoo of one of Carlson's designs. Years later, he was invited into the studio while the band shaped early tracks. Rather than rushing straight into sleeve designs, they began simply by making art and talking through aesthetic tones—aiming for something ancient, alchemical, and deeply spiritual, yet rooted in internal references.",
+        "Vernon offered the starting prompt of the title: '22' stood for duality, reflection, and yin-yang balance, while 'a million' represented everyone existing as one. Carlson responded by drawing 100 distinct symbols, ensuring each held the visual authority of an authentic glyph. These included altered astrological notations—such as an inverted ankh for the number 10, or glyphs resembling Jupiter’s moons for 21. He printed and assembled them into three 33-by-33-inch square physical collages, keeping the dimensions strictly symmetrical.",
+        "Alongside the tactile collages ran an aggressively digital visual system. Collaborating with Aaron Anderson, with whom he had developed DIY workflows since 2006, Carlson fashioned the album's peculiar lyric visualisers using low-res cell phone videos, plain TextEdit files set in system fonts, screen captures, and After Effects.",
+        "They treated lyric videos not as second-rate promo clips, but as a deliberate format bridging analog craft and raw RGB vectors. To serve an international audience online, they rolled out localized visualisers in French, Spanish, and Japanese—cementing an aesthetic that remains as bulletproof today as it was in 2016."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126"
+      },
+      "wiki": "22,_A_Million",
+      "imageUrl": "https://m.itsnicethat.com/original_images/eric-timothy-graphic-design-itsnicethat-6.jpg?class=w1440",
+      "lang": "en"
+    },
+    {
+      "id": "design-nymzo-rebrands-chess-equipment-as-modern-sportsw",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "branding",
+        "product-design",
+        "industrial-design",
+        "chess"
+      ],
+      "title": "Nymzo Rebrands Chess Equipment as Modern Sportswear",
+      "snippet": "Design studio Otherward is stripping away stuffy wooden tropes to give casual chess clubs the technical gear they've been missing.",
+      "body": [
+        "While chess has exploded in popularity across trendy bars, coffee shops, and streaming channels, the physical game sets have remained largely unchanged for a century—split between cheap plastic mats and precious, fragile heirlooms.",
+        "Brooklyn designers Elliott Walker and Tim Hucklesby of studio Otherward launched Nymzo to fill that void, treating chess sets as modern technical athletic gear rather than dusty parlour curiosities."
+      ],
+      "more": [
+        "Nymzo debuted in January 2025 with the Stanton Series 01, featuring smooth-gliding weighted pieces and durable rollout mats engineered specifically for casual, social play. The design process focused on balancing piece weight, material endurance, and tactile feedback, moving chess gear away from fragile wood or brittle injection-moulded plastic.",
+        "The first run sold over 2,600 units and caught the attention of world number one Magnus Carlsen. Building on that momentum, the studio has now released the Stanton Series 02, introducing six bold colorways alongside a lighter, more accessible form factor geared for faster games.",
+        "Drawing on the subcultural visual identities of skateboarding and running, Walker and Hucklesby realized chess lacked recognizable modern branding. They sought to establish a visual language that felt athletic and sharp without clumsily mimicking another sport.",
+        "That philosophy directly informs the hardware. Nymzo challenges long-standing aesthetic dogma: pieces do not need traditional wood tones or monochrome black-and-white finishes, nor do they require green felt bases. By exploring diverse palettes and high-contrast color combinations, the studio hopes to modernize the board for a wider, younger generation of players."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/nymzo-product-design-project-101126"
+      },
+      "wiki": "Chess_set",
+      "imageUrl": "https://m.itsnicethat.com/original_images/Nymzo-Chess-Itsnicethat-3.jpg?class=w1440",
+      "lang": "en"
+    },
+    {
+      "id": "pt-pingo-doce-fecha-todos-os-supermercados-no-conti",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "news",
+      "tags": [
+        "pingo-doce",
+        "meteorologia",
+        "sociedade"
+      ],
+      "title": "Pingo Doce fecha todos os supermercados no continente devido ao mau tempo",
+      "snippet": "A cadeia de retalho optou por encerrar totalmente as portas durante a passagem da depressão Charles.",
+      "body": [
+        "A cadeia de supermercados Pingo Doce anunciou o encerramento de todas as suas lojas em Portugal continental durante esta quarta-feira. A decisão da Jerónimo Martins surge como resposta preventiva ao severo agravamento das condições meteorológicas causadas pela depressão Charles.",
+        "A medida contrasta com a postura da concorrência: o Continente, pertencente à Sonae, confirmou que mantém a operação regular e as portas abertas. Horas antes, a própria Associação Portuguesa de Empresas de Distribuição (APED) havia comunicado que o setor não previa fechar estabelecimentos.",
+        "Portugal continental encontra-se sob alerta meteorológico, tendo o governo ordenado o fecho de serviços públicos não essenciais, escolas, creches e a suspensão de eventos ao ar livre."
+      ],
+      "more": [
+        "A decisão do Pingo Doce marca uma posição excecional no panorama do retalho alimentar, onde habitualmente se prioriza a manutenção do acesso a bens de primeira necessidade. O grupo Jerónimo Martins justificou o encerramento de dia inteiro com a necessidade de mitigar riscos perante as previsões de tempestade.",
+        "Pouco antes do anúncio, a APED assegurara que as empresas do setor estavam a trabalhar na reorganização logística para contornar áreas críticas. Entre as diligências planeadas estavam a antecipação de entregas e rotas alternativas para assegurar o abastecimento sem expor os trabalhadores.",
+        "O encerramento das centenas de lojas da insígnia junta-se a um conjunto alargado de restrições implementadas pelo executivo, desenhadas para reduzir drasticamente a circulação de pessoas na via pública durante as horas de maior intensidade do temporal."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/comida/gourmet-e-vinhos/pingo-doce-vai-fechar-todos-os-supermercados-no-continente-esta-quarta-feira"
+      },
+      "wiki": "Jerónimo_Martins",
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1723942&ts=20261110221116",
+      "lang": "pt"
+    },
+    {
+      "id": "pt-a-app-criada-por-um-pai-emigrante-que-ensina-a-f",
+      "topic": "pt",
+      "sub": "curiosidades",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "aplicacoes",
+        "lingua-portuguesa",
+        "educacao"
+      ],
+      "title": "A app criada por um pai emigrante que ensina a falar português com a voz da família",
+      "snippet": "Viver longe de casa levou Ricardo a criar um jogo didático onde pais e avós gravam os áudios.",
+      "body": [
+        "A viver nos Países Baixos há vários anos, Ricardo Ferreira deparou-se com um problema comum a muitos emigrantes: a dificuldade em expor a filha pequena ao português europeu através de brinquedos e livros educativos comuns.",
+        "Para contornar a escassez de recursos adequados, o português de 34 anos desenvolveu a Sofio, uma aplicação didática para iOS onde o grande diferencial reside no som: em vez de vozes sintetizadas, são os próprios familiares que gravam as palavras e pistas de cada nível.",
+        "Disponível em várias línguas além do português de Portugal, a plataforma aposta num ritmo calmo e baixa intensidade visual, desenhada propositadamente para evitar a sobrecarga de ecrãs nos primeiros anos de infância."
+      ],
+      "more": [
+        "A Sofio foi estruturada em dois formatos centrais de aprendizagem. No modo 'Explorar', a criança toca nos elementos do cenário — como animais ou veículos — e escuta o familiar a enunciar o respetivo nome. Já no modo 'Perguntas', a dinâmica inverte-se: o utilizador ouve a voz do pai ou dos avós a dar uma pista e precisa de selecionar a ilustração certa.",
+        "Essa mecânica abriu espaço para personalizações afetivas. O criador explica que, em vez de recorrer a descrições literais pré-definidas, os familiares podem gravar dicas de contexto familiar, transformando termos banais como frutas ou objetos em referências diretas à rotina partilhada.",
+        "A aplicação conta atualmente com nove mundos temáticos — dois deles gratuitos — e uma base de suporte que contempla 14 idiomas. O plano de desenvolvimento prevê alargar a oferta para 40 categorias temáticas e expandir o lançamento para a loja Google Play ainda este ano."
+      ],
+      "source": {
+        "id": "nit",
+        "name": "NiT",
+        "url": "https://www.nit.pt/fora-de-casa/miudos/ricardo-criou-um-jogo-didatico-para-os-miudos-que-pode-ter-a-voz-dos-familiares"
+      },
+      "imageUrl": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1723679&ts=20261110181102",
+      "lang": "pt"
+    },
+    {
+      "id": "books-why-financial-panic-haunts-us-regardless-of-what",
+      "topic": "books",
+      "sub": "mind",
+      "kind": "evergreen",
+      "published": "2026-11-10",
+      "style": "book",
+      "tags": [
+        "psychology",
+        "personal-finance",
+        "culture",
+        "society"
+      ],
+      "title": "Why financial panic haunts us regardless of what we earn",
+      "snippet": "Pulitzer winner Mona Chalabi followed ten Americans across the wealth spectrum, revealing that financial panic isn't just about income—it is embedded in precarious systems, parental safety nets, and social perceptions.",
+      "body": [
+        "Chalabi spent five years tracking ten people spanning every income level, discovering that almost everyone feels an underlying panic about money. In a precarious economic climate, people view themselves as one unforeseen crisis away from devastating shocks.",
+        "The book unpacks how middle-class identity functions as a protective shield against social discrimination, and explains why family wealth and partner choices drive long-term inequality far more than individual salaries."
+      ],
+      "source": {
+        "id": "npr-books",
+        "name": "NPR · Books",
+        "url": "https://www.npr.org/2026/11/10/nx-s1-6032767/mona-chalabi-ten-lives"
+      },
+      "wiki": "Mona_Chalabi",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2337x1314+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F5e%2Fdaf2874a4362acdd7ca356889eb6%2Fap26273714991906.jpg",
+      "lang": "en",
+      "book": {
+        "title": "Ten Lives: How What We Have Shapes Who We Are",
+        "author": "Mona Chalabi",
+        "lessons": [
+          {
+            "title": "Panic transcends income brackets",
+            "text": "Earning six figures does not automatically cure financial insecurity in precarious systems. High earners and paycheck-to-paycheck workers alike share an underlying dread that a single catastrophic shock can undo them."
+          },
+          {
+            "title": "Middle-class signaling is defensive",
+            "text": "Projecting a middle-class image via cars or clothing is not pure vanity or status-seeking. It often acts as a rational shield to prevent the assumptions and discrimination directed at lower income tiers."
+          },
+          {
+            "title": "Parents define your actual safety net",
+            "text": "True economic security is shaped heavily by who you can call when an emergency happens. Family background and inheritance anchor economic standing far more reliably than your current monthly paycheck."
+          },
+          {
+            "title": "Educational pairing compounds inequality",
+            "text": "Modern dating patterns increasingly pair people with similar educational backgrounds. Alongside parental wealth, who we choose to partner with has become one of the single biggest drivers of overall wealth inequality."
+          }
+        ],
+        "takeaway": "Take an honest look at your monthly budget and identify where your spending is driven by social signaling or peer pressure rather than genuine necessity or well-being.",
+        "forWho": "Anyone struggling with money anxiety who wants to understand the psychological and structural forces shaping our sense of security."
+      }
+    },
+    {
+      "id": "books-true-catastrophe-is-the-utter-failure-to-compreh",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-11-09",
+      "style": "book",
+      "tags": [
+        "science-fiction",
+        "literature",
+        "writing",
+        "booker-prize"
+      ],
+      "title": "True catastrophe is the utter failure to comprehend what went wrong",
+      "snippet": "In his Booker Prize-winning post-apocalyptic novel, sci-fi master M. John Harrison turns disaster on its head by showing that modern apocalypses will not come with clear rules or simple explanations.",
+      "body": [
+        "At 81, M. John Harrison became the oldest Booker Prize winner and the first from the core science fiction community. His novel explores a near-future Kent coast where survivors navigate the presence of inexplicable, shape-shifting entities known as the iGhetti.",
+        "Rather than delivering traditional genre tropes, Harrison crafts a concise story where the collapse of rationality itself is the central catastrophe, drawing a powerful parallel to contemporary digital disorientation and social disruption."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize"
+      },
+      "wiki": "M._John_Harrison",
+      "imageUrl": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d",
+      "lang": "en",
+      "book": {
+        "title": "The End of Everything",
+        "author": "M. John Harrison",
+        "lessons": [
+          {
+            "title": "Subvert genre by finding its fear",
+            "text": "Harrison approaches genre by starting with standard forms and undermining their confidence from within. Asking what a format tries to hide allows creative work to bypass tired storytelling tropes."
+          },
+          {
+            "title": "Disaster is a collapse of comprehension",
+            "text": "Real-world crises rarely arrive with tidy rules or clean explanations. Harrison depicts apocalypse as a failure of logic and understanding, reflecting how modern disorientation mirrors changes driven by technology and politics."
+          },
+          {
+            "title": "Brevity can outpunch epic scale",
+            "text": "At just 198 pages, the novel rejects the sprawling bloat typical of speculative world-building. Focusing intensely on human relationships alongside the unknown creates deep atmospheric tension without excessive exposition."
+          }
+        ],
+        "takeaway": "Examine a creative project or story you are working on, identify its central assumption or convention, and try stripping away its neatest explanation to see what emotional truth remains.",
+        "forWho": "Writers and speculative fiction enthusiasts who appreciate concise, boundary-pushing storytelling that questions conventional genre rules."
+      }
+    },
+    {
+      "id": "books-confronting-suffering-and-mortality-by-staring-d",
+      "topic": "books",
+      "sub": "life",
+      "kind": "evergreen",
+      "published": "2026-11-09",
+      "style": "book",
+      "tags": [
+        "philosophy",
+        "biography",
+        "grief",
+        "memoir"
+      ],
+      "title": "Confronting suffering and mortality by staring disaster in the face",
+      "snippet": "Feminist critic Jacqueline Rose weaves together the lives of her late sister, philosopher Gillian Rose, and Carmelite nun Edith Stein into a dual portrait of devotion, intellectual struggle, and facing mortality.",
+      "body": [
+        "Two Women blends memoir and fiction to trace two women whose radical intellects went largely uncelebrated during their lifetimes: phenomenologist Edith Stein, murdered at Auschwitz, and philosopher Gillian Rose, who died of cancer at 48.",
+        "The book serves as an emotional exploration of suffering, sisterhood, and devotion, examining how thinkers reckon with tragedy by refusing to look away from harsh realities."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/2026/nov/09/two-women-by-jacqueline-rose-review-a-memorial-to-gillian-rose"
+      },
+      "wiki": "Jacqueline_Rose",
+      "imageUrl": "https://i.guim.co.uk/img/media/a98f7aa372fca09deaddd22fe893e571aca63a2b/398_0_3264_2612/master/3264.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=57a14015573e51dcb3c7e5969613d55f",
+      "lang": "en",
+      "book": {
+        "title": "Two Women",
+        "author": "Jacqueline Rose",
+        "lessons": [
+          {
+            "title": "Uncouple from disaster by facing it directly",
+            "text": "Rather than seeking comfortable illusions or evading existential dread, confronting difficult truths head-on provides the psychological grounding required to endure profound crises and loss."
+          },
+          {
+            "title": "Vocation as an act of enduring love",
+            "text": "Both subjects lived through intense intellectual frustration and marginalization, yet grounded their later lives in an uncompromising vocation of love and ethical devotion despite inevitable tragedy."
+          },
+          {
+            "title": "Memorialize through honest confrontation",
+            "text": "Grief does not require sentimentalizing the past. Exploring the difficult, unvarnished memories of loved ones honors their real struggles far more deeply than idealized remembrance."
+          }
+        ],
+        "takeaway": "When confronted with an uncomfortable reality or difficult news this week, pause before distracting yourself and spend ten quiet minutes writing down what it demands you accept.",
+        "forWho": "Readers interested in philosophy, memoir, and deep explorations of how humans find meaning through intellectual devotion and personal grief."
+      }
+    },
+    {
+      "id": "ideas-contemplation-and-social-activism-must-feed-each",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "idea",
+      "tags": [
+        "mindfulness",
+        "activism",
+        "buddhism",
+        "compassion"
+      ],
+      "title": "Contemplation and social activism must feed each other",
+      "snippet": "Inner stillness prevents moral outrage from burning into paralyzing cynicism.",
+      "body": [
+        "In 1965, while working deep within civil rights campaigns and protesting the Vietnam War, anthropologist Joan Halifax found herself consumed by constant fury. Then she heard the Vietnamese monk Thich Nhat Hanh speak in New York, preaching peace through unwavering internal calm.",
+        "Halifax realized that moral action collapses if it relies purely on rage: \"You could be both contemplative and a social activist.\" The outer work needs inner steadying.",
+        "To endure prolonged struggles against injustice or suffering, you cannot simply run on adrenaline and anger. A dedicated contemplative practice provides the ballast required to engage real-world pain without being drowned by it."
+      ],
+      "more": [
+        "Halifax had cut her teeth in the early 1960s assisting Hodding Carter II with civil rights work in Mississippi and joining student demonstrations at Tulane University. While necessary and righteous, the constant friction left her, in her own words, \"angry all the time\"—at the war, at racism, and at the institutional apathy surrounding her.",
+        "Encountering Thich Nhat Hanh showed her a radically different model of resistance. The monk brought a deep, grounded stillness to the political stage, proving that radical engagement with systemic violence does not require adopting the frenetic toxicity of the conflict itself.",
+        "Over the subsequent five decades, Halifax went on to establish the Upaya Zen Center and spent years attending to the dying in burn units, cancer wards, and prisons. She observed that caregivers and activists often burn out because the very empathy that draws them into the fray eventually drags them under. Merging contemplation with active service acts as an anchor: you step onto the charnel grounds of human suffering with clear eyes, precisely because your stability does not depend on the immediate outcome of the storm."
+      ],
+      "source": {
+        "id": "aeon",
+        "name": "Aeon",
+        "url": "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life"
+      },
+      "wiki": "Joan_Halifax",
+      "imageUrl": "https://images.aeonmedia.co/images/1f0bf1c6-e0ad-490d-b4c1-685617a95d62/essay-from-kodo-dsc02003.jpg?width=1200&quality=75&format=jpeg",
+      "lang": "en"
+    },
+    {
+      "id": "ideas-digital-distraction-is-an-organizational-risk-no",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-09",
+      "style": "idea",
+      "tags": [
+        "focus",
+        "productivity",
+        "work-culture",
+        "cognition"
+      ],
+      "title": "Digital distraction is an organizational risk, not a personal flaw",
+      "snippet": "Relying on individual willpower against systemic interruptions is a losing strategy.",
+      "body": [
+        "We tend to treat broken concentration as a private failing of discipline, but digital distraction is actually an architecture problem. When an organization prioritizes constant availability, the cognitive tax degrades the entire system.",
+        "Task-switching during complex problem-solving cuts productivity by up to 40%, and a brief distraction of just three seconds doubles your error rate. Worse, when people are perpetually half-present, trust declines and critical issues never surface.",
+        "The fix cannot rest on willpower alone. Teams must actively design structural defaults—such as quiet hours, protected deep-work blocks, and deliberate response lags—so that sustained focus, rather than immediate responsiveness, becomes the path of least resistance."
+      ],
+      "more": [
+        "Tools built to accelerate collaboration—chat streams, project notifications, and real-time alerts—have created an environment where cognitive fragmentation is normalized. As distraction becomes the default rhythm of work, it subtly morphs into the culture itself.",
+        "The most dangerous byproduct is not merely slow typing or missed emails; it is the degradation of decision quality. When leaders and team members are constantly half-distracted, they lose the cognitive bandwidth required to notice subtleties, listen deeply in meetings, or synthesize nuanced arguments. People notice the vacant attention, stop raising thorny issues, and catastrophic blind spots emerge.",
+        "Treating this dynamic as a personal time-management challenge lets organizations off the hook. Systems always beat willpower. If an organization values genuine problem-solving, its operational leadership must establish clear operational norms: shielding teams from erratic communications, decoupling responsiveness from performance metrics, and systematically protecting long, uninterrupted blocks for deep work."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/plus/five-systems-focus-at-work/"
+      },
+      "imageUrl": "https://bigthink.com/wp-content/uploads/2026/11/protect-focus-at-work.png?quality=80&#038;w=640",
+      "lang": "en"
+    },
+    {
+      "id": "ideas-never-make-bargains-with-the-heart",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-08",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "relationships",
+        "emily-dickinson",
+        "marginalian"
+      ],
+      "title": "Never make bargains with the heart",
+      "snippet": "Expectations of direct reciprocity turn love into commerce instead of connection.",
+      "body": [
+        "In a letter of consolation written during Emily Dickinson's period of devastating heartbreak over Kate Scott Anthon, her close friend and editor Samuel Bowles offered a crucial rule for emotional survival: love cannot be measured like a ledger.",
+        "\"We must not make bargains with the heart, as we would with the butcher for his meat,\" Bowles insisted. \"Our business is to give what we have to give — what we can get to give. The return we have nothing to do with.\"",
+        "Treating affection as an exchange agreement guarantees misery. Instead, Bowles argued, relational balance happens in the aggregate across a lifetime: some people give us far less than we offer them, while others shower us with far more than we ever return."
+      ],
+      "more": [
+        "Bowles wrote his letter during the summer of 1861, around the same time Dickinson famously described herself as gripped by an unspoken \"terror.\" Scholars like Rebecca Patterson later linked this breakdown to the sudden, unexplained ending of Emily's intense, clandestine romance with Kate Scott Anthon.",
+        "When love ends abruptly, the instinctive human reaction is to tally up the imbalance: what did I pour in, and why was it abandoned? This ledger mindset turns genuine vulnerability into transactional resentment. Bowles argued that it is often a pure, distinct pleasure to give entirely without the expectation of an identical return.",
+        "Crucially, this perspective does not demand self-sacrificing martyrdom. Rather, it reframes love as an ecosystem instead of a one-to-one barter. One person may leave your accounts completely drained, but another will arrive years later to replenish them tenfold without you having earned it. The books balance, but only if you stop auditing every individual relationship as a solo commercial enterprise."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/08/emily-dickinson-hope-kate/"
+      },
+      "wiki": "Emily_Dickinson",
+      "imageUrl": "https://www.themarginalian.org/wp-content/uploads/2025/05/feathers_Marginalian.jpg?fit=852%2C447&ssl=1",
+      "lang": "en"
+    },
+    {
+      "id": "f1-ricciardo-can-t-comprehend-red-bull-s-winning-st",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "news",
+      "tags": [
+        "f1",
+        "red-bull-racing",
+        "max-verstappen",
+        "daniel-ricciardo"
+      ],
+      "title": "Ricciardo can’t comprehend Red Bull’s winning start with their own engines",
+      "snippet": "Daniel Ricciardo shared his awe over Red Bull Powertrains winning in its very first season, praising former teammate Max Verstappen as an all-time great.",
+      "body": [
+        "Daniel Ricciardo admitted he cannot comprehend what Red Bull has pulled off in its debut season building its own power units alongside Ford. Watching his former outfit take victories right out of the gate with an in-house engine program left the Australian driver thoroughly stunned.",
+        "Reflecting on his years alongside Max Verstappen from 2016 through 2018, Ricciardo emphasized that the Dutch driver will easily go down as one of the best to ever race in Formula 1, adding that no one was better suited to steer the ambitious new powertrain project to early success."
+      ],
+      "more": [
+        "Ricciardo, who left the F1 grid in 2024 and became an ambassador for Ford, spoke about the accomplishment on the Cars and Culture podcast. He noted that while he had some early insight into the powertrain project, the sheer scale of building an engine from scratch and immediately winning races is mind-boggling.",
+        "The Red Bull Powertrains and Ford partnership claimed its maiden victory at the Bahrain Grand Prix—relocated to Sepang after Sakhir was cancelled. Sepang holds personal significance for Ricciardo, who led Verstappen in a memorable Red Bull 1-2 finish there back in 2016.",
+        "Following that breakthrough, Verstappen added victories in Singapore and Mexico, pushing Red Bull's win tally for the season to three—surpassing Ferrari's two. He also drove from 21st on the grid to finish second in Brazil, holding second place in the drivers' championship standings.",
+        "Ricciardo noted that he reached out to Verstappen and several long-time friends at the Milton Keynes squad right after the Sepang win to share his congratulations, remarking on the intense rivalry they shared in the past that ultimately pushed both drivers to another level."
+      ],
+      "source": {
+        "id": "f1-motorsport-com",
+        "name": "Motorsport.com",
+        "url": "https://www.motorsport.com/f1/news/daniel-ricciardo-max-verstappen-will-go-down-as-one-of-the-best-ever/10873738/"
+      },
+      "wiki": "Max_Verstappen",
+      "imageUrl": "https://cdn-7.motorsport.com/images/amp/YP748J42/s6/motorsport-com-graphics-87.jpg",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T10:09:40.798Z",
+ "updatedAt": "2026-11-13T00:43:39.414Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -765,7 +765,8 @@
   "bike-why-45mm-gravel-tires-are-dead-and-32-inch-wheel",
   "health-why-you-need-the-right-gut-bugs-to-unlock-the-be",
   "fun-why-medical-heart-monitor-kits-arrive-with-an-ol",
-  "til-texidor-s-twinge-that-terrifying-random-sharp-ch"
+  "til-texidor-s-twinge-that-terrifying-random-sharp-ch",
+  "motion-exploring-procedural-motion-cavalry-s-untapped-c"
  ],
  "skips": {
   "pt-estrangeiros-ja-representam-10-ou-mais-da-popula": 1,
@@ -1040,7 +1041,9 @@
   "health-a-simple-protein-swap-for-healthy-aging": 1,
   "tech-lenovo-s-900-ideapad-slim-5x-brings-qualcomm-s-s": 1,
   "ideas-a-delusion-can-be-a-psychological-bandage-not-ju": 1,
-  "bike-building-a-canyon-grizl-for-extreme-category-4-g": 1
+  "bike-building-a-canyon-grizl-for-extreme-category-4-g": 1,
+  "tech-apple-hits-record-iphone-sales-despite-skipping": 1,
+  "ideas-the-deeper-your-knowledge-the-worse-you-become-a": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -5000,6 +5003,33 @@
    "tag:custom-build",
    "tag:gravel-bike",
    "tag:bike-setup"
+  ],
+  "motion-exploring-procedural-motion-cavalry-s-untapped-c": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:r-motiondesign",
+   "style:reddit",
+   "tag:cavalry",
+   "tag:motion-graphics",
+   "tag:tutorials",
+   "tag:after-effects"
+  ],
+  "tech-apple-hits-record-iphone-sales-despite-skipping": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:apple",
+   "tag:iphone",
+   "tag:tech"
+  ],
+  "ideas-the-deeper-your-knowledge-the-worse-you-become-a": [
+   "topic:ideas",
+   "source:big-think",
+   "style:idea",
+   "tag:psychology",
+   "tag:communication",
+   "tag:neuroscience",
+   "tag:behavioral-economics"
   ]
  },
  "read": [

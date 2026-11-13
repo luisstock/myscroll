@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T00:43:39.414Z",
+ "updatedAt": "2026-11-13T00:44:03.766Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -1008,8 +1008,8 @@
   "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1,
   "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": 1,
   "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1,
-  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 2,
-  "science-sixty-five-years-of-mission-control-and-moon-dus": 2,
+  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 3,
+  "science-sixty-five-years-of-mission-control-and-moon-dus": 3,
   "tech-t-mobile-s-parent-company-calculates-the-200-bil": 2,
   "design-why-type-specimens-lie-and-what-true-type-system": 2,
   "ideas-ai-is-an-artificial-mimic-because-machines-do-no": 2,
@@ -1043,7 +1043,9 @@
   "ideas-a-delusion-can-be-a-psychological-bandage-not-ju": 1,
   "bike-building-a-canyon-grizl-for-extreme-category-4-g": 1,
   "tech-apple-hits-record-iphone-sales-despite-skipping": 1,
-  "ideas-the-deeper-your-knowledge-the-worse-you-become-a": 1
+  "ideas-the-deeper-your-knowledge-the-worse-you-become-a": 1,
+  "design-choosing-a-clown-nose-how-hang-yu-documented-con": 1,
+  "tech-microsoft-s-auto-sr-upscaler-untethers-from-the": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -5030,6 +5032,24 @@
    "tag:communication",
    "tag:neuroscience",
    "tag:behavioral-economics"
+  ],
+  "design-choosing-a-clown-nose-how-hang-yu-documented-con": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:photography",
+   "tag:street-photography",
+   "tag:coney-island",
+   "tag:art"
+  ],
+  "tech-microsoft-s-auto-sr-upscaler-untethers-from-the": [
+   "topic:tech",
+   "source:the-verge",
+   "style:news",
+   "tag:gaming",
+   "tag:handhelds",
+   "tag:microsoft",
+   "tag:graphics"
   ]
  },
  "read": [

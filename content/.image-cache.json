@@ -560,5 +560,25 @@
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_American_Museum_journal_%28c1900-%281918%29%29_%2817974546639%29.jpg/1280px-The_American_Museum_journal_%28c1900-%281918%29%29_%2817974546639%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:The_American_Museum_journal_(c1900-(1918))_(17974546639).jpg"
   },
-  "v2:en:Fine-tuning_(machine_learning)": null
+  "v2:en:Fine-tuning_(machine_learning)": null,
+  "v2:en:Kalawao_County,_Hawaii": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kalaupapa_penninsula.jpg/1280px-Kalaupapa_penninsula.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Kalaupapa_penninsula.jpg"
+  },
+  "v2:en:Halomonas_titanicae": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Detached_rusticles_hires.jpg/1280px-Detached_rusticles_hires.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Detached_rusticles_hires.jpg"
+  },
+  "v2:en:Nvidia": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/1280px-2788-2888_San_Tomas_Expwy.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:2788-2888_San_Tomas_Expwy.jpg"
+  },
+  "v2:en:Sebastian_Vettel": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg/1280px-Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_(cropped).jpg"
+  },
+  "v2:en:Toto_Wolff": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Toto_Wolff_2022_%2852474843183%29_%28cropped%29.jpg/1280px-Toto_Wolff_2022_%2852474843183%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Toto_Wolff_2022_(52474843183)_(cropped).jpg"
+  }
 }

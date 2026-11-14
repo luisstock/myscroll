@@ -1,0 +1,1230 @@
+{
+  "date": "2026-11-14",
+  "number": 21,
+  "longread": {
+    "id": "bike-why-32-inch-gravel-wheels-might-upend-everything",
+    "topic": "bike",
+    "kind": "longread",
+    "published": "2026-11-12",
+    "style": "story",
+    "tags": [
+      "gravel-cycling",
+      "bike-tech",
+      "cycling-geometry",
+      "frame-building"
+    ],
+    "title": "Why 32-Inch Gravel Wheels Might Upend Everything You Know About Handling",
+    "snippet": "Defying the conventional wisdom of short chainstays and twitchy frames, mammoth 32-inch wheels reveal an unexpected truth about dirt stability.",
+    "body": [
+      "It is easy to meet radical bike ideas with deep skepticism, caveats, and what-about-ery. When the cycling world started murmuring about 32-inch wheels rolling out from Sea Otter, the immediate reaction was that gargantuan hoops would ruin anything remotely resembling nimble handling. Yet after hundreds of miles riding a titanium Mosaic GT i55 32 across almost every surface imaginable, that initial fence-sitting completely vanished. The haters, it turns out, have been looking at geometry entirely backwards.",
+      "The revelation did not come from raw straight-line speed, even though rolling advantages are usually the headline claim. Instead, the sensation on gravel is distilled into pure cruising ability. The bike behaves like a dreamboat, gripping terrain with far more traction than smaller tires of matching tread and width. It preserves rolling inertia through loose turns and creates a steady pedaling platform through chunky terrain, turning downhill runs into an effortless parade of overtaking.",
+      "This was on clear display during fifty miles at the Big Sugar race. There were only one or two moments along the rolling course where anyone in the peloton could match the downhill pace of the 32-inch setup. While other riders scrubbed speed over rough tracks and loose bends, the larger wheels carried momentum through every dip and chatter, holding aggressive lines with calm composure.",
+      "The primary criticism thrown at oversized wheels usually revolves around tight trails and responsiveness. Many riders operate on the ingrained assumption that shorter wheelbases and steep angles make a bike agile, while long-wheelbase machines are sluggish and cumbersome. In gravel racing, that paradigm is almost completely backwards. Short geometry does not inherently make a bike turn better or accelerate faster; balance is what makes a long chassis feel genuinely nimble.",
+      "Modern gravel bike geometry often obsesses over shortening chainstays to cram in wide rubber, but that approach is susceptible to severe understeer. When chainstays are too short, the rear wheel cuts a tighter corner than the front, wanting to push straight while the front turns. That mismatch is precisely what causes the front wheel to wash out or drift wide off the exit of a corner. On mountain bikes navigating crawl-speed switchbacks, a long wheelbase can become unwieldy, but at speed on gravel, a longer rear center produces a far more rounded rear wheel trajectory.",
+      "Because 32-inch wheels physically force frame builders to stretch the rear end out, they inadvertently cure that understeer. Paired with a relatively steep head tube angle and the dedicated Zero Components fork, the front end stays quick while the longer wheelbase provides stability. Rather than getting bogged down in twisty singletrack, sweeping bends, or chunky two-track, the bike flows through corners faster and more predictably than bikes designed around shorter rear triangles.",
+      "There are genuine trade-offs, of course. The setup is unequivocally slower on tarmac, where added aerodynamic losses, overall wheel height, and system weight easily overwhelm any rolling benefits. Extra material means added weight, and stiff engineering is harder to execute. A complete titanium 32-inch build weighs around 21 pounds, compared to a featherlight 17-pound 29-inch gravel bike, making the standard 29-inch platform far better suited for days filled with sustained climbs on smooth surfaces.",
+      "Sizing will also require a total rethink from the bike industry. Designing for shorter riders is hindered by the kinked seat tubes commonly used to clear the rear tire, which forces riders needing higher saddles further back over the bottom bracket. To keep a forward racing stance, sizing up to a 58cm frame with a shorter zero-setback post solved the puzzle, but brands will need an open mind regarding 450 to 460 mm chainstays for small frames. If frame builders can look past legacy assumptions, these gigantic wheels prove that gravel geometry still has plenty of room to evolve."
+    ],
+    "source": {
+      "id": "velo-gravel",
+      "name": "Velo · Gravel",
+      "url": "https://velo.outsideonline.com/gravel/gravel-gear/why-32-inch-gravel-works/"
+    },
+    "wiki": "Gravel_bicycle",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-11-14/bike-why-32-inch-gravel-wheels-might-upend-everything.jpg",
+      "credit": "velo.outsideonline.com"
+    },
+    "minutes": 3,
+    "added": "2026-11-14"
+  },
+  "items": [
+    {
+      "id": "til-kalawao-county-hawaii-will-cease-to-exist-when-i",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "til",
+      "tags": [
+        "hawaii",
+        "geography",
+        "us-history"
+      ],
+      "title": "Kalawao County, Hawaii Will Cease to Exist When Its Last Patient Dies",
+      "snippet": "Created as an isolated quarantine settlement for Hansen's disease, America's smallest county has just 82 residents and a built-in expiration date.",
+      "body": [
+        "Kalawao County sits on the isolated Kalaupapa Peninsula of Molokai, Hawaii. Covering just 12 square miles of land, it holds the title of the smallest county in the United States by land area, and the second-least populous, boasting a population of around 82 residents.",
+        "The area was designated in 1866 as a forced quarantine settlement for individuals diagnosed with Hansen's disease (leprosy). Today, the county operates under strict administrative rules designed to protect the privacy and rights of the remaining historic patient-residents."
+      ],
+      "more": [
+        "Unlike standard US counties, Kalawao has no elected local government. Instead, it is administered directly by the Hawaii Department of Health. Access to the peninsula is tightly restricted by state law, prohibiting visitors without official approval to honor the sanctuary created for the residents.",
+        "When mandatory isolation laws were officially repealed in 1969, many residents chose to remain in the only home they had known for decades. To guarantee their peace of mind, Hawaii state law dictates that Kalawao County will be dissolved entirely once the last patient resident passes away.",
+        "Upon its dissolution, the land will be absorbed into neighboring Maui County and transitioned into full management under the National Park Service as the Kalaupapa National Historical Park."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xvitjj/til_about_kalawao_county_hawaii_it_is_the/"
+      },
+      "wiki": "Kalawao_County,_Hawaii",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/til-kalawao-county-hawaii-will-cease-to-exist-when-i.jpg",
+        "credit": "File:Kalaupapa_penninsula.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "til-the-titanic-is-gradually-being-eaten-by-iron-oxi",
+      "topic": "til",
+      "sub": "til",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "til",
+      "tags": [
+        "titanic",
+        "microbiology",
+        "oceanography",
+        "extremophiles"
+      ],
+      "title": "The Titanic Is Gradually Being Eaten by Iron-Oxidizing Bacteria",
+      "snippet": "Miles beneath the ocean surface, a unique microbe named Halomonas titanicae is actively devouring the famous shipwreck, losing an estimated 130 to 200 kilograms of iron every day.",
+      "body": [
+        "More than 112 years after sinking to the bottom of the North Atlantic, the RMS Titanic is undergoing a quiet transformation. Far from being preserved in the deep ocean's freezing dark, the wreck is covered in a biological blanket of fungi and specialized microbes that are consuming its steel superstructure.",
+        "Chief among them is Halomonas titanicae, a species of iron-eating bacteria first isolated from rusticles sampled from the ship. Along with acid-producing and sulfur-reducing microbes, these extremophiles actively break down iron, causing the ship's decks to collapse inward and sending delicate tendrils of rust spreading across the sea floor."
+      ],
+      "more": [
+        "Under 3.8 kilometers of seawater, corrosion operates differently than on the surface. While chemical oxidation drives rusting on land, the Titanic's demise is predominantly biological. Microbes assemble into complex communities inside hanging rust formations known as 'rusticles,' working together to metabolize the ship's metal components.",
+        "Inside deep, enclosed areas like the vessel's Turkish Baths, oxygen deprivation created a different phenomenon entirely. Deep-ocean submersibles discovered branching structures up to 1.5 meters tall rising from the floor. Dubbed 'rustflowers,' these tendrils were formed by magnetotactic bacteria—microbes containing iron nanocrystals that align with geomagnetic lines as they consume the steel.",
+        "Despite causing the ship's eventual collapse, this bacterial activity has turned the 52,000-tonne hull into a rich iron reef. In the nutrient-starved abyssal plain, dissolved iron from the ship fuels a thriving deep-sea ecosystem supporting starfish, glass sponges, anemones, and benthic corals.",
+        "Researchers estimate that the wreck loses between 130 and 200 kilograms of iron daily. Because structural collapse exposes fresh steel to microbial colonies, decay is accelerating, offering scientists a rare look at how extreme lifeforms might survive in ocean environments on distant moons like Europa."
+      ],
+      "source": {
+        "id": "r-todayilearned",
+        "name": "r/todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/1xvkoa2/til_that_the_titanic_is_slowly_being_eaten_away/"
+      },
+      "wiki": "Halomonas_titanicae",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/til-the-titanic-is-gradually-being-eaten-by-iron-oxi.jpg",
+        "credit": "File:Detached_rusticles_hires.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "fun-the-denny-s-where-nvidia-was-born-has-removed-it",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "silicon-valley",
+        "nvidia",
+        "tech-history"
+      ],
+      "title": "The Denny's where Nvidia was born has removed its commemorative sign",
+      "snippet": "A piece of tech history has vanished from a roadside diner in Santa Clara after Denny's quietly removed a plaque celebrating the birth of Nvidia.",
+      "body": [
+        "In 1993, three engineers sat in a booth at a roadside Denny's diner in Santa Clara, California, and mapped out a company that would eventually become the world's premier producer of graphics chips and AI hardware. For years, that location proudly displayed a sign honoring the spot where Nvidia was born.",
+        "Now, that piece of Silicon Valley lore appears to have been taken down. The quiet removal comes amidst shifting corporate relationships and headlines surrounding Nvidia's recent regulatory scrutiny."
+      ],
+      "more": [
+        "The diner, located near Nvidia's current corporate headquarters, had long served as an unlikely holy site for tech enthusiasts. In 2023, Denny's CEO Kelli Valade and Nvidia CEO Jensen Huang even met at the location for a joint promo celebrating the company's origins.",
+        "Huang had frequently cited his time working at Denny's as a foundational experience, often bringing up his humble beginnings as a waiter to illustrate his journey to leading a multi-trillion-dollar empire.",
+        "On online forums like Reddit, reaction to the sign's removal has been mixed. Some users shrugged off the news, arguing that corporate origin myths hold little weight after decades of market dominance. Others lamented the loss of an iconic piece of tech history, noting that the underdog origin story was one of the more relatable narratives in Silicon Valley.",
+        "Whether the sign's removal is permanent or just part of a diner refresh, the booth where three engineers sketched out the future of computing remains a curious monument to the early days of the modern PC era."
+      ],
+      "source": {
+        "id": "r-nottheonion",
+        "name": "r/nottheonion",
+        "url": "https://www.reddit.com/r/nottheonion/comments/1xvjgcj/the_dennys_where_nvidia_was_born_has_removed_the/"
+      },
+      "wiki": "Nvidia",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/fun-the-denny-s-where-nvidia-was-born-has-removed-it.jpg",
+        "credit": "File:2788-2888_San_Tomas_Expwy.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "fun-the-comedy-of-public-signs-why-simple-mismatches",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "list",
+      "tags": [
+        "humor",
+        "design",
+        "signs"
+      ],
+      "title": "The comedy of public signs: Why simple mismatches make us laugh",
+      "snippet": "When graphic design meets unintentional absurdity, public notices become unexpected sources of humor.",
+      "body": [
+        "Public signs are usually built for clear communication, but sometimes a small twist in wording or context turns mundane directions into comedy. A recent compilation highlights how simple signs, billboard notes, and warnings can become unintentionally hilarious.",
+        "Psychology research suggests that comedy often relies on incongruity—placing an idea or object slightly out of place. When a public sign mirrors the world in a slightly askew way, it creates a sudden mismatch between our expectations and reality."
+      ],
+      "more": [
+        "Comedians and improv artists often talk about 'truth in comedy'—the idea that humor resonates most when people recognize a familiar situation subverted by an odd twist. Public signage is a perfect canvas for this because the format itself is expected to be serious and authoritative.",
+        "When a sign features absurd phrasing like 'Holy Water' labels on plain faucets or bizarre warnings in public parks, the brain registers the contrast immediately. Because there is no actual danger or threat involved, the incongruity lands as funny rather than alarming.",
+        "Whether created by playful graphic designers or simply resulting from awkward translations and misplaced phrasing, these brief textual jokes highlight how easy it is to disrupt everyday routine with a bit of visual irony."
+      ],
+      "source": {
+        "id": "bored-panda",
+        "name": "Bored Panda",
+        "url": "https://www.boredpanda.com/unhinged-funny-signs/"
+      },
+      "wiki": "Humour",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/fun-the-comedy-of-public-signs-why-simple-mismatches.jpg",
+        "credit": "www.boredpanda.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "motion-graphic-motion-meets-motorsport-in-hp-s-ferrari",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "explainer",
+      "tags": [
+        "motion-graphics",
+        "commercials",
+        "3d-animation",
+        "scuderia-ferrari"
+      ],
+      "title": "Graphic Motion Meets Motorsport in HP's Ferrari Launch Film",
+      "snippet": "Estupido.Estudio and director Joaquín Testa blend graphic transitions with tight visual rhythm for HP's limited edition Scuderia Ferrari AI PC.",
+      "body": [
+        "HP Studio and Oliver Agency teamed up with production studio Estupido.Estudio for a launch film showcasing the HP Limited Edition Scuderia Ferrari AI PC.",
+        "Directed by Joaquín Testa, the piece relies on sharp graphic shapes, dynamic transitions, and high-tempo edits to bridge motorsport culture with high-end hardware manufacturing.",
+        "The project leans heavily on visual rhythm and sound design to turn structural PC assembly animations and fan details into an energetic commercial narrative."
+      ],
+      "more": [
+        "The short launch spot balances slick CAD-style product renders with bold typography and graphical wipes. By linking the internal hardware layout of the laptop with Ferrari's signature speed aesthetics, the animation establishes a slick, high-energy tone.",
+        "Estupido.Estudio handled both post-production and sound, matching spatial audio cues with rapid visual edits to create momentum throughout the piece.",
+        "Key creative leads on the project include Pablo Vio as producer for HP Studio and Dolan Monina serving as Head of Art for HP."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/quickie/hp-studio-hp-limited-edition-scuderia-ferrari-ai-pc/"
+      },
+      "wiki": "Scuderia_Ferrari",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/motion-graphic-motion-meets-motorsport-in-hp-s-ferrari.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "motion-rosita-telling-a-brand-story-through-an-ai-inter",
+      "topic": "motion",
+      "sub": "inspiration",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "story",
+      "tags": [
+        "ai-interface",
+        "short-film",
+        "ui-animation",
+        "motion-design"
+      ],
+      "title": "Rosita: Telling a Brand Story Through an AI Interface",
+      "snippet": "A short motion film uses an AI app's user interface to trace the evolution of a grandmother's hot sauce brand.",
+      "body": [
+        "A short motion film shared on r/MotionDesign takes an unusual framing approach: tracking a family brand's journey entirely inside an AI software UI.",
+        "Titled 'ROSITA', the animation follows a grandmother's homemade hot sauce as it gets transformed into a full visual brand, one text prompt and canvas tweak at a time.",
+        "By focusing on the user interface as the main narrative engine, the piece highlights how digital tools and visual feedback loops become part of modern storytelling."
+      ],
+      "more": [
+        "UI animation often gets relegated to app walkthroughs and SaaS feature reels. 'ROSITA' takes those familiar components—text input bars, prompt generations, canvas layers, and visual adjustments—and uses them to drive a narrative arc.",
+        "The concept taps into current creative workflows where prompt-driven generation and manual graphic refinement interact, showing how micro-interactions inside software can convey emotion and progress.",
+        "The project highlights a growing trend in motion graphics: turning the digital workplace itself into the stage for narrative shorts."
+      ],
+      "source": {
+        "id": "r-motiondesign",
+        "name": "r/MotionDesign",
+        "url": "https://www.reddit.com/r/MotionDesign/comments/1xvddu6/rosita/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "motion-territory-studio-founder-launches-reframe-podcas",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "news",
+      "tags": [
+        "territory-studio",
+        "podcasts",
+        "motion-design",
+        "production-design"
+      ],
+      "title": "Territory Studio Founder Launches 'Reframe' Podcast",
+      "snippet": "David Sheldon-Hicks and Art Tindsley have launched a podcast tackling the intersection of creative technology and design, kicking off with Dune's Patrice Vermette.",
+      "body": [
+        "David Sheldon-Hicks, founder of Territory Studio (known for screen graphics in Dune and Blade Runner 2049), has launched a new podcast called Reframe alongside Art Tindsley, founder of creative technology agency Pogo.",
+        "The show explores how toolsets shape storytelling, refusing to treat artistic intuition and technical logic as separate fields. Instead of dwelling on whether automation will displace artists, the hosts frame the conversation around what new creative possibilities exist today that didn't exist before.",
+        "Their 39-minute premiere episode features Oscar-winning production designer Patrice Vermette (Dune, Arrival, Sicario) discussing world-building, working with Denis Villeneuve, and how spatial constraints spark better ideas."
+      ],
+      "more": [
+        "Sheldon-Hicks admitted he initially hesitated to join a crowded podcast landscape when Tindsley approached him. However, the premise of looking directly at the friction where technology and art overlap won him over. Having built screen UI for Villeneuve's sci-fi epics alongside Vermette's physical sets, the hosts bring deep production experience to the mic.",
+        "In the opening episode, Vermette unpacks his long-standing partnership with Villeneuve, emphasizing that environmental sets should function as living characters rather than background filler. The discussion highlights how practical limitations often force more inventive visual decisions than total freedom.",
+        "Published by Reframe Media Ltd., the podcast is available now on major podcast platforms like Apple Podcasts, with plans to feature voicemails from listeners in upcoming episodes."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/reframe-david-sheldon-hicks-and-art-tindsley-open-a-new-podcast-with-patrice-vermette/"
+      },
+      "wiki": "Territory_Studio",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/motion-territory-studio-founder-launches-reframe-podcas.jpg",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ai-nodeui-brings-offline-workflow-building-and-shar",
+      "topic": "ai",
+      "sub": "motion-ai",
+      "kind": "news",
+      "published": "2026-11-14",
+      "style": "reddit",
+      "tags": [
+        "comfyui",
+        "nodeui",
+        "ios",
+        "workflow",
+        "mobile"
+      ],
+      "title": "NodeUI brings offline workflow building and share sheet actions to mobile ComfyUI",
+      "snippet": "The mobile ComfyUI companion app NodeUI gets offline graph checks, landscape editing, and upcoming iOS Share Sheet integration.",
+      "body": [
+        "NodeUI, a mobile companion app for managing self-hosted ComfyUI instances on iOS and Android, has released its version 1.2 update. The app now includes landscape view modes, offline workflow editing, and offline graph simulation to test node connections without firing up remote GPUs.",
+        "While model execution still requires a local server or Comfy Cloud instance, the companion adds file browsing, asset transfers, and incoming shortcuts to kick off generations directly from mobile photos and share sheets."
+      ],
+      "more": [
+        "Managing complex nodal pipelines usually requires sitting in front of a desktop monitor, but NodeUI attempts to bridge the gap by letting creators design and tweak ComfyUI nodes on mobile devices. The latest update focuses on offline productivity, allowing users to build and validate workflow logic while away from their local render nodes.",
+        "The offline simulation engine verifies that all inputs, outputs, and datatypes line up correctly across connected nodes, skipping image generation to save compute while ensuring graphs won't crash when executed remotely.",
+        "Looking forward, the app's developer detailed upcoming integrations for mobile operating systems. The next iOS update will allow creators to send images and text prompts directly to a ComfyUI workflow via the standard iOS Share Sheet or Shortcuts app, triggering background remote generations and returning push notifications when completed.",
+        "Community members on r/comfyui welcomed the updates, suggesting additional features like custom widget controls, quick seed randomizers, and batch queue management for remote renders."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xvq0dn/nodeui_update_ios_12_offline_workflows_on_android/"
+      },
+      "lang": "en",
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ai-langchain-reaches-3b-valuation-as-enterprise-ai",
+      "topic": "ai",
+      "sub": "frontier",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "langchain",
+        "ai-agents",
+        "open-source",
+        "startups"
+      ],
+      "title": "LangChain reaches $3B valuation as enterprise AI agent management grows",
+      "snippet": "The open-source framework creator secures $300M in Series C funding to expand its model-agnostic agent platform LangSmith.",
+      "body": [
+        "AI agent management platform LangChain has raised $300 million in a Series C funding round led by CapitalG, pushing the startup's valuation to $3 billion—more than double its valuation from a year ago.",
+        "Originally launched in 2022 as a popular open-source Python library to help early LLMs fetch web data and call APIs, the company has pivoted into enterprise agent orchestration and monitoring through its commercial product, LangSmith."
+      ],
+      "more": [
+        "As frontier AI research labs build increasingly capable base models that natively execute web browsing and tool usage, orchestration frameworks have had to adapt. LangChain has pivoted toward helping enterprises build, evaluate, and monitor autonomous agents without tying themselves to a single model provider.",
+        "The startup's commercial engine, LangSmith, positions itself as a model-agnostic control panel. It allows companies to run custom agents across diverse cloud setups while maintaining governance over agent behavior and telemetry.",
+        "LangChain claims over 7,000 active LangSmith customers, including major AI startups like Harvey, Clay, and Rippling, alongside large enterprise deployments at Nvidia, Toyota, and Salesforce.",
+        "With the fresh $300 million capital injection, which also saw participation from GIC, DFJ Growth, IVP, and Sapphire Ventures, LangChain plans to expand its tooling ecosystem as competition heats up among agent infrastructure providers."
+      ],
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch · AI",
+        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+      },
+      "wiki": "LangChain",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/ai-langchain-reaches-3b-valuation-as-enterprise-ai.jpg",
+        "credit": "techcrunch.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ai-layershop-brings-local-generative-fill-to-open-s",
+      "topic": "ai",
+      "sub": "local-llm",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "comfyui",
+        "photocraft",
+        "qwen",
+        "inpainting",
+        "open-source"
+      ],
+      "title": "LayerShop brings local Generative Fill to open-source Photoshop",
+      "snippet": "A new open-source desktop image editor pairs Photoshop-style layers with local ComfyUI backends for non-destructive AI inpainting.",
+      "body": [
+        "LayerShop (formerly Photocraft), a free and open-source desktop image editor that runs ComfyUI under the hood, has added non-destructive Generative Fill to its feature set. Users can select an area, trigger the AI prompt menu with a quick shortcut, and generate context-aware additions or removals locally.",
+        "The newly generated output lands directly on its own masked layer, keeping the original base image untouched. By default, the workflow relies on Qwen Image 2.1 or MiniMax H3 Image—a fresh local model that completes edits in roughly six steps."
+      ],
+      "more": [
+        "Developer Slavomir Durej's LayerShop aims to bring seamless generative AI workflows to a traditional layer-based graphics editor without locking users into cloud subscriptions or proprietary creative suites. By running a local ComfyUI backend, the software allows artists to swap out inpainting models on the fly.",
+        "The generative workflow is activated by pressing Shift+Backspace over an active selection. Entering a custom prompt guides the generation, while leaving the prompt field blank commands the backend to intelligently remove the highlighted object and fill in the background.",
+        "In addition to Qwen Image 2.1, the editor supports the MiniMax H3 Image model, which speeds up generation times dramatically by generating and editing content in just six steps. Cloud-based models can also be configured as optional fallbacks for users running lighter hardware.",
+        "Currently in early preview for Windows users, the project's source code and latest releases are available on GitHub as development continues."
+      ],
+      "source": {
+        "id": "r-comfyui",
+        "name": "r/comfyui",
+        "url": "https://www.reddit.com/r/comfyui/comments/1xv9msx/open_source_photoshop_photocraft_with_generative/"
+      },
+      "wiki": "ComfyUI",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/ai-layershop-brings-local-generative-fill-to-open-s.png"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "news-microsoft-it-outage-hits-global-infrastructure-a",
+      "topic": "news",
+      "sub": "economy",
+      "kind": "news",
+      "published": "2026-11-14",
+      "style": "news",
+      "tags": [
+        "microsoft",
+        "cloud-computing",
+        "infrastructure",
+        "tech-news"
+      ],
+      "title": "Microsoft IT outage hits global infrastructure across 70 countries",
+      "snippet": "A 18-hour disruption triggered by a server network upgrade left government agencies, healthcare networks, and businesses stranded without essential digital services.",
+      "body": [
+        "A major technical outage lasting roughly 18 hours disrupted Microsoft 365 services globally, leaving millions of individual users, small businesses, and government agencies unable to access email and critical infrastructure tools. Microsoft confirmed the issue stemmed from server configuration settings applied during a routine network capacity upgrade rather than a cyberattack or AI glitch, issuing an official apology as services gradually recovered.",
+        "The event caused severe operational friction worldwide. In Australia, hospitals reverted to paper prescriptions, courts lost email connectivity, and small business networks were paralyzed. Similar disruptions struck government offices in the United States, logistics platforms in Japan, healthcare systems in the UK, and international operations at the COP31 climate summit in Turkey.",
+        "While systems are returning to normal, tech industry bodies and cybersecurity experts are calling for urgent regulatory reviews into corporate reliance on single-provider IT setups. A full post-incident report from Microsoft is expected once internal technical audits conclude."
+      ],
+      "more": [
+        "The disruption began late Thursday when configuration updates applied to servers supporting Microsoft 365 caused widespread connectivity failure across Exchange Online and related workplace tools. Because many modern identity verification and enterprise systems rely on Microsoft authentication to log into third-party applications, the ripple effect extended far beyond basic email availability.",
+        "Across Australia, the economic fallout is expected to reach significant levels. Small businesses without emergency redundancy protocols were left unable to process payments or send invoices. In healthcare settings, staff were forced to issue paper prescriptions manually because digital prescribing software required multi-factor authentication tied to Microsoft email accounts. Domestic security and civil infrastructure reported partial outages across multiple departments.",
+        "International administrative workflows suffered comparable setbacks. In the US, congressional offices using Outlook reported a total loss of legislative productivity for a day, while police forces in the UK advised citizens to report minor issues via telephone instead of online portals. Freight operators in Asia were unable to accept online transport reservations during peak hours.",
+        "Technologists point out that while corporate disaster recovery strategies typically recommend multi-cloud or dual-provider redundancy, implementing such architecture across fundamental tools like email and directory management is rarely practical for smaller institutions. Industry groups like the Australian Computer Society are pressing governments to audit critical national infrastructure dependencies on single vendor ecosystems.",
+        "Microsoft's technical teams continue to roll out regional restorations slowly to avoid secondary stability failures. The company has committed to publishing a comprehensive post-mortem detailing how the routine network upgrade managed to bypass internal testing checks."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia"
+      },
+      "wiki": "Microsoft_365",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/news-microsoft-it-outage-hits-global-infrastructure-a.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "news-china-declines-to-host-the-cop33-climate-summit",
+      "topic": "news",
+      "sub": "climate",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "news",
+      "tags": [
+        "climate-change",
+        "china",
+        "cop33",
+        "energy-transition"
+      ],
+      "title": "China declines to host the COP33 climate summit in 2028",
+      "snippet": "The world's largest emitter has ruled out hosting the 2028 UN climate conference, leaving Asian neighbors to step up as global climate diplomacy re-aligns.",
+      "body": [
+        "China has formally ruled itself out of hosting the UN COP33 climate summit scheduled for November 2028. Under the rotational rules of the UN Framework Convention on Climate Change, an Asian nation is designated to host the 2028 event, but Beijing chose to pass on the opportunity after months of internal deliberation.",
+        "The decision comes as China undergoes a massive domestic energy transition, rapidly building out clean energy technology while seeing its overall greenhouse gas emissions begin to decline. Observers had hoped Beijing might step forward to lead international negotiations, particularly amid shifting US commitments on international climate treaties.",
+        "With both China and India choosing not to submit bids, alternative Asian candidates under consideration include South Korea, Uzbekistan, Indonesia, and Thailand. A final host city decision is expected to be finalized during subsequent UN summits."
+      ],
+      "more": [
+        "China's choice to step back from hosting COP33 closes a potential opportunity for the country to showcase its massive domestic deployment of low-carbon tech on the international stage. Over the past year, renewable power capacity in China surpassed coal generation, while clean energy manufacture and deployment drove the vast majority of the nation's investment growth.",
+        "Climate policy analysts suggest the timing of the summit was likely a decisive factor in Beijing's choice. COP33 is scheduled to take place between November 6 and 17, 2028—coinciding directly with the next US presidential election cycle. Given ongoing volatility in bilateral relations and shifts in US federal policy regarding global climate accords, Beijing has remained cautious about stepping into prominent international climate leadership roles without established bilateral partner frameworks.",
+        "The 2028 conference carries heightened structural importance within the UN system. It is slated to host the second 'global stocktake' under the 2015 Paris Agreement, assessing worldwide progress toward emissions reductions and evaluating strategies to limit global temperature overshoot.",
+        "India had similarly evaluated a potential bid to host COP33 earlier in the year before deciding against it, largely due to ongoing increases in national coal consumption despite meeting domestic renewable generation milestones. Consequently, regional attention has shifted toward prospective bids from South Korea, Thailand, Indonesia, and Uzbekistan.",
+        "For now, multilateral climate discussions continue under joint leadership at COP31 in Turkey. official host selection for 2028 will remain open until regional consensus is reached within the Asia-Pacific UN member group."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028"
+      },
+      "wiki": "UN_Climate_Change_conference",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/news-china-declines-to-host-the-cop33-climate-summit.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "news-nvidia-ceo-affair-sparks-us-counterintelligence",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "news",
+      "tags": [
+        "nvidia",
+        "artificial-intelligence",
+        "espionage",
+        "us-china-relations"
+      ],
+      "title": "Nvidia CEO affair sparks US counterintelligence scrutiny and market drops",
+      "snippet": "Revelations surrounding Nvidia co-founder Jensen Huang and a Singaporean data executive have raised national security questions over AI trade secrets.",
+      "body": [
+        "US intelligence agencies have been monitoring executive relationships surrounding Nvidia following allegations that a Singapore-based data center executive passed information to Beijing. Nvidia chief executive Jensen Huang recently acknowledged an extramarital affair with Alice Huang, a former executive at Singaporean computing firm Megaspeed, driving significant market volatility for the hardware giant.",
+        "Megaspeed acts as a major customer purchasing specialized Nvidia GPUs, which are subject to stringent US export controls aimed at restricting advanced semiconductor access to Chinese enterprise firms. The intelligence assessment centers on whether corporate relationships were leveraged to bypass technology restrictions or gain insight into strategic AI policymaking.",
+        "Nvidia's board of directors has retained independent legal counsel to review internal governance protocols and determine whether any proprietary data was compromised. The company maintains there is no evidence indicating corporate secrets or national security parameters were breached."
+      ],
+      "more": [
+        "The controversy centers on the intersection of frontier hardware technology and national security policy. Under current trade enforcement framework—such as the US Chips and Science Act—the export of top-tier AI processors to Chinese entities remains tightly restricted. US intelligence surveillance on Alice Huang was launched to determine if intermediary tech firms like Megaspeed were facilitating indirect chip transfers to Chinese technology companies.",
+        "Alice Huang, a former financial journalist and investment manager, joined Megaspeed in 2023 to build out data center infrastructure. The firm frequently pitched international investors on its capacity to secure high-demand Nvidia hardware. While US intelligence assessments allege she acted as an information asset for Chinese agencies, the specific scope of any intelligence collected remains classified.",
+        "The revelation of the affair prompted a sharp decline in Nvidia’s market value, erasing hundreds of billions in market capitalization over subsequent trading sessions as investors weighed executive governance risks. Nvidia's leadership structures remain closely tied to Jensen Huang, who has guided the company's emergence as the primary supplier of AI hardware infrastructure.",
+        "The situation also touches upon geopolitical lobbying. Huang has been an influential voice in Washington regarding semiconductor trade parameters, advocating for structured commercial access while navigating federal restrictions. Reports indicate that federal intelligence officials had previously drafted warning briefings for senior executive branch personnel regarding potential intelligence exposure.",
+        "China's diplomatic representatives have dismissed counterintelligence allegations involving the executives as unfounded. Nvidia's board continues its internal review to ensure compliance standards were maintained across international distribution operations."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair"
+      },
+      "wiki": "Nvidia",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/news-nvidia-ceo-affair-sparks-us-counterintelligence.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "tech-openai-launches-chatgpt-wallet-to-let-ai-agents",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "ai-agents",
+        "fintech",
+        "payments"
+      ],
+      "title": "OpenAI launches ChatGPT Wallet to let AI agents make purchases",
+      "snippet": "ChatGPT Pro users can now add credit cards to a new wallet, allowing autonomous AI agents to initiate transactions on their behalf.",
+      "body": [
+        "OpenAI is rolling out ChatGPT Wallet to US-based ChatGPT Pro subscribers. The feature allows the company's 'Dots' AI agents to execute purchases directly in response to user prompts, provided the user approves each transaction.",
+        "To maintain security, purchases require biometric verification such as Face ID or a fingerprint scan. Similar to mobile wallet platforms, OpenAI swaps credit card details for a payment token so actual card numbers are never exposed to the agent or merchant."
+      ],
+      "more": [
+        "The wallet currently supports eligible US-issued cards from American Express, Chase, Mastercard, and Visa. Users add their card details directly inside ChatGPT, setting up the foundation for automated shopping tasks.",
+        "While every checkout currently demands manual user sign-off, OpenAI indicated that future updates will allow users to delegate purchases completely to their agents. This hands-off approach will eventually rely on preset spending limits, approved merchant categories, or designated time windows.",
+        "However, real-world adoption depends heavily on retailer cooperation. Some major e-commerce platforms actively restrict or block autonomous AI scraping agents from completing transactions. OpenAI noted that websites will need to configure their risk systems to recognize legitimate agent-driven checkouts to avoid blocking these purchases."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      },
+      "wiki": "Artificial_intelligence",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/tech-openai-launches-chatgpt-wallet-to-let-ai-agents.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "tech-keychron-s-new-trackball-mouse-lets-you-adjust-t",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "hardware",
+        "trackball",
+        "keychron",
+        "ergonomics",
+        "input-devices"
+      ],
+      "title": "Keychron's new trackball mouse lets you adjust the ball's position",
+      "snippet": "If fixed trackballs never quite fit your hand, Keychron's T1 HE lets you micro-adjust the position of its 34mm thumb ball.",
+      "body": [
+        "Keychron has introduced the T1 HE, a wireless ergonomic mouse with a 34mm trackball positioned on the side. Unlike typical static trackballs from competitors like Logitech or Kensington, the T1 HE allows users to fine-tune the physical position of the ball itself so it sits comfortably directly under their thumb.",
+        "A pair of small dials located on the underside of the mouse adjust the ball's vertical and horizontal placement, as well as extending or retracting it. While the adjustments are limited to a few millimeters, those subtle shifts can make a big difference in daily comfort for different hand sizes."
+      ],
+      "more": [
+        "Keychron previously entered the trackball market with the compact Nape Pro, designed to sit flush against a keyboard. The T1 HE takes a more traditional approach for side-thumb designs, but adds physical customization to solve a common ergonomic complaint.",
+        "Under the hood, the mouse features an optical sensor with sensitivity adjustable from 100 DPI up to 2,400 DPI via a dedicated button or through Keychron's Launcher software. The software also handles macro creation and key remapping across the device's six customizable buttons.",
+        "For connectivity, the T1 HE supports Bluetooth (offering up to 106 hours of battery life from its 600mAh battery), a 2.4GHz wireless receiver (up to 98 hours), or a direct wired connection over USB-C.",
+        "The mouse is available for preorder at $59.99 in black, white, or translucent shell variants, with shipping scheduled to begin in early December."
+      ],
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable"
+      },
+      "wiki": "Trackball",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/tech-keychron-s-new-trackball-mouse-lets-you-adjust-t.jpg",
+        "credit": "www.theverge.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "tech-unpatched-windows-0-day-bypasses-antivirus-to-dr",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "windows",
+        "cybersecurity",
+        "zero-day",
+        "microsoft",
+        "exploit"
+      ],
+      "title": "Unpatched Windows 0-day bypasses antivirus to drop SYSTEM rights",
+      "snippet": "A security researcher released a zero-day exploit targeting Windows kernel drivers, allowing arbitrary file creation that bypasses tamper protection.",
+      "body": [
+        "A zero-day vulnerability affecting select builds of Windows 11 and Windows Server has been publicly disclosed by an independent security researcher. The exploit tricks antivirus and Endpoint Detection and Response (EDR) software into creating arbitrary files on the system.",
+        "Because the file creation request originates within the context of the antimalware engine's own legitimate process, kernel drivers allow the action to pass. This allows an attacker to trigger arbitrary file creation and bypass tamper protection mechanisms to spawn a command shell with SYSTEM-level privileges."
+      ],
+      "more": [
+        "Security researcher Will Dormann confirmed he successfully reproduced the exploit, though noted specific target requirements. The vulnerability appears limited to Windows 11 version 26H2 builds that have existed for more than 90 days, where the CLFS (Common Log File System) authentication mode key in the Windows Registry is set to learning or enforcement mode.",
+        "Because Microsoft uses staged rollouts for feature updates like 26H2, the exact number of vulnerable public machines remains unclear. System administrators can check their build status using the 'winver' command or inspecting the registry path under HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\CLFS\\Authentication\\Mode.",
+        "Microsoft stated it is actively investigating the writeup and reported no evidence of active exploitation in the wild, adding that Microsoft Defender includes protections designed to block potential exploitation attempts."
+      ],
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/"
+      },
+      "wiki": "Zero-day_(computing)",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/tech-unpatched-windows-0-day-bypasses-antivirus-to-dr.jpg",
+        "credit": "arstechnica.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "design-koto-points-giffgaff-toward-its-next-chapter-wit",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-11",
+      "style": "explainer",
+      "tags": [
+        "branding",
+        "typography",
+        "graphic-design"
+      ],
+      "title": "Koto points Giffgaff toward its next chapter with a subtle signpost rebrand",
+      "snippet": "Global agency Koto refreshes UK mobile provider Giffgaff with a punchy custom typeface and a clever arrow-tipped logo.",
+      "body": [
+        "UK mobile and broadband provider Giffgaff has built its reputation on flexibility, rolling monthly plans, and a distinctly quirky challenger mentality. To stand out in an increasingly crowded market, the brand partnered with global agency Koto for a comprehensive refresh.",
+        "The new identity centers around the concept of a signpost, cleverly integrated directly into the company's wordmark where the final 'f' terminates in a sharp directional arrow.",
+        "Accompanied by a punchy custom sans-serif typeface and an energetic acid green palette, the redesign brings a renewed sense of confidence while honouring the community-first ethos."
+      ],
+      "more": [
+        "Rebranding a beloved challenger brand is always risky because pushing too far can alienate existing members, while changing too little defeats the purpose entirely. Koto navigated this tightrope by anchoring the entire visual system to a practical, organizing idea: the signpost.",
+        "The arrow motif is subtly peppered across the entire identity, guiding users' eyes toward pricing, highlighting offers, and clarifying next steps. Beyond digital screens, the concept extends to physical touchpoints like acid green packing tape stamped with 'Your Next Move' slogans on delivery boxes.",
+        "To break away from the sea of predictable blues and purples typical of the telecommunications industry, Koto introduced a vibrant acid green alongside the familiar black-and-white palette. They also commissioned a custom font named Giffsans—a tall, condensed sans designed to give punchy slogans maximum impact.",
+        "Photography moved away from glossy, sterile stock imagery toward candid, flash-lit moments that feel authentic to real life and community gatherings.",
+        "The digital system was built directly on top of Giffgaff's existing design tokens, ensuring the new look could roll out seamlessly across the website and mobile app without getting bogged down in endless prototyping."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/news/koto-points-giffgaff-towards-its-next-chapter-with-an-arrow-led-rebrand/"
+      },
+      "wiki": "Giffgaff",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/design-koto-points-giffgaff-toward-its-next-chapter-wit.webp",
+        "credit": "www.creativeboom.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "design-how-vucko-built-a-kinetic-identity-for-etsy-root",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "explainer",
+      "tags": [
+        "branding",
+        "motion-design",
+        "graphic-design"
+      ],
+      "title": "How Vucko built a kinetic identity for Etsy rooted in joy and simplicity",
+      "snippet": "Toronto studio Vucko gave Etsy a new motion language designed to bring clarity and craft to millions of interactions.",
+      "body": [
+        "Etsy has operated with a familiar brand for over two decades, but its visual system needed to better reflect its creative marketplace. Toronto-based studio Vucko stepped in to create a kinetic identity that bridges product, marketing, and everything in between.",
+        "The studio established a motion north star around 'discovering special', anchored by three core pillars: joy, simplicity, and craft. These values give Etsy's diverse teams a flexible set of behaviours rather than a rigid rulebook.",
+        "By listening closely to internal teams and understanding everyday realities, Vucko delivered a scalable system that keeps the brand human and adaptable as it grows."
+      ],
+      "more": [
+        "Creating a brand system for a massive global marketplace is no small feat. Before touching any design software, Vucko spent considerable time researching how different teams across Etsy approach their work, what tools they use, and where consistency matters most.",
+        "The resulting trio of core values—joy, simplicity, and craft—acts as a practical filter for all future brand applications. Joy captures the feeling of finding something unique, simplicity keeps movements purposeful and direct, and craft injects a much-needed human quality and attention to detail into the digital experience.",
+        "Practically speaking, this framework manifests as a versatile set of gestures and behaviours. Product teams lean towards functional clarity with subtle moments of delight, while marketing executions can afford to be far more expressive.",
+        "Crucially, neither department is boxed into a corner. The kinetic infrastructure allows for creative judgement while preventing the brand from chasing short-lived design trends or gimmicks.",
+        "Vucko’s process heavily relies on transparent R&D and work-in-progress shares. By keeping a close dialogue with clients and building shared understanding along the way, the studio ensures the resulting identity remains genuinely useful as the company evolves."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/vucko-etsy-motion-graphic-design-sponsored-content-121126"
+      },
+      "wiki": "Etsy",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/design-how-vucko-built-a-kinetic-identity-for-etsy-root.png",
+        "credit": "www.itsnicethat.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "design-redesigning-yoto-how-to-update-a-cult-audio-play",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "explainer",
+      "tags": [
+        "product-design",
+        "branding",
+        "industrial-design"
+      ],
+      "title": "Redesigning Yoto: How to update a cult audio player without losing its soul",
+      "snippet": "Design studio Heirloom walks through the careful process of updating the beloved screen-free kids' audio player.",
+      "body": [
+        "The Yoto player has earned a devoted following among parents looking for an alternative to high-stimulation screens. When the time came for a major hardware overhaul, design studio Heirloom took on the challenge of improving robustness and battery life without ruining the product's lo-fi charm.",
+        "Key updates include a friendlier pebble-like form factor, better grip, and a distinctive green dial designed to give kids quick access to their favourite audio content.",
+        "Crucially, the team resisted the urge to pack the device with addictive animations, keeping the interface firmly rooted in a charming pixel world."
+      ],
+      "more": [
+        "Working on a product with a vocal, highly opinionated community is a delicate balancing act. Heirloom knew they had to respect the core mission of keeping kids in control while parents stay in charge.",
+        "Technical improvements were high on the list, including better internal storage, faster downloads, a splashproof casing, and better drop-resistance for clumsy hands. The physical shape was refined by putting early prototypes directly into children's hands to see what felt most natural to hold.",
+        "Content organisation also received a major rethink. The new green dial acts as a streamlined gateway to daily podcasts, radio, and twenty customisable favourites, letting children navigate audio without scrolling through endless cards.",
+        "Despite upgrading screen resolutions slightly, the design team consciously avoided turning the device into an iPad or iPod. Every on-screen menu remains strictly lo-fi pixel art.",
+        "Hidden details, such as tiny winking logos on charging cables and secret faces tucked between dials, preserve the playful underdog spirit that made the original Kickstarter product so endearing to families in the first place."
+      ],
+      "source": {
+        "id": "creative-bloq",
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com/inspiration/how-do-you-redesign-a-cult-kids-product-i-asked-yotos-new-designers"
+      },
+      "wiki": "Yoto",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/design-redesigning-yoto-how-to-update-a-cult-audio-play.png",
+        "credit": "www.creativebloq.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "pt-os-numeros-criativos-de-carlos-moedas-na-limpeza",
+      "topic": "pt",
+      "sub": "news",
+      "kind": "news",
+      "published": "2026-11-14",
+      "style": "news",
+      "tags": [
+        "lisboa",
+        "carlos-moedas",
+        "politica"
+      ],
+      "title": "Os números criativos de Carlos Moedas na limpeza de grafitis",
+      "snippet": "Uma declaração sobre custos de limpeza no Rossio revelou contas surpreendentes entre o que foi anunciado e os valores reais apresentados em tribunal.",
+      "body": [
+        "O presidente da Câmara Municipal de Lisboa, Carlos Moedas, afirmou recentemente que a limpeza dos grafitis na estátua do Rossio, após uma acampada, tinha custado 100 mil euros à autarquia.",
+        "No entanto, análises a documentos oficiais e dados apresentados pela própria câmara em tribunal revelam uma realidade bem diferente sobre os custos efetivos da operação de remoção de pintura."
+      ],
+      "more": [
+        "De acordo com dados divulgados pelo jornal local 'Lisboa para Pessoas', com base na discriminação de custos apresentada pela autarquia num processo judicial, o valor imputado diretamente à remoção dos grafitis propriamente ditos foi de apenas 800 euros.",
+        "Essa verba correspondeu ao trabalho de cinco técnicos durante oito horas, com uma tarifa de 20 euros por hora. O montante global de 100 mil euros inicialmente referido englobava quatro dias de limpeza de toda a praça, recorrendo a veículos pesados e meios humanos que, em grande parte, já pertencem aos quadros e recursos da câmara.",
+        "A discrepância entre o valor anunciado publicamente e o custo direto apurado gerou debate sobre a gestão de dados e a transparência na comunicação dos custos das intervenções urbanas na capital."
+      ],
+      "source": {
+        "id": "publico",
+        "name": "Público",
+        "url": "https://www.publico.pt/2026/11/14/opiniao/opiniao/carlos-moedas-limpeza-grafitis-cultura-tuttifrutti-2194933"
+      },
+      "wiki": "Lisboa",
+      "lang": "pt",
+      "image": {
+        "src": "editions/2026-11-14/pt-os-numeros-criativos-de-carlos-moedas-na-limpeza.jpg",
+        "credit": "www.publico.pt"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "books-art-isn-t-just-aesthetic-it-changes-your-biology",
+      "topic": "books",
+      "sub": "mind",
+      "kind": "evergreen",
+      "published": "2026-11-13",
+      "style": "book",
+      "tags": [
+        "psychology",
+        "health",
+        "art",
+        "science"
+      ],
+      "title": "Art isn't just aesthetic—it changes your biology and physical health",
+      "snippet": "Psychobiology professor Daisy Fancourt makes the scientific case that creative practices directly alter human cells, mood, and long-term wellbeing.",
+      "body": [
+        "We often think of art as an optional extra or a purely cultural pursuit. In *Art Cure*, psychobiology and epidemiology professor Daisy Fancourt argues that engagement with the arts—from painting and theatre to playing music—is fundamentally linked to our physical and psychological survival.",
+        "By analyzing creative activities down to their core components, Fancourt demonstrates how artistic experiences act directly on our biological systems, influencing cellular function, memory, stress response, and immune health."
+      ],
+      "source": {
+        "id": "guardian-books",
+        "name": "The Guardian · Books",
+        "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/13/the-best-books-to-read-in-november-and-december-new-paperbacks-from-benjamin-myers-jeanette-winterson-and-john-updike"
+      },
+      "wiki": "Arts_medicine",
+      "lang": "en",
+      "book": {
+        "title": "Art Cure",
+        "author": "Daisy Fancourt",
+        "lessons": [
+          {
+            "title": "Art operates on a biological level",
+            "text": "Creative practices affect the body far beyond emotional satisfaction. Artistic engagement triggers measurable shifts in cognitive processing, mood regulation, and bodily processes down to the molecular and cellular level."
+          },
+          {
+            "title": "Every creative experience has active ingredients",
+            "text": "Fancourt breaks down complex art forms into specific mechanism components. For instance, singing to a sick baby combines physical noise buffering, neurochemical stimulation, and vital social connection."
+          },
+          {
+            "title": "Creative health is a public urgency",
+            "text": "As traditional healthcare systems face immense strain, integrating artistic practices into daily routines offers a proven, accessible way to support long-term physical and mental health."
+          }
+        ],
+        "takeaway": "Pick up a simple creative practice this week—like sketching or listening to music without distractions—to lower your stress response.",
+        "forWho": "Anyone interested in the intersection of neuroscience, health, psychology, and everyday creativity."
+      },
+      "image": {
+        "src": "editions/2026-11-14/books-art-isn-t-just-aesthetic-it-changes-your-biology.jpg",
+        "credit": "www.theguardian.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "books-route-66-is-more-than-asphalt-it-s-the-ultimate",
+      "topic": "books",
+      "sub": "creativity",
+      "kind": "evergreen",
+      "published": "2026-11-13",
+      "style": "book",
+      "tags": [
+        "john-steinbeck",
+        "american-culture",
+        "road-trips",
+        "history"
+      ],
+      "title": "Route 66 is more than asphalt: it's the ultimate American myth",
+      "snippet": "Michael Wallis's 1990 classic sparked a massive cultural revival of Route 66 by framing the highway as a canvas for American dreams, hardship, and reinvention.",
+      "body": [
+        "Connecting Chicago to Los Angeles across two-thirds of the continent, Route 66 became far more than a 2,000-mile stretch of concrete. Created in 1926, it quickly turned into the stage for American history's most dramatic movements—from the tragic Dust Bowl migrations chronicled in literature to the post-war boom of family road trips, rock 'n' roll, and pop culture.",
+        "In *The Mother Road*, historian Michael Wallis captured the spirit of the highway's roadside diners, ghost towns, and neon signs. Published five years after Route 66 was officially decommissioned, the book proved that the highway's hold on the imagination was stronger than ever, sparking a global resurgence of interest in American roadside heritage."
+      ],
+      "source": {
+        "id": "npr-books",
+        "name": "NPR · Books",
+        "url": "https://www.npr.org/2026/11/13/nx-s1-5927452/route-66-pop-culture"
+      },
+      "wiki": "U.S._Route_66",
+      "lang": "en",
+      "book": {
+        "title": "The Mother Road",
+        "author": "Michael Wallis",
+        "lessons": [
+          {
+            "title": "Highways shape cultural stories",
+            "text": "Route 66 grew into an icon because writers, musicians, and filmmakers used it as a backdrop for fundamental human themes. From John Steinbeck’s *The Grapes of Wrath* to Nat King Cole's anthem and Pixar's *Cars*, the road provided a shared narrative arc for transformation and escape."
+          },
+          {
+            "title": "Hardship creates shared national landmarks",
+            "text": "During the Dust Bowl in the 1930s, thousands of displaced families drove their loaded jalopies West along Route 66 toward California. What began as a desperate search for survival embedded the highway permanently into the American psyche as a symbol of hope and reinvention."
+          },
+          {
+            "title": "Local character outlasts official infrastructure",
+            "text": "Even after being decommissioned as a federal highway in 1985, Route 66 maintained its allure through its eccentric roadside culture. The small-town pie palaces, greasy spoons, and kitschy tourist traps kept the spirit of open-road adventure alive long after the route was bypassed."
+          }
+        ],
+        "takeaway": "Ditch the highway on your next trip and take a back road to experience small-town diners and local landmarks firsthand.",
+        "forWho": "Travelers, history buffs, and pop culture enthusiasts interested in how American open-road mythology was born."
+      },
+      "image": {
+        "src": "editions/2026-11-14/books-route-66-is-more-than-asphalt-it-s-the-ultimate.jpg",
+        "credit": "www.npr.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "books-the-panama-canal-was-built-on-grand-ambition-tra",
+      "topic": "books",
+      "sub": "science",
+      "kind": "evergreen",
+      "published": "2026-11-13",
+      "style": "book",
+      "tags": [
+        "panama-canal",
+        "history",
+        "caribbean",
+        "labour-history"
+      ],
+      "title": "The Panama Canal was built on grand ambition, tragic failures, and political leverage",
+      "snippet": "David McCullough's masterwork lays out the monumental engineering effort and geopolitical drama that redrew the map of global trade.",
+      "body": [
+        "Building a shortcut between the Atlantic and Pacific oceans was a centuries-old dream, but making it a reality required unprecedented engineering, medical breakthroughs, and aggressive geopolitics. After a disastrous French attempt failed, the United States backed a Panamanian revolt against Colombia to secure complete sovereign control over the Canal Zone.",
+        "David McCullough’s award-winning history captures both the grand technological triumph and the geopolitical hubris behind the project. It shows how imperial ambition transformed an entire region and set the template for 20th-century global power dynamics."
+      ],
+      "source": {
+        "id": "five-books",
+        "name": "Five Books",
+        "url": "https://fivebooks.com/best-books/the-panama-canal-julie-greene/"
+      },
+      "wiki": "Panama_Canal",
+      "lang": "en",
+      "book": {
+        "title": "The Path Between the Seas",
+        "author": "David McCullough",
+        "lessons": [
+          {
+            "title": "Geopolitics often follows infrastructure",
+            "text": "The long naval detour around South America during the Spanish-American War convinced President Theodore Roosevelt that a canal was essential for US power. When negotiations with Colombia stalled, political maneuvering and military pressure quickly reshaped borders to secure the project."
+          },
+          {
+            "title": "Engineering triumphs carry complex ironies",
+            "text": "While celebrated as a monument to modern medicine and technological strength, the project was built on absolute territorial control. McCullough highlights how grand engineering narratives often celebrate human ingenuity while minimizing the geopolitical cost to host nations."
+          },
+          {
+            "title": "Large-scale projects depend on hidden labour hierarchies",
+            "text": "The immense effort relied on a deeply divided workforce, splitting thousands of workers into rigid systems of skilled and unskilled labor. Understanding mega-projects requires looking beyond the famous leaders to the vast international labor forces that actually built them."
+          }
+        ],
+        "takeaway": "When studying major technological achievements, research the political and human labor conditions that made them possible.",
+        "forWho": "History enthusiasts and readers curious about global infrastructure, empire, and big engineering projects."
+      },
+      "image": {
+        "src": "editions/2026-11-14/books-the-panama-canal-was-built-on-grand-ambition-tra.jpg",
+        "credit": "fivebooks.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ideas-fugitive-imagination-is-the-act-of-envisioning-l",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "idea",
+      "tags": [
+        "philosophy",
+        "human-rights",
+        "freedom",
+        "sociology"
+      ],
+      "title": "Fugitive imagination is the act of envisioning life beyond state containment",
+      "snippet": "When existing structures restrict physical and intellectual freedom, imagination itself becomes a radical, illegal act of self-reclamation.",
+      "body": [
+        "In an essay for Aeon, border studies scholar Shahram Khosravi reflects on his experience in an Iranian-Pakistani border prison and how state power relies on rigid, territorial imaginaries. Opposed to this is what he terms 'fugitive imagination'—the capacity to envision and enact possibilities beyond state confinement.",
+        "Khosravi highlights Frederick Douglass's enslaver forbidding him to read, fearing Douglass would 'run away with himself.' Literacy transformed Douglass's mind before he physically escaped. To use fugitive imagination is to reclaim your own consciousness before your physical freedom follows, refusing to be defined by oppressive systems."
+      ],
+      "more": [
+        "Khosravi draws parallels between human smugglers and architects. Just as an architect visualizes structures that do not yet exist, a smuggler designs routes across borders that states declare impassable. While states enforce backward-looking narratives of shared blood and rigid borders, those who cross borders illegally act upon an imagination that exceeds those artificial boundaries.",
+        "This concept extends directly into knowledge production and education, what historian Jarvis Givens terms 'fugitive pedagogy.' When enslaved Black Americans learned to read in secret despite brutal anti-literacy laws, education itself became a fugitive act. Reading enabled Douglass to forge passes and eventually escape, demonstrating that intellectual emancipation is a necessary precursor to bodily liberation.",
+        "Ultimately, fugitive imagination demonstrates that resistance begins internally. When nation-states or repressive institutions attempt to limit mobility, thought, or identity, the simple refusal to accept those boundaries in your own mind is the first step toward forging a different reality."
+      ],
+      "source": {
+        "id": "aeon",
+        "name": "Aeon",
+        "url": "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
+      },
+      "wiki": "Frederick_Douglass",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/ideas-fugitive-imagination-is-the-act-of-envisioning-l.jpg",
+        "credit": "aeon.co"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ideas-a-scientific-theory-is-an-explanatory-framework",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "idea",
+      "tags": [
+        "science",
+        "epistemology",
+        "physics",
+        "scientific-method"
+      ],
+      "title": "A scientific theory is an explanatory framework, not an unproven hunch",
+      "snippet": "In everyday speech, 'theory' means a guess; in science, it represents the highest level of established explanatory power.",
+      "body": [
+        "Writing for Big Think, astrophysicist Ethan Siegel addresses a common linguistic trap: confusing the everyday use of 'theory' with its rigorous scientific definition. In casual conversation, a theory is a hunch or a speculative idea. In science, however, a theory is a comprehensive, quantitative framework supported by extensive evidence.",
+        "For example, calling General Relativity or Quantum Mechanics 'just a theory' misinterprets scientific language. A hypothesis is an unproven proposal, but a theory is the overarching framework that explains known facts and accurately predicts new phenomena. You use this understanding whenever you evaluate claims: a true theory must make testable predictions."
+      ],
+      "more": [
+        "Critics of scientific consensus often point to historic theories that were eventually disproven—like phlogiston or Lamarckian evolution—to argue that modern consensus might be wrong too. However, Siegel points out that science advances by building upon valid frameworks, refining or expanding them rather than discarding empirical facts.",
+        "For an idea to achieve the status of a scientific theory, it must satisfy three criteria: it must account for all existing data, explain why previous models worked where they did, and make new, testable predictions that can be verified through observation or experiment.",
+        "Understanding this distinction prevents conflating speculative hypotheses with well-established scientific knowledge. While a guess requires no evidence, a scientific theory is the strongest, most tested explanation of reality that science can produce."
+      ],
+      "source": {
+        "id": "big-think",
+        "name": "Big Think",
+        "url": "https://bigthink.com/starts-with-a-bang/never-tell-scientist-just-a-theory/"
+      },
+      "wiki": "Scientific_theory",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/ideas-a-scientific-theory-is-an-explanatory-framework.jpg",
+        "credit": "bigthink.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "ideas-extending-legal-personhood-to-ecosystems-reframe",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "idea",
+      "tags": [
+        "ecology",
+        "nature",
+        "law",
+        "philosophy"
+      ],
+      "title": "Extending legal personhood to ecosystems reframes our relationship with nature",
+      "snippet": "Granting rights of personhood to forests and rivers shifts environmental protection from human stewardship to mutual belonging.",
+      "body": [
+        "In an essay on The Marginalian, Maria Popova examines the growing 'rights-of-nature' movement, highlighted by Ecuador granting legal personhood to the Los Cedros Cloud Forest. This legal shift moves beyond viewing nature as mere property or a resource to be managed, recognizing its intrinsic right to exist and flourish.",
+        "Popova highlights a new collaborative project, *Song of the Cedars*, where writers like Robert Macfarlane and biologist Giuliana Furci listed the forest itself as a co-author. To apply this idea, consider how viewing non-human entities as legal subjects rather than objects alters how we measure progress, land use, and environmental ethics."
+      ],
+      "more": [
+        "The decision by Ecuador's Constitutional Court to accord legal rights to an entire forest represents a fundamental shift in western jurisprudence, bringing legal frameworks in line with indigenous perspectives that have long recognized the interconnectedness of living systems. Under this framework, damage to an ecosystem is not merely property destruction, but a violation of rights.",
+        "This movement is supported by shifts in scientific language and perspective. Biologist Giuliana Furci pioneered the term *funga*—now adopted alongside *flora* and *fauna*—to recognize fungi as a distinct and vital kingdom of life essential to forest health. By establishing explicit terms and legal rights for the natural world, proponents aim to break what Popova calls the 'civilizational spell of indifference.'",
+        "Recognizing rights of nature challenges the human-centric framework of law and economics. It suggests that long-term ecological preservation requires acknowledging that human well-being cannot be separated from the flourishing of the ecosystems we inhabit."
+      ],
+      "source": {
+        "id": "marginalian@ideas",
+        "name": "The Marginalian",
+        "url": "https://www.themarginalian.org/2026/11/12/song-of-the-cedars/"
+      },
+      "wiki": "Rights_of_nature",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/ideas-extending-legal-personhood-to-ecosystems-reframe.jpg",
+        "credit": "www.themarginalian.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "f1-sebastian-vettel-listed-as-donor-for-global-lgbt",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-14",
+      "style": "news",
+      "tags": [
+        "formula-1",
+        "sebastian-vettel",
+        "human-rights"
+      ],
+      "title": "Sebastian Vettel Listed as Donor for Global LGBT+ Rights Foundation",
+      "snippet": "Four-time Formula 1 champion Sebastian Vettel continues his post-racing advocacy as a named donor to The Human Dignity Trust.",
+      "body": [
+        "Four-time Formula 1 World Champion Sebastian Vettel has been listed as one of the donors supporting The Human Dignity Trust, an international foundation dedicated to defending LGBT+ rights across the globe using international human rights law.",
+        "The former Red Bull and Ferrari driver has long used his platform to speak out on social justice, environmental causes, and human rights, continuing his advocacy work well beyond his retirement from active F1 competition."
+      ],
+      "more": [
+        "During the final years of his Grand Prix career, Vettel made a deliberate turn toward public activism, frequently sporting helmet designs and t-shirts highlighting environmental awareness, human rights issues, and inclusivity at races worldwide.",
+        "The Human Dignity Trust works alongside local activists to challenge laws that criminalize same-sex intimacy and transgender identity, using international legal avenues to protect human rights across various jurisdictions globally.",
+        "Fans on social media noted that Vettel's financial support reflects his persistent personal commitment to these causes, reinforcing a legacy that extends far beyond his four world championship trophies."
+      ],
+      "source": {
+        "id": "f1-formula-1-reddit",
+        "name": "Formula 1 Reddit",
+        "url": "https://www.reddit.com/r/formula1/comments/1xvq2d9/sebastian_vettel_is_listed_as_one_of_the_donors/"
+      },
+      "wiki": "Sebastian_Vettel",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/f1-sebastian-vettel-listed-as-donor-for-global-lgbt.jpg",
+        "credit": "File:Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_(cropped).jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "f1-toto-wolff-offered-his-resignation-during-merced",
+      "topic": "f1",
+      "kind": "news",
+      "published": "2026-11-13",
+      "style": "news",
+      "tags": [
+        "formula-1",
+        "toto-wolff",
+        "mercedes-amg-f1"
+      ],
+      "title": "Toto Wolff Offered His Resignation During Mercedes' Recent Struggles",
+      "snippet": "Mercedes team principal Toto Wolff revealed he offered to step down during the team's tough seasons, but the CEO refused.",
+      "body": [
+        "Mercedes-AMG F1 team principal Toto Wolff revealed that he offered his resignation multiple times while the team struggled to match the pace of its rivals under current aerodynamic regulations.",
+        "However, Mercedes-Benz Group CEO Ola Källenius repeatedly refused to accept Wolff's resignation, expressing full confidence in the Austrian executive's leadership to navigate the team back to the front of the grid."
+      ],
+      "more": [
+        "After dominant title runs between 2014 and 2021, Mercedes encountered severe balance and ground-effect issues under the updated technical regulations, falling behind Red Bull Racing and other rivals for extended periods.",
+        "Wolff, who also owns a one-third stake in the Formula 1 team alongside Mercedes-Benz and INEOS, admitted that prolonged winless stretches led him to question whether fresh leadership might benefit the squad.",
+        "Källenius's refusal to accept the resignation highlights the long-term stability and executive backing Mercedes retains in its leadership structure as the sport heads toward major engine and aerodynamic overhaul cycles."
+      ],
+      "source": {
+        "id": "f1-formula-1-reddit",
+        "name": "Formula 1 Reddit",
+        "url": "https://www.reddit.com/r/formula1/comments/1xvbb1q/motorsport_toto_wolff_offered_his_resignation/"
+      },
+      "wiki": "Toto_Wolff",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/f1-toto-wolff-offered-his-resignation-during-merced.jpg",
+        "credit": "File:Toto_Wolff_2022_(52474843183)_(cropped).jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "health-how-diet-shapes-the-resistance-genes-hiding-in-y",
+      "topic": "health",
+      "kind": "news",
+      "published": "2026-11-12",
+      "style": "explainer",
+      "tags": [
+        "microbiome",
+        "gut-health",
+        "antibiotic-resistance",
+        "diet"
+      ],
+      "title": "How Diet Shapes the Resistance Genes Hiding in Your Gut",
+      "snippet": "Bacteria swap survival secrets using mobile loops of DNA, and studies show what you eat directly impacts the resistance profile of your microbiome.",
+      "body": [
+        "The widespread use of commercial antibiotics in animal farming has created a massive reservoir of resistant bacteria, capable of transferring their defenses via tiny circular DNA packets called plasmids. In gut simulation models, an antibiotic-resistance plasmid from chicken-derived E. coli successfully leaped to human intestinal flora in under two hours.",
+        "To see how this reflects in human bodies, researchers cataloged antibiotic-resistant gene loads across omnivores, vegetarians, and vegans. Even though farm runoff and manure can transfer resistance markers onto vegetables, vegans possessed significantly lower total resistance gene loads in their digestive tracts than both omnivores and vegetarians.",
+        "Specific food choices mapped to distinct defenses: dairy and eggs correlated with increased tetracycline-resistance genes, while poultry, seafood, and eggs were linked to genes shielding bacteria against vancomycin—one of modern medicine's critical last-resort antibiotics."
+      ],
+      "more": [
+        "The vulnerability of modern antimicrobial medicine hinges on horizontal gene transfer. Rather than waiting generations to evolve resistance, bacteria can share mobile genetic elements directly across species boundaries. Because life-saving drugs are frequently administered to livestock in high-density conditions for growth promotion, agricultural systems become breeding grounds for plasmids carrying complex resistance codes.",
+        "To test whether these genes actually accumulate in consumers, investigators screened stool samples for resistance against sulfa drugs, tetracyclines, penicillins, cephalosporins, and streptomycin. Vegetarians and omnivores exhibited remarkably similar burdens, whereas individuals on fully plant-based diets showed markedly reduced overall resistance profiles.",
+        "The persistence of resistance genes among vegetarians highlighted the role of animal products beyond meat itself. Tetracycline-resistance markers showed tight correlations with the intake of milk, cheese, and eggs. Meanwhile, vancomycin resistance—particularly alarming because the drug is held in reserve for severe MRSA and life-threatening streptococcal infections—clustered heavily in consumers of eggs, fish, and poultry.",
+        "Stool sample analysis further demonstrated that bacteria harvested from omnivores harbored multi-drug resistance across a significantly wider spectrum of pharmaceuticals compared to plant-based cohorts. The findings underscore that everyday dietary intake plays a direct role in structuring the genetic defenses of our resident microbiome."
+      ],
+      "source": {
+        "id": "health-dr-greger-s-nutritionfacts-org",
+        "name": "Dr. Greger's NutritionFacts.org",
+        "url": "https://nutritionfacts.org/blog/do-meat-eaters-have-more-antibiotic-resistance-in-their-guts/"
+      },
+      "wiki": "Antimicrobial_resistance",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/health-how-diet-shapes-the-resistance-genes-hiding-in-y.jpg",
+        "credit": "nutritionfacts.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    },
+    {
+      "id": "health-allulose-the-rare-sugar-that-might-bludgeon-bloo",
+      "topic": "health",
+      "kind": "news",
+      "published": "2026-11-10",
+      "style": "explainer",
+      "tags": [
+        "nutrition",
+        "weight-loss",
+        "metabolism",
+        "sugar-substitutes"
+      ],
+      "title": "Allulose: The Rare Sugar That Might Bludgeon Blood Sugar Spikes",
+      "snippet": "Allulose acts like regular sugar, barely registers calories, and even suppresses glucose spikes—but does it actually help humans shed fat?",
+      "body": [
+        "Allulose is a rare, low-calorie sugar naturally present in tiny quantities but now manufactured as an alternative sweetener. Unlike most artificial substitutes, it appears to actively alter how our bodies process standard carbohydrates. In cellular tests, it limits fat cell development, while in human meal trials, taking it beforehand can nudge the body toward burning fat calories rather than carbohydrate calories.",
+        "Its most compelling trick happens when consumed alongside rapidly digesting carbs. Because allulose appears to compete for the same absorption pathways along the intestinal wall, adding it to a high-carb drink or meal suppresses blood sugar and insulin spikes by up to 15% to 30%.",
+        "Yet the actual weight-loss evidence remains modest. While one controlled 12-week trial reported roughly two pounds of lost body fat—chiefly superficial subcutaneous fat—another study showed no measurable slimming effect at all, suggesting that merely adding a novel sweetener cannot undo an otherwise poor diet."
+      ],
+      "more": [
+        "The fascination with allulose stems from a series of dramatic animal trials. In obese mice fed lard and high-fat-fed hamsters, the compound significantly suppressed weight gain and slashed LDL cholesterol. In the laboratory, staining tests revealed that replacing sugar with allulose prevented fat cell precursors from maturing into actual fat cells, substantially cutting intracellular fat storage.",
+        "Moving into human trials, researchers initially noticed acute metabolic shifts. Giving subjects about a teaspoon of allulose thirty minutes prior to eating prompted a shift toward burning fat over carbohydrates during the subsequent four hours. However, total caloric expenditure did not increase, totaling merely 15 fat calories burned—an amount easily compensated for later in the day.",
+        "When long-term weight was evaluated, the outcomes proved nuanced. In a 12-week double-blind study of over one hundred participants comparing sucralose to varying doses of allulose, researchers utilized CT scans to track body composition. The allulose groups experienced measurable decreases in body fat without modifying their exercise or caloric intake. Crucially, though, the reduction was modest (about two pounds) and limited to subcutaneous fat, failing to impact the deeper visceral fat that drives cardiovascular risk.",
+        "Where allulose shines most reliably is acute glycemic management. Drinking two teaspoons alongside high-glycemic carbohydrates yielded an approximate 30% reduction in circulating glucose and insulin elevations. In participants with borderline diabetes consuming it in tea with everyday meals, glucose spikes were dampened by 15%. Even so, a broader systematic review categorized these overall benefits across trials as borderline in clinical significance, cautioning that whole foods remain the superior dietary benchmark."
+      ],
+      "source": {
+        "id": "health-dr-greger-s-nutritionfacts-org",
+        "name": "Dr. Greger's NutritionFacts.org",
+        "url": "https://nutritionfacts.org/blog/are-rare-sugars-like-allulose-actually-healthy/"
+      },
+      "wiki": "Psicose",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-14/health-allulose-the-rare-sugar-that-might-bludgeon-bloo.jpg",
+        "credit": "nutritionfacts.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-14"
+    }
+  ]
+}

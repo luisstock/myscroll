@@ -580,5 +580,17 @@
   "v2:en:Toto_Wolff": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Toto_Wolff_2022_%2852474843183%29_%28cropped%29.jpg/1280px-Toto_Wolff_2022_%2852474843183%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "credit": "File:Toto_Wolff_2022_(52474843183)_(cropped).jpg"
+  },
+  "v2:en:Large_language_model": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/The_number_of_publications_about_Large_Language_Models_by_year.png/1280px-The_number_of_publications_about_Large_Language_Models_by_year.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:The_number_of_publications_about_Large_Language_Models_by_year.png"
+  },
+  "v2:en:Graphics_processing_unit": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/AMD_HD5470_GPU.JPG/1280px-AMD_HD5470_GPU.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:AMD_HD5470_GPU.JPG"
+  },
+  "v2:en:Empress_Elisabeth_of_Austria": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Isabel_da_%C3%81ustria_1867.jpg/1280px-Isabel_da_%C3%81ustria_1867.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Isabel_da_Áustria_1867.jpg"
   }
 }

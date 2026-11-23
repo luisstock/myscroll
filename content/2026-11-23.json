@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-23",
+  "number": 25,
+  "longread": {
+    "id": "science-the-final-hours-of-a-star-written-in-supernova-d",
+    "topic": "science",
+    "kind": "longread",
+    "published": "2026-11-23",
+    "style": "story",
+    "tags": [
+      "james-webb-space-telescope",
+      "astronomy",
+      "supernova",
+      "cassiopeia-a",
+      "astrophysics"
+    ],
+    "title": "The Final Hours of a Star Written in Supernova Dust",
+    "snippet": "Astronomers using the James Webb Space Telescope have mapped solar-system-sized clumps of dust in Cassiopeia A, discovering that the giant star's interior churned and merged just hours before its catastrophic death.",
+    "body": [
+      "Every star in the cosmos begins its journey within a vast, cold cloud of mostly hydrogen gas and cosmic dust known as a molecular cloud. Under the constant pull of gravity, these dense pockets eventually collapse in on themselves, heating the gathering material until infant protostars take shape. As gravity continues to squeeze the heart of a protostar, hydrogen atoms begin fusing into helium—the precise spark that transforms a dark cloud into a shining star like our Sun.",
+      "For the most massive stars, however, fusion is an escalating race against gravity. When the hydrogen in the core is completely exhausted, the core contracts and heats up further, igniting the fusion of helium into even heavier elements. This cycle repeats over millions of years, building concentric shells of increasingly heavy elements around the core until fusion finally stalls at iron. The resulting star resembles an onion of chemical layers, storing a complete physical record of its evolutionary history.",
+      "When such a massive star finally perishes in a violent supernova explosion, those internal layers are torn apart and hurled into deep space. The scattered elements cool and condense into dust grains, which gather into solar-system-sized clumps within vast debris fields known as supernova remnants. One of the most famous of these cosmic monuments is Cassiopeia A, or Cas A—a vibrant cloud of gas and dust that will eventually seed future generations of stars and planets.",
+      "Recently, astronomers turned the James Webb Space Telescope toward Cas A to chronicle the precise structure of its original progenitor star. Using high-resolution mid-infrared observations published in The Astrophysical Journal Letters, researchers led by Columbia University scientist Tea Temim uncovered evidence that the interior of the star underwent a violent transformation shortly before its demise. The data suggests that deep within the star, adjacent burning shells began to churn, mix, and merge in the final hours leading up to core collapse.",
+      "To determine where Webb should look, the research team relied on past data from NASA's retired Spitzer Space Telescope. Although Spitzer lacked the high resolution to separate minute details, it successfully identified three key regions of interest for Webb to investigate. Two of those targets rested inside Cas A's reverse-shocked region—a turbulent boundary where an inward-moving shock wave collides head-on with debris flying outward from the explosion.",
+      "When Webb pointed its keen eye at those two reverse-shocked targets, it revealed vastly different chemical signatures: one clump of ejecta contained mostly silica dust, while the other was dominated almost entirely by carbon dust. The third target was a sprawling structure known as the Green Monster, which Webb had previously discovered. Chemical analysis showed the Green Monster was rich in complex magnesium silicates. Unlike the ejecta clumps, this material was shed by the star prior to its explosion.",
+      "The stark separation of chemical dust types across Cas A provided the crucial clue for the shell merger hypothesis. As lead author Tea Temim explained, material within adjacent internal layers can circulate so vigorously that the shells fuse together right before the explosion. When an oxygen-burning shell merges with a carbon-burning shell, the fundamental structure of the star alters dramatically, changing the exact chemical abundances scattered across the universe when the core finally collapses.",
+      "To build a complete map of the supernova's dust composition, researchers combined Webb's infrared findings with X-ray observations from NASA's Chandra X-ray Observatory and the JAXA-led XRISM mission. Together, these space observatories demonstrated that signatures of shell merging are present across much of the entire remnant, confirming that internal mixing was actively occurring in the final moments of the star's life.",
+      "For astronomers, reading these chemical clues offers a rare window into stellar death. Co-author Dan Milisavljevic of Purdue University noted that Webb's ability to resolve individual clumps of dust allows scientists to perform sophisticated dust chemistry, effectively tying the remnant's present state back to what happened inside the star hundreds of years ago. Understanding these final pre-explosion hours is essential for figuring out which elements supernovae donate to enrich future stars, planets, and worlds yet to come."
+    ],
+    "source": {
+      "id": "nasa",
+      "name": "NASA News",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"
+    },
+    "wiki": "Cassiopeia_A",
+    "imageUrl": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "lang": "en"
+  },
+  "items": [
+    {
+      "id": "news-longest-ever-un-climate-talks-end-with-no-deal-a",
+      "topic": "news",
+      "sub": "climate",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "news",
+      "tags": [
+        "cop31",
+        "climate-change",
+        "un"
+      ],
+      "title": "Longest-ever UN climate talks end with no deal as deep divisions erupt",
+      "snippet": "The COP31 summit in Turkey collapsed without a major new pact after nations deadlocked over fossil fuels and climate finance.",
+      "body": [
+        "The UN's COP31 climate conference in Antalya ended without a major political agreement after running days past its deadline, making it the longest summit in the process's history. Negotiations collapsed due to fierce disagreements over whether to explicitly mention phasing out fossil fuels and a lack of concrete financial commitments from wealthy nations.",
+        "The breakdown marks the first time a main COP agreement has collapsed since Copenhagen in 2009. The European Union and Pacific island nations rejected the final draft because it omitted direct references to fossil fuels, while developing nations criticized the absence of clear adaptation funding.",
+        "UN Secretary-General Antonio Guterres expressed deep disappointment, criticizing fossil fuel interests for delaying action. Despite the overarching failure, delegates did achieve some progress on a framework to support workers transitioning to clean energy and backed a voluntary target to increase electricity's share of global energy use to 35% by 2035."
+      ],
+      "more": [
+        "The conference, co-hosted by Australia and Turkey, unfolded against a backdrop of fraught geopolitics and severe climate impacts, with 2026 tracking to potentially end as the hottest year on record. Negotiators spent two weeks trying to bridge unbridgeable red lines, but exhausted delegates were ultimately presented with a draft text that failed to satisfy either ambitious climate advocates or oil-producing states.",
+        "The central flashpoint was the exclusion of any direct mention of fossil fuels—the primary driver of global warming. The draft only nodded vaguely to the 2023 UAE consensus to transition away from fossil systems. Irish Minister Darragh O'Brien, representing the EU, called it unconscionable to have a climate pact ignoring fossil fuels. Meanwhile, veteran climate advocate Al Gore blasted the summit's outcome, stating it was outrageous that a handful of petro-states held veto power over the text.",
+        "Money was the other major dividing line. Poorer nations pushed for robust financial commitments from richer countries to cope with intensifying heatwaves and droughts, following last year's agreement in Brazil to triple adaptation finance. With this year's text containing no baseline figures, representatives from vulnerable regions warned that rich nations were arriving empty-handed.",
+        "The collapse has renewed intense scrutiny of the UN climate negotiation framework itself, which relies on strict consensus among nearly 200 nations. While some leaders questioned whether the consensus model can survive an increasingly divided geopolitical landscape, UN climate chief Simon Stiell defended its historical successes like the Paris Agreement, noting the process has suffered setbacks before and must adapt ahead of COP32 in Ethiopia."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "United_Nations_Climate_Change_Conference",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5fe/live/bf5d6f10-e71f-11f1-99a1-253766e7ad8b.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-poland-calls-emergency-nato-session-after-russia",
+      "topic": "news",
+      "sub": "europe",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "news",
+      "tags": [
+        "poland",
+        "nato",
+        "russia"
+      ],
+      "title": "Poland calls emergency NATO session after Russian cruise missiles cross border",
+      "snippet": "Poland pushed for enhanced eastern border air defense after three Russian missiles entered its territory during an attack on Ukraine.",
+      "body": [
+        "Poland called an emergency NATO session after Russia fired three cruise missiles into its territory. The incident highlights the acute risks facing European nations along the eastern flank of Russia's war on Ukraine.",
+        "Although NATO anti-missile systems and defensive flights were activated successfully, Polish authorities reported that poor weather prevented the military from intercepting the incoming projectiles. Fortunately, no injuries or property damage were reported.",
+        "In response to the breach, Polish officials planned to present urgent proposals to increase surveillance capabilities and deploy additional F-35 fighter jets to better intercept incoming drones and missiles. Security experts noted that if the strike was deliberate, Moscow is drastically escalating risks by endangering lives within a NATO member state."
+      ],
+      "more": [
+        "The border breach underscores ongoing vulnerabilities in European air defense, prompting renewed scrutiny of NATO's Eastern Sentry initiative, which was established following previous drone incursions. Nations along the alliance's eastern border are urgently seeking bolstered support and tighter coordination to secure their airspace against spillover from the ongoing conflict.",
+        "The incident adds immediate pressure to regional security discussions as eastern European capitals demand a more robust deterrence posture. Observers note that repeated incursions, whether intentional or accidental due to degraded guidance systems, severely test the thresholds of NATO's collective defense framework.",
+        "As the emergency session convenes, member states will weigh practical measures to reinforce regional air shields without triggering a direct, wider confrontation. The focus remains on closing tactical gaps and reassuring frontline populations as the war continues to press directly against NATO's borders."
+      ],
+      "source": {
+        "id": "npr-world",
+        "name": "NPR · World",
+        "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
+      },
+      "wiki": "Enlargement_of_NATO",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6719x3779+0+347/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe5%2F7d%2Fc50c3bcc4fe1ae05beb95414859a%2Fgettyimages-2305196522.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "news-plant-based-lunches-could-cut-australia-s-emissi",
+      "topic": "news",
+      "sub": "climate",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "news",
+      "tags": [
+        "climate-change",
+        "diet",
+        "australia"
+      ],
+      "title": "Plant-based lunches could cut Australia’s emissions by 15 million tonnes",
+      "snippet": "A nationwide shift to plant-based midday meals could slash food-related emissions by nearly a third, a new report shows.",
+      "body": [
+        "Australians could collectively eliminate over 15 million tonnes of climate pollution each year—equivalent to grounding every domestic flight—simply by altering their lunch choices. A report by Bryant Research and ProVeg reveals that shifting to plant-based midday meals would cut food-related emissions by 29% while saving the average household roughly $611 annually.",
+        "Australia currently holds the world's highest per-capita food emissions. Researchers modeled various dietary shifts and found that while a 100% plant-based diet would cut total dietary emissions by two-thirds, focusing purely on lunch offers a highly practical, palatable starting point for the public.",
+        "The findings arrive as Australia reviews its national dietary guidelines for the first time in over 13 years, with draft updates expected for public consultation. Experts emphasize that the environmental and health benefits depend on choosing whole foods like legumes, grains, and vegetables rather than highly processed meat substitutes."
+      ],
+      "more": [
+        "The report highlights that everyday eating habits, when adopted broadly, can significantly shrink the environmental footprint of food production. Nearly a third of global greenhouse gas emissions are tied to the food system through land clearing, agriculture, transport, and waste. ProVeg Australia executive director Nadia Schilling noted that nobody expects overnight dietary overhauls, framing plant-based lunches as a practical win-win.",
+        "Simple swaps like opting for a black bean burrito, a tofu poke bowl, or a vegetable-packed sandwich instead of a ham and cheese wrap can drive substantial change. Nutritional experts stress that sustainable eating does not require expensive specialty items. Nutrient-dense plant proteins such as beans, lentils, and chickpeas remain among the most affordable options available.",
+        "However, public health and food sustainability researchers caution against replacing meat with ultra-processed alternatives that offer little nutritional improvement. Emphasizing minimally processed whole foods ensures that dietary shifts support both personal health and broader environmental goals as nations look for practical climate solutions."
+      ],
+      "source": {
+        "id": "guardian-world",
+        "name": "The Guardian · World",
+        "url": "https://www.theguardian.com/environment/2026/nov/23/plant-based-lunches-could-cut-australia-emissions-by-15m-tonnes-new-research-shows"
+      },
+      "wiki": "Sustainable_diet",
+      "imageUrl": "https://i.guim.co.uk/img/media/e50b5a6eff849b3a981e6a6c376ecefbca08a976/500_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f4acba38288ad7109ac442b5fa4124e4",
+      "lang": "en"
+    },
+    {
+      "id": "tech-inside-the-7-000-asus-proart-p16-and-its-local-a",
+      "topic": "tech",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "explainer",
+      "tags": [
+        "local-ai",
+        "nvidia",
+        "laptop",
+        "hardware"
+      ],
+      "title": "Inside the $7,000 Asus ProArt P16 and its local AI hardware",
+      "snippet": "Packing Nvidia's new RTX Spark chip and up to 128GB of unified memory, this high-end laptop lets you run massive 100-plus billion parameter AI models locally without touching the cloud.",
+      "body": [
+        "Buying a new computer usually means wading through plenty of AI marketing hype, but Nvidia's new RTX Spark chip brings genuinely improved local capabilities. Asus has adopted the chip in its latest ProArt lineup, offering staggering amounts of memory designed to run local AI models.",
+        "Priced at up to $7,000 for the top-end configuration, the ProArt P16 features a 20-core Grace CPU and a Blackwell GPU boasting 6,144 cores. Combined with 128GB of LPDDR5x unified memory, it essentially functions as a portable workstation capable of loading massive language models right on your machine.",
+        "Beyond its AI chops, it performs as a solid laptop. It features an impressive 16-inch 4K OLED display with 1,600 nits of peak brightness, a generous array of ports including three USB4 connections, and a responsive haptic trackpad."
+      ],
+      "more": [
+        "The heart of the machine is the Spark N1X processor, which splits its 20 cores between 10 high-performance Arm Cortex-X925 cores and 10 power-efficient Arm Cortex-A725 cores. Graphics and AI compute are handled by the GB20B Blackwell GPU, delivering up to 31 TFLOPS of FP32 graphical performance and roughly 1,000 TOPS of FP4 AI compute.",
+        "Unlike previous ProArt models with dedicated graphics memory, the system uses dynamic allocation. While Windows sees the machine as having 64GB of system RAM and 64GB of video memory, the shared 128GB pool is adjusted dynamically depending on your active tasks. Due to Windows overhead, your AI workloads are capped at about 110GB, which still vastly surpasses what traditional consumer-level GPUs can handle.",
+        "Running local AI on Windows lowers the barrier to entry significantly, allowing users to load models with over 100 billion parameters while leaving enough headroom for background tasks. This setup means you can execute complex AI agents locally without burning through expensive API tokens or routing sensitive data to remote cloud servers.",
+        "As a daily driver, the laptop holds its own. The aluminum chassis is solid, though the matte black finish acts as a magnet for fingerprints and smudges. Battery life varies wildly depending on your workload; casual video viewing can stretch for hours, but heavy local AI processing will drain the 99.9WHrs battery much faster. A beefy 140W USB-C charger comes in the box to get you back up to speed quickly.",
+        "While the price tag puts it firmly in the realm of professional specialists and enthusiasts, the ProArt P16 offers a compelling glimpse into a future where heavy-duty AI computing happens entirely on the device sitting in your lap."
+      ],
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
+      },
+      "wiki": "ASUS",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
+      "lang": "en"
+    },
+    {
+      "id": "design-luke-mcconkey-on-spreading-joy-through-illustrat",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "story",
+      "tags": [
+        "illustration",
+        "graphic-design",
+        "freelance"
+      ],
+      "title": "Luke McConkey on spreading joy through illustration",
+      "snippet": "From corporate IT to a joyful illustration career, Luke McConkey shares how staying positive landed him projects with Uniqlo.",
+      "body": [
+        "In a digital landscape often driven by cynicism, illustrator Luke McConkey offers a colorful antidote. After spending six years as a lead logo and identity designer at an agency, he took the leap into freelancing in 2017 before pivoting to full-time illustration during the pandemic.",
+        "His vibrant work is intentionally designed to spread optimism. Believing that smiles are infectious, Luke leans into silly, goofy, and unpretentious characters that never fail to put viewers in a good mood."
+      ],
+      "more": [
+        "Luke's artistic journey began with an early childhood obsession with How to Draw Comics the Marvel Way, though his passion was temporarily sidelined by music and gaming. After building up his portfolio through a course with InkyGoodness, he landed representation with Handsome Frank in 2022.",
+        "Maintaining a positive outlook has proven to be a vital professional asset. Rather than being a difficult, grumpy creative, Luke emphasizes the importance of being enjoyable to collaborate with. This reputation helped him team up with Uniqlo and Humans of Liverpool to celebrate the launch of a new store in Liverpool.",
+        "Reflecting on the realities of the freelance grind, Luke encourages creatives to keep pitching, share passion projects, and embrace the collaborative nature of client feedback. After all, making things together with other humans, he notes, is one of life's greatest magics."
+      ],
+      "source": {
+        "id": "creative-boom",
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/insight/luke-mcconkey-on-spreading-a-pandemic-of-joy-and-working-with-uniqlo/"
+      },
+      "wiki": "Illustration",
+      "imageUrl": "https://media.creativeboom.com/86b4cd96-05f8-455f-a025-c0bdf80efa90/conversions/3b9a58136f622b9db1c78f8adad111e25e055e74-medium.webp",
+      "lang": "en"
+    },
+    {
+      "id": "design-casey-roarty-s-minimal-design-with-maximum-perso",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "story",
+      "tags": [
+        "graphic-design",
+        "branding",
+        "typography",
+        "illustration"
+      ],
+      "title": "Casey Roarty's minimal design with maximum personality",
+      "snippet": "How the Oxfordshire designer brings a childlike playfulness and measured messiness to Chicken Shop Date and indie brand identities.",
+      "body": [
+        "Oxfordshire-based creative director and designer Casey Roarty loves clean, minimal design, yet his work never skimps on personality. By combining considerate typography and composition with hand-drawn lettering and textures, Casey bridges the gap between art and design.",
+        "His distinct touch is visible in the tenth-anniversary brand refresh and final series poster for the interview web series Chicken Shop Date, featuring chippy-inspired yellow typography and Morley's-style reds. He has also shaped identities for London staples like Nola Peckham."
+      ],
+      "more": [
+        "Drawing inspiration from Brian Roettinger, Ed Ruscha, and Michael Cina, Casey sits comfortably in a space where design meets raw artistic expression. His portfolio includes striking album art for the pop duo Oh Wonder and Josephine Vander West's side project, That Woman, which leans into a charmingly messy aesthetic with chalk-like and spray-paint marks.",
+        "Working across digital and physical mediums, Casey adopts what he calls a \"childlike approach to creativity.\" For the Peckham-based coffee shop Nola Peckham, he captured the cafe's clean beige interior and architecture by utilizing unified materials like custom cards and tote bags, paired with photography by Zhou Ning.",
+        "His ability to balance minimal restraint with expressive, hand-crafted details makes his branding feel both familiar and deeply inviting, proving that minimalist design doesn't have to be sterile."
+      ],
+      "source": {
+        "id": "its-nice-that",
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/articles/casey-roarty-graphic-design-discover-231126"
+      },
+      "wiki": "Graphic_design",
+      "imageUrl": "https://m.itsnicethat.com/original_images/casey-roarty-graphic-design-itsnicethat-5.jpg?class=w1440",
+      "lang": "en"
+    },
+    {
+      "id": "design-how-to-design-sub-brands-without-falling-into-th",
+      "topic": "design",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "explainer",
+      "tags": [
+        "branding",
+        "brand-architecture",
+        "design-systems"
+      ],
+      "title": "How to design sub-brands without falling into the sameness trap",
+      "snippet": "When HOW+HOW tackled Pets at Home's sprawling brand ecosystem, they had to solve the biggest challenge in brand architecture.",
+      "body": [
+        "Designing a single sub-brand is difficult, but revamping three at once for a massive retail and service network takes the challenge to another level. Agency HOW+HOW tackled Pets at Home's ecosystem by creating a flexible brand family rather than just repeating a masterbrand.",
+        "The project spanned Pets Insurance, Pets Foundation, and the kids' club Pet Pals. The primary hurdle was avoiding consistency becoming sameness, ensuring each sub-brand stood on its own while leading back to the same core DNA."
+      ],
+      "more": [
+        "To achieve this, founder Cath How and her team focused on real-life customer journeys rather than internal business structures. Pet owners move fluidly between buying products, booking vet appointments, and arranging insurance, so the visual ecosystem needed to reflect those actual pathways.",
+        "Each sub-brand received a distinct personality tailored to its audience. Pets Insurance required a bold, empathetic tone for difficult customer moments. Meanwhile, Pet Pals transformed into an illustrated universe populated by TV-ready animal characters, and Pets Foundation utilized dynamic motion graphics known as \"zoomies.\"",
+        "Ultimately, the redesign offers a masterclass in brand architecture, proving that successful systems rely on shared principles and connective cues rather than identical, repetitive outputs."
+      ],
+      "source": {
+        "id": "creative-bloq",
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com/news/how-pets-at-homes-vibrant-new-family-solves-the-biggest-challenge-of-designing-sub-brands"
+      },
+      "wiki": "Brand_architecture",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/HHNQGxwS8suUeRhqkUs5Me-1920-80.jpg",
+      "lang": "en"
+    }
+  ]
+}

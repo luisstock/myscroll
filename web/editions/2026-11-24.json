@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-24",
+  "number": 26,
+  "longread": {
+    "id": "bike-500-miles-on-a-32-inch-gravel-bike-where-big-whe",
+    "topic": "bike",
+    "kind": "longread",
+    "published": "2026-11-24",
+    "style": "story",
+    "tags": [
+      "gravel-biking",
+      "cycling-tech",
+      "titanium-bikes",
+      "mosaic-cycles",
+      "bike-frame-design"
+    ],
+    "title": "500 Miles on a 32-Inch Gravel Bike: Where Big Wheels Win and Where 700c Rules",
+    "snippet": "Mosaic took a huge gamble by building a bespoke titanium gravel bike around massive 32-inch wheels. After testing it across hundreds of miles of pavement, punchy races, and singletrack, the verdict is in.",
+    "body": [
+      "For years, 700c has stood as the undisputed standard for gravel racing, but rumors had been quietly swirling across the industry. Ever since the build-up to the Sea Otter trade show, it became clear that 32-inch gravel bikes were on the horizon. Nobody knew precisely what they would look like or how they would handle, but by the end of the year, purpose-built frames finally hit the dirt. Velo put Mosaic’s flagship entry, the GT i55 32, through a full long-term test to see if larger wheels could genuinely challenge the status quo.",
+      "The test bike wasn't spared. Since receiving the GT-1 i55 32 in early October, testers threw everything at it over hundreds of miles. They took it on long, mostly paved rides on the East Coast, short punchy gravel races in the Midwest, and twisty gravel trail rides in the Southwest. The goal was simple: determine whether a 32-inch wheel size is actually viable across the full spectrum of modern gravel challenges, or if it is just a passing novelty.",
+      "Before Mosaic launched this bike, early 32-inch prototypes faced a major geometry hurdle. Frame builders were forced to use existing 29-inch mountain bike forks, which possessed very large axle-to-crown measurements. This resulted in awkwardly tall front ends, slack head tube angles, and handling that felt sluggish compared to standard race bikes. To make a true performance gravel bike around 32-inch wheels, the front end needed to be fundamentally redesigned from scratch.",
+      "The breakthrough arrived via Mosaic’s sister brand, Zero Components, which developed a custom carbon fork built specifically for the frame. By engineering a remarkably low 445mm axle-to-crown height, the Zero Components fork transformed the bike's front-end calculus. It unlocked frame geometry that much more closely resembles a traditional 700c setup, allowing the bike to achieve an aggressive, nimble front end with natural and responsive steering rather than feeling like a converted monster truck.",
+      "Behind that carbon fork sits a hand-built Colorado titanium frame made from double-butted 3A/2.5V titanium tubing. Fitting a massive 32-inch wheel alongside wide 55mm tires required clever structural solutions. Mosaic incorporated a custom 3D-printed titanium yoke to clear both the tires and up to a 46-tooth chainring, paired with wider axle standards—110x15mm up front and 148x12mm boost spacing in the rear—to handle the structural leverage of larger wheels. Kinked seat tubes and 440–450mm chainstays kept the rear triangle remarkably tight.",
+      "In terms of fit, the 56cm test model mirrored the feel of traditional progressive gravel bikes surprisingly well. With a 70.5-degree head tube angle, 60mm fork offset, 408mm reach, and a low 95mm bottom bracket drop, the riding position felt completely natural. In fact, comparing the tested 56cm Mosaic to a standard 56cm Specialized Crux, the fit parameters were virtually identical, requiring only a shorter 90mm stem and wider handlebars to match the cockpit reach.",
+      "Out on the trail, the physical differences between wheel sizes immediately made themselves felt. The 32-inch wheels delivered vastly superior traction regardless of tire tread, staying hooked up across loose gravel and rough trails. The weight distribution felt impeccably balanced, making handling predictable and confident. However, that traction and stability comes at a cost: weight. At 21.6 pounds (9.79 kg) without pedals for the $14,700 GT-1 build featuring Duke Sierra 42 wheels, the bike feels noticeably heavy compared to high-end 700c race bikes, especially on paved roads.",
+      "The frame also revealed clear compromises geared strictly toward racing over bikepacking. The tight main triangle and shallow effective seat tube angle mean bottle space is tight, and there are only two bottle cage mounts on the entire frame. There are no mounts for frame bags, fenders, or racks. For smaller frame sizes, geometry gets tricky: the 50cm size ends up with a steep 88mm trail figure, pushing the absolute boundaries of traditional gravel ride feel.",
+      "Ultimately, Mosaic's experiment proves that 32-inch wheels are emphatically better when rolling over unpaved gravel, even if 700c wheels retain their crown on flat, smooth pavement. While currently offered through Mosaic’s high-end Made to Order program, the design will eventually roll into their Batch Built program with standard sizes and more accessible pricing. It may not replace 700c overnight, but 32-inch gravel bikes have officially arrived, and they are more than ready for prime time."
+    ],
+    "source": {
+      "id": "velo-gravel",
+      "name": "Velo · Gravel",
+      "url": "https://velo.outsideonline.com/gravel/gravel-gear/mosaic-gt-i55-32-review/"
+    },
+    "wiki": "Gravel_bicycle",
+    "lang": "en",
+    "image": {
+      "src": "editions/2026-11-24/bike-500-miles-on-a-32-inch-gravel-bike-where-big-whe.jpg",
+      "credit": "velo.outsideonline.com"
+    },
+    "minutes": 3,
+    "added": "2026-11-24"
+  },
+  "items": [
+    {
+      "id": "motion-x-ray-for-after-effects-turns-working-ui-overlay",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "evergreen",
+      "published": "2026-09-30",
+      "style": "video",
+      "tags": [
+        "after-effects",
+        "plugins",
+        "behind-the-scenes",
+        "motion-graphics"
+      ],
+      "title": "X-Ray for After Effects turns working UI overlays into clean renders",
+      "snippet": "PluginPlay and Motion by Nick teamed up to build X-Ray, an After Effects plugin designed specifically for generating polished behind-the-scenes renders.",
+      "body": [
+        "Creating behind-the-scenes process videos usually requires setting up external screen recording software to capture viewport handles, keyframes, and motion paths. PluginPlay and Nick Greenawalt of Motion by Nick have launched X-Ray to streamline that process.",
+        "X-Ray converts native After Effects workspace overlays directly into customizable rendered effects, allowing artists to export clean project breakdowns without leaving the main render queue."
+      ],
+      "more": [
+        "In motion design social media circles, process breakdowns showing complex wireframes and motion handles often perform as well as finished pieces. However, raw screen captures can look cluttered or suffer from frame rate drops and mismatched screen resolutions.",
+        "X-Ray solves this by hooking into After Effects' native overlay system and treating paths, anchor points, and selection boxes as procedural vector elements. Users can tweak line weights, stroke colors, and visual styles to match their brand branding prior to export.",
+        "During a walkthrough hosted by Jake In Motion alongside the developers, the team demonstrated how the plugin integrates directly into existing comp pipelines, making keyframe visualizers a one-click render option rather than a separate post-production task."
+      ],
+      "source": {
+        "id": "jake-in-motion-yt",
+        "name": "Jake In Motion (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dkZ0Vza9KZg"
+      },
+      "video": {
+        "provider": "youtube",
+        "id": "dkZ0Vza9KZg",
+        "title": "X-Ray Plugin Talk with Motion by Nick & PluginPlay"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-24/motion-x-ray-for-after-effects-turns-working-ui-overlay.jpg",
+        "credit": "YouTube"
+      },
+      "minutes": 1,
+      "added": "2026-11-24"
+    },
+    {
+      "id": "motion-what-s-new-in-after-effects-2027-native-ai-and-3",
+      "topic": "motion",
+      "sub": "tools",
+      "kind": "news",
+      "published": "2026-11-23",
+      "style": "video",
+      "tags": [
+        "after-effects",
+        "adobe",
+        "motion-design",
+        "ai-tools"
+      ],
+      "title": "What's new in After Effects 2027: Native AI and 3D workflow tweaks",
+      "snippet": "Jake In Motion breaks down the latest features added to After Effects, from an integrated AI Assistant to upgraded 3D material support.",
+      "body": [
+        "Jake In Motion takes a close look at the 2027 release of After Effects, testing out Adobe's native AI Assistant right inside the application workspace. The video puts the assistant through its paces using simple prompts to generate dynamic compositions, testing how capable it really is for real-world motion design work.",
+        "Beyond the headline AI integration, the release includes practical workflow updates for daily production. Highlights include preserving live text layers imported from Illustrator, extended material support for native 3D text and shapes, improved PNG compression options, and a new Contour Paint effect."
+      ],
+      "more": [
+        "The standout feature of the 2027 update is Atom AI Assistant, an integrated tool designed to assist with repetitive composition setup and asset generation. In the breakdown, Jake demonstrates how the AI handles a multi-layered 10-day forecast layout, evaluating whether procedural prompts can accurately structure complex timeline hierarchies without manual rigging.",
+        "For 3D artists operating inside After Effects, the update enhances the native 3D engine introduced in recent versions. Users can now assign external composition layers as custom material sources directly onto 3D text and shape geometry, unlocking procedural texturing without needing external 3D software.",
+        "Vector workflows also get a long-awaited quality-of-life fix: vector text layers brought over from Adobe Illustrator can now retain their live text properties instead of requiring immediate conversion to shape layers or pre-compositions.",
+        "Other smaller additions scattered across the release include an integrated Adobe Stock panel, a dedicated De-esser audio effect, faster auto-save routines, and quick apply history to speed up tool selection."
+      ],
+      "source": {
+        "id": "jake-in-motion-yt",
+        "name": "Jake In Motion (YouTube)",
+        "url": "https://www.youtube.com/watch?v=RcNUE6lg3fE"
+      },
+      "video": {
+        "provider": "youtube",
+        "id": "RcNUE6lg3fE",
+        "title": "All the After Effects 2027 updates you should know about"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-24/motion-what-s-new-in-after-effects-2027-native-ai-and-3.jpg",
+        "credit": "YouTube"
+      },
+      "minutes": 1,
+      "added": "2026-11-24"
+    },
+    {
+      "id": "motion-animating-a-retro-horror-title-card-under-a-90-m",
+      "topic": "motion",
+      "sub": "techniques",
+      "kind": "evergreen",
+      "published": "2026-10-28",
+      "style": "video",
+      "tags": [
+        "after-effects",
+        "photoshop",
+        "vhs-effects",
+        "animation-technique"
+      ],
+      "title": "Animating a retro horror title card under a 90-minute deadline",
+      "snippet": "Ben Marriott takes on a timed motion challenge, building a dirty retro VHS title reveal in After Effects and Photoshop.",
+      "body": [
+        "Motion designer Ben Marriott takes on a 90-minute design challenge, animating a horror movie title sequence starting from a box of mystery assets provided by fellow designer William Hynes.",
+        "Working against the clock, Marriott combines Photoshop lettering and texture manipulation with After Effects timeline techniques to create an atmospheric, analog-style title reveal."
+      ],
+      "more": [
+        "The challenge begins with a random selection of graphic assets. Within the first few minutes, Marriott establishes a visual direction, deciding on movie titles, taglines, and overall color palette before jumping into asset creation.",
+        "In Photoshop, custom lettering is prepared with dirty edges and distress textures to fit the horror genre aesthetic. Once imported into After Effects, the typography is animated using keyframed scale, opacity, and custom displacement maps to build tension.",
+        "To achieve an authentic 1980s aesthetic, the final composition relies on NTSCplayer, an open-source tool designed to simulate true CRT and analog video signal degradation rather than relying solely on standard digital noise filters.",
+        "The project wraps up with rapid sound design and a surprise last-minute asset addition, demonstrating how constraint-based exercises can sharpen decision-making for time-sensitive commercial work."
+      ],
+      "source": {
+        "id": "ben-marriott-yt",
+        "name": "Ben Marriott (YouTube)",
+        "url": "https://www.youtube.com/watch?v=di2GphLnPI8"
+      },
+      "video": {
+        "provider": "youtube",
+        "id": "di2GphLnPI8",
+        "title": "Most Brutal Motion Design Challenge"
+      },
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-24/motion-animating-a-retro-horror-title-card-under-a-90-m.jpg",
+        "credit": "YouTube"
+      },
+      "minutes": 1,
+      "added": "2026-11-24"
+    }
+  ]
+}

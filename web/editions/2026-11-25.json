@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-25",
+  "number": 27,
+  "items": [
+    {
+      "id": "fun-the-2026-nature-photographer-of-the-year-winners",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-25",
+      "style": "list",
+      "tags": [
+        "wildlife-photography",
+        "nature",
+        "awards"
+      ],
+      "title": "The 2026 Nature Photographer of the Year Winners Are Unbelievable",
+      "snippet": "From a polar bear seen from a seal's underwater perspective to a spider turned zombie by a fungus, these winning photos capture wild Earth at its stranger moments.",
+      "body": [
+        "The Nature Photographer of the Year (NPOTY) contest has revealed its 2026 winners, celebrating extraordinary moments in natural history and wildlife conservation.",
+        "The photos span remote polar ice floes to damp cellars, showing how photographers spend years setting up hyper-specific shots or stumbling across uncanny animal behaviors in swamp forests."
+      ],
+      "more": [
+        "One standout image by Audun Rikardsen took three years of planning: a view of a polar bear peering down into an ice breathing hole, shot from the exact perspective of a seal underwater.",
+        "Rikardsen rigged a camera 1.5 meters under the ice near Svalbard at 83 degrees north and waited eight hours until a bear finally trotted over, popped its face through the ice, and sniffed right into the lens.",
+        "Another striking photo features a 'zombie fungus' (Engyodontium aranearum) engulfing a cellar spider in a pale web-like coating, while an underwater shot captures a male California pond turtle courting under suspended egg masses.",
+        "The winning photographs will tour through exhibitions across the Netherlands, Belgium, and France, while supporting ongoing nature conservation initiatives."
+      ],
+      "source": {
+        "id": "bored-panda",
+        "name": "Bored Panda",
+        "url": "https://www.boredpanda.com/2026-winners-wildlife-photos-npoty/"
+      },
+      "wiki": "Nature_photography",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/fun-the-2026-nature-photographer-of-the-year-winners.jpg",
+        "credit": "www.boredpanda.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "fun-why-memes-refuse-to-die-and-how-richard-dawkins",
+      "topic": "fun",
+      "kind": "news",
+      "published": "2026-11-25",
+      "style": "explainer",
+      "tags": [
+        "internet-culture",
+        "memes",
+        "psychology"
+      ],
+      "title": "Why Memes Refuse to Die (and How Richard Dawkins Accidental Idea Explains It)",
+      "snippet": "The word meme started as evolutionary biology in 1976—decades before confused dogs and peanut butter photos took over our group chats.",
+      "body": [
+        "Long before reaction images flooded social media, evolutionary biologist Richard Dawkins coined the word 'meme' in his 1976 book *The Selfish Gene* to describe how ideas, tunes, and habits jump between human minds like genes replicating in a gene pool.",
+        "The internet adopted the word in the mid-1990s, and Dawkins gave the shift his full blessing, noting that digital memes operate on the exact same viral logic."
+      ],
+      "more": [
+        "Researchers point out several reasons internet memes remain so resilient. First, the barrier to entry is essentially zero: anyone can take an established image macro, swap out the text, and share it worldwide instantly.",
+        "Second is the psychological power of shared recognition. According to media scholars, using or understanding a meme acts like a digital secret handshake. It signals that you belong to an online subgroup without needing a long explanation.",
+        "Finally, studies show that memes provided a genuine emotional lift during periods of stress, such as the pandemic. Even silly animal pictures or relatable workplace jokes help people feel connected and capable of coping with daily annoyance."
+      ],
+      "source": {
+        "id": "bored-panda",
+        "name": "Bored Panda",
+        "url": "https://www.boredpanda.com/strange-funny-memes/"
+      },
+      "wiki": "Meme",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/fun-why-memes-refuse-to-die-and-how-richard-dawkins.jpg",
+        "credit": "www.boredpanda.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "motion-inside-bot-vfx-s-hybrid-ai-visual-effects-workfl",
+      "topic": "motion",
+      "sub": "techniques",
+      "kind": "news",
+      "published": "2026-11-24",
+      "style": "explainer",
+      "tags": [
+        "vfx-pipeline",
+        "generative-ai",
+        "nuke",
+        "autodesk-maya"
+      ],
+      "title": "Inside BOT VFX’s hybrid AI visual effects workflow for Young Washington",
+      "snippet": "The studio integrated generative AI models like FLUX.2 Klein and Wan directly into their standard Maya and Nuke pipelines.",
+      "body": [
+        "Visual effects studio BOT VFX has implemented a hybrid AI workflow for their work on the historical drama Young Washington.",
+        "Rather than relying strictly on standard tools or purely AI-generated imagery, the team combined AI models directly with their established Maya and Nuke pipelines."
+      ],
+      "more": [
+        "To achieve the required look for Young Washington, BOT VFX brought generative AI models such as FLUX.2 Klein and Wan into their standard shot production process.",
+        "By blending these models into a traditional pipeline featuring Autodesk Maya for 3D work and Foundry Nuke for compositing, the team bridged emerging generative tools with standard studio techniques.",
+        "This approach highlights a practical middle ground for visual effects studios seeking to integrate modern generative AI assets while maintaining the precise control offered by traditional VFX applications."
+      ],
+      "source": {
+        "id": "cgchannel",
+        "name": "CG Channel",
+        "url": "https://www.cgchannel.com/2026/11/discover-bot-vfxs-hybrid-ai-vfx-pipeline-for-young-washington/"
+      },
+      "wiki": "Visual_effects",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/motion-inside-bot-vfx-s-hybrid-ai-visual-effects-workfl.jpg",
+        "credit": "File:L'hommealatêtet.jpg"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "motion-starburns-industries-joins-world-war-seven-direc",
+      "topic": "motion",
+      "sub": "industry",
+      "kind": "news",
+      "published": "2026-11-24",
+      "style": "news",
+      "tags": [
+        "stop-motion",
+        "animation-studio",
+        "starburns-industries",
+        "commercials"
+      ],
+      "title": "Starburns Industries joins World War Seven director roster",
+      "snippet": "The stop-motion studio behind Anomalisa and Severance formalizes its partnership with World War Seven following a recent holiday campaign.",
+      "body": [
+        "World War Seven has officially added animation studio Starburns Industries to its commercial director roster as a partner for stop-motion and animation projects.",
+        ", The two companies recently collaborated on Chewy’s holiday commercial campaign, titled A Holiday Dream. This roster addition makes that working partnership official moving forward."
+      ],
+      "more": [
+        "Starburns Industries has established a reputation for distinct stop-motion craftsmanship across feature film and television.",
+        "Their work includes the Oscar-nominated stop-motion feature film Anomalisa, as well as creating the specialized stop-motion sequence featured in Apple TV’s series Severance.",
+        "The studio's animation production operations are led by co-founder James Fino, VP of Development Chris Callison, and Head of Production Alyssa Choate Rusche.",
+        "By officially partnering with World War Seven, the studio strengthens its commercial production footprint, expanding choices for stop-motion and specialty animation projects."
+      ],
+      "source": {
+        "id": "motionographer",
+        "name": "Motionographer",
+        "url": "https://motionographer.com/news/world-war-seven-adds-starburns-industries-to-its-director-roster/"
+      },
+      "wiki": "Starburns_Industries",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/motion-starburns-industries-joins-world-war-seven-direc.png",
+        "credit": "motionographer.com"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "news-ukraine-strikes-russian-airfield-eastern-target",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-25",
+      "style": "news",
+      "tags": [
+        "ukraine",
+        "russia",
+        "air-strike",
+        "military"
+      ],
+      "title": "Ukraine Strikes Russian Airfield Eastern Target Hit",
+      "snippet": "Ukrainian forces report damaging five Russian military aircraft in a long-range strike on the Savasleyka airfield, 300km east of Moscow.",
+      "body": [
+        "Ukrainian forces targeted Russia's Savasleyka airfield, located approximately 300 kilometers east of Moscow in the Nizhny Novgorod region. Kyiv's General Staff reported that the strike damaged five military aircraft, specifically three MiG-31s and two Su-34s, though the full extent of the damage is still being evaluated.",
+        "The Savasleyka base is strategically significant as it hosts aircraft used to launch hypersonic Kinzhal missiles and glide bombs across Ukraine. Additionally, Kyiv conducted overnight drone strikes hitting two oil refineries in Russia's Samara region, around 800 kilometers from the front line, as part of a campaign targeting fuel and logistical supply lines."
+      ],
+      "more": [
+        "The take-off of MiG-31 jets from bases like Savasleyka frequently triggers nationwide air raid alerts in Ukraine because Kinzhal missiles are notoriously difficult to intercept and capable of inflicting severe damage on major infrastructure.",
+        "Beyond the airfield attack, the strikes in the Samara region involved over 145 Ukrainian drones according to local governor Vyacheslav Fedorishchev. Ukrainian defense officials noted that neutralizing fuel depots and logistics points directly impairs the movement and artillery capabilities of frontline Russian units.",
+        "Russian President Vladimir Putin responded by calling for tighter security around energy infrastructure, while maintaining that domestic fuel markets have remained stable and promising retaliatory measures against Kyiv.",
+        "Meanwhile, Russian strikes on Ukrainian energy infrastructure continue daily, causing power outages across multiple regions and further straining civilian resources heading into the winter months."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Russo-Ukrainian_War",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/news-ukraine-strikes-russian-airfield-eastern-target.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "news-kilmar-abrego-garcia-relocates-to-spain-after-u",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-25",
+      "style": "news",
+      "tags": [
+        "us-immigration",
+        "el-salvador",
+        "spain",
+        "court-ruling"
+      ],
+      "title": "Kilmar Ábrego García Relocates to Spain After U.S. Legal Battle",
+      "snippet": "After a high-profile legal dispute over wrongful deportation to El Salvador, Kilmar Ábrego García has departed the U.S. for Spain.",
+      "body": [
+        "Kilmar Ábrego García, a Salvadoran man who became a central figure in legal challenges surrounding U.S. deportation policies, has voluntarily flown to Spain. The move temporarily concludes a long dispute that began when federal authorities mistakenly deported him to El Salvador despite a prior court order protecting him.",
+        "After the U.S. Supreme Court ordered his return from El Salvador's Cecot prison, federal prosecutors brought human trafficking charges against him, which were subsequently dismissed by a judge as politically motivated. Subsequent attempts by the government to send him to third countries like Liberia or Uganda were blocked by federal courts."
+      ],
+      "more": [
+        "Ábrego García had originally lived in Maryland with his wife, a U.S. citizen. In 2019, an immigration judge granted him protection from deportation to El Salvador due to a clear risk of violence from criminal gangs.",
+        "His wrongful removal to El Salvador in early 2025 drew national scrutiny and intervention from U.S. lawmakers. Maryland Senator Chris Van Hollen visited him during his detention abroad to advocate for his release and eventual return.",
+        "His legal team stated that his relocation to Spain is intended as a temporary measure while they await future legal avenues to reunite him with his family in Maryland under a different presidential administration.",
+        "While the U.S. Department of Homeland Security welcomed his departure, federal court rulings had previously limited the executive branch's ability to forcibly relocate individuals to third-party nations without strict due process protections."
+      ],
+      "source": {
+        "id": "bbc-world",
+        "name": "BBC News · World",
+        "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
+      },
+      "wiki": "Deportation",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/news-kilmar-abrego-garcia-relocates-to-spain-after-u.jpg",
+        "credit": "www.bbc.co.uk"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "news-how-thanksgiving-evolved-into-a-national-holiday",
+      "topic": "news",
+      "sub": "world",
+      "kind": "news",
+      "published": "2026-11-25",
+      "style": "news",
+      "tags": [
+        "liberia",
+        "thanksgiving",
+        "culture",
+        "history"
+      ],
+      "title": "How Thanksgiving Evolved into a National Holiday in Liberia",
+      "snippet": "Rooted in 19th-century history, Liberia marks its own Thanksgiving every November with distinct local traditions, food, and community gatherings.",
+      "body": [
+        "Every year on the first Thursday of November, communities across Liberia celebrate their own national Thanksgiving. The holiday traces back to the early 19th century, when freed and emancipated Black Americans settled in the region under the auspices of the American Colonization Society, bringing the custom with them.",
+        "The observance was officially codified into Liberian law in 1883 by President Alfred Francis Russell following a period of territorial disputes, shifting the focus of the day toward national sovereignty, unity, and shared gratitude."
+      ],
+      "more": [
+        "Unlike the American holiday, Liberian Thanksgiving is marked across diverse religious groups. Morning services in churches and prayers in mosques lead into outdoor family feasts and public celebrations.",
+        "The festive meal relies heavily on local staples rather than traditional American items. Instead of turkey, families prepare chicken alongside jollof rice, tropical fruits, and specialized stews made from cassava leaves, sweet potato leaves, or garden snails.",
+        "For residents, the day serves as a moment to reflect on national stability and personal resilience, particularly following the years of civil conflict that affected the nation between 1989 and 2003.",
+        "Today, community organizations and cultural advocates view the holiday as an opportunity to reinforce social cohesion and promote educational initiatives across the country."
+      ],
+      "source": {
+        "id": "npr-world",
+        "name": "NPR · World",
+        "url": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer"
+      },
+      "wiki": "Liberian_Thanksgiving",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/news-how-thanksgiving-evolved-into-a-national-holiday.jpg",
+        "credit": "www.npr.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "books-why-buying-new-things-steals-our-long-term-happi",
+      "topic": "books",
+      "sub": "mind",
+      "kind": "evergreen",
+      "published": "2026-11-25",
+      "style": "book",
+      "tags": [
+        "psychology",
+        "habits",
+        "consumerism",
+        "mindfulness"
+      ],
+      "title": "Why buying new things steals our long-term happiness—and how to stop",
+      "snippet": "Our brains are hardwired to chase novelty, but the initial dopamine high of buying something new never lasts. By building friction into our purchasing habits, we can rediscover untapped joy in what we already own.",
+      "body": [
+        "Human evolution programmed us to seek novelty. Ancient ancestors survived by exploring new territory and food sources, which explains why trying a new app, unboxing a gadget, or buying clothes delivers a hit of dopamine. However, modern retail environments actively exploit this hardwiring by using artificial urgency tactics—like checkout countdown timers and frictionless one-click purchases—to whip up shopping anxiety.",
+        "Author Eric Athas argues that constantly chasing novelty undermines gratitude and steals long-term happiness. Because the high of a new purchase inevitably fades, we get trapped in an endless cycle of buying. To break free, we don't need to reject every new item, but rather cultivate intentionality and intentionally re-engage with the possessions and experiences we already have."
+      ],
+      "source": {
+        "id": "npr-books",
+        "name": "NPR · Books",
+        "url": "https://www.npr.org/2026/11/25/nx-s1-6052361/buying-new-things-feels-wonderful-can-be-trap-break-the-cycle"
+      },
+      "wiki": "Dopamine",
+      "lang": "en",
+      "book": {
+        "title": "Saying No to New: Why New Things Are Stealing Your Time, Money, and Happiness — and How to Take Back Your Life",
+        "author": "Eric Athas",
+        "lessons": [
+          {
+            "title": "Widen the new-thing gap",
+            "text": "Put intentional friction between the moment you spot a desirable object and the moment you buy it. Deleting shopping apps, removing saved credit card information, or leaving items in a digital cart for 24 hours causes novelty-driven urgency to drop naturally."
+          },
+          {
+            "title": "Our brains misjudge repeated experiences",
+            "text": "We tend to assume that repeating an experience or re-examining an old item will yield less joy than the first time. Research demonstrates the opposite: revisiting familiar exhibits, books, or locations frequently uncovers overlooked details and provides just as much satisfaction."
+          },
+          {
+            "title": "Recognize environmental cues",
+            "text": "Retail platforms are engineered to make you feel like you are missing out. By becoming aware of subtle pressure mechanics, such as limited-time discount clocks, you can separate genuine needs from external psychological manipulation."
+          }
+        ],
+        "takeaway": "Leave any non-essential item in your online cart for 24 hours before checking out, giving your brain's dopamine spike time to clear.",
+        "forWho": "Anyone looking to curb impulse spending, break the cycle of constant upgrades, and find more satisfaction in what they already own."
+      },
+      "image": {
+        "src": "editions/2026-11-25/books-why-buying-new-things-steals-our-long-term-happi.jpg",
+        "credit": "www.npr.org"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    },
+    {
+      "id": "ideas-culture-doesn-t-just-shape-how-we-express-mental",
+      "topic": "ideas",
+      "kind": "news",
+      "published": "2026-11-24",
+      "style": "idea",
+      "tags": [
+        "psychology",
+        "culture",
+        "mental-health"
+      ],
+      "title": "Culture doesn't just shape how we express mental illness; it can forge the illness itself.",
+      "snippet": "When Western concepts of anorexia arrived in Hong Kong, the actual symptoms of patients shifted to match them.",
+      "body": [
+        "We usually think of mental disorders as internal biological problems, and culture as merely the lens through which we express them. But philosopher Ian Hacking and various anthropologists suggest culture can penetrate deeper. Consider how anorexia changed in Hong Kong. Before Western psychological frameworks were imported following a tragic death in 1994, local patients starving themselves rarely reported body dysmorphia or a fear of fat; they complained of physical bloating and fatigue. Over time, as Western concepts saturated the media, patients increasingly adopted 'fat phobia' as a central motivation.",
+        "This demonstrates a 'looping effect' where cultural concepts and the lived experience of an illness continuously remake each other. The brain is plastic, wired to adapt to its social world, which means cultural ecosystems can help cultivate local kinds of disorders with distinct psychological profiles."
+      ],
+      "more": [
+        "The idea that culture can shape the very mechanisms of mental disorders challenges rigid biomedical models of psychiatry. In somatic medicine, culture rarely creates a new physiological pathology, but the brain's unique plasticity allows social environments to have direct causal access to mental distress. Anthropologists have long documented 'idioms of distress'—socially learned ways of communicating psychological suffering. For instance, hallucinations and dissociative states are routinely interpreted as spiritual possession in parts of Africa and the Middle East, altering the actual lived experience of those episodes.",
+        "Even depression presents differently across borders. Patients meeting Western criteria for depression in China frequently report somatic symptoms like insomnia, fatigue, and headaches rather than the psychological hallmarks of apathy or low self-esteem standard in Western clinics. When psychiatric conditions present with such divergent psychological and neurological profiles, classification becomes immensely complex.",
+        "Recognizing this cultural penetration is vital for proper treatment. If an illness like depression or anorexia in one cultural context functions as a fundamentally different condition in another, universal diagnostic manuals may miss the mark entirely. Psychiatry must grapple with the reality that our social worlds do not just describe our minds—they help build them."
+      ],
+      "source": {
+        "id": "aeon",
+        "name": "Aeon",
+        "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
+      },
+      "wiki": "Anorexia_nervosa",
+      "lang": "en",
+      "image": {
+        "src": "editions/2026-11-25/ideas-culture-doesn-t-just-shape-how-we-express-mental.jpg",
+        "credit": "aeon.co"
+      },
+      "minutes": 1,
+      "added": "2026-11-25"
+    }
+  ]
+}

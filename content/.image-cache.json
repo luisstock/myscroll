@@ -632,5 +632,17 @@
   },
   "og:https://www.cgchannel.com/2026/11/escape-motions-releases-rebelle-8/": null,
   "v2:en:Code_golf": null,
-  "og:https://bjin.github.io/go-codegolf-benchmark/#leaderboard": null
+  "og:https://bjin.github.io/go-codegolf-benchmark/#leaderboard": null,
+  "v2:en:Computer_graphics": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Blender_4.3.2_screenshot.png/1280px-Blender_4.3.2_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Blender_4.3.2_screenshot.png"
+  },
+  "v2:en:Michael_Nielsen": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Michael_Nielsen_%28cropped%29.jpg/500px-Michael_Nielsen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "credit": "File:Michael_Nielsen_(cropped).jpg"
+  },
+  "og:https://www.nit.pt/comida/restaurantes/um-restaurante-portugues-um-wine-bar-e-omakase-as-novidades-do-ritz-lisboa": {
+    "url": "https://www.nit.pt/wp-content/plugins/madmen-opengraph-image-v2/madmen-opengraph-image.php?post_id=1735156&ts=20261128121125",
+    "credit": "www.nit.pt"
+  }
 }

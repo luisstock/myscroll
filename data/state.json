@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T09:28:35.297Z",
+ "updatedAt": "2026-11-28T09:29:15.405Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -1008,7 +1008,7 @@
   "design-how-a-seance-and-automatic-drawing-shaped-a-psyc": 1,
   "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": 1,
   "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1,
-  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 3,
+  "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 4,
   "science-sixty-five-years-of-mission-control-and-moon-dus": 3,
   "tech-t-mobile-s-parent-company-calculates-the-200-bil": 2,
   "design-why-type-specimens-lie-and-what-true-type-system": 2,
@@ -1044,11 +1044,16 @@
   "bike-building-a-canyon-grizl-for-extreme-category-4-g": 1,
   "tech-apple-hits-record-iphone-sales-despite-skipping": 1,
   "ideas-the-deeper-your-knowledge-the-worse-you-become-a": 1,
-  "design-choosing-a-clown-nose-how-hang-yu-documented-con": 1,
+  "design-choosing-a-clown-nose-how-hang-yu-documented-con": 2,
   "tech-microsoft-s-auto-sr-upscaler-untethers-from-the": 1,
   "books-why-financial-panic-haunts-us-regardless-of-what": 1,
   "f1-ricciardo-can-t-comprehend-red-bull-s-winning-st": 1,
-  "tech-starlink-mini-2-packs-a-hot-swappable-battery-in": 1
+  "tech-starlink-mini-2-packs-a-hot-swappable-battery-in": 1,
+  "bike-500-miles-on-a-32-inch-gravel-bike-where-big-whe": 1,
+  "design-decathlon-caps-ice-cubes-and-the-soft-side-of-ma": 1,
+  "til-how-empress-sisi-became-austria-s-eternal-pop-cu": 1,
+  "til-the-high-stakes-rise-and-rift-behind-russia-s-e": 1,
+  "bike-why-32-inch-gravel-wheels-might-upend-everything": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -5081,6 +5086,55 @@
    "tag:spacex",
    "tag:starlink",
    "tag:satellite-internet"
+  ],
+  "bike-500-miles-on-a-32-inch-gravel-bike-where-big-whe": [
+   "topic:bike",
+   "source:velo-gravel",
+   "style:story",
+   "tag:gravel-biking",
+   "tag:cycling-tech",
+   "tag:titanium-bikes",
+   "tag:mosaic-cycles",
+   "tag:bike-frame-design"
+  ],
+  "design-decathlon-caps-ice-cubes-and-the-soft-side-of-ma": [
+   "topic:design",
+   "source:creative-boom",
+   "style:story",
+   "tag:photography",
+   "tag:visual-art",
+   "tag:culture",
+   "tag:portraiture"
+  ],
+  "til-how-empress-sisi-became-austria-s-eternal-pop-cu": [
+   "topic:til",
+   "sub:til/story",
+   "source:r-askhistorians",
+   "style:story",
+   "tag:empress-sisi",
+   "tag:austrian-history",
+   "tag:pop-culture",
+   "tag:cinema-history"
+  ],
+  "til-the-high-stakes-rise-and-rift-behind-russia-s-e": [
+   "topic:til",
+   "sub:til/story",
+   "source:r-todayilearned",
+   "style:story",
+   "tag:wildberries",
+   "tag:tatyana-kim",
+   "tag:e-commerce",
+   "tag:russia",
+   "tag:business"
+  ],
+  "bike-why-32-inch-gravel-wheels-might-upend-everything": [
+   "topic:bike",
+   "source:velo-gravel",
+   "style:story",
+   "tag:gravel-cycling",
+   "tag:bike-tech",
+   "tag:cycling-geometry",
+   "tag:frame-building"
   ]
  },
  "read": [

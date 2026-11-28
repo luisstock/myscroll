@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T09:29:15.405Z",
+ "updatedAt": "2026-11-28T09:29:43.961Z",
  "device": "app",
  "settings": {
   "theme": "dark",
@@ -925,7 +925,7 @@
   "ai-freefield-ports-higgsfield-s-117-apps-to-comfyui": 1,
   "tech-how-google-s-ai-search-upended-online-publishing": 1,
   "tech-lg-s-brilliant-c6-oled-tv-gets-an-early-black-fr": 1,
-  "design-subverting-retail-discount-stickers-to-expose-th": 3,
+  "design-subverting-retail-discount-stickers-to-expose-th": 4,
   "ideas-your-brain-doesn-t-generate-consciousness-it-mer": 1,
   "ideas-separate-physical-forces-may-just-be-cold-fragme": 1,
   "design-white-case-drops-legal-navy-blue-for-high-voltag": 2,
@@ -1009,7 +1009,7 @@
   "pt-a-crise-da-habitacao-e-o-desafio-de-redesenhar-o": 1,
   "pt-de-condeixa-aos-livros-de-cozinha-marli-silva-re": 1,
   "til-the-grand-duke-s-missing-crown-lithuania-s-quest": 4,
-  "science-sixty-five-years-of-mission-control-and-moon-dus": 3,
+  "science-sixty-five-years-of-mission-control-and-moon-dus": 4,
   "tech-t-mobile-s-parent-company-calculates-the-200-bil": 2,
   "design-why-type-specimens-lie-and-what-true-type-system": 2,
   "ideas-ai-is-an-artificial-mimic-because-machines-do-no": 2,
@@ -1030,8 +1030,8 @@
   "pt-da-contestacao-social-as-decisoes-para-o-orcamen": 2,
   "bike-the-traka-world-series-replaces-gravel-earth-wit": 1,
   "pt-a-resistencia-social-e-os-recuos-inesperados-da": 1,
-  "health-why-health-insurers-don-t-promote-disease-revers": 1,
-  "health-calculating-longevity-costs-in-microlives": 1,
+  "health-why-health-insurers-don-t-promote-disease-revers": 2,
+  "health-calculating-longevity-costs-in-microlives": 2,
   "tech-nothing-is-launching-a-screen-free-ai-device-nex": 1,
   "tech-how-hackers-used-fake-job-interviews-and-an-inte": 1,
   "health-how-to-prioritize-health-interventions-for-the-l": 1,
@@ -1053,7 +1053,12 @@
   "design-decathlon-caps-ice-cubes-and-the-soft-side-of-ma": 1,
   "til-how-empress-sisi-became-austria-s-eternal-pop-cu": 1,
   "til-the-high-stakes-rise-and-rift-behind-russia-s-e": 1,
-  "bike-why-32-inch-gravel-wheels-might-upend-everything": 1
+  "bike-why-32-inch-gravel-wheels-might-upend-everything": 1,
+  "science-the-final-hours-of-a-star-written-in-supernova-d": 1,
+  "motion-x-ray-for-after-effects-turns-working-ui-overlay": 1,
+  "motion-animating-a-retro-horror-title-card-under-a-90-m": 1,
+  "motion-what-s-new-in-after-effects-2027-native-ai-and-3": 1,
+  "motion-a-free-visual-browser-for-after-effects-600-buil": 1
  },
  "itemFeatures": {
   "lr-tongan-castaways-2": [
@@ -5135,6 +5140,56 @@
    "tag:bike-tech",
    "tag:cycling-geometry",
    "tag:frame-building"
+  ],
+  "science-the-final-hours-of-a-star-written-in-supernova-d": [
+   "topic:science",
+   "source:nasa",
+   "style:story",
+   "tag:james-webb-space-telescope",
+   "tag:astronomy",
+   "tag:supernova",
+   "tag:cassiopeia-a",
+   "tag:astrophysics"
+  ],
+  "motion-x-ray-for-after-effects-turns-working-ui-overlay": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:jake-in-motion-yt",
+   "style:video",
+   "tag:after-effects",
+   "tag:plugins",
+   "tag:behind-the-scenes",
+   "tag:motion-graphics"
+  ],
+  "motion-animating-a-retro-horror-title-card-under-a-90-m": [
+   "topic:motion",
+   "sub:motion/techniques",
+   "source:ben-marriott-yt",
+   "style:video",
+   "tag:after-effects",
+   "tag:photoshop",
+   "tag:vhs-effects",
+   "tag:animation-technique"
+  ],
+  "motion-what-s-new-in-after-effects-2027-native-ai-and-3": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:jake-in-motion-yt",
+   "style:video",
+   "tag:after-effects",
+   "tag:adobe",
+   "tag:motion-design",
+   "tag:ai-tools"
+  ],
+  "motion-a-free-visual-browser-for-after-effects-600-buil": [
+   "topic:motion",
+   "sub:motion/tools",
+   "source:jake-in-motion-yt",
+   "style:video",
+   "tag:after-effects",
+   "tag:plugins",
+   "tag:workflow",
+   "tag:animation"
   ]
  },
  "read": [
